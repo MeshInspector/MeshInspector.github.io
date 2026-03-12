@@ -436,42 +436,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="151" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="151" declcolumn="35"/>
       </memberdef>
-      <memberdef kind="function" id="MRMeshIntersect_8h_1afd661fa9083f3a74ab6c33623fbb887e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
-        <definition>MRC_API const MR_MultiMeshIntersectionResult * MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult</definition>
-        <argsstring>(const MR_MeshIntersectionResult *object)</argsstring>
-        <name>MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult</name>
-        <param>
-          <type>const <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::MeshIntersectionResult</computeroutput> to a derived class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="157" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="157" declcolumn="46"/>
-      </memberdef>
-      <memberdef kind="function" id="MRMeshIntersect_8h_1aef56c06df7c3d4983d3286ca4a617e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
-        <definition>MRC_API MR_MultiMeshIntersectionResult * MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult</definition>
-        <argsstring>(MR_MeshIntersectionResult *object)</argsstring>
-        <name>MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult</name>
-        <param>
-          <type><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::MeshIntersectionResult</computeroutput> to a derived class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="162" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="162" declcolumn="40"/>
-      </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0cf32de954773f5464b7943329ab43f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
         <definition>MRC_API MR_MeshIntersectionResult * MR_MeshIntersectionResult_ConstructFromAnother</definition>
@@ -488,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="168" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="168" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="157" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="157" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -506,7 +470,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a4c9c0981c31f739f38d9509d64789c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -524,7 +488,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="174" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="163" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ab98f20b692dc0e4a877089d225526a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -542,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="179" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="168" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ae2d7d574b8a29ca7d2b86ee04f28c15d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -564,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="187" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="187" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="176" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="176" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1a25e239d40f3a097d44dd0365afe3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -606,7 +570,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="205" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="205" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="194" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="194" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a4bcb963b945951f964775d68ca97624f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -648,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="223" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="223" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="212" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="212" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a3db86f175a6a043e3200dac0b8588ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> *const *</type>
@@ -666,7 +630,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="230" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="230" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="219" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="219" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1afb1feba23f45362ce788e3b746f7bff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -688,7 +652,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="237" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="226" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a7aaceb7bd800f2ef7c85f70cca695853" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref> **</type>
@@ -706,7 +670,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="244" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="244" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="233" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aa13731df337eaf6fbbbfe0c7f9235661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *const *</type>
@@ -724,7 +688,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="251" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="251" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="240" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="240" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aa01a706ab6efed2cd5235e9e7efdb1c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -746,7 +710,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="258" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="247" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ab028b6948daed5bd6cd901f62502e76d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> **</type>
@@ -764,7 +728,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="265" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="265" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="254" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="254" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a8a148e24118900457818d8e57b94be8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref> *const *</type>
@@ -782,7 +746,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="272" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="272" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="261" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="261" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aca1acaf390ccf63a4770243dc658de2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -804,7 +768,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="279" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="268" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="268" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a20b3178f66061e173a056e429af48191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref> **</type>
@@ -822,7 +786,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="286" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="286" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="275" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="275" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aa43daf7884b44f770f0e49357ea1f334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref> *const *</type>
@@ -840,7 +804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="293" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="293" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="282" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="282" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1afeaa3437b302dbf604ac5d3b90a5d720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -862,7 +826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="300" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="289" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a8222fa21982b7dd66852c56c467a014a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref> **</type>
@@ -880,7 +844,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="307" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="307" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="296" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="296" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a2271f56bccb36ddd17f1a5428ef75c84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *const *</type>
@@ -898,7 +862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="314" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="314" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="303" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="303" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0d145389fa1622a52437eadee63c6d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -920,7 +884,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="321" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="310" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aa79753fb13985e338080ddb118bfeb89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> **</type>
@@ -937,7 +901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="328" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="328" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="317" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="317" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1c266b926ea47a9e0a64e4510b748ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -954,7 +918,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="332" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="332" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="321" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="321" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ae64ff356cc620ab79eadf9ceb7fbd462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -972,7 +936,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="337" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="337" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="326" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="326" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1d7f8d9be6c515648ece7b69b6122e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -1006,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="347" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="347" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="336" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="336" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a204b27dd556e574e0102dc43306eefb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -1028,7 +992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="351" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="351" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="340" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="340" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1450a4060038f83ad635a3754e77bccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -1050,7 +1014,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="355" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="355" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="344" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="344" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ad9c26bee412652224cc52498fbcde583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -1068,7 +1032,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="361" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="361" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="350" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="350" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1086,7 +1050,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="364" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="364" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="353" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a6e2e0000f00072cd6a20e9e324f0bc59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1104,7 +1068,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="367" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="367" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="356" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0dc1e5a41714e79f4a762cf0c20e89da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref> *</type>
@@ -1126,7 +1090,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="375" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="375" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="364" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="364" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a40a48496e02bd4cdc45090fc3bd8e298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1172,7 +1136,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="390" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="390" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="379" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="379" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1d59e8e34a1c4bb16c2d1b653554f1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *const *</type>
@@ -1190,7 +1154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="397" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="397" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="386" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="386" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a89fd4103d12381de869187ef37809019" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1212,7 +1176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="404" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="404" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="393" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="393" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a2c52f36bd3a4fa043b0d1a9705db17f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> **</type>
@@ -1230,7 +1194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="411" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="411" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="400" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="400" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0b4dca72de696606ef4cd9d69ecb5493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref> *</type>
@@ -1248,7 +1212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="418" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="418" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="407" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="407" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0d079eeaa24c04bdedbfebad78cf9aad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1270,7 +1234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="426" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="426" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="415" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="415" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a1eda922c51dcaecfc6a8615d1781b26a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref> *</type>
@@ -1288,7 +1252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="433" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="433" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="422" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="422" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ad89432ff6074399fe5c18bf8a16eb7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
@@ -1306,7 +1270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="440" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="440" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="429" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="429" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aba987b73a93d89e486acc59fca46ea5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1328,7 +1292,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="448" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="448" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="437" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="437" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aef57609230cf62d9adf42edc97031527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
@@ -1346,7 +1310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="455" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="455" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="444" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="444" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ade200f97f7abbc6f591eba5aac773591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -1364,7 +1328,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="462" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="462" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="451" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="451" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ac60f9080faba9173901521f25ab71f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1386,7 +1350,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="468" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="468" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="457" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="457" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1ad381562c9cc529292a56328b9a5548ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -1404,7 +1368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="475" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="475" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="464" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="464" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aeafb0c38431ecff3b24ef54baa7ef25d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
@@ -1421,7 +1385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="479" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="479" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="468" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="468" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1abef3f8c66c2060fb48e0ee97c863a2f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
@@ -1439,7 +1403,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="484" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="484" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="473" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="473" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1aa5dc0858a51d04442402283d412633c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
@@ -1461,7 +1425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="488" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="488" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="477" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="477" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a0c5f5032c01f1b594222953b7b3a6b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
@@ -1483,7 +1447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="492" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="492" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="481" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="481" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a283e0102ef810dc310b98e7443c0aafd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -1501,7 +1465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="497" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="497" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="486" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="486" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a4d5b5751ad0238b4ca6cb4bf7c9cccc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
@@ -1519,7 +1483,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="501" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="501" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="490" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="490" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshIntersect_8h_1a799c7b70e69bcf247510c741ec8c4ab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
+        <definition>MRC_API const MR_MultiMeshIntersectionResult * MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult</definition>
+        <argsstring>(const MR_MeshIntersectionResult *object)</argsstring>
+        <name>MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult</name>
+        <param>
+          <type>const <ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::MeshIntersectionResult</computeroutput> to a derived class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="496" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="496" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshIntersect_8h_1a97f69522310b457e6422708c67853b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
+        <definition>MRC_API MR_MultiMeshIntersectionResult * MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult</definition>
+        <argsstring>(MR_MeshIntersectionResult *object)</argsstring>
+        <name>MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult</name>
+        <param>
+          <type><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::MeshIntersectionResult</computeroutput> to a derived class <computeroutput>MR::MultiMeshIntersectionResult</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" line="501" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshIntersect.h" declline="501" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshIntersect_8h_1a59983365e80f6c8b0f7f749237c137de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref> *</type>
@@ -2929,109 +2929,109 @@
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
 <codeline lineno="151" refid="MRMeshIntersect_8h_1ac5f44609937bef73f9443d34dd8589a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ac5f44609937bef73f9443d34dd8589a2" kindref="member">MR_MeshIntersectionResult_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRMeshIntersect_8h_1afd661fa9083f3a74ab6c33623fbb887e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1afd661fa9083f3a74ab6c33623fbb887e" kindref="member">MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157" refid="MRMeshIntersect_8h_1a0cf32de954773f5464b7943329ab43f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0cf32de954773f5464b7943329ab43f3" kindref="member">MR_MeshIntersectionResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRMeshIntersect_8h_1aef56c06df7c3d4983d3286ca4a617e1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aef56c06df7c3d4983d3286ca4a617e1f" kindref="member">MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult</ref>(<ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRMeshIntersect_8h_1a0cf32de954773f5464b7943329ab43f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0cf32de954773f5464b7943329ab43f3" kindref="member">MR_MeshIntersectionResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="160" refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" kindref="member">MR_MeshIntersectionResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRMeshIntersect_8h_1a4c9c0981c31f739f38d9509d64789c9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a4c9c0981c31f739f38d9509d64789c9d" kindref="member">MR_MeshIntersectionResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRMeshIntersect_8h_1ab98f20b692dc0e4a877089d225526a9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab98f20b692dc0e4a877089d225526a9d" kindref="member">MR_MeshIntersectionResult_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a254f20827e70a4377c3d4d223a5bd873" kindref="member">MR_MeshIntersectionResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRMeshIntersect_8h_1a4c9c0981c31f739f38d9509d64789c9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a4c9c0981c31f739f38d9509d64789c9d" kindref="member">MR_MeshIntersectionResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRMeshIntersect_8h_1ab98f20b692dc0e4a877089d225526a9d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab98f20b692dc0e4a877089d225526a9d" kindref="member">MR_MeshIntersectionResult_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRMeshIntersect_8h_1ae2d7d574b8a29ca7d2b86ee04f28c15d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ae2d7d574b8a29ca7d2b86ee04f28c15d" kindref="member">MR_MeshIntersectionResult_AssignFromAnother</ref>(<ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRMeshIntersect_8h_1a1a25e239d40f3a097d44dd0365afe3e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1a25e239d40f3a097d44dd0365afe3e8" kindref="member">MR_rayMeshIntersect_MR_Line3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/>*prec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
-<codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRMeshIntersect_8h_1a4bcb963b945951f964775d68ca97624f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a4bcb963b945951f964775d68ca97624f" kindref="member">MR_rayMeshIntersect_MR_Line3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref><sp/>*prec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRMeshIntersect_8h_1a3db86f175a6a043e3200dac0b8588ce6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a3db86f175a6a043e3200dac0b8588ce6" kindref="member">MR_MultiRayMeshIntersectResult_Get_intersectingRays</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRMeshIntersect_8h_1afb1feba23f45362ce788e3b746f7bff0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1afb1feba23f45362ce788e3b746f7bff0" kindref="member">MR_MultiRayMeshIntersectResult_Set_intersectingRays</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRMeshIntersect_8h_1a7aaceb7bd800f2ef7c85f70cca695853" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a7aaceb7bd800f2ef7c85f70cca695853" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_intersectingRays</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRMeshIntersect_8h_1aa13731df337eaf6fbbbfe0c7f9235661" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1aa13731df337eaf6fbbbfe0c7f9235661" kindref="member">MR_MultiRayMeshIntersectResult_Get_rayDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRMeshIntersect_8h_1aa01a706ab6efed2cd5235e9e7efdb1c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aa01a706ab6efed2cd5235e9e7efdb1c8" kindref="member">MR_MultiRayMeshIntersectResult_Set_rayDistances</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRMeshIntersect_8h_1ab028b6948daed5bd6cd901f62502e76d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>**<ref refid="MRMeshIntersect_8h_1ab028b6948daed5bd6cd901f62502e76d" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_rayDistances</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272" refid="MRMeshIntersect_8h_1a8a148e24118900457818d8e57b94be8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a8a148e24118900457818d8e57b94be8b" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRMeshIntersect_8h_1aca1acaf390ccf63a4770243dc658de2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aca1acaf390ccf63a4770243dc658de2f" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectFaces</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRMeshIntersect_8h_1a20b3178f66061e173a056e429af48191" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a20b3178f66061e173a056e429af48191" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectFaces</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRMeshIntersect_8h_1aa43daf7884b44f770f0e49357ea1f334" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1aa43daf7884b44f770f0e49357ea1f334" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectBary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300" refid="MRMeshIntersect_8h_1afeaa3437b302dbf604ac5d3b90a5d720" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1afeaa3437b302dbf604ac5d3b90a5d720" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectBary</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="307" refid="MRMeshIntersect_8h_1a8222fa21982b7dd66852c56c467a014a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a8222fa21982b7dd66852c56c467a014a" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectBary</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="314" refid="MRMeshIntersect_8h_1a2271f56bccb36ddd17f1a5428ef75c84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a2271f56bccb36ddd17f1a5428ef75c84" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectPts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="315"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRMeshIntersect_8h_1a0d145389fa1622a52437eadee63c6d76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a0d145389fa1622a52437eadee63c6d76" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectPts</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="176" refid="MRMeshIntersect_8h_1ae2d7d574b8a29ca7d2b86ee04f28c15d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ae2d7d574b8a29ca7d2b86ee04f28c15d" kindref="member">MR_MeshIntersectionResult_AssignFromAnother</ref>(<ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRMeshIntersect_8h_1a1a25e239d40f3a097d44dd0365afe3e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1a25e239d40f3a097d44dd0365afe3e8" kindref="member">MR_rayMeshIntersect_MR_Line3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aca1d803422d4caa25c56d04a67efbc52" kindref="member">MR_Line3f</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/>*prec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRMeshIntersect_8h_1a4bcb963b945951f964775d68ca97624f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a4bcb963b945951f964775d68ca97624f" kindref="member">MR_rayMeshIntersect_MR_Line3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1ac137600e53e2a5c6efea3c61034a1a95" kindref="member">MR_Line3d</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref><sp/>*prec,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRMeshIntersect_8h_1a3db86f175a6a043e3200dac0b8588ce6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a3db86f175a6a043e3200dac0b8588ce6" kindref="member">MR_MultiRayMeshIntersectResult_Get_intersectingRays</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRMeshIntersect_8h_1afb1feba23f45362ce788e3b746f7bff0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1afb1feba23f45362ce788e3b746f7bff0" kindref="member">MR_MultiRayMeshIntersectResult_Set_intersectingRays</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRMeshIntersect_8h_1a7aaceb7bd800f2ef7c85f70cca695853" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a7aaceb7bd800f2ef7c85f70cca695853" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_intersectingRays</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRMeshIntersect_8h_1aa13731df337eaf6fbbbfe0c7f9235661" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1aa13731df337eaf6fbbbfe0c7f9235661" kindref="member">MR_MultiRayMeshIntersectResult_Get_rayDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRMeshIntersect_8h_1aa01a706ab6efed2cd5235e9e7efdb1c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aa01a706ab6efed2cd5235e9e7efdb1c8" kindref="member">MR_MultiRayMeshIntersectResult_Set_rayDistances</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRMeshIntersect_8h_1ab028b6948daed5bd6cd901f62502e76d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>**<ref refid="MRMeshIntersect_8h_1ab028b6948daed5bd6cd901f62502e76d" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_rayDistances</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRMeshIntersect_8h_1a8a148e24118900457818d8e57b94be8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a8a148e24118900457818d8e57b94be8b" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectFaces</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRMeshIntersect_8h_1aca1acaf390ccf63a4770243dc658de2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aca1acaf390ccf63a4770243dc658de2f" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectFaces</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRMeshIntersect_8h_1a20b3178f66061e173a056e429af48191" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a20b3178f66061e173a056e429af48191" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectFaces</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282" refid="MRMeshIntersect_8h_1aa43daf7884b44f770f0e49357ea1f334" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1aa43daf7884b44f770f0e49357ea1f334" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectBary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRMeshIntersect_8h_1afeaa3437b302dbf604ac5d3b90a5d720" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1afeaa3437b302dbf604ac5d3b90a5d720" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectBary</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="MRMeshIntersect_8h_1a8222fa21982b7dd66852c56c467a014a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a8222fa21982b7dd66852c56c467a014a" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectBary</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRMeshIntersect_8h_1a2271f56bccb36ddd17f1a5428ef75c84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a2271f56bccb36ddd17f1a5428ef75c84" kindref="member">MR_MultiRayMeshIntersectResult_Get_isectPts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRMeshIntersect_8h_1a0d145389fa1622a52437eadee63c6d76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a0d145389fa1622a52437eadee63c6d76" kindref="member">MR_MultiRayMeshIntersectResult_Set_isectPts</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="MRMeshIntersect_8h_1aa79753fb13985e338080ddb118bfeb89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMeshIntersect_8h_1aa79753fb13985e338080ddb118bfeb89" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectPts</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="MRMeshIntersect_8h_1a1c266b926ea47a9e0a64e4510b748ada" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1c266b926ea47a9e0a64e4510b748ada" kindref="member">MR_MultiRayMeshIntersectResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="328" refid="MRMeshIntersect_8h_1aa79753fb13985e338080ddb118bfeb89" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMeshIntersect_8h_1aa79753fb13985e338080ddb118bfeb89" kindref="member">MR_MultiRayMeshIntersectResult_GetMutable_isectPts</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="329"><highlight class="normal"></highlight></codeline>
-<codeline lineno="332" refid="MRMeshIntersect_8h_1a1c266b926ea47a9e0a64e4510b748ada" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1c266b926ea47a9e0a64e4510b748ada" kindref="member">MR_MultiRayMeshIntersectResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="333"><highlight class="normal"></highlight></codeline>
-<codeline lineno="337" refid="MRMeshIntersect_8h_1ae64ff356cc620ab79eadf9ceb7fbd462" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ae64ff356cc620ab79eadf9ceb7fbd462" kindref="member">MR_MultiRayMeshIntersectResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="338"><highlight class="normal"></highlight></codeline>
-<codeline lineno="347" refid="MRMeshIntersect_8h_1a1d7f8d9be6c515648ece7b69b6122e2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1d7f8d9be6c515648ece7b69b6122e2f" kindref="member">MR_MultiRayMeshIntersectResult_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*intersectingRays,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*rayDistances,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*isectFaces,<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*isectBary,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*isectPts);</highlight></codeline>
-<codeline lineno="348"><highlight class="normal"></highlight></codeline>
-<codeline lineno="351" refid="MRMeshIntersect_8h_1a204b27dd556e574e0102dc43306eefb6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a204b27dd556e574e0102dc43306eefb6" kindref="member">MR_MultiRayMeshIntersectResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="352"><highlight class="normal"></highlight></codeline>
-<codeline lineno="355" refid="MRMeshIntersect_8h_1a1450a4060038f83ad635a3754e77bccf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1450a4060038f83ad635a3754e77bccf" kindref="member">MR_MultiRayMeshIntersectResult_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="356"><highlight class="normal"></highlight></codeline>
-<codeline lineno="361" refid="MRMeshIntersect_8h_1ad9c26bee412652224cc52498fbcde583" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ad9c26bee412652224cc52498fbcde583" kindref="member">MR_MultiRayMeshIntersectResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="364" refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" kindref="member">MR_MultiRayMeshIntersectResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="326" refid="MRMeshIntersect_8h_1ae64ff356cc620ab79eadf9ceb7fbd462" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ae64ff356cc620ab79eadf9ceb7fbd462" kindref="member">MR_MultiRayMeshIntersectResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRMeshIntersect_8h_1a1d7f8d9be6c515648ece7b69b6122e2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1d7f8d9be6c515648ece7b69b6122e2f" kindref="member">MR_MultiRayMeshIntersectResult_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a36d7d5a26d258211a2da5d9311a0798c" kindref="member">MR_BitSet</ref><sp/>*intersectingRays,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*rayDistances,<sp/><ref refid="MRExtractIsolines_8h_1a94dee374602a203a401f6d452bedc8c8" kindref="member">MR_std_vector_MR_FaceId</ref><sp/>*isectFaces,<sp/><ref refid="MRMeshIntersect_8h_1ab79d123dc6b42d1299cf9004bcf7c47c" kindref="member">MR_std_vector_MR_TriPointf</ref><sp/>*isectBary,<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*isectPts);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="MRMeshIntersect_8h_1a204b27dd556e574e0102dc43306eefb6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a204b27dd556e574e0102dc43306eefb6" kindref="member">MR_MultiRayMeshIntersectResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRMeshIntersect_8h_1a1450a4060038f83ad635a3754e77bccf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1450a4060038f83ad635a3754e77bccf" kindref="member">MR_MultiRayMeshIntersectResult_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRMeshIntersect_8h_1ad9c26bee412652224cc52498fbcde583" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ad9c26bee412652224cc52498fbcde583" kindref="member">MR_MultiRayMeshIntersectResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a96141a66eaefd253537ee3d547f37f01" kindref="member">MR_MultiRayMeshIntersectResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRMeshIntersect_8h_1a6e2e0000f00072cd6a20e9e324f0bc59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a6e2e0000f00072cd6a20e9e324f0bc59" kindref="member">MR_MultiRayMeshIntersectResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="MRMeshIntersect_8h_1a0dc1e5a41714e79f4a762cf0c20e89da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0dc1e5a41714e79f4a762cf0c20e89da" kindref="member">MR_MultiRayMeshIntersectResult_AssignFromAnother</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="365"><highlight class="normal"></highlight></codeline>
-<codeline lineno="367" refid="MRMeshIntersect_8h_1a6e2e0000f00072cd6a20e9e324f0bc59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a6e2e0000f00072cd6a20e9e324f0bc59" kindref="member">MR_MultiRayMeshIntersectResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="368"><highlight class="normal"></highlight></codeline>
-<codeline lineno="375" refid="MRMeshIntersect_8h_1a0dc1e5a41714e79f4a762cf0c20e89da" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0dc1e5a41714e79f4a762cf0c20e89da" kindref="member">MR_MultiRayMeshIntersectResult_AssignFromAnother</ref>(<ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="376"><highlight class="normal"></highlight></codeline>
-<codeline lineno="390" refid="MRMeshIntersect_8h_1a40a48496e02bd4cdc45090fc3bd8e298" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40a48496e02bd4cdc45090fc3bd8e298" kindref="member">MR_multiRayMeshIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*origins,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*dirs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
-<codeline lineno="391"><highlight class="normal"></highlight></codeline>
-<codeline lineno="397" refid="MRMeshIntersect_8h_1a1d59e8e34a1c4bb16c2d1b653554f1e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a1d59e8e34a1c4bb16c2d1b653554f1e0" kindref="member">MR_MultiMeshIntersectionResult_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="398"><highlight class="normal"></highlight></codeline>
-<codeline lineno="404" refid="MRMeshIntersect_8h_1a89fd4103d12381de869187ef37809019" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a89fd4103d12381de869187ef37809019" kindref="member">MR_MultiMeshIntersectionResult_Set_mesh</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="405"><highlight class="normal"></highlight></codeline>
-<codeline lineno="411" refid="MRMeshIntersect_8h_1a2c52f36bd3a4fa043b0d1a9705db17f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a2c52f36bd3a4fa043b0d1a9705db17f2" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_mesh</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="412"><highlight class="normal"></highlight></codeline>
-<codeline lineno="418" refid="MRMeshIntersect_8h_1a0b4dca72de696606ef4cd9d69ecb5493" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0b4dca72de696606ef4cd9d69ecb5493" kindref="member">MR_MultiMeshIntersectionResult_Get_proj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="419"><highlight class="normal"></highlight></codeline>
-<codeline lineno="426" refid="MRMeshIntersect_8h_1a0d079eeaa24c04bdedbfebad78cf9aad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a0d079eeaa24c04bdedbfebad78cf9aad" kindref="member">MR_MultiMeshIntersectionResult_Set_proj</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="427"><highlight class="normal"></highlight></codeline>
-<codeline lineno="433" refid="MRMeshIntersect_8h_1a1eda922c51dcaecfc6a8615d1781b26a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1eda922c51dcaecfc6a8615d1781b26a" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_proj</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="434"><highlight class="normal"></highlight></codeline>
-<codeline lineno="440" refid="MRMeshIntersect_8h_1ad89432ff6074399fe5c18bf8a16eb7c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ad89432ff6074399fe5c18bf8a16eb7c2" kindref="member">MR_MultiMeshIntersectionResult_Get_mtp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="441"><highlight class="normal"></highlight></codeline>
-<codeline lineno="448" refid="MRMeshIntersect_8h_1aba987b73a93d89e486acc59fca46ea5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aba987b73a93d89e486acc59fca46ea5a" kindref="member">MR_MultiMeshIntersectionResult_Set_mtp</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="449"><highlight class="normal"></highlight></codeline>
-<codeline lineno="455" refid="MRMeshIntersect_8h_1aef57609230cf62d9adf42edc97031527" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aef57609230cf62d9adf42edc97031527" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_mtp</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="456"><highlight class="normal"></highlight></codeline>
-<codeline lineno="462" refid="MRMeshIntersect_8h_1ade200f97f7abbc6f591eba5aac773591" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1ade200f97f7abbc6f591eba5aac773591" kindref="member">MR_MultiMeshIntersectionResult_Get_distanceAlongLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="463"><highlight class="normal"></highlight></codeline>
-<codeline lineno="468" refid="MRMeshIntersect_8h_1ac60f9080faba9173901521f25ab71f66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac60f9080faba9173901521f25ab71f66" kindref="member">MR_MultiMeshIntersectionResult_Set_distanceAlongLine</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="379" refid="MRMeshIntersect_8h_1a40a48496e02bd4cdc45090fc3bd8e298" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a40a48496e02bd4cdc45090fc3bd8e298" kindref="member">MR_multiRayMeshIntersect</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*origins,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*dirs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a71b056f7168494745b3133092ef5a28b" kindref="member">MR_MultiRayMeshIntersectResult</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayStart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*rayEnd,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*closestIntersect,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*validFaces);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="MRMeshIntersect_8h_1a1d59e8e34a1c4bb16c2d1b653554f1e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1a1d59e8e34a1c4bb16c2d1b653554f1e0" kindref="member">MR_MultiMeshIntersectionResult_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393" refid="MRMeshIntersect_8h_1a89fd4103d12381de869187ef37809019" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a89fd4103d12381de869187ef37809019" kindref="member">MR_MultiMeshIntersectionResult_Set_mesh</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400" refid="MRMeshIntersect_8h_1a2c52f36bd3a4fa043b0d1a9705db17f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>**<ref refid="MRMeshIntersect_8h_1a2c52f36bd3a4fa043b0d1a9705db17f2" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_mesh</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407" refid="MRMeshIntersect_8h_1a0b4dca72de696606ef4cd9d69ecb5493" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0b4dca72de696606ef4cd9d69ecb5493" kindref="member">MR_MultiMeshIntersectionResult_Get_proj</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="MRMeshIntersect_8h_1a0d079eeaa24c04bdedbfebad78cf9aad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1a0d079eeaa24c04bdedbfebad78cf9aad" kindref="member">MR_MultiMeshIntersectionResult_Set_proj</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422" refid="MRMeshIntersect_8h_1a1eda922c51dcaecfc6a8615d1781b26a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a1eda922c51dcaecfc6a8615d1781b26a" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_proj</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"></highlight></codeline>
+<codeline lineno="429" refid="MRMeshIntersect_8h_1ad89432ff6074399fe5c18bf8a16eb7c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshIntersect_8h_1ad89432ff6074399fe5c18bf8a16eb7c2" kindref="member">MR_MultiMeshIntersectionResult_Get_mtp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="437" refid="MRMeshIntersect_8h_1aba987b73a93d89e486acc59fca46ea5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1aba987b73a93d89e486acc59fca46ea5a" kindref="member">MR_MultiMeshIntersectionResult_Set_mtp</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"></highlight></codeline>
+<codeline lineno="444" refid="MRMeshIntersect_8h_1aef57609230cf62d9adf42edc97031527" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aef57609230cf62d9adf42edc97031527" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_mtp</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451" refid="MRMeshIntersect_8h_1ade200f97f7abbc6f591eba5aac773591" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1ade200f97f7abbc6f591eba5aac773591" kindref="member">MR_MultiMeshIntersectionResult_Get_distanceAlongLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457" refid="MRMeshIntersect_8h_1ac60f9080faba9173901521f25ab71f66" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac60f9080faba9173901521f25ab71f66" kindref="member">MR_MultiMeshIntersectionResult_Set_distanceAlongLine</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"></highlight></codeline>
+<codeline lineno="464" refid="MRMeshIntersect_8h_1ad381562c9cc529292a56328b9a5548ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1ad381562c9cc529292a56328b9a5548ea" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_distanceAlongLine</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468" refid="MRMeshIntersect_8h_1aeafb0c38431ecff3b24ef54baa7ef25d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aeafb0c38431ecff3b24ef54baa7ef25d" kindref="member">MR_MultiMeshIntersectionResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="469"><highlight class="normal"></highlight></codeline>
-<codeline lineno="475" refid="MRMeshIntersect_8h_1ad381562c9cc529292a56328b9a5548ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshIntersect_8h_1ad381562c9cc529292a56328b9a5548ea" kindref="member">MR_MultiMeshIntersectionResult_GetMutable_distanceAlongLine</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="479" refid="MRMeshIntersect_8h_1aeafb0c38431ecff3b24ef54baa7ef25d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aeafb0c38431ecff3b24ef54baa7ef25d" kindref="member">MR_MultiMeshIntersectionResult_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="480"><highlight class="normal"></highlight></codeline>
-<codeline lineno="484" refid="MRMeshIntersect_8h_1abef3f8c66c2060fb48e0ee97c863a2f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1abef3f8c66c2060fb48e0ee97c863a2f3" kindref="member">MR_MultiMeshIntersectionResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="485"><highlight class="normal"></highlight></codeline>
-<codeline lineno="488" refid="MRMeshIntersect_8h_1aa5dc0858a51d04442402283d412633c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aa5dc0858a51d04442402283d412633c7" kindref="member">MR_MultiMeshIntersectionResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="489"><highlight class="normal"></highlight></codeline>
-<codeline lineno="492" refid="MRMeshIntersect_8h_1a0c5f5032c01f1b594222953b7b3a6b52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0c5f5032c01f1b594222953b7b3a6b52" kindref="member">MR_MultiMeshIntersectionResult_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="493"><highlight class="normal"></highlight></codeline>
-<codeline lineno="497" refid="MRMeshIntersect_8h_1a283e0102ef810dc310b98e7443c0aafd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a283e0102ef810dc310b98e7443c0aafd" kindref="member">MR_MultiMeshIntersectionResult_UpcastTo_MR_MeshIntersectionResult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="498"><highlight class="normal"></highlight></codeline>
-<codeline lineno="501" refid="MRMeshIntersect_8h_1a4d5b5751ad0238b4ca6cb4bf7c9cccc4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a4d5b5751ad0238b4ca6cb4bf7c9cccc4" kindref="member">MR_MultiMeshIntersectionResult_MutableUpcastTo_MR_MeshIntersectionResult</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="473" refid="MRMeshIntersect_8h_1abef3f8c66c2060fb48e0ee97c863a2f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1abef3f8c66c2060fb48e0ee97c863a2f3" kindref="member">MR_MultiMeshIntersectionResult_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight></codeline>
+<codeline lineno="477" refid="MRMeshIntersect_8h_1aa5dc0858a51d04442402283d412633c7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1aa5dc0858a51d04442402283d412633c7" kindref="member">MR_MultiMeshIntersectionResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="481" refid="MRMeshIntersect_8h_1a0c5f5032c01f1b594222953b7b3a6b52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a0c5f5032c01f1b594222953b7b3a6b52" kindref="member">MR_MultiMeshIntersectionResult_OffsetMutablePtr</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="486" refid="MRMeshIntersect_8h_1a283e0102ef810dc310b98e7443c0aafd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a283e0102ef810dc310b98e7443c0aafd" kindref="member">MR_MultiMeshIntersectionResult_UpcastTo_MR_MeshIntersectionResult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight></codeline>
+<codeline lineno="490" refid="MRMeshIntersect_8h_1a4d5b5751ad0238b4ca6cb4bf7c9cccc4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a4d5b5751ad0238b4ca6cb4bf7c9cccc4" kindref="member">MR_MultiMeshIntersectionResult_MutableUpcastTo_MR_MeshIntersectionResult</ref>(<ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496" refid="MRMeshIntersect_8h_1a799c7b70e69bcf247510c741ec8c4ab7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a799c7b70e69bcf247510c741ec8c4ab7" kindref="member">MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="501" refid="MRMeshIntersect_8h_1a97f69522310b457e6422708c67853b3a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a97f69522310b457e6422708c67853b3a" kindref="member">MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult</ref>(<ref refid="MRMeshIntersect_8h_1ac8e02ba4ec98b4ca68dfb88ed4fb6564" kindref="member">MR_MeshIntersectionResult</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="502"><highlight class="normal"></highlight></codeline>
 <codeline lineno="507" refid="MRMeshIntersect_8h_1a59983365e80f6c8b0f7f749237c137de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*<ref refid="MRMeshIntersect_8h_1a59983365e80f6c8b0f7f749237c137de" kindref="member">MR_MultiMeshIntersectionResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshIntersect_8h_1ab16c4312066dcfb3a49ddab0fe290d08" kindref="member">MR_MultiMeshIntersectionResult</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="508"><highlight class="normal"></highlight></codeline>

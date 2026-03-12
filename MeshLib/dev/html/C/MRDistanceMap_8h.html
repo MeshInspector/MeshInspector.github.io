@@ -191,6 +191,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a81365fbcf5a6bea625b7f568c5ee8719" id="r_a81365fbcf5a6bea625b7f568c5ee8719"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81365fbcf5a6bea625b7f568c5ee8719">MR_DistanceMap_OffsetMutablePtr</a> (<a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a3027bb524566f8b7a811fdbb89005a11" id="r_a3027bb524566f8b7a811fdbb89005a11"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3027bb524566f8b7a811fdbb89005a11">MR_DistanceMap_UpcastTo_MR_RectIndexer</a> (const <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *object)</td></tr>
 <tr class="memitem:a9197bcbff203fb9a264e15dddcb9ff2b" id="r_a9197bcbff203fb9a264e15dddcb9ff2b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9197bcbff203fb9a264e15dddcb9ff2b">MR_DistanceMap_MutableUpcastTo_MR_RectIndexer</a> (<a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *object)</td></tr>
+<tr class="memitem:aa342f1415180d72fd60652e074eb75be" id="r_aa342f1415180d72fd60652e074eb75be"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa342f1415180d72fd60652e074eb75be">MR_DistanceMap_StaticDowncastFrom_MR_RectIndexer</a> (const <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
+<tr class="memitem:a7f76b40d6f011fa21f1396a26b0ba00d" id="r_a7f76b40d6f011fa21f1396a26b0ba00d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f76b40d6f011fa21f1396a26b0ba00d">MR_DistanceMap_MutableStaticDowncastFrom_MR_RectIndexer</a> (<a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *object)</td></tr>
 <tr class="memitem:a3f46d296d519b102f34c85f166e7f5d3" id="r_a3f46d296d519b102f34c85f166e7f5d3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f46d296d519b102f34c85f166e7f5d3">MR_DistanceMap_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *_other)</td></tr>
 <tr class="memitem:aed8c3d77956edd1c2e48df5d5e089ef6" id="r_aed8c3d77956edd1c2e48df5d5e089ef6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed8c3d77956edd1c2e48df5d5e089ef6">MR_DistanceMap_Construct_2</a> (MR_uint64_t resX, MR_uint64_t resY)</td></tr>
 <tr class="memitem:a637348455979e002038d0cc158114dca" id="r_a637348455979e002038d0cc158114dca"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a637348455979e002038d0cc158114dca">MR_DistanceMap_Construct_1</a> (const <a class="el" href="#a7cdde60e20392324b624c6508b359f95">MR_Matrix_float</a> *m)</td></tr>
@@ -2360,6 +2362,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7f76b40d6f011fa21f1396a26b0ba00d" name="a7f76b40d6f011fa21f1396a26b0ba00d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f76b40d6f011fa21f1396a26b0ba00d">&#9670;&#160;</a></span>MR_DistanceMap_MutableStaticDowncastFrom_MR_RectIndexer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> * MR_DistanceMap_MutableStaticDowncastFrom_MR_RectIndexer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::RectIndexer</span> to a derived class <span class="tt">MR::DistanceMap</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="a9197bcbff203fb9a264e15dddcb9ff2b" name="a9197bcbff203fb9a264e15dddcb9ff2b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9197bcbff203fb9a264e15dddcb9ff2b">&#9670;&#160;</a></span>MR_DistanceMap_MutableUpcastTo_MR_RectIndexer()</h2>
 
@@ -2617,6 +2637,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::DistanceMap::size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="aa342f1415180d72fd60652e074eb75be" name="aa342f1415180d72fd60652e074eb75be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa342f1415180d72fd60652e074eb75be">&#9670;&#160;</a></span>MR_DistanceMap_StaticDowncastFrom_MR_RectIndexer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="MRTiff_8h.html#ac5b3176651bd10f11559934b0565b6ee">MR_DistanceMap</a> * MR_DistanceMap_StaticDowncastFrom_MR_RectIndexer </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a1a5efdccd2df88c9e6fd685e2f82f57b">MR_RectIndexer</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::RectIndexer</span> to a derived class <span class="tt">MR::DistanceMap</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

@@ -424,42 +424,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="122" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="122" declcolumn="22"/>
       </memberdef>
-      <memberdef kind="function" id="MRLocalTriangulations_8h_1a0984554bd42f6838722632aa1ea9d231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
-        <definition>MRC_API const MR_FanRecordWithCenter * MR_FanRecord_StaticDowncastTo_MR_FanRecordWithCenter</definition>
-        <argsstring>(const MR_FanRecord *object)</argsstring>
-        <name>MR_FanRecord_StaticDowncastTo_MR_FanRecordWithCenter</name>
-        <param>
-          <type>const <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::FanRecord</computeroutput> to a derived class <computeroutput>MR::FanRecordWithCenter</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="128" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="128" declcolumn="38"/>
-      </memberdef>
-      <memberdef kind="function" id="MRLocalTriangulations_8h_1ad3c49ccc5ef27c479051b50a28a69d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
-        <definition>MRC_API MR_FanRecordWithCenter * MR_FanRecord_MutableStaticDowncastTo_MR_FanRecordWithCenter</definition>
-        <argsstring>(MR_FanRecord *object)</argsstring>
-        <name>MR_FanRecord_MutableStaticDowncastTo_MR_FanRecordWithCenter</name>
-        <param>
-          <type><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::FanRecord</computeroutput> to a derived class <computeroutput>MR::FanRecordWithCenter</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="133" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="133" declcolumn="32"/>
-      </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1aa36eae4be0232b66545dc2449eeb600e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
         <definition>MRC_API MR_FanRecord * MR_FanRecord_ConstructFromAnother</definition>
@@ -476,7 +440,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="139" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="139" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="128" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="128" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1ac93d7b2040c87aab32e1639690d27ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
@@ -494,7 +458,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="145" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="145" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="134" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="134" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1ab0671b5174f192e9b74c84ed8ee538ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -512,7 +476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="148" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="137" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a3a46fa74de7bd4dd6c25281063b25b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -530,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="151" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a56b7839364953224d6d33c7c24f670e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
@@ -552,7 +516,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="159" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="159" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="148" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="148" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a457edf0d4b8857828f886c582e3782b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -570,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="166" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="166" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="155" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="155" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a2a5898753b36ae040f2416a356221174" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -592,7 +556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="173" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="162" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a509ba5139e24df3edb94363264763b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -610,7 +574,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="180" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="180" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="169" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="169" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a1b985494933c9549458ebaf23768b12c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -628,7 +592,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="188" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="188" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="177" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="177" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1ab9a10f2ce9f2bd218d4143d2032f4b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -650,7 +614,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="185" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a5f78a39411dc5f7ca6d18ef2323d884a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
@@ -668,7 +632,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="204" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="204" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="193" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="193" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a1619147846a77731352f07789f9ef020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const unsigned int *</type>
@@ -686,7 +650,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="211" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="211" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="200" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="200" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1ad3145e479c91137a5b1889ecaeeb1e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -708,7 +672,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="218" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="218" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="207" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a23fa362037b2f1d156a63eb608f90872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API unsigned int *</type>
@@ -726,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="225" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="225" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="214" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="214" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1abcf486534a738395ff682520272d94cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
@@ -752,7 +716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="235" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="235" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="224" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="224" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a69d362d5626d3444d9c6c77acfd80b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
@@ -770,7 +734,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="240" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="240" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="229" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="229" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a0f84dd569e1df186d2c7cd02044d553c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
@@ -792,7 +756,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="244" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="244" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="233" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="233" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a27c6dda7eaaa117a24f168672c992e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
@@ -814,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="248" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="248" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="237" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="237" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1ada13e4b258c2a90afff5a7686458dddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
@@ -832,7 +796,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="253" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="253" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="242" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="242" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a126fce78215b931a6efaa5b03a463d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
@@ -850,7 +814,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="257" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="257" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="246" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="246" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLocalTriangulations_8h_1a2036d3676c467ea67ed8c85639611c77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
+        <definition>MRC_API const MR_FanRecordWithCenter * MR_FanRecordWithCenter_StaticDowncastFrom_MR_FanRecord</definition>
+        <argsstring>(const MR_FanRecord *object)</argsstring>
+        <name>MR_FanRecordWithCenter_StaticDowncastFrom_MR_FanRecord</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::FanRecord</computeroutput> to a derived class <computeroutput>MR::FanRecordWithCenter</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="252" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="252" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRLocalTriangulations_8h_1aed3272b3ffe5a29754fa28bec67c6edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
+        <definition>MRC_API MR_FanRecordWithCenter * MR_FanRecordWithCenter_MutableStaticDowncastFrom_MR_FanRecord</definition>
+        <argsstring>(MR_FanRecord *object)</argsstring>
+        <name>MR_FanRecordWithCenter_MutableStaticDowncastFrom_MR_FanRecord</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::FanRecord</computeroutput> to a derived class <computeroutput>MR::FanRecordWithCenter</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" line="257" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRLocalTriangulations.h" declline="257" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRLocalTriangulations_8h_1a9594b7deb3736ed0720424338e41ef84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref> *</type>
@@ -1963,49 +1963,49 @@
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="122" refid="MRLocalTriangulations_8h_1a6da42a33e8e057cb0b00341dbf04f292" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a6da42a33e8e057cb0b00341dbf04f292" kindref="member">MR_FanRecord_OffsetMutablePtr</ref>(<ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRLocalTriangulations_8h_1a0984554bd42f6838722632aa1ea9d231" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a0984554bd42f6838722632aa1ea9d231" kindref="member">MR_FanRecord_StaticDowncastTo_MR_FanRecordWithCenter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="128" refid="MRLocalTriangulations_8h_1aa36eae4be0232b66545dc2449eeb600e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1aa36eae4be0232b66545dc2449eeb600e" kindref="member">MR_FanRecord_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRLocalTriangulations_8h_1ad3c49ccc5ef27c479051b50a28a69d2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1ad3c49ccc5ef27c479051b50a28a69d2c" kindref="member">MR_FanRecord_MutableStaticDowncastTo_MR_FanRecordWithCenter</ref>(<ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRLocalTriangulations_8h_1aa36eae4be0232b66545dc2449eeb600e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1aa36eae4be0232b66545dc2449eeb600e" kindref="member">MR_FanRecord_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRLocalTriangulations_8h_1ac93d7b2040c87aab32e1639690d27ba9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1ac93d7b2040c87aab32e1639690d27ba9" kindref="member">MR_FanRecord_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
-<codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRLocalTriangulations_8h_1ab0671b5174f192e9b74c84ed8ee538ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ab0671b5174f192e9b74c84ed8ee538ea" kindref="member">MR_FanRecord_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRLocalTriangulations_8h_1ac93d7b2040c87aab32e1639690d27ba9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1ac93d7b2040c87aab32e1639690d27ba9" kindref="member">MR_FanRecord_Construct_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRLocalTriangulations_8h_1ab0671b5174f192e9b74c84ed8ee538ea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ab0671b5174f192e9b74c84ed8ee538ea" kindref="member">MR_FanRecord_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRLocalTriangulations_8h_1a3a46fa74de7bd4dd6c25281063b25b5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a3a46fa74de7bd4dd6c25281063b25b5b" kindref="member">MR_FanRecord_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRLocalTriangulations_8h_1a56b7839364953224d6d33c7c24f670e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a56b7839364953224d6d33c7c24f670e8" kindref="member">MR_FanRecord_AssignFromAnother</ref>(<ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="151" refid="MRLocalTriangulations_8h_1a3a46fa74de7bd4dd6c25281063b25b5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a3a46fa74de7bd4dd6c25281063b25b5b" kindref="member">MR_FanRecord_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRLocalTriangulations_8h_1a56b7839364953224d6d33c7c24f670e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a56b7839364953224d6d33c7c24f670e8" kindref="member">MR_FanRecord_AssignFromAnother</ref>(<ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRLocalTriangulations_8h_1a457edf0d4b8857828f886c582e3782b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a457edf0d4b8857828f886c582e3782b4" kindref="member">MR_FanRecordWithCenter_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRLocalTriangulations_8h_1a2a5898753b36ae040f2416a356221174" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a2a5898753b36ae040f2416a356221174" kindref="member">MR_FanRecordWithCenter_Set_center</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRLocalTriangulations_8h_1a509ba5139e24df3edb94363264763b12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a509ba5139e24df3edb94363264763b12" kindref="member">MR_FanRecordWithCenter_GetMutable_center</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRLocalTriangulations_8h_1a1b985494933c9549458ebaf23768b12c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a1b985494933c9549458ebaf23768b12c" kindref="member">MR_FanRecordWithCenter_Get_border</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRLocalTriangulations_8h_1ab9a10f2ce9f2bd218d4143d2032f4b2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ab9a10f2ce9f2bd218d4143d2032f4b2c" kindref="member">MR_FanRecordWithCenter_Set_border</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRLocalTriangulations_8h_1a5f78a39411dc5f7ca6d18ef2323d884a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a5f78a39411dc5f7ca6d18ef2323d884a" kindref="member">MR_FanRecordWithCenter_GetMutable_border</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRLocalTriangulations_8h_1a1619147846a77731352f07789f9ef020" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRLocalTriangulations_8h_1a1619147846a77731352f07789f9ef020" kindref="member">MR_FanRecordWithCenter_Get_firstNei</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRLocalTriangulations_8h_1ad3145e479c91137a5b1889ecaeeb1e2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ad3145e479c91137a5b1889ecaeeb1e2c" kindref="member">MR_FanRecordWithCenter_Set_firstNei</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRLocalTriangulations_8h_1a23fa362037b2f1d156a63eb608f90872" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRLocalTriangulations_8h_1a23fa362037b2f1d156a63eb608f90872" kindref="member">MR_FanRecordWithCenter_GetMutable_firstNei</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRLocalTriangulations_8h_1abcf486534a738395ff682520272d94cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1abcf486534a738395ff682520272d94cc" kindref="member">MR_FanRecordWithCenter_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*fn);</highlight></codeline>
-<codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRLocalTriangulations_8h_1a69d362d5626d3444d9c6c77acfd80b2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a69d362d5626d3444d9c6c77acfd80b2e" kindref="member">MR_FanRecordWithCenter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRLocalTriangulations_8h_1a0f84dd569e1df186d2c7cd02044d553c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a0f84dd569e1df186d2c7cd02044d553c" kindref="member">MR_FanRecordWithCenter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRLocalTriangulations_8h_1a27c6dda7eaaa117a24f168672c992e29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a27c6dda7eaaa117a24f168672c992e29" kindref="member">MR_FanRecordWithCenter_OffsetMutablePtr</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRLocalTriangulations_8h_1ada13e4b258c2a90afff5a7686458dddf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1ada13e4b258c2a90afff5a7686458dddf" kindref="member">MR_FanRecordWithCenter_UpcastTo_MR_FanRecord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257" refid="MRLocalTriangulations_8h_1a126fce78215b931a6efaa5b03a463d3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a126fce78215b931a6efaa5b03a463d3e" kindref="member">MR_FanRecordWithCenter_MutableUpcastTo_MR_FanRecord</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155" refid="MRLocalTriangulations_8h_1a457edf0d4b8857828f886c582e3782b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a457edf0d4b8857828f886c582e3782b4" kindref="member">MR_FanRecordWithCenter_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRLocalTriangulations_8h_1a2a5898753b36ae040f2416a356221174" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a2a5898753b36ae040f2416a356221174" kindref="member">MR_FanRecordWithCenter_Set_center</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRLocalTriangulations_8h_1a509ba5139e24df3edb94363264763b12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a509ba5139e24df3edb94363264763b12" kindref="member">MR_FanRecordWithCenter_GetMutable_center</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRLocalTriangulations_8h_1a1b985494933c9549458ebaf23768b12c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a1b985494933c9549458ebaf23768b12c" kindref="member">MR_FanRecordWithCenter_Get_border</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRLocalTriangulations_8h_1ab9a10f2ce9f2bd218d4143d2032f4b2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ab9a10f2ce9f2bd218d4143d2032f4b2c" kindref="member">MR_FanRecordWithCenter_Set_border</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="MRLocalTriangulations_8h_1a5f78a39411dc5f7ca6d18ef2323d884a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a5f78a39411dc5f7ca6d18ef2323d884a" kindref="member">MR_FanRecordWithCenter_GetMutable_border</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRLocalTriangulations_8h_1a1619147846a77731352f07789f9ef020" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRLocalTriangulations_8h_1a1619147846a77731352f07789f9ef020" kindref="member">MR_FanRecordWithCenter_Get_firstNei</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRLocalTriangulations_8h_1ad3145e479c91137a5b1889ecaeeb1e2c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1ad3145e479c91137a5b1889ecaeeb1e2c" kindref="member">MR_FanRecordWithCenter_Set_firstNei</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRLocalTriangulations_8h_1a23fa362037b2f1d156a63eb608f90872" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRLocalTriangulations_8h_1a23fa362037b2f1d156a63eb608f90872" kindref="member">MR_FanRecordWithCenter_GetMutable_firstNei</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRLocalTriangulations_8h_1abcf486534a738395ff682520272d94cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1abcf486534a738395ff682520272d94cc" kindref="member">MR_FanRecordWithCenter_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*fn);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRLocalTriangulations_8h_1a69d362d5626d3444d9c6c77acfd80b2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a69d362d5626d3444d9c6c77acfd80b2e" kindref="member">MR_FanRecordWithCenter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRLocalTriangulations_8h_1a0f84dd569e1df186d2c7cd02044d553c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a0f84dd569e1df186d2c7cd02044d553c" kindref="member">MR_FanRecordWithCenter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRLocalTriangulations_8h_1a27c6dda7eaaa117a24f168672c992e29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a27c6dda7eaaa117a24f168672c992e29" kindref="member">MR_FanRecordWithCenter_OffsetMutablePtr</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRLocalTriangulations_8h_1ada13e4b258c2a90afff5a7686458dddf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1ada13e4b258c2a90afff5a7686458dddf" kindref="member">MR_FanRecordWithCenter_UpcastTo_MR_FanRecord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="MRLocalTriangulations_8h_1a126fce78215b931a6efaa5b03a463d3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a126fce78215b931a6efaa5b03a463d3e" kindref="member">MR_FanRecordWithCenter_MutableUpcastTo_MR_FanRecord</ref>(<ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRLocalTriangulations_8h_1a2036d3676c467ea67ed8c85639611c77" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a2036d3676c467ea67ed8c85639611c77" kindref="member">MR_FanRecordWithCenter_StaticDowncastFrom_MR_FanRecord</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRLocalTriangulations_8h_1aed3272b3ffe5a29754fa28bec67c6edc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1aed3272b3ffe5a29754fa28bec67c6edc" kindref="member">MR_FanRecordWithCenter_MutableStaticDowncastFrom_MR_FanRecord</ref>(<ref refid="MRLocalTriangulations_8h_1af107f676713b508200b63fe3433068fe" kindref="member">MR_FanRecord</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="258"><highlight class="normal"></highlight></codeline>
 <codeline lineno="263" refid="MRLocalTriangulations_8h_1a9594b7deb3736ed0720424338e41ef84" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*<ref refid="MRLocalTriangulations_8h_1a9594b7deb3736ed0720424338e41ef84" kindref="member">MR_FanRecordWithCenter_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a6470bbf7955a538b98d6e87dcead239b" kindref="member">MR_FanRecordWithCenter</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>

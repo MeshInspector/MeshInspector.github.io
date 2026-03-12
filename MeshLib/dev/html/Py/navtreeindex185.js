@@ -1,9 +1,7 @@
 var NAVTREEINDEX185 =
 {
-"namespacemrmeshpy.html#aff290c9fe463c31de2a9aa20acf0fb63":[6,1,0,0,2,1515],
-"namespacemrmeshpy.html#aff2abc6b3470f827ea8fe217d5ee7626":[6,1,0,0,2,2665],
 "namespacemrmeshpy.html#aff36f4153a4616c5be4e14134048517d":[6,1,0,0,2,1837],
-"namespacemrmeshpy.html#aff4ccefe20907b8648bd4f13d67acc81":[6,1,0,0,2,2768],
+"namespacemrmeshpy.html#aff4ccefe20907b8648bd4f13d67acc81":[6,1,0,0,2,2766],
 "namespacemrmeshpy.html#aff721b41a1d46aa584a828325d096672":[6,1,0,0,2,1324],
 "namespacemrmeshpy.html#aff96a127ce2264b2db316f8d68ca0d71":[6,1,0,0,2,1595],
 "namespacemrviewerpy.html":[6,1,0,0,3],

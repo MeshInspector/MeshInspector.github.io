@@ -164,8 +164,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3bda65b0aa331029bb21c950f7b599a" id="r_ab3bda65b0aa331029bb21c950f7b599a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3bda65b0aa331029bb21c950f7b599a">MR_Image_ConstructFrom</a> (MR_PassBy pixels_pass_by, <a class="el" href="MRCtm_8h.html#a7608dfb93ec2fd0c55d4213b65d70f51">MR_std_vector_MR_Color</a> *pixels, <a class="el" href="structMR__Vector2i.html">MR_Vector2i</a> resolution)</td></tr>
 <tr class="memitem:aad3a990af3c8ec94e29327c04ab1ff42" id="r_aad3a990af3c8ec94e29327c04ab1ff42"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3a990af3c8ec94e29327c04ab1ff42">MR_Image_OffsetPtr</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a42d15b02110616d02ed7126496958811" id="r_a42d15b02110616d02ed7126496958811"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42d15b02110616d02ed7126496958811">MR_Image_OffsetMutablePtr</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:ac7e37e48309538f5a08f55a58b10b7b7" id="r_ac7e37e48309538f5a08f55a58b10b7b7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7e37e48309538f5a08f55a58b10b7b7">MR_Image_StaticDowncastTo_MR_MeshTexture</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
-<tr class="memitem:a18e69eef0660b9813ab4432d46360360" id="r_a18e69eef0660b9813ab4432d46360360"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18e69eef0660b9813ab4432d46360360">MR_Image_MutableStaticDowncastTo_MR_MeshTexture</a> (<a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *object)</td></tr>
 <tr class="memitem:a9496854229bd53207610ad5c61bf5f63" id="r_a9496854229bd53207610ad5c61bf5f63"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9496854229bd53207610ad5c61bf5f63">MR_Image_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_other)</td></tr>
 <tr class="memitem:af06c9ac84a3ec96391104e08e3bd494b" id="r_af06c9ac84a3ec96391104e08e3bd494b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af06c9ac84a3ec96391104e08e3bd494b">MR_Image_Destroy</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *_this)</td></tr>
 <tr class="memdesc:af06c9ac84a3ec96391104e08e3bd494b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -464,24 +462,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a18e69eef0660b9813ab4432d46360360" name="a18e69eef0660b9813ab4432d46360360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18e69eef0660b9813ab4432d46360360">&#9670;&#160;</a></span>MR_Image_MutableStaticDowncastTo_MR_MeshTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_MutableStaticDowncastTo_MR_MeshTexture </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::Image</span> to a derived class <span class="tt">MR::MeshTexture</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="a42d15b02110616d02ed7126496958811" name="a42d15b02110616d02ed7126496958811"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42d15b02110616d02ed7126496958811">&#9670;&#160;</a></span>MR_Image_OffsetMutablePtr()</h2>
 
@@ -643,24 +623,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::Image</span> named <span class="tt">resolution</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">resolution</span>. When this function is called, this object will drop object references it held previously in <span class="tt">resolution</span>. </p>
-
-</div>
-</div>
-<a id="ac7e37e48309538f5a08f55a58b10b7b7" name="ac7e37e48309538f5a08f55a58b10b7b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7e37e48309538f5a08f55a58b10b7b7">&#9670;&#160;</a></span>MR_Image_StaticDowncastTo_MR_MeshTexture()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRCtm_8h.html#ac5c5abdc9ba8adb6f8e522246978c790">MR_MeshTexture</a> * MR_Image_StaticDowncastTo_MR_MeshTexture </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::Image</span> to a derived class <span class="tt">MR::MeshTexture</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

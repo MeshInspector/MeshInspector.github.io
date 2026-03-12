@@ -82,6 +82,7 @@ var MRFillingSurface_8h =
     [ "MR_FillingSurface_TPMS_MeshParams_GetMutable_iso", "MRFillingSurface_8h.html#af598d4008d03acbe282ce6da80d92f3b", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution", "MRFillingSurface_8h.html#a2f8a1369dc3f6ff593933705223ac856", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_GetMutable_type", "MRFillingSurface_8h.html#a1b5919b5c402c7d6a96fff4673973f97", null ],
+    [ "MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams", "MRFillingSurface_8h.html#a6e57dbba78cd555799975eae2e2455eb", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams", "MRFillingSurface_8h.html#a9a838d5d504d1d2d62a0fd1cbe648743", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr", "MRFillingSurface_8h.html#abcd1ec728c4e45df0c1eb96a28b7ef75", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_OffsetPtr", "MRFillingSurface_8h.html#a0bf051c8973386a4329f7298ec422d6e", null ],
@@ -90,6 +91,7 @@ var MRFillingSurface_8h =
     [ "MR_FillingSurface_TPMS_MeshParams_Set_iso", "MRFillingSurface_8h.html#ae591ff97e80fbcca0bb7110d9fbe18cd", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_Set_resolution", "MRFillingSurface_8h.html#a1a07987b5ee23f9dd195ff9ddd54e444", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_Set_type", "MRFillingSurface_8h.html#af6d25f56f305f564a8ca847df7265df9", null ],
+    [ "MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams", "MRFillingSurface_8h.html#ac77b1586b12f8b375ca18227641c0742", null ],
     [ "MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams", "MRFillingSurface_8h.html#a597f62ae2f2eabba13cf69f10a89b6be", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother", "MRFillingSurface_8h.html#a4ca9e21ca5d9b8b552a10d050ef7bea0", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_ConstructFrom", "MRFillingSurface_8h.html#a02739cb19e5690559c0562cc4f42f203", null ],
@@ -104,11 +106,9 @@ var MRFillingSurface_8h =
     [ "MR_FillingSurface_TPMS_VolumeParams_GetMutable_frequency", "MRFillingSurface_8h.html#aa819bc142f821c631b9e2db9f705249e", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_GetMutable_resolution", "MRFillingSurface_8h.html#ad76b7c637ae8f5e2bc2cb956789dfa64", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_GetMutable_type", "MRFillingSurface_8h.html#abc7935fb6d0b2687fbb7204a8f2f28f8", null ],
-    [ "MR_FillingSurface_TPMS_VolumeParams_MutableStaticDowncastTo_MR_FillingSurface_TPMS_MeshParams", "MRFillingSurface_8h.html#ab1779fc23391e71e086eba462aa7b253", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr", "MRFillingSurface_8h.html#aa2eb24dd623e80286a15c16925ca4776", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_OffsetPtr", "MRFillingSurface_8h.html#ac2b293ba8cc28402d704f5ef049b3e8f", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_Set_frequency", "MRFillingSurface_8h.html#a2d0624bed129e38ccf15f3a59f0b5bd7", null ],
     [ "MR_FillingSurface_TPMS_VolumeParams_Set_resolution", "MRFillingSurface_8h.html#a8b8a9abdac6ad74f3df4dab95e138381", null ],
-    [ "MR_FillingSurface_TPMS_VolumeParams_Set_type", "MRFillingSurface_8h.html#a7bd2fb6859b66c2a41ce953b35d36b39", null ],
-    [ "MR_FillingSurface_TPMS_VolumeParams_StaticDowncastTo_MR_FillingSurface_TPMS_MeshParams", "MRFillingSurface_8h.html#af0f040854f3c5816e4d60637154fd630", null ]
+    [ "MR_FillingSurface_TPMS_VolumeParams_Set_type", "MRFillingSurface_8h.html#a7bd2fb6859b66c2a41ce953b35d36b39", null ]
 ];

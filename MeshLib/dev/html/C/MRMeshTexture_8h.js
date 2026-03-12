@@ -15,6 +15,7 @@ var MRMeshTexture_8h =
     [ "MR_MeshTexture_GetMutable_resolution", "MRMeshTexture_8h.html#ad0087ec27cea6bc5139e680a9d245f67", null ],
     [ "MR_MeshTexture_GetMutable_wrap", "MRMeshTexture_8h.html#af260d74064b3636910502ff4a1d9d3c2", null ],
     [ "MR_MeshTexture_heapBytes", "MRMeshTexture_8h.html#adf26d5d3505097e60ce9a59c174cf3dc", null ],
+    [ "MR_MeshTexture_MutableStaticDowncastFrom_MR_Image", "MRMeshTexture_8h.html#aa58aa862cfa39fe68961f0b075f85318", null ],
     [ "MR_MeshTexture_MutableUpcastTo_MR_Image", "MRMeshTexture_8h.html#a1922685f721c8d8243d14b265b641777", null ],
     [ "MR_MeshTexture_OffsetMutablePtr", "MRMeshTexture_8h.html#a9e519ebd8918cc4333228e7ad1000de6", null ],
     [ "MR_MeshTexture_OffsetPtr", "MRMeshTexture_8h.html#aa5ca76a427cb821302591c29e90fc4d5", null ],
@@ -25,5 +26,6 @@ var MRMeshTexture_8h =
     [ "MR_MeshTexture_Set_pixels", "MRMeshTexture_8h.html#a18ed80b44a50697c4a7ed37f50fe8c51", null ],
     [ "MR_MeshTexture_Set_resolution", "MRMeshTexture_8h.html#a356a637a3eacf116e06256cf8e3c1a07", null ],
     [ "MR_MeshTexture_Set_wrap", "MRMeshTexture_8h.html#a20f6680bd3b0606af6eef462b5cc4a62", null ],
+    [ "MR_MeshTexture_StaticDowncastFrom_MR_Image", "MRMeshTexture_8h.html#a9daa01640e7434c17fd77f70cfc1435d", null ],
     [ "MR_MeshTexture_UpcastTo_MR_Image", "MRMeshTexture_8h.html#a068524ecf500003e1d57fa314b19e45a", null ]
 ];

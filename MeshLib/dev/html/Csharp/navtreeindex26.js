@@ -1,5 +1,12 @@
 var NAVTREEINDEX26 =
 {
+"classMR_1_1ConstBox__Vector2f.html#a7a6940e4b8eff57b5fde0742b5d88e3d":[6,3,0,0,0,260,22],
+"classMR_1_1ConstBox__Vector2f.html#a84a1cdef1a172e618cbca108b96a521b":[6,3,0,0,0,260,4],
+"classMR_1_1ConstBox__Vector2f.html#a8a0e8cc02ece10626ef907f392fa8c97":[6,3,0,0,0,260,11],
+"classMR_1_1ConstBox__Vector2f.html#a8c87614f40065379e1561ad9a40f9d15":[6,3,0,0,0,260,9],
+"classMR_1_1ConstBox__Vector2f.html#a90120fbe63bdcc8b84d99af85fef1f96":[6,3,0,0,0,260,23],
+"classMR_1_1ConstBox__Vector2f.html#a9662aa8be7511ab922480db123f350be":[6,3,0,0,0,260,19],
+"classMR_1_1ConstBox__Vector2f.html#a9a10fbda24592efb49334797054ce50a":[6,3,0,0,0,260,20],
 "classMR_1_1ConstBox__Vector2f.html#aa8c9ae7a93e655f0d07967036d41d2cd":[6,3,0,0,0,260,21],
 "classMR_1_1ConstBox__Vector2f.html#aa9c3b1dfbed3e459f41288fe98db8bcc":[6,3,0,0,0,260,16],
 "classMR_1_1ConstBox__Vector2f.html#ab3e33eb84b12c0ca8db173d61d05aaf1":[6,3,0,0,0,260,8],
@@ -242,12 +249,5 @@ var NAVTREEINDEX26 =
 "classMR_1_1ConstBox__Vector3i64.html#a2a62d412ca1eb7bc654cd0f49ea963bc":[6,3,0,0,0,267,0],
 "classMR_1_1ConstBox__Vector3i64.html#a2d788faf308d5ebd5080c93035be64da":[6,3,0,0,0,267,3],
 "classMR_1_1ConstBox__Vector3i64.html#a3f065f1c148916020757582c55f17afe":[6,3,0,0,0,267,34],
-"classMR_1_1ConstBox__Vector3i64.html#a3fc8642173296ec84776167404ffd8db":[6,3,0,0,0,267,12],
-"classMR_1_1ConstBox__Vector3i64.html#a490f31d3e0cd68279e7764c7dcc6c8e7":[6,3,0,0,0,267,22],
-"classMR_1_1ConstBox__Vector3i64.html#a5c773414d61b6f1dee4b978e5341162b":[6,3,0,0,0,267,5],
-"classMR_1_1ConstBox__Vector3i64.html#a640f38a62a49b5c8fc6e15c021294d25":[6,3,0,0,0,267,14],
-"classMR_1_1ConstBox__Vector3i64.html#a6512852f67defe9c7625116c0b249156":[6,3,0,0,0,267,19],
-"classMR_1_1ConstBox__Vector3i64.html#a8b3c22b53cd1aa240af1bcdd691c9aee":[6,3,0,0,0,267,24],
-"classMR_1_1ConstBox__Vector3i64.html#a951468d3771678b54f6e18fca6f641de":[6,3,0,0,0,267,4],
-"classMR_1_1ConstBox__Vector3i64.html#a999e24a8601d97ed2d1122fc3dd1b126":[6,3,0,0,0,267,2]
+"classMR_1_1ConstBox__Vector3i64.html#a3fc8642173296ec84776167404ffd8db":[6,3,0,0,0,267,12]
 };

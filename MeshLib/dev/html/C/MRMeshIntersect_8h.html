@@ -178,8 +178,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a759490d1d3263d5d765d94b58c673007" id="r_a759490d1d3263d5d765d94b58c673007"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759490d1d3263d5d765d94b58c673007">MR_MeshIntersectionResult_ConstructFrom</a> (const <a class="el" href="MREnumNeighbours_8h.html#a8329bba5dc9407bd75ca1a4909c9fe9a">MR_PointOnFace</a> *proj, const <a class="el" href="MRAggregateFlow_8h.html#a741f5bb0872ea5dd2506146d0fd1afdc">MR_MeshTriPoint</a> *mtp, float distanceAlongLine)</td></tr>
 <tr class="memitem:a663469e09a3755e1b9054dba01f05973" id="r_a663469e09a3755e1b9054dba01f05973"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a663469e09a3755e1b9054dba01f05973">MR_MeshIntersectionResult_OffsetPtr</a> (const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ac5f44609937bef73f9443d34dd8589a2" id="r_ac5f44609937bef73f9443d34dd8589a2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5f44609937bef73f9443d34dd8589a2">MR_MeshIntersectionResult_OffsetMutablePtr</a> (<a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:afd661fa9083f3a74ab6c33623fbb887e" id="r_afd661fa9083f3a74ab6c33623fbb887e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd661fa9083f3a74ab6c33623fbb887e">MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult</a> (const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *object)</td></tr>
-<tr class="memitem:aef56c06df7c3d4983d3286ca4a617e1f" id="r_aef56c06df7c3d4983d3286ca4a617e1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef56c06df7c3d4983d3286ca4a617e1f">MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult</a> (<a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *object)</td></tr>
 <tr class="memitem:a0cf32de954773f5464b7943329ab43f3" id="r_a0cf32de954773f5464b7943329ab43f3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cf32de954773f5464b7943329ab43f3">MR_MeshIntersectionResult_ConstructFromAnother</a> (const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *_other)</td></tr>
 <tr class="memitem:a254f20827e70a4377c3d4d223a5bd873" id="r_a254f20827e70a4377c3d4d223a5bd873"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a254f20827e70a4377c3d4d223a5bd873">MR_MeshIntersectionResult_Destroy</a> (const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *_this)</td></tr>
 <tr class="memdesc:a254f20827e70a4377c3d4d223a5bd873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -234,6 +232,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c5f5032c01f1b594222953b7b3a6b52" id="r_a0c5f5032c01f1b594222953b7b3a6b52"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c5f5032c01f1b594222953b7b3a6b52">MR_MultiMeshIntersectionResult_OffsetMutablePtr</a> (<a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a283e0102ef810dc310b98e7443c0aafd" id="r_a283e0102ef810dc310b98e7443c0aafd"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a283e0102ef810dc310b98e7443c0aafd">MR_MultiMeshIntersectionResult_UpcastTo_MR_MeshIntersectionResult</a> (const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *object)</td></tr>
 <tr class="memitem:a4d5b5751ad0238b4ca6cb4bf7c9cccc4" id="r_a4d5b5751ad0238b4ca6cb4bf7c9cccc4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d5b5751ad0238b4ca6cb4bf7c9cccc4">MR_MultiMeshIntersectionResult_MutableUpcastTo_MR_MeshIntersectionResult</a> (<a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *object)</td></tr>
+<tr class="memitem:a799c7b70e69bcf247510c741ec8c4ab7" id="r_a799c7b70e69bcf247510c741ec8c4ab7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a799c7b70e69bcf247510c741ec8c4ab7">MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult</a> (const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *object)</td></tr>
+<tr class="memitem:a97f69522310b457e6422708c67853b3a" id="r_a97f69522310b457e6422708c67853b3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97f69522310b457e6422708c67853b3a">MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult</a> (<a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *object)</td></tr>
 <tr class="memitem:a59983365e80f6c8b0f7f749237c137de" id="r_a59983365e80f6c8b0f7f749237c137de"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59983365e80f6c8b0f7f749237c137de">MR_MultiMeshIntersectionResult_ConstructFromAnother</a> (const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *_other)</td></tr>
 <tr class="memitem:a60f7e03623aebcc41802d0c43ab85540" id="r_a60f7e03623aebcc41802d0c43ab85540"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60f7e03623aebcc41802d0c43ab85540">MR_MultiMeshIntersectionResult_Destroy</a> (const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> *_this)</td></tr>
 <tr class="memdesc:a60f7e03623aebcc41802d0c43ab85540"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -1668,24 +1668,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aef56c06df7c3d4983d3286ca4a617e1f" name="aef56c06df7c3d4983d3286ca4a617e1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef56c06df7c3d4983d3286ca4a617e1f">&#9670;&#160;</a></span>MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> * MR_MeshIntersectionResult_MutableStaticDowncastTo_MR_MultiMeshIntersectionResult </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::MeshIntersectionResult</span> to a derived class <span class="tt">MR::MultiMeshIntersectionResult</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="ac5f44609937bef73f9443d34dd8589a2" name="ac5f44609937bef73f9443d34dd8589a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac5f44609937bef73f9443d34dd8589a2">&#9670;&#160;</a></span>MR_MeshIntersectionResult_OffsetMutablePtr()</h2>
 
@@ -1793,24 +1775,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>stores intersected face and global coordinates Modifies a member variable of class <span class="tt">MR::MeshIntersectionResult</span> named <span class="tt">proj</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">proj</span>. When this function is called, this object will drop object references it held previously in <span class="tt">proj</span>. </p>
-
-</div>
-</div>
-<a id="afd661fa9083f3a74ab6c33623fbb887e" name="afd661fa9083f3a74ab6c33623fbb887e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd661fa9083f3a74ab6c33623fbb887e">&#9670;&#160;</a></span>MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> * MR_MeshIntersectionResult_StaticDowncastTo_MR_MultiMeshIntersectionResult </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::MeshIntersectionResult</span> to a derived class <span class="tt">MR::MultiMeshIntersectionResult</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -2090,6 +2054,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a97f69522310b457e6422708c67853b3a" name="a97f69522310b457e6422708c67853b3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97f69522310b457e6422708c67853b3a">&#9670;&#160;</a></span>MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> * MR_MultiMeshIntersectionResult_MutableStaticDowncastFrom_MR_MeshIntersectionResult </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::MeshIntersectionResult</span> to a derived class <span class="tt">MR::MultiMeshIntersectionResult</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="a4d5b5751ad0238b4ca6cb4bf7c9cccc4" name="a4d5b5751ad0238b4ca6cb4bf7c9cccc4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d5b5751ad0238b4ca6cb4bf7c9cccc4">&#9670;&#160;</a></span>MR_MultiMeshIntersectionResult_MutableUpcastTo_MR_MeshIntersectionResult()</h2>
 
@@ -2237,6 +2219,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>stores intersected face and global coordinates Modifies a member variable of class <span class="tt">MR::MultiMeshIntersectionResult</span> named <span class="tt">proj</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">proj</span>. When this function is called, this object will drop object references it held previously in <span class="tt">proj</span>. </p>
+
+</div>
+</div>
+<a id="a799c7b70e69bcf247510c741ec8c4ab7" name="a799c7b70e69bcf247510c741ec8c4ab7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a799c7b70e69bcf247510c741ec8c4ab7">&#9670;&#160;</a></span>MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ab16c4312066dcfb3a49ddab0fe290d08">MR_MultiMeshIntersectionResult</a> * MR_MultiMeshIntersectionResult_StaticDowncastFrom_MR_MeshIntersectionResult </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ac8e02ba4ec98b4ca68dfb88ed4fb6564">MR_MeshIntersectionResult</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::MeshIntersectionResult</span> to a derived class <span class="tt">MR::MultiMeshIntersectionResult</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

@@ -469,42 +469,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="171" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="171" declcolumn="34"/>
       </memberdef>
-      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
-        <definition>MRC_API const MR_SignedDistanceToMeshOptions * MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</definition>
-        <argsstring>(const MR_DistanceToMeshOptions *object)</argsstring>
-        <name>MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</name>
-        <param>
-          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="177" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="177" declcolumn="46"/>
-      </memberdef>
-      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
-        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</definition>
-        <argsstring>(MR_DistanceToMeshOptions *object)</argsstring>
-        <name>MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</name>
-        <param>
-          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="182" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="182" declcolumn="40"/>
-      </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
         <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_ConstructFromAnother</definition>
@@ -521,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="188" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="177" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="177" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -539,7 +503,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="191" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -557,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="194" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="183" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
@@ -579,7 +543,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="202" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="202" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="191" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="191" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref> *</type>
@@ -597,7 +561,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="209" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="198" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="198" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -619,7 +583,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="216" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="205" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref> *</type>
@@ -637,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="223" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="223" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="212" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="212" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -655,7 +619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="230" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="230" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="219" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="219" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -677,7 +641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="236" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="225" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -695,7 +659,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="243" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="243" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="232" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="232" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -713,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="250" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="250" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="239" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="239" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -735,7 +699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="256" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -753,7 +717,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="263" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="263" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="252" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="252" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -771,7 +735,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="274" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="274" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="263" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="263" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -793,7 +757,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="284" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="273" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -811,7 +775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="295" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="295" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="284" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -829,7 +793,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="304" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="304" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="293" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="293" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -851,7 +815,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="312" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="301" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -869,7 +833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="321" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="321" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="310" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="310" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -887,7 +851,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="329" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="329" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="318" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="318" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -909,7 +873,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="336" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="325" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="325" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -927,7 +891,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="344" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="344" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="333" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="333" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
@@ -944,7 +908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="348" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="348" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="337" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="337" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
@@ -962,7 +926,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="353" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="353" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="342" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="342" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
@@ -984,7 +948,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="357" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="357" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="346" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="346" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
@@ -1006,7 +970,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="361" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="361" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="350" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="350" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
@@ -1024,7 +988,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="366" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="366" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="355" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="355" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
@@ -1042,7 +1006,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="370" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="370" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="359" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="359" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a8cb9e1ac50ab58a7ffb1f916a083f97b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_StaticDowncastFrom_MR_DistanceToMeshOptions</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *object)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_StaticDowncastFrom_MR_DistanceToMeshOptions</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="365" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="365" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a3266e4045a33f10e2453d799d4a4a38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_MutableStaticDowncastFrom_MR_DistanceToMeshOptions</definition>
+        <argsstring>(MR_DistanceToMeshOptions *object)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_MutableStaticDowncastFrom_MR_DistanceToMeshOptions</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="370" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="370" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
@@ -1183,65 +1183,65 @@
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
 <codeline lineno="171" refid="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" kindref="member">MR_DistanceToMeshOptions_OffsetMutablePtr</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" kindref="member">MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177" refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" kindref="member">MR_DistanceToMeshOptions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" kindref="member">MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" kindref="member">MR_DistanceToMeshOptions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="180" refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" kindref="member">MR_DistanceToMeshOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" kindref="member">MR_DistanceToMeshOptions_AssignFromAnother</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" kindref="member">MR_DistanceToMeshOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" kindref="member">MR_DistanceToMeshOptions_AssignFromAnother</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" kindref="member">MR_SignedDistanceToMeshOptions_Get_signMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" kindref="member">MR_SignedDistanceToMeshOptions_Set_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>value);</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" kindref="member">MR_SignedDistanceToMeshOptions_Get_minDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" kindref="member">MR_SignedDistanceToMeshOptions_Set_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="243" refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="244"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" kindref="member">MR_SignedDistanceToMeshOptions_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" kindref="member">MR_SignedDistanceToMeshOptions_Set_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="263" refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198" refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" kindref="member">MR_SignedDistanceToMeshOptions_Get_signMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" kindref="member">MR_SignedDistanceToMeshOptions_Set_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>value);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" kindref="member">MR_SignedDistanceToMeshOptions_Get_minDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" kindref="member">MR_SignedDistanceToMeshOptions_Set_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" kindref="member">MR_SignedDistanceToMeshOptions_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" kindref="member">MR_SignedDistanceToMeshOptions_Set_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" kindref="member">MR_SignedDistanceToMeshOptions_Get_nullOutsideMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="264"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" kindref="member">MR_SignedDistanceToMeshOptions_Get_nullOutsideMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" kindref="member">MR_SignedDistanceToMeshOptions_Set_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="273" refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" kindref="member">MR_SignedDistanceToMeshOptions_Set_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight></codeline>
-<codeline lineno="321" refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="322"><highlight class="normal"></highlight></codeline>
-<codeline lineno="329" refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberBeta</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="330"><highlight class="normal"></highlight></codeline>
-<codeline lineno="336" refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="337"><highlight class="normal"></highlight></codeline>
-<codeline lineno="344" refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="345"><highlight class="normal"></highlight></codeline>
-<codeline lineno="348" refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="349"><highlight class="normal"></highlight></codeline>
-<codeline lineno="353" refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="354"><highlight class="normal"></highlight></codeline>
-<codeline lineno="357" refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" kindref="member">MR_SignedDistanceToMeshOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="358"><highlight class="normal"></highlight></codeline>
-<codeline lineno="361" refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" kindref="member">MR_SignedDistanceToMeshOptions_OffsetMutablePtr</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="362"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366" refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" kindref="member">MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="370" refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" kindref="member">MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="293" refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberBeta</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" kindref="member">MR_SignedDistanceToMeshOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" kindref="member">MR_SignedDistanceToMeshOptions_OffsetMutablePtr</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" kindref="member">MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" kindref="member">MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365" refid="MRDistanceToMeshOptions_8h_1a8cb9e1ac50ab58a7ffb1f916a083f97b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a8cb9e1ac50ab58a7ffb1f916a083f97b" kindref="member">MR_SignedDistanceToMeshOptions_StaticDowncastFrom_MR_DistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="MRDistanceToMeshOptions_8h_1a3266e4045a33f10e2453d799d4a4a38b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3266e4045a33f10e2453d799d4a4a38b" kindref="member">MR_SignedDistanceToMeshOptions_MutableStaticDowncastFrom_MR_DistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="371"><highlight class="normal"></highlight></codeline>
 <codeline lineno="376" refid="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" kindref="member">MR_SignedDistanceToMeshOptions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="377"><highlight class="normal"></highlight></codeline>

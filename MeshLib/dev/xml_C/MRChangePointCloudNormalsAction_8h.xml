@@ -192,6 +192,114 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="57" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="57" declcolumn="26"/>
       </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a16e157a1c1d88fb2e407c4d4550f450b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="63" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="63" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a6b7f2db7b3f723a3c2d7352ce31be909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="68" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="68" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1af81402edc82a184782517f07579353ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="74" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="74" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a610ff36269113880a8617c910250a99c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="79" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="79" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a5f46baab50e35b75258b6462d3e51351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API const MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="87" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="87" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ae71d2c2d0f4844f2ac5be9ab25916d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
+        <definition>MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangePointCloudNormalsAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="94" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="94" declcolumn="42"/>
+      </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a934bf14763e4d9ac8ca40c97b3cfce68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
         <definition>MRC_API MR_ChangePointCloudNormalsAction * MR_ChangePointCloudNormalsAction_Construct_2</definition>
@@ -216,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="67" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="67" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="104" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="104" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a17ef7dfdccce62511a019c35f3b25d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
@@ -246,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="81" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="81" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="118" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="118" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a06c9b7564cada6c7ffe20d28ec9bbb73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -264,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="84" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="121" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="121" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a8e9315f06b73ef58222729b44d77d021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -282,7 +390,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="87" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a0bc56297223264a903269d8d52b2fc4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref> *</type>
@@ -308,7 +416,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="94" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="94" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="131" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="131" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1af0156362620dff60e68989962c610bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -326,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="99" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="99" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="136" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a601ec7f2e57d705be3d6ba1115b10ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -348,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="103" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -366,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="107" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="144" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -384,7 +492,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="111" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="111" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="148" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="148" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -406,7 +514,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="116" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="116" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="153" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="153" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a657cdbb52b1f67f71719fec2c20a2d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -428,7 +536,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="120" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="120" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="157" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="157" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1af1cf74219d8251a2699daf60215865ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -450,7 +558,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="124" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="124" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="161" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="161" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ab008a8f64b47c74448e1e6b55b81f908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -468,7 +576,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="129" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="129" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="166" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="166" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ad09df81322d15f13432e755acfb03b9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
@@ -486,7 +594,115 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="133" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="133" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="170" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="170" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a361eebfced2c9e39121c0d1b1241aa3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="176" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="176" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a2fe7191d6ed3f78959661b7aad389cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="181" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="181" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ac05f3b921740725d49ed0e48e54028a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="187" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="187" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a3d617057ff542bdca17c4a9a413899dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="192" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="192" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a8ce8c7e62a5a600eb1c62fdefee081e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="200" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="200" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ae2aaf84cbd075163d4d70f8d5ed03c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
+        <definition>MRC_API MR_ChangeOneNormalInCloudAction * MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeOneNormalInCloudAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="207" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="207" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a738a984fc62ccf26b8f74a9433ca9afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -516,7 +732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="144" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="144" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="218" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="218" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a9f4d7b92a68b59e489023bec08a56e00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -550,7 +766,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="157" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="157" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="231" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="231" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a2a424762bce02bd8d8f79d63efde494a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -568,7 +784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="234" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ad0f3404ec244729843d689c673a787d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -586,7 +802,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="163" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="237" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a51b0046d22f4560f7153b78cd13b73af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref> *</type>
@@ -612,7 +828,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="170" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="170" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="244" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="244" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1aa30824da4b2ed8f2b978af7167e5e7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -630,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="175" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="175" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="249" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="249" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ab0392ac3c7882fb8a469829752e9c345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -652,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="179" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="253" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="253" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -670,7 +886,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="183" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="257" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="257" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -688,7 +904,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="187" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="187" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" line="261" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h" declline="261" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -730,55 +946,79 @@
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
 <codeline lineno="57" refid="MRChangePointCloudNormalsAction_8h_1ae3864d3dd5224c6fb849719bc85afcd8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ae3864d3dd5224c6fb849719bc85afcd8" kindref="member">MR_ChangePointCloudNormalsAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRChangePointCloudNormalsAction_8h_1a934bf14763e4d9ac8ca40c97b3cfce68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a934bf14763e4d9ac8ca40c97b3cfce68" kindref="member">MR_ChangePointCloudNormalsAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRChangePointCloudNormalsAction_8h_1a17ef7dfdccce62511a019c35f3b25d90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a17ef7dfdccce62511a019c35f3b25d90" kindref="member">MR_ChangePointCloudNormalsAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*newNormals);</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRChangePointCloudNormalsAction_8h_1a06c9b7564cada6c7ffe20d28ec9bbb73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a06c9b7564cada6c7ffe20d28ec9bbb73" kindref="member">MR_ChangePointCloudNormalsAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRChangePointCloudNormalsAction_8h_1a8e9315f06b73ef58222729b44d77d021" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a8e9315f06b73ef58222729b44d77d021" kindref="member">MR_ChangePointCloudNormalsAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63" refid="MRChangePointCloudNormalsAction_8h_1a16e157a1c1d88fb2e407c4d4550f450b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a16e157a1c1d88fb2e407c4d4550f450b" kindref="member">MR_ChangePointCloudNormalsAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRChangePointCloudNormalsAction_8h_1a6b7f2db7b3f723a3c2d7352ce31be909" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a6b7f2db7b3f723a3c2d7352ce31be909" kindref="member">MR_ChangePointCloudNormalsAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRChangePointCloudNormalsAction_8h_1af81402edc82a184782517f07579353ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1af81402edc82a184782517f07579353ba" kindref="member">MR_ChangePointCloudNormalsAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRChangePointCloudNormalsAction_8h_1a610ff36269113880a8617c910250a99c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a610ff36269113880a8617c910250a99c" kindref="member">MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRChangePointCloudNormalsAction_8h_1a5f46baab50e35b75258b6462d3e51351" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a5f46baab50e35b75258b6462d3e51351" kindref="member">MR_ChangePointCloudNormalsAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRChangePointCloudNormalsAction_8h_1a0bc56297223264a903269d8d52b2fc4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a0bc56297223264a903269d8d52b2fc4b" kindref="member">MR_ChangePointCloudNormalsAction_AssignFromAnother</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="94" refid="MRChangePointCloudNormalsAction_8h_1ae71d2c2d0f4844f2ac5be9ab25916d42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ae71d2c2d0f4844f2ac5be9ab25916d42" kindref="member">MR_ChangePointCloudNormalsAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRChangePointCloudNormalsAction_8h_1af0156362620dff60e68989962c610bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1af0156362620dff60e68989962c610bfc" kindref="member">MR_ChangePointCloudNormalsAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRChangePointCloudNormalsAction_8h_1a601ec7f2e57d705be3d6ba1115b10ba9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a601ec7f2e57d705be3d6ba1115b10ba9" kindref="member">MR_ChangePointCloudNormalsAction_action</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" kindref="member">MR_ChangePointCloudNormalsAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" kindref="member">MR_ChangePointCloudNormalsAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" kindref="member">MR_ChangeOneNormalInCloudAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRChangePointCloudNormalsAction_8h_1a657cdbb52b1f67f71719fec2c20a2d70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a657cdbb52b1f67f71719fec2c20a2d70" kindref="member">MR_ChangeOneNormalInCloudAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRChangePointCloudNormalsAction_8h_1af1cf74219d8251a2699daf60215865ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1af1cf74219d8251a2699daf60215865ba" kindref="member">MR_ChangeOneNormalInCloudAction_OffsetMutablePtr</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="104" refid="MRChangePointCloudNormalsAction_8h_1a934bf14763e4d9ac8ca40c97b3cfce68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a934bf14763e4d9ac8ca40c97b3cfce68" kindref="member">MR_ChangePointCloudNormalsAction_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRChangePointCloudNormalsAction_8h_1a17ef7dfdccce62511a019c35f3b25d90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a17ef7dfdccce62511a019c35f3b25d90" kindref="member">MR_ChangePointCloudNormalsAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*newNormals);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRChangePointCloudNormalsAction_8h_1a06c9b7564cada6c7ffe20d28ec9bbb73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a06c9b7564cada6c7ffe20d28ec9bbb73" kindref="member">MR_ChangePointCloudNormalsAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRChangePointCloudNormalsAction_8h_1a8e9315f06b73ef58222729b44d77d021" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a8e9315f06b73ef58222729b44d77d021" kindref="member">MR_ChangePointCloudNormalsAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRChangePointCloudNormalsAction_8h_1ab008a8f64b47c74448e1e6b55b81f908" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ab008a8f64b47c74448e1e6b55b81f908" kindref="member">MR_ChangeOneNormalInCloudAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRChangePointCloudNormalsAction_8h_1ad09df81322d15f13432e755acfb03b9a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ad09df81322d15f13432e755acfb03b9a" kindref="member">MR_ChangeOneNormalInCloudAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRChangePointCloudNormalsAction_8h_1a738a984fc62ccf26b8f74a9433ca9afd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a738a984fc62ccf26b8f74a9433ca9afd" kindref="member">MR_ChangeOneNormalInCloudAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId);</highlight></codeline>
+<codeline lineno="131" refid="MRChangePointCloudNormalsAction_8h_1a0bc56297223264a903269d8d52b2fc4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a0bc56297223264a903269d8d52b2fc4b" kindref="member">MR_ChangePointCloudNormalsAction_AssignFromAnother</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRChangePointCloudNormalsAction_8h_1af0156362620dff60e68989962c610bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1af0156362620dff60e68989962c610bfc" kindref="member">MR_ChangePointCloudNormalsAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="MRChangePointCloudNormalsAction_8h_1a601ec7f2e57d705be3d6ba1115b10ba9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a601ec7f2e57d705be3d6ba1115b10ba9" kindref="member">MR_ChangePointCloudNormalsAction_action</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a200e451865357d736cf0a8a9a47c0963" kindref="member">MR_ChangePointCloudNormalsAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRChangePointCloudNormalsAction_8h_1a9f4d7b92a68b59e489023bec08a56e00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a9f4d7b92a68b59e489023bec08a56e00" kindref="member">MR_ChangeOneNormalInCloudAction_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*newNormal);</highlight></codeline>
+<codeline lineno="148" refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a5256ed3436c4a895f2a98d39bf5fc5d9" kindref="member">MR_ChangePointCloudNormalsAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a23b364fd86366826aa1826b67cdf2de6" kindref="member">MR_ChangePointCloudNormalsAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a05f769f1d2a9c43f557c3b1af299a38e" kindref="member">MR_ChangeOneNormalInCloudAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRChangePointCloudNormalsAction_8h_1a657cdbb52b1f67f71719fec2c20a2d70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a657cdbb52b1f67f71719fec2c20a2d70" kindref="member">MR_ChangeOneNormalInCloudAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRChangePointCloudNormalsAction_8h_1a2a424762bce02bd8d8f79d63efde494a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a2a424762bce02bd8d8f79d63efde494a" kindref="member">MR_ChangeOneNormalInCloudAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRChangePointCloudNormalsAction_8h_1ad0f3404ec244729843d689c673a787d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ad0f3404ec244729843d689c673a787d7" kindref="member">MR_ChangeOneNormalInCloudAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRChangePointCloudNormalsAction_8h_1a51b0046d22f4560f7153b78cd13b73af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a51b0046d22f4560f7153b78cd13b73af" kindref="member">MR_ChangeOneNormalInCloudAction_AssignFromAnother</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="161" refid="MRChangePointCloudNormalsAction_8h_1af1cf74219d8251a2699daf60215865ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1af1cf74219d8251a2699daf60215865ba" kindref="member">MR_ChangeOneNormalInCloudAction_OffsetMutablePtr</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRChangePointCloudNormalsAction_8h_1ab008a8f64b47c74448e1e6b55b81f908" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ab008a8f64b47c74448e1e6b55b81f908" kindref="member">MR_ChangeOneNormalInCloudAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRChangePointCloudNormalsAction_8h_1ad09df81322d15f13432e755acfb03b9a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ad09df81322d15f13432e755acfb03b9a" kindref="member">MR_ChangeOneNormalInCloudAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRChangePointCloudNormalsAction_8h_1aa30824da4b2ed8f2b978af7167e5e7fb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1aa30824da4b2ed8f2b978af7167e5e7fb" kindref="member">MR_ChangeOneNormalInCloudAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRChangePointCloudNormalsAction_8h_1ab0392ac3c7882fb8a469829752e9c345" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ab0392ac3c7882fb8a469829752e9c345" kindref="member">MR_ChangeOneNormalInCloudAction_action</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" kindref="member">MR_ChangeOneNormalInCloudAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" kindref="member">MR_ChangeOneNormalInCloudAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="176" refid="MRChangePointCloudNormalsAction_8h_1a361eebfced2c9e39121c0d1b1241aa3e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a361eebfced2c9e39121c0d1b1241aa3e" kindref="member">MR_ChangeOneNormalInCloudAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="MRChangePointCloudNormalsAction_8h_1a2fe7191d6ed3f78959661b7aad389cb7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a2fe7191d6ed3f78959661b7aad389cb7" kindref="member">MR_ChangeOneNormalInCloudAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRChangePointCloudNormalsAction_8h_1ac05f3b921740725d49ed0e48e54028a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ac05f3b921740725d49ed0e48e54028a5" kindref="member">MR_ChangeOneNormalInCloudAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="190"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="192" refid="MRChangePointCloudNormalsAction_8h_1a3d617057ff542bdca17c4a9a413899dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a3d617057ff542bdca17c4a9a413899dc" kindref="member">MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRChangePointCloudNormalsAction_8h_1a8ce8c7e62a5a600eb1c62fdefee081e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a8ce8c7e62a5a600eb1c62fdefee081e5" kindref="member">MR_ChangeOneNormalInCloudAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRChangePointCloudNormalsAction_8h_1ae2aaf84cbd075163d4d70f8d5ed03c0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1ae2aaf84cbd075163d4d70f8d5ed03c0d" kindref="member">MR_ChangeOneNormalInCloudAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRChangePointCloudNormalsAction_8h_1a738a984fc62ccf26b8f74a9433ca9afd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a738a984fc62ccf26b8f74a9433ca9afd" kindref="member">MR_ChangeOneNormalInCloudAction_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRChangePointCloudNormalsAction_8h_1a9f4d7b92a68b59e489023bec08a56e00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a9f4d7b92a68b59e489023bec08a56e00" kindref="member">MR_ChangeOneNormalInCloudAction_Construct_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>pointId,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*newNormal);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRChangePointCloudNormalsAction_8h_1a2a424762bce02bd8d8f79d63efde494a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a2a424762bce02bd8d8f79d63efde494a" kindref="member">MR_ChangeOneNormalInCloudAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRChangePointCloudNormalsAction_8h_1ad0f3404ec244729843d689c673a787d7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ad0f3404ec244729843d689c673a787d7" kindref="member">MR_ChangeOneNormalInCloudAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRChangePointCloudNormalsAction_8h_1a51b0046d22f4560f7153b78cd13b73af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1a51b0046d22f4560f7153b78cd13b73af" kindref="member">MR_ChangeOneNormalInCloudAction_AssignFromAnother</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRChangePointCloudNormalsAction_8h_1aa30824da4b2ed8f2b978af7167e5e7fb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangePointCloudNormalsAction_8h_1aa30824da4b2ed8f2b978af7167e5e7fb" kindref="member">MR_ChangeOneNormalInCloudAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRChangePointCloudNormalsAction_8h_1ab0392ac3c7882fb8a469829752e9c345" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ab0392ac3c7882fb8a469829752e9c345" kindref="member">MR_ChangeOneNormalInCloudAction_action</ref>(<ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1ade1e9bb7a45b0fe73be2c6a810d3daff" kindref="member">MR_ChangeOneNormalInCloudAction_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudAction_8h_1a435e0aa2bd12dee2d56d7a965a666e4c" kindref="member">MR_std_shared_ptr_MR_ObjectPoints</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a19b9898a64f54f45245dae086a708651" kindref="member">MR_ChangeOneNormalInCloudAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangePointCloudNormalsAction_8h_1a33567717a02a1e15d460721dee6ed102" kindref="member">MR_ChangeOneNormalInCloudAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangePointCloudNormalsAction.h"/>
   </compounddef>

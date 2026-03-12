@@ -25,6 +25,7 @@ var MRAABBTree_8h =
     [ "MR_AABBTree_getSubtrees", "MRAABBTree_8h.html#acf80988a6a9c50e1b571326f335000cc", null ],
     [ "MR_AABBTree_heapBytes", "MRAABBTree_8h.html#aed4ab19e3cf64fa0c37f4c4f54e18ffb", null ],
     [ "MR_AABBTree_index", "MRAABBTree_8h.html#a0f40875e91188b96aa3f88c9d1c9cc51", null ],
+    [ "MR_AABBTree_MutableStaticDowncastFrom_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#a1e8e7bf5963ec55e9948c13c7d321293", null ],
     [ "MR_AABBTree_MutableUpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#a1b92fe948e771f7d5bc506bd4a3e6285", null ],
     [ "MR_AABBTree_nodes", "MRAABBTree_8h.html#a39634445d02045d8a9bfd9b69d28246d", null ],
     [ "MR_AABBTree_numLeaves", "MRAABBTree_8h.html#a9a0c265add1e97026ddb5f97386fb271", null ],
@@ -32,5 +33,6 @@ var MRAABBTree_8h =
     [ "MR_AABBTree_OffsetPtr", "MRAABBTree_8h.html#a06270a2cc48943580bbc8e0fe10123e5", null ],
     [ "MR_AABBTree_refit", "MRAABBTree_8h.html#a9b359063a63a9a93ff01475cbd92bd83", null ],
     [ "MR_AABBTree_rootNodeId", "MRAABBTree_8h.html#a005ec9d26797f7e4897d5cdd34642597", null ],
+    [ "MR_AABBTree_StaticDowncastFrom_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#ac6c164ae32cc1708febbbf13ca34f59c", null ],
     [ "MR_AABBTree_UpcastTo_MR_AABBTreeBase_MR_AABBTreeTraits_MR_FaceTag_MR_Box3f", "MRAABBTree_8h.html#a3e3567ea37bfbb3b4630b82c41933892", null ]
 ];

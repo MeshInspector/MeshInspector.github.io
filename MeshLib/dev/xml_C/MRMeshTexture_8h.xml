@@ -448,6 +448,42 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="123" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="123" declcolumn="18"/>
       </memberdef>
+      <memberdef kind="function" id="MRMeshTexture_8h_1a9daa01640e7434c17fd77f70cfc1435d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
+        <definition>MRC_API const MR_MeshTexture * MR_MeshTexture_StaticDowncastFrom_MR_Image</definition>
+        <argsstring>(const MR_Image *object)</argsstring>
+        <name>MR_MeshTexture_StaticDowncastFrom_MR_Image</name>
+        <param>
+          <type>const <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Image</computeroutput> to a derived class <computeroutput>MR::MeshTexture</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="129" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="129" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshTexture_8h_1aa58aa862cfa39fe68961f0b075f85318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
+        <definition>MRC_API MR_MeshTexture * MR_MeshTexture_MutableStaticDowncastFrom_MR_Image</definition>
+        <argsstring>(MR_Image *object)</argsstring>
+        <name>MR_MeshTexture_MutableStaticDowncastFrom_MR_Image</name>
+        <param>
+          <type><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Image</computeroutput> to a derived class <computeroutput>MR::MeshTexture</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="134" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="134" declcolumn="24"/>
+      </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1a67d1080e10c8d985d81e2d784df9f1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
         <definition>MRC_API MR_MeshTexture * MR_MeshTexture_ConstructFromAnother</definition>
@@ -468,7 +504,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="128" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="128" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="139" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="139" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1a3cdf23a800281792286f5f693278015e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -486,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="142" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1a529d22076ef23c24192af5593b4fe720" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -504,7 +540,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="134" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1ae244f3be74ba004e1f67bf7bfcb040c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *</type>
@@ -530,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="141" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="141" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="152" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="152" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1adf26d5d3505097e60ce9a59c174cf3dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -548,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="146" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="146" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="157" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="157" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1a7b2c25b7685b1313ad0da289ecc379f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
@@ -570,7 +606,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="153" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="153" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="164" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="164" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1ae23d0e5bf11c657f6f2e753199d50a61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
@@ -592,7 +628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="160" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="160" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="171" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="171" declcolumn="18"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTexture_8h_1af85574550274db0601f3b30853f11fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Color" kindref="compound">MR_Color</ref></type>
@@ -618,7 +654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="167" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="167" declcolumn="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" line="178" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h" declline="178" declcolumn="18"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -683,25 +719,29 @@
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="123" refid="MRMeshTexture_8h_1a1922685f721c8d8243d14b265b641777" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*<ref refid="MRMeshTexture_8h_1a1922685f721c8d8243d14b265b641777" kindref="member">MR_MeshTexture_MutableUpcastTo_MR_Image</ref>(<ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRMeshTexture_8h_1a67d1080e10c8d985d81e2d784df9f1d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1a67d1080e10c8d985d81e2d784df9f1d4" kindref="member">MR_MeshTexture_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRMeshTexture_8h_1a3cdf23a800281792286f5f693278015e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTexture_8h_1a3cdf23a800281792286f5f693278015e" kindref="member">MR_MeshTexture_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRMeshTexture_8h_1a529d22076ef23c24192af5593b4fe720" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTexture_8h_1a529d22076ef23c24192af5593b4fe720" kindref="member">MR_MeshTexture_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129" refid="MRMeshTexture_8h_1a9daa01640e7434c17fd77f70cfc1435d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1a9daa01640e7434c17fd77f70cfc1435d" kindref="member">MR_MeshTexture_StaticDowncastFrom_MR_Image</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRMeshTexture_8h_1aa58aa862cfa39fe68961f0b075f85318" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1aa58aa862cfa39fe68961f0b075f85318" kindref="member">MR_MeshTexture_MutableStaticDowncastFrom_MR_Image</ref>(<ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRMeshTexture_8h_1ae244f3be74ba004e1f67bf7bfcb040c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1ae244f3be74ba004e1f67bf7bfcb040c5" kindref="member">MR_MeshTexture_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRMeshTexture_8h_1adf26d5d3505097e60ce9a59c174cf3dc" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMeshTexture_8h_1adf26d5d3505097e60ce9a59c174cf3dc" kindref="member">MR_MeshTexture_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRMeshTexture_8h_1a7b2c25b7685b1313ad0da289ecc379f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1a7b2c25b7685b1313ad0da289ecc379f6" kindref="member">MR_MeshTexture_sampleDiscrete</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMeshTexture_8h_1ae23d0e5bf11c657f6f2e753199d50a61" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1ae23d0e5bf11c657f6f2e753199d50a61" kindref="member">MR_MeshTexture_sampleBilinear</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRMeshTexture_8h_1af85574550274db0601f3b30853f11fab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1af85574550274db0601f3b30853f11fab" kindref="member">MR_MeshTexture_sample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1ad40ec431ff5ffd94858933622543ddd9" kindref="member">MR_FilterType</ref><sp/>filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="170"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="139" refid="MRMeshTexture_8h_1a67d1080e10c8d985d81e2d784df9f1d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1a67d1080e10c8d985d81e2d784df9f1d4" kindref="member">MR_MeshTexture_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRMeshTexture_8h_1a3cdf23a800281792286f5f693278015e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTexture_8h_1a3cdf23a800281792286f5f693278015e" kindref="member">MR_MeshTexture_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRMeshTexture_8h_1a529d22076ef23c24192af5593b4fe720" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTexture_8h_1a529d22076ef23c24192af5593b4fe720" kindref="member">MR_MeshTexture_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="MRMeshTexture_8h_1ae244f3be74ba004e1f67bf7bfcb040c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*<ref refid="MRMeshTexture_8h_1ae244f3be74ba004e1f67bf7bfcb040c5" kindref="member">MR_MeshTexture_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRMeshTexture_8h_1adf26d5d3505097e60ce9a59c174cf3dc" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMeshTexture_8h_1adf26d5d3505097e60ce9a59c174cf3dc" kindref="member">MR_MeshTexture_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="MRMeshTexture_8h_1a7b2c25b7685b1313ad0da289ecc379f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1a7b2c25b7685b1313ad0da289ecc379f6" kindref="member">MR_MeshTexture_sampleDiscrete</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRMeshTexture_8h_1ae23d0e5bf11c657f6f2e753199d50a61" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1ae23d0e5bf11c657f6f2e753199d50a61" kindref="member">MR_MeshTexture_sampleBilinear</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRMeshTexture_8h_1af85574550274db0601f3b30853f11fab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/><ref refid="MRMeshTexture_8h_1af85574550274db0601f3b30853f11fab" kindref="member">MR_MeshTexture_sample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*_this,<sp/><ref refid="MREnums_8h_1ad40ec431ff5ffd94858933622543ddd9" kindref="member">MR_FilterType</ref><sp/>filter,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTexture.h"/>
   </compounddef>

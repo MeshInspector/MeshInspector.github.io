@@ -1,5 +1,12 @@
 var NAVTREEINDEX24 =
 {
+"classMR_1_1ConstBox__Matrix3i.html#a184a7ad159e183033ac431bd3030bbb5":[6,3,0,0,0,244,11],
+"classMR_1_1ConstBox__Matrix3i.html#a1e245aaf79a25e78d2448239dd503a74":[6,3,0,0,0,244,10],
+"classMR_1_1ConstBox__Matrix3i.html#a222feab8214015ea3b25236cb07b1f7a":[6,3,0,0,0,244,21],
+"classMR_1_1ConstBox__Matrix3i.html#a258fb6fc099e8a37c9a51386519b0c46":[6,3,0,0,0,244,1],
+"classMR_1_1ConstBox__Matrix3i.html#a31c77f4633546f3cd68a81d184e844e1":[6,3,0,0,0,244,18],
+"classMR_1_1ConstBox__Matrix3i.html#a3371808f7830793bb5605799d4525fcd":[6,3,0,0,0,244,27],
+"classMR_1_1ConstBox__Matrix3i.html#a3765c67f0d9e5efe22ae1ec421e9d813":[6,3,0,0,0,244,26],
 "classMR_1_1ConstBox__Matrix3i.html#a3c91dfff715a27385f19550bbc86c4c4":[6,3,0,0,0,244,19],
 "classMR_1_1ConstBox__Matrix3i.html#a3f75f1b82d2f7dceaa327d0c232b0ae3":[6,3,0,0,0,244,2],
 "classMR_1_1ConstBox__Matrix3i.html#a5032c24873148ff0f17f4f5443fdc34e":[6,3,0,0,0,244,33],
@@ -242,12 +249,5 @@ var NAVTREEINDEX24 =
 "classMR_1_1ConstBox__Matrix4i64.html#a3b4a0e704f6324513e93b22032c05376":[6,3,0,0,0,250,1],
 "classMR_1_1ConstBox__Matrix4i64.html#a44d0985799032eced6ea43b9ccec2372":[6,3,0,0,0,250,4],
 "classMR_1_1ConstBox__Matrix4i64.html#a47aa14c9fc14be51d95a4dd2ae925246":[6,3,0,0,0,250,33],
-"classMR_1_1ConstBox__Matrix4i64.html#a4e4602eca545638b0b472cc6c6360473":[6,3,0,0,0,250,22],
-"classMR_1_1ConstBox__Matrix4i64.html#a63d18418e26e6f28d17663117a3e7a43":[6,3,0,0,0,250,2],
-"classMR_1_1ConstBox__Matrix4i64.html#a63d26306284803952eabb1e83d138d55":[6,3,0,0,0,250,6],
-"classMR_1_1ConstBox__Matrix4i64.html#a6685e682e7a824b639521ac114a15f0b":[6,3,0,0,0,250,21],
-"classMR_1_1ConstBox__Matrix4i64.html#a6f190c9aaa7b5009bfc3adc57d3533b5":[6,3,0,0,0,250,26],
-"classMR_1_1ConstBox__Matrix4i64.html#a730f303da01d7f84aeaece551cc001a2":[6,3,0,0,0,250,25],
-"classMR_1_1ConstBox__Matrix4i64.html#a7da5817a0c0230184ff195b6f048b116":[6,3,0,0,0,250,27],
-"classMR_1_1ConstBox__Matrix4i64.html#a894477a0f1aabe6b2ce2f47fd0155601":[6,3,0,0,0,250,16]
+"classMR_1_1ConstBox__Matrix4i64.html#a4e4602eca545638b0b472cc6c6360473":[6,3,0,0,0,250,22]
 };

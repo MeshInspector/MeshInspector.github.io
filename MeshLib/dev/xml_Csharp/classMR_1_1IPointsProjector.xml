@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="659" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="659" bodyend="659"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="661" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="661" bodyend="661"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,11 +45,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="665" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="665" bodyend="672"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="667" bodyend="674"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
-<para>abstract class for computing the closest points of point clouds Generated from class <computeroutput><ref refid="classMR_1_1IPointsProjector" kindref="compound">MR.IPointsProjector</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1PointsProjector" kindref="compound">MR.PointsProjector</ref></computeroutput> This is the non-const half of the class. </para>
+<para>abstract class for computing the closest points of point clouds Generated from class <computeroutput><ref refid="classMR_1_1IPointsProjector" kindref="compound">MR.IPointsProjector</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">MR.Cuda.PointsProjector</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointsProjector" kindref="compound">MR.PointsProjector</ref></computeroutput> This is the non-const half of the class. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -95,7 +95,7 @@
         <label>System.IDisposable</label>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="657" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="658" bodyend="673"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="659" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="660" bodyend="675"/>
     <listofallmembers>
       <member refid="classMR_1_1IPointsProjector_1a8c5cb0579dadc2585ee5ba704d03214e" prot="package" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>IPointsProjector</name></member>
       <member refid="classMR_1_1IPointsProjector_1ab4cea324b92dc9e302d471437c3630f6" prot="public" virt="non-virtual"><scope>MR::IPointsProjector</scope><name>setPointCloud</name></member>

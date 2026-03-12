@@ -2546,78 +2546,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="753" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="753" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRFeatures_8h_1a1a467a1a67247127088917cd623e0bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
-        <definition>MRC_API const MR_Features_MeasureResult_Angle * MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Angle</definition>
-        <argsstring>(const MR_Features_MeasureResult_BasicPart *object)</argsstring>
-        <name>MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Angle</name>
-        <param>
-          <type>const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="759" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="759" declcolumn="47"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFeatures_8h_1a725e4eef00b047382a3eb2fa429f6dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
-        <definition>MRC_API MR_Features_MeasureResult_Angle * MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Angle</definition>
-        <argsstring>(MR_Features_MeasureResult_BasicPart *object)</argsstring>
-        <name>MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Angle</name>
-        <param>
-          <type><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="764" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="764" declcolumn="41"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFeatures_8h_1aa11003da8676f6baa0bae5c113cbe53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
-        <definition>MRC_API const MR_Features_MeasureResult_Distance * MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Distance</definition>
-        <argsstring>(const MR_Features_MeasureResult_BasicPart *object)</argsstring>
-        <name>MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Distance</name>
-        <param>
-          <type>const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="770" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="770" declcolumn="50"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFeatures_8h_1a3687b769a40938155fad151f4c902da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
-        <definition>MRC_API MR_Features_MeasureResult_Distance * MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Distance</definition>
-        <argsstring>(MR_Features_MeasureResult_BasicPart *object)</argsstring>
-        <name>MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Distance</name>
-        <param>
-          <type><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="775" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="775" declcolumn="44"/>
-      </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a872f07fc1f18f5c902c34e0b33291319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
         <definition>MRC_API MR_Features_MeasureResult_BasicPart * MR_Features_MeasureResult_BasicPart_ConstructFromAnother</definition>
@@ -2634,7 +2562,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="781" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="781" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="759" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="759" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2652,7 +2580,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="784" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="784" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="762" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="762" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a6afac3e067ddb79fa897cf7256a01e8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2670,7 +2598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="787" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="787" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="765" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="765" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a62541e123e87bc1596adca362593e964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -2688,7 +2616,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="791" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="791" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="769" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="769" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1af59f27b6e5805748060467859e0e83cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
@@ -2710,7 +2638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="799" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="799" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="777" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="777" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a35180952ab498e8aab78ef5bb3ee1aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -2728,7 +2656,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="806" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="806" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="784" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="784" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ae53d66c8877e17b0dd3b8a559c22016e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2750,7 +2678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="812" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="812" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="790" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="790" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1abd7713588c657994b95aa12d239c86cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -2768,7 +2696,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="819" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="819" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="797" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="797" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a0204e4f52618e689a0fbd22d4f7bed4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -2786,7 +2714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="825" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="825" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="803" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="803" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad5cd8292e9076079b8d6204916cee50b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2808,7 +2736,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="831" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="831" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="809" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="809" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aabdceed8fc2b58ecd98e102346389b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -2826,7 +2754,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="837" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="837" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="815" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="815" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ab7033e058eb68cbaf70c6e5c2af247e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -2844,7 +2772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="843" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="843" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="821" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="821" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a5cd671f3d90295fcd91bbae9719678df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2866,7 +2794,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="849" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="849" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="827" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="827" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1afbe7804facd1423781a7d9a39c0fc2df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -2884,7 +2812,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="855" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="855" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="833" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="833" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a5915ad030e5d10f97d390bedf23d426d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref> *</type>
@@ -2902,7 +2830,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="861" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="861" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="839" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="839" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aa1af9001a49500d28945d89d94233296" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2924,7 +2852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="867" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="867" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="845" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="845" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ac2ff028f08eb2462cabc2bac14bd7fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref> *</type>
@@ -2942,7 +2870,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="873" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="873" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="851" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="851" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aec889ced96c108cc5b5361729d94097f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -2959,7 +2887,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="877" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="877" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="855" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="855" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a9801beb908b169079ea8fa96ae8c759c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -2977,7 +2905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="882" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="882" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="860" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="860" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a492e748931f48c04bdbe38e29c242d88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -2999,7 +2927,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="886" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="886" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="864" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="864" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a9984d4449fe8ba8b8dc40333828446f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -3021,7 +2949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="890" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="890" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="868" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="868" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a93b1e871680923c6b5ae3f5be1f7b806" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
@@ -3039,7 +2967,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="895" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="895" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="873" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="873" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a6c302552fac20bbafea4bc7808862fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
@@ -3057,7 +2985,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="899" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="899" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="877" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="877" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFeatures_8h_1aa1e3f362f9bc5e959bbbc7ec2375de91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
+        <definition>MRC_API const MR_Features_MeasureResult_Distance * MR_Features_MeasureResult_Distance_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</definition>
+        <argsstring>(const MR_Features_MeasureResult_BasicPart *object)</argsstring>
+        <name>MR_Features_MeasureResult_Distance_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="883" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="883" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFeatures_8h_1a44a736fead870e4d341cab414c72811e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
+        <definition>MRC_API MR_Features_MeasureResult_Distance * MR_Features_MeasureResult_Distance_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</definition>
+        <argsstring>(MR_Features_MeasureResult_BasicPart *object)</argsstring>
+        <name>MR_Features_MeasureResult_Distance_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Distance</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="888" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="888" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a9fa04d502c7f57f85b65a817f5484021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -3075,7 +3039,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="905" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="905" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="894" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="894" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a75c77c4104bfed5d168afce9d09bd9b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3093,7 +3057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="908" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="908" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="897" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="897" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aa54d3bbdf035bfb4cacbca0ad08b7edd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3111,7 +3075,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="911" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="911" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="900" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="900" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aaccd3d646e6f43d46817141cad7eb90d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool</type>
@@ -3129,7 +3093,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="915" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="915" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="904" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="904" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a312fb9368ba80fe19a441961883c6a91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref> *</type>
@@ -3151,7 +3115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="923" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="923" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="912" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="912" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a42c32d2d5fd95c288b3b438f0b3852de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
@@ -3173,7 +3137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="927" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="927" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="916" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="916" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a2a43c16fda43c06268f55f0251bfc96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -3195,7 +3159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="931" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="931" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="920" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="920" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a7785af7a625ccaf59836d4086e312ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float</type>
@@ -3217,7 +3181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="935" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="935" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="924" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="924" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a10ca712cf76345a67d0d27a6292ad7bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3235,7 +3199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="941" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="941" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="930" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="930" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad1a07c239647828822d4a037fede936a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3257,7 +3221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="947" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="947" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="936" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="936" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a4a8ad0a660dc76adbed7f4009bd42abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3275,7 +3239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="953" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="953" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="942" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="942" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1acf2cde708495b588b5444f94709a7a11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3293,7 +3257,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="959" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="959" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="948" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="948" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aed10db042dfc53e9d7fefcabc2b553f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3315,7 +3279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="965" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="965" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="954" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="954" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a728ca9151b8871079f2cc04d0760b97e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3333,7 +3297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="971" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="971" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="960" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="960" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a0e3dbdb915bef3c06ec1920fe8372fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3351,7 +3315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="978" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="978" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="967" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="967" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad3c405d29bcf8a67756891fad645ce13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3373,7 +3337,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="985" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="985" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="974" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="974" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a625377db01142c8981a8052225a3a8d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3391,7 +3355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="992" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="992" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="981" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="981" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1afcc189e3ab0cfa3cbb33c99078b2ef93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3409,7 +3373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="999" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="999" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="988" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="988" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a18bbaf7929cbbd2c2182b676c44694c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3431,7 +3395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1006" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1006" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="995" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="995" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a1581bc0a4e884ac4a70d5ee8419806d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
@@ -3449,7 +3413,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1013" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1013" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1002" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1002" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aecd1892a1f291458a3b11d588fd40237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -3467,7 +3431,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1020" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1020" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1009" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1009" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a5d05749be54b0f360cc81299bfe6afa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3489,7 +3453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1026" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1026" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1015" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1015" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1abe9098e0b2865161d9bc3917c00dc05b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -3507,7 +3471,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1033" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1033" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1022" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1022" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1abd10c6aa2a322bf590403fab5eeec3fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -3525,7 +3489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1039" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1039" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1028" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1028" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1acc0ac5bf4259278994f04b8de48f7e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3547,7 +3511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1044" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1044" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1033" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1033" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1af162bdefd54b9c93d0c8f8346f9b09b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -3565,7 +3529,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1050" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1050" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1039" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1039" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a682540af2df72b7cf6077061606ac245" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref> *</type>
@@ -3583,7 +3547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1056" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1056" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1045" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1045" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a98277cd7dec25a753d5cf6094b4fdcb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -3605,7 +3569,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1062" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1062" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1051" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1051" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a239126bfb9694b63112eef24376f6a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref> *</type>
@@ -3623,7 +3587,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1068" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1068" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1057" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1057" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a8b66a3dc1652fe65d0675f6d9cb1e0fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
@@ -3640,7 +3604,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1072" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1072" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1061" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1061" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad2e4bf02987b8290fd9139610117e770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
@@ -3658,7 +3622,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1077" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1077" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1066" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1066" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1aa3985dfcf673e1ca7ab6f756e67ef02b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
@@ -3680,7 +3644,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1081" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1081" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1070" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1070" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a85cbf1fec7d6fbbc44ea90cf739142af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
@@ -3702,7 +3666,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1085" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1085" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1074" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1074" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1ad1a0415d4c1a8885d66141ac982fe72d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
@@ -3720,7 +3684,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1090" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1090" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1079" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1079" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a6e3c40b51169fa53ead49106267f571a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
@@ -3738,7 +3702,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1094" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1094" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1083" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1083" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFeatures_8h_1a5c4f040f25d2afbebc8afc1f674a159e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
+        <definition>MRC_API const MR_Features_MeasureResult_Angle * MR_Features_MeasureResult_Angle_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</definition>
+        <argsstring>(const MR_Features_MeasureResult_BasicPart *object)</argsstring>
+        <name>MR_Features_MeasureResult_Angle_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1089" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1089" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFeatures_8h_1a0c511dc8f2b018fdae629d4d0c3b17c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
+        <definition>MRC_API MR_Features_MeasureResult_Angle * MR_Features_MeasureResult_Angle_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</definition>
+        <argsstring>(MR_Features_MeasureResult_BasicPart *object)</argsstring>
+        <name>MR_Features_MeasureResult_Angle_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</name>
+        <param>
+          <type><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::Features::MeasureResult::BasicPart</computeroutput> to a derived class <computeroutput>MR::Features::MeasureResult::Angle</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" line="1094" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFeatures.h" declline="1094" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFeatures_8h_1a81ac83cb09b0ccaac7952512364ddfc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref> *</type>
@@ -5922,138 +5922,138 @@
 <codeline lineno="750"><highlight class="normal"></highlight></codeline>
 <codeline lineno="753" refid="MRFeatures_8h_1a9bdb0f34ba66fafe8d1a1bd1f45b4792" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a9bdb0f34ba66fafe8d1a1bd1f45b4792" kindref="member">MR_Features_MeasureResult_BasicPart_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="754"><highlight class="normal"></highlight></codeline>
-<codeline lineno="759" refid="MRFeatures_8h_1a1a467a1a67247127088917cd623e0bcf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a1a467a1a67247127088917cd623e0bcf" kindref="member">MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Angle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="759" refid="MRFeatures_8h_1a872f07fc1f18f5c902c34e0b33291319" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a872f07fc1f18f5c902c34e0b33291319" kindref="member">MR_Features_MeasureResult_BasicPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="760"><highlight class="normal"></highlight></codeline>
-<codeline lineno="764" refid="MRFeatures_8h_1a725e4eef00b047382a3eb2fa429f6dc3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a725e4eef00b047382a3eb2fa429f6dc3" kindref="member">MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Angle</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="765"><highlight class="normal"></highlight></codeline>
-<codeline lineno="770" refid="MRFeatures_8h_1aa11003da8676f6baa0bae5c113cbe53a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1aa11003da8676f6baa0bae5c113cbe53a" kindref="member">MR_Features_MeasureResult_BasicPart_StaticDowncastTo_MR_Features_MeasureResult_Distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="771"><highlight class="normal"></highlight></codeline>
-<codeline lineno="775" refid="MRFeatures_8h_1a3687b769a40938155fad151f4c902da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a3687b769a40938155fad151f4c902da4" kindref="member">MR_Features_MeasureResult_BasicPart_MutableStaticDowncastTo_MR_Features_MeasureResult_Distance</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="781" refid="MRFeatures_8h_1a872f07fc1f18f5c902c34e0b33291319" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a872f07fc1f18f5c902c34e0b33291319" kindref="member">MR_Features_MeasureResult_BasicPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="782"><highlight class="normal"></highlight></codeline>
-<codeline lineno="784" refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" kindref="member">MR_Features_MeasureResult_BasicPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="762" refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad6d00853f001dd3d0a523a428e25114b" kindref="member">MR_Features_MeasureResult_BasicPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="763"><highlight class="normal"></highlight></codeline>
+<codeline lineno="765" refid="MRFeatures_8h_1a6afac3e067ddb79fa897cf7256a01e8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a6afac3e067ddb79fa897cf7256a01e8a" kindref="member">MR_Features_MeasureResult_BasicPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="766"><highlight class="normal"></highlight></codeline>
+<codeline lineno="769" refid="MRFeatures_8h_1a62541e123e87bc1596adca362593e964" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a62541e123e87bc1596adca362593e964" kindref="member">MR_Features_MeasureResult_BasicPart_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="770"><highlight class="normal"></highlight></codeline>
+<codeline lineno="777" refid="MRFeatures_8h_1af59f27b6e5805748060467859e0e83cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1af59f27b6e5805748060467859e0e83cc" kindref="member">MR_Features_MeasureResult_BasicPart_AssignFromAnother</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="778"><highlight class="normal"></highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="784" refid="MRFeatures_8h_1a35180952ab498e8aab78ef5bb3ee1aa6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1a35180952ab498e8aab78ef5bb3ee1aa6" kindref="member">MR_Features_MeasureResult_Distance_Get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="785"><highlight class="normal"></highlight></codeline>
-<codeline lineno="787" refid="MRFeatures_8h_1a6afac3e067ddb79fa897cf7256a01e8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a6afac3e067ddb79fa897cf7256a01e8a" kindref="member">MR_Features_MeasureResult_BasicPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="788"><highlight class="normal"></highlight></codeline>
-<codeline lineno="791" refid="MRFeatures_8h_1a62541e123e87bc1596adca362593e964" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a62541e123e87bc1596adca362593e964" kindref="member">MR_Features_MeasureResult_BasicPart_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="792"><highlight class="normal"></highlight></codeline>
-<codeline lineno="799" refid="MRFeatures_8h_1af59f27b6e5805748060467859e0e83cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1af59f27b6e5805748060467859e0e83cc" kindref="member">MR_Features_MeasureResult_BasicPart_AssignFromAnother</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="800"><highlight class="normal"></highlight></codeline>
-<codeline lineno="801"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="806" refid="MRFeatures_8h_1a35180952ab498e8aab78ef5bb3ee1aa6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1a35180952ab498e8aab78ef5bb3ee1aa6" kindref="member">MR_Features_MeasureResult_Distance_Get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="807"><highlight class="normal"></highlight></codeline>
-<codeline lineno="808"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="812" refid="MRFeatures_8h_1ae53d66c8877e17b0dd3b8a559c22016e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ae53d66c8877e17b0dd3b8a559c22016e" kindref="member">MR_Features_MeasureResult_Distance_Set_distance</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="813"><highlight class="normal"></highlight></codeline>
-<codeline lineno="814"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="819" refid="MRFeatures_8h_1abd7713588c657994b95aa12d239c86cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abd7713588c657994b95aa12d239c86cf" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_distance</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="820"><highlight class="normal"></highlight></codeline>
-<codeline lineno="825" refid="MRFeatures_8h_1a0204e4f52618e689a0fbd22d4f7bed4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a0204e4f52618e689a0fbd22d4f7bed4e" kindref="member">MR_Features_MeasureResult_Distance_Get_closestPointA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="826"><highlight class="normal"></highlight></codeline>
-<codeline lineno="831" refid="MRFeatures_8h_1ad5cd8292e9076079b8d6204916cee50b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad5cd8292e9076079b8d6204916cee50b" kindref="member">MR_Features_MeasureResult_Distance_Set_closestPointA</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="832"><highlight class="normal"></highlight></codeline>
-<codeline lineno="837" refid="MRFeatures_8h_1aabdceed8fc2b58ecd98e102346389b79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1aabdceed8fc2b58ecd98e102346389b79" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_closestPointA</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="838"><highlight class="normal"></highlight></codeline>
-<codeline lineno="843" refid="MRFeatures_8h_1ab7033e058eb68cbaf70c6e5c2af247e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1ab7033e058eb68cbaf70c6e5c2af247e1" kindref="member">MR_Features_MeasureResult_Distance_Get_closestPointB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="844"><highlight class="normal"></highlight></codeline>
-<codeline lineno="849" refid="MRFeatures_8h_1a5cd671f3d90295fcd91bbae9719678df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a5cd671f3d90295fcd91bbae9719678df" kindref="member">MR_Features_MeasureResult_Distance_Set_closestPointB</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="850"><highlight class="normal"></highlight></codeline>
-<codeline lineno="855" refid="MRFeatures_8h_1afbe7804facd1423781a7d9a39c0fc2df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1afbe7804facd1423781a7d9a39c0fc2df" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_closestPointB</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="786"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="790" refid="MRFeatures_8h_1ae53d66c8877e17b0dd3b8a559c22016e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ae53d66c8877e17b0dd3b8a559c22016e" kindref="member">MR_Features_MeasureResult_Distance_Set_distance</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="791"><highlight class="normal"></highlight></codeline>
+<codeline lineno="792"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>a<sp/>separate<sp/>field<sp/>because<sp/>it<sp/>can<sp/>be<sp/>negative.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="797" refid="MRFeatures_8h_1abd7713588c657994b95aa12d239c86cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abd7713588c657994b95aa12d239c86cf" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_distance</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="798"><highlight class="normal"></highlight></codeline>
+<codeline lineno="803" refid="MRFeatures_8h_1a0204e4f52618e689a0fbd22d4f7bed4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a0204e4f52618e689a0fbd22d4f7bed4e" kindref="member">MR_Features_MeasureResult_Distance_Get_closestPointA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="804"><highlight class="normal"></highlight></codeline>
+<codeline lineno="809" refid="MRFeatures_8h_1ad5cd8292e9076079b8d6204916cee50b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad5cd8292e9076079b8d6204916cee50b" kindref="member">MR_Features_MeasureResult_Distance_Set_closestPointA</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="810"><highlight class="normal"></highlight></codeline>
+<codeline lineno="815" refid="MRFeatures_8h_1aabdceed8fc2b58ecd98e102346389b79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1aabdceed8fc2b58ecd98e102346389b79" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_closestPointA</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="816"><highlight class="normal"></highlight></codeline>
+<codeline lineno="821" refid="MRFeatures_8h_1ab7033e058eb68cbaf70c6e5c2af247e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1ab7033e058eb68cbaf70c6e5c2af247e1" kindref="member">MR_Features_MeasureResult_Distance_Get_closestPointB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="822"><highlight class="normal"></highlight></codeline>
+<codeline lineno="827" refid="MRFeatures_8h_1a5cd671f3d90295fcd91bbae9719678df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a5cd671f3d90295fcd91bbae9719678df" kindref="member">MR_Features_MeasureResult_Distance_Set_closestPointB</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="828"><highlight class="normal"></highlight></codeline>
+<codeline lineno="833" refid="MRFeatures_8h_1afbe7804facd1423781a7d9a39c0fc2df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1afbe7804facd1423781a7d9a39c0fc2df" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_closestPointB</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="834"><highlight class="normal"></highlight></codeline>
+<codeline lineno="839" refid="MRFeatures_8h_1a5915ad030e5d10f97d390bedf23d426d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a5915ad030e5d10f97d390bedf23d426d" kindref="member">MR_Features_MeasureResult_Distance_Get_status</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="840"><highlight class="normal"></highlight></codeline>
+<codeline lineno="845" refid="MRFeatures_8h_1aa1af9001a49500d28945d89d94233296" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aa1af9001a49500d28945d89d94233296" kindref="member">MR_Features_MeasureResult_Distance_Set_status</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>value);</highlight></codeline>
+<codeline lineno="846"><highlight class="normal"></highlight></codeline>
+<codeline lineno="851" refid="MRFeatures_8h_1ac2ff028f08eb2462cabc2bac14bd7fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1ac2ff028f08eb2462cabc2bac14bd7fb5" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_status</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="852"><highlight class="normal"></highlight></codeline>
+<codeline lineno="855" refid="MRFeatures_8h_1aec889ced96c108cc5b5361729d94097f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1aec889ced96c108cc5b5361729d94097f" kindref="member">MR_Features_MeasureResult_Distance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="856"><highlight class="normal"></highlight></codeline>
-<codeline lineno="861" refid="MRFeatures_8h_1a5915ad030e5d10f97d390bedf23d426d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a5915ad030e5d10f97d390bedf23d426d" kindref="member">MR_Features_MeasureResult_Distance_Get_status</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="862"><highlight class="normal"></highlight></codeline>
-<codeline lineno="867" refid="MRFeatures_8h_1aa1af9001a49500d28945d89d94233296" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aa1af9001a49500d28945d89d94233296" kindref="member">MR_Features_MeasureResult_Distance_Set_status</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>value);</highlight></codeline>
-<codeline lineno="868"><highlight class="normal"></highlight></codeline>
-<codeline lineno="873" refid="MRFeatures_8h_1ac2ff028f08eb2462cabc2bac14bd7fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1ac2ff028f08eb2462cabc2bac14bd7fb5" kindref="member">MR_Features_MeasureResult_Distance_GetMutable_status</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="860" refid="MRFeatures_8h_1a9801beb908b169079ea8fa96ae8c759c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9801beb908b169079ea8fa96ae8c759c" kindref="member">MR_Features_MeasureResult_Distance_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="861"><highlight class="normal"></highlight></codeline>
+<codeline lineno="864" refid="MRFeatures_8h_1a492e748931f48c04bdbe38e29c242d88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a492e748931f48c04bdbe38e29c242d88" kindref="member">MR_Features_MeasureResult_Distance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="865"><highlight class="normal"></highlight></codeline>
+<codeline lineno="868" refid="MRFeatures_8h_1a9984d4449fe8ba8b8dc40333828446f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9984d4449fe8ba8b8dc40333828446f6" kindref="member">MR_Features_MeasureResult_Distance_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="869"><highlight class="normal"></highlight></codeline>
+<codeline lineno="873" refid="MRFeatures_8h_1a93b1e871680923c6b5ae3f5be1f7b806" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a93b1e871680923c6b5ae3f5be1f7b806" kindref="member">MR_Features_MeasureResult_Distance_UpcastTo_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="874"><highlight class="normal"></highlight></codeline>
-<codeline lineno="877" refid="MRFeatures_8h_1aec889ced96c108cc5b5361729d94097f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1aec889ced96c108cc5b5361729d94097f" kindref="member">MR_Features_MeasureResult_Distance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="877" refid="MRFeatures_8h_1a6c302552fac20bbafea4bc7808862fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a6c302552fac20bbafea4bc7808862fb5" kindref="member">MR_Features_MeasureResult_Distance_MutableUpcastTo_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="878"><highlight class="normal"></highlight></codeline>
-<codeline lineno="882" refid="MRFeatures_8h_1a9801beb908b169079ea8fa96ae8c759c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9801beb908b169079ea8fa96ae8c759c" kindref="member">MR_Features_MeasureResult_Distance_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="883"><highlight class="normal"></highlight></codeline>
-<codeline lineno="886" refid="MRFeatures_8h_1a492e748931f48c04bdbe38e29c242d88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a492e748931f48c04bdbe38e29c242d88" kindref="member">MR_Features_MeasureResult_Distance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="887"><highlight class="normal"></highlight></codeline>
-<codeline lineno="890" refid="MRFeatures_8h_1a9984d4449fe8ba8b8dc40333828446f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9984d4449fe8ba8b8dc40333828446f6" kindref="member">MR_Features_MeasureResult_Distance_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="891"><highlight class="normal"></highlight></codeline>
-<codeline lineno="895" refid="MRFeatures_8h_1a93b1e871680923c6b5ae3f5be1f7b806" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a93b1e871680923c6b5ae3f5be1f7b806" kindref="member">MR_Features_MeasureResult_Distance_UpcastTo_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="896"><highlight class="normal"></highlight></codeline>
-<codeline lineno="899" refid="MRFeatures_8h_1a6c302552fac20bbafea4bc7808862fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a6c302552fac20bbafea4bc7808862fb5" kindref="member">MR_Features_MeasureResult_Distance_MutableUpcastTo_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="900"><highlight class="normal"></highlight></codeline>
-<codeline lineno="905" refid="MRFeatures_8h_1a9fa04d502c7f57f85b65a817f5484021" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9fa04d502c7f57f85b65a817f5484021" kindref="member">MR_Features_MeasureResult_Distance_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="906"><highlight class="normal"></highlight></codeline>
-<codeline lineno="908" refid="MRFeatures_8h_1a75c77c4104bfed5d168afce9d09bd9b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a75c77c4104bfed5d168afce9d09bd9b7" kindref="member">MR_Features_MeasureResult_Distance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="909"><highlight class="normal"></highlight></codeline>
-<codeline lineno="911" refid="MRFeatures_8h_1aa54d3bbdf035bfb4cacbca0ad08b7edd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aa54d3bbdf035bfb4cacbca0ad08b7edd" kindref="member">MR_Features_MeasureResult_Distance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="912"><highlight class="normal"></highlight></codeline>
-<codeline lineno="915" refid="MRFeatures_8h_1aaccd3d646e6f43d46817141cad7eb90d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aaccd3d646e6f43d46817141cad7eb90d" kindref="member">MR_Features_MeasureResult_Distance_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="916"><highlight class="normal"></highlight></codeline>
-<codeline lineno="923" refid="MRFeatures_8h_1a312fb9368ba80fe19a441961883c6a91" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a312fb9368ba80fe19a441961883c6a91" kindref="member">MR_Features_MeasureResult_Distance_AssignFromAnother</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="924"><highlight class="normal"></highlight></codeline>
-<codeline lineno="927" refid="MRFeatures_8h_1a42c32d2d5fd95c288b3b438f0b3852de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRFeatures_8h_1a42c32d2d5fd95c288b3b438f0b3852de" kindref="member">MR_Features_MeasureResult_Distance_closestPointFor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
-<codeline lineno="928"><highlight class="normal"></highlight></codeline>
-<codeline lineno="931" refid="MRFeatures_8h_1a2a43c16fda43c06268f55f0251bfc96d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a2a43c16fda43c06268f55f0251bfc96d" kindref="member">MR_Features_MeasureResult_Distance_distanceAlongAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
-<codeline lineno="932"><highlight class="normal"></highlight></codeline>
-<codeline lineno="935" refid="MRFeatures_8h_1a7785af7a625ccaf59836d4086e312ac0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a7785af7a625ccaf59836d4086e312ac0" kindref="member">MR_Features_MeasureResult_Distance_distanceAlongAxisAbs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
-<codeline lineno="936"><highlight class="normal"></highlight></codeline>
-<codeline lineno="941" refid="MRFeatures_8h_1a10ca712cf76345a67d0d27a6292ad7bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a10ca712cf76345a67d0d27a6292ad7bd" kindref="member">MR_Features_MeasureResult_Angle_Get_pointA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="942"><highlight class="normal"></highlight></codeline>
-<codeline lineno="947" refid="MRFeatures_8h_1ad1a07c239647828822d4a037fede936a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad1a07c239647828822d4a037fede936a" kindref="member">MR_Features_MeasureResult_Angle_Set_pointA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="948"><highlight class="normal"></highlight></codeline>
-<codeline lineno="953" refid="MRFeatures_8h_1a4a8ad0a660dc76adbed7f4009bd42abc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a4a8ad0a660dc76adbed7f4009bd42abc" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_pointA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="954"><highlight class="normal"></highlight></codeline>
-<codeline lineno="959" refid="MRFeatures_8h_1acf2cde708495b588b5444f94709a7a11" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1acf2cde708495b588b5444f94709a7a11" kindref="member">MR_Features_MeasureResult_Angle_Get_pointB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="960"><highlight class="normal"></highlight></codeline>
-<codeline lineno="965" refid="MRFeatures_8h_1aed10db042dfc53e9d7fefcabc2b553f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aed10db042dfc53e9d7fefcabc2b553f6" kindref="member">MR_Features_MeasureResult_Angle_Set_pointB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="966"><highlight class="normal"></highlight></codeline>
-<codeline lineno="971" refid="MRFeatures_8h_1a728ca9151b8871079f2cc04d0760b97e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a728ca9151b8871079f2cc04d0760b97e" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_pointB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="972"><highlight class="normal"></highlight></codeline>
-<codeline lineno="973"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="978" refid="MRFeatures_8h_1a0e3dbdb915bef3c06ec1920fe8372fef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a0e3dbdb915bef3c06ec1920fe8372fef" kindref="member">MR_Features_MeasureResult_Angle_Get_dirA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="979"><highlight class="normal"></highlight></codeline>
-<codeline lineno="980"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="985" refid="MRFeatures_8h_1ad3c405d29bcf8a67756891fad645ce13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad3c405d29bcf8a67756891fad645ce13" kindref="member">MR_Features_MeasureResult_Angle_Set_dirA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="986"><highlight class="normal"></highlight></codeline>
-<codeline lineno="987"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="992" refid="MRFeatures_8h_1a625377db01142c8981a8052225a3a8d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a625377db01142c8981a8052225a3a8d9" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_dirA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="993"><highlight class="normal"></highlight></codeline>
-<codeline lineno="994"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="999" refid="MRFeatures_8h_1afcc189e3ab0cfa3cbb33c99078b2ef93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1afcc189e3ab0cfa3cbb33c99078b2ef93" kindref="member">MR_Features_MeasureResult_Angle_Get_dirB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1000"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1001"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1006" refid="MRFeatures_8h_1a18bbaf7929cbbd2c2182b676c44694c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a18bbaf7929cbbd2c2182b676c44694c2" kindref="member">MR_Features_MeasureResult_Angle_Set_dirB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
-<codeline lineno="1007"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1008"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="1013" refid="MRFeatures_8h_1a1581bc0a4e884ac4a70d5ee8419806d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a1581bc0a4e884ac4a70d5ee8419806d0" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_dirB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1014"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1020" refid="MRFeatures_8h_1aecd1892a1f291458a3b11d588fd40237" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1aecd1892a1f291458a3b11d588fd40237" kindref="member">MR_Features_MeasureResult_Angle_Get_isSurfaceNormalA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1021"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1026" refid="MRFeatures_8h_1a5d05749be54b0f360cc81299bfe6afa6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a5d05749be54b0f360cc81299bfe6afa6" kindref="member">MR_Features_MeasureResult_Angle_Set_isSurfaceNormalA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="1027"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1033" refid="MRFeatures_8h_1abe9098e0b2865161d9bc3917c00dc05b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abe9098e0b2865161d9bc3917c00dc05b" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_isSurfaceNormalA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="883" refid="MRFeatures_8h_1aa1e3f362f9bc5e959bbbc7ec2375de91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1aa1e3f362f9bc5e959bbbc7ec2375de91" kindref="member">MR_Features_MeasureResult_Distance_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="884"><highlight class="normal"></highlight></codeline>
+<codeline lineno="888" refid="MRFeatures_8h_1a44a736fead870e4d341cab414c72811e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a44a736fead870e4d341cab414c72811e" kindref="member">MR_Features_MeasureResult_Distance_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="889"><highlight class="normal"></highlight></codeline>
+<codeline lineno="894" refid="MRFeatures_8h_1a9fa04d502c7f57f85b65a817f5484021" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a9fa04d502c7f57f85b65a817f5484021" kindref="member">MR_Features_MeasureResult_Distance_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="895"><highlight class="normal"></highlight></codeline>
+<codeline lineno="897" refid="MRFeatures_8h_1a75c77c4104bfed5d168afce9d09bd9b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a75c77c4104bfed5d168afce9d09bd9b7" kindref="member">MR_Features_MeasureResult_Distance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="898"><highlight class="normal"></highlight></codeline>
+<codeline lineno="900" refid="MRFeatures_8h_1aa54d3bbdf035bfb4cacbca0ad08b7edd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aa54d3bbdf035bfb4cacbca0ad08b7edd" kindref="member">MR_Features_MeasureResult_Distance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="901"><highlight class="normal"></highlight></codeline>
+<codeline lineno="904" refid="MRFeatures_8h_1aaccd3d646e6f43d46817141cad7eb90d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aaccd3d646e6f43d46817141cad7eb90d" kindref="member">MR_Features_MeasureResult_Distance_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="905"><highlight class="normal"></highlight></codeline>
+<codeline lineno="912" refid="MRFeatures_8h_1a312fb9368ba80fe19a441961883c6a91" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*<ref refid="MRFeatures_8h_1a312fb9368ba80fe19a441961883c6a91" kindref="member">MR_Features_MeasureResult_Distance_AssignFromAnother</ref>(<ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="913"><highlight class="normal"></highlight></codeline>
+<codeline lineno="916" refid="MRFeatures_8h_1a42c32d2d5fd95c288b3b438f0b3852de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRFeatures_8h_1a42c32d2d5fd95c288b3b438f0b3852de" kindref="member">MR_Features_MeasureResult_Distance_closestPointFor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="917"><highlight class="normal"></highlight></codeline>
+<codeline lineno="920" refid="MRFeatures_8h_1a2a43c16fda43c06268f55f0251bfc96d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a2a43c16fda43c06268f55f0251bfc96d" kindref="member">MR_Features_MeasureResult_Distance_distanceAlongAxis</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="921"><highlight class="normal"></highlight></codeline>
+<codeline lineno="924" refid="MRFeatures_8h_1a7785af7a625ccaf59836d4086e312ac0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a7785af7a625ccaf59836d4086e312ac0" kindref="member">MR_Features_MeasureResult_Distance_distanceAlongAxisAbs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a215b95ccd1a4c5ef3ad0fde9a5566ce9" kindref="member">MR_Features_MeasureResult_Distance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="925"><highlight class="normal"></highlight></codeline>
+<codeline lineno="930" refid="MRFeatures_8h_1a10ca712cf76345a67d0d27a6292ad7bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a10ca712cf76345a67d0d27a6292ad7bd" kindref="member">MR_Features_MeasureResult_Angle_Get_pointA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="931"><highlight class="normal"></highlight></codeline>
+<codeline lineno="936" refid="MRFeatures_8h_1ad1a07c239647828822d4a037fede936a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad1a07c239647828822d4a037fede936a" kindref="member">MR_Features_MeasureResult_Angle_Set_pointA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="937"><highlight class="normal"></highlight></codeline>
+<codeline lineno="942" refid="MRFeatures_8h_1a4a8ad0a660dc76adbed7f4009bd42abc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a4a8ad0a660dc76adbed7f4009bd42abc" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_pointA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="943"><highlight class="normal"></highlight></codeline>
+<codeline lineno="948" refid="MRFeatures_8h_1acf2cde708495b588b5444f94709a7a11" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1acf2cde708495b588b5444f94709a7a11" kindref="member">MR_Features_MeasureResult_Angle_Get_pointB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="949"><highlight class="normal"></highlight></codeline>
+<codeline lineno="954" refid="MRFeatures_8h_1aed10db042dfc53e9d7fefcabc2b553f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1aed10db042dfc53e9d7fefcabc2b553f6" kindref="member">MR_Features_MeasureResult_Angle_Set_pointB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="955"><highlight class="normal"></highlight></codeline>
+<codeline lineno="960" refid="MRFeatures_8h_1a728ca9151b8871079f2cc04d0760b97e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a728ca9151b8871079f2cc04d0760b97e" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_pointB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="961"><highlight class="normal"></highlight></codeline>
+<codeline lineno="962"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="967" refid="MRFeatures_8h_1a0e3dbdb915bef3c06ec1920fe8372fef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a0e3dbdb915bef3c06ec1920fe8372fef" kindref="member">MR_Features_MeasureResult_Angle_Get_dirA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="968"><highlight class="normal"></highlight></codeline>
+<codeline lineno="969"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="974" refid="MRFeatures_8h_1ad3c405d29bcf8a67756891fad645ce13" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad3c405d29bcf8a67756891fad645ce13" kindref="member">MR_Features_MeasureResult_Angle_Set_dirA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="975"><highlight class="normal"></highlight></codeline>
+<codeline lineno="976"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Normalized.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="981" refid="MRFeatures_8h_1a625377db01142c8981a8052225a3a8d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a625377db01142c8981a8052225a3a8d9" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_dirA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="982"><highlight class="normal"></highlight></codeline>
+<codeline lineno="983"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="988" refid="MRFeatures_8h_1afcc189e3ab0cfa3cbb33c99078b2ef93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1afcc189e3ab0cfa3cbb33c99078b2ef93" kindref="member">MR_Features_MeasureResult_Angle_Get_dirB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="989"><highlight class="normal"></highlight></codeline>
+<codeline lineno="990"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="995" refid="MRFeatures_8h_1a18bbaf7929cbbd2c2182b676c44694c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a18bbaf7929cbbd2c2182b676c44694c2" kindref="member">MR_Features_MeasureResult_Angle_Set_dirB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="996"><highlight class="normal"></highlight></codeline>
+<codeline lineno="997"><highlight class="normal"></highlight><highlight class="comment">//<sp/>^</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1002" refid="MRFeatures_8h_1a1581bc0a4e884ac4a70d5ee8419806d0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRFeatures_8h_1a1581bc0a4e884ac4a70d5ee8419806d0" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_dirB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1003"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1009" refid="MRFeatures_8h_1aecd1892a1f291458a3b11d588fd40237" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1aecd1892a1f291458a3b11d588fd40237" kindref="member">MR_Features_MeasureResult_Angle_Get_isSurfaceNormalA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1010"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1015" refid="MRFeatures_8h_1a5d05749be54b0f360cc81299bfe6afa6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a5d05749be54b0f360cc81299bfe6afa6" kindref="member">MR_Features_MeasureResult_Angle_Set_isSurfaceNormalA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="1016"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1022" refid="MRFeatures_8h_1abe9098e0b2865161d9bc3917c00dc05b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abe9098e0b2865161d9bc3917c00dc05b" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_isSurfaceNormalA</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1023"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1028" refid="MRFeatures_8h_1abd10c6aa2a322bf590403fab5eeec3fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abd10c6aa2a322bf590403fab5eeec3fd" kindref="member">MR_Features_MeasureResult_Angle_Get_isSurfaceNormalB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1029"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1033" refid="MRFeatures_8h_1acc0ac5bf4259278994f04b8de48f7e88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1acc0ac5bf4259278994f04b8de48f7e88" kindref="member">MR_Features_MeasureResult_Angle_Set_isSurfaceNormalB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="1034"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1039" refid="MRFeatures_8h_1abd10c6aa2a322bf590403fab5eeec3fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1abd10c6aa2a322bf590403fab5eeec3fd" kindref="member">MR_Features_MeasureResult_Angle_Get_isSurfaceNormalB</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1039" refid="MRFeatures_8h_1af162bdefd54b9c93d0c8f8346f9b09b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1af162bdefd54b9c93d0c8f8346f9b09b5" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_isSurfaceNormalB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="1040"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1044" refid="MRFeatures_8h_1acc0ac5bf4259278994f04b8de48f7e88" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1acc0ac5bf4259278994f04b8de48f7e88" kindref="member">MR_Features_MeasureResult_Angle_Set_isSurfaceNormalB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="1045"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1050" refid="MRFeatures_8h_1af162bdefd54b9c93d0c8f8346f9b09b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFeatures_8h_1af162bdefd54b9c93d0c8f8346f9b09b5" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_isSurfaceNormalB</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1051"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1056" refid="MRFeatures_8h_1a682540af2df72b7cf6077061606ac245" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a682540af2df72b7cf6077061606ac245" kindref="member">MR_Features_MeasureResult_Angle_Get_status</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1057"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1062" refid="MRFeatures_8h_1a98277cd7dec25a753d5cf6094b4fdcb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a98277cd7dec25a753d5cf6094b4fdcb9" kindref="member">MR_Features_MeasureResult_Angle_Set_status</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>value);</highlight></codeline>
-<codeline lineno="1063"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1068" refid="MRFeatures_8h_1a239126bfb9694b63112eef24376f6a1a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a239126bfb9694b63112eef24376f6a1a" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_status</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="1069"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1072" refid="MRFeatures_8h_1a8b66a3dc1652fe65d0675f6d9cb1e0fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a8b66a3dc1652fe65d0675f6d9cb1e0fe" kindref="member">MR_Features_MeasureResult_Angle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1073"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1077" refid="MRFeatures_8h_1ad2e4bf02987b8290fd9139610117e770" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1ad2e4bf02987b8290fd9139610117e770" kindref="member">MR_Features_MeasureResult_Angle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="1078"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1081" refid="MRFeatures_8h_1aa3985dfcf673e1ca7ab6f756e67ef02b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1aa3985dfcf673e1ca7ab6f756e67ef02b" kindref="member">MR_Features_MeasureResult_Angle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1082"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1085" refid="MRFeatures_8h_1a85cbf1fec7d6fbbc44ea90cf739142af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a85cbf1fec7d6fbbc44ea90cf739142af" kindref="member">MR_Features_MeasureResult_Angle_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="1086"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1090" refid="MRFeatures_8h_1ad1a0415d4c1a8885d66141ac982fe72d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1ad1a0415d4c1a8885d66141ac982fe72d" kindref="member">MR_Features_MeasureResult_Angle_UpcastTo_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="1091"><highlight class="normal"></highlight></codeline>
-<codeline lineno="1094" refid="MRFeatures_8h_1a6e3c40b51169fa53ead49106267f571a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a6e3c40b51169fa53ead49106267f571a" kindref="member">MR_Features_MeasureResult_Angle_MutableUpcastTo_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1045" refid="MRFeatures_8h_1a682540af2df72b7cf6077061606ac245" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a682540af2df72b7cf6077061606ac245" kindref="member">MR_Features_MeasureResult_Angle_Get_status</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1046"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1051" refid="MRFeatures_8h_1a98277cd7dec25a753d5cf6094b4fdcb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a98277cd7dec25a753d5cf6094b4fdcb9" kindref="member">MR_Features_MeasureResult_Angle_Set_status</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this,<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>value);</highlight></codeline>
+<codeline lineno="1052"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1057" refid="MRFeatures_8h_1a239126bfb9694b63112eef24376f6a1a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a67c95ec0c15eaa868b73681ab0fc7c53" kindref="member">MR_Features_MeasureResult_Status</ref><sp/>*<ref refid="MRFeatures_8h_1a239126bfb9694b63112eef24376f6a1a" kindref="member">MR_Features_MeasureResult_Angle_GetMutable_status</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="1058"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1061" refid="MRFeatures_8h_1a8b66a3dc1652fe65d0675f6d9cb1e0fe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a8b66a3dc1652fe65d0675f6d9cb1e0fe" kindref="member">MR_Features_MeasureResult_Angle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1062"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1066" refid="MRFeatures_8h_1ad2e4bf02987b8290fd9139610117e770" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1ad2e4bf02987b8290fd9139610117e770" kindref="member">MR_Features_MeasureResult_Angle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="1067"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1070" refid="MRFeatures_8h_1aa3985dfcf673e1ca7ab6f756e67ef02b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1aa3985dfcf673e1ca7ab6f756e67ef02b" kindref="member">MR_Features_MeasureResult_Angle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1071"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1074" refid="MRFeatures_8h_1a85cbf1fec7d6fbbc44ea90cf739142af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a85cbf1fec7d6fbbc44ea90cf739142af" kindref="member">MR_Features_MeasureResult_Angle_OffsetMutablePtr</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="1075"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1079" refid="MRFeatures_8h_1ad1a0415d4c1a8885d66141ac982fe72d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1ad1a0415d4c1a8885d66141ac982fe72d" kindref="member">MR_Features_MeasureResult_Angle_UpcastTo_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1080"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1083" refid="MRFeatures_8h_1a6e3c40b51169fa53ead49106267f571a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*<ref refid="MRFeatures_8h_1a6e3c40b51169fa53ead49106267f571a" kindref="member">MR_Features_MeasureResult_Angle_MutableUpcastTo_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1084"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1089" refid="MRFeatures_8h_1a5c4f040f25d2afbebc8afc1f674a159e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a5c4f040f25d2afbebc8afc1f674a159e" kindref="member">MR_Features_MeasureResult_Angle_StaticDowncastFrom_MR_Features_MeasureResult_BasicPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="1090"><highlight class="normal"></highlight></codeline>
+<codeline lineno="1094" refid="MRFeatures_8h_1a0c511dc8f2b018fdae629d4d0c3b17c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a0c511dc8f2b018fdae629d4d0c3b17c4" kindref="member">MR_Features_MeasureResult_Angle_MutableStaticDowncastFrom_MR_Features_MeasureResult_BasicPart</ref>(<ref refid="MRFeatures_8h_1a8eb06d4b6cb7617bbe5b9543b753a1a9" kindref="member">MR_Features_MeasureResult_BasicPart</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="1095"><highlight class="normal"></highlight></codeline>
 <codeline lineno="1100" refid="MRFeatures_8h_1a81ac83cb09b0ccaac7952512364ddfc2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*<ref refid="MRFeatures_8h_1a81ac83cb09b0ccaac7952512364ddfc2" kindref="member">MR_Features_MeasureResult_Angle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1ad66d30b0f5fc1048949a7a5dfadb69ca" kindref="member">MR_Features_MeasureResult_Angle</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="1101"><highlight class="normal"></highlight></codeline>

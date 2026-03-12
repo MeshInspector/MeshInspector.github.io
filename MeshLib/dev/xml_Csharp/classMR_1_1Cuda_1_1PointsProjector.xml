@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1PointsProjector" kind="class" language="C#" prot="public">
+    <compoundname>MR::Cuda::PointsProjector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Cuda.Const_PointsProjector</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a526fefc1ce55ab3078decd7fb0bfcada" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Cuda.PointsProjector.operator MR.IPointsProjector</definition>
+        <argsstring>(PointsProjector self)</argsstring>
+        <name>operator MR.IPointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.operator MR.IPointsProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="122" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a06ccb73e2c6d4072be65379597e3ed18" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.Cuda.PointsProjector.operator PointsProjector?</definition>
+        <argsstring>(MR.IPointsProjector parent)</argsstring>
+        <name>operator PointsProjector?</name>
+        <qualifiedname>MR.Cuda.PointsProjector.operator PointsProjector?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IPointsProjector" kindref="compound">MR.IPointsProjector</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="132" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="132" bodyend="141"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a1b7fde42413f50e68d474e477d65ed59" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.PointsProjector.PointsProjector</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.PointsProjector</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="143" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="143" bodyend="143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.PointsProjector.PointsProjector</definition>
+        <argsstring>()</argsstring>
+        <name>PointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.PointsProjector</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="148" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="148" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a2c38207bc994ab88ce6947c75fa2d286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cuda.PointsProjector.PointsProjector</definition>
+        <argsstring>(MR.Cuda._ByValue_PointsProjector _other)</argsstring>
+        <name>PointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.PointsProjector</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_PointsProjector</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" kindref="member">MR.Cuda.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="158" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="158" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a0722839107f79a5f4e7595489332400a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.PointsProjector.PointsProjector</definition>
+        <argsstring>(Const_PointsProjector _other)</argsstring>
+        <name>PointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.PointsProjector</qualifiedname>
+        <param>
+          <type>Const_PointsProjector</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" kindref="member">MR.Cuda.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="169" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1aa9f52d5cbc95260813ee5d1523609a71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cuda.PointsProjector.PointsProjector</definition>
+        <argsstring>(PointsProjector _other)</argsstring>
+        <name>PointsProjector</name>
+        <qualifiedname>MR.Cuda.PointsProjector.PointsProjector</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">PointsProjector</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" kindref="member">MR.Cuda.PointsProjector.PointsProjector</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="174" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1a166217b21a96549dfd354e35616680f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">MR.Cuda.PointsProjector</ref></type>
+        <definition>unsafe MR.Cuda.PointsProjector MR.Cuda.PointsProjector.assign</definition>
+        <argsstring>(MR.Cuda._ByValue_PointsProjector _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Cuda.PointsProjector.assign</qualifiedname>
+        <param>
+          <type>MR.Cuda._ByValue_PointsProjector</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::Cuda::PointsProjector::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="179" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="179" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1acd3c4cbb3aa5663760ede1e6b7cd537c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Cuda.PointsProjector.setPointCloud</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud)</argsstring>
+        <name>setPointCloud</name>
+        <qualifiedname>MR.Cuda.PointsProjector.setPointCloud</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <briefdescription>
+<para>sets the reference point cloud Generated from method <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector_1acd3c4cbb3aa5663760ede1e6b7cd537c" kindref="member">MR.Cuda.PointsProjector.setPointCloud</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="192" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="192" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>CUDA-backed implementation of <ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref> Generated from class <computeroutput><ref refid="classMR_1_1Cuda_1_1PointsProjector" kindref="compound">MR.Cuda.PointsProjector</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1IPointsProjector" kindref="compound">MR.IPointsProjector</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.Cuda.PointsProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Cuda.Const_PointsProjector</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.Cuda.PointsProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Cuda.Const_PointsProjector</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" line="119" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaPointsProject.cs" bodystart="120" bodyend="200"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a166217b21a96549dfd354e35616680f0" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>assign</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a526fefc1ce55ab3078decd7fb0bfcada" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>operator MR.IPointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a06ccb73e2c6d4072be65379597e3ed18" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>operator PointsProjector?</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a1b7fde42413f50e68d474e477d65ed59" prot="package" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a2c38207bc994ab88ce6947c75fa2d286" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1a0722839107f79a5f4e7595489332400a" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1aa9f52d5cbc95260813ee5d1523609a71" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>PointsProjector</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1acd3c4cbb3aa5663760ede1e6b7cd537c" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>setPointCloud</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

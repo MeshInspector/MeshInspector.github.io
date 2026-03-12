@@ -156,8 +156,6 @@ $(function(){initNavTree('MRICP_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:aa86d0a68f94b902662dac996342124c4" id="r_aa86d0a68f94b902662dac996342124c4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a></td></tr>
-<tr class="memitem:a14018441923c91ddf9083a14ec99ae83" id="r_a14018441923c91ddf9083a14ec99ae83"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a></td></tr>
 <tr class="memitem:ad03951b131de611b1d9afcdace15f61d" id="r_ad03951b131de611b1d9afcdace15f61d"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad03951b131de611b1d9afcdace15f61d">MR_MeshOrPointsXf</a></td></tr>
 <tr class="memitem:a688de095aadd73180efe43123477f63f" id="r_a688de095aadd73180efe43123477f63f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a688de095aadd73180efe43123477f63f">MR_PointToPlaneAligningTransform</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a688de095aadd73180efe43123477f63f">MR_PointToPlaneAligningTransform</a></td></tr>
 <tr class="memitem:ab0d83ae2f35ff147b7fde65fb40816b7" id="r_ab0d83ae2f35ff147b7fde65fb40816b7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a></td></tr>
@@ -194,10 +192,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ac68870289b6aaa4973741de35b217eae" id="r_ac68870289b6aaa4973741de35b217eae"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac68870289b6aaa4973741de35b217eae">MR_ICPPairData_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> srcPoint, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> srcNorm, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> tgtPoint, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> tgtNorm, float distSq, float weight)</td></tr>
 <tr class="memitem:afcf1215f5a0525eec49edc64f24bf5a8" id="r_afcf1215f5a0525eec49edc64f24bf5a8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcf1215f5a0525eec49edc64f24bf5a8">MR_ICPPairData_OffsetPtr</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:aa491c9f870d28ac0bd01a15c11a02df3" id="r_aa491c9f870d28ac0bd01a15c11a02df3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa491c9f870d28ac0bd01a15c11a02df3">MR_ICPPairData_OffsetMutablePtr</a> (<a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a5de993af2b8f0604eeb51c2bbc25a32a" id="r_a5de993af2b8f0604eeb51c2bbc25a32a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5de993af2b8f0604eeb51c2bbc25a32a">MR_ICPPairData_StaticDowncastTo_MR_ICPGroupPair</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
-<tr class="memitem:a0c6ccd881b7ace03f491f65160382cff" id="r_a0c6ccd881b7ace03f491f65160382cff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c6ccd881b7ace03f491f65160382cff">MR_ICPPairData_MutableStaticDowncastTo_MR_ICPGroupPair</a> (<a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
-<tr class="memitem:a0db978a7d642143b9eb7025f1d4bb320" id="r_a0db978a7d642143b9eb7025f1d4bb320"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0db978a7d642143b9eb7025f1d4bb320">MR_ICPPairData_StaticDowncastTo_MR_PointPair</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
-<tr class="memitem:ac243be130f843d94a94147c09c25bfa2" id="r_ac243be130f843d94a94147c09c25bfa2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac243be130f843d94a94147c09c25bfa2">MR_ICPPairData_MutableStaticDowncastTo_MR_PointPair</a> (<a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
 <tr class="memitem:aea05f54e73863ab7b51cb4f576e3fd62" id="r_aea05f54e73863ab7b51cb4f576e3fd62"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea05f54e73863ab7b51cb4f576e3fd62">MR_ICPPairData_ConstructFromAnother</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *_other)</td></tr>
 <tr class="memitem:a2e6b4e80f43bbb0a972f94195019dc8a" id="r_a2e6b4e80f43bbb0a972f94195019dc8a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e6b4e80f43bbb0a972f94195019dc8a">MR_ICPPairData_Destroy</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *_this)</td></tr>
 <tr class="memdesc:a2e6b4e80f43bbb0a972f94195019dc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -241,6 +235,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a464e6c03c3603870c9e6863e73c71d50" id="r_a464e6c03c3603870c9e6863e73c71d50"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464e6c03c3603870c9e6863e73c71d50">MR_PointPair_OffsetMutablePtr</a> (<a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:ac454030722a73757dd39e4ddb96cae76" id="r_ac454030722a73757dd39e4ddb96cae76"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac454030722a73757dd39e4ddb96cae76">MR_PointPair_UpcastTo_MR_ICPPairData</a> (const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *object)</td></tr>
 <tr class="memitem:ad44cb50b217e93ee5598636ce7b8d912" id="r_ad44cb50b217e93ee5598636ce7b8d912"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad44cb50b217e93ee5598636ce7b8d912">MR_PointPair_MutableUpcastTo_MR_ICPPairData</a> (<a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *object)</td></tr>
+<tr class="memitem:a154f15f7c79091ab30909e333afeefa7" id="r_a154f15f7c79091ab30909e333afeefa7"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a154f15f7c79091ab30909e333afeefa7">MR_PointPair_StaticDowncastFrom_MR_ICPPairData</a> (const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
+<tr class="memitem:a9b0ff249c804c6e347e6d421044d87b0" id="r_a9b0ff249c804c6e347e6d421044d87b0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b0ff249c804c6e347e6d421044d87b0">MR_PointPair_MutableStaticDowncastFrom_MR_ICPPairData</a> (<a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *object)</td></tr>
 <tr class="memitem:a40c9f4fd64293c965410057bff7b577a" id="r_a40c9f4fd64293c965410057bff7b577a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a40c9f4fd64293c965410057bff7b577a">MR_PointPair_ConstructFromAnother</a> (const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *_other)</td></tr>
 <tr class="memitem:aa1a8f2b523c276455b67ac8b86f630be" id="r_aa1a8f2b523c276455b67ac8b86f630be"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a8f2b523c276455b67ac8b86f630be">MR_PointPair_Destroy</a> (const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> *_this)</td></tr>
 <tr class="memdesc:aa1a8f2b523c276455b67ac8b86f630be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -260,18 +256,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4498635a663dbccdd14674d81beb1516" id="r_a4498635a663dbccdd14674d81beb1516"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4498635a663dbccdd14674d81beb1516">MR_IPointPairs_size</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *_this)</td></tr>
 <tr class="memitem:a4f69fb1425e7ab9356d983aeac90d090" id="r_a4f69fb1425e7ab9356d983aeac90d090"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f69fb1425e7ab9356d983aeac90d090">MR_IPointPairs_OffsetPtr</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a4d2949a14111031eb0df3891a1fac5f2" id="r_a4d2949a14111031eb0df3891a1fac5f2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d2949a14111031eb0df3891a1fac5f2">MR_IPointPairs_OffsetMutablePtr</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:acadcef01c22c1af0b5cb6b2cf3b5ecb8" id="r_acadcef01c22c1af0b5cb6b2cf3b5ecb8"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acadcef01c22c1af0b5cb6b2cf3b5ecb8">MR_IPointPairs_StaticDowncastTo_MR_ICPGroupPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:acae495c095bb0794258637cb4f4d5838" id="r_acae495c095bb0794258637cb4f4d5838"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acae495c095bb0794258637cb4f4d5838">MR_IPointPairs_MutableStaticDowncastTo_MR_ICPGroupPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:affeb3bccb337da1992d1a9d1addd9019" id="r_affeb3bccb337da1992d1a9d1addd9019"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affeb3bccb337da1992d1a9d1addd9019">MR_IPointPairs_DynamicDowncastTo_MR_ICPGroupPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:a67b05b5ce40f1e28f48d09db56e739d0" id="r_a67b05b5ce40f1e28f48d09db56e739d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67b05b5ce40f1e28f48d09db56e739d0">MR_IPointPairs_MutableDynamicDowncastTo_MR_ICPGroupPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:a47cf0f003fdce834ef66b3ce5ccf293e" id="r_a47cf0f003fdce834ef66b3ce5ccf293e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47cf0f003fdce834ef66b3ce5ccf293e">MR_IPointPairs_DynamicDowncastToOrFail_MR_ICPGroupPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:aeddf44faafca3e0ca5fa2fa3b944e795" id="r_aeddf44faafca3e0ca5fa2fa3b944e795"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeddf44faafca3e0ca5fa2fa3b944e795">MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_ICPGroupPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:a85d431eb6e5fd935f4a5c9a8c8591b61" id="r_a85d431eb6e5fd935f4a5c9a8c8591b61"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85d431eb6e5fd935f4a5c9a8c8591b61">MR_IPointPairs_StaticDowncastTo_MR_PointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:a5904ae0b799d73cd8046ceec31d8854c" id="r_a5904ae0b799d73cd8046ceec31d8854c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5904ae0b799d73cd8046ceec31d8854c">MR_IPointPairs_MutableStaticDowncastTo_MR_PointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:adc15eae1febc2a8438a5e9af4fc62bc4" id="r_adc15eae1febc2a8438a5e9af4fc62bc4"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc15eae1febc2a8438a5e9af4fc62bc4">MR_IPointPairs_DynamicDowncastTo_MR_PointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:ae416eb6d28cb5c8e95a766af271f806e" id="r_ae416eb6d28cb5c8e95a766af271f806e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae416eb6d28cb5c8e95a766af271f806e">MR_IPointPairs_MutableDynamicDowncastTo_MR_PointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:ac97435691c4132dad31af150ca0d678b" id="r_ac97435691c4132dad31af150ca0d678b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac97435691c4132dad31af150ca0d678b">MR_IPointPairs_DynamicDowncastToOrFail_MR_PointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
-<tr class="memitem:ad1ab341a1de0ba9bd15d72ca6902ba14" id="r_ad1ab341a1de0ba9bd15d72ca6902ba14"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1ab341a1de0ba9bd15d72ca6902ba14">MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_PointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
 <tr class="memitem:adcee9739385750f6a8b6b0612dc30a79" id="r_adcee9739385750f6a8b6b0612dc30a79"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adcee9739385750f6a8b6b0612dc30a79">MR_PointPairs_Get_vec</a> (const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *_this)</td></tr>
 <tr class="memitem:a3655d65cf13b3399e8e851f3f05564da" id="r_a3655d65cf13b3399e8e851f3f05564da"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3655d65cf13b3399e8e851f3f05564da">MR_PointPairs_Set_vec</a> (<a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *_this, MR_PassBy value_pass_by, <a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a> *value)</td></tr>
 <tr class="memitem:afebad5b63e4bfbf38d7f1cd92ffb4121" id="r_afebad5b63e4bfbf38d7f1cd92ffb4121"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab0d83ae2f35ff147b7fde65fb40816b7">MR_std_vector_MR_PointPair</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afebad5b63e4bfbf38d7f1cd92ffb4121">MR_PointPairs_GetMutable_vec</a> (<a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *_this)</td></tr>
@@ -284,6 +268,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ac38df3412ad3bfa4da6a7806705f0a09" id="r_ac38df3412ad3bfa4da6a7806705f0a09"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac38df3412ad3bfa4da6a7806705f0a09">MR_PointPairs_OffsetMutablePtr</a> (<a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a47d1a7cbf55edb0f343f3e7dbda063e5" id="r_a47d1a7cbf55edb0f343f3e7dbda063e5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47d1a7cbf55edb0f343f3e7dbda063e5">MR_PointPairs_UpcastTo_MR_IPointPairs</a> (const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *object)</td></tr>
 <tr class="memitem:a011b3d4374d1241447b35138d01ecf1d" id="r_a011b3d4374d1241447b35138d01ecf1d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011b3d4374d1241447b35138d01ecf1d">MR_PointPairs_MutableUpcastTo_MR_IPointPairs</a> (<a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *object)</td></tr>
+<tr class="memitem:abfea33deb187368c80269ba76469854b" id="r_abfea33deb187368c80269ba76469854b"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfea33deb187368c80269ba76469854b">MR_PointPairs_StaticDowncastFrom_MR_IPointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
+<tr class="memitem:a7a85e424518168ca2a5e9bd3b8da7b8f" id="r_a7a85e424518168ca2a5e9bd3b8da7b8f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a85e424518168ca2a5e9bd3b8da7b8f">MR_PointPairs_MutableStaticDowncastFrom_MR_IPointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
+<tr class="memitem:a927c816fda3136f37ab0e48472c7333a" id="r_a927c816fda3136f37ab0e48472c7333a"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a927c816fda3136f37ab0e48472c7333a">MR_PointPairs_DynamicDowncastFrom_MR_IPointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
+<tr class="memitem:a7ff259805d90d27aa6381ffd27d13bc8" id="r_a7ff259805d90d27aa6381ffd27d13bc8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff259805d90d27aa6381ffd27d13bc8">MR_PointPairs_MutableDynamicDowncastFrom_MR_IPointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
+<tr class="memitem:a6ea7aa71bbcc9d9d028e14ad646c2ec5" id="r_a6ea7aa71bbcc9d9d028e14ad646c2ec5"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ea7aa71bbcc9d9d028e14ad646c2ec5">MR_PointPairs_DynamicDowncastFromOrFail_MR_IPointPairs</a> (const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
+<tr class="memitem:a88af5bd7b52244dbd0fee0f94b76245a" id="r_a88af5bd7b52244dbd0fee0f94b76245a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88af5bd7b52244dbd0fee0f94b76245a">MR_PointPairs_MutableDynamicDowncastFromOrFail_MR_IPointPairs</a> (<a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *object)</td></tr>
 <tr class="memitem:a3b6caa03878490c908c4993c433095d0" id="r_a3b6caa03878490c908c4993c433095d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b6caa03878490c908c4993c433095d0">MR_PointPairs_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *_other)</td></tr>
 <tr class="memitem:a2340f21f44fbc8f03a3b015a4b52a96f" id="r_a2340f21f44fbc8f03a3b015a4b52a96f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2340f21f44fbc8f03a3b015a4b52a96f">MR_PointPairs_Destroy</a> (const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> *_this)</td></tr>
 <tr class="memdesc:a2340f21f44fbc8f03a3b015a4b52a96f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -418,36 +408,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>This class allows you to register two object with similar shape using Iterative Closest Points (ICP) point-to-point or point-to-plane algorithms </p><div class="fragment"></div><!-- fragment --><p> Generated from class <span class="tt">MR::ICP</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="aa86d0a68f94b902662dac996342124c4" name="aa86d0a68f94b902662dac996342124c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa86d0a68f94b902662dac996342124c4">&#9670;&#160;</a></span>MR_ICPGroupPair</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::ICPGroupPair</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::ICPPairData</span> Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="a14018441923c91ddf9083a14ec99ae83" name="a14018441923c91ddf9083a14ec99ae83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14018441923c91ddf9083a14ec99ae83">&#9670;&#160;</a></span>MR_ICPGroupPairs</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::ICPGroupPairs</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::IPointPairs</span> Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -1976,42 +1936,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0c6ccd881b7ace03f491f65160382cff" name="a0c6ccd881b7ace03f491f65160382cff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c6ccd881b7ace03f491f65160382cff">&#9670;&#160;</a></span>MR_ICPPairData_MutableStaticDowncastTo_MR_ICPGroupPair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> * MR_ICPPairData_MutableStaticDowncastTo_MR_ICPGroupPair </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::ICPGroupPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="ac243be130f843d94a94147c09c25bfa2" name="ac243be130f843d94a94147c09c25bfa2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac243be130f843d94a94147c09c25bfa2">&#9670;&#160;</a></span>MR_ICPPairData_MutableStaticDowncastTo_MR_PointPair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> * MR_ICPPairData_MutableStaticDowncastTo_MR_PointPair </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::PointPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="aa491c9f870d28ac0bd01a15c11a02df3" name="aa491c9f870d28ac0bd01a15c11a02df3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa491c9f870d28ac0bd01a15c11a02df3">&#9670;&#160;</a></span>MR_ICPPairData_OffsetMutablePtr()</h2>
 
@@ -2185,42 +2109,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>weight of the pair (to prioritize over other pairs) Modifies a member variable of class <span class="tt">MR::ICPPairData</span> named <span class="tt">weight</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">weight</span>. </p>
-
-</div>
-</div>
-<a id="a5de993af2b8f0604eeb51c2bbc25a32a" name="a5de993af2b8f0604eeb51c2bbc25a32a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5de993af2b8f0604eeb51c2bbc25a32a">&#9670;&#160;</a></span>MR_ICPPairData_StaticDowncastTo_MR_ICPGroupPair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#aa86d0a68f94b902662dac996342124c4">MR_ICPGroupPair</a> * MR_ICPPairData_StaticDowncastTo_MR_ICPGroupPair </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::ICPGroupPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="a0db978a7d642143b9eb7025f1d4bb320" name="a0db978a7d642143b9eb7025f1d4bb320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0db978a7d642143b9eb7025f1d4bb320">&#9670;&#160;</a></span>MR_ICPPairData_StaticDowncastTo_MR_PointPair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> * MR_ICPPairData_StaticDowncastTo_MR_PointPair </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::PointPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -3188,78 +3076,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="affeb3bccb337da1992d1a9d1addd9019" name="affeb3bccb337da1992d1a9d1addd9019"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affeb3bccb337da1992d1a9d1addd9019">&#9670;&#160;</a></span>MR_IPointPairs_DynamicDowncastTo_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_DynamicDowncastTo_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="adc15eae1febc2a8438a5e9af4fc62bc4" name="adc15eae1febc2a8438a5e9af4fc62bc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc15eae1febc2a8438a5e9af4fc62bc4">&#9670;&#160;</a></span>MR_IPointPairs_DynamicDowncastTo_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_DynamicDowncastTo_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="a47cf0f003fdce834ef66b3ce5ccf293e" name="a47cf0f003fdce834ef66b3ce5ccf293e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47cf0f003fdce834ef66b3ce5ccf293e">&#9670;&#160;</a></span>MR_IPointPairs_DynamicDowncastToOrFail_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_DynamicDowncastToOrFail_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
-
-</div>
-</div>
-<a id="ac97435691c4132dad31af150ca0d678b" name="ac97435691c4132dad31af150ca0d678b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac97435691c4132dad31af150ca0d678b">&#9670;&#160;</a></span>MR_IPointPairs_DynamicDowncastToOrFail_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_DynamicDowncastToOrFail_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
-
-</div>
-</div>
 <a id="a99827481a6142e76baa3dcb33bac7356" name="a99827481a6142e76baa3dcb33bac7356"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a99827481a6142e76baa3dcb33bac7356">&#9670;&#160;</a></span>MR_IPointPairs_Get_active()</h2>
 
@@ -3339,114 +3155,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a67b05b5ce40f1e28f48d09db56e739d0" name="a67b05b5ce40f1e28f48d09db56e739d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67b05b5ce40f1e28f48d09db56e739d0">&#9670;&#160;</a></span>MR_IPointPairs_MutableDynamicDowncastTo_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_MutableDynamicDowncastTo_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="ae416eb6d28cb5c8e95a766af271f806e" name="ae416eb6d28cb5c8e95a766af271f806e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae416eb6d28cb5c8e95a766af271f806e">&#9670;&#160;</a></span>MR_IPointPairs_MutableDynamicDowncastTo_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_MutableDynamicDowncastTo_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="aeddf44faafca3e0ca5fa2fa3b944e795" name="aeddf44faafca3e0ca5fa2fa3b944e795"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeddf44faafca3e0ca5fa2fa3b944e795">&#9670;&#160;</a></span>MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
-
-</div>
-</div>
-<a id="ad1ab341a1de0ba9bd15d72ca6902ba14" name="ad1ab341a1de0ba9bd15d72ca6902ba14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1ab341a1de0ba9bd15d72ca6902ba14">&#9670;&#160;</a></span>MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_MutableDynamicDowncastToOrFail_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. vector of all point pairs both active and not Returns a pointer to a member variable of class <span class="tt">MR::PointPairs</span> named <span class="tt">vec</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
-
-</div>
-</div>
-<a id="acae495c095bb0794258637cb4f4d5838" name="acae495c095bb0794258637cb4f4d5838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acae495c095bb0794258637cb4f4d5838">&#9670;&#160;</a></span>MR_IPointPairs_MutableStaticDowncastTo_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_MutableStaticDowncastTo_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="a5904ae0b799d73cd8046ceec31d8854c" name="a5904ae0b799d73cd8046ceec31d8854c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5904ae0b799d73cd8046ceec31d8854c">&#9670;&#160;</a></span>MR_IPointPairs_MutableStaticDowncastTo_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_MutableStaticDowncastTo_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="a4d2949a14111031eb0df3891a1fac5f2" name="a4d2949a14111031eb0df3891a1fac5f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d2949a14111031eb0df3891a1fac5f2">&#9670;&#160;</a></span>MR_IPointPairs_OffsetMutablePtr()</h2>
 
@@ -3465,7 +3173,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. vector of all point pairs both active and not Returns a pointer to a member variable of class <span class="tt">MR::PointPairs</span> named <span class="tt">vec</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -3533,42 +3241,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::IPointPairs::size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
-
-</div>
-</div>
-<a id="acadcef01c22c1af0b5cb6b2cf3b5ecb8" name="acadcef01c22c1af0b5cb6b2cf3b5ecb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acadcef01c22c1af0b5cb6b2cf3b5ecb8">&#9670;&#160;</a></span>MR_IPointPairs_StaticDowncastTo_MR_ICPGroupPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a14018441923c91ddf9083a14ec99ae83">MR_ICPGroupPairs</a> * MR_IPointPairs_StaticDowncastTo_MR_ICPGroupPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::ICPGroupPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
-<a id="a85d431eb6e5fd935f4a5c9a8c8591b61" name="a85d431eb6e5fd935f4a5c9a8c8591b61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85d431eb6e5fd935f4a5c9a8c8591b61">&#9670;&#160;</a></span>MR_IPointPairs_StaticDowncastTo_MR_PointPairs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_IPointPairs_StaticDowncastTo_MR_PointPairs </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -4360,6 +4032,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a9b0ff249c804c6e347e6d421044d87b0" name="a9b0ff249c804c6e347e6d421044d87b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b0ff249c804c6e347e6d421044d87b0">&#9670;&#160;</a></span>MR_PointPair_MutableStaticDowncastFrom_MR_ICPPairData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> * MR_PointPair_MutableStaticDowncastFrom_MR_ICPPairData </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::PointPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="ad44cb50b217e93ee5598636ce7b8d912" name="ad44cb50b217e93ee5598636ce7b8d912"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad44cb50b217e93ee5598636ce7b8d912">&#9670;&#160;</a></span>MR_PointPair_MutableUpcastTo_MR_ICPPairData()</h2>
 
@@ -4642,6 +4332,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a154f15f7c79091ab30909e333afeefa7" name="a154f15f7c79091ab30909e333afeefa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a154f15f7c79091ab30909e333afeefa7">&#9670;&#160;</a></span>MR_PointPair_StaticDowncastFrom_MR_ICPPairData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#aa8fb09f97978d475d7ef247882fe1a0f">MR_PointPair</a> * MR_PointPair_StaticDowncastFrom_MR_ICPPairData </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#ab2dae85553b6362b2a20a5a8fd296776">MR_ICPPairData</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::ICPPairData</span> to a derived class <span class="tt">MR::PointPair</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="ac454030722a73757dd39e4ddb96cae76" name="ac454030722a73757dd39e4ddb96cae76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac454030722a73757dd39e4ddb96cae76">&#9670;&#160;</a></span>MR_PointPair_UpcastTo_MR_ICPPairData()</h2>
 
@@ -4783,6 +4491,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a927c816fda3136f37ab0e48472c7333a" name="a927c816fda3136f37ab0e48472c7333a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a927c816fda3136f37ab0e48472c7333a">&#9670;&#160;</a></span>MR_PointPairs_DynamicDowncastFrom_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_DynamicDowncastFrom_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a6ea7aa71bbcc9d9d028e14ad646c2ec5" name="a6ea7aa71bbcc9d9d028e14ad646c2ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea7aa71bbcc9d9d028e14ad646c2ec5">&#9670;&#160;</a></span>MR_PointPairs_DynamicDowncastFromOrFail_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_DynamicDowncastFromOrFail_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
 <a id="abc3f45ac37c5192cbc40b064d2c54790" name="abc3f45ac37c5192cbc40b064d2c54790"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc3f45ac37c5192cbc40b064d2c54790">&#9670;&#160;</a></span>MR_PointPairs_Get_active()</h2>
 
@@ -4895,6 +4639,60 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::PointPairs::operator[]</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7ff259805d90d27aa6381ffd27d13bc8" name="a7ff259805d90d27aa6381ffd27d13bc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ff259805d90d27aa6381ffd27d13bc8">&#9670;&#160;</a></span>MR_PointPairs_MutableDynamicDowncastFrom_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_MutableDynamicDowncastFrom_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a88af5bd7b52244dbd0fee0f94b76245a" name="a88af5bd7b52244dbd0fee0f94b76245a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88af5bd7b52244dbd0fee0f94b76245a">&#9670;&#160;</a></span>MR_PointPairs_MutableDynamicDowncastFromOrFail_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_MutableDynamicDowncastFromOrFail_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <span class="tt">object</span> can not be null. It is a single object. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+
+</div>
+</div>
+<a id="a7a85e424518168ca2a5e9bd3b8da7b8f" name="a7a85e424518168ca2a5e9bd3b8da7b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a85e424518168ca2a5e9bd3b8da7b8f">&#9670;&#160;</a></span>MR_PointPairs_MutableStaticDowncastFrom_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_MutableStaticDowncastFrom_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -5029,6 +4827,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Generated from method <span class="tt">MR::PointPairs::size</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
+
+</div>
+</div>
+<a id="abfea33deb187368c80269ba76469854b" name="abfea33deb187368c80269ba76469854b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfea33deb187368c80269ba76469854b">&#9670;&#160;</a></span>MR_PointPairs_StaticDowncastFrom_MR_IPointPairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#ace64b644cd16f032a1c9c962b32eb9ba">MR_PointPairs</a> * MR_PointPairs_StaticDowncastFrom_MR_IPointPairs </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#af68d1fd61d03ebb96110ae3f301b7648">MR_IPointPairs</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::IPointPairs</span> to a derived class <span class="tt">MR::PointPairs</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

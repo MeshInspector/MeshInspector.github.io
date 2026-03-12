@@ -6,6 +6,7 @@ var hierarchy =
     [ "MR.ColorMapAggregator_MRFaceTag", "classMR_1_1ColorMapAggregator__MRFaceTag.html", null ],
     [ "MR.ColorMapAggregator_MRUndirectedEdgeTag", "classMR_1_1ColorMapAggregator__MRUndirectedEdgeTag.html", null ],
     [ "MR.ColorMapAggregator_MRVertTag", "classMR_1_1ColorMapAggregator__MRVertTag.html", null ],
+    [ "MR.Cuda", "classMR_1_1Cuda.html", null ],
     [ "MR.DistanceMapLoad", "classMR_1_1DistanceMapLoad.html", null ],
     [ "MR.DistanceMapSave", "classMR_1_1DistanceMapSave.html", null ],
     [ "MR.Features", "classMR_1_1Features.html", null ],
@@ -2546,6 +2547,18 @@ var hierarchy =
       [ "MR.Const_ZeroOnMove_MRUint64T", null, [
         [ "MR.ZeroOnMove_MRUint64T", "classMR_1_1ZeroOnMove__MRUint64T.html", null ]
       ] ],
+      [ "MR.Cuda.Const_ComputeToolDistance", null, [
+        [ "MR.Cuda.ComputeToolDistance", "classMR_1_1Cuda_1_1ComputeToolDistance.html", null ]
+      ] ],
+      [ "MR.Cuda.Const_FastWindingNumber", null, [
+        [ "MR.Cuda.FastWindingNumber", "classMR_1_1Cuda_1_1FastWindingNumber.html", null ]
+      ] ],
+      [ "MR.Cuda.Const_PointsProjector", null, [
+        [ "MR.Cuda.PointsProjector", "classMR_1_1Cuda_1_1PointsProjector.html", null ]
+      ] ],
+      [ "MR.Cuda.Const_PointsToMeshProjector", null, [
+        [ "MR.Cuda.PointsToMeshProjector", "classMR_1_1Cuda_1_1PointsToMeshProjector.html", null ]
+      ] ],
       [ "MR.Features.Const_MeasureResult", null, [
         [ "MR.Features.MeasureResult", "classMR_1_1Features_1_1MeasureResult.html", null ]
       ] ],
@@ -2740,6 +2753,12 @@ var hierarchy =
       ] ],
       [ "MR.SelfIntersections.Const_Settings", null, [
         [ "MR.SelfIntersections.Settings", "classMR_1_1SelfIntersections_1_1Settings.html", null ]
+      ] ],
+      [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", null, [
+        [ "MR.Std.SharedPtr_MRCudaFastWindingNumber", "classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber.html", null ]
+      ] ],
+      [ "MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector", null, [
+        [ "MR.Std.SharedPtr_MRCudaPointsToMeshProjector", "classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector.html", null ]
       ] ],
       [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", null, [
         [ "MR.TriangulationHelpers.FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", null ]
@@ -4123,6 +4142,10 @@ var hierarchy =
       [ "MR.Const_XfBasedCache_MRBox3f", null, null ],
       [ "MR.Const_ZCompensateParams", null, null ],
       [ "MR.Const_ZeroOnMove_MRUint64T", null, null ],
+      [ "MR.Cuda.Const_ComputeToolDistance", null, null ],
+      [ "MR.Cuda.Const_FastWindingNumber", null, null ],
+      [ "MR.Cuda.Const_PointsProjector", null, null ],
+      [ "MR.Cuda.Const_PointsToMeshProjector", null, null ],
       [ "MR.Features.Const_MeasureResult", null, null ],
       [ "MR.Features.Const_SubfeatureInfo", null, null ],
       [ "MR.Features.Primitives.Const_ConeSegment", null, null ],
@@ -4188,6 +4211,8 @@ var hierarchy =
       [ "MR.SceneLoad.Const_Result", null, null ],
       [ "MR.SceneLoad.Const_Settings", null, null ],
       [ "MR.SelfIntersections.Const_Settings", null, null ],
+      [ "MR.Std.Const_SharedPtr_MRCudaFastWindingNumber", null, null ],
+      [ "MR.Std.Const_SharedPtr_MRCudaPointsToMeshProjector", null, null ],
       [ "MR.TriangulationHelpers.Const_FanOptimizerQueueElement", null, null ],
       [ "MR.TriangulationHelpers.Const_Settings", null, null ],
       [ "MR.TriangulationHelpers.Const_TriangulatedFanData", null, null ],
@@ -4212,6 +4237,7 @@ var hierarchy =
     [ "MR.Features.Primitives", "classMR_1_1Features_1_1Primitives.html", null ],
     [ "MR.SceneLoad", "classMR_1_1SceneLoad.html", null ],
     [ "MR.SelfIntersections", "classMR_1_1SelfIntersections.html", null ],
+    [ "MR.Std", "classMR_1_1Std.html", null ],
     [ "MR.FillingSurface.TPMS", "classMR_1_1FillingSurface_1_1TPMS.html", null ],
     [ "MR.Features.Traits", "classMR_1_1Features_1_1Traits.html", null ],
     [ "MR.TriangulationHelpers", "classMR_1_1TriangulationHelpers.html", null ],

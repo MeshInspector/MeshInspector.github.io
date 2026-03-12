@@ -163,6 +163,114 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="46" declcolumn="26"/>
       </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1af690a47cbe5b8bf5160c258425f80b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeScaleAction * MR_ChangeScaleAction_StaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_StaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="52" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="52" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a3615d1cd15f4ce41ceb3994b5f4af3c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_MutableStaticDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_MutableStaticDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="57" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="57" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a0d7b66d1a5dc978206e17d4ae335dc02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeScaleAction * MR_ChangeScaleAction_DynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_DynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="63" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="63" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a9ad068b6eec70971991744146f5adee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_MutableDynamicDowncastFrom_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="68" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="68" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1abc26495f52301d061b22de8bf1f422cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeScaleAction * MR_ChangeScaleAction_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(const MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_DynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="76" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="76" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1ad9e2bf4416aedf4dfdbe677d9c0cb595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
+        <argsstring>(MR_HistoryAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::HistoryAction</computeroutput> to a derived class <computeroutput>MR::ChangeScaleAction</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="83" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="83" declcolumn="30"/>
+      </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
         <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_Construct</definition>
@@ -191,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="56" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="56" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="93" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="93" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -209,7 +317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="96" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -227,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="62" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
@@ -253,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="69" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="69" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="106" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="106" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -271,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="74" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="74" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="111" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -293,7 +401,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="78" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API MR_uint64_t</type>
@@ -311,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="82" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="82" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="119" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="119" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -348,23 +456,35 @@
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46" refid="MRChangeScaleAction_8h_1a6ff3a0d245f3ae465ad9fc2c5080dc40" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a6ff3a0d245f3ae465ad9fc2c5080dc40" kindref="member">MR_ChangeScaleAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" kindref="member">MR_ChangeScaleAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale);</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" kindref="member">MR_ChangeScaleAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" kindref="member">MR_ChangeScaleAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" kindref="member">MR_ChangeScaleAction_AssignFromAnother</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" kindref="member">MR_ChangeScaleAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" kindref="member">MR_ChangeScaleAction_action</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" kindref="member">MR_ChangeScaleAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="52" refid="MRChangeScaleAction_8h_1af690a47cbe5b8bf5160c258425f80b44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1af690a47cbe5b8bf5160c258425f80b44" kindref="member">MR_ChangeScaleAction_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRChangeScaleAction_8h_1a3615d1cd15f4ce41ceb3994b5f4af3c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a3615d1cd15f4ce41ceb3994b5f4af3c8" kindref="member">MR_ChangeScaleAction_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRChangeScaleAction_8h_1a0d7b66d1a5dc978206e17d4ae335dc02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a0d7b66d1a5dc978206e17d4ae335dc02" kindref="member">MR_ChangeScaleAction_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRChangeScaleAction_8h_1a9ad068b6eec70971991744146f5adee2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a9ad068b6eec70971991744146f5adee2" kindref="member">MR_ChangeScaleAction_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRChangeScaleAction_8h_1abc26495f52301d061b22de8bf1f422cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1abc26495f52301d061b22de8bf1f422cc" kindref="member">MR_ChangeScaleAction_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRChangeScaleAction_8h_1ad9e2bf4416aedf4dfdbe677d9c0cb595" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1ad9e2bf4416aedf4dfdbe677d9c0cb595" kindref="member">MR_ChangeScaleAction_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" kindref="member">MR_ChangeScaleAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" kindref="member">MR_ChangeScaleAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" kindref="member">MR_ChangeScaleAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" kindref="member">MR_ChangeScaleAction_AssignFromAnother</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" kindref="member">MR_ChangeScaleAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" kindref="member">MR_ChangeScaleAction_action</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" kindref="member">MR_ChangeScaleAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h"/>
   </compounddef>

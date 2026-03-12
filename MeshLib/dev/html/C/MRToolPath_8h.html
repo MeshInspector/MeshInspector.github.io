@@ -252,8 +252,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a22d7c4f945518649c113063532361a55" id="r_a22d7c4f945518649c113063532361a55"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d7c4f945518649c113063532361a55">MR_ToolPathParams_ConstructFrom</a> (float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, <a class="el" href="#ade17d4030c84b3ff374c1a28719bff62">MR_BypassDirection</a> bypassDir, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *xf, bool flatTool, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, float toolpathExpansion, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *isolines, <a class="el" href="MRContour_8h.html#a79b88ecd897f6c27c8428cecc4a91f30">MR_std_vector_std_vector_MR_Vector3f</a> *startContours, <a class="el" href="MRBestFit_8h.html#aefed148a09a0ae55edbd22814638b462">MR_std_vector_MR_Vector3f</a> *startVertices, <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *offsetMesh)</td></tr>
 <tr class="memitem:a73a5c1dac5b8a69ce0df19335e0bf234" id="r_a73a5c1dac5b8a69ce0df19335e0bf234"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73a5c1dac5b8a69ce0df19335e0bf234">MR_ToolPathParams_OffsetPtr</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a83321a83b6c7a836bfcfc3acd74a9e71" id="r_a83321a83b6c7a836bfcfc3acd74a9e71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83321a83b6c7a836bfcfc3acd74a9e71">MR_ToolPathParams_OffsetMutablePtr</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a9852bc70866d903c7e50a4125c0b25ba" id="r_a9852bc70866d903c7e50a4125c0b25ba"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9852bc70866d903c7e50a4125c0b25ba">MR_ToolPathParams_StaticDowncastTo_MR_ConstantCuspParams</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *object)</td></tr>
-<tr class="memitem:a227f9a012f7e38f6bddb641941110d91" id="r_a227f9a012f7e38f6bddb641941110d91"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a227f9a012f7e38f6bddb641941110d91">MR_ToolPathParams_MutableStaticDowncastTo_MR_ConstantCuspParams</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *object)</td></tr>
 <tr class="memitem:a3460db1c3822fa0d4b4f80633a94a622" id="r_a3460db1c3822fa0d4b4f80633a94a622"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3460db1c3822fa0d4b4f80633a94a622">MR_ToolPathParams_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_other)</td></tr>
 <tr class="memitem:aae561b64b350b221a2a5471941f3a09a" id="r_aae561b64b350b221a2a5471941f3a09a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae561b64b350b221a2a5471941f3a09a">MR_ToolPathParams_Destroy</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *_this)</td></tr>
 <tr class="memdesc:aae561b64b350b221a2a5471941f3a09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -326,6 +324,8 @@ Functions</h2></td></tr>
 <tr class="memitem:aee7f34b47c764d2a881e254568bd5b53" id="r_aee7f34b47c764d2a881e254568bd5b53"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7f34b47c764d2a881e254568bd5b53">MR_ConstantCuspParams_OffsetMutablePtr</a> (<a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a3b22aef82967fdb5e787a3b8480f3696" id="r_a3b22aef82967fdb5e787a3b8480f3696"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b22aef82967fdb5e787a3b8480f3696">MR_ConstantCuspParams_UpcastTo_MR_ToolPathParams</a> (const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *object)</td></tr>
 <tr class="memitem:af8805427e656fabdfba7c05cc7da6e2e" id="r_af8805427e656fabdfba7c05cc7da6e2e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8805427e656fabdfba7c05cc7da6e2e">MR_ConstantCuspParams_MutableUpcastTo_MR_ToolPathParams</a> (<a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *object)</td></tr>
+<tr class="memitem:a4ddb8d80aa84c7f27a5cc8d22576a8bf" id="r_a4ddb8d80aa84c7f27a5cc8d22576a8bf"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ddb8d80aa84c7f27a5cc8d22576a8bf">MR_ConstantCuspParams_StaticDowncastFrom_MR_ToolPathParams</a> (const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *object)</td></tr>
+<tr class="memitem:a009030fa4ec600c1e961616088065e14" id="r_a009030fa4ec600c1e961616088065e14"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009030fa4ec600c1e961616088065e14">MR_ConstantCuspParams_MutableStaticDowncastFrom_MR_ToolPathParams</a> (<a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *object)</td></tr>
 <tr class="memitem:a478d5dbd6f3fbaed0e66e41f4c3db6f6" id="r_a478d5dbd6f3fbaed0e66e41f4c3db6f6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a478d5dbd6f3fbaed0e66e41f4c3db6f6">MR_ConstantCuspParams_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *_other)</td></tr>
 <tr class="memitem:a4a45ea7b37d236c9a3651f59e57059e5" id="r_a4a45ea7b37d236c9a3651f59e57059e5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a45ea7b37d236c9a3651f59e57059e5">MR_ConstantCuspParams_Destroy</a> (const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> *_this)</td></tr>
 <tr class="memdesc:a4a45ea7b37d236c9a3651f59e57059e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -1889,6 +1889,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a009030fa4ec600c1e961616088065e14" name="a009030fa4ec600c1e961616088065e14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a009030fa4ec600c1e961616088065e14">&#9670;&#160;</a></span>MR_ConstantCuspParams_MutableStaticDowncastFrom_MR_ToolPathParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> * MR_ConstantCuspParams_MutableStaticDowncastFrom_MR_ToolPathParams </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::ToolPathParams</span> to a derived class <span class="tt">MR::ConstantCuspParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
+
+</div>
+</div>
 <a id="af8805427e656fabdfba7c05cc7da6e2e" name="af8805427e656fabdfba7c05cc7da6e2e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8805427e656fabdfba7c05cc7da6e2e">&#9670;&#160;</a></span>MR_ConstantCuspParams_MutableUpcastTo_MR_ToolPathParams()</h2>
 
@@ -2393,6 +2411,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::ConstantCuspParams</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
+
+</div>
+</div>
+<a id="a4ddb8d80aa84c7f27a5cc8d22576a8bf" name="a4ddb8d80aa84c7f27a5cc8d22576a8bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ddb8d80aa84c7f27a5cc8d22576a8bf">&#9670;&#160;</a></span>MR_ConstantCuspParams_StaticDowncastFrom_MR_ToolPathParams()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> * MR_ConstantCuspParams_StaticDowncastFrom_MR_ToolPathParams </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Downcasts an instance of <span class="tt">MR::ToolPathParams</span> to a derived class <span class="tt">MR::ConstantCuspParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>
@@ -4497,24 +4533,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a227f9a012f7e38f6bddb641941110d91" name="a227f9a012f7e38f6bddb641941110d91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a227f9a012f7e38f6bddb641941110d91">&#9670;&#160;</a></span>MR_ToolPathParams_MutableStaticDowncastTo_MR_ConstantCuspParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> * MR_ToolPathParams_MutableStaticDowncastTo_MR_ConstantCuspParams </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ToolPathParams</span> to a derived class <span class="tt">MR::ConstantCuspParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="a83321a83b6c7a836bfcfc3acd74a9e71" name="a83321a83b6c7a836bfcfc3acd74a9e71"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83321a83b6c7a836bfcfc3acd74a9e71">&#9670;&#160;</a></span>MR_ToolPathParams_OffsetMutablePtr()</h2>
 
@@ -4979,24 +4997,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::ToolPathParams</span> named <span class="tt">xf</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">xf</span>. When this function is called, this object will drop object references it held previously in <span class="tt">xf</span>. </p>
-
-</div>
-</div>
-<a id="a9852bc70866d903c7e50a4125c0b25ba" name="a9852bc70866d903c7e50a4125c0b25ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9852bc70866d903c7e50a4125c0b25ba">&#9670;&#160;</a></span>MR_ToolPathParams_StaticDowncastTo_MR_ConstantCuspParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a719c074d2cbae47ffcae2252945d6daa">MR_ConstantCuspParams</a> * MR_ToolPathParams_StaticDowncastTo_MR_ConstantCuspParams </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="#a2976135c12ae6b4dd0d22d15205b3fe2">MR_ToolPathParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::ToolPathParams</span> to a derived class <span class="tt">MR::ConstantCuspParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

@@ -587,42 +587,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="160" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="160" declcolumn="45"/>
       </memberdef>
-      <memberdef kind="function" id="MRFillingSurface_8h_1af0f040854f3c5816e4d60637154fd630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
-        <definition>MRC_API const MR_FillingSurface_TPMS_MeshParams * MR_FillingSurface_TPMS_VolumeParams_StaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</definition>
-        <argsstring>(const MR_FillingSurface_TPMS_VolumeParams *object)</argsstring>
-        <name>MR_FillingSurface_TPMS_VolumeParams_StaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</name>
-        <param>
-          <type>const <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> to a derived class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="166" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="166" declcolumn="49"/>
-      </memberdef>
-      <memberdef kind="function" id="MRFillingSurface_8h_1ab1779fc23391e71e086eba462aa7b253" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
-        <definition>MRC_API MR_FillingSurface_TPMS_MeshParams * MR_FillingSurface_TPMS_VolumeParams_MutableStaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</definition>
-        <argsstring>(MR_FillingSurface_TPMS_VolumeParams *object)</argsstring>
-        <name>MR_FillingSurface_TPMS_VolumeParams_MutableStaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</name>
-        <param>
-          <type><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
-          <declname>object</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Downcasts an instance of <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> to a derived class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="171" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="171" declcolumn="43"/>
-      </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1afcca9d6f641c03d17961b44225477ef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
         <definition>MRC_API MR_FillingSurface_TPMS_VolumeParams * MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother</definition>
@@ -639,7 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="177" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="177" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="166" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="166" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -657,7 +621,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="180" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="169" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a33dc99f7bc7f56f07172f167e5eec325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -675,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="183" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="183" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="172" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a4ca9e21ca5d9b8b552a10d050ef7bea0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
@@ -697,7 +661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="191" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="191" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="180" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="180" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a464a608a3a30129c4b2a93238de05cce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -715,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="197" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="197" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="186" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="186" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1ae591ff97e80fbcca0bb7110d9fbe18cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -737,7 +701,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="202" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="191" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1af598d4008d03acbe282ce6da80d92f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -755,7 +719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="208" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="208" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="197" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="197" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a98f57491e4c3a3575c41c65c607d7224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -773,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="214" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="214" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="203" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="203" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1ad82cd598e11d14ce59ac1f542d4acb20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -795,7 +759,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="219" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="219" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a74785a5efb3835c64c922f5aa3eaabe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -813,7 +777,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="225" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="214" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1ac1df4844a81dbd2ba84b8f0003f76818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref> *</type>
@@ -831,7 +795,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="232" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="232" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="221" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="221" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1af6d25f56f305f564a8ca847df7265df9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -853,7 +817,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="239" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="239" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a1b5919b5c402c7d6a96fff4673973f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref> *</type>
@@ -871,7 +835,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="246" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="246" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="235" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="235" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1ab80281f33030b57cbe8c4b839756aad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -889,7 +853,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="253" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="253" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="242" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="242" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a1e83a88c556c42de69eec50fc7f12c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -911,7 +875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="259" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="259" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="248" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a16e2f3115b0a67f0d2099530e0fe683a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -929,7 +893,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="266" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="266" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="255" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="255" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a9b2c9def75563d9f9ce9f738ff02891d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const float *</type>
@@ -947,7 +911,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="273" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="273" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="262" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="262" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a1a07987b5ee23f9dd195ff9ddd54e444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -969,7 +933,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="279" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="268" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="268" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a2f8a1369dc3f6ff593933705223ac856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API float *</type>
@@ -987,7 +951,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="286" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="286" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="275" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="275" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a882c76abc85ab92ac4006e6b4eaf22e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
@@ -1004,7 +968,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="290" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="290" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="279" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="279" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a93919181a70b89b7b7423d863735d11b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
@@ -1022,7 +986,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="295" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="295" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="284" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="284" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a0bf051c8973386a4329f7298ec422d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
@@ -1044,7 +1008,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="299" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="299" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="288" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="288" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1abcd1ec728c4e45df0c1eb96a28b7ef75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
@@ -1066,7 +1030,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="303" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="303" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="292" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="292" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a597f62ae2f2eabba13cf69f10a89b6be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
@@ -1084,7 +1048,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="308" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="308" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="297" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="297" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1a9a838d5d504d1d2d62a0fd1cbe648743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
@@ -1102,7 +1066,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="312" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="312" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="301" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="301" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillingSurface_8h_1ac77b1586b12f8b375ca18227641c0742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
+        <definition>MRC_API const MR_FillingSurface_TPMS_MeshParams * MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</definition>
+        <argsstring>(const MR_FillingSurface_TPMS_VolumeParams *object)</argsstring>
+        <name>MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</name>
+        <param>
+          <type>const <ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> to a derived class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="307" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="307" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRFillingSurface_8h_1a6e57dbba78cd555799975eae2e2455eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
+        <definition>MRC_API MR_FillingSurface_TPMS_MeshParams * MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</definition>
+        <argsstring>(MR_FillingSurface_TPMS_VolumeParams *object)</argsstring>
+        <name>MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</name>
+        <param>
+          <type><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::FillingSurface::TPMS::VolumeParams</computeroutput> to a derived class <computeroutput>MR::FillingSurface::TPMS::MeshParams</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" line="312" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRFillingSurface.h" declline="312" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRFillingSurface_8h_1abdb226055edaaae7e240669c99e1e7cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref> *</type>
@@ -2191,68 +2191,68 @@
 <codeline lineno="157"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160" refid="MRFillingSurface_8h_1aa2eb24dd623e80286a15c16925ca4776" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1aa2eb24dd623e80286a15c16925ca4776" kindref="member">MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr</ref>(<ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRFillingSurface_8h_1af0f040854f3c5816e4d60637154fd630" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1af0f040854f3c5816e4d60637154fd630" kindref="member">MR_FillingSurface_TPMS_VolumeParams_StaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166" refid="MRFillingSurface_8h_1afcca9d6f641c03d17961b44225477ef0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1afcca9d6f641c03d17961b44225477ef0" kindref="member">MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRFillingSurface_8h_1ab1779fc23391e71e086eba462aa7b253" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1ab1779fc23391e71e086eba462aa7b253" kindref="member">MR_FillingSurface_TPMS_VolumeParams_MutableStaticDowncastTo_MR_FillingSurface_TPMS_MeshParams</ref>(<ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRFillingSurface_8h_1afcca9d6f641c03d17961b44225477ef0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1afcca9d6f641c03d17961b44225477ef0" kindref="member">MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" kindref="member">MR_FillingSurface_TPMS_VolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169" refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a2ad10b975cd76c36de04f97f6f10587d" kindref="member">MR_FillingSurface_TPMS_VolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRFillingSurface_8h_1a33dc99f7bc7f56f07172f167e5eec325" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a33dc99f7bc7f56f07172f167e5eec325" kindref="member">MR_FillingSurface_TPMS_VolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRFillingSurface_8h_1a4ca9e21ca5d9b8b552a10d050ef7bea0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a4ca9e21ca5d9b8b552a10d050ef7bea0" kindref="member">MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother</ref>(<ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRFillingSurface_8h_1a33dc99f7bc7f56f07172f167e5eec325" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a33dc99f7bc7f56f07172f167e5eec325" kindref="member">MR_FillingSurface_TPMS_VolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRFillingSurface_8h_1a4ca9e21ca5d9b8b552a10d050ef7bea0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a4ca9e21ca5d9b8b552a10d050ef7bea0" kindref="member">MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother</ref>(<ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="186" refid="MRFillingSurface_8h_1a464a608a3a30129c4b2a93238de05cce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a464a608a3a30129c4b2a93238de05cce" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_iso</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRFillingSurface_8h_1ae591ff97e80fbcca0bb7110d9fbe18cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ae591ff97e80fbcca0bb7110d9fbe18cd" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_iso</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRFillingSurface_8h_1a464a608a3a30129c4b2a93238de05cce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a464a608a3a30129c4b2a93238de05cce" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_iso</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="197" refid="MRFillingSurface_8h_1af598d4008d03acbe282ce6da80d92f3b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1af598d4008d03acbe282ce6da80d92f3b" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_iso</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRFillingSurface_8h_1ae591ff97e80fbcca0bb7110d9fbe18cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ae591ff97e80fbcca0bb7110d9fbe18cd" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_iso</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRFillingSurface_8h_1af598d4008d03acbe282ce6da80d92f3b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1af598d4008d03acbe282ce6da80d92f3b" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_iso</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203" refid="MRFillingSurface_8h_1a98f57491e4c3a3575c41c65c607d7224" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a98f57491e4c3a3575c41c65c607d7224" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_decimate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRFillingSurface_8h_1ad82cd598e11d14ce59ac1f542d4acb20" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ad82cd598e11d14ce59ac1f542d4acb20" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_decimate</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRFillingSurface_8h_1a98f57491e4c3a3575c41c65c607d7224" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a98f57491e4c3a3575c41c65c607d7224" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_decimate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214" refid="MRFillingSurface_8h_1a74785a5efb3835c64c922f5aa3eaabe3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a74785a5efb3835c64c922f5aa3eaabe3" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="MRFillingSurface_8h_1ad82cd598e11d14ce59ac1f542d4acb20" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ad82cd598e11d14ce59ac1f542d4acb20" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_decimate</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRFillingSurface_8h_1a74785a5efb3835c64c922f5aa3eaabe3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a74785a5efb3835c64c922f5aa3eaabe3" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRFillingSurface_8h_1ac1df4844a81dbd2ba84b8f0003f76818" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>*<ref refid="MRFillingSurface_8h_1ac1df4844a81dbd2ba84b8f0003f76818" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRFillingSurface_8h_1af6d25f56f305f564a8ca847df7265df9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1af6d25f56f305f564a8ca847df7265df9" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_type</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>value);</highlight></codeline>
-<codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="MRFillingSurface_8h_1a1b5919b5c402c7d6a96fff4673973f97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>*<ref refid="MRFillingSurface_8h_1a1b5919b5c402c7d6a96fff4673973f97" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_type</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRFillingSurface_8h_1ab80281f33030b57cbe8c4b839756aad9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1ab80281f33030b57cbe8c4b839756aad9" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_frequency</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRFillingSurface_8h_1a1e83a88c556c42de69eec50fc7f12c21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a1e83a88c556c42de69eec50fc7f12c21" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_frequency</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="260"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRFillingSurface_8h_1a16e2f3115b0a67f0d2099530e0fe683a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a16e2f3115b0a67f0d2099530e0fe683a" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRFillingSurface_8h_1a9b2c9def75563d9f9ce9f738ff02891d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a9b2c9def75563d9f9ce9f738ff02891d" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_resolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRFillingSurface_8h_1a1a07987b5ee23f9dd195ff9ddd54e444" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a1a07987b5ee23f9dd195ff9ddd54e444" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_resolution</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRFillingSurface_8h_1ac1df4844a81dbd2ba84b8f0003f76818" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>*<ref refid="MRFillingSurface_8h_1ac1df4844a81dbd2ba84b8f0003f76818" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRFillingSurface_8h_1af6d25f56f305f564a8ca847df7265df9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1af6d25f56f305f564a8ca847df7265df9" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_type</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>value);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Type<sp/>of<sp/>the<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235" refid="MRFillingSurface_8h_1a1b5919b5c402c7d6a96fff4673973f97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ae86ae655ee24778c5d70b3d523794514" kindref="member">MR_FillingSurface_TPMS_Type</ref><sp/>*<ref refid="MRFillingSurface_8h_1a1b5919b5c402c7d6a96fff4673973f97" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_type</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRFillingSurface_8h_1ab80281f33030b57cbe8c4b839756aad9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1ab80281f33030b57cbe8c4b839756aad9" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_frequency</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="MRFillingSurface_8h_1a1e83a88c556c42de69eec50fc7f12c21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a1e83a88c556c42de69eec50fc7f12c21" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_frequency</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Frequency<sp/>of<sp/>oscillations<sp/>(determines<sp/>size<sp/>of<sp/>the<sp/>&quot;cells&quot;<sp/>in<sp/>the<sp/>&quot;grid&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRFillingSurface_8h_1a16e2f3115b0a67f0d2099530e0fe683a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a16e2f3115b0a67f0d2099530e0fe683a" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRFillingSurface_8h_1a9b2c9def75563d9f9ce9f738ff02891d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a9b2c9def75563d9f9ce9f738ff02891d" kindref="member">MR_FillingSurface_TPMS_MeshParams_Get_resolution</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268" refid="MRFillingSurface_8h_1a1a07987b5ee23f9dd195ff9ddd54e444" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a1a07987b5ee23f9dd195ff9ddd54e444" kindref="member">MR_FillingSurface_TPMS_MeshParams_Set_resolution</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRFillingSurface_8h_1a2f8a1369dc3f6ff593933705223ac856" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a2f8a1369dc3f6ff593933705223ac856" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRFillingSurface_8h_1a882c76abc85ab92ac4006e6b4eaf22e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a882c76abc85ab92ac4006e6b4eaf22e8" kindref="member">MR_FillingSurface_TPMS_MeshParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="281"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Ratio<sp/>`n<sp/>/<sp/>T`,<sp/>between<sp/>the<sp/>number<sp/>of<sp/>voxels<sp/>and<sp/>period<sp/>of<sp/>oscillations</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRFillingSurface_8h_1a2f8a1369dc3f6ff593933705223ac856" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRFillingSurface_8h_1a2f8a1369dc3f6ff593933705223ac856" kindref="member">MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="290" refid="MRFillingSurface_8h_1a882c76abc85ab92ac4006e6b4eaf22e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a882c76abc85ab92ac4006e6b4eaf22e8" kindref="member">MR_FillingSurface_TPMS_MeshParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="291"><highlight class="normal"></highlight></codeline>
-<codeline lineno="295" refid="MRFillingSurface_8h_1a93919181a70b89b7b7423d863735d11b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a93919181a70b89b7b7423d863735d11b" kindref="member">MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="296"><highlight class="normal"></highlight></codeline>
-<codeline lineno="299" refid="MRFillingSurface_8h_1a0bf051c8973386a4329f7298ec422d6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a0bf051c8973386a4329f7298ec422d6e" kindref="member">MR_FillingSurface_TPMS_MeshParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="300"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303" refid="MRFillingSurface_8h_1abcd1ec728c4e45df0c1eb96a28b7ef75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1abcd1ec728c4e45df0c1eb96a28b7ef75" kindref="member">MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="304"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MRFillingSurface_8h_1a597f62ae2f2eabba13cf69f10a89b6be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a597f62ae2f2eabba13cf69f10a89b6be" kindref="member">MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="312" refid="MRFillingSurface_8h_1a9a838d5d504d1d2d62a0fd1cbe648743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a9a838d5d504d1d2d62a0fd1cbe648743" kindref="member">MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="284" refid="MRFillingSurface_8h_1a93919181a70b89b7b7423d863735d11b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a93919181a70b89b7b7423d863735d11b" kindref="member">MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="MRFillingSurface_8h_1a0bf051c8973386a4329f7298ec422d6e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a0bf051c8973386a4329f7298ec422d6e" kindref="member">MR_FillingSurface_TPMS_MeshParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="MRFillingSurface_8h_1abcd1ec728c4e45df0c1eb96a28b7ef75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1abcd1ec728c4e45df0c1eb96a28b7ef75" kindref="member">MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRFillingSurface_8h_1a597f62ae2f2eabba13cf69f10a89b6be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a597f62ae2f2eabba13cf69f10a89b6be" kindref="member">MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRFillingSurface_8h_1a9a838d5d504d1d2d62a0fd1cbe648743" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a9a838d5d504d1d2d62a0fd1cbe648743" kindref="member">MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams</ref>(<ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRFillingSurface_8h_1ac77b1586b12f8b375ca18227641c0742" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1ac77b1586b12f8b375ca18227641c0742" kindref="member">MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRFillingSurface_8h_1a6e57dbba78cd555799975eae2e2455eb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1a6e57dbba78cd555799975eae2e2455eb" kindref="member">MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</ref>(<ref refid="MRFillingSurface_8h_1a0b9839dfde3aa393d5c20e25f9d6b30e" kindref="member">MR_FillingSurface_TPMS_VolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight></codeline>
 <codeline lineno="318" refid="MRFillingSurface_8h_1abdb226055edaaae7e240669c99e1e7cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*<ref refid="MRFillingSurface_8h_1abdb226055edaaae7e240669c99e1e7cc" kindref="member">MR_FillingSurface_TPMS_MeshParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillingSurface_8h_1ac5722023b66951c9f1f6164dca48cecf" kindref="member">MR_FillingSurface_TPMS_MeshParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="319"><highlight class="normal"></highlight></codeline>

@@ -318,7 +318,6 @@ var dir_a3aa1b05a239568a771698a86e4943fe =
     [ "MRSolidOfRevolution.cs", "MRSolidOfRevolution_8cs.html", "MRSolidOfRevolution_8cs" ],
     [ "MRSphere.cs", "MRSphere_8cs.html", "MRSphere_8cs" ],
     [ "MRSphereObject.cs", "MRSphereObject_8cs.html", "MRSphereObject_8cs" ],
-    [ "MRStacktrace.cs", "MRStacktrace_8cs.html", "MRStacktrace_8cs" ],
     [ "MRString.cs", "MRString_8cs.html", "MRString_8cs" ],
     [ "MRStringConvert.cs", "MRStringConvert_8cs.html", "MRStringConvert_8cs" ],
     [ "MRSubfeatures.cs", "MRSubfeatures_8cs.html", "MRSubfeatures_8cs" ],

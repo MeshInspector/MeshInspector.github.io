@@ -288,6 +288,7 @@
     <innerclass refid="classMR_1_1CubicBezierCurve2f" prot="public">MR::CubicBezierCurve2f</innerclass>
     <innerclass refid="classMR_1_1CubicBezierCurve3d" prot="public">MR::CubicBezierCurve3d</innerclass>
     <innerclass refid="classMR_1_1CubicBezierCurve3f" prot="public">MR::CubicBezierCurve3f</innerclass>
+    <innerclass refid="classMR_1_1Cuda" prot="public">MR::Cuda</innerclass>
     <innerclass refid="classMR_1_1CurveFunc" prot="public">MR::CurveFunc</innerclass>
     <innerclass refid="classMR_1_1CurvePoint" prot="public">MR::CurvePoint</innerclass>
     <innerclass refid="classMR_1_1CutByProjectionSettings" prot="public">MR::CutByProjectionSettings</innerclass>
@@ -798,6 +799,7 @@
     <innerclass refid="classMR_1_1SphereParams" prot="public">MR::SphereParams</innerclass>
     <innerclass refid="classMR_1_1SplineSettings" prot="public">MR::SplineSettings</innerclass>
     <innerclass refid="classMR_1_1Src2TgtMaps" prot="public">MR::Src2TgtMaps</innerclass>
+    <innerclass refid="classMR_1_1Std" prot="public">MR::Std</innerclass>
     <innerclass refid="classMR_1_1StitchHolesParams" prot="public">MR::StitchHolesParams</innerclass>
     <innerclass refid="classMR_1_1SubdivideFillingSettings" prot="public">MR::SubdivideFillingSettings</innerclass>
     <innerclass refid="classMR_1_1SubdivideSettings" prot="public">MR::SubdivideSettings</innerclass>
@@ -29852,7 +29854,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="973" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="973" bodyend="984"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="975" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="975" bodyend="986"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4caaf3134b61a68a91cc39c03981fe9f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1PointsProjectionResult" kindref="compound">MR.PointsProjectionResult</ref></type>
@@ -29942,7 +29944,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="998" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="998" bodyend="1009"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1000" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1000" bodyend="1011"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a34ace263cc7717193368b5feb88f40fd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe void</type>
@@ -30018,7 +30020,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1020" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1020" bodyend="1031"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1022" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1022" bodyend="1033"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a185020c82b0426d0ac69008669539403" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Buffer__MRVertId" kindref="compound">MR.Buffer_MRVertId</ref></type>
@@ -30058,7 +30060,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1040" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1040" bodyend="1045"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1042" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1042" bodyend="1047"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae4279f65be29153c287e2a7e024e8bb1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Pair_MRVertId_MRVertId</type>
@@ -30082,7 +30084,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1052" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1052" bodyend="1057"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="1054" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="1054" bodyend="1059"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a4b729e0f6d24fd64e64e72975e185ade" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
@@ -30120,7 +30122,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="681" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="681" bodyend="686"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="683" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="683" bodyend="688"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abd05f9ea2095962bf0ef0e8046474237" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
@@ -30153,7 +30155,7 @@ element fields:<linebreak/>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="695" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="695" bodyend="700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" line="697" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsToMeshProjector.cs" bodystart="697" bodyend="702"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a27cff13c71cb8315c0eb2b10228c920e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Vector_MREdgePointPair</type>
@@ -34886,36 +34888,6 @@ Generated from function <computeroutput><ref refid="classMR_1a7bee34310b3afb4c48
         <inbodydescription>
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolidOfRevolution.cs" line="9" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSolidOfRevolution.cs" bodystart="9" bodyend="15"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a79a52d6dd4f662bf9425a092bb995711" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>unsafe MR.Std.String</type>
-        <definition>static unsafe MR.Std.String MR.getCurrentStacktraceInline</definition>
-        <argsstring>()</argsstring>
-        <name>getCurrentStacktraceInline</name>
-        <qualifiedname>MR.getCurrentStacktraceInline</qualifiedname>
-        <briefdescription>
-<para>returns string representation of the current stacktrace; the function is inlined, to put the code in any shared library; if std::stacktrace is first called from MRMesh.dll then it is not unloaded propely Generated from function <computeroutput><ref refid="classMR_1a79a52d6dd4f662bf9425a092bb995711" kindref="member">MR.getCurrentStacktraceInline</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRStacktrace.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRStacktrace.cs" bodystart="9" bodyend="14"/>
-      </memberdef>
-      <memberdef kind="function" id="classMR_1a761f067336a12b06cd35f747b18f52d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>static void MR.printStacktraceOnCrash</definition>
-        <argsstring>()</argsstring>
-        <name>printStacktraceOnCrash</name>
-        <qualifiedname>MR.printStacktraceOnCrash</qualifiedname>
-        <briefdescription>
-<para>Print stacktrace on application crash Generated from function <computeroutput><ref refid="classMR_1a761f067336a12b06cd35f747b18f52d8" kindref="member">MR.printStacktraceOnCrash</ref></computeroutput>. </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRStacktrace.cs" line="20" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRStacktrace.cs" bodystart="20" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1aac3d6d58d25b16699fed9e2501360681" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe ulong</type>
@@ -47516,7 +47488,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="464" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="464" bodyend="469"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="470" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="470" bodyend="475"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a9623658471711ae1c58641ba5dde3495" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="structMR_1_1Box3i" kindref="compound">MR.Box3i</ref></type>
@@ -47539,7 +47511,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="475" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="475" bodyend="483"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="481" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="481" bodyend="489"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a20ae4fbf8beabd84b04134301414aae2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -47558,7 +47530,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="490" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="490" bodyend="498"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="496" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="496" bodyend="504"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a251dd7e25fb5f2d77377880c5cf36742" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -47577,7 +47549,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="505" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="505" bodyend="513"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="511" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="511" bodyend="519"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ace79b64f5472c1fef1c74149c83f0bbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
@@ -47600,7 +47572,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="521" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="521" bodyend="529"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" line="527" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRSweptVolume.cs" bodystart="527" bodyend="535"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1a243e10210f7e6ab86cd3f27bc827b5e9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe MR.Std.Array_MRSimpleVolumeMinMax_3</type>
@@ -49009,7 +48981,7 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MR3mf.cs" line="1" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MR3mf.cs" bodystart="2" bodyend="40"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" line="1" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCCuda/MRCudaBasic.cs" bodystart="2" bodyend="90"/>
     <listofallmembers>
       <member refid="classMR_1aef0ee8fe3588faa4de9a796ce22ae505" prot="public" virt="non-virtual"><scope>MR</scope><name>accumulateFaceCenters</name></member>
       <member refid="classMR_1a4f71341fba37331253288984b2faf0fb" prot="public" virt="non-virtual"><scope>MR</scope><name>accumulateLineCenters</name></member>
@@ -50078,7 +50050,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a23679d1d1b5c203b5390187639bcf579" prot="public" virt="non-virtual"><scope>MR</scope><name>getCpuId</name></member>
       <member refid="classMR_1ad5cf1799c76938e5658e8e9f2fc3ef7c" prot="public" virt="non-virtual"><scope>MR</scope><name>getCrossedFaces</name></member>
       <member refid="classMR_1adb68534e2128242ce5c257b66b5bdb05" prot="public" virt="non-virtual"><scope>MR</scope><name>getCurrentStacktrace</name></member>
-      <member refid="classMR_1a79a52d6dd4f662bf9425a092bb995711" prot="public" virt="non-virtual"><scope>MR</scope><name>getCurrentStacktraceInline</name></member>
       <member refid="classMR_1a33a17bb8724b71fd9a8a8a94a6f429d0" prot="public" virt="non-virtual"><scope>MR</scope><name>getCurvePoint</name></member>
       <member refid="classMR_1ab1e365a53e228f35fe40ccc182ed58aa" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRObject</name></member>
       <member refid="classMR_1a0833877a94f2390a55293b2ed3914541" prot="public" virt="non-virtual"><scope>MR</scope><name>getDepthFirstObject_MRObjectDistanceMap</name></member>
@@ -50515,7 +50486,6 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a33feea88fc81b4c4c4fa00a17b7d1ad8" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsWithSpacing</name></member>
       <member refid="classMR_1aa512cd9ddb74ba663f526b55c0089878" prot="public" virt="non-virtual"><scope>MR</scope><name>positionVertsWithSpacing</name></member>
       <member refid="classMR_1a4c19c43b7bd5f0e99539690384965459" prot="public" virt="non-virtual"><scope>MR</scope><name>printCurrentTimerBranch</name></member>
-      <member refid="classMR_1a761f067336a12b06cd35f747b18f52d8" prot="public" virt="non-virtual"><scope>MR</scope><name>printStacktraceOnCrash</name></member>
       <member refid="classMR_1a5892108c7de4bafdce13783fffaba482" prot="public" virt="non-virtual"><scope>MR</scope><name>printTimingTree</name></member>
       <member refid="classMR_1ae8c3bac76eeb631b137e36573f8baa92" prot="public" virt="non-virtual"><scope>MR</scope><name>printTimingTreeAtEnd</name></member>
       <member refid="classMR_1a26102d7bb51637a4aba49aef9c7d1f84" prot="public" virt="non-virtual"><scope>MR</scope><name>processCloseTriangles</name></member>

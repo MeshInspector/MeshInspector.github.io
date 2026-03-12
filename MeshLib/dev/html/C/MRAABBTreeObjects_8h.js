@@ -1,5 +1,6 @@
 var MRAABBTreeObjects_8h =
 [
+    [ "MR_AABBTreeObjects", "MRAABBTreeObjects_8h.html#acaf939bbc299f35104b33e6cdc0d6870", null ],
     [ "MR_AffineXf3f", "MRAABBTreeObjects_8h.html#a88a1df6fb138786a55241b1d77a4b0cc", null ],
     [ "MR_MeshOrPoints", "MRAABBTreeObjects_8h.html#aef2e5b60c55f275988c9749f64cd52ac", null ],
     [ "MR_ObjTreeTraits", "MRAABBTreeObjects_8h.html#ae1ff6707de9cbe25a7cbdab4f6e63d62", null ],
@@ -20,6 +21,7 @@ var MRAABBTreeObjects_8h =
     [ "MR_AABBTreeObjects_getSubtrees", "MRAABBTreeObjects_8h.html#a33aec3089ede3476b61d11065a47623e", null ],
     [ "MR_AABBTreeObjects_heapBytes", "MRAABBTreeObjects_8h.html#ac419e7f95a54fe6eaf38270827f708e4", null ],
     [ "MR_AABBTreeObjects_index", "MRAABBTreeObjects_8h.html#aae25d3545f7377d1e0594e05df25f3e3", null ],
+    [ "MR_AABBTreeObjects_MutableStaticDowncastFrom_MR_AABBTreeBase_MR_ObjTreeTraits", "MRAABBTreeObjects_8h.html#add4ae56ac9e69b8c36ecb06c24a32df0", null ],
     [ "MR_AABBTreeObjects_MutableUpcastTo_MR_AABBTreeBase_MR_ObjTreeTraits", "MRAABBTreeObjects_8h.html#aaa82927e7e141dd796d62d1d2d0ba7f4", null ],
     [ "MR_AABBTreeObjects_nodes", "MRAABBTreeObjects_8h.html#a85812646a058c042066456414a61ffd9", null ],
     [ "MR_AABBTreeObjects_numLeaves", "MRAABBTreeObjects_8h.html#a20700d4f60ccea89b249f427d440e511", null ],
@@ -27,6 +29,7 @@ var MRAABBTreeObjects_8h =
     [ "MR_AABBTreeObjects_OffsetMutablePtr", "MRAABBTreeObjects_8h.html#afa31c2f846b08c2a62a74bf47d6719a7", null ],
     [ "MR_AABBTreeObjects_OffsetPtr", "MRAABBTreeObjects_8h.html#ae3487f829ee2b8664814b0f9f04cf27a", null ],
     [ "MR_AABBTreeObjects_rootNodeId", "MRAABBTreeObjects_8h.html#af3e20123d0f559fc41dfe1550d7dae3e", null ],
+    [ "MR_AABBTreeObjects_StaticDowncastFrom_MR_AABBTreeBase_MR_ObjTreeTraits", "MRAABBTreeObjects_8h.html#a0cce08059bce2b767b7410d4551b2666", null ],
     [ "MR_AABBTreeObjects_toLocal_0", "MRAABBTreeObjects_8h.html#a84c76ef34d7de7136b8c2e6103311f8c", null ],
     [ "MR_AABBTreeObjects_toLocal_1", "MRAABBTreeObjects_8h.html#ad4e3674804291b003a16e710e6eb5890", null ],
     [ "MR_AABBTreeObjects_toWorld", "MRAABBTreeObjects_8h.html#a609f8ee0de6284546ce8d1ed1c531697", null ],

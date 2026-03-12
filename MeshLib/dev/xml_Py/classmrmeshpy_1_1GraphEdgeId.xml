@@ -478,7 +478,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::GraphEdgeId
-Aliases:  Vector_GraphEdgeId_GraphEdgeId.const_reference, Vector_GraphEdgeId_GraphEdgeId.reference, TypedBitSet_GraphEdgeId_IndexType, Graph.EdgeId, Vector_GraphEdgeId_GraphEdgeId.value_type
+Aliases:  Vector_GraphEdgeId_GraphEdgeId.const_reference, Vector_GraphEdgeId_GraphEdgeId.reference, Graph.EdgeId, Vector_GraphEdgeId_GraphEdgeId.value_type, TypedBitSet_GraphEdgeId_IndexType
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>

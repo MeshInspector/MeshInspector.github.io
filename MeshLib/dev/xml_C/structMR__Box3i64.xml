@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="103" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="103" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="100" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="100" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structMR__Box3i64_1a0bd3a68ae36949999ef16499657a3295" prot="public" static="no" mutable="no">
         <type><ref refid="structMR__Vector3i64" kindref="compound">MR_Vector3i64</ref></type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="104" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="104" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="101" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="101" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -52,7 +52,7 @@
         <link refid="structMR__Vector3i64"/>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="102" bodyend="105"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="99" bodyend="102"/>
     <listofallmembers>
       <member refid="structMR__Box3i64_1a0bd3a68ae36949999ef16499657a3295" prot="public" virt="non-virtual"><scope>MR_Box3i64</scope><name>max</name></member>
       <member refid="structMR__Box3i64_1aa0bdc7731b5089183bfe11b905e3e12c" prot="public" virt="non-virtual"><scope>MR_Box3i64</scope><name>min</name></member>

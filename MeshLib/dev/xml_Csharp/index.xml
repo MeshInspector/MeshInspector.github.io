@@ -3457,6 +3457,14 @@
     <member refid="classMR_1_1ComputeSweptVolumeParameters_1a3393ab91aff2f8818a55c4df98b5a691" kind="function"><name>ComputeSweptVolumeParameters</name></member>
     <member refid="classMR_1_1ComputeSweptVolumeParameters_1ac0ef4174d4b5074cf9bf75371d1d29b3" kind="function"><name>ComputeSweptVolumeParameters</name></member>
   </compound>
+  <compound refid="classMR_1_1Cuda_1_1ComputeToolDistance" kind="class"><name>MR::Cuda::ComputeToolDistance</name>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1ac35adad9e3655e8f965e9244f79aa0f6" kind="function"><name>operator MR.IComputeToolDistance</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a09fc2c79504be7d3a66b99f7bab9fab4" kind="function"><name>operator ComputeToolDistance?</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a8a6c7f6857b97e9efbb9361e85ef3c6a" kind="function"><name>ComputeToolDistance</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a53156d2ae06082223b28f36191cd62df" kind="function"><name>ComputeToolDistance</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a4d4ed855599e95e957b90ae220e579b3" kind="function"><name>prepare</name></member>
+    <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1afddf6346da29e5b0dc11c51b6372774a" kind="function"><name>prepare</name></member>
+  </compound>
   <compound refid="classMR_1_1Cone3ApproximationParams" kind="class"><name>MR::Cone3ApproximationParams</name>
     <member refid="classMR_1_1Cone3ApproximationParams_1a3d861b89efa71b8718f2d275c96fa0b3" kind="property"><name>levenbergMarquardtMaxIteration</name></member>
     <member refid="classMR_1_1Cone3ApproximationParams_1ab56e98e327e3486c270e36470165ad78" kind="property"><name>coneFitterType</name></member>
@@ -5950,6 +5958,26 @@
     <member refid="classMR_1_1CubicBezierCurve3f_1afbc326384770e09cded1ad9b4488afb7" kind="function"><name>CubicBezierCurve3f</name></member>
     <member refid="classMR_1_1CubicBezierCurve3f_1a3b0a85020ea28cd5da277b0d8b2aa70e" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1Cuda" kind="class"><name>MR::Cuda</name>
+    <member refid="classMR_1_1Cuda_1a04b08f3d11b26042141dd3cd5033f6ee" kind="function"><name>isCudaAvailable</name></member>
+    <member refid="classMR_1_1Cuda_1aac586972c76d5a58dfd032e7d1060d8e" kind="function"><name>getCudaAvailableMemory</name></member>
+    <member refid="classMR_1_1Cuda_1a5904c95b5b911d6ac0b9539e238fa83f" kind="function"><name>getCudaSafeMemoryLimit</name></member>
+    <member refid="classMR_1_1Cuda_1a69b1f402d08b3b324e0c77694a740101" kind="function"><name>maxBufferSize</name></member>
+    <member refid="classMR_1_1Cuda_1aa0eefbf2424ce9ee25ee500bc466e222" kind="function"><name>maxBufferSizeAlignedByBlock</name></member>
+    <member refid="classMR_1_1Cuda_1aefb189df8f6d85fbf79e770d31a57360" kind="function"><name>maxBufferSizeAlignedByBlock</name></member>
+    <member refid="classMR_1_1Cuda_1ad3e17c83bdc91cabccc103c84ee2652c" kind="function"><name>distanceMapFromContours</name></member>
+    <member refid="classMR_1_1Cuda_1aba9a63934e6514252549752a4e216024" kind="function"><name>distanceMapFromContoursHeapBytes</name></member>
+    <member refid="classMR_1_1Cuda_1ad69766bef468c8b9ce8fb77c1319cca2" kind="function"><name>computeDistanceMap</name></member>
+    <member refid="classMR_1_1Cuda_1a3ab27361d47f6d576bfb8fa27a8f9c37" kind="function"><name>computeDistanceMapHeapBytes</name></member>
+    <member refid="classMR_1_1Cuda_1aee867626f86b200ed06a17c2e7298049" kind="function"><name>findProjectionOnPoints</name></member>
+    <member refid="classMR_1_1Cuda_1ad7c3e99dda6dc43d2165d3b1143a9ae3" kind="function"><name>findProjectionOnPointsHeapBytes</name></member>
+    <member refid="classMR_1_1Cuda_1ada48bf1cb30a1dd5423bcb0d29c6b1d2" kind="function"><name>pointsToDistanceVolume</name></member>
+    <member refid="classMR_1_1Cuda_1aa4424e8eec38230eb05046c5f5d8a96f" kind="function"><name>pointsToDistanceVolumeByParts</name></member>
+    <member refid="classMR_1_1Cuda_1a0ea88f5709a51086f7724af94d64e56c" kind="function"><name>computeSkyViewFactor</name></member>
+    <member refid="classMR_1_1Cuda_1acd8af53537c95be1eac56310bc9cd725" kind="function"><name>findSkyRays</name></member>
+    <member refid="classMR_1_1Cuda_1ab2b7f6383c91b4355a8e3efd50505461" kind="function"><name>negatePicture</name></member>
+    <member refid="classMR_1_1Cuda_1a8db36893e32eb473a8bb07f103afe1b2" kind="function"><name>loadMRCudaDll</name></member>
+  </compound>
   <compound refid="classMR_1_1CurveFunc" kind="class"><name>MR::CurveFunc</name>
     <member refid="classMR_1_1CurveFunc_1acd68663c204c1636c0afb8cd970f3eb0" kind="property"><name>func</name></member>
     <member refid="classMR_1_1CurveFunc_1a5d217d469c2e0189e5145d08a9a12df6" kind="property"><name>totalLength</name></member>
@@ -7404,6 +7432,24 @@
     <member refid="classMR_1_1FanRecordWithCenter_1a9846c1314f834239fb4809b887eb2aa6" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="classMR_1_1FanRecordWithCenter_1ad0c2c59c3ee4fa1d01cae8186067a731" kind="function"><name>FanRecordWithCenter</name></member>
     <member refid="classMR_1_1FanRecordWithCenter_1a53f8b8c1443af834d6c4a81de38d600e" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Cuda_1_1FastWindingNumber" kind="class"><name>MR::Cuda::FastWindingNumber</name>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a8a7f51b986a9698cfe296e4534e04488" kind="function"><name>operator MR.IFastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a0b60cf60ef59820e7801f56523f4490f" kind="function"><name>operator MR.IFastWindingNumberByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a91c71c91c9259db6122304568e984061" kind="function"><name>operator FastWindingNumber?</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aafb2492118cac12871ac4de063b3b92f" kind="function"><name>operator FastWindingNumber?</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ac301ca70f248d75615e7babb363ecea7" kind="function"><name>operator FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a63e6d94ae7e95c79708b2930d038e41d" kind="function"><name>FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1acd2f61962da73d68f92625293dc6256d" kind="function"><name>FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aa736cc97b823e3c4bc0749b74c0a5a84" kind="function"><name>FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1aad3be8d7e0ab43133c47dcca82caa987" kind="function"><name>FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a27648ada9bc64f1e82774f773f62f2a1" kind="function"><name>FastWindingNumber</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a7350afbb046a8472d981dda7ea10a389" kind="function"><name>calcFromVector</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a175231878fefcecd892f9571b7feca44" kind="function"><name>calcSelfIntersections</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a5b79f6cb8b70d3723821167dfd01517c" kind="function"><name>calcFromGrid</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ae38689dca402a71f2f6e61879ac35311" kind="function"><name>calcFromGridWithDistances</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1ae74929422ecd324a9402ad9811b50456" kind="function"><name>calcFromGridByParts</name></member>
+    <member refid="classMR_1_1Cuda_1_1FastWindingNumber_1a6fecf0105f203dd12dfb36c491fba47b" kind="function"><name>calcFromGridWithDistancesByParts</name></member>
   </compound>
   <compound refid="classMR_1_1FastWindingNumber" kind="class"><name>MR::FastWindingNumber</name>
     <member refid="classMR_1_1FastWindingNumber_1a3e8fa54c1c2f7dabd209d10e90a81933" kind="function"><name>operator MR.IFastWindingNumber</name></member>
@@ -12054,8 +12100,6 @@
     <member refid="classMR_1ad00c0daebbe5f1d916e766b62ae76db9" kind="function"><name>computeSkyViewFactor</name></member>
     <member refid="classMR_1a009fbedbd6c2c0ee933baa2cebb72e2a" kind="function"><name>findSkyRays</name></member>
     <member refid="classMR_1a311bd366792a99e70edfdab721577c54" kind="function"><name>makeSolidOfRevolution</name></member>
-    <member refid="classMR_1a79a52d6dd4f662bf9425a092bb995711" kind="function"><name>getCurrentStacktraceInline</name></member>
-    <member refid="classMR_1a761f067336a12b06cd35f747b18f52d8" kind="function"><name>printStacktraceOnCrash</name></member>
     <member refid="classMR_1aac3d6d58d25b16699fed9e2501360681" kind="function"><name>findSubstringCaseInsensitive</name></member>
     <member refid="classMR_1a9ef06b720b8b1baf6e3e53d365fed637" kind="function"><name>calcDamerauLevenshteinDistance</name></member>
     <member refid="classMR_1ab12e44c5e21d214b223c109e65fcf888" kind="function"><name>split</name></member>
@@ -15212,6 +15256,17 @@
     <member refid="classMR_1_1PointsProjectionResult_1a7afd06881899d22ca3e82ab48c53b202" kind="function"><name>PointsProjectionResult</name></member>
     <member refid="classMR_1_1PointsProjectionResult_1a9c7186b7a73694170108aedc5beb04ec" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1Cuda_1_1PointsProjector" kind="class"><name>MR::Cuda::PointsProjector</name>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a526fefc1ce55ab3078decd7fb0bfcada" kind="function"><name>operator MR.IPointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a06ccb73e2c6d4072be65379597e3ed18" kind="function"><name>operator PointsProjector?</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a1b7fde42413f50e68d474e477d65ed59" kind="function"><name>PointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1ab7500e9afbdc90e21f0dffc4d0d3aef1" kind="function"><name>PointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a2c38207bc994ab88ce6947c75fa2d286" kind="function"><name>PointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a0722839107f79a5f4e7595489332400a" kind="function"><name>PointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1aa9f52d5cbc95260813ee5d1523609a71" kind="function"><name>PointsProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1a166217b21a96549dfd354e35616680f0" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsProjector_1acd3c4cbb3aa5663760ede1e6b7cd537c" kind="function"><name>setPointCloud</name></member>
+  </compound>
   <compound refid="classMR_1_1PointsProjector" kind="class"><name>MR::PointsProjector</name>
     <member refid="classMR_1_1PointsProjector_1ac967eb4f15ef52ae0c89e7f1ba464133" kind="function"><name>operator MR.IPointsProjector</name></member>
     <member refid="classMR_1_1PointsProjector_1af5ad43172425f94d2f9b4bf7d8dc6bbe" kind="function"><name>operator PointsProjector?</name></member>
@@ -15276,6 +15331,18 @@
     <member refid="classMR_1_1PointsToMeshParameters_1aad07539810301017bebf8d996fc64bd9" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a07b589e8cfa103343619e5b987c26f41" kind="function"><name>PointsToMeshParameters</name></member>
     <member refid="classMR_1_1PointsToMeshParameters_1a465bd035b1b7fe5b3da9277b1382ae90" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Cuda_1_1PointsToMeshProjector" kind="class"><name>MR::Cuda::PointsToMeshProjector</name>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a263e55037a7f445f7b9f05a94241789a" kind="function"><name>operator MR.IPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4ee5ea6f8afeac1d14ad67782e27c90a" kind="function"><name>operator PointsToMeshProjector?</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1ac0892539401350029a757cbf6c1b19e1" kind="function"><name>PointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4352edd884565a055ba8c8b99587e89f" kind="function"><name>PointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a010f47e518381d390ef0f4f3a26425d0" kind="function"><name>PointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a2f4b72901c08c20ff897d5e159f1707e" kind="function"><name>PointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a858ac968d4f39307c071fe428a6876b1" kind="function"><name>PointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1aff11854bb53424e6474953913eb014bc" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a815104f321881eb9a84153195b94f856" kind="function"><name>updateMeshData</name></member>
+    <member refid="classMR_1_1Cuda_1_1PointsToMeshProjector_1a4cdb027ba3ed627a414c6d88168b96b2" kind="function"><name>findProjections</name></member>
   </compound>
   <compound refid="classMR_1_1PointsToMeshProjector" kind="class"><name>MR::PointsToMeshProjector</name>
     <member refid="classMR_1_1PointsToMeshProjector_1a7929091fbf4e2be6421d75c643857d45" kind="function"><name>operator MR.IPointsToMeshProjector</name></member>
@@ -16571,6 +16638,40 @@
     <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a2be2b7cd6d9f14d8b74a765297bc5c96" kind="function"><name>Settings</name></member>
     <member refid="classMR_1_1TriangulationHelpers_1_1Settings_1a56ff67ae9ed65ba1032d5f2a21708bb2" kind="function"><name>assign</name></member>
   </compound>
+  <compound refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber" kind="class"><name>MR::Std::SharedPtr_MRCudaFastWindingNumber</name>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1afd4f2521a66b979cf16c003fd28ef57b" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1ae287341475fb4c6cf9f8ba294a5624d6" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a65fe2972fdfb89e3eb051b7bcd0e2ce9" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a97d04a117d6d49dd1c7fc9cc3e59ddcd" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a1fb80676c9a07b55ed12c7c09c08d881" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a89ec56aa9a31d5b061a7915e7efb1199" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a434b9bb73d081044f7a54fee50e0a01e" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1ace112ee2636b4c56f8018ec4b1f807d9" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a5c62d6749d54eecc3a272385003e47c4" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1ae6d939d19e60def089133853e31f0706" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a6b3159d41df396dc66e419f0e3be0b12" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a4f256b7cb1f1bc5d5c8ef87401983857" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a5b8cd8f82aab079560a9e40ed8572dc9" kind="function"><name>SharedPtr_MRCudaFastWindingNumber</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1aa21e1f81cef7cc9f7507cd20fd69a00e" kind="function"><name>assignAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaFastWindingNumber_1a266fc1d21f83a6c7ef2199d7176bb457" kind="function"><name>operator SharedPtr_MRCudaFastWindingNumber</name></member>
+  </compound>
+  <compound refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector" kind="class"><name>MR::Std::SharedPtr_MRCudaPointsToMeshProjector</name>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a912df31b5b93c97c21d602678ffbf126" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a455a7e182f9068b6f1779c1ccbd18ae8" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a020e2180cb8de6a869bf6dc49a1fd880" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1ad20269964deb9cd7d4b97988fda31cbc" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a82f197797289587f2d43e45b21c70aed" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a9d99178f4b634f382408b48553ff2689" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aba943069a104fc5c4be4e0556e833341" kind="function"><name>reset</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a62f5f27a233321add8e10d15d3c0665b" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a8bfb519cb37c0c03c8fa0c1f061826bc" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aa00aa4bf3e37df1838b955a8b8e26544" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a14016d11635cf0feaabecd0d8913bbde" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1af77e1964450d17302d65a09b6a0a5fe9" kind="function"><name>assign</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1af29cf2c87a900418e011693af6121770" kind="function"><name>SharedPtr_MRCudaPointsToMeshProjector</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1aacfaec0c0e43801a9cbe7b7cc570daf8" kind="function"><name>assignAliasing</name></member>
+    <member refid="classMR_1_1Std_1_1SharedPtr__MRCudaPointsToMeshProjector_1a1b7f8e5fae4078aa9f9a7d94a4c9067c" kind="function"><name>operator SharedPtr_MRCudaPointsToMeshProjector</name></member>
+  </compound>
   <compound refid="classMR_1_1SharpenMarchingCubesMeshSettings" kind="class"><name>MR::SharpenMarchingCubesMeshSettings</name>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1a5d77928abed2b4c0ffd870a270f4db87" kind="property"><name>minNewVertDev</name></member>
     <member refid="classMR_1_1SharpenMarchingCubesMeshSettings_1ad0648650b83a3ff84202b68d5ce33075" kind="property"><name>maxNewRank2VertDev</name></member>
@@ -16936,6 +17037,8 @@
     <member refid="classMR_1_1Src2TgtMaps_1afeb4501454205c739291ad3a5d68bf76" kind="function"><name>Src2TgtMaps</name></member>
     <member refid="classMR_1_1Src2TgtMaps_1adcde982780e6df30db8b042f650f794a" kind="function"><name>Src2TgtMaps</name></member>
     <member refid="classMR_1_1Src2TgtMaps_1acc5600fda77163d37ab2a67b82a3f329" kind="function"><name>assign</name></member>
+  </compound>
+  <compound refid="classMR_1_1Std" kind="class"><name>MR::Std</name>
   </compound>
   <compound refid="classMR_1_1StitchHolesParams" kind="struct"><name>MR::StitchHolesParams</name>
     <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" kind="property"><name>metric</name></member>
@@ -21648,6 +21751,30 @@
   </compound>
   <compound refid="namespaceSystem" kind="namespace"><name>System</name>
   </compound>
+  <compound refid="MRCudaBasic_8cs" kind="file"><name>MRCudaBasic.cs</name>
+  </compound>
+  <compound refid="MRCudaContoursDistanceMap_8cs" kind="file"><name>MRCudaContoursDistanceMap.cs</name>
+  </compound>
+  <compound refid="MRCudaFastWindingNumber_8cs" kind="file"><name>MRCudaFastWindingNumber.cs</name>
+  </compound>
+  <compound refid="MRCudaMeshDistanceMap_8cs" kind="file"><name>MRCudaMeshDistanceMap.cs</name>
+  </compound>
+  <compound refid="MRCudaPointsProject_8cs" kind="file"><name>MRCudaPointsProject.cs</name>
+  </compound>
+  <compound refid="MRCudaPointsToDistanceVolume_8cs" kind="file"><name>MRCudaPointsToDistanceVolume.cs</name>
+  </compound>
+  <compound refid="MRCudaPointsToMeshProjector_8cs" kind="file"><name>MRCudaPointsToMeshProjector.cs</name>
+  </compound>
+  <compound refid="MRCudaSolarRadiation_8cs" kind="file"><name>MRCudaSolarRadiation.cs</name>
+  </compound>
+  <compound refid="MRCudaSweptVolume_8cs" kind="file"><name>MRCudaSweptVolume.cs</name>
+  </compound>
+  <compound refid="MRCudaTest_8cs" kind="file"><name>MRCudaTest.cs</name>
+  </compound>
+  <compound refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8cs" kind="file"><name>std_shared_ptr_MR_Cuda_FastWindingNumber.cs</name>
+  </compound>
+  <compound refid="std__shared__ptr__MR__Cuda__PointsToMeshProjector_8cs" kind="file"><name>std_shared_ptr_MR_Cuda_PointsToMeshProjector.cs</name>
+  </compound>
   <compound refid="MR3mf_8cs" kind="file"><name>MR3mf.cs</name>
   </compound>
   <compound refid="MRCtm_8cs" kind="file"><name>MRCtm.cs</name>
@@ -22312,8 +22439,6 @@
   </compound>
   <compound refid="MRSphereObject_8cs" kind="file"><name>MRSphereObject.cs</name>
   </compound>
-  <compound refid="MRStacktrace_8cs" kind="file"><name>MRStacktrace.cs</name>
-  </compound>
   <compound refid="MRString_8cs" kind="file"><name>MRString.cs</name>
   </compound>
   <compound refid="MRStringConvert_8cs" kind="file"><name>MRStringConvert.cs</name>
@@ -22507,6 +22632,8 @@
   <compound refid="dir_962aa80361c9e62a441b8bc61ef6a9df" kind="dir"><name>doxygen</name>
   </compound>
   <compound refid="dir_dde369ebb89469603743f5002eed69cd" kind="dir"><name>MeshLib</name>
+  </compound>
+  <compound refid="dir_09c9d9c9af2afc49490551b5ee30a1a8" kind="dir"><name>MRCCuda</name>
   </compound>
   <compound refid="dir_9cae32c10b9597d16ccd7aa6ea6ded9e" kind="dir"><name>MRCIOExtras</name>
   </compound>

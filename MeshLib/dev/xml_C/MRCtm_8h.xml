@@ -1545,6 +1545,42 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="449" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="449" declcolumn="25"/>
       </memberdef>
+      <memberdef kind="function" id="MRCtm_8h_1ad9ab8b619672036cdf29fa69789b544c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
+        <definition>MRC_API const MR_MeshSave_CtmSaveOptions * MR_MeshSave_CtmSaveOptions_StaticDowncastFrom_MR_SaveSettings</definition>
+        <argsstring>(const MR_SaveSettings *object)</argsstring>
+        <name>MR_MeshSave_CtmSaveOptions_StaticDowncastFrom_MR_SaveSettings</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="455" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="455" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCtm_8h_1aa10c519c192ebdfdaabfdf8a45dc6b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
+        <definition>MRC_API MR_MeshSave_CtmSaveOptions * MR_MeshSave_CtmSaveOptions_MutableStaticDowncastFrom_MR_SaveSettings</definition>
+        <argsstring>(MR_SaveSettings *object)</argsstring>
+        <name>MR_MeshSave_CtmSaveOptions_MutableStaticDowncastFrom_MR_SaveSettings</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::MeshSave::CtmSaveOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="460" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="460" declcolumn="36"/>
+      </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a5620600a136c83ec4c049fe288ce80af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
         <definition>MRC_API MR_MeshSave_CtmSaveOptions * MR_MeshSave_CtmSaveOptions_ConstructFromAnother</definition>
@@ -1565,7 +1601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="454" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="454" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="465" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="465" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a01e02a3fe06e017c92cb3f62490c65b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1583,7 +1619,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="457" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="457" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="468" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="468" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6b884f0036fecc89793bd6438e6e830e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1601,7 +1637,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="460" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="460" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="471" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="471" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a5414d9332ed0d51d847bc2aabb6345f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref> *</type>
@@ -1627,7 +1663,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="467" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="467" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="478" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="478" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1af9786cea0d6201c716d6fbdd87273365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1657,7 +1693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="475" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="475" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="486" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="486" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6792f6e284df5dba8bbc2c50736a896c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1683,7 +1719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="482" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="482" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="493" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="493" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a3589b811a42127e6bb92b2e44805be6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1713,7 +1749,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="490" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="490" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="501" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="501" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a5bbf35d640cb03cf353a5801d48c6cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -1739,7 +1775,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="498" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="498" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="509" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="509" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a034fe6d8e4bdbf04a6113b5f151d9a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
@@ -1765,7 +1801,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="506" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="506" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="517" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="517" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a9c0953a7bfb95421f04ba76be330791f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
@@ -1787,7 +1823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="513" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="513" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="524" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="524" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ac622b59a603e4ff4e84f0f7b59ee9bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const int *</type>
@@ -1805,7 +1841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="520" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="520" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="531" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="531" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a2eaa3d5609c395f449b63cd64870c343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1827,7 +1863,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="526" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="526" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="537" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="537" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a54956aa2d30b7d2a178c706b4f06dff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API int *</type>
@@ -1845,7 +1881,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="533" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="533" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="544" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="544" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a3c64fb47876e8536c66ffdd9ea99feeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const char *const *</type>
@@ -1863,7 +1899,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="540" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="540" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="551" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="551" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a958dbb23137a73b8073f9c1b21c181d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1885,7 +1921,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="547" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="547" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="558" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="558" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6a1459374918a00ebe31ee0304bb5128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const char **</type>
@@ -1903,7 +1939,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="554" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="554" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="565" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="565" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a32c0493426fef6796b869e3bc1e0392c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -1921,7 +1957,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="562" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="562" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="573" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="573" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a4545977dbd7ef07f95ce78628b76b514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -1943,7 +1979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="569" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="569" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="580" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="580" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a90dbd739137c16d015796fc404040a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -1961,7 +1997,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="577" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="577" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="588" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="588" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ac3f78361d9e638e9a396941602cf0b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -1979,7 +2015,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="588" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="588" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="599" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="599" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a0b2195058fc6fc94e49b444aa00b5aa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2001,7 +2037,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="598" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="598" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="609" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="609" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a92a89c0ff46cecb73b6d656ee958ed5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -2019,7 +2055,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="609" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="609" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="620" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="620" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a4b103b074a35936dc98d3929aac93162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
@@ -2037,7 +2073,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="616" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="616" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="627" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="627" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6f450dfb15a8e63d459bf034aca72b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2059,7 +2095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="623" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="623" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="634" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="634" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a405e066be7adadd3107979c3dade201b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
@@ -2077,7 +2113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="630" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="630" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="641" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="641" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a1191ea38261c53994251fcba1002b5e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> *const *</type>
@@ -2095,7 +2131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="637" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="637" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="648" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="648" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a4d07400968a623e736765736c6fb78be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2117,7 +2153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="644" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="644" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="655" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="655" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1aaa0f2b9f2640ac4573afc4e6abb4f7bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref> **</type>
@@ -2135,7 +2171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="651" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="651" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="662" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="662" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1adb581160676d2fb60b3f9b2b04f843d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
@@ -2153,7 +2189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="658" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="658" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="669" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="669" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a1c61120c2a8668a6f5e8c5120c396547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2175,7 +2211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="665" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="665" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="676" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="676" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a16e9e59e225dd1e029348c2e19dcddbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
@@ -2193,7 +2229,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="672" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="672" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="683" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="683" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1aefe823951b407f3a7500aa8e8c485c91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const bool *</type>
@@ -2211,7 +2247,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="680" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="680" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="691" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="691" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a9b237c7dbb539fb78cc0f604921f7774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2233,7 +2269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="687" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="687" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="698" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="698" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6d911d34167da15ad1094575438bc1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API bool *</type>
@@ -2251,7 +2287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="695" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="695" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="706" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="706" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1af7e7d1c8d0beae60f1c13f3fbe18185e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> *const *</type>
@@ -2269,7 +2305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="702" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="702" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="713" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="713" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a1f12ecc2b70be59ef2d1d3ecf2e100c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2291,7 +2327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="709" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="709" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="720" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="720" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1abadf62cd8ec8037cfcdf64947919a2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref> **</type>
@@ -2309,7 +2345,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="716" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="716" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="727" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="727" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a366ae869fb61ea19af76b4bba69295f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -2327,7 +2363,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="723" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="723" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="734" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="734" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a1c6775fe65a44248a45322978018e06b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2353,7 +2389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="732" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="732" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="743" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="743" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a831e6c3bcd21ed5799a729ed2d6ed7e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
@@ -2371,7 +2407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="739" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="739" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="750" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="750" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6465463b79c0d1b6053f1daa5699d2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> *const *</type>
@@ -2389,7 +2425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="746" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="746" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="757" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="757" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a8c147c18137fa64cfe9e681b1fdd7a46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2411,7 +2447,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="753" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="753" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="764" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="764" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a1e21b49d20c08e6114b7dd35eb08604e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref> **</type>
@@ -2429,7 +2465,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="760" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="760" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="771" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="771" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a841f37fa79498a558b96674d9269d2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
@@ -2447,7 +2483,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="767" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="767" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="778" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="778" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a458c17a2de17a024c9e0a87de91834d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2469,7 +2505,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="775" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="775" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="786" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="786" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ad8c397f96fc249801b1d0910628940c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref> *</type>
@@ -2487,7 +2523,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="782" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="782" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="793" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="793" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
@@ -2505,7 +2541,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="789" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="789" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="800" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="800" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2527,7 +2563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="797" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="797" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="808" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="808" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref> *</type>
@@ -2545,7 +2581,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="804" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="804" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="815" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="815" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -2563,7 +2599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="811" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="811" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="822" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="822" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2589,7 +2625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="818" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="818" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="829" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="829" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
@@ -2607,7 +2643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="825" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="825" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="836" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="836" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1acf89514f8b0a0ee45ff47a4153a75e05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2624,7 +2660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="829" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="829" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="840" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="840" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a6ff203eb8ac6ba249233fd506119237f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2642,7 +2678,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="834" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="834" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="845" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="845" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ab492f7ff1aa492718a87eefa5dfde89a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2664,7 +2700,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="838" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="838" declcolumn="50"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="849" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="849" declcolumn="50"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1adcbcbb94efbd58ec420f2e5d9601357d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2686,7 +2722,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="842" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="842" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="853" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="853" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ae527fafb5a35506aef82b8525527ad4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
@@ -2704,7 +2740,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="847" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="847" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="858" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="858" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a168033e69e53baca2e4eea4462d33864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
@@ -2722,7 +2758,43 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="851" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="851" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="862" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="862" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCtm_8h_1a52fc80911da99da8d70f636672b2c195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
+        <definition>MRC_API const MR_PointsSave_CtmSavePointsOptions * MR_PointsSave_CtmSavePointsOptions_StaticDowncastFrom_MR_SaveSettings</definition>
+        <argsstring>(const MR_SaveSettings *object)</argsstring>
+        <name>MR_PointsSave_CtmSavePointsOptions_StaticDowncastFrom_MR_SaveSettings</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="868" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="868" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCtm_8h_1ae7ca7731325ec78398d94d07a8ec298a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
+        <definition>MRC_API MR_PointsSave_CtmSavePointsOptions * MR_PointsSave_CtmSavePointsOptions_MutableStaticDowncastFrom_MR_SaveSettings</definition>
+        <argsstring>(MR_SaveSettings *object)</argsstring>
+        <name>MR_PointsSave_CtmSavePointsOptions_MutableStaticDowncastFrom_MR_SaveSettings</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SaveSettings</computeroutput> to a derived class <computeroutput>MR::PointsSave::CtmSavePointsOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="873" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="873" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ae1ef319bd87133bfc200d7dd5ddffec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2744,7 +2816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="856" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="856" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="878" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="878" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a76919b968ef58ebff44e142820b39216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2762,7 +2834,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="859" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="859" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="881" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="881" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a627d8c921f63ee765c91d6691df6a7ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API void</type>
@@ -2780,7 +2852,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="862" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="862" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="884" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="884" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a4a652818a2b3c9bd65ac20b8354091bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref> *</type>
@@ -2806,7 +2878,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="869" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="869" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="891" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="891" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a9d282665ef482fcd38da59de9955f873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -2836,7 +2908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="877" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="877" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="899" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="899" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1a926c6c881eed4b22fff33a79f27373ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -2862,7 +2934,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="884" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="884" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="906" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="906" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1ae359919c5fa299cb1f28f273e0606018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -2892,7 +2964,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="892" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="892" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="914" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="914" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRCtm_8h_1aad6e794d22dda575e41e83f552bc50ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
@@ -2918,7 +2990,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="900" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="900" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" line="922" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h" declline="922" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3087,141 +3159,149 @@
 <codeline lineno="446"><highlight class="normal"></highlight></codeline>
 <codeline lineno="449" refid="MRCtm_8h_1a7e9b418dcd61b7998481c160b2b57282" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRCtm_8h_1a7e9b418dcd61b7998481c160b2b57282" kindref="member">MR_MeshSave_CtmSaveOptions_MutableUpcastTo_MR_SaveSettings</ref>(<ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="450"><highlight class="normal"></highlight></codeline>
-<codeline lineno="454" refid="MRCtm_8h_1a5620600a136c83ec4c049fe288ce80af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1a5620600a136c83ec4c049fe288ce80af" kindref="member">MR_MeshSave_CtmSaveOptions_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="455"><highlight class="normal"></highlight></codeline>
-<codeline lineno="457" refid="MRCtm_8h_1a01e02a3fe06e017c92cb3f62490c65b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a01e02a3fe06e017c92cb3f62490c65b4" kindref="member">MR_MeshSave_CtmSaveOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="458"><highlight class="normal"></highlight></codeline>
-<codeline lineno="460" refid="MRCtm_8h_1a6b884f0036fecc89793bd6438e6e830e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a6b884f0036fecc89793bd6438e6e830e" kindref="member">MR_MeshSave_CtmSaveOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="455" refid="MRCtm_8h_1ad9ab8b619672036cdf29fa69789b544c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1ad9ab8b619672036cdf29fa69789b544c" kindref="member">MR_MeshSave_CtmSaveOptions_StaticDowncastFrom_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="456"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460" refid="MRCtm_8h_1aa10c519c192ebdfdaabfdf8a45dc6b68" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1aa10c519c192ebdfdaabfdf8a45dc6b68" kindref="member">MR_MeshSave_CtmSaveOptions_MutableStaticDowncastFrom_MR_SaveSettings</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="461"><highlight class="normal"></highlight></codeline>
-<codeline lineno="467" refid="MRCtm_8h_1a5414d9332ed0d51d847bc2aabb6345f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1a5414d9332ed0d51d847bc2aabb6345f6" kindref="member">MR_MeshSave_CtmSaveOptions_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="468"><highlight class="normal"></highlight></codeline>
-<codeline lineno="475" refid="MRCtm_8h_1af9786cea0d6201c716d6fbdd87273365" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1af9786cea0d6201c716d6fbdd87273365" kindref="member">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_MeshSave_CtmSaveOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*options);</highlight></codeline>
-<codeline lineno="476"><highlight class="normal"></highlight></codeline>
-<codeline lineno="482" refid="MRCtm_8h_1a6792f6e284df5dba8bbc2c50736a896c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a6792f6e284df5dba8bbc2c50736a896c" kindref="member">MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*options);</highlight></codeline>
-<codeline lineno="483"><highlight class="normal"></highlight></codeline>
-<codeline lineno="490" refid="MRCtm_8h_1a3589b811a42127e6bb92b2e44805be6f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a3589b811a42127e6bb92b2e44805be6f" kindref="member">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="491"><highlight class="normal"></highlight></codeline>
-<codeline lineno="498" refid="MRCtm_8h_1a5bbf35d640cb03cf353a5801d48c6cdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a5bbf35d640cb03cf353a5801d48c6cdb" kindref="member">MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="499"><highlight class="normal"></highlight></codeline>
-<codeline lineno="506" refid="MRCtm_8h_1a034fe6d8e4bdbf04a6113b5f151d9a1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a034fe6d8e4bdbf04a6113b5f151d9a1c" kindref="member">MR_PointsLoad_fromCtm_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="507"><highlight class="normal"></highlight></codeline>
-<codeline lineno="513" refid="MRCtm_8h_1a9c0953a7bfb95421f04ba76be330791f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a9c0953a7bfb95421f04ba76be330791f" kindref="member">MR_PointsLoad_fromCtm_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="514"><highlight class="normal"></highlight></codeline>
-<codeline lineno="520" refid="MRCtm_8h_1ac622b59a603e4ff4e84f0f7b59ee9bfa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1ac622b59a603e4ff4e84f0f7b59ee9bfa" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_compressionLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="521"><highlight class="normal"></highlight></codeline>
-<codeline lineno="526" refid="MRCtm_8h_1a2eaa3d5609c395f449b63cd64870c343" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a2eaa3d5609c395f449b63cd64870c343" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_compressionLevel</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="527"><highlight class="normal"></highlight></codeline>
-<codeline lineno="533" refid="MRCtm_8h_1a54956aa2d30b7d2a178c706b4f06dff9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a54956aa2d30b7d2a178c706b4f06dff9" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_compressionLevel</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="534"><highlight class="normal"></highlight></codeline>
-<codeline lineno="540" refid="MRCtm_8h_1a3c64fb47876e8536c66ffdd9ea99feeb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a3c64fb47876e8536c66ffdd9ea99feeb" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_comment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="541"><highlight class="normal"></highlight></codeline>
-<codeline lineno="547" refid="MRCtm_8h_1a958dbb23137a73b8073f9c1b21c181d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a958dbb23137a73b8073f9c1b21c181d9" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_comment</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
-<codeline lineno="548"><highlight class="normal"></highlight></codeline>
-<codeline lineno="554" refid="MRCtm_8h_1a6a1459374918a00ebe31ee0304bb5128" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="MRCtm_8h_1a6a1459374918a00ebe31ee0304bb5128" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_comment</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="555"><highlight class="normal"></highlight></codeline>
-<codeline lineno="562" refid="MRCtm_8h_1a32c0493426fef6796b869e3bc1e0392c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a32c0493426fef6796b869e3bc1e0392c" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_onlyValidPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="563"><highlight class="normal"></highlight></codeline>
-<codeline lineno="569" refid="MRCtm_8h_1a4545977dbd7ef07f95ce78628b76b514" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a4545977dbd7ef07f95ce78628b76b514" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="570"><highlight class="normal"></highlight></codeline>
-<codeline lineno="577" refid="MRCtm_8h_1a90dbd739137c16d015796fc404040a8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a90dbd739137c16d015796fc404040a8b" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="578"><highlight class="normal"></highlight></codeline>
-<codeline lineno="588" refid="MRCtm_8h_1ac3f78361d9e638e9a396941602cf0b83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1ac3f78361d9e638e9a396941602cf0b83" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_packPrimitives</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="465" refid="MRCtm_8h_1a5620600a136c83ec4c049fe288ce80af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1a5620600a136c83ec4c049fe288ce80af" kindref="member">MR_MeshSave_CtmSaveOptions_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="468" refid="MRCtm_8h_1a01e02a3fe06e017c92cb3f62490c65b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a01e02a3fe06e017c92cb3f62490c65b4" kindref="member">MR_MeshSave_CtmSaveOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"></highlight></codeline>
+<codeline lineno="471" refid="MRCtm_8h_1a6b884f0036fecc89793bd6438e6e830e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a6b884f0036fecc89793bd6438e6e830e" kindref="member">MR_MeshSave_CtmSaveOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478" refid="MRCtm_8h_1a5414d9332ed0d51d847bc2aabb6345f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*<ref refid="MRCtm_8h_1a5414d9332ed0d51d847bc2aabb6345f6" kindref="member">MR_MeshSave_CtmSaveOptions_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight></codeline>
+<codeline lineno="486" refid="MRCtm_8h_1af9786cea0d6201c716d6fbdd87273365" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1af9786cea0d6201c716d6fbdd87273365" kindref="member">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_MeshSave_CtmSaveOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight></codeline>
+<codeline lineno="493" refid="MRCtm_8h_1a6792f6e284df5dba8bbc2c50736a896c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a6792f6e284df5dba8bbc2c50736a896c" kindref="member">MR_MeshSave_toCtm_std_ostream_ref_MR_MeshSave_CtmSaveOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aea4e2600dc2dc28784083571fad7d964" kindref="member">MR_MeshSave_CtmSaveOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="494"><highlight class="normal"></highlight></codeline>
+<codeline lineno="501" refid="MRCtm_8h_1a3589b811a42127e6bb92b2e44805be6f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a3589b811a42127e6bb92b2e44805be6f" kindref="member">MR_MeshSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"></highlight></codeline>
+<codeline lineno="509" refid="MRCtm_8h_1a5bbf35d640cb03cf353a5801d48c6cdb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a5bbf35d640cb03cf353a5801d48c6cdb" kindref="member">MR_MeshSave_toCtm_std_ostream_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="510"><highlight class="normal"></highlight></codeline>
+<codeline lineno="517" refid="MRCtm_8h_1a034fe6d8e4bdbf04a6113b5f151d9a1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a034fe6d8e4bdbf04a6113b5f151d9a1c" kindref="member">MR_PointsLoad_fromCtm_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="518"><highlight class="normal"></highlight></codeline>
+<codeline lineno="524" refid="MRCtm_8h_1a9c0953a7bfb95421f04ba76be330791f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a9c0953a7bfb95421f04ba76be330791f" kindref="member">MR_PointsLoad_fromCtm_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight></codeline>
+<codeline lineno="531" refid="MRCtm_8h_1ac622b59a603e4ff4e84f0f7b59ee9bfa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1ac622b59a603e4ff4e84f0f7b59ee9bfa" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_compressionLevel</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight></codeline>
+<codeline lineno="537" refid="MRCtm_8h_1a2eaa3d5609c395f449b63cd64870c343" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a2eaa3d5609c395f449b63cd64870c343" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_compressionLevel</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"></highlight></codeline>
+<codeline lineno="544" refid="MRCtm_8h_1a54956aa2d30b7d2a178c706b4f06dff9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a54956aa2d30b7d2a178c706b4f06dff9" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_compressionLevel</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="545"><highlight class="normal"></highlight></codeline>
+<codeline lineno="551" refid="MRCtm_8h_1a3c64fb47876e8536c66ffdd9ea99feeb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a3c64fb47876e8536c66ffdd9ea99feeb" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_comment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"></highlight></codeline>
+<codeline lineno="558" refid="MRCtm_8h_1a958dbb23137a73b8073f9c1b21c181d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a958dbb23137a73b8073f9c1b21c181d9" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_comment</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="559"><highlight class="normal"></highlight></codeline>
+<codeline lineno="565" refid="MRCtm_8h_1a6a1459374918a00ebe31ee0304bb5128" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**<ref refid="MRCtm_8h_1a6a1459374918a00ebe31ee0304bb5128" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_comment</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight></codeline>
+<codeline lineno="573" refid="MRCtm_8h_1a32c0493426fef6796b869e3bc1e0392c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a32c0493426fef6796b869e3bc1e0392c" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_onlyValidPoints</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight></codeline>
+<codeline lineno="580" refid="MRCtm_8h_1a4545977dbd7ef07f95ce78628b76b514" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a4545977dbd7ef07f95ce78628b76b514" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588" refid="MRCtm_8h_1a90dbd739137c16d015796fc404040a8b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a90dbd739137c16d015796fc404040a8b" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_onlyValidPoints</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="589"><highlight class="normal"></highlight></codeline>
-<codeline lineno="598" refid="MRCtm_8h_1a0b2195058fc6fc94e49b444aa00b5aa1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a0b2195058fc6fc94e49b444aa00b5aa1" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_packPrimitives</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="599"><highlight class="normal"></highlight></codeline>
-<codeline lineno="609" refid="MRCtm_8h_1a92a89c0ff46cecb73b6d656ee958ed5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a92a89c0ff46cecb73b6d656ee958ed5a" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_packPrimitives</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="599" refid="MRCtm_8h_1ac3f78361d9e638e9a396941602cf0b83" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1ac3f78361d9e638e9a396941602cf0b83" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_packPrimitives</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="600"><highlight class="normal"></highlight></codeline>
+<codeline lineno="609" refid="MRCtm_8h_1a0b2195058fc6fc94e49b444aa00b5aa1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a0b2195058fc6fc94e49b444aa00b5aa1" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_packPrimitives</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="610"><highlight class="normal"></highlight></codeline>
-<codeline lineno="616" refid="MRCtm_8h_1a4b103b074a35936dc98d3929aac93162" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a4b103b074a35936dc98d3929aac93162" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="617"><highlight class="normal"></highlight></codeline>
-<codeline lineno="623" refid="MRCtm_8h_1a6f450dfb15a8e63d459bf034aca72b49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a6f450dfb15a8e63d459bf034aca72b49" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_colors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="624"><highlight class="normal"></highlight></codeline>
-<codeline lineno="630" refid="MRCtm_8h_1a405e066be7adadd3107979c3dade201b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRCtm_8h_1a405e066be7adadd3107979c3dade201b" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_colors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="631"><highlight class="normal"></highlight></codeline>
-<codeline lineno="637" refid="MRCtm_8h_1a1191ea38261c53994251fcba1002b5e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a1191ea38261c53994251fcba1002b5e0" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_primitiveColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="638"><highlight class="normal"></highlight></codeline>
-<codeline lineno="644" refid="MRCtm_8h_1a4d07400968a623e736765736c6fb78be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a4d07400968a623e736765736c6fb78be" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_primitiveColors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="645"><highlight class="normal"></highlight></codeline>
-<codeline lineno="651" refid="MRCtm_8h_1aaa0f2b9f2640ac4573afc4e6abb4f7bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>**<ref refid="MRCtm_8h_1aaa0f2b9f2640ac4573afc4e6abb4f7bb" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_primitiveColors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="652"><highlight class="normal"></highlight></codeline>
-<codeline lineno="658" refid="MRCtm_8h_1adb581160676d2fb60b3f9b2b04f843d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1adb581160676d2fb60b3f9b2b04f843d5" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_uvMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="659"><highlight class="normal"></highlight></codeline>
-<codeline lineno="665" refid="MRCtm_8h_1a1c61120c2a8668a6f5e8c5120c396547" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1c61120c2a8668a6f5e8c5120c396547" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_uvMap</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="666"><highlight class="normal"></highlight></codeline>
-<codeline lineno="672" refid="MRCtm_8h_1a16e9e59e225dd1e029348c2e19dcddbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRCtm_8h_1a16e9e59e225dd1e029348c2e19dcddbe" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_uvMap</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="673"><highlight class="normal"></highlight></codeline>
-<codeline lineno="680" refid="MRCtm_8h_1aefe823951b407f3a7500aa8e8c485c91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1aefe823951b407f3a7500aa8e8c485c91" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_saveTriCornerUVCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="681"><highlight class="normal"></highlight></codeline>
-<codeline lineno="687" refid="MRCtm_8h_1a9b237c7dbb539fb78cc0f604921f7774" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a9b237c7dbb539fb78cc0f604921f7774" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
-<codeline lineno="688"><highlight class="normal"></highlight></codeline>
-<codeline lineno="695" refid="MRCtm_8h_1a6d911d34167da15ad1094575438bc1d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a6d911d34167da15ad1094575438bc1d6" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="696"><highlight class="normal"></highlight></codeline>
-<codeline lineno="702" refid="MRCtm_8h_1af7e7d1c8d0beae60f1c13f3fbe18185e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1af7e7d1c8d0beae60f1c13f3fbe18185e" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_texture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="703"><highlight class="normal"></highlight></codeline>
-<codeline lineno="709" refid="MRCtm_8h_1a1f12ecc2b70be59ef2d1d3ecf2e100c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1f12ecc2b70be59ef2d1d3ecf2e100c4" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_texture</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="710"><highlight class="normal"></highlight></codeline>
-<codeline lineno="716" refid="MRCtm_8h_1abadf62cd8ec8037cfcdf64947919a2f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>**<ref refid="MRCtm_8h_1abadf62cd8ec8037cfcdf64947919a2f4" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_texture</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="717"><highlight class="normal"></highlight></codeline>
-<codeline lineno="723" refid="MRCtm_8h_1a366ae869fb61ea19af76b4bba69295f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a366ae869fb61ea19af76b4bba69295f3" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_materialName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="724"><highlight class="normal"></highlight></codeline>
-<codeline lineno="732" refid="MRCtm_8h_1a1c6775fe65a44248a45322978018e06b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1c6775fe65a44248a45322978018e06b" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_materialName</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
-<codeline lineno="733"><highlight class="normal"></highlight></codeline>
-<codeline lineno="739" refid="MRCtm_8h_1a831e6c3bcd21ed5799a729ed2d6ed7e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a831e6c3bcd21ed5799a729ed2d6ed7e9" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_materialName</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="740"><highlight class="normal"></highlight></codeline>
-<codeline lineno="746" refid="MRCtm_8h_1a6465463b79c0d1b6053f1daa5699d2cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a6465463b79c0d1b6053f1daa5699d2cd" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="747"><highlight class="normal"></highlight></codeline>
-<codeline lineno="753" refid="MRCtm_8h_1a8c147c18137fa64cfe9e681b1fdd7a46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a8c147c18137fa64cfe9e681b1fdd7a46" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_xf</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="754"><highlight class="normal"></highlight></codeline>
-<codeline lineno="760" refid="MRCtm_8h_1a1e21b49d20c08e6114b7dd35eb08604e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>**<ref refid="MRCtm_8h_1a1e21b49d20c08e6114b7dd35eb08604e" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_xf</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="761"><highlight class="normal"></highlight></codeline>
-<codeline lineno="767" refid="MRCtm_8h_1a841f37fa79498a558b96674d9269d2eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRCtm_8h_1a841f37fa79498a558b96674d9269d2eb" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="768"><highlight class="normal"></highlight></codeline>
-<codeline lineno="775" refid="MRCtm_8h_1a458c17a2de17a024c9e0a87de91834d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a458c17a2de17a024c9e0a87de91834d8" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_lengthUnit</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="776"><highlight class="normal"></highlight></codeline>
-<codeline lineno="782" refid="MRCtm_8h_1ad8c397f96fc249801b1d0910628940c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRCtm_8h_1ad8c397f96fc249801b1d0910628940c4" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_lengthUnit</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="783"><highlight class="normal"></highlight></codeline>
-<codeline lineno="789" refid="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_solidColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="790"><highlight class="normal"></highlight></codeline>
-<codeline lineno="797" refid="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_solidColor</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="798"><highlight class="normal"></highlight></codeline>
-<codeline lineno="804" refid="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="805"><highlight class="normal"></highlight></codeline>
-<codeline lineno="811" refid="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="812"><highlight class="normal"></highlight></codeline>
-<codeline lineno="818" refid="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_progress</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
-<codeline lineno="819"><highlight class="normal"></highlight></codeline>
-<codeline lineno="825" refid="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_progress</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="826"><highlight class="normal"></highlight></codeline>
-<codeline lineno="829" refid="MRCtm_8h_1acf89514f8b0a0ee45ff47a4153a75e05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1acf89514f8b0a0ee45ff47a4153a75e05" kindref="member">MR_PointsSave_CtmSavePointsOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="620" refid="MRCtm_8h_1a92a89c0ff46cecb73b6d656ee958ed5a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a92a89c0ff46cecb73b6d656ee958ed5a" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_packPrimitives</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="621"><highlight class="normal"></highlight></codeline>
+<codeline lineno="627" refid="MRCtm_8h_1a4b103b074a35936dc98d3929aac93162" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a4b103b074a35936dc98d3929aac93162" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="628"><highlight class="normal"></highlight></codeline>
+<codeline lineno="634" refid="MRCtm_8h_1a6f450dfb15a8e63d459bf034aca72b49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a6f450dfb15a8e63d459bf034aca72b49" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_colors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"></highlight></codeline>
+<codeline lineno="641" refid="MRCtm_8h_1a405e066be7adadd3107979c3dade201b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRCtm_8h_1a405e066be7adadd3107979c3dade201b" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_colors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight></codeline>
+<codeline lineno="648" refid="MRCtm_8h_1a1191ea38261c53994251fcba1002b5e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a1191ea38261c53994251fcba1002b5e0" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_primitiveColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"></highlight></codeline>
+<codeline lineno="655" refid="MRCtm_8h_1a4d07400968a623e736765736c6fb78be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a4d07400968a623e736765736c6fb78be" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_primitiveColors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="656"><highlight class="normal"></highlight></codeline>
+<codeline lineno="662" refid="MRCtm_8h_1aaa0f2b9f2640ac4573afc4e6abb4f7bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a7608dfb93ec2fd0c55d4213b65d70f51" kindref="member">MR_std_vector_MR_Color</ref><sp/>**<ref refid="MRCtm_8h_1aaa0f2b9f2640ac4573afc4e6abb4f7bb" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_primitiveColors</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="663"><highlight class="normal"></highlight></codeline>
+<codeline lineno="669" refid="MRCtm_8h_1adb581160676d2fb60b3f9b2b04f843d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1adb581160676d2fb60b3f9b2b04f843d5" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_uvMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="670"><highlight class="normal"></highlight></codeline>
+<codeline lineno="676" refid="MRCtm_8h_1a1c61120c2a8668a6f5e8c5120c396547" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1c61120c2a8668a6f5e8c5120c396547" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_uvMap</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="677"><highlight class="normal"></highlight></codeline>
+<codeline lineno="683" refid="MRCtm_8h_1a16e9e59e225dd1e029348c2e19dcddbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRCtm_8h_1a16e9e59e225dd1e029348c2e19dcddbe" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_uvMap</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="684"><highlight class="normal"></highlight></codeline>
+<codeline lineno="691" refid="MRCtm_8h_1aefe823951b407f3a7500aa8e8c485c91" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1aefe823951b407f3a7500aa8e8c485c91" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_saveTriCornerUVCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="692"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698" refid="MRCtm_8h_1a9b237c7dbb539fb78cc0f604921f7774" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a9b237c7dbb539fb78cc0f604921f7774" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="706" refid="MRCtm_8h_1a6d911d34167da15ad1094575438bc1d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a6d911d34167da15ad1094575438bc1d6" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_saveTriCornerUVCoords</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="707"><highlight class="normal"></highlight></codeline>
+<codeline lineno="713" refid="MRCtm_8h_1af7e7d1c8d0beae60f1c13f3fbe18185e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1af7e7d1c8d0beae60f1c13f3fbe18185e" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_texture</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="714"><highlight class="normal"></highlight></codeline>
+<codeline lineno="720" refid="MRCtm_8h_1a1f12ecc2b70be59ef2d1d3ecf2e100c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1f12ecc2b70be59ef2d1d3ecf2e100c4" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_texture</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="721"><highlight class="normal"></highlight></codeline>
+<codeline lineno="727" refid="MRCtm_8h_1abadf62cd8ec8037cfcdf64947919a2f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ac5c5abdc9ba8adb6f8e522246978c790" kindref="member">MR_MeshTexture</ref><sp/>**<ref refid="MRCtm_8h_1abadf62cd8ec8037cfcdf64947919a2f4" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_texture</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="728"><highlight class="normal"></highlight></codeline>
+<codeline lineno="734" refid="MRCtm_8h_1a366ae869fb61ea19af76b4bba69295f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a366ae869fb61ea19af76b4bba69295f3" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_materialName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="735"><highlight class="normal"></highlight></codeline>
+<codeline lineno="743" refid="MRCtm_8h_1a1c6775fe65a44248a45322978018e06b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a1c6775fe65a44248a45322978018e06b" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_materialName</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="744"><highlight class="normal"></highlight></codeline>
+<codeline lineno="750" refid="MRCtm_8h_1a831e6c3bcd21ed5799a729ed2d6ed7e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a831e6c3bcd21ed5799a729ed2d6ed7e9" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_materialName</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="751"><highlight class="normal"></highlight></codeline>
+<codeline lineno="757" refid="MRCtm_8h_1a6465463b79c0d1b6053f1daa5699d2cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCtm_8h_1a6465463b79c0d1b6053f1daa5699d2cd" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="758"><highlight class="normal"></highlight></codeline>
+<codeline lineno="764" refid="MRCtm_8h_1a8c147c18137fa64cfe9e681b1fdd7a46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a8c147c18137fa64cfe9e681b1fdd7a46" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_xf</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="765"><highlight class="normal"></highlight></codeline>
+<codeline lineno="771" refid="MRCtm_8h_1a1e21b49d20c08e6114b7dd35eb08604e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/>**<ref refid="MRCtm_8h_1a1e21b49d20c08e6114b7dd35eb08604e" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_xf</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="772"><highlight class="normal"></highlight></codeline>
+<codeline lineno="778" refid="MRCtm_8h_1a841f37fa79498a558b96674d9269d2eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRCtm_8h_1a841f37fa79498a558b96674d9269d2eb" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_lengthUnit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight></codeline>
+<codeline lineno="786" refid="MRCtm_8h_1a458c17a2de17a024c9e0a87de91834d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a458c17a2de17a024c9e0a87de91834d8" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_lengthUnit</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="787"><highlight class="normal"></highlight></codeline>
+<codeline lineno="793" refid="MRCtm_8h_1ad8c397f96fc249801b1d0910628940c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1abfa36f7cf27ce4b9864dde0b998a0c96" kindref="member">MR_std_optional_MR_LengthUnit</ref><sp/>*<ref refid="MRCtm_8h_1ad8c397f96fc249801b1d0910628940c4" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_lengthUnit</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"></highlight></codeline>
+<codeline lineno="800" refid="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRCtm_8h_1aeaf21845bd779a06b52c290a94152cb8" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_solidColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="801"><highlight class="normal"></highlight></codeline>
+<codeline lineno="808" refid="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae8940e8549d17b32a49176510055a04d" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_solidColor</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="809"><highlight class="normal"></highlight></codeline>
+<codeline lineno="815" refid="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1af8e34c593afc89cf4494928ca552201f" kindref="member">MR_std_optional_MR_Color</ref><sp/>*<ref refid="MRCtm_8h_1a757aa15565da5a6e3b219fc355aeed38" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_solidColor</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="816"><highlight class="normal"></highlight></codeline>
+<codeline lineno="822" refid="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRCtm_8h_1a427b98dcaa1daa1c6670dc3aa74a4642" kindref="member">MR_PointsSave_CtmSavePointsOptions_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="823"><highlight class="normal"></highlight></codeline>
+<codeline lineno="829" refid="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a55d6247cbbd807c11acf7583c39433f7" kindref="member">MR_PointsSave_CtmSavePointsOptions_Set_progress</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="830"><highlight class="normal"></highlight></codeline>
-<codeline lineno="834" refid="MRCtm_8h_1a6ff203eb8ac6ba249233fd506119237f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1a6ff203eb8ac6ba249233fd506119237f" kindref="member">MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
-<codeline lineno="835"><highlight class="normal"></highlight></codeline>
-<codeline lineno="838" refid="MRCtm_8h_1ab492f7ff1aa492718a87eefa5dfde89a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1ab492f7ff1aa492718a87eefa5dfde89a" kindref="member">MR_PointsSave_CtmSavePointsOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="839"><highlight class="normal"></highlight></codeline>
-<codeline lineno="842" refid="MRCtm_8h_1adcbcbb94efbd58ec420f2e5d9601357d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1adcbcbb94efbd58ec420f2e5d9601357d" kindref="member">MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
-<codeline lineno="843"><highlight class="normal"></highlight></codeline>
-<codeline lineno="847" refid="MRCtm_8h_1ae527fafb5a35506aef82b8525527ad4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRCtm_8h_1ae527fafb5a35506aef82b8525527ad4e" kindref="member">MR_PointsSave_CtmSavePointsOptions_UpcastTo_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="848"><highlight class="normal"></highlight></codeline>
-<codeline lineno="851" refid="MRCtm_8h_1a168033e69e53baca2e4eea4462d33864" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRCtm_8h_1a168033e69e53baca2e4eea4462d33864" kindref="member">MR_PointsSave_CtmSavePointsOptions_MutableUpcastTo_MR_SaveSettings</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="852"><highlight class="normal"></highlight></codeline>
-<codeline lineno="856" refid="MRCtm_8h_1ae1ef319bd87133bfc200d7dd5ddffec4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1ae1ef319bd87133bfc200d7dd5ddffec4" kindref="member">MR_PointsSave_CtmSavePointsOptions_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="857"><highlight class="normal"></highlight></codeline>
-<codeline lineno="859" refid="MRCtm_8h_1a76919b968ef58ebff44e142820b39216" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a76919b968ef58ebff44e142820b39216" kindref="member">MR_PointsSave_CtmSavePointsOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
-<codeline lineno="860"><highlight class="normal"></highlight></codeline>
-<codeline lineno="862" refid="MRCtm_8h_1a627d8c921f63ee765c91d6691df6a7ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a627d8c921f63ee765c91d6691df6a7ee" kindref="member">MR_PointsSave_CtmSavePointsOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="836" refid="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRCtm_8h_1acad61c6a13c5c2ae5a802100593cb74a" kindref="member">MR_PointsSave_CtmSavePointsOptions_GetMutable_progress</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="837"><highlight class="normal"></highlight></codeline>
+<codeline lineno="840" refid="MRCtm_8h_1acf89514f8b0a0ee45ff47a4153a75e05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1acf89514f8b0a0ee45ff47a4153a75e05" kindref="member">MR_PointsSave_CtmSavePointsOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="841"><highlight class="normal"></highlight></codeline>
+<codeline lineno="845" refid="MRCtm_8h_1a6ff203eb8ac6ba249233fd506119237f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1a6ff203eb8ac6ba249233fd506119237f" kindref="member">MR_PointsSave_CtmSavePointsOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="846"><highlight class="normal"></highlight></codeline>
+<codeline lineno="849" refid="MRCtm_8h_1ab492f7ff1aa492718a87eefa5dfde89a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1ab492f7ff1aa492718a87eefa5dfde89a" kindref="member">MR_PointsSave_CtmSavePointsOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="850"><highlight class="normal"></highlight></codeline>
+<codeline lineno="853" refid="MRCtm_8h_1adcbcbb94efbd58ec420f2e5d9601357d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1adcbcbb94efbd58ec420f2e5d9601357d" kindref="member">MR_PointsSave_CtmSavePointsOptions_OffsetMutablePtr</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="854"><highlight class="normal"></highlight></codeline>
+<codeline lineno="858" refid="MRCtm_8h_1ae527fafb5a35506aef82b8525527ad4e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRCtm_8h_1ae527fafb5a35506aef82b8525527ad4e" kindref="member">MR_PointsSave_CtmSavePointsOptions_UpcastTo_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="859"><highlight class="normal"></highlight></codeline>
+<codeline lineno="862" refid="MRCtm_8h_1a168033e69e53baca2e4eea4462d33864" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*<ref refid="MRCtm_8h_1a168033e69e53baca2e4eea4462d33864" kindref="member">MR_PointsSave_CtmSavePointsOptions_MutableUpcastTo_MR_SaveSettings</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="863"><highlight class="normal"></highlight></codeline>
-<codeline lineno="869" refid="MRCtm_8h_1a4a652818a2b3c9bd65ac20b8354091bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1a4a652818a2b3c9bd65ac20b8354091bc" kindref="member">MR_PointsSave_CtmSavePointsOptions_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_other);</highlight></codeline>
-<codeline lineno="870"><highlight class="normal"></highlight></codeline>
-<codeline lineno="877" refid="MRCtm_8h_1a9d282665ef482fcd38da59de9955f873" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a9d282665ef482fcd38da59de9955f873" kindref="member">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*options);</highlight></codeline>
-<codeline lineno="878"><highlight class="normal"></highlight></codeline>
-<codeline lineno="884" refid="MRCtm_8h_1a926c6c881eed4b22fff33a79f27373ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a926c6c881eed4b22fff33a79f27373ac" kindref="member">MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="868" refid="MRCtm_8h_1a52fc80911da99da8d70f636672b2c195" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1a52fc80911da99da8d70f636672b2c195" kindref="member">MR_PointsSave_CtmSavePointsOptions_StaticDowncastFrom_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="869"><highlight class="normal"></highlight></codeline>
+<codeline lineno="873" refid="MRCtm_8h_1ae7ca7731325ec78398d94d07a8ec298a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1ae7ca7731325ec78398d94d07a8ec298a" kindref="member">MR_PointsSave_CtmSavePointsOptions_MutableStaticDowncastFrom_MR_SaveSettings</ref>(<ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="874"><highlight class="normal"></highlight></codeline>
+<codeline lineno="878" refid="MRCtm_8h_1ae1ef319bd87133bfc200d7dd5ddffec4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1ae1ef319bd87133bfc200d7dd5ddffec4" kindref="member">MR_PointsSave_CtmSavePointsOptions_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="879"><highlight class="normal"></highlight></codeline>
+<codeline lineno="881" refid="MRCtm_8h_1a76919b968ef58ebff44e142820b39216" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a76919b968ef58ebff44e142820b39216" kindref="member">MR_PointsSave_CtmSavePointsOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="882"><highlight class="normal"></highlight></codeline>
+<codeline lineno="884" refid="MRCtm_8h_1a627d8c921f63ee765c91d6691df6a7ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a627d8c921f63ee765c91d6691df6a7ee" kindref="member">MR_PointsSave_CtmSavePointsOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="885"><highlight class="normal"></highlight></codeline>
-<codeline lineno="892" refid="MRCtm_8h_1ae359919c5fa299cb1f28f273e0606018" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1ae359919c5fa299cb1f28f273e0606018" kindref="member">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="893"><highlight class="normal"></highlight></codeline>
-<codeline lineno="900" refid="MRCtm_8h_1aad6e794d22dda575e41e83f552bc50ef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1aad6e794d22dda575e41e83f552bc50ef" kindref="member">MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
-<codeline lineno="901"><highlight class="normal"></highlight></codeline>
-<codeline lineno="902"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="903"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="904"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="891" refid="MRCtm_8h_1a4a652818a2b3c9bd65ac20b8354091bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*<ref refid="MRCtm_8h_1a4a652818a2b3c9bd65ac20b8354091bc" kindref="member">MR_PointsSave_CtmSavePointsOptions_AssignFromAnother</ref>(<ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="892"><highlight class="normal"></highlight></codeline>
+<codeline lineno="899" refid="MRCtm_8h_1a9d282665ef482fcd38da59de9955f873" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a9d282665ef482fcd38da59de9955f873" kindref="member">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_PointsSave_CtmSavePointsOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="900"><highlight class="normal"></highlight></codeline>
+<codeline lineno="906" refid="MRCtm_8h_1a926c6c881eed4b22fff33a79f27373ac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1a926c6c881eed4b22fff33a79f27373ac" kindref="member">MR_PointsSave_toCtm_std_ostream_ref_MR_PointsSave_CtmSavePointsOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae978f40ff51260a61a48889fa82116d9" kindref="member">MR_PointsSave_CtmSavePointsOptions</ref><sp/>*options);</highlight></codeline>
+<codeline lineno="907"><highlight class="normal"></highlight></codeline>
+<codeline lineno="914" refid="MRCtm_8h_1ae359919c5fa299cb1f28f273e0606018" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1ae359919c5fa299cb1f28f273e0606018" kindref="member">MR_PointsSave_toCtm_const_std_filesystem_path_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="915"><highlight class="normal"></highlight></codeline>
+<codeline lineno="922" refid="MRCtm_8h_1aad6e794d22dda575e41e83f552bc50ef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRCtm_8h_1aad6e794d22dda575e41e83f552bc50ef" kindref="member">MR_PointsSave_toCtm_std_ostream_ref_MR_SaveSettings</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/><ref refid="MRCtm_8h_1a933fad1748853c0c595a157b9f6527c6" kindref="member">MR_std_ostream</ref><sp/>*out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a66434f88501a5c24a45cf39f9dbcadbb" kindref="member">MR_SaveSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="923"><highlight class="normal"></highlight></codeline>
+<codeline lineno="924"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="925"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="926"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRCtm.h"/>
   </compounddef>

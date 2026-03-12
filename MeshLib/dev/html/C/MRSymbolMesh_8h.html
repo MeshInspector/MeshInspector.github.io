@@ -189,8 +189,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a1f9c1ca18c2cd839bd6ae186ef023287" id="r_a1f9c1ca18c2cd839bd6ae186ef023287"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f9c1ca18c2cd839bd6ae186ef023287">MR_SymbolMeshParams_ConstructFrom</a> (const char *text, const char *text_end, int fontDetalization, <a class="el" href="structMR__Vector2f.html">MR_Vector2f</a> symbolsDistanceAdditionalOffset, float symbolsThicknessOffsetModifier, <a class="el" href="#a5f3ea33c07a887155afc8586d50ad7cd">MR_AlignType</a> align, const char *pathToFontFile, const char *pathToFontFile_end)</td></tr>
 <tr class="memitem:a1293bbcd04ee143f9359628f2fd9b1db" id="r_a1293bbcd04ee143f9359628f2fd9b1db"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1293bbcd04ee143f9359628f2fd9b1db">MR_SymbolMeshParams_OffsetPtr</a> (const <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="memitem:a0cbab972a133d438058e74eddad6dcdd" id="r_a0cbab972a133d438058e74eddad6dcdd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cbab972a133d438058e74eddad6dcdd">MR_SymbolMeshParams_OffsetMutablePtr</a> (<a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a966dda210fe301f835a50c2bdde128e2" id="r_a966dda210fe301f835a50c2bdde128e2"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a966dda210fe301f835a50c2bdde128e2">MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams</a> (const <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *object)</td></tr>
-<tr class="memitem:a373db4a1f3a1b4c561886ab1a0bcb0fa" id="r_a373db4a1f3a1b4c561886ab1a0bcb0fa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a373db4a1f3a1b4c561886ab1a0bcb0fa">MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams</a> (<a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *object)</td></tr>
 <tr class="memitem:a64f2f876777f598e300794a3c7544574" id="r_a64f2f876777f598e300794a3c7544574"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64f2f876777f598e300794a3c7544574">MR_SymbolMeshParams_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *_other)</td></tr>
 <tr class="memitem:af2a15f9689b0a5626ab85c8ed876d3ff" id="r_af2a15f9689b0a5626ab85c8ed876d3ff"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af2a15f9689b0a5626ab85c8ed876d3ff">MR_SymbolMeshParams_Destroy</a> (const <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *_this)</td></tr>
 <tr class="memdesc:af2a15f9689b0a5626ab85c8ed876d3ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
@@ -695,24 +693,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a373db4a1f3a1b4c561886ab1a0bcb0fa" name="a373db4a1f3a1b4c561886ab1a0bcb0fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a373db4a1f3a1b4c561886ab1a0bcb0fa">&#9670;&#160;</a></span>MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> * MR_SymbolMeshParams_MutableStaticDowncastTo_MR_TextMeshAlignParams </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::SymbolMeshParams</span> to a derived class <span class="tt">MR::TextMeshAlignParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
-
-</div>
-</div>
 <a id="a0cbab972a133d438058e74eddad6dcdd" name="a0cbab972a133d438058e74eddad6dcdd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0cbab972a133d438058e74eddad6dcdd">&#9670;&#160;</a></span>MR_SymbolMeshParams_OffsetMutablePtr()</h2>
 
@@ -896,24 +876,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Modifies a member variable of class <span class="tt">MR::SymbolMeshParams</span> named <span class="tt">text</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">value</span> can not be null. If <span class="tt">value_end</span> is null, then <span class="tt">value</span> is assumed to be null-terminated. The reference to the parameter <span class="tt">value</span> might be preserved in this object in element <span class="tt">text</span>. When this function is called, this object will drop object references it held previously in <span class="tt">text</span>. </p>
-
-</div>
-</div>
-<a id="a966dda210fe301f835a50c2bdde128e2" name="a966dda210fe301f835a50c2bdde128e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a966dda210fe301f835a50c2bdde128e2">&#9670;&#160;</a></span>MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAlignTextToMesh_8h.html#a248de3625afa5f345225a9c64501932b">MR_TextMeshAlignParams</a> * MR_SymbolMeshParams_StaticDowncastTo_MR_TextMeshAlignParams </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRAlignTextToMesh_8h.html#adc08a6832856be67ef1c2acff16c9f59">MR_SymbolMeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Downcasts an instance of <span class="tt">MR::SymbolMeshParams</span> to a derived class <span class="tt">MR::TextMeshAlignParams</span>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <span class="tt">object</span> might be preserved in the return value. </p>
 
 </div>
 </div>

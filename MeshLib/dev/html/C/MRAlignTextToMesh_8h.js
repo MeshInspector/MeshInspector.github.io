@@ -76,6 +76,7 @@ var MRAlignTextToMesh_8h =
     [ "MR_TextMeshAlignParams_GetMutable_text", "MRAlignTextToMesh_8h.html#afc6586f0cb2065d443dd3e298409d34a", null ],
     [ "MR_TextMeshAlignParams_GetMutable_textMaximumMovement", "MRAlignTextToMesh_8h.html#a3d0881fdad1a96cf47dfd661094d6b93", null ],
     [ "MR_TextMeshAlignParams_GetMutable_textNormal", "MRAlignTextToMesh_8h.html#a67ff89392b8f1217ad8660a3d8aedbbb", null ],
+    [ "MR_TextMeshAlignParams_MutableStaticDowncastFrom_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a16f98e502f9479b9863c61a7e6274e25", null ],
     [ "MR_TextMeshAlignParams_MutableUpcastTo_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a17633359a6e2a6ccfa599f4bc0768309", null ],
     [ "MR_TextMeshAlignParams_OffsetMutablePtr", "MRAlignTextToMesh_8h.html#a9ea24d3f2bc849adb5316167c2d48615", null ],
     [ "MR_TextMeshAlignParams_OffsetPtr", "MRAlignTextToMesh_8h.html#af2738ba6fad3b18983c9ead604da21a9", null ],
@@ -93,5 +94,6 @@ var MRAlignTextToMesh_8h =
     [ "MR_TextMeshAlignParams_Set_text", "MRAlignTextToMesh_8h.html#aa8d68bcec093134f07e4f8e04c479448", null ],
     [ "MR_TextMeshAlignParams_Set_textMaximumMovement", "MRAlignTextToMesh_8h.html#ad575a4c054cb67440890b09d4a3304ea", null ],
     [ "MR_TextMeshAlignParams_Set_textNormal", "MRAlignTextToMesh_8h.html#a70258d263a69bc145eb34261ba3a0316", null ],
+    [ "MR_TextMeshAlignParams_StaticDowncastFrom_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#a829c2213ca865f518afcdacfb32f6bbc", null ],
     [ "MR_TextMeshAlignParams_UpcastTo_MR_SymbolMeshParams", "MRAlignTextToMesh_8h.html#afac8a0ef9b2cba5574364d5d5e53b892", null ]
 ];

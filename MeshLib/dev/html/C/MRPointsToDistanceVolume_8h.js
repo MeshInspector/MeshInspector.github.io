@@ -2,6 +2,7 @@ var MRPointsToDistanceVolume_8h =
 [
     [ "MR_expected_MR_SimpleVolume_std_string", "MRPointsToDistanceVolume_8h.html#a1fc8e13b15f164149cdebe00fc8c33b8", null ],
     [ "MR_expected_MR_VertColors_std_string", "MRPointsToDistanceVolume_8h.html#a401c27a5a8649aadc2ab876a153c54d6", null ],
+    [ "MR_PointsToDistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804", null ],
     [ "MR_calcAvgColors", "MRPointsToDistanceVolume_8h.html#a88ee201c428c624e871945c67afb2f43", null ],
     [ "MR_pointsToDistanceFunctionVolume", "MRPointsToDistanceVolume_8h.html#a756f633a49755a8bd4b1a79f7a80b896", null ],
     [ "MR_pointsToDistanceVolume", "MRPointsToDistanceVolume_8h.html#a0362d48493d5a4f5eeb5cfe725f9a090", null ],
@@ -29,6 +30,7 @@ var MRPointsToDistanceVolume_8h =
     [ "MR_PointsToDistanceVolumeParams_GetMutable_sigma", "MRPointsToDistanceVolume_8h.html#a5e30be49bcdd6256e9c24b02540be45b", null ],
     [ "MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight", "MRPointsToDistanceVolume_8h.html#a27ca12ed8129d386135931471d70a75a", null ],
     [ "MR_PointsToDistanceVolumeParams_GetMutable_voxelSize", "MRPointsToDistanceVolume_8h.html#a8ed23560f9dda18660625e52a0ab9931", null ],
+    [ "MR_PointsToDistanceVolumeParams_MutableStaticDowncastFrom_MR_DistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#aec8877c6f7c35affbdf2336f739e618e", null ],
     [ "MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#afa557db0e8bd14e1c871f1c1a586e95b", null ],
     [ "MR_PointsToDistanceVolumeParams_OffsetMutablePtr", "MRPointsToDistanceVolume_8h.html#a91fa264c6a33a72770f53651af2b3737", null ],
     [ "MR_PointsToDistanceVolumeParams_OffsetPtr", "MRPointsToDistanceVolume_8h.html#ae90a31c665f670086d501092fcc6f29a", null ],
@@ -41,5 +43,6 @@ var MRPointsToDistanceVolume_8h =
     [ "MR_PointsToDistanceVolumeParams_Set_sigma", "MRPointsToDistanceVolume_8h.html#a3df388de74a30b56dbf69a5acae793f4", null ],
     [ "MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight", "MRPointsToDistanceVolume_8h.html#adae64568705ac7abf4cded4fdcc2d0a4", null ],
     [ "MR_PointsToDistanceVolumeParams_Set_voxelSize", "MRPointsToDistanceVolume_8h.html#aaba22fbd6b4583dd97dc00dd2eb79849", null ],
+    [ "MR_PointsToDistanceVolumeParams_StaticDowncastFrom_MR_DistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#ad2fe3cf0739f7904543156f296f80d8c", null ],
     [ "MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#a25a67ef52f8bd92bbbc1aaaf37aa7275", null ]
 ];

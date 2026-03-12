@@ -1,5 +1,12 @@
 var NAVTREEINDEX16 =
 {
+"classMR_1_1Box__Vector3i64.html#a56dd9f9398da45a302df7c4a23884cd7":[6,3,0,0,0,126,7],
+"classMR_1_1Box__Vector3i64.html#a596e49e82a4b58f989a6bdcdb4496acd":[6,3,0,0,0,126,4],
+"classMR_1_1Box__Vector3i64.html#a5c673f7003662a1fd16347aba617e0d7":[6,3,0,0,0,126,9],
+"classMR_1_1Box__Vector3i64.html#a7306ce9b05e115d330fa5b0e8e1c5700":[6,3,0,0,0,126,6],
+"classMR_1_1Box__Vector3i64.html#a854683e5f60de6832fbb0f4ae1f45573":[6,3,0,0,0,126,2],
+"classMR_1_1Box__Vector3i64.html#a894530a8176dc1b6e02565ef1b2a30d0":[6,3,0,0,0,126,12],
+"classMR_1_1Box__Vector3i64.html#aa6f3915e3be1b9b338bc279a3b4ef7dc":[6,3,0,0,0,126,0],
 "classMR_1_1Box__Vector3i64.html#acf8e41a0fa378fbe11f76b4765e869db":[6,3,0,0,0,126,3],
 "classMR_1_1Box__Vector3i64.html#ad7b05c9332384afe78cee2c8d2da4a62":[6,3,0,0,0,126,10],
 "classMR_1_1Box__Vector3i64.html#afdbadfb3cf00e9194ef2742811d037d9":[6,3,0,0,0,126,13],
@@ -242,12 +249,5 @@ var NAVTREEINDEX16 =
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html#a53a9f7ba4c82fa39740d22ee222cca25":[6,3,0,0,0,147,1],
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html#a98840a44d0132956d474bb2fe4a1e80f":[6,3,0,0,0,147,7],
 "classMR_1_1Buffer__MRTextureId__MRTextureId.html#aa00418db9bdbd45f17bb3cbcaf3505a8":[6,3,0,0,0,147,4],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#acd3c975ad1b88e498870e630e36fb3d1":[6,3,0,0,0,147,8],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#ae346b1fed8f1cb188f5ba465fe5d5aa8":[6,3,0,0,0,147,0],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#af65de09b234204cec5361edf63d09500":[6,3,0,0,0,147,3],
-"classMR_1_1Buffer__MRTextureId__MRTextureId.html#afcbaf6131a0f41fec6f2ccbac838571b":[6,3,0,0,0,147,6],
-"classMR_1_1Buffer__MRUndirectedEdgeId.html":[6,3,0,0,0,148],
-"classMR_1_1Buffer__MRUndirectedEdgeId.html#a075ac01d292cb3a771c36006fcbacb14":[6,3,0,0,0,148,5],
-"classMR_1_1Buffer__MRUndirectedEdgeId.html#a2d3e5a76502fdd88059aab4ac81955fd":[6,3,0,0,0,148,2],
-"classMR_1_1Buffer__MRUndirectedEdgeId.html#a42437422dacb7599af215ad616f7d182":[6,3,0,0,0,148,1]
+"classMR_1_1Buffer__MRTextureId__MRTextureId.html#acd3c975ad1b88e498870e630e36fb3d1":[6,3,0,0,0,147,8]
 };

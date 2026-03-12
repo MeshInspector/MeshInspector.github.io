@@ -530,7 +530,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::UndirectedEdgeId
-Aliases:  AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_reference, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, PolylineUndirectedEdgeIterator.value_type, UndirectedEdgeIterator.value_type, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, TypedBitSet_UndirectedEdgeId_IndexType, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type
+Aliases:  AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_reference, PolylineUndirectedEdgeIterator.value_type, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, UndirectedEdgeIterator.value_type, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, TypedBitSet_UndirectedEdgeId_IndexType, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>
