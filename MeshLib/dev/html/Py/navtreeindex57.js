@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a9f9e2a2b15a153b3e23c000a0ab13994":[6,1,0,0,2,554,12],
+"classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#a9f9e2a2b15a153b3e23c000a0ab13994":[6,1,1,0,1,554,12],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#aac43060e0ca64081658aca0b4d79d0e3":[6,1,0,0,2,554,11],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#aac43060e0ca64081658aca0b4d79d0e3":[6,1,1,0,1,554,11],
 "classmrmeshpy_1_1MoveMeshToVoxelMaxDerivSettings.html#ac0ac2b0d2eab3aeff5212e84d749dc68":[6,1,0,0,2,554,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#abcad638d9ae639280fe06bb4fcd10fc9":[6,1,0,0,2,560,0,3],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#abcad638d9ae639280fe06bb4fcd10fc9":[6,1,1,0,1,560,0,3],
 "classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#abfe26857c84d84e238169735711ed8c7":[6,1,0,0,2,560,0,2],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#abfe26857c84d84e238169735711ed8c7":[6,1,1,0,1,560,0,2],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#ac440f54bdefda7e4922602d45ff96aa7":[6,1,0,0,2,560,0,1],
-"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#ac440f54bdefda7e4922602d45ff96aa7":[6,1,1,0,1,560,0,1]
+"classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode.html#abfe26857c84d84e238169735711ed8c7":[6,1,1,0,1,560,0,2]
 };

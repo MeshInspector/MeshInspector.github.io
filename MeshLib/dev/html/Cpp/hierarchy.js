@@ -990,6 +990,7 @@ var hierarchy =
     [ "MR::PdfParameters", "structMR_1_1PdfParameters.html", null ],
     [ "MR::ParallelProgressReporter::PerTaskReporter", "structMR_1_1ParallelProgressReporter_1_1PerTaskReporter.html", null ],
     [ "MR::CornerControllerObject::PickedIds", "structMR_1_1CornerControllerObject_1_1PickedIds.html", null ],
+    [ "MR::SurfaceManipulationWidget::PickedVertData", "structMR_1_1SurfaceManipulationWidget_1_1PickedVertData.html", null ],
     [ "MR::ViewportGL::PickParameters", "structMR_1_1ViewportGL_1_1PickParameters.html", null ],
     [ "MR::Viewport::PickRenderObjectParams", "structMR_1_1Viewport_1_1PickRenderObjectParams.html", null ],
     [ "MR::Features::Primitives::Plane", "structMR_1_1Features_1_1Primitives_1_1Plane.html", null ],

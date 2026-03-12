@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"MRNestingStructures_8h.html#afd2879edc506cd88af355c8c500ba868":[6,2,1,0,0,0,1,209,3],
 "MRNestingStructures_8h.html#afdaf6df6445ad720c2eb8065c611f4d6":[6,2,1,0,0,0,1,209,43],
 "MRNestingStructures_8h_source.html":[6,2,1,0,0,0,1,209],
 "MRNoDefInit_8h.html":[6,2,1,0,0,0,1,210],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "MRNoDefInit_8h.html#ad3baec6fe1062a47ec0be170f7dfcb66":[6,2,1,0,0,0,1,210,169],
 "MRNoDefInit_8h.html#ad4bc630b00474dae149bf96fb8c57829":[6,2,1,0,0,0,1,210,271],
 "MRNoDefInit_8h.html#ad810b8be79384d17f2c4fe02a3315e57":[6,2,1,0,0,0,1,210,84],
-"MRNoDefInit_8h.html#ad89c8357867261b3d9a31721a31b06d1":[6,2,1,0,0,0,1,210,276],
-"MRNoDefInit_8h.html#ada4e7a1e237bc05750639596a465472d":[6,2,1,0,0,0,1,210,108]
+"MRNoDefInit_8h.html#ad89c8357867261b3d9a31721a31b06d1":[6,2,1,0,0,0,1,210,276]
 };

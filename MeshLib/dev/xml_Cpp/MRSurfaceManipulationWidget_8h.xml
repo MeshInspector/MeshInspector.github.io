@@ -7,7 +7,7 @@
     <includes refid="MREnums_8h" local="yes">MRMesh/MREnums.h</includes>
     <includes refid="MRBitSet_8h" local="yes">MRMesh/MRBitSet.h</includes>
     <includes refid="MRVector2_8h" local="yes">MRMesh/MRVector2.h</includes>
-    <includes local="no">chrono</includes>
+    <includes local="no">cfloat</includes>
     <incdepgraph>
       <node id="31">
         <label>MRMesh/MRBitSet.h</label>
@@ -240,7 +240,7 @@
         <label>cassert</label>
       </node>
       <node id="39">
-        <label>chrono</label>
+        <label>cfloat</label>
       </node>
       <node id="23">
         <label>cmath</label>
@@ -287,6 +287,7 @@
     </incdepgraph>
     <innerclass refid="classMR_1_1SurfaceManipulationWidget" prot="public">MR::SurfaceManipulationWidget</innerclass>
     <innerclass refid="structMR_1_1SurfaceManipulationWidget_1_1Settings" prot="public">MR::SurfaceManipulationWidget::Settings</innerclass>
+    <innerclass refid="structMR_1_1SurfaceManipulationWidget_1_1PickedVertData" prot="protected">MR::SurfaceManipulationWidget::PickedVertData</innerclass>
     <innernamespace refid="namespaceMR">MR</innernamespace>
     <briefdescription>
     </briefdescription>
@@ -299,7 +300,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MRMesh/MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRMesh/MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRMesh/MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;chrono&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
 <codeline lineno="10"><highlight class="normal">{</highlight></codeline>
@@ -340,7 +341,7 @@
 <codeline lineno="55" refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kindref="member">relaxForceAfterEdit</ref><sp/>=<sp/>0.25f;<sp/></highlight></codeline>
 <codeline lineno="56" refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5ac9f08cd2ef48394fa1c77a8ebdd6c8" kindref="member">EdgeWeights</ref><sp/><ref refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kindref="member">edgeWeights</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gga5ac9f08cd2ef48394fa1c77a8ebdd6c8af2ccdc14df1f860d7b09661c47cc15c9" kindref="member">EdgeWeights::Cotan</ref>;<sp/></highlight></codeline>
 <codeline lineno="57" refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gada281bbc8bccd66b01be1b6d2b99e3cd" kindref="member">VertexMass</ref><sp/><ref refid="group__GeneralGroup_1gaab506cf4d0c39bc59ac2ac941047014b" kindref="member">vmass</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggada281bbc8bccd66b01be1b6d2b99e3cda1382ee05d86c5b607841935eeb648e06" kindref="member">VertexMass::NeiArea</ref>;<sp/></highlight></codeline>
-<codeline lineno="58" refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33962d16d47d1608ace44030dde693bc" kindref="member">idealGrooves</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85a36f3e76609b4c85759a1e84f534bb" kindref="member">laplacianBasedAddRemove</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="59" refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3ef41c990eabe59d5dbc874d00accf52" kindref="member">subdivideGrooves</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
@@ -447,22 +448,25 @@
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
 <codeline lineno="192" refid="group__GeneralGroup_1ga2bce77a98a1b42394a4f68d72bcb1637" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2bce77a98a1b42394a4f68d72bcb1637" kindref="member">mousePressed_</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="group__GeneralGroup_1ga49f49c64ee7dbba1fc0f33d9b4710f54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::chrono::time_point&lt;std::chrono::high_resolution_clock&gt;<sp/><ref refid="group__GeneralGroup_1ga49f49c64ee7dbba1fc0f33d9b4710f54" kindref="member">timePoint_</ref>;</highlight></codeline>
-<codeline lineno="195" refid="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::signals2::scoped_connection<sp/><ref refid="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" kindref="member">meshChangedConnection_</ref>;</highlight></codeline>
-<codeline lineno="196" refid="group__GeneralGroup_1gab48b92dfb4eab8bf8e44861c6b4d3751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab48b92dfb4eab8bf8e44861c6b4d3751" kindref="member">ownMeshChangedSignal_</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="group__GeneralGroup_1ga184c41be698549192241c93c8cb1a573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga184c41be698549192241c93c8cb1a573" kindref="member">connectionsInitialized_</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="group__GeneralGroup_1ga3fb404481401039261c3c4d8d7272b08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga3fb404481401039261c3c4d8d7272b08" kindref="member">touchVertId_</ref>;<sp/></highlight></codeline>
-<codeline lineno="202" refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" kindref="member">touchVertIniPos_</ref>;<sp/></highlight></codeline>
-<codeline lineno="203" refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" kindref="member">storedDown_</ref>;</highlight></codeline>
-<codeline lineno="204" refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;Laplacian&gt;<sp/><ref refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" kindref="member">laplacian_</ref>;</highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga8fc55e576b16eb9f3a7ebc6d3aed8b86" kindref="member">fixedPickedVerts_</ref>;</highlight></codeline>
-<codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="group__GeneralGroup_1gae9349ed78305ee5063f2bf0f5c564d0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, float&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae9349ed78305ee5063f2bf0f5c564d0c" kindref="member">fixedPickedVertsToDistSq_</ref>;</highlight></codeline>
+<codeline lineno="194" refid="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::signals2::scoped_connection<sp/><ref refid="group__GeneralGroup_1ga19b5f418f871baaab19f8b61b09a900a" kindref="member">meshChangedConnection_</ref>;</highlight></codeline>
+<codeline lineno="195" refid="group__GeneralGroup_1gab48b92dfb4eab8bf8e44861c6b4d3751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab48b92dfb4eab8bf8e44861c6b4d3751" kindref="member">ownMeshChangedSignal_</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="group__GeneralGroup_1ga184c41be698549192241c93c8cb1a573" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga184c41be698549192241c93c8cb1a573" kindref="member">connectionsInitialized_</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="group__GeneralGroup_1ga3fb404481401039261c3c4d8d7272b08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga3fb404481401039261c3c4d8d7272b08" kindref="member">touchVertId_</ref>;<sp/></highlight></codeline>
+<codeline lineno="201" refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1ga90ca984430afc6677edfa65a39a5d5bb" kindref="member">touchVertIniPos_</ref>;<sp/></highlight></codeline>
+<codeline lineno="202" refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector2i<sp/><ref refid="group__GeneralGroup_1ga07b29d80acee8bb71f3b36cf6f3c61d3" kindref="member">storedDown_</ref>;</highlight></codeline>
+<codeline lineno="203" refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;Laplacian&gt;<sp/><ref refid="group__GeneralGroup_1ga45c714522ca37331bf7eef51f07139fd" kindref="member">laplacian_</ref>;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="group__GeneralGroup_1ga47539b64ca1aeaf07bf68c5d9642e7d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga47539b64ca1aeaf07bf68c5d9642e7d0" kindref="member">pickedVerts_</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="structMR_1_1SurfaceManipulationWidget_1_1PickedVertData" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1SurfaceManipulationWidget_1_1PickedVertData" kindref="compound">PickedVertData</ref></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="210" refid="group__GeneralGroup_1gac3a67a467bdc711c843eebdc84c4afc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="group__GeneralGroup_1gac3a67a467bdc711c843eebdc84c4afc0" kindref="member">target</ref>;<sp/></highlight></codeline>
+<codeline lineno="211" refid="group__GeneralGroup_1gaf5f398eb21b5c7e30480b4dbea5e0a51" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf5f398eb21b5c7e30480b4dbea5e0a51" kindref="member">minMouseDistSq</ref><sp/>=<sp/>FLT_MAX;<sp/></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="group__GeneralGroup_1ga9fa8768693a4a00ed01b3cc1af06228d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, float&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga9fa8768693a4a00ed01b3cc1af06228d" kindref="member">relaxRegionHeights_</ref>;</highlight></codeline>
+<codeline lineno="215" refid="group__GeneralGroup_1gafb73c4c85c9d2f5882438cb0c5d6f17d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf8ad9e1b05a45987a3075d43bf345d68" kindref="member">HashMap&lt;VertId, PickedVertData&gt;</ref><sp/><ref refid="group__GeneralGroup_1gafb73c4c85c9d2f5882438cb0c5d6f17d" kindref="member">pickedVertsToData_</ref>;</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"></highlight></codeline>
 <codeline lineno="219" refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;VersatileChangeMeshPointsAction&gt;<sp/><ref refid="group__GeneralGroup_1ga8bb8e8fac1549f326e6cba81c77c7a15" kindref="member">historyAction_</ref>;</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>

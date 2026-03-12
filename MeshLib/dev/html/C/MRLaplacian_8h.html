@@ -173,6 +173,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a30f298f687f31019cfd6b275024fa04c" id="r_a30f298f687f31019cfd6b275024fa04c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f298f687f31019cfd6b275024fa04c">MR_Laplacian_initFromPoints</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, const <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points, const <a class="el" href="MRAABBTree_8h.html#a3df50e76b078a1626dd994e1df803764">MR_VertBitSet</a> *freeVerts, <a class="el" href="MREnums_8h.html#a9a47d4f1ed7f02b8923ccde473d7ab50">MR_EdgeWeights</a> weights, const <a class="el" href="MREnums_8h.html#ae6b0258254d005d6b726579dd8ae29b3">MR_VertexMass</a> *vmass, const <a class="el" href="MREnums_8h.html#acb93b9836cfc63b8a860cd876cbade18">MR_RememberShape</a> *rem)</td></tr>
 <tr class="memitem:a9a8dcfff072f95c65b875b7829625adf" id="r_a9a8dcfff072f95c65b875b7829625adf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a8dcfff072f95c65b875b7829625adf">MR_Laplacian_fixVertex_2</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const bool *smooth)</td></tr>
 <tr class="memitem:ae214e23246bc313c35a071d88706ee7f" id="r_ae214e23246bc313c35a071d88706ee7f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae214e23246bc313c35a071d88706ee7f">MR_Laplacian_fixVertex_3</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *fixedPos, const bool *smooth)</td></tr>
+<tr class="memitem:a6a1a4e5fa53086ca199a0e559d344c3e" id="r_a6a1a4e5fa53086ca199a0e559d344c3e"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a1a4e5fa53086ca199a0e559d344c3e">MR_Laplacian_multVertexWeight</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="structMR__VertId.html">MR_VertId</a> v, double factor)</td></tr>
 <tr class="memitem:a05611f31527f0bab7d71731a2a189aad" id="r_a05611f31527f0bab7d71731a2a189aad"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a05611f31527f0bab7d71731a2a189aad">MR_Laplacian_updateSolver</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
 <tr class="memitem:a8ddf8ce79d80831affa577aa25994ab3" id="r_a8ddf8ce79d80831affa577aa25994ab3"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ddf8ce79d80831affa577aa25994ab3">MR_Laplacian_applyToVector</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this, <a class="el" href="MRAABBTreePoints_8h.html#a249fd9254c0c3395567807936ad32641">MR_VertCoords</a> *points)</td></tr>
 <tr class="memitem:acb412025a702424fa10de3113dfdcfbb" id="r_acb412025a702424fa10de3113dfdcfbb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb412025a702424fa10de3113dfdcfbb">MR_Laplacian_apply</a> (<a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *_this)</td></tr>
@@ -972,6 +973,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>same as init() but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt">MR::Laplacian::initFromPoints</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">points</span> can not be null. It is a single object. Parameter <span class="tt">freeVerts</span> can not be null. It is a single object. Parameter <span class="tt">vmass</span> has a default argument: <span class="tt">VertexMass::Unit</span>, pass a null pointer to use it. Parameter <span class="tt">rem</span> has a default argument: <span class="tt">RememberShape::Yes</span>, pass a null pointer to use it. </p>
+
+</div>
+</div>
+<a id="a6a1a4e5fa53086ca199a0e559d344c3e" name="a6a1a4e5fa53086ca199a0e559d344c3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a1a4e5fa53086ca199a0e559d344c3e">&#9670;&#160;</a></span>MR_Laplacian_multVertexWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_Laplacian_multVertexWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a5a83991ce0ccd72650f7dedbedd89cae">MR_Laplacian</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR__VertId.html">MR_VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>factor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>multiplies vertex equation's weight on the given factor Generated from method <span class="tt">MR::Laplacian::multVertexWeight</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. </p>
 
 </div>
 </div>

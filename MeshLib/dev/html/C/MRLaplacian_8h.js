@@ -35,6 +35,7 @@ var MRLaplacian_8h =
     [ "MR_Laplacian_freeVerts", "MRLaplacian_8h.html#a8b8ef579c5779ad4d2984deda25af9cd", null ],
     [ "MR_Laplacian_init", "MRLaplacian_8h.html#a0853837b1ab4dfe254bc1939b1201572", null ],
     [ "MR_Laplacian_initFromPoints", "MRLaplacian_8h.html#a30f298f687f31019cfd6b275024fa04c", null ],
+    [ "MR_Laplacian_multVertexWeight", "MRLaplacian_8h.html#a6a1a4e5fa53086ca199a0e559d344c3e", null ],
     [ "MR_Laplacian_OffsetMutablePtr", "MRLaplacian_8h.html#a84dc142ead9fea95151b197c36ec5e15", null ],
     [ "MR_Laplacian_OffsetPtr", "MRLaplacian_8h.html#a0980a090b8d3ee493b4321f94198ca7f", null ],
     [ "MR_Laplacian_points", "MRLaplacian_8h.html#aed1f5d2fd2c6257475041a7956e90de5", null ],

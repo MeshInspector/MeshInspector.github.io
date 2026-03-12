@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"classMR_1_1MeshBuilder_1_1Triangle.html#ad86c2980ea276d1598664375a625137d":[6,3,0,0,0,507,3,1],
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html":[6,3,0,0,0,507,4],
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html#a184c05408b089553fcc7bfd0918e6a2a":[6,3,0,0,0,507,4,4],
 "classMR_1_1MeshBuilder_1_1UniteCloseParams.html#a1f1745c005cfca22fc935ac9c955a40e":[6,3,0,0,0,507,4,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html":[6,3,0,0,0,518],
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#a3dcea5f4fcf80303c0c54052920099af":[6,3,0,0,0,518,0],
 "classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#a948ff5fe80f02a57904c56a84778c698":[6,3,0,0,0,518,2],
-"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#aa5300db464174dced19abe14ae20ed18":[6,3,0,0,0,518,3],
-"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#af458a2f2b33fd44006528a1366c93f78":[6,3,0,0,0,518,1]
+"classMR_1_1MeshOnVoxelsT__ConstMRMesh__MRFunctionVolume.html#aa5300db464174dced19abe14ae20ed18":[6,3,0,0,0,518,3]
 };

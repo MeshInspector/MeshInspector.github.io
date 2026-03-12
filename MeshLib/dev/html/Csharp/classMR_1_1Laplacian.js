@@ -11,6 +11,7 @@ var classMR_1_1Laplacian =
     [ "fixVertex", "classMR_1_1Laplacian.html#af57ef04dfe76e47096b1075975ceb84d", null ],
     [ "init", "classMR_1_1Laplacian.html#a465de937f70863f60a48bdc752533568", null ],
     [ "initFromPoints", "classMR_1_1Laplacian.html#a95b7b062050fc6505a5a7b7f01bb0cf6", null ],
+    [ "multVertexWeight", "classMR_1_1Laplacian.html#acdf83856f09ba62c6ac4dd198106215e", null ],
     [ "removeAllAttractors", "classMR_1_1Laplacian.html#acaa475d8642e7687fdf8d220796796cc", null ],
     [ "updateSolver", "classMR_1_1Laplacian.html#a6ab6466ee01c85f49d6bfd5955ba7de0", null ]
 ];

@@ -14,6 +14,7 @@ var classMR_1_1Laplacian =
     [ "freeVerts", "group__GeneralGroup.html#ga193dcb7b5ba595a2dad19cf1b4af4ce9", null ],
     [ "init", "group__GeneralGroup.html#ga4a5fd158281d7c2d11d4c1bfc6f0d42f", null ],
     [ "initFromPoints", "group__GeneralGroup.html#gaf8c807b6eac743eb543a4d3f65c759e2", null ],
+    [ "multVertexWeight", "group__GeneralGroup.html#gabd2232997c80ac2ccfa4b05df9ca0767", null ],
     [ "points", "group__GeneralGroup.html#gadea5e520fb681e438a8ea02cc7ef2c2c", null ],
     [ "region", "group__GeneralGroup.html#ga9ad9ba866f86e02979c7ad6b6af3331c", null ],
     [ "removeAllAttractors", "group__GeneralGroup.html#gac82a9081ff051fecccad5bd85d17e14b", null ],

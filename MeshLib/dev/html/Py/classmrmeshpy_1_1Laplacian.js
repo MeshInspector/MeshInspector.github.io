@@ -13,6 +13,7 @@ var classmrmeshpy_1_1Laplacian =
     [ "freeVerts", "classmrmeshpy_1_1Laplacian.html#a3679c8f277694985b452a72ea9a5cd3f", null ],
     [ "init", "classmrmeshpy_1_1Laplacian.html#ab25bca66c5156873056d36f9aeb28b18", null ],
     [ "initFromPoints", "classmrmeshpy_1_1Laplacian.html#a02a0041d9ada1a0e0d6d35b9cb6377db", null ],
+    [ "multVertexWeight", "classmrmeshpy_1_1Laplacian.html#a19194855335e38994790a25008570eaf", null ],
     [ "points", "classmrmeshpy_1_1Laplacian.html#a473d35ed5b906e7e9fafc06fff258143", null ],
     [ "region", "classmrmeshpy_1_1Laplacian.html#a397e9c7782643cb024e4dc759bae415a", null ],
     [ "removeAllAttractors", "classmrmeshpy_1_1Laplacian.html#aa41072443163d8150b3249b9e5b63329", null ],

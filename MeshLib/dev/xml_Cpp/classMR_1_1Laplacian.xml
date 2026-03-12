@@ -29,6 +29,7 @@
       <member refid="group__GeneralGroup_1gaf8c807b6eac743eb543a4d3f65c759e2" kind="function"><name>initFromPoints</name></member>
       <member refid="group__GeneralGroup_1ga85bd09ce8356a9b467ee3ede1c5aa296" kind="function"><name>fixVertex</name></member>
       <member refid="group__GeneralGroup_1gae0ad8bbfe008f8d2ad98d0f7e6e2a1cd" kind="function"><name>fixVertex</name></member>
+      <member refid="group__GeneralGroup_1gabd2232997c80ac2ccfa4b05df9ca0767" kind="function"><name>multVertexWeight</name></member>
       <member refid="group__GeneralGroup_1gaed49a7865f3de5ad169b768e09d8d91a" kind="function"><name>updateSolver</name></member>
       <member refid="group__GeneralGroup_1ga6d897482a207ddf21fab0274e22a7133" kind="function"><name>applyToVector</name></member>
       <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" kind="function"><name>apply</name></member>
@@ -55,7 +56,7 @@
 </listitem></orderedlist>
 </para>
     </detaileddescription>
-    <location file="MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="MRMesh/MRLaplacian.h" bodystart="24" bodyend="140"/>
+    <location file="MRMesh/MRLaplacian.h" line="23" column="1" bodyfile="MRMesh/MRLaplacian.h" bodystart="24" bodyend="143"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga0568cc66101d05347d62733b8e9e6e1a" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>addAttractor</name></member>
       <member refid="group__GeneralGroup_1ga13fee62f9942597d173e9f43fe75c60e" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>apply</name></member>
@@ -76,6 +77,7 @@
       <member refid="group__GeneralGroup_1ga701e06f6b7ebb3c08d691ca34ffeab37" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1ga76c6a49784d646ffed8a834c10e927df" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
       <member refid="group__GeneralGroup_1ga61c764e507de86f90b4a8763fdae00fd" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>Laplacian</name></member>
+      <member refid="group__GeneralGroup_1gabd2232997c80ac2ccfa4b05df9ca0767" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>multVertexWeight</name></member>
       <member refid="group__GeneralGroup_1gab6ccb98d1f89ee8ada71df4f50a55371" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>nonZeroElements_</name></member>
       <member refid="group__GeneralGroup_1gadea5e520fb681e438a8ea02cc7ef2c2c" prot="public" virt="non-virtual"><scope>MR::Laplacian</scope><name>points</name></member>
       <member refid="group__GeneralGroup_1ga44e84123023bc3e972f021bc5bacff9a" prot="private" virt="non-virtual"><scope>MR::Laplacian</scope><name>points_</name></member>

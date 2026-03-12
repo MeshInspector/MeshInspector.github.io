@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"classmrmeshpy_1_1SignDetectionModeShort.html":[6,1,0,0,2,813],
+"classmrmeshpy_1_1SignDetectionModeShort.html":[6,1,1,0,1,813],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a1748e43b0a7ef596d380a02a194229e6":[6,1,0,0,2,813,4],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a1748e43b0a7ef596d380a02a194229e6":[6,1,1,0,1,813,4],
 "classmrmeshpy_1_1SignDetectionModeShort.html#a1bcf436c63f1d4c4526f082db2283ee9":[6,1,0,0,2,813,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX84 =
 "classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,0,0,2,828,0],
 "classmrmeshpy_1_1SpacingSettings.html#aee91994ed5bd26df4b2b3c027e0f6367":[6,1,1,0,1,828,0],
 "classmrmeshpy_1_1Sphere2d.html":[6,1,0,0,2,829],
-"classmrmeshpy_1_1Sphere2d.html":[6,1,1,0,1,829],
-"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,0,0,2,829,5],
-"classmrmeshpy_1_1Sphere2d.html#a3a8d0489b1ccf82d358ce40760ad026c":[6,1,1,0,1,829,5]
+"classmrmeshpy_1_1Sphere2d.html":[6,1,1,0,1,829]
 };

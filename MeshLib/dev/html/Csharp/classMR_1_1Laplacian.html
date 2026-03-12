@@ -170,6 +170,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a479045a960528acf02d857b5d88a13e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">notify <a class="el" href="classMR_1_1Laplacian.html" title="Laplacian to smoothly deform a region preserving mesh fine details. How to use:">Laplacian</a> that given vertex has changed after init and must be fixed during apply;  <br /></td></tr>
 <tr class="memitem:af57ef04dfe76e47096b1075975ceb84d" id="r_af57ef04dfe76e47096b1075975ceb84d"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af57ef04dfe76e47096b1075975ceb84d">fixVertex</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> fixedPos, bool? smooth=null)</td></tr>
 <tr class="memdesc:af57ef04dfe76e47096b1075975ceb84d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets position of given vertex after init and it must be fixed during apply (THIS METHOD CHANGES THE MESH);  <br /></td></tr>
+<tr class="memitem:acdf83856f09ba62c6ac4dd198106215e" id="r_acdf83856f09ba62c6ac4dd198106215e"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdf83856f09ba62c6ac4dd198106215e">multVertexWeight</a> (<a class="el" href="structMR_1_1VertId.html">MR.VertId</a> v, double factor)</td></tr>
+<tr class="memdesc:acdf83856f09ba62c6ac4dd198106215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">multiplies vertex equation's weight on the given factor Generated from method <span class="tt"><a class="el" href="#acdf83856f09ba62c6ac4dd198106215e" title="multiplies vertex equation&#39;s weight on the given factor Generated from method MR.Laplacian....">MR.Laplacian.multVertexWeight</a></span>.  <br /></td></tr>
 <tr class="memitem:a6ab6466ee01c85f49d6bfd5955ba7de0" id="r_a6ab6466ee01c85f49d6bfd5955ba7de0"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab6466ee01c85f49d6bfd5955ba7de0">updateSolver</a> ()</td></tr>
 <tr class="memdesc:a6ab6466ee01c85f49d6bfd5955ba7de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">if you manually call this method after initialization and fixing vertices then next apply call will be much faster Generated from method <span class="tt"><a class="el" href="#a6ab6466ee01c85f49d6bfd5955ba7de0" title="if you manually call this method after initialization and fixing vertices then next apply call will b...">MR.Laplacian.updateSolver</a></span>.  <br /></td></tr>
 <tr class="memitem:a91507160fd4cef218a0745c4e96692db" id="r_a91507160fd4cef218a0745c4e96692db"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91507160fd4cef218a0745c4e96692db">applyToVector</a> (<a class="el" href="classMR_1_1VertCoords.html">MR.VertCoords</a> points)</td></tr>
@@ -556,6 +558,37 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>same as <a class="el" href="#a465de937f70863f60a48bdc752533568" title="(re)initialize Laplacian for the region being deformed, here region properties are remembered and pre...">init()</a> but uses the given points instead of ones passed to a constructor for weights computation and shape memory Generated from method <span class="tt"><a class="el" href="#a95b7b062050fc6505a5a7b7f01bb0cf6" title="same as init() but uses the given points instead of ones passed to a constructor for weights computat...">MR.Laplacian.initFromPoints</a></span>. Parameter <span class="tt">vmass</span> defaults to <span class="tt"><a class="el" href="classMR.html#ad5aa38a574d0ed7054d3cfbda73f5ca8a19c562a36aeb455d09534f93b4f5236f" title="all vertices have same mass=1">VertexMass.Unit</a></span>. Parameter <span class="tt">rem</span> defaults to <span class="tt"><a class="el" href="classMR.html#ada4b8bfa685e52d58d9a257d93a6d15da93cba07454f06a4a960172bbd6e2a435" title="true Laplacian mode when initial mesh shape is remembered and copied in apply">RememberShape.Yes</a></span>. </p>
+
+</div>
+</div>
+<a id="acdf83856f09ba62c6ac4dd198106215e" name="acdf83856f09ba62c6ac4dd198106215e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf83856f09ba62c6ac4dd198106215e">&#9670;&#160;</a></span>multVertexWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.Laplacian.multVertexWeight </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1VertId.html">MR.VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>factor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>multiplies vertex equation's weight on the given factor Generated from method <span class="tt"><a class="el" href="#acdf83856f09ba62c6ac4dd198106215e" title="multiplies vertex equation&#39;s weight on the given factor Generated from method MR.Laplacian....">MR.Laplacian.multVertexWeight</a></span>. </p>
 
 </div>
 </div>
