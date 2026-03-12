@@ -1,5 +1,10 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1AncillaryPoints.html":[6,0,0,20,532],
+"structMR_1_1ArcInterpolationParams.html":[6,0,0,20,845],
+"structMR_1_1BMap.html":[6,0,0,20,127],
+"structMR_1_1Ball.html":[6,0,0,20,111],
+"structMR_1_1BaseFitParams.html":[6,0,0,20,552],
 "structMR_1_1BaseRenderParams.html":[6,0,0,20,278],
 "structMR_1_1BaseShellParameters.html":[6,0,0,20,817],
 "structMR_1_1BaseTiffParameters.html":[6,0,0,20,480],
@@ -244,10 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DenseBox.html":[6,0,0,20,176],
 "structMR_1_1DetectTunnelSettings.html":[6,0,0,16,4,0],
 "structMR_1_1DetectTunnelSettings.html#a1179dac4ffbe7c13245c98e8833a6178":[6,0,0,16,4,0,0],
-"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,4],
-"structMR_1_1DetectTunnelSettings.html#a27a0181891bd9064803eb7608e3f0e10":[6,0,0,16,4,0,2],
-"structMR_1_1DetectTunnelSettings.html#a4cf5671891104927d0393e7dd378f34b":[6,0,0,16,4,0,1],
-"structMR_1_1DetectTunnelSettings.html#abce133e9001f28cbce044fc8c1206ace":[6,0,0,16,4,0,3],
-"structMR_1_1DetectTunnelSettings.html#ae823ab96c2d11f1cccba5d61003a1202":[6,0,0,16,4,0,5],
-"structMR_1_1Dipole.html":[6,0,0,20,177]
+"structMR_1_1DetectTunnelSettings.html#a2529d1b4547bb2eed9bb781f0c131829":[6,0,0,16,4,0,4]
 };

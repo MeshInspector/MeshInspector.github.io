@@ -5190,6 +5190,8 @@
     <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" kind="variable"><name>icon</name></member>
     <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" kind="variable"><name>captionSize</name></member>
     <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" kind="variable"><name>helpLink</name></member>
+    <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" kind="variable"><name>localeDomainId</name></member>
+    <member refid="group__GeneralGroup_1ga803bb16ee34f64fc4ccd1b50d7e78535" kind="function"><name>getCaption</name></member>
   </compound>
   <compound refid="structMR_1_1MergeVolumePartSettings" kind="struct"><name>MR::MergeVolumePartSettings</name>
     <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" kind="typedef"><name>PreCutCallback</name></member>
@@ -9788,7 +9790,7 @@
     <member refid="group__GeneralGroup_1gae2ca0e8edcd6c4eb680422b09f6f6f23" kind="function"><name>getStructureFiles_</name></member>
     <member refid="group__GeneralGroup_1gac6d1ad0e142487c7cb72a4b34a6935fd" kind="function"><name>sortFilesByOrder_</name></member>
     <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" kind="function"><name>readItemsJson_</name></member>
-    <member refid="group__GeneralGroup_1gaf9dc711306437275a3f11fbf15d4afd2" kind="function"><name>readItemsJson_</name></member>
+    <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" kind="function"><name>readUIJson_</name></member>
     <member refid="group__GeneralGroup_1ga7db76e8a4aa067c73e069e26c3d132b9" kind="function"><name>readUIJson_</name></member>
   </compound>
@@ -13839,7 +13841,7 @@
     <member refid="group__GeneralGroup_1gaf7bd0e42ef0d3a181e0af57d15d8bf0a" kind="typedef"><name>RenderDimensionObject</name></member>
     <member refid="group__GeneralGroup_1ga8201e149aed09ff61bb82c538012fbd1" kind="typedef"><name>MenuItemsList</name></member>
     <member refid="group__GeneralGroup_1ga6c80d0a515c43e830301ff170377a44e" kind="typedef"><name>NotificationTagMask</name></member>
-    <member refid="group__GeneralGroup_1ga0f8705ceb9b9ea512c947c5bdbcd3b5e" kind="typedef"><name>SplitCaptionInfo</name></member>
+    <member refid="group__GeneralGroup_1ga0e680eaecc957a0d3cf6c72cc1acbc87" kind="typedef"><name>SplitCaptionInfo</name></member>
     <member refid="group__GeneralGroup_1ga55efef56c0d2d0a5eabf81b134ec39c9" kind="typedef"><name>ItemMap</name></member>
     <member refid="group__GeneralGroup_1ga9156ba38070249801207259b1b438e47" kind="typedef"><name>TabsGroupsMap</name></member>
     <member refid="group__GeneralGroup_1gad42a75e584073228a798aaddab06e6f4" kind="typedef"><name>GroupsItemsMap</name></member>
@@ -15811,10 +15813,13 @@
     <member refid="namespaceMR_1_1Locale_1ac59a56d895488411e12e18eda9077a20" kind="function"><name>get</name></member>
     <member refid="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" kind="function"><name>getName</name></member>
     <member refid="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" kind="function"><name>set</name></member>
+    <member refid="namespaceMR_1_1Locale_1a9a635779fb2e857a50dd1e60b10b6f52" kind="function"><name>onChanged</name></member>
     <member refid="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" kind="function"><name>getAvailableLocales</name></member>
     <member refid="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" kind="function"><name>addCatalogPath</name></member>
     <member refid="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" kind="function"><name>addDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1a49e0c33a146baded505327802433fb50" kind="function"><name>addDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" kind="function"><name>findDomain</name></member>
+    <member refid="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" kind="function"><name>findDomain</name></member>
     <member refid="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" kind="function"><name>getDisplayName</name></member>
     <member refid="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" kind="function"><name>setDisplayName</name></member>
   </compound>
@@ -20648,7 +20653,7 @@
     <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kind="typedef"><name>DropItemsList</name></member>
     <member refid="group__GeneralGroup_1ga6c80d0a515c43e830301ff170377a44e" kind="typedef"><name>NotificationTagMask</name></member>
     <member refid="group__GeneralGroup_1ga22ab6a5e3459fed757c4443f8d3ad51a" kind="typedef"><name>OnButtonClick</name></member>
-    <member refid="group__GeneralGroup_1ga0f8705ceb9b9ea512c947c5bdbcd3b5e" kind="typedef"><name>SplitCaptionInfo</name></member>
+    <member refid="group__GeneralGroup_1ga0e680eaecc957a0d3cf6c72cc1acbc87" kind="typedef"><name>SplitCaptionInfo</name></member>
     <member refid="group__GeneralGroup_1ga55efef56c0d2d0a5eabf81b134ec39c9" kind="typedef"><name>ItemMap</name></member>
     <member refid="group__GeneralGroup_1ga9156ba38070249801207259b1b438e47" kind="typedef"><name>TabsGroupsMap</name></member>
     <member refid="group__GeneralGroup_1gad42a75e584073228a798aaddab06e6f4" kind="typedef"><name>GroupsItemsMap</name></member>
@@ -23200,6 +23205,7 @@
     <member refid="group__GeneralGroup_1ga7ae92cc9abaa72fdd49fb11994a79ecb" kind="variable"><name>icon</name></member>
     <member refid="group__GeneralGroup_1gae677c83b3387bfadf5f8bdd53f77ab9f" kind="variable"><name>captionSize</name></member>
     <member refid="group__GeneralGroup_1ga4a18cee73e324a82d8e83c0849ee1c16" kind="variable"><name>helpLink</name></member>
+    <member refid="group__GeneralGroup_1gaeb272c4d19fee08c880f250900aa2ad8" kind="variable"><name>localeDomainId</name></member>
     <member refid="group__GeneralGroup_1ga675a7bce9775caa4a477370d2802bcbe" kind="variable"><name>name</name></member>
     <member refid="group__GeneralGroup_1ga4ad8c190219bcd156fa5b9748ffb679c" kind="variable"><name>priority</name></member>
     <member refid="group__GeneralGroup_1ga49c89a14fe5caa50d3bdb2faf511dcc0" kind="variable"><name>experimental</name></member>
@@ -28807,6 +28813,7 @@
     <member refid="group__GeneralGroup_1gabe35ad7bc4c01d1ee7476a2c2e949d4d" kind="function"><name>drawObjectLine_</name></member>
     <member refid="group__GeneralGroup_1ga002c98ad85b4d3d5a5a69d3bad2c58d3" kind="function"><name>drawEyeButton_</name></member>
     <member refid="group__GeneralGroup_1ga58e2947b6bce273c814934eed8fdbdf0" kind="function"><name>drawHierarhyLine_</name></member>
+    <member refid="group__GeneralGroup_1ga803bb16ee34f64fc4ccd1b50d7e78535" kind="function"><name>getCaption</name></member>
     <member refid="group__GeneralGroup_1gad5aac79f51a7cd04adfe98f468a0fbea" kind="function"><name>~RibbonSchemaLoadListener</name></member>
     <member refid="group__GeneralGroup_1ga76315b1d51caa43fb0c118321f6f3ce8" kind="function"><name>onRibbonSchemaLoad_</name></member>
     <member refid="group__GeneralGroup_1ga4c4109e394ce12f782b768c821412753" kind="function"><name>eliminateEmptyGroups</name></member>
@@ -28826,7 +28833,7 @@
     <member refid="group__GeneralGroup_1gae2ca0e8edcd6c4eb680422b09f6f6f23" kind="function"><name>getStructureFiles_</name></member>
     <member refid="group__GeneralGroup_1gac6d1ad0e142487c7cb72a4b34a6935fd" kind="function"><name>sortFilesByOrder_</name></member>
     <member refid="group__GeneralGroup_1ga87d68013729492fa0e45dbee9a32317f" kind="function"><name>readItemsJson_</name></member>
-    <member refid="group__GeneralGroup_1gaf9dc711306437275a3f11fbf15d4afd2" kind="function"><name>readItemsJson_</name></member>
+    <member refid="group__GeneralGroup_1ga321e1aade11391a5c4db869cf8179fe9" kind="function"><name>readItemsJson_</name></member>
     <member refid="group__GeneralGroup_1ga89c5d25b89eac58d6a7f0e1a09808c9b" kind="function"><name>readUIJson_</name></member>
     <member refid="group__GeneralGroup_1ga7db76e8a4aa067c73e069e26c3d132b9" kind="function"><name>readUIJson_</name></member>
     <member refid="group__GeneralGroup_1ga8b802da7db541f512179ff3c432ac662" kind="function"><name>RibbonMenuItemCall</name></member>

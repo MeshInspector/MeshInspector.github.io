@@ -1,5 +1,10 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab":[6,0,1,0,1,28,0,1],
+"structMR_1_1ObjectSave_1_1Settings.html#abaac448dc025a46f3ebc884adacb58ab":[6,0,2,0,2,16,0,1],
+"structMR_1_1ObjectVoxels_1_1VolumeRenderingParams.html":[6,0,0,20,816],
+"structMR_1_1Object_1_1ProtectedStruct.html":[6,0,0,11,4,0],
+"structMR_1_1Object_1_1ProtectedStruct.html#a7e4c38fcb6a60dc4c3126d35a637080e":[6,0,0,11,4,0,0],
 "structMR_1_1OffsetContourIndex.html":[6,0,0,20,384],
 "structMR_1_1OffsetContoursOrigins.html":[6,0,0,20,385],
 "structMR_1_1OffsetContoursParams.html":[6,0,0,20,386],
@@ -244,10 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,0,10,3,7],
 "structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,0,10,3,6],
 "structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,0,20,606],
-"structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,0,20,601],
-"structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,0,20,608],
-"structMR_1_1RenderDimensions_1_1PointParams.html":[6,0,0,20,602],
-"structMR_1_1RenderDimensions_1_1RadiusParams.html":[6,0,0,20,604],
-"structMR_1_1RenderDimensions_1_1Tolerance.html":[6,0,0,20,600],
-"structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage.html":[6,0,1,0,1,39,0,1]
+"structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,0,20,601]
 };

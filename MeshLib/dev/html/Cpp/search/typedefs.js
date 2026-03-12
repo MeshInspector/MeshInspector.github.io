@@ -394,7 +394,7 @@ var searchData=
   ['spacemousemovesignal_22',['SpaceMouseMoveSignal',['../group__GeneralGroup.html#ga01a10614f8eeeaabcc8e586facc221c5',1,'MR::ViewerSignals']]],
   ['sphere_23',['Sphere',['../group__GeneralGroup.html#ga37df2f34cbcd3fec213859b3ca57d3b6',1,'MR::Features::Primitives']]],
   ['sphere3_24',['Sphere3',['../group__GeneralGroup.html#ga7581b60d25c8b6509c76ce12a7545c35',1,'MR']]],
-  ['splitcaptioninfo_25',['SplitCaptionInfo',['../group__GeneralGroup.html#ga0f8705ceb9b9ea512c947c5bdbcd3b5e',1,'MR']]],
+  ['splitcaptioninfo_25',['SplitCaptionInfo',['../group__GeneralGroup.html#ga0e680eaecc957a0d3cf6c72cc1acbc87',1,'MR']]],
   ['stateplugin_26',['StatePlugin',['../group__GeneralGroup.html#gab03e30b3d478dc602964140a67391c49',1,'MR']]],
   ['stderrpyredirector_27',['StderrPyRedirector',['../MRPython_8h.html#a7d823176353acbb146f4705c0dcfdf90',1,'MRPython.h']]],
   ['stdoutpyredirector_28',['StdoutPyRedirector',['../MRPython_8h.html#a26ab96a77d3875cbc3c3f79cd7ee64ef',1,'MRPython.h']]],

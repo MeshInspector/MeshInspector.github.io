@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="14" column="20" declfile="MRViewer/MRLocale.h" declline="14" declcolumn="20"/>
+        <location file="MRViewer/MRLocale.h" line="16" column="20" declfile="MRViewer/MRLocale.h" declline="16" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a3fde71105ef842bfaaf870498be9222d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="17" column="20" declfile="MRViewer/MRLocale.h" declline="17" declcolumn="20"/>
+        <location file="MRViewer/MRLocale.h" line="19" column="20" declfile="MRViewer/MRLocale.h" declline="19" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1aa3caed4adf5ab7e7489b6c3cc97040a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const std::locale &amp;</type>
@@ -180,7 +180,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="20" column="20" declfile="MRViewer/MRLocale.h" declline="20" declcolumn="20"/>
+        <location file="MRViewer/MRLocale.h" line="22" column="20" declfile="MRViewer/MRLocale.h" declline="22" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a9a635779fb2e857a50dd1e60b10b6f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boost::signals2::connection</type>
+        <definition>boost::signals2::connection MR::Locale::onChanged</definition>
+        <argsstring>(const std::function&lt; void(const std::string &amp;)&gt; &amp;cb)</argsstring>
+        <name>onChanged</name>
+        <qualifiedname>MR::Locale::onChanged</qualifiedname>
+        <param>
+          <type>const std::function&lt; void(const std::string &amp;)&gt; &amp;</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Connects to a signal emitted every time the active locale is changed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="24" column="30" declfile="MRViewer/MRLocale.h" declline="24" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a56715982039eac569ef53b82b086b1e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; std::string &gt;</type>
@@ -195,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="24" column="14" declfile="MRViewer/MRLocale.h" declline="24" declcolumn="14"/>
+        <location file="MRViewer/MRLocale.h" line="28" column="14" declfile="MRViewer/MRLocale.h" declline="28" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a2b32ebd2b8467813962ef412cc56a1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -214,7 +233,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="30" column="7" declfile="MRViewer/MRLocale.h" declline="30" declcolumn="7"/>
+        <location file="MRViewer/MRLocale.h" line="34" column="7" declfile="MRViewer/MRLocale.h" declline="34" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a2874347c63d49c868fb6c5e8e86fd07f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -230,13 +249,37 @@
 <para>Adds a new domain. The active locale is reloaded on every call. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="note"><para>This overload is meant to be used with string literals for faster lookups. </para>
+</simplesect>
+<simplesect kind="return"><para>The id of the added domain. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="39" column="6" declfile="MRViewer/MRLocale.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1a49e0c33a146baded505327802433fb50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::addDomain</definition>
+        <argsstring>(const std::string &amp;domainName)</argsstring>
+        <name>addDomain</name>
+        <qualifiedname>MR::Locale::addDomain</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new domain. The active locale is reloaded on every call. </para>
+        </briefdescription>
+        <detaileddescription>
 <para><simplesect kind="return"><para>The id of the added domain. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="34" column="6" declfile="MRViewer/MRLocale.h" declline="34" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="43" column="6" declfile="MRViewer/MRLocale.h" declline="43" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a74cb3cfc68c30759be2deee569d04b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -252,13 +295,37 @@
 <para>Find an id for the given domain that can be passed to the <computeroutput>translate</computeroutput> functions. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>The domain id if the domain is previously added and 0 (the default domain id) otherwise. </para>
+</simplesect>
+<simplesect kind="note"><para>This overload is meant to be used with string literals for faster lookups. <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRViewer/MRLocale.h" line="48" column="6" declfile="MRViewer/MRLocale.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1Locale_1abd162ed1ab4e598c7719e678ec8dff2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int MR::Locale::findDomain</definition>
+        <argsstring>(const std::string &amp;domainName)</argsstring>
+        <name>findDomain</name>
+        <qualifiedname>MR::Locale::findDomain</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domainName</declname>
+        </param>
+        <briefdescription>
+<para>Find an id for the given domain that can be passed to the <computeroutput>translate</computeroutput> functions. </para>
+        </briefdescription>
+        <detaileddescription>
 <para><simplesect kind="return"><para>The domain id if the domain is previously added and 0 (the default domain id) otherwise. <ref refid="namespaceMR_1_1Locale_1a405065abc400abdb5bd9910aa5aba3a5" kindref="member">translate</ref> </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="38" column="6" declfile="MRViewer/MRLocale.h" declline="38" declcolumn="6"/>
+        <location file="MRViewer/MRLocale.h" line="52" column="6" declfile="MRViewer/MRLocale.h" declline="52" declcolumn="6"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a8d1947c7d967dbc42a857466e79550e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -285,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="46" column="14" declfile="MRViewer/MRLocale.h" declline="46" declcolumn="14"/>
+        <location file="MRViewer/MRLocale.h" line="60" column="14" declfile="MRViewer/MRLocale.h" declline="60" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1Locale_1a1a90862fe2d6cda7d213d3683715e1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -308,7 +375,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRLocale.h" line="48" column="7" declfile="MRViewer/MRLocale.h" declline="48" declcolumn="7"/>
+        <location file="MRViewer/MRLocale.h" line="62" column="7" declfile="MRViewer/MRLocale.h" declline="62" declcolumn="7"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

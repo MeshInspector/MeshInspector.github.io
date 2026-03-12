@@ -1,5 +1,10 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1SpaceMouse.html#afea9877496a4f6098c6687dbbae1ac62":[6,0,1,0,1,43,6],
+"namespaceMR_1_1StyleConsts.html":[6,0,0,20,22],
+"namespaceMR_1_1StyleConsts_1_1CustomCombo.html":[6,0,0,20,25],
+"namespaceMR_1_1StyleConsts_1_1Modal.html":[6,0,0,20,23],
+"namespaceMR_1_1StyleConsts_1_1Notification.html":[6,0,0,20,26],
 "namespaceMR_1_1StyleConsts_1_1ProgressBar.html":[6,0,0,20,24],
 "namespaceMR_1_1TriangulationHelpers.html":[6,0,1,0,1,45],
 "namespaceMR_1_1TriangulationHelpers.html#a1d49af7a8eeeab7c3559be658f3f7abf":[6,0,1,0,1,45,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1AncillaryLabel.html":[6,0,0,20,527],
 "structMR_1_1AncillaryLines.html":[6,0,0,20,529],
 "structMR_1_1AncillaryMesh.html":[6,0,0,20,530],
-"structMR_1_1AncillaryPlane.html":[6,0,0,20,531],
-"structMR_1_1AncillaryPoints.html":[6,0,0,20,532],
-"structMR_1_1ArcInterpolationParams.html":[6,0,0,20,845],
-"structMR_1_1BMap.html":[6,0,0,20,127],
-"structMR_1_1Ball.html":[6,0,0,20,111],
-"structMR_1_1BaseFitParams.html":[6,0,0,20,552]
+"structMR_1_1AncillaryPlane.html":[6,0,0,20,531]
 };

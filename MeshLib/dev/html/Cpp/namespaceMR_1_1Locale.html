@@ -164,14 +164,20 @@ Functions</h2></td></tr>
 <tr class="memdesc:a3fde71105ef842bfaaf870498be9222d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the active locale's name.  <br /></td></tr>
 <tr class="memitem:aa3caed4adf5ab7e7489b6c3cc97040a4" id="r_aa3caed4adf5ab7e7489b6c3cc97040a4"><td class="memItemLeft" align="right" valign="top">const std::locale &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3caed4adf5ab7e7489b6c3cc97040a4">set</a> (std::string localeName)</td></tr>
 <tr class="memdesc:aa3caed4adf5ab7e7489b6c3cc97040a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and sets the active locale by its name. UTF-8 is always used as an encoding.  <br /></td></tr>
+<tr class="memitem:a9a635779fb2e857a50dd1e60b10b6f52" id="r_a9a635779fb2e857a50dd1e60b10b6f52"><td class="memItemLeft" align="right" valign="top">boost::signals2::connection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a635779fb2e857a50dd1e60b10b6f52">onChanged</a> (const std::function&lt; void(const std::string &amp;)&gt; &amp;cb)</td></tr>
+<tr class="memdesc:a9a635779fb2e857a50dd1e60b10b6f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects to a signal emitted every time the active locale is changed.  <br /></td></tr>
 <tr class="memitem:a56715982039eac569ef53b82b086b1e3" id="r_a56715982039eac569ef53b82b086b1e3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56715982039eac569ef53b82b086b1e3">getAvailableLocales</a> ()</td></tr>
 <tr class="memdesc:a56715982039eac569ef53b82b086b1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of the names of locales with available .mo files. "en" is always included as the default locale.  <br /></td></tr>
 <tr class="memitem:a2b32ebd2b8467813962ef412cc56a1f3" id="r_a2b32ebd2b8467813962ef412cc56a1f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b32ebd2b8467813962ef412cc56a1f3">addCatalogPath</a> (const std::filesystem::path &amp;path)</td></tr>
 <tr class="memdesc:a2b32ebd2b8467813962ef412cc56a1f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a path to .mo files. The path is expected to have the following directory structure: &lt;locale name&gt;/LC_MESSAGES/&lt;domain name&gt;.mo The active locale is reloaded on every call.  <br /></td></tr>
 <tr class="memitem:a2874347c63d49c868fb6c5e8e86fd07f" id="r_a2874347c63d49c868fb6c5e8e86fd07f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2874347c63d49c868fb6c5e8e86fd07f">addDomain</a> (const char *domainName)</td></tr>
 <tr class="memdesc:a2874347c63d49c868fb6c5e8e86fd07f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
+<tr class="memitem:a49e0c33a146baded505327802433fb50" id="r_a49e0c33a146baded505327802433fb50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49e0c33a146baded505327802433fb50">addDomain</a> (const std::string &amp;domainName)</td></tr>
+<tr class="memdesc:a49e0c33a146baded505327802433fb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new domain. The active locale is reloaded on every call.  <br /></td></tr>
 <tr class="memitem:a74cb3cfc68c30759be2deee569d04b69" id="r_a74cb3cfc68c30759be2deee569d04b69"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cb3cfc68c30759be2deee569d04b69">findDomain</a> (const char *domainName)</td></tr>
 <tr class="memdesc:a74cb3cfc68c30759be2deee569d04b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
+<tr class="memitem:abd162ed1ab4e598c7719e678ec8dff2f" id="r_abd162ed1ab4e598c7719e678ec8dff2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd162ed1ab4e598c7719e678ec8dff2f">findDomain</a> (const std::string &amp;domainName)</td></tr>
+<tr class="memdesc:abd162ed1ab4e598c7719e678ec8dff2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions.  <br /></td></tr>
 <tr class="memitem:a8d1947c7d967dbc42a857466e79550e7" id="r_a8d1947c7d967dbc42a857466e79550e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d1947c7d967dbc42a857466e79550e7">getDisplayName</a> (const std::string &amp;localeName)</td></tr>
 <tr class="memdesc:a8d1947c7d967dbc42a857466e79550e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a display name for the given locale.  <br /></td></tr>
 <tr class="memitem:a1a90862fe2d6cda7d213d3683715e1cc" id="r_a1a90862fe2d6cda7d213d3683715e1cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a90862fe2d6cda7d213d3683715e1cc">setDisplayName</a> (const std::string &amp;localeName, const std::string &amp;displayName)</td></tr>
@@ -198,7 +204,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a2874347c63d49c868fb6c5e8e86fd07f" name="a2874347c63d49c868fb6c5e8e86fd07f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2874347c63d49c868fb6c5e8e86fd07f">&#9670;&#160;</a></span>addDomain()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2874347c63d49c868fb6c5e8e86fd07f">&#9670;&#160;</a></span>addDomain() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,12 +219,33 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a new domain. The active locale is reloaded on every call. </p>
+<dl class="section note"><dt>Note</dt><dd>This overload is meant to be used with string literals for faster lookups. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The id of the added domain. </dd></dl>
+
+</div>
+</div>
+<a id="a49e0c33a146baded505327802433fb50" name="a49e0c33a146baded505327802433fb50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49e0c33a146baded505327802433fb50">&#9670;&#160;</a></span>addDomain() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Locale::addDomain </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a new domain. The active locale is reloaded on every call. </p>
 <dl class="section return"><dt>Returns</dt><dd>The id of the added domain. </dd></dl>
 
 </div>
 </div>
 <a id="a74cb3cfc68c30759be2deee569d04b69" name="a74cb3cfc68c30759be2deee569d04b69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74cb3cfc68c30759be2deee569d04b69">&#9670;&#160;</a></span>findDomain()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74cb3cfc68c30759be2deee569d04b69">&#9670;&#160;</a></span>findDomain() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,6 +254,27 @@ Functions</h2></td></tr>
           <td class="memname">int MR::Locale::findDomain </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find an id for the given domain that can be passed to the <span class="tt">translate</span> functions. </p>
+<dl class="section return"><dt>Returns</dt><dd>The domain id if the domain is previously added and 0 (the default domain id) otherwise. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This overload is meant to be used with string literals for faster lookups. <a class="el" href="#a405065abc400abdb5bd9910aa5aba3a5">translate</a> </dd></dl>
+
+</div>
+</div>
+<a id="abd162ed1ab4e598c7719e678ec8dff2f" name="abd162ed1ab4e598c7719e678ec8dff2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd162ed1ab4e598c7719e678ec8dff2f">&#9670;&#160;</a></span>findDomain() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MR::Locale::findDomain </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>domainName</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -317,6 +365,25 @@ Functions</h2></td></tr>
 
 <p>Returns the active locale's name. </p>
 <dl class="section note"><dt>Note</dt><dd>If the locale was set manually, this function will return its name as is, without any normalization. </dd></dl>
+
+</div>
+</div>
+<a id="a9a635779fb2e857a50dd1e60b10b6f52" name="a9a635779fb2e857a50dd1e60b10b6f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a635779fb2e857a50dd1e60b10b6f52">&#9670;&#160;</a></span>onChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::signals2::connection MR::Locale::onChanged </td>
+          <td>(</td>
+          <td class="paramtype">const std::function&lt; void(const std::string &amp;)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>cb</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Connects to a signal emitted every time the active locale is changed. </p>
 
 </div>
 </div>

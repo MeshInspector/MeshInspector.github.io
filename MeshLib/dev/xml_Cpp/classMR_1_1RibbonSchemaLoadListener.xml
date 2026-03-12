@@ -17,7 +17,7 @@
     <detaileddescription>
 <para>interface for plugins that should be notified when their information is loaded from the schema json file allows to alternate behavior depending on whether the plugin is available in the app </para>
     </detaileddescription>
-    <location file="MRViewer/MRRibbonSchema.h" line="39" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="40" bodyend="47"/>
+    <location file="MRViewer/MRRibbonSchema.h" line="42" column="1" bodyfile="MRViewer/MRRibbonSchema.h" bodystart="43" bodyend="50"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga76315b1d51caa43fb0c118321f6f3ce8" prot="protected" virt="pure-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>onRibbonSchemaLoad_</name></member>
       <member refid="group__GeneralGroup_1ga246ba9e59dd5b36be0e8b8144ff30b86" prot="protected" virt="non-virtual"><scope>MR::RibbonSchemaLoadListener</scope><name>RibbonSchemaLoader</name></member>
