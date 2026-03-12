@@ -3,6 +3,7 @@ var namespaceMR_1_1MeshLoad =
     [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
     [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
     [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ],
+    [ "StepLoadSettings", "structMR_1_1MeshLoad_1_1StepLoadSettings.html", "structMR_1_1MeshLoad_1_1StepLoadSettings" ],
     [ "MeshFileLoader", "group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
     [ "MeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
     [ "fromAnyStl", "namespaceMR_1_1MeshLoad.html#a5fbeb822f5135480d23cbe6d8b6f70f5", null ],
@@ -28,10 +29,10 @@ var namespaceMR_1_1MeshLoad =
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#gafe70d87753142e4f6d767910ecdbdc80", null ],
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga78eb3db4a38b8df457c09a8f74b126a3", null ],
     [ "fromSceneObjFile", "group__MeshLoadObjGroup.html#ga084c68bf6ed27f70de50de85900bd2bc", null ],
-    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#a3453ab4b6c9bff2b53d97baf751e54e3", null ],
-    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#ad3b397fbfc7cb3fab8f3864f7acd8c0e", null ],
-    [ "fromStep", "namespaceMR_1_1MeshLoad.html#a2fc34f4c712d56b03af98e888e6bf0d7", null ],
-    [ "fromStep", "namespaceMR_1_1MeshLoad.html#af222b1f187c6ada07459e5df2376a87c", null ],
+    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#af82c12efa3f3e13a47d5616a3a2dd5a1", null ],
+    [ "fromSceneStepFile", "namespaceMR_1_1MeshLoad.html#a2359a5b19e144222f02b54bbd1c64ea7", null ],
+    [ "fromStep", "namespaceMR_1_1MeshLoad.html#af8cb15148c8421e06a2fb126237416d4", null ],
+    [ "fromStep", "namespaceMR_1_1MeshLoad.html#a949d7b6686c5cb76b565854e32918ea5", null ],
     [ "loadObjectFromObj", "group__MeshLoadObjGroup.html#ga1050c330b0ab72a1f904d39a3297d93f", null ],
     [ "telemetryLogSize", "namespaceMR_1_1MeshLoad.html#a56ffb5ceb885e2f5e2b965ce19ba299f", null ]
 ];

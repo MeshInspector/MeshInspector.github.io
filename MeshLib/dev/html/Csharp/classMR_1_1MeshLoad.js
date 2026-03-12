@@ -2,6 +2,7 @@ var classMR_1_1MeshLoad =
 [
     [ "NamedMesh", "classMR_1_1MeshLoad_1_1NamedMesh.html", "classMR_1_1MeshLoad_1_1NamedMesh" ],
     [ "ObjLoadSettings", "classMR_1_1MeshLoad_1_1ObjLoadSettings.html", "classMR_1_1MeshLoad_1_1ObjLoadSettings" ],
+    [ "StepLoadSettings", "classMR_1_1MeshLoad_1_1StepLoadSettings.html", "classMR_1_1MeshLoad_1_1StepLoadSettings" ],
     [ "fromAnyStl", "classMR_1_1MeshLoad.html#aa08b3cb60ecad8b7f08b7ec9a00e6a6d", null ],
     [ "fromAnyStl", "classMR_1_1MeshLoad.html#a09653ec5e1a7cc0cfc4f8106ecc4c933", null ],
     [ "fromAnySupportedFormat", "classMR_1_1MeshLoad.html#a4d7b22c18ce187cc9eaa4a08d075dddf", null ],
@@ -25,9 +26,9 @@ var classMR_1_1MeshLoad =
     [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#adf4be732a02d57b2f8639c941f78fefd", null ],
     [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#a46772cac2cfbb813f60b6bd519043139", null ],
     [ "fromSceneObjFile", "classMR_1_1MeshLoad.html#a09b8e0d196618f33c39af99989ecdd83", null ],
-    [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#a4886c83ff9f0f0c8195f31d1265d83ec", null ],
-    [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#a07096730c87ef9ef4406d0b37dfc3022", null ],
-    [ "fromStep", "classMR_1_1MeshLoad.html#a857aebb8c9357976e1212d4ff2311251", null ],
-    [ "fromStep", "classMR_1_1MeshLoad.html#a3815d5028a423c0371ddd531ebede9f5", null ],
+    [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#a488fbbec801cdec5cb6d3c7841d9ad7b", null ],
+    [ "fromSceneStepFile", "classMR_1_1MeshLoad.html#af4ca0496d6d194235d5f2dcf8dc14c13", null ],
+    [ "fromStep", "classMR_1_1MeshLoad.html#aef32d952c0dcf02c08a933599c4bc520", null ],
+    [ "fromStep", "classMR_1_1MeshLoad.html#a2f06bd9cb4c12425c13c8ac6ad106f89", null ],
     [ "loadObjectFromObj", "classMR_1_1MeshLoad.html#a94f74d007f6d508219aa326f25488c61", null ]
 ];

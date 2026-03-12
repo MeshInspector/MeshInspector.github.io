@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshLoad_1_1StepLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshLoad::StepLoadSettings</compoundname>
+    <includes refid="MRStep_8h" local="no">MRIOExtras/MRStep.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::MeshLoad::StepLoadSettings::angularDeflection</definition>
+        <argsstring></argsstring>
+        <name>angularDeflection</name>
+        <qualifiedname>MR::MeshLoad::StepLoadSettings::angularDeflection</qualifiedname>
+        <initializer>= 0.1</initializer>
+        <briefdescription>
+<para>angular deflection used to tessellate the boundary edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRStep.h" line="20" column="12" bodyfile="MRIOExtras/MRStep.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double MR::MeshLoad::StepLoadSettings::linearDeflection</definition>
+        <argsstring></argsstring>
+        <name>linearDeflection</name>
+        <qualifiedname>MR::MeshLoad::StepLoadSettings::linearDeflection</qualifiedname>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+<para>linear deflection used to tessellate the boundary edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRStep.h" line="22" column="12" bodyfile="MRIOExtras/MRStep.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshLoad::StepLoadSettings::relative</definition>
+        <argsstring></argsstring>
+        <name>relative</name>
+        <qualifiedname>MR::MeshLoad::StepLoadSettings::relative</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>whether the deflection values are related to the size of edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRIOExtras/MRStep.h" line="24" column="10" bodyfile="MRIOExtras/MRStep.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>STEP-specific mesh load parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="MRIOExtras/MRStep.h" line="17" column="1" bodyfile="MRIOExtras/MRStep.h" bodystart="18" bodyend="25"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
+      <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
+      <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" prot="public" virt="non-virtual"><scope>MR::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -4,6 +4,7 @@
     <compoundname>mrmeshpy::MeshLoad</compoundname>
     <innerclass refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" prot="public">mrmeshpy::MeshLoad::NamedMesh</innerclass>
     <innerclass refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" prot="public">mrmeshpy::MeshLoad::ObjLoadSettings</innerclass>
+    <innerclass refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" prot="public">mrmeshpy::MeshLoad::StepLoadSettings</innerclass>
     <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a51b05c0c99cb73ea73bac7262c58ce8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -28,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32566" bodyend="32569"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32624" bodyend="32627"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1af610689af713f74fe7f5bace7bf36b68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32572" bodyend="32575"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32630" bodyend="32633"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1abffaec42b2a5329f44c9f34ee0ffca30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -78,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32578" bodyend="32581"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32636" bodyend="32639"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a28b29921d877acf6a119cc5f80441052" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -104,7 +105,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32584" bodyend="32588"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32642" bodyend="32646"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ad42a678031c9663e1e50d12deef0ff19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -129,7 +130,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32591" bodyend="32594"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32649" bodyend="32652"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a4c25480088d718aac7c436af41d21147" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -159,7 +160,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32597" bodyend="32601"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32655" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32655" bodyend="32659"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1aa0bc566f1041f51e72910dfb99dca1c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -184,7 +185,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32604" bodyend="32607"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32662" bodyend="32665"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1acadc838d9aa7b56a7109884ed701c2d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -210,7 +211,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32610" bodyend="32614"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32668" bodyend="32672"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a6132777a53cf1b570b0ccd4d21e1acc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -235,7 +236,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32617" bodyend="32620"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32675" bodyend="32678"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a2e7259e0122d393bdc85d25321453f08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -258,7 +259,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32623" bodyend="32624"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32681" bodyend="32682"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a089c68aa902e43c79006fc296e9496dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -283,7 +284,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32627" bodyend="32630"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32685" bodyend="32688"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ad0eadd0f59701877d527209c9f6506de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -308,7 +309,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32633" bodyend="32636"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32691" bodyend="32694"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3ed7c639cb0da6a7cd5a922cd6904ca5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -333,7 +334,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32639" bodyend="32642"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32697" bodyend="32700"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a8735d8f51b74748b1f28e10279f25f3d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -359,7 +360,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32645" bodyend="32649"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32703" bodyend="32707"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a97f47393e0b65a3239bcc395e48444e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -384,7 +385,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32652" bodyend="32655"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32710" bodyend="32713"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ae1a833c72f1d538ee53714cb840d1fb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -410,7 +411,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32658" bodyend="32662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32716" bodyend="32720"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1aa310c6405bc26b68ef056dca7817ea63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -435,7 +436,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32665" bodyend="32668"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32723" bodyend="32726"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ae607b8fa878d06cbed98865eb7ec00de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -460,7 +461,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32671" bodyend="32674"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32729" bodyend="32732"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a52f65a7c3f35e4fa71a4918db1bf91e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -485,7 +486,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32677" bodyend="32680"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32735" bodyend="32738"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3fd6d5f438d166bed0ed43dd8960bb54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
@@ -511,7 +512,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32683" bodyend="32687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32741" bodyend="32745"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
@@ -540,7 +541,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32690" bodyend="32693"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32748" bodyend="32751"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
@@ -578,7 +579,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32696" bodyend="32700"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32754" bodyend="32758"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
@@ -613,12 +614,12 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32703" bodyend="32708"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32761" bodyend="32766"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a88917fac1c89a4c0e51521ef615307ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a16e4d0ec8273fecea69a0e580846ca24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
         <definition> Object mrmeshpy.MeshLoad.fromSceneStepFile</definition>
-        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=...)</argsstring>
+        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=..., MeshLoad.StepLoadSettings stepSettings=...)</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>mrmeshpy.MeshLoad.fromSceneStepFile</qualifiedname>
         <param>
@@ -628,6 +629,11 @@ important on Windows: in stream must be open in binary mode
         <param>
           <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
           <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>stepSettings</declname>
           <defval>...</defval>
         </param>
         <briefdescription>
@@ -638,12 +644,12 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32711" bodyend="32714"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32769" bodyend="32772"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a432c80e27f4d3110d78eef215de5ecbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a23531c02515eddb4e3106c82b2cd8906" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
         <definition> Object mrmeshpy.MeshLoad.fromSceneStepFile</definition>
-        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=..., MeshLoad.StepLoadSettings stepSettings=...)</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>mrmeshpy.MeshLoad.fromSceneStepFile</qualifiedname>
         <param>
@@ -655,18 +661,23 @@ important on Windows: in stream must be open in binary mode
           <declname>settings</declname>
           <defval>...</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>stepSettings</declname>
+          <defval>...</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32717" bodyend="32718"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32775" bodyend="32776"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a4cb3312e2f31c6876fdc0e5eaabceacc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ad86359a9bf0de7cf5050dff40a6f147a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
         <definition> Mesh mrmeshpy.MeshLoad.fromStep</definition>
-        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=...)</argsstring>
+        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=..., MeshLoad.StepLoadSettings stepSettings=...)</argsstring>
         <name>fromStep</name>
         <qualifiedname>mrmeshpy.MeshLoad.fromStep</qualifiedname>
         <param>
@@ -678,6 +689,11 @@ important on Windows: in stream must be open in binary mode
           <declname>settings</declname>
           <defval>...</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>stepSettings</declname>
+          <defval>...</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -686,12 +702,12 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32721" bodyend="32724"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32779" bodyend="32782"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a660649e196a6a7f0675a75eb14cfde1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a4f082e24b16ec0d255f23768ece0953d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
         <definition> Mesh mrmeshpy.MeshLoad.fromStep</definition>
-        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=..., MeshLoad.StepLoadSettings stepSettings=...)</argsstring>
         <name>fromStep</name>
         <qualifiedname>mrmeshpy.MeshLoad.fromStep</qualifiedname>
         <param>
@@ -703,13 +719,18 @@ important on Windows: in stream must be open in binary mode
           <declname>settings</declname>
           <defval>...</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>stepSettings</declname>
+          <defval>...</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32727" bodyend="32728"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32785" bodyend="32786"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1acb90b4cd446e11e90f1edfb0f44735f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1LoadedObjects" kindref="compound">LoadedObjects</ref></type>
@@ -734,7 +755,7 @@ important on Windows: in stream must be open in binary mode
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32730" bodyend="32733"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32788" bodyend="32791"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -743,7 +764,7 @@ important on Windows: in stream must be open in binary mode
 <para><verbatim>This is a namespace.
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32425" bodyend="32733"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32425" bodyend="32791"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshLoad_1abffaec42b2a5329f44c9f34ee0ffca30" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnyStl</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a28b29921d877acf6a119cc5f80441052" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnyStl</name></member>
@@ -768,10 +789,10 @@ important on Windows: in stream must be open in binary mode
       <member refid="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
-      <member refid="classmrmeshpy_1_1MeshLoad_1a88917fac1c89a4c0e51521ef615307ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
-      <member refid="classmrmeshpy_1_1MeshLoad_1a432c80e27f4d3110d78eef215de5ecbc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
-      <member refid="classmrmeshpy_1_1MeshLoad_1a4cb3312e2f31c6876fdc0e5eaabceacc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
-      <member refid="classmrmeshpy_1_1MeshLoad_1a660649e196a6a7f0675a75eb14cfde1d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a16e4d0ec8273fecea69a0e580846ca24" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a23531c02515eddb4e3106c82b2cd8906" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1ad86359a9bf0de7cf5050dff40a6f147a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a4f082e24b16ec0d255f23768ece0953d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
       <member refid="classmrmeshpy_1_1MeshLoad_1acb90b4cd446e11e90f1edfb0f44735f6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>loadObjectFromObj</name></member>
     </listofallmembers>
   </compounddef>

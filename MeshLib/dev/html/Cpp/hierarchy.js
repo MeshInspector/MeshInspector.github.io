@@ -1211,6 +1211,7 @@ var hierarchy =
     [ "MR::SplineSettings", "structMR_1_1SplineSettings.html", null ],
     [ "MR::Src2TgtMaps", "classMR_1_1Src2TgtMaps.html", null ],
     [ "MR::MultiwayAligningTransform::Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", null ],
+    [ "MR::MeshLoad::StepLoadSettings", "structMR_1_1MeshLoad_1_1StepLoadSettings.html", null ],
     [ "MR::ImGuiMeasurementIndicators::Stipple", "structMR_1_1ImGuiMeasurementIndicators_1_1Stipple.html", null ],
     [ "MR::StitchHolesNicelySettings", "structMR_1_1StitchHolesNicelySettings.html", null ],
     [ "MR::StitchHolesParams", "structMR_1_1StitchHolesParams.html", null ],

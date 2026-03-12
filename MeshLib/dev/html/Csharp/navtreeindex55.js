@@ -1,5 +1,14 @@
 var NAVTREEINDEX55 =
 {
+"classMR_1_1RigidScaleXf3f.html#a8a31b12e756d9dbfaaca0377af9a29dd":[6,3,0,0,0,744,1],
+"classMR_1_1RigidScaleXf3f.html#abdb8701aef14dafbc5cd7305d5147d47":[6,3,0,0,0,744,4],
+"classMR_1_1RigidScaleXf3f.html#ad41dc504cec2c59a7774d7ed794f2868":[6,3,0,0,0,744,7],
+"classMR_1_1RigidScaleXf3f.html#ad75ad45c452853bd129755ed8525129d":[6,3,0,0,0,744,2],
+"classMR_1_1RigidXf3d.html":[6,3,0,0,0,745],
+"classMR_1_1RigidXf3d.html#a08df89e8624b41fd8e403fb225a3a958":[6,3,0,0,0,745,4],
+"classMR_1_1RigidXf3d.html#a2304c013b8e8af3832c1874b3680cdb4":[6,3,0,0,0,745,5],
+"classMR_1_1RigidXf3d.html#a3c8e8b45eb1c73ba5af601c8a87224ce":[6,3,0,0,0,745,0],
+"classMR_1_1RigidXf3d.html#a508355edb55e0ce05f997dcfc9e4c9e0":[6,3,0,0,0,745,2],
 "classMR_1_1RigidXf3d.html#a99a4e99b7981cc1991d5ed104fa00531":[6,3,0,0,0,745,1],
 "classMR_1_1RigidXf3d.html#a9d337b903903cc5153386efdc677cbd1":[6,3,0,0,0,745,6],
 "classMR_1_1RigidXf3d.html#ac5610aac0f8f6d1ff7736a636e2bdfb6":[6,3,0,0,0,745,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX55 =
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#a770149eb6bacfdede71ccf9a6df38eef":[6,3,0,0,0,770,4],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#a79dacdd058d092066786ad9640adf746":[6,3,0,0,0,770,2],
 "classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aa1be29229799c2e2ce0a624cca9dd5c8":[6,3,0,0,0,770,6],
-"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aa4a06a6721f83522102b930ae439434c":[6,3,0,0,0,770,1],
-"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aba6bee7f648999aa297d445cf4bfd1e6":[6,3,0,0,0,770,5],
-"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#ad62a30c9b4b278e1b1d75c8309d5fdd7":[6,3,0,0,0,770,0],
-"classMR_1_1SetNew.html":[6,3,0,0,0,771],
-"classMR_1_1SetNew.html#a84cd19e7b2373576caf4ae7c62514947":[6,3,0,0,0,771,3],
-"classMR_1_1SetNew.html#ae08f8d7caec2c64f01c1ea85707c06df":[6,3,0,0,0,771,0],
-"classMR_1_1SetNew.html#ae731f5c384bc10b57be6dd845f966245":[6,3,0,0,0,771,2],
-"classMR_1_1SetNew.html#afce5f6bb6bbbd0222b6aea6e7714a5d8":[6,3,0,0,0,771,1],
-"classMR_1_1SharpOffsetParameters.html":[6,3,0,0,0,773],
-"classMR_1_1SharpOffsetParameters.html#a1af7672a926ffad368a89be4d7aa92cb":[6,3,0,0,0,773,14]
+"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aa4a06a6721f83522102b930ae439434c":[6,3,0,0,0,770,1]
 };

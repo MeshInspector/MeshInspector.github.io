@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshLoad::StepLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1acafb74a15b76ad3dc0c35bd75efe5e8a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.StepLoadSettings::_offsetof_angularDeflection</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_angularDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings._offsetof_angularDeflection</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a7c12484f5861d31b00bfeaf3120a271e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.StepLoadSettings::_offsetof_linearDeflection</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_linearDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings._offsetof_linearDeflection</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a132ed2727d117c3312322f24a73fb737" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.StepLoadSettings::_offsetof_relative</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relative</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings._offsetof_relative</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32572" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a325821b7738be56e7903a98995fcad85" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32575" bodyend="32576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a1ada61bfb0b308e5835356c7af93fc70" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+        <definition> MeshLoad.StepLoadSettings mrmeshpy.MeshLoad.StepLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32579" bodyend="32580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a1ada61bfb0b308e5835356c7af93fc70" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+        <definition> MeshLoad.StepLoadSettings mrmeshpy.MeshLoad.StepLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32583" bodyend="32584"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a5f6f3d33dc4f56394958ef08008f8418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32586" bodyend="32587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1ae7904a3f6e02ef848daa3f86c53cc88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.__init__</definition>
+        <argsstring>(self, MeshLoad.StepLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">MeshLoad.StepLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32589" bodyend="32592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a5622d73286a045805fdae5487146d4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.__init__</definition>
+        <argsstring>(self, float angularDeflection, float linearDeflection, bool relative)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angularDeflection</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>linearDeflection</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>relative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32594" bodyend="32597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1af4395c429ca1724f368e01442511adfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshLoad.StepLoadSettings.angularDeflection</definition>
+        <argsstring>(self)</argsstring>
+        <name>angularDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.angularDeflection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>angular deflection used to tessellate the boundary edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32599" bodyend="32602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a34b569635ce6628440b12e42642eb0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.angularDeflection</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>angularDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.angularDeflection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32604" bodyend="32605"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a9b57b3412ac7fcf290c86780cf93eef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshLoad.StepLoadSettings.linearDeflection</definition>
+        <argsstring>(self)</argsstring>
+        <name>linearDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.linearDeflection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>linear deflection used to tessellate the boundary edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32607" bodyend="32610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1abb3ec3961a0050475d5552ca70e2b4b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.linearDeflection</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>linearDeflection</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.linearDeflection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32612" bodyend="32613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a55acfbf08f077b66caf314ed58a42c42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshLoad.StepLoadSettings.relative</definition>
+        <argsstring>(self)</argsstring>
+        <name>relative</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.relative</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether the deflection values are related to the size of edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32615" bodyend="32618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a252b6973a261873ac2a91056f891c6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.StepLoadSettings.relative</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>relative</name>
+        <qualifiedname>mrmeshpy.MeshLoad.StepLoadSettings.relative</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32620" bodyend="32622"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshLoad::StepLoadSettings
+
+STEP-specific mesh load parameters
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32564" bodyend="32621"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a325821b7738be56e7903a98995fcad85" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a5f6f3d33dc4f56394958ef08008f8418" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1ae7904a3f6e02ef848daa3f86c53cc88a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a5622d73286a045805fdae5487146d4d3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1acafb74a15b76ad3dc0c35bd75efe5e8a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>_offsetof_angularDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a7c12484f5861d31b00bfeaf3120a271e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>_offsetof_linearDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a132ed2727d117c3312322f24a73fb737" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>_offsetof_relative</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1af4395c429ca1724f368e01442511adfc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a34b569635ce6628440b12e42642eb0d3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>angularDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a9b57b3412ac7fcf290c86780cf93eef3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1abb3ec3961a0050475d5552ca70e2b4b1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>linearDeflection</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a1ada61bfb0b308e5835356c7af93fc70" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a1ada61bfb0b308e5835356c7af93fc70" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a55acfbf08f077b66caf314ed58a42c42" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings_1a252b6973a261873ac2a91056f891c6fb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::StepLoadSettings</scope><name>relative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

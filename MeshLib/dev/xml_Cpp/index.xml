@@ -10641,6 +10641,11 @@
     <member refid="group__GeneralGroup_1ga7dd63f0fe42b793001a53a4e76b94255" kind="function"><name>enable</name></member>
     <member refid="classMR_1_1StateListenerPlugin_1a881049c271f0ed1e696cc1d9dd7b19d9" kind="function"><name>StateBasePlugin</name></member>
   </compound>
+  <compound refid="structMR_1_1MeshLoad_1_1StepLoadSettings" kind="struct"><name>MR::MeshLoad::StepLoadSettings</name>
+    <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1adb63f8f295224fa727fc868341d70f97" kind="variable"><name>angularDeflection</name></member>
+    <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a4dae8524d35b83327dd647e39cd27a0b" kind="variable"><name>linearDeflection</name></member>
+    <member refid="structMR_1_1MeshLoad_1_1StepLoadSettings_1a1ce565a217495fbc5151a90f6c5ba904" kind="variable"><name>relative</name></member>
+  </compound>
   <compound refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" kind="struct"><name>MR::ImGuiMeasurementIndicators::Stipple</name>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" kind="variable"><name>patternLength</name></member>
     <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" kind="variable"><name>segments</name></member>
@@ -15884,10 +15889,10 @@
     <member refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kind="typedef"><name>MeshStreamLoader</name></member>
     <member refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kind="function"><name>fromCtm</name></member>
     <member refid="group__GeneralGroup_1gaab397c33ed047fb5ccbb545c3940957d" kind="function"><name>fromCtm</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1a2fc34f4c712d56b03af98e888e6bf0d7" kind="function"><name>fromStep</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1af222b1f187c6ada07459e5df2376a87c" kind="function"><name>fromStep</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1a3453ab4b6c9bff2b53d97baf751e54e3" kind="function"><name>fromSceneStepFile</name></member>
-    <member refid="namespaceMR_1_1MeshLoad_1ad3b397fbfc7cb3fab8f3864f7acd8c0e" kind="function"><name>fromSceneStepFile</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1af8cb15148c8421e06a2fb126237416d4" kind="function"><name>fromStep</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1a949d7b6686c5cb76b565854e32918ea5" kind="function"><name>fromStep</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1af82c12efa3f3e13a47d5616a3a2dd5a1" kind="function"><name>fromSceneStepFile</name></member>
+    <member refid="namespaceMR_1_1MeshLoad_1a2359a5b19e144222f02b54bbd1c64ea7" kind="function"><name>fromSceneStepFile</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a49d00efe33bc30d02b7d948b82e8c33e" kind="function"><name>fromMrmesh</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1aabe337de5edd40419753b070ba85a532" kind="function"><name>fromMrmesh</name></member>
     <member refid="namespaceMR_1_1MeshLoad_1a3e868d87950982efb75b51d258abb559" kind="function"><name>fromOff</name></member>

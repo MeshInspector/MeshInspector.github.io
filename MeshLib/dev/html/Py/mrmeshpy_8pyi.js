@@ -502,6 +502,7 @@ var mrmeshpy_8pyi =
     [ "mrmeshpy.MeshLoad", "classmrmeshpy_1_1MeshLoad.html", "classmrmeshpy_1_1MeshLoad" ],
     [ "mrmeshpy.MeshLoad.NamedMesh", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh.html", "classmrmeshpy_1_1MeshLoad_1_1NamedMesh" ],
     [ "mrmeshpy.MeshLoad.ObjLoadSettings", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings.html", "classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" ],
+    [ "mrmeshpy.MeshLoad.StepLoadSettings", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings" ],
     [ "mrmeshpy.MeshLoadSettings", "classmrmeshpy_1_1MeshLoadSettings.html", "classmrmeshpy_1_1MeshLoadSettings" ],
     [ "mrmeshpy.MeshMeshCollisionStatus", "classmrmeshpy_1_1MeshMeshCollisionStatus.html", "classmrmeshpy_1_1MeshMeshCollisionStatus" ],
     [ "mrmeshpy.MeshMeshConverter", "classmrmeshpy_1_1MeshMeshConverter.html", "classmrmeshpy_1_1MeshMeshConverter" ],

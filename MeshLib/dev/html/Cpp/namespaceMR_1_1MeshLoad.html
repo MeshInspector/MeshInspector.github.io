@@ -153,6 +153,8 @@ Classes</h2></td></tr>
 <tr class="memitem:MeshLoader" id="r_MeshLoader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoad_1_1MeshLoader.html">MeshLoader</a></td></tr>
 <tr class="memitem:NamedMesh" id="r_NamedMesh"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoad_1_1NamedMesh.html">NamedMesh</a></td></tr>
 <tr class="memitem:ObjLoadSettings" id="r_ObjLoadSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoad_1_1ObjLoadSettings.html">ObjLoadSettings</a></td></tr>
+<tr class="memitem:StepLoadSettings" id="r_StepLoadSettings"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">STEP-specific mesh load parameters.  <a href="structMR_1_1MeshLoad_1_1StepLoadSettings.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -164,12 +166,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5e70a0f21347569fd4dd9ebb7554f8fd" id="r_ga5e70a0f21347569fd4dd9ebb7554f8fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5e70a0f21347569fd4dd9ebb7554f8fd">fromCtm</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:ga5e70a0f21347569fd4dd9ebb7554f8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .ctm file  <br /></td></tr>
 <tr class="memitem:gaab397c33ed047fb5ccbb545c3940957d" id="r_gaab397c33ed047fb5ccbb545c3940957d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaab397c33ed047fb5ccbb545c3940957d">fromCtm</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memitem:a2fc34f4c712d56b03af98e888e6bf0d7" id="r_a2fc34f4c712d56b03af98e888e6bf0d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fc34f4c712d56b03af98e888e6bf0d7">fromStep</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:a2fc34f4c712d56b03af98e888e6bf0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">load mesh data from STEP file using OpenCASCADE  <br /></td></tr>
-<tr class="memitem:af222b1f187c6ada07459e5df2376a87c" id="r_af222b1f187c6ada07459e5df2376a87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af222b1f187c6ada07459e5df2376a87c">fromStep</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memitem:a3453ab4b6c9bff2b53d97baf751e54e3" id="r_a3453ab4b6c9bff2b53d97baf751e54e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3453ab4b6c9bff2b53d97baf751e54e3">fromSceneStepFile</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
-<tr class="memdesc:a3453ab4b6c9bff2b53d97baf751e54e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">load scene from STEP file using OpenCASCADE  <br /></td></tr>
-<tr class="memitem:ad3b397fbfc7cb3fab8f3864f7acd8c0e" id="r_ad3b397fbfc7cb3fab8f3864f7acd8c0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3b397fbfc7cb3fab8f3864f7acd8c0e">fromSceneStepFile</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:af8cb15148c8421e06a2fb126237416d4" id="r_af8cb15148c8421e06a2fb126237416d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8cb15148c8421e06a2fb126237416d4">fromStep</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;stepSettings={})</td></tr>
+<tr class="memdesc:af8cb15148c8421e06a2fb126237416d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">load mesh data from STEP file using OpenCASCADE  <br /></td></tr>
+<tr class="memitem:a949d7b6686c5cb76b565854e32918ea5" id="r_a949d7b6686c5cb76b565854e32918ea5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949d7b6686c5cb76b565854e32918ea5">fromStep</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;stepSettings={})</td></tr>
+<tr class="memitem:af82c12efa3f3e13a47d5616a3a2dd5a1" id="r_af82c12efa3f3e13a47d5616a3a2dd5a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af82c12efa3f3e13a47d5616a3a2dd5a1">fromSceneStepFile</a> (const std::filesystem::path &amp;path, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;stepSettings={})</td></tr>
+<tr class="memdesc:af82c12efa3f3e13a47d5616a3a2dd5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">load scene from STEP file using OpenCASCADE  <br /></td></tr>
+<tr class="memitem:a2359a5b19e144222f02b54bbd1c64ea7" id="r_a2359a5b19e144222f02b54bbd1c64ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; std::shared_ptr&lt; <a class="el" href="classMR_1_1Object.html">Object</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2359a5b19e144222f02b54bbd1c64ea7">fromSceneStepFile</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={}, const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;stepSettings={})</td></tr>
 <tr class="memitem:a49d00efe33bc30d02b7d948b82e8c33e" id="r_a49d00efe33bc30d02b7d948b82e8c33e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49d00efe33bc30d02b7d948b82e8c33e">fromMrmesh</a> (const std::filesystem::path &amp;file, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
 <tr class="memdesc:a49d00efe33bc30d02b7d948b82e8c33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads mesh from file in internal MeshLib format  <br /></td></tr>
 <tr class="memitem:aabe337de5edd40419753b070ba85a532" id="r_aabe337de5edd40419753b070ba85a532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabe337de5edd40419753b070ba85a532">fromMrmesh</a> (std::istream &amp;in, const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;settings={})</td></tr>
@@ -625,8 +627,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a3453ab4b6c9bff2b53d97baf751e54e3" name="a3453ab4b6c9bff2b53d97baf751e54e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3453ab4b6c9bff2b53d97baf751e54e3">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[1/2]</span></h2>
+<a id="af82c12efa3f3e13a47d5616a3a2dd5a1" name="af82c12efa3f3e13a47d5616a3a2dd5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af82c12efa3f3e13a47d5616a3a2dd5a1">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -639,7 +641,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -648,8 +655,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad3b397fbfc7cb3fab8f3864f7acd8c0e" name="ad3b397fbfc7cb3fab8f3864f7acd8c0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3b397fbfc7cb3fab8f3864f7acd8c0e">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[2/2]</span></h2>
+<a id="a2359a5b19e144222f02b54bbd1c64ea7" name="a2359a5b19e144222f02b54bbd1c64ea7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2359a5b19e144222f02b54bbd1c64ea7">&#9670;&#160;</a></span>fromSceneStepFile() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -662,15 +669,20 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a2fc34f4c712d56b03af98e888e6bf0d7" name="a2fc34f4c712d56b03af98e888e6bf0d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fc34f4c712d56b03af98e888e6bf0d7">&#9670;&#160;</a></span>fromStep() <span class="overload">[1/2]</span></h2>
+<a id="af8cb15148c8421e06a2fb126237416d4" name="af8cb15148c8421e06a2fb126237416d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8cb15148c8421e06a2fb126237416d4">&#9670;&#160;</a></span>fromStep() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -683,7 +695,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -692,8 +709,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af222b1f187c6ada07459e5df2376a87c" name="af222b1f187c6ada07459e5df2376a87c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af222b1f187c6ada07459e5df2376a87c">&#9670;&#160;</a></span>fromStep() <span class="overload">[2/2]</span></h2>
+<a id="a949d7b6686c5cb76b565854e32918ea5" name="a949d7b6686c5cb76b565854e32918ea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949d7b6686c5cb76b565854e32918ea5">&#9670;&#160;</a></span>fromStep() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -706,7 +723,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoadSettings.html">MeshLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshLoad_1_1StepLoadSettings.html">StepLoadSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

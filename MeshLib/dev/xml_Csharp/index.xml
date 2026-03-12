@@ -10088,10 +10088,10 @@
   <compound refid="classMR_1_1MeshLoad" kind="class"><name>MR::MeshLoad</name>
     <member refid="classMR_1_1MeshLoad_1a6b19df3e63cd1c399ed8d9e896023526" kind="function"><name>fromCtm</name></member>
     <member refid="classMR_1_1MeshLoad_1a1f448c12bb73983175543b2797dfb671" kind="function"><name>fromCtm</name></member>
-    <member refid="classMR_1_1MeshLoad_1a3815d5028a423c0371ddd531ebede9f5" kind="function"><name>fromStep</name></member>
-    <member refid="classMR_1_1MeshLoad_1a857aebb8c9357976e1212d4ff2311251" kind="function"><name>fromStep</name></member>
-    <member refid="classMR_1_1MeshLoad_1a07096730c87ef9ef4406d0b37dfc3022" kind="function"><name>fromSceneStepFile</name></member>
-    <member refid="classMR_1_1MeshLoad_1a4886c83ff9f0f0c8195f31d1265d83ec" kind="function"><name>fromSceneStepFile</name></member>
+    <member refid="classMR_1_1MeshLoad_1a2f06bd9cb4c12425c13c8ac6ad106f89" kind="function"><name>fromStep</name></member>
+    <member refid="classMR_1_1MeshLoad_1aef32d952c0dcf02c08a933599c4bc520" kind="function"><name>fromStep</name></member>
+    <member refid="classMR_1_1MeshLoad_1af4ca0496d6d194235d5f2dcf8dc14c13" kind="function"><name>fromSceneStepFile</name></member>
+    <member refid="classMR_1_1MeshLoad_1a488fbbec801cdec5cb6d3c7841d9ad7b" kind="function"><name>fromSceneStepFile</name></member>
     <member refid="classMR_1_1MeshLoad_1aa4848ac2baf83ab68b7e476127ceb15b" kind="function"><name>fromMrmesh</name></member>
     <member refid="classMR_1_1MeshLoad_1ab1c2632f5d8a7b89644f9438ebd3fed9" kind="function"><name>fromMrmesh</name></member>
     <member refid="classMR_1_1MeshLoad_1aa4f8b2a872f07f09bcff02dbdbe5656b" kind="function"><name>fromOff</name></member>
@@ -17039,6 +17039,17 @@
     <member refid="classMR_1_1Src2TgtMaps_1acc5600fda77163d37ab2a67b82a3f329" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1Std" kind="class"><name>MR::Std</name>
+  </compound>
+  <compound refid="classMR_1_1MeshLoad_1_1StepLoadSettings" kind="class"><name>MR::MeshLoad::StepLoadSettings</name>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a3ca13b8cd1782902f7d5bbf20d7dc9fa" kind="property"><name>angularDeflection</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae4790fcdb8aa3a49d815633be780a801" kind="property"><name>linearDeflection</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a939f803ec344832afe24fbc02206881c" kind="property"><name>relative</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a89e200b5e06c8037d696333dcab7db48" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ae8992aef8c0dc3949be110c83d558adc" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1ab4a73a8537b13c6cc4e088e2d40488b0" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a06c906e917e8c473e830f4ff60b0fe82" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1aafc4da6bae0a741e3db6a762641505e8" kind="function"><name>StepLoadSettings</name></member>
+    <member refid="classMR_1_1MeshLoad_1_1StepLoadSettings_1a23aad55ba101d29fff9a91b02470874d" kind="function"><name>assign</name></member>
   </compound>
   <compound refid="classMR_1_1StitchHolesParams" kind="struct"><name>MR::StitchHolesParams</name>
     <member refid="classMR_1_1StitchHolesParams_1a97509e6b095df58502fc3e0c700cc625" kind="property"><name>metric</name></member>

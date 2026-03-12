@@ -2670,6 +2670,9 @@ var hierarchy =
       [ "MR.MeshLoad.Const_ObjLoadSettings", null, [
         [ "MR.MeshLoad.ObjLoadSettings", "classMR_1_1MeshLoad_1_1ObjLoadSettings.html", null ]
       ] ],
+      [ "MR.MeshLoad.Const_StepLoadSettings", null, [
+        [ "MR.MeshLoad.StepLoadSettings", "classMR_1_1MeshLoad_1_1StepLoadSettings.html", null ]
+      ] ],
       [ "MR.MeshSave.Const_BinaryStlSaver", null, [
         [ "MR.MeshSave.BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", null ]
       ] ],
@@ -4183,6 +4186,7 @@ var hierarchy =
       [ "MR.MeshComponents.Const_LargeByAreaComponentsSettings", null, null ],
       [ "MR.MeshLoad.Const_NamedMesh", null, null ],
       [ "MR.MeshLoad.Const_ObjLoadSettings", null, null ],
+      [ "MR.MeshLoad.Const_StepLoadSettings", null, null ],
       [ "MR.MeshSave.Const_BinaryStlSaver", null, null ],
       [ "MR.MeshSave.Const_CtmSaveOptions", null, null ],
       [ "MR.MeshSave.Const_NamedXfMesh", null, null ],

@@ -138,24 +138,67 @@ $(function(){initNavTree('MRStep_8h.html','',''); });
 
 <div class="header">
   <div class="summary">
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRStep.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stdbool.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRStep_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:acc87a50ccb0fce6322dd9a0b5696aa4c" id="r_acc87a50ccb0fce6322dd9a0b5696aa4c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a634e91ba80144abec33db7b5fb200981" id="r_a634e91ba80144abec33db7b5fb200981"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a634e91ba80144abec33db7b5fb200981">MR_MeshLoad_fromStep_std_filesystem_path</a> (const char *path, const char *path_end, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
-<tr class="memitem:a1a09e0f9e8fde86f70b0bea5904c6c0f" id="r_a1a09e0f9e8fde86f70b0bea5904c6c0f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a09e0f9e8fde86f70b0bea5904c6c0f">MR_MeshLoad_fromStep_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
-<tr class="memitem:ad969839694dfed3262702afae49c3d05" id="r_ad969839694dfed3262702afae49c3d05"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#a8376c5a9f4fe1df0fd35390100143238">MR_expected_std_shared_ptr_MR_Object_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad969839694dfed3262702afae49c3d05">MR_MeshLoad_fromSceneStepFile_std_filesystem_path</a> (const char *path, const char *path_end, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
-<tr class="memitem:a0fcb603954c2dbf0da09c9a8434474e0" id="r_a0fcb603954c2dbf0da09c9a8434474e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#a8376c5a9f4fe1df0fd35390100143238">MR_expected_std_shared_ptr_MR_Object_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fcb603954c2dbf0da09c9a8434474e0">MR_MeshLoad_fromSceneStepFile_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings)</td></tr>
+<tr class="memitem:a69e4f444cdb1efde0e2786bb78243949" id="r_a69e4f444cdb1efde0e2786bb78243949"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e4f444cdb1efde0e2786bb78243949">MR_MeshLoad_StepLoadSettings_Get_angularDeflection</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:ac727522ce67d6c6bfe92f70856e56f06" id="r_ac727522ce67d6c6bfe92f70856e56f06"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac727522ce67d6c6bfe92f70856e56f06">MR_MeshLoad_StepLoadSettings_Set_angularDeflection</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this, double value)</td></tr>
+<tr class="memitem:ac2d56670cca34e49b9fd855dffbe24d8" id="r_ac2d56670cca34e49b9fd855dffbe24d8"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2d56670cca34e49b9fd855dffbe24d8">MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:acc2c2e69b0c60f595b3e3b2f769503ae" id="r_acc2c2e69b0c60f595b3e3b2f769503ae"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc2c2e69b0c60f595b3e3b2f769503ae">MR_MeshLoad_StepLoadSettings_Get_linearDeflection</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a6bac305667e1689248a1c25865761da1" id="r_a6bac305667e1689248a1c25865761da1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6bac305667e1689248a1c25865761da1">MR_MeshLoad_StepLoadSettings_Set_linearDeflection</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this, double value)</td></tr>
+<tr class="memitem:a760fd54e5a3499949a2b9b3fa79a58c3" id="r_a760fd54e5a3499949a2b9b3fa79a58c3"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a760fd54e5a3499949a2b9b3fa79a58c3">MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a8f2bd131c692902d71a81b66974a9011" id="r_a8f2bd131c692902d71a81b66974a9011"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f2bd131c692902d71a81b66974a9011">MR_MeshLoad_StepLoadSettings_Get_relative</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:aed876a0bc6ade2c102c0584fe442f28d" id="r_aed876a0bc6ade2c102c0584fe442f28d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed876a0bc6ade2c102c0584fe442f28d">MR_MeshLoad_StepLoadSettings_Set_relative</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:a5fb0b54ca9df08b87aca202875574efd" id="r_a5fb0b54ca9df08b87aca202875574efd"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fb0b54ca9df08b87aca202875574efd">MR_MeshLoad_StepLoadSettings_GetMutable_relative</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memitem:a44ab227c5ea60609df575f9a2190b66c" id="r_a44ab227c5ea60609df575f9a2190b66c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44ab227c5ea60609df575f9a2190b66c">MR_MeshLoad_StepLoadSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a9022f96a576b969eedd74a68d6b07f00" id="r_a9022f96a576b969eedd74a68d6b07f00"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9022f96a576b969eedd74a68d6b07f00">MR_MeshLoad_StepLoadSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a01af270075f92ca319a88e275f24a793" id="r_a01af270075f92ca319a88e275f24a793"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01af270075f92ca319a88e275f24a793">MR_MeshLoad_StepLoadSettings_ConstructFrom</a> (double angularDeflection, double linearDeflection, bool relative)</td></tr>
+<tr class="memitem:a895994da323c9f103fa9e43193be480c" id="r_a895994da323c9f103fa9e43193be480c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895994da323c9f103fa9e43193be480c">MR_MeshLoad_StepLoadSettings_OffsetPtr</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a233005ba4bcaa0ad831b66f97425f270" id="r_a233005ba4bcaa0ad831b66f97425f270"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a233005ba4bcaa0ad831b66f97425f270">MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ac70c990a35c19e2c002eab1c66f388c3" id="r_ac70c990a35c19e2c002eab1c66f388c3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac70c990a35c19e2c002eab1c66f388c3">MR_MeshLoad_StepLoadSettings_ConstructFromAnother</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_other)</td></tr>
+<tr class="memitem:aa870a078a2cb0e58f7c320de2e0e247c" id="r_aa870a078a2cb0e58f7c320de2e0e247c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa870a078a2cb0e58f7c320de2e0e247c">MR_MeshLoad_StepLoadSettings_Destroy</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memdesc:aa870a078a2cb0e58f7c320de2e0e247c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:ae4789a595b27bdb3aab2a9be6cc78fea" id="r_ae4789a595b27bdb3aab2a9be6cc78fea"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4789a595b27bdb3aab2a9be6cc78fea">MR_MeshLoad_StepLoadSettings_DestroyArray</a> (const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this)</td></tr>
+<tr class="memdesc:ae4789a595b27bdb3aab2a9be6cc78fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="memitem:a6d6de11976fcf8020912c8c681cdd620" id="r_a6d6de11976fcf8020912c8c681cdd620"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d6de11976fcf8020912c8c681cdd620">MR_MeshLoad_StepLoadSettings_AssignFromAnother</a> (<a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_this, const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *_other)</td></tr>
+<tr class="memitem:af81ad6f62d90cb8372f80a92e12c8248" id="r_af81ad6f62d90cb8372f80a92e12c8248"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af81ad6f62d90cb8372f80a92e12c8248">MR_MeshLoad_fromStep_std_filesystem_path</a> (const char *path, const char *path_end, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings, const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *stepSettings)</td></tr>
+<tr class="memitem:ad07903b1ed1758ca83303fa00c73c01c" id="r_ad07903b1ed1758ca83303fa00c73c01c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad07903b1ed1758ca83303fa00c73c01c">MR_MeshLoad_fromStep_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings, const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *stepSettings)</td></tr>
+<tr class="memitem:aa42e74b79641f1632ee7a4fc9ef28a0c" id="r_aa42e74b79641f1632ee7a4fc9ef28a0c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#a8376c5a9f4fe1df0fd35390100143238">MR_expected_std_shared_ptr_MR_Object_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa42e74b79641f1632ee7a4fc9ef28a0c">MR_MeshLoad_fromSceneStepFile_std_filesystem_path</a> (const char *path, const char *path_end, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings, const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *stepSettings)</td></tr>
+<tr class="memitem:a29e642052042fb06fe0bd7b6d7bc39e5" id="r_a29e642052042fb06fe0bd7b6d7bc39e5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRGltf_8h.html#a8376c5a9f4fe1df0fd35390100143238">MR_expected_std_shared_ptr_MR_Object_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29e642052042fb06fe0bd7b6d7bc39e5">MR_MeshLoad_fromSceneStepFile_std_istream</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *settings, const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *stepSettings)</td></tr>
 </table>
+<a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
+<a id="acc87a50ccb0fce6322dd9a0b5696aa4c" name="acc87a50ccb0fce6322dd9a0b5696aa4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc87a50ccb0fce6322dd9a0b5696aa4c">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>STEP-specific mesh load parameters Generated from class <span class="tt">MR::MeshLoad::StepLoadSettings</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
-<a id="ad969839694dfed3262702afae49c3d05" name="ad969839694dfed3262702afae49c3d05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad969839694dfed3262702afae49c3d05">&#9670;&#160;</a></span>MR_MeshLoad_fromSceneStepFile_std_filesystem_path()</h2>
+<a id="aa42e74b79641f1632ee7a4fc9ef28a0c" name="aa42e74b79641f1632ee7a4fc9ef28a0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa42e74b79641f1632ee7a4fc9ef28a0c">&#9670;&#160;</a></span>MR_MeshLoad_fromSceneStepFile_std_filesystem_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -173,16 +216,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>load scene from STEP file using OpenCASCADE Generated from function <span class="tt">MR::MeshLoad::fromSceneStepFile</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>load scene from STEP file using OpenCASCADE Generated from function <span class="tt">MR::MeshLoad::fromSceneStepFile</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">stepSettings</span> is a single object. Parameter <span class="tt">stepSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a0fcb603954c2dbf0da09c9a8434474e0" name="a0fcb603954c2dbf0da09c9a8434474e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fcb603954c2dbf0da09c9a8434474e0">&#9670;&#160;</a></span>MR_MeshLoad_fromSceneStepFile_std_istream()</h2>
+<a id="a29e642052042fb06fe0bd7b6d7bc39e5" name="a29e642052042fb06fe0bd7b6d7bc39e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e642052042fb06fe0bd7b6d7bc39e5">&#9670;&#160;</a></span>MR_MeshLoad_fromSceneStepFile_std_istream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,16 +243,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::MeshLoad::fromSceneStepFile</span>. Parameter <span class="tt">in</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::MeshLoad::fromSceneStepFile</span>. Parameter <span class="tt">in</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">stepSettings</span> is a single object. Parameter <span class="tt">stepSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a634e91ba80144abec33db7b5fb200981" name="a634e91ba80144abec33db7b5fb200981"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a634e91ba80144abec33db7b5fb200981">&#9670;&#160;</a></span>MR_MeshLoad_fromStep_std_filesystem_path()</h2>
+<a id="af81ad6f62d90cb8372f80a92e12c8248" name="af81ad6f62d90cb8372f80a92e12c8248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81ad6f62d90cb8372f80a92e12c8248">&#9670;&#160;</a></span>MR_MeshLoad_fromStep_std_filesystem_path()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,16 +275,21 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>load mesh data from STEP file using OpenCASCADE Generated from function <span class="tt">MR::MeshLoad::fromStep</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>load mesh data from STEP file using OpenCASCADE Generated from function <span class="tt">MR::MeshLoad::fromStep</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">stepSettings</span> is a single object. Parameter <span class="tt">stepSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
 
 </div>
 </div>
-<a id="a1a09e0f9e8fde86f70b0bea5904c6c0f" name="a1a09e0f9e8fde86f70b0bea5904c6c0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a09e0f9e8fde86f70b0bea5904c6c0f">&#9670;&#160;</a></span>MR_MeshLoad_fromStep_std_istream()</h2>
+<a id="ad07903b1ed1758ca83303fa00c73c01c" name="ad07903b1ed1758ca83303fa00c73c01c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad07903b1ed1758ca83303fa00c73c01c">&#9670;&#160;</a></span>MR_MeshLoad_fromStep_std_istream()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,11 +302,375 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a616a0b042e712074c2ed4013f47fa0af">MR_MeshLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>stepSettings</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::MeshLoad::fromStep</span>. Parameter <span class="tt">in</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::MeshLoad::fromStep</span>. Parameter <span class="tt">in</span> can not be null. It is a single object. Parameter <span class="tt">settings</span> is a single object. Parameter <span class="tt">settings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Parameter <span class="tt">stepSettings</span> is a single object. Parameter <span class="tt">stepSettings</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a6d6de11976fcf8020912c8c681cdd620" name="a6d6de11976fcf8020912c8c681cdd620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6de11976fcf8020912c8c681cdd620">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <span class="tt">MR::MeshLoad::StepLoadSettings::operator=</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="a01af270075f92ca319a88e275f24a793" name="a01af270075f92ca319a88e275f24a793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01af270075f92ca319a88e275f24a793">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>angularDeflection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>linearDeflection</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>relative</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <span class="tt">MR::MeshLoad::StepLoadSettings</span> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa870a078a2cb0e58f7c320de2e0e247c" title="Destroys a heap-allocated instance of MR_MeshLoad_StepLoadSettings. Does nothing if the pointer is nu...">MR_MeshLoad_StepLoadSettings_Destroy()</a></span> to free it when you're done using it. When this function is called, this object will drop any object references it held previously. </p>
+
+</div>
+</div>
+<a id="ac70c990a35c19e2c002eab1c66f388c3" name="ac70c990a35c19e2c002eab1c66f388c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac70c990a35c19e2c002eab1c66f388c3">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <span class="tt">MR::MeshLoad::StepLoadSettings::StepLoadSettings</span>. Parameter <span class="tt">_other</span> can not be null. It is a single object. The reference to things referred to by the parameter <span class="tt">_other</span> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa870a078a2cb0e58f7c320de2e0e247c" title="Destroys a heap-allocated instance of MR_MeshLoad_StepLoadSettings. Does nothing if the pointer is nu...">MR_MeshLoad_StepLoadSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a44ab227c5ea60609df575f9a2190b66c" name="a44ab227c5ea60609df575f9a2190b66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44ab227c5ea60609df575f9a2190b66c">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="#aa870a078a2cb0e58f7c320de2e0e247c" title="Destroys a heap-allocated instance of MR_MeshLoad_StepLoadSettings. Does nothing if the pointer is nu...">MR_MeshLoad_StepLoadSettings_Destroy()</a></span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a9022f96a576b969eedd74a68d6b07f00" name="a9022f96a576b969eedd74a68d6b07f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9022f96a576b969eedd74a68d6b07f00">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <span class="tt"><a class="el" href="#ae4789a595b27bdb3aab2a9be6cc78fea" title="Destroys a heap-allocated array of MR_MeshLoad_StepLoadSettings. Does nothing if the pointer is null.">MR_MeshLoad_StepLoadSettings_DestroyArray()</a></span>. Use <span class="tt"><a class="el" href="#a233005ba4bcaa0ad831b66f97425f270">MR_MeshLoad_StepLoadSettings_OffsetMutablePtr()</a></span> and <span class="tt"><a class="el" href="#a895994da323c9f103fa9e43193be480c">MR_MeshLoad_StepLoadSettings_OffsetPtr()</a></span> to access the array elements. </p>
+
+</div>
+</div>
+<a id="aa870a078a2cb0e58f7c320de2e0e247c" name="aa870a078a2cb0e58f7c320de2e0e247c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa870a078a2cb0e58f7c320de2e0e247c">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshLoad_StepLoadSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="ae4789a595b27bdb3aab2a9be6cc78fea" name="ae4789a595b27bdb3aab2a9be6cc78fea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4789a595b27bdb3aab2a9be6cc78fea">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshLoad_StepLoadSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <span class="tt"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a></span>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a69e4f444cdb1efde0e2786bb78243949" name="a69e4f444cdb1efde0e2786bb78243949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e4f444cdb1efde0e2786bb78243949">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Get_angularDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_MeshLoad_StepLoadSettings_Get_angularDeflection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>angular deflection used to tessellate the boundary edges Returns a pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">angularDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="acc2c2e69b0c60f595b3e3b2f769503ae" name="acc2c2e69b0c60f595b3e3b2f769503ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2c2e69b0c60f595b3e3b2f769503ae">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Get_linearDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const double * MR_MeshLoad_StepLoadSettings_Get_linearDeflection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>linear deflection used to tessellate the boundary edges Returns a pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">linearDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a8f2bd131c692902d71a81b66974a9011" name="a8f2bd131c692902d71a81b66974a9011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f2bd131c692902d71a81b66974a9011">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Get_relative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const bool * MR_MeshLoad_StepLoadSettings_Get_relative </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether the deflection values are related to the size of edges Returns a pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">relative</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ac2d56670cca34e49b9fd855dffbe24d8" name="ac2d56670cca34e49b9fd855dffbe24d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2d56670cca34e49b9fd855dffbe24d8">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>angular deflection used to tessellate the boundary edges Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">angularDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a760fd54e5a3499949a2b9b3fa79a58c3" name="a760fd54e5a3499949a2b9b3fa79a58c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a760fd54e5a3499949a2b9b3fa79a58c3">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API double * MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>linear deflection used to tessellate the boundary edges Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">linearDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a5fb0b54ca9df08b87aca202875574efd" name="a5fb0b54ca9df08b87aca202875574efd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb0b54ca9df08b87aca202875574efd">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_GetMutable_relative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API bool * MR_MeshLoad_StepLoadSettings_GetMutable_relative </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether the deflection values are related to the size of edges Returns a mutable pointer to a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">relative</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a233005ba4bcaa0ad831b66f97425f270" name="a233005ba4bcaa0ad831b66f97425f270"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a233005ba4bcaa0ad831b66f97425f270">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a895994da323c9f103fa9e43193be480c" name="a895994da323c9f103fa9e43193be480c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a895994da323c9f103fa9e43193be480c">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> * MR_MeshLoad_StepLoadSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <span class="tt">i</span> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <span class="tt">ptr</span> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="ac727522ce67d6c6bfe92f70856e56f06" name="ac727522ce67d6c6bfe92f70856e56f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac727522ce67d6c6bfe92f70856e56f06">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Set_angularDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshLoad_StepLoadSettings_Set_angularDeflection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>angular deflection used to tessellate the boundary edges Modifies a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">angularDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">angularDeflection</span>. </p>
+
+</div>
+</div>
+<a id="a6bac305667e1689248a1c25865761da1" name="a6bac305667e1689248a1c25865761da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bac305667e1689248a1c25865761da1">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Set_linearDeflection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshLoad_StepLoadSettings_Set_linearDeflection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>linear deflection used to tessellate the boundary edges Modifies a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">linearDeflection</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">linearDeflection</span>. </p>
+
+</div>
+</div>
+<a id="aed876a0bc6ade2c102c0584fe442f28d" name="aed876a0bc6ade2c102c0584fe442f28d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed876a0bc6ade2c102c0584fe442f28d">&#9670;&#160;</a></span>MR_MeshLoad_StepLoadSettings_Set_relative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_MeshLoad_StepLoadSettings_Set_relative </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#acc87a50ccb0fce6322dd9a0b5696aa4c">MR_MeshLoad_StepLoadSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>whether the deflection values are related to the size of edges Modifies a member variable of class <span class="tt">MR::MeshLoad::StepLoadSettings</span> named <span class="tt">relative</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. When this function is called, this object will drop object references it held previously in <span class="tt">relative</span>. </p>
 
 </div>
 </div>

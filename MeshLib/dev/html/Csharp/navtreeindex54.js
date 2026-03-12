@@ -1,5 +1,14 @@
 var NAVTREEINDEX54 =
 {
+"classMR_1_1Quaterniond.html#acc033fb2ed26a854da5884fd58b420d3":[6,3,0,0,0,729,8],
+"classMR_1_1Quaterniond.html#acdaa86c5397261db18c7dd18f2a0244c":[6,3,0,0,0,729,9],
+"classMR_1_1Quaterniond.html#acfb3e3e4a5b71f9823f40b7471bf97ad":[6,3,0,0,0,729,12],
+"classMR_1_1Quaterniond.html#ae16549e53f8aa016b3d78fef21fa0489":[6,3,0,0,0,729,15],
+"classMR_1_1Quaterniond.html#af45a7888d342e7b1a7a6d9a61a226974":[6,3,0,0,0,729,7],
+"classMR_1_1Quaternionf.html":[6,3,0,0,0,730],
+"classMR_1_1Quaternionf.html#a1400ed3736d1f675bde151d8c624d310":[6,3,0,0,0,730,5],
+"classMR_1_1Quaternionf.html#a14e55dab896e3c214bf9f93a2bb17aec":[6,3,0,0,0,730,9],
+"classMR_1_1Quaternionf.html#a1c71ef6bdee5037714588390f70a211a":[6,3,0,0,0,730,12],
 "classMR_1_1Quaternionf.html#a1c8eb5a31f7c3065dbae7281fa403fac":[6,3,0,0,0,730,13],
 "classMR_1_1Quaternionf.html#a3eac6b68243a34c8a66e0e1d3ed461f1":[6,3,0,0,0,730,7],
 "classMR_1_1Quaternionf.html#a4bdcbddd11f2cdd7a3c2cc06ca4ce545":[6,3,0,0,0,730,8],
@@ -240,14 +249,5 @@ var NAVTREEINDEX54 =
 "classMR_1_1RigidScaleXf3f.html#a09777fe1be6f4f6989e5ef00acc0429b":[6,3,0,0,0,744,0],
 "classMR_1_1RigidScaleXf3f.html#a14f28a87e4b6b89466c1af6382650bec":[6,3,0,0,0,744,5],
 "classMR_1_1RigidScaleXf3f.html#a39b73a9bb9ad09512b0ac82d0b4a614d":[6,3,0,0,0,744,3],
-"classMR_1_1RigidScaleXf3f.html#a5ecd1e9e1f305dbcfd58bbe00639574c":[6,3,0,0,0,744,6],
-"classMR_1_1RigidScaleXf3f.html#a8a31b12e756d9dbfaaca0377af9a29dd":[6,3,0,0,0,744,1],
-"classMR_1_1RigidScaleXf3f.html#abdb8701aef14dafbc5cd7305d5147d47":[6,3,0,0,0,744,4],
-"classMR_1_1RigidScaleXf3f.html#ad41dc504cec2c59a7774d7ed794f2868":[6,3,0,0,0,744,7],
-"classMR_1_1RigidScaleXf3f.html#ad75ad45c452853bd129755ed8525129d":[6,3,0,0,0,744,2],
-"classMR_1_1RigidXf3d.html":[6,3,0,0,0,745],
-"classMR_1_1RigidXf3d.html#a08df89e8624b41fd8e403fb225a3a958":[6,3,0,0,0,745,4],
-"classMR_1_1RigidXf3d.html#a2304c013b8e8af3832c1874b3680cdb4":[6,3,0,0,0,745,5],
-"classMR_1_1RigidXf3d.html#a3c8e8b45eb1c73ba5af601c8a87224ce":[6,3,0,0,0,745,0],
-"classMR_1_1RigidXf3d.html#a508355edb55e0ce05f997dcfc9e4c9e0":[6,3,0,0,0,745,2]
+"classMR_1_1RigidScaleXf3f.html#a5ecd1e9e1f305dbcfd58bbe00639574c":[6,3,0,0,0,744,6]
 };

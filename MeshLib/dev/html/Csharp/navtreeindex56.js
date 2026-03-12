@@ -1,5 +1,14 @@
 var NAVTREEINDEX56 =
 {
+"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#aba6bee7f648999aa297d445cf4bfd1e6":[6,3,0,0,0,770,5],
+"classMR_1_1SetBitIteratorT__MRVoxelBitSet.html#ad62a30c9b4b278e1b1d75c8309d5fdd7":[6,3,0,0,0,770,0],
+"classMR_1_1SetNew.html":[6,3,0,0,0,771],
+"classMR_1_1SetNew.html#a84cd19e7b2373576caf4ae7c62514947":[6,3,0,0,0,771,3],
+"classMR_1_1SetNew.html#ae08f8d7caec2c64f01c1ea85707c06df":[6,3,0,0,0,771,0],
+"classMR_1_1SetNew.html#ae731f5c384bc10b57be6dd845f966245":[6,3,0,0,0,771,2],
+"classMR_1_1SetNew.html#afce5f6bb6bbbd0222b6aea6e7714a5d8":[6,3,0,0,0,771,1],
+"classMR_1_1SharpOffsetParameters.html":[6,3,0,0,0,773],
+"classMR_1_1SharpOffsetParameters.html#a1af7672a926ffad368a89be4d7aa92cb":[6,3,0,0,0,773,14],
 "classMR_1_1SharpOffsetParameters.html#a1cde748ed14c0f964c26bd7e2eabfefe":[6,3,0,0,0,773,7],
 "classMR_1_1SharpOffsetParameters.html#a214dfd965d9a8c4c939603bcd41d5ee0":[6,3,0,0,0,773,18],
 "classMR_1_1SharpOffsetParameters.html#a35d00034c37292ee41930768928bf3fb":[6,3,0,0,0,773,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX56 =
 "classMR_1_1SphereObject.html#a3cf1da494bd877b29ad5404e47844c1e":[6,3,0,0,0,793,38],
 "classMR_1_1SphereObject.html#a3d2c18a05ed274951c32c675d4b3c502":[6,3,0,0,0,793,11],
 "classMR_1_1SphereObject.html#a49203b822ad7edd8e701da906b730782":[6,3,0,0,0,793,19],
-"classMR_1_1SphereObject.html#a4a5f2d7e8873ebe325958c3c97313e23":[6,3,0,0,0,793,56],
-"classMR_1_1SphereObject.html#a4accd82d5c1058eb6839db254035231b":[6,3,0,0,0,793,37],
-"classMR_1_1SphereObject.html#a53626d2e926ff737c0556e8aee20d602":[6,3,0,0,0,793,61],
-"classMR_1_1SphereObject.html#a53cacc66c7d0b6e30633650d3f99220b":[6,3,0,0,0,793,12],
-"classMR_1_1SphereObject.html#a5429295bc8b06274045affb9fdc61675":[6,3,0,0,0,793,43],
-"classMR_1_1SphereObject.html#a58703d10703880b03a53834b62c14d75":[6,3,0,0,0,793,44],
-"classMR_1_1SphereObject.html#a5cd40ef8f0f937ce4088807563f02438":[6,3,0,0,0,793,13],
-"classMR_1_1SphereObject.html#a609d28a472c8863e418fad6d2d3b78eb":[6,3,0,0,0,793,17],
-"classMR_1_1SphereObject.html#a66a8a099c87ca5f42a20723b8b8b7e77":[6,3,0,0,0,793,53],
-"classMR_1_1SphereObject.html#a6b37d6017c3175ef29a453fa9dec4882":[6,3,0,0,0,793,65]
+"classMR_1_1SphereObject.html#a4a5f2d7e8873ebe325958c3c97313e23":[6,3,0,0,0,793,56]
 };

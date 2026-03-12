@@ -1,5 +1,13 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1RemeshSettings.html#acd587d4e1482c17b18ae9c92898b7392":[6,0,0,10,3,2],
+"structMR_1_1RemeshSettings.html#ad7ab1e7054f884efcbe1327815ffd678":[6,0,0,10,3,0],
+"structMR_1_1RemeshSettings.html#ae47bb1dc61a019d8b23cdfd9d0343018":[6,0,0,10,3,11],
+"structMR_1_1RemeshSettings.html#aed5e02a684c4323c9ad3143c3dfdb24d":[6,0,0,10,3,10],
+"structMR_1_1RemeshSettings.html#af94f082b1d13804c4460f447afcda26a":[6,0,0,10,3,7],
+"structMR_1_1RemeshSettings.html#aff741cea660285206a52e31c24f659f3":[6,0,0,10,3,6],
+"structMR_1_1RenderDimensions_1_1AngleParams.html":[6,0,0,20,606],
+"structMR_1_1RenderDimensions_1_1CommonParams.html":[6,0,0,20,601],
 "structMR_1_1RenderDimensions_1_1LengthParams.html":[6,0,0,20,608],
 "structMR_1_1RenderDimensions_1_1PointParams.html":[6,0,0,20,602],
 "structMR_1_1RenderDimensions_1_1RadiusParams.html":[6,0,0,20,604],
@@ -241,13 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adfa09c4f869d92627a0ca88966af3bef":[6,0,1,0,1,45,1,7],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adfa09c4f869d92627a0ca88966af3bef":[6,0,2,0,2,28,1,7],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,1,0,1,45,1,8],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,2,0,2,28,1,8],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html":[6,0,0,13,0,0],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a5415b188e466c2295bb082600f25f64b":[6,0,0,13,0,0,2],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a611f524a057ce6442f48a01faef5cc19":[6,0,0,13,0,0,0],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#a80c3874decf9d019fab965c28d7a767b":[6,0,0,13,0,0,1],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ac92e70e1a5084a5ab9f62287e8041e95":[6,0,0,13,0,0,4],
-"structMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html#ae773b54dc10496afde5414733e1c8d6a":[6,0,0,13,0,0,3],
-"structMR_1_1TriangulationParameters.html":[6,0,0,13,1],
-"structMR_1_1TriangulationParameters.html#a08e53e768a419301b8abf98737e18046":[6,0,0,13,1,6]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#aeadcc460fdb58725f5fd22d6457ea9b2":[6,0,2,0,2,28,1,8]
 };

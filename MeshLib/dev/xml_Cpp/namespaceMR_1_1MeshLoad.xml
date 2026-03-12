@@ -5,6 +5,7 @@
     <innerclass refid="structMR_1_1MeshLoad_1_1MeshLoader" prot="public">MR::MeshLoad::MeshLoader</innerclass>
     <innerclass refid="structMR_1_1MeshLoad_1_1NamedMesh" prot="public">MR::MeshLoad::NamedMesh</innerclass>
     <innerclass refid="structMR_1_1MeshLoad_1_1ObjLoadSettings" prot="public">MR::MeshLoad::ObjLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1MeshLoad_1_1StepLoadSettings" prot="public">MR::MeshLoad::StepLoadSettings</innerclass>
     <sectiondef kind="typedef">
       <member refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" kind="typedef"><name>MeshFileLoader</name></member>
       <member refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kind="typedef"><name>MeshStreamLoader</name></member>
@@ -12,10 +13,10 @@
     <sectiondef kind="func">
       <member refid="group__GeneralGroup_1ga5e70a0f21347569fd4dd9ebb7554f8fd" kind="function"><name>fromCtm</name></member>
       <member refid="group__GeneralGroup_1gaab397c33ed047fb5ccbb545c3940957d" kind="function"><name>fromCtm</name></member>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a2fc34f4c712d56b03af98e888e6bf0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1af8cb15148c8421e06a2fb126237416d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::MeshLoad::fromStep</definition>
-        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
+        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={}, const StepLoadSettings &amp;stepSettings={})</argsstring>
         <name>fromStep</name>
         <qualifiedname>MR::MeshLoad::fromStep</qualifiedname>
         <param>
@@ -25,6 +26,11 @@
         <param>
           <type>const <ref refid="structMR_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref> &amp;</type>
           <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">StepLoadSettings</ref> &amp;</type>
+          <declname>stepSettings</declname>
           <defval>{}</defval>
         </param>
         <briefdescription>
@@ -34,12 +40,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRStep.h" line="17" column="11" declfile="MRIOExtras/MRStep.h" declline="17" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="28" column="11" declfile="MRIOExtras/MRStep.h" declline="28" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1af222b1f187c6ada07459e5df2376a87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a949d7b6686c5cb76b565854e32918ea5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>
         <definition>Expected&lt; Mesh &gt; MR::MeshLoad::fromStep</definition>
-        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={}, const StepLoadSettings &amp;stepSettings={})</argsstring>
         <name>fromStep</name>
         <qualifiedname>MR::MeshLoad::fromStep</qualifiedname>
         <param>
@@ -51,18 +57,23 @@
           <declname>settings</declname>
           <defval>{}</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">StepLoadSettings</ref> &amp;</type>
+          <declname>stepSettings</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRStep.h" line="18" column="11" declfile="MRIOExtras/MRStep.h" declline="18" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="29" column="11" declfile="MRIOExtras/MRStep.h" declline="29" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a3453ab4b6c9bff2b53d97baf751e54e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1af82c12efa3f3e13a47d5616a3a2dd5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
         <definition>Expected&lt; std::shared_ptr&lt; Object &gt; &gt; MR::MeshLoad::fromSceneStepFile</definition>
-        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={})</argsstring>
+        <argsstring>(const std::filesystem::path &amp;path, const MeshLoadSettings &amp;settings={}, const StepLoadSettings &amp;stepSettings={})</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>MR::MeshLoad::fromSceneStepFile</qualifiedname>
         <param>
@@ -74,6 +85,11 @@
           <declname>settings</declname>
           <defval>{}</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">StepLoadSettings</ref> &amp;</type>
+          <declname>stepSettings</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
 <para>load scene from STEP file using OpenCASCADE </para>
         </briefdescription>
@@ -81,12 +97,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRStep.h" line="21" column="11" declfile="MRIOExtras/MRStep.h" declline="21" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="32" column="11" declfile="MRIOExtras/MRStep.h" declline="32" declcolumn="11"/>
       </memberdef>
-      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1ad3b397fbfc7cb3fab8f3864f7acd8c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a2359a5b19e144222f02b54bbd1c64ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::shared_ptr&lt; <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &gt; &gt;</type>
         <definition>Expected&lt; std::shared_ptr&lt; Object &gt; &gt; MR::MeshLoad::fromSceneStepFile</definition>
-        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={})</argsstring>
+        <argsstring>(std::istream &amp;in, const MeshLoadSettings &amp;settings={}, const StepLoadSettings &amp;stepSettings={})</argsstring>
         <name>fromSceneStepFile</name>
         <qualifiedname>MR::MeshLoad::fromSceneStepFile</qualifiedname>
         <param>
@@ -98,13 +114,18 @@
           <declname>settings</declname>
           <defval>{}</defval>
         </param>
+        <param>
+          <type>const <ref refid="structMR_1_1MeshLoad_1_1StepLoadSettings" kindref="compound">StepLoadSettings</ref> &amp;</type>
+          <declname>stepSettings</declname>
+          <defval>{}</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRIOExtras/MRStep.h" line="22" column="11" declfile="MRIOExtras/MRStep.h" declline="22" declcolumn="11"/>
+        <location file="MRIOExtras/MRStep.h" line="33" column="11" declfile="MRIOExtras/MRStep.h" declline="33" declcolumn="11"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1MeshLoad_1a49d00efe33bc30d02b7d948b82e8c33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> &gt;</type>

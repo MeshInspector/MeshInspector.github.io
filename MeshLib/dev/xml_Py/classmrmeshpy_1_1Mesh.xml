@@ -3445,7 +3445,7 @@ if the region has holes then each hole will be virtually filled by adding triang
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::Mesh
-Aliases:  std_shared_ptr_Mesh, std_shared_ptr_const_Mesh
+Aliases:  std_shared_ptr_const_Mesh, std_shared_ptr_Mesh
 
 This class represents a mesh, including topology (connectivity) information and point coordinates,
 as well as some caches to accelerate search algorithms

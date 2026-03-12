@@ -1270,6 +1270,7 @@ var hierarchy =
     [ "mrmeshpy.std_vector_WatershedGraph_BdInfo", "classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo.html", null ],
     [ "mrmeshpy.std_vector_WatershedGraph_OverflowPoint", "classmrmeshpy_1_1std__vector__WatershedGraph__OverflowPoint.html", null ],
     [ "mrmeshpy.std_vector_WeightedShell_ParametersRegions_Region", "classmrmeshpy_1_1std__vector__WeightedShell__ParametersRegions__Region.html", null ],
+    [ "mrmeshpy.MeshLoad.StepLoadSettings", "classmrmeshpy_1_1MeshLoad_1_1StepLoadSettings.html", null ],
     [ "mrmeshpy.StitchHolesNicelySettings", "classmrmeshpy_1_1StitchHolesNicelySettings.html", null ],
     [ "mrmeshpy.StitchHolesParams", "classmrmeshpy_1_1StitchHolesParams.html", null ],
     [ "mrmeshpy.SubdivideFillingSettings", "classmrmeshpy_1_1SubdivideFillingSettings.html", null ],

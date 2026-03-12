@@ -1,5 +1,14 @@
 var NAVTREEINDEX79 =
 {
+"structMR_1_1Vector3f.html#a61ca9f62bfc929663b8bf0ddf53a6775":[6,3,0,0,0,888,33],
+"structMR_1_1Vector3f.html#a71b7dbd5036ede85482b2ee527e7d360":[6,3,0,0,0,888,14],
+"structMR_1_1Vector3f.html#a77a2c2ea4655d18cc0ab74132ed93c38":[6,3,0,0,0,888,20],
+"structMR_1_1Vector3f.html#a79469fe89f2153ca06bda38e699c49af":[6,3,0,0,0,888,23],
+"structMR_1_1Vector3f.html#a8977f32929d76bf7bb251028bde6b144":[6,3,0,0,0,888,9],
+"structMR_1_1Vector3f.html#a9638b7e9733ba23e9143b4b8d79cdca7":[6,3,0,0,0,888,28],
+"structMR_1_1Vector3f.html#a976d67d70c7c4fdace614a2eac92fcd4":[6,3,0,0,0,888,15],
+"structMR_1_1Vector3f.html#aa5463fa498ba13c12f9d2e21bf410443":[6,3,0,0,0,888,41],
+"structMR_1_1Vector3f.html#aa9855b7b9a4da2614c4af583c8de8479":[6,3,0,0,0,888,37],
 "structMR_1_1Vector3f.html#aaa2d093acea19c0bd4d06e767ceab608":[6,3,0,0,0,888,1],
 "structMR_1_1Vector3f.html#aaba5d88225e1e099d6e63d95059c863e":[6,3,0,0,0,888,29],
 "structMR_1_1Vector3f.html#aac72ff5515c59f64c17593a03e5b6e40":[6,3,0,0,0,888,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX79 =
 "structMR_1_1Vector4i64.html#a81784ee7bba3cff45e8c8090536a375c":[6,3,0,0,0,896,25],
 "structMR_1_1Vector4i64.html#a86dc76b500b3c4a718d9757d32ddba54":[6,3,0,0,0,896,17],
 "structMR_1_1Vector4i64.html#a88159ad4cbbdf3294d6f1f5621df3eb0":[6,3,0,0,0,896,27],
-"structMR_1_1Vector4i64.html#a94c0da7257e650ea7bfa96046048943c":[6,3,0,0,0,896,16],
-"structMR_1_1Vector4i64.html#aa0236cd19889d402a2d90ec914a62f8a":[6,3,0,0,0,896,19],
-"structMR_1_1Vector4i64.html#ac29331eb6087ebfb77e719c34d7a8dc6":[6,3,0,0,0,896,13],
-"structMR_1_1Vector4i64.html#ac94daa51cf2d7cf19764c90d3dc65a93":[6,3,0,0,0,896,28],
-"structMR_1_1Vector4i64.html#ad5aba8d0b2a04bb7b27ffdc06eac2a15":[6,3,0,0,0,896,24],
-"structMR_1_1Vector4i64.html#ad60789f0eb0d90f66491070449fa9b38":[6,3,0,0,0,896,2],
-"structMR_1_1Vector4i64.html#ae7fc48775b6bb59884478a9e43974d84":[6,3,0,0,0,896,6],
-"structMR_1_1Vector4i64.html#ae8086166b5f0d355da659ff2547c476c":[6,3,0,0,0,896,0],
-"structMR_1_1Vector4i64.html#ae81ad27617533ba31c544d17bca4673d":[6,3,0,0,0,896,5],
-"structMR_1_1Vector4i64.html#af8666c8c8558b0f8cb497cea532b7005":[6,3,0,0,0,896,15]
+"structMR_1_1Vector4i64.html#a94c0da7257e650ea7bfa96046048943c":[6,3,0,0,0,896,16]
 };
