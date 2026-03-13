@@ -172,6 +172,7 @@ var dir_0cc3bc4bf87f190d6580fb811ae42f71 =
     [ "MRLinesLoad.h", "MRLinesLoad_8h.html", "MRLinesLoad_8h" ],
     [ "MRLinesLoadSettings.h", "MRLinesLoadSettings_8h.html", null ],
     [ "MRLinesSave.h", "MRLinesSave_8h.html", "MRLinesSave_8h" ],
+    [ "MRLoadedMeshData.h", "MRLoadedMeshData_8h.html", null ],
     [ "MRLoadedObjects.h", "MRLoadedObjects_8h.html", "MRLoadedObjects_8h" ],
     [ "MRLocalTriangulations.h", "MRLocalTriangulations_8h.html", "MRLocalTriangulations_8h" ],
     [ "MRLog.h", "MRLog_8h.html", "MRLog_8h" ],

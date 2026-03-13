@@ -195,9 +195,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ga8f970cf17eda4dc8ebd3a11ba3227894" id="r_ga8f970cf17eda4dc8ebd3a11ba3227894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="structMR_1_1LoadedObjects.html">LoadedObjects</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga8f970cf17eda4dc8ebd3a11ba3227894">MR::loadObjectFromFile</a> (const std::filesystem::path &amp;filename, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:ga8f970cf17eda4dc8ebd3a11ba3227894"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all objects (or any type: mesh, lines, points, voxels or scene) from file  <br /></td></tr>
 <tr class="memitem:gad2d1bf6f777a42936fe7f20f86a7afa7" id="r_gad2d1bf6f777a42936fe7f20f86a7afa7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad2d1bf6f777a42936fe7f20f86a7afa7">MR::isSupportedFileInSubfolders</a> (const std::filesystem::path &amp;folder)</td></tr>
-<tr class="memdesc:gad2d1bf6f777a42936fe7f20f86a7afa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if there are any supported files folder and subfolders  <br /></td></tr>
+<tr class="memdesc:gad2d1bf6f777a42936fe7f20f86a7afa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if there are any supported files folder and subfolders  <br /></td></tr>
 <tr class="memitem:gaca44e2332e7de600e47bb62bb01f93c5" id="r_gaca44e2332e7de600e47bb62bb01f93c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaca44e2332e7de600e47bb62bb01f93c5">MR::loadSceneFromAnySupportedFormat</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;callback={})</td></tr>
 <tr class="memdesc:gaca44e2332e7de600e47bb62bb01f93c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to load scene from every format listed in SceneFormatFilters  <br /></td></tr>
+<tr class="memitem:ga9a4a18906ca46f6623c37d611df539c3" id="r_ga9a4a18906ca46f6623c37d611df539c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9a4a18906ca46f6623c37d611df539c3">MR::makeObjectMesh</a> (std::string objName, <a class="el" href="structMR_1_1LoadedMeshData.html">LoadedMeshData</a> data)</td></tr>
+<tr class="memdesc:ga9a4a18906ca46f6623c37d611df539c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">constructs new <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> from the given data  <br /></td></tr>
 <tr class="memitem:ga6fd5afbbb086d0929f3dc6d4f227c744" id="r_ga6fd5afbbb086d0929f3dc6d4f227c744"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6fd5afbbb086d0929f3dc6d4f227c744">MR::deserializeObjectTree</a> (const std::filesystem::path &amp;path, const <a class="el" href="group__GeneralGroup.html#ga3f12c695d99ddb646e5d824fa7257413">FolderCallback</a> &amp;postDecompress={}, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
 <tr class="memdesc:ga6fd5afbbb086d0929f3dc6d4f227c744"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
 <tr class="memitem:ga6f03d6e2aa5d66aac5eb616ef651e31d" id="r_ga6f03d6e2aa5d66aac5eb616ef651e31d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; <a class="el" href="group__GeneralGroup.html#ga817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga6f03d6e2aa5d66aac5eb616ef651e31d">MR::deserializeObjectTreeFromFolder</a> (const std::filesystem::path &amp;folder, const <a class="el" href="group__BasicStructuresGroup.html#ga51ff94746a41880cd06d3272b5bcf710">ProgressCallback</a> &amp;progressCb={})</td></tr>
@@ -341,6 +343,9 @@ template&lt;typename T&gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="group__IOFiltersGroup.html#ga6e5e24c14d4909fcad8aa5fab54d047b">IOFilters</a> MR::getAllFilters </td>
@@ -349,6 +354,11 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectLoad_8h.html">MRMesh/MRObjectLoad.h</a>&gt;</code></p>
@@ -362,6 +372,9 @@ template&lt;typename T&gt; </div>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MR::isSupportedFileInSubfolders </td>
@@ -370,11 +383,16 @@ template&lt;typename T&gt; </div>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><code>#include &lt;<a class="el" href="MRObjectLoad_8h.html">MRMesh/MRObjectLoad.h</a>&gt;</code></p>
 
-<p>check if there are any supported files folder and subfolders </p>
+<p>checks if there are any supported files folder and subfolders </p>
 
 </div>
 </div>
@@ -537,6 +555,39 @@ template&lt;typename T&gt; </div>
 <p><code>#include &lt;<a class="el" href="MRObjectLoad_8h.html">MRMesh/MRObjectLoad.h</a>&gt;</code></p>
 
 <p>loads lines from given file in new object </p>
+
+</div>
+</div>
+<a id="ga9a4a18906ca46f6623c37d611df539c3" name="ga9a4a18906ca46f6623c37d611df539c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a4a18906ca46f6623c37d611df539c3">&#9670;&#160;</a></span>makeObjectMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga817cc816192c1d84ef3abb186f9ea3a1">LoadedObject</a> MR::makeObjectMesh </td>
+          <td>(</td>
+          <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>objName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structMR_1_1LoadedMeshData.html">LoadedMeshData</a></td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel nodiscard">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRObjectLoad_8h.html">MRMesh/MRObjectLoad.h</a>&gt;</code></p>
+
+<p>constructs new <a class="el" href="classMR_1_1ObjectMesh.html">ObjectMesh</a> from the given data </p>
 
 </div>
 </div>

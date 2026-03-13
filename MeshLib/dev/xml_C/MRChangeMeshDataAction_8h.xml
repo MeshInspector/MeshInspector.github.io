@@ -56,7 +56,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>mesh and its per-element attributes for ObjectMeshHolder Generated from class <computeroutput>MR::ObjectMeshData</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>mesh and its per-element attributes for ObjectMeshHolder Generated from class <computeroutput>MR::ObjectMeshData</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::LoadedMeshData</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>

@@ -16,6 +16,7 @@ var MRObjectLoad_8h =
     [ "MR_makeObjectFromMeshFile", "MRObjectLoad_8h.html#ac50e11935b065eca4620640636426acb", null ],
     [ "MR_makeObjectGcodeFromFile", "MRObjectLoad_8h.html#af9bf8f86b995bbeeb44e9afb0077b5f3", null ],
     [ "MR_makeObjectLinesFromFile", "MRObjectLoad_8h.html#a8c9bdf548fff27778f05c22a4eb65f0c", null ],
+    [ "MR_makeObjectMesh", "MRObjectLoad_8h.html#ac951d29a9db8b774e96cbfae037d05c5", null ],
     [ "MR_makeObjectMeshFromFile", "MRObjectLoad_8h.html#a3184bfaddc3fbecffa29ee031f5116a4", null ],
     [ "MR_makeObjectPointsFromFile", "MRObjectLoad_8h.html#a78a24f872fbf3e5774bd17ab5ea1cd50", null ]
 ];

@@ -8883,6 +8883,27 @@
     <member refid="classMR_1_1LinesSave_1ac4628f9ce6da5d349d87805342d8f216" kind="function"><name>toAnySupportedFormat</name></member>
     <member refid="classMR_1_1LinesSave_1a69b2d6ac1891da9955927f62259f434b" kind="function"><name>toAnySupportedFormat</name></member>
   </compound>
+  <compound refid="classMR_1_1LoadedMeshData" kind="class"><name>MR::LoadedMeshData</name>
+    <member refid="classMR_1_1LoadedMeshData_1acdc5bc631743b158a971d0f4a4eeb3e7" kind="property"><name>texture</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1aff7e8e0530101d56e8630955ee69f834" kind="property"><name>xf</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1abee6a705d1c532c1090c251d3f92ed85" kind="property"><name>skippedFaceCount</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a0c67c21d9bad821ae6b87f2190fde054" kind="property"><name>duplicatedVertexCount</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a36d53f84ac94f92bc9cfe9a8090129d8" kind="property"><name>mesh</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1ae47075947227a6f2d26b3e5bf7936eee" kind="property"><name>selectedFaces</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a833d5615d664a76954339cad537d6584" kind="property"><name>selectedEdges</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a1e276d9d441d42f8df73e504ebc87bb5" kind="property"><name>creases</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a419213c43ec5fcf629801ef31cd98f33" kind="property"><name>vertColors</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1aa16a6e55d93bad85f78b06b3e2badc00" kind="property"><name>faceColors</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1aec69476abfaf9913c960b4d66bf39ea1" kind="property"><name>uvCoordinates</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1ad5696949f587f67d8f2dc63836704177" kind="property"><name>texturePerFace</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1af56160f2e44c6d881363cc2b9cba0538" kind="function"><name>operator MR.ObjectMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1af855cef67ee96622c734607dfd487d71" kind="function"><name>LoadedMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" kind="function"><name>LoadedMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a17f2a6b7ae51878ac5b3dc668a371507" kind="function"><name>LoadedMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a480a3178bed64c6945aa906d74ed8b38" kind="function"><name>LoadedMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a73eb06c4034945c67639c9d97a935c78" kind="function"><name>LoadedMeshData</name></member>
+    <member refid="classMR_1_1LoadedMeshData_1a0df9f46821410cf98aa9ebf35988fe9b" kind="function"><name>assign</name></member>
+  </compound>
   <compound refid="classMR_1_1LoadedObjects" kind="class"><name>MR::LoadedObjects</name>
     <member refid="classMR_1_1LoadedObjects_1a35bd06280c4eeebeb160805dae760c73" kind="property"><name>objs</name></member>
     <member refid="classMR_1_1LoadedObjects_1a9daa8a42d2f6878ef5e38bf0497e5468" kind="property"><name>warnings</name></member>
@@ -11806,6 +11827,7 @@
     <member refid="classMR_1a0ccc30b4c08ce69f741685875876b655" kind="function"><name>loadObjectFromFile</name></member>
     <member refid="classMR_1a56559386102ce94d434da96af969b848" kind="function"><name>isSupportedFileInSubfolders</name></member>
     <member refid="classMR_1a82b98f6e41d25aec2dcf96a2d413368a" kind="function"><name>loadSceneFromAnySupportedFormat</name></member>
+    <member refid="classMR_1a5b9f1eb5b13b094603c5602256e29085" kind="function"><name>makeObjectMesh</name></member>
     <member refid="classMR_1a0d7334e49cc90f74224b2926fdc61658" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="classMR_1a259601b21de07161f4346d7505590b79" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
     <member refid="classMR_1ab2cfc07c3c4dacd8d517dd12406e8781" kind="function"><name>getAllFilters</name></member>
@@ -22095,6 +22117,8 @@
   <compound refid="MRLinesLoadSettings_8cs" kind="file"><name>MRLinesLoadSettings.cs</name>
   </compound>
   <compound refid="MRLinesSave_8cs" kind="file"><name>MRLinesSave.cs</name>
+  </compound>
+  <compound refid="MRLoadedMeshData_8cs" kind="file"><name>MRLoadedMeshData.cs</name>
   </compound>
   <compound refid="MRLoadedObjects_8cs" kind="file"><name>MRLoadedObjects.cs</name>
   </compound>

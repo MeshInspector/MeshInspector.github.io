@@ -2151,6 +2151,12 @@ var group__GeneralGroup =
       [ "colors", "group__GeneralGroup.html#ga4fb70d302e63d42b78b3ae9b090f1118", null ],
       [ "telemetrySignal", "group__GeneralGroup.html#ga67164bb7398f34f276583f2711748077", null ]
     ] ],
+    [ "MR::LoadedMeshData", "structMR_1_1LoadedMeshData.html", [
+      [ "duplicatedVertexCount", "group__GeneralGroup.html#gac62307437d592311d84a2d4689889d6e", null ],
+      [ "skippedFaceCount", "group__GeneralGroup.html#ga2b34624650bce15d4802d67235a4fa09", null ],
+      [ "texture", "group__GeneralGroup.html#gaafc54b70b462f2c09a711edeca045dd9", null ],
+      [ "xf", "group__GeneralGroup.html#gaa4caf12f413c9b3a6228a29e2c7addeb", null ]
+    ] ],
     [ "MR::LoadedObjectT< ObjectT >", "structMR_1_1LoadedObjectT.html", [
       [ "lengthUnit", "group__GeneralGroup.html#ga869e1d0fd0383f0a90acabb56fc23eaa", null ],
       [ "obj", "group__GeneralGroup.html#gaa8b42b98f6528509e4c4fe107fe6545a", null ],
@@ -13145,6 +13151,7 @@ var group__GeneralGroup =
     [ "MR::makeObjectFromMeshFile", "group__DataModelGroup.html#gadd90fc0dc330a520a6dff51ba956a7f1", null ],
     [ "MR::makeObjectGcodeFromFile", "group__DataModelGroup.html#ga0bb66c4b59655efd884905cf765e7a8a", null ],
     [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#gac9dd077808aa46ace7e81ce139b9059a", null ],
+    [ "MR::makeObjectMesh", "group__DataModelGroup.html#ga9a4a18906ca46f6623c37d611df539c3", null ],
     [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#gae9ee60bba4a2913ac489fd27115fdd5b", null ],
     [ "MR::makeObjectTreeFromFolder", "group__GeneralGroup.html#ga9bea960815d11381a9019ca6425289c7", null ],
     [ "MR::makeObjectTreeFromZip", "group__GeneralGroup.html#gae65aa784516f490936d24988baa1ce22", null ],
@@ -16539,6 +16546,7 @@ var group__GeneralGroup =
     [ "MR::RibbonMenuUIConfig::drawToolbar", "group__GeneralGroup.html#gad18443e86e7f3e8dee09d47d835657d6", null ],
     [ "MR::RibbonMenuUIConfig::drawViewportTags", "group__GeneralGroup.html#gad25116ab1883c906d084fc3b87abde3a", null ],
     [ "MR::RibbonMenuItem::dropList_", "group__GeneralGroup.html#ga2f25401d4b94a752bd63b79152673ab5", null ],
+    [ "MR::LoadedMeshData::duplicatedVertexCount", "group__GeneralGroup.html#gac62307437d592311d84a2d4689889d6e", null ],
     [ "MR::MeshLoadSettings::duplicatedVertexCount", "group__GeneralGroup.html#ga1fdd9db8e441e5ff1bcee3e9d4b664a7", null ],
     [ "MR::MeshBuilder::UniteCloseParams::duplicateNonManifold", "group__GeneralGroup.html#ga6e04cfb485e0a54e7aaf0c75c8ad0eec", null ],
     [ "MR::MeshBuilder::VertDuplication::dupVert", "group__GeneralGroup.html#ga304fd55bb8ea2a456b8fdf00cce9e14c", null ],
@@ -17696,6 +17704,7 @@ var group__GeneralGroup =
     [ "MR::VectorTraits< Vector4< T > >::size", "group__GeneralGroup.html#gaaaffc834ba62ace086ab656b966346a1", null ],
     [ "MR::GlTexture::size_", "group__GeneralGroup.html#ga24981e85fee9e75367aa3d9d3293f542", null ],
     [ "MR::TransformControls::VisualParams::sizeType", "group__GeneralGroup.html#gaad87dab677434851f0fe31bcfb20840d", null ],
+    [ "MR::LoadedMeshData::skippedFaceCount", "group__GeneralGroup.html#ga2b34624650bce15d4802d67235a4fa09", null ],
     [ "MR::MeshBuilder::BuildSettings::skippedFaceCount", "group__GeneralGroup.html#ga20d73314208590b5844d5d8bf5b3f37f", null ],
     [ "MR::MeshLoadSettings::skippedFaceCount", "group__GeneralGroup.html#ga6fdcf8fdd76f70d7403ea886ed944019", null ],
     [ "MR::SeparationPointStorage::Block::smap", "group__GeneralGroup.html#ga171fe956486e01cdfdddedaedd905ca4", null ],
@@ -17844,6 +17853,7 @@ var group__GeneralGroup =
     [ "MR::RenderNameObject::Task::textToExtraTextSpacing", "group__GeneralGroup.html#gaada3c28db71274d822834a3645128f64", null ],
     [ "MR::UI::ButtonIconCustomizationParams::textUnderImage", "group__GeneralGroup.html#gaa7755d0cc192563e2f8641d447160b10", null ],
     [ "Texture", "group__GeneralGroup.html#gab6054f2db641cd66812772eedda2d205", null ],
+    [ "MR::LoadedMeshData::texture", "group__GeneralGroup.html#gaafc54b70b462f2c09a711edeca045dd9", null ],
     [ "MR::MeshLoadSettings::texture", "group__GeneralGroup.html#gaea5bd8460c5fbf0c62840a46e0eb2011", null ],
     [ "MR::PlyLoadParams::texture", "group__GeneralGroup.html#ga0da01188c983c86875fdd5d0b6471fa5", null ],
     [ "MR::SaveSettings::texture", "group__GeneralGroup.html#ga0cd4cf82acb2f094f43f785282fcb76a", null ],
@@ -18144,6 +18154,7 @@ var group__GeneralGroup =
     [ "MR::Vector4::x", "group__GeneralGroup.html#ga2430707dabdc5933eb1c27e622a73c04", null ],
     [ "MR::ContoursMeshAlignParams::xDirection", "group__GeneralGroup.html#gabb4c90b83a016a27219b89f5e2fbeb70", null ],
     [ "MR::FindOverhangsSettings::xf", "group__GeneralGroup.html#ga3d1a3266302b03fd65361e652890be0e", null ],
+    [ "MR::LoadedMeshData::xf", "group__GeneralGroup.html#gaa4caf12f413c9b3a6228a29e2c7addeb", null ],
     [ "MR::MeshLoadSettings::xf", "group__GeneralGroup.html#gae3778a9ff6574570228d2a4ae6b546c0", null ],
     [ "MR::MeshOrPointsXf::xf", "group__GeneralGroup.html#gafea52861c699700de59ff6307740c6b7", null ],
     [ "MR::MeshProjectionParameters::xf", "group__GeneralGroup.html#ga7ce5f16c30935b50d1c953fc917000dc", null ],

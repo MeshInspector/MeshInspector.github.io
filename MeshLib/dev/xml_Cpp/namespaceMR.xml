@@ -323,6 +323,7 @@
     <innerclass refid="classMR_1_1LineObject" prot="public">MR::LineObject</innerclass>
     <innerclass refid="structMR_1_1LineSegm" prot="public">MR::LineSegm</innerclass>
     <innerclass refid="structMR_1_1LinesLoadSettings" prot="public">MR::LinesLoadSettings</innerclass>
+    <innerclass refid="structMR_1_1LoadedMeshData" prot="public">MR::LoadedMeshData</innerclass>
     <innerclass refid="structMR_1_1LoadedObjects" prot="public">MR::LoadedObjects</innerclass>
     <innerclass refid="structMR_1_1LoadedObjectT" prot="public">MR::LoadedObjectT</innerclass>
     <innerclass refid="classMR_1_1Logger" prot="public">MR::Logger</innerclass>
@@ -1209,6 +1210,7 @@
       <member refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" kind="function"><name>loadObjectFromFile</name></member>
       <member refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" kind="function"><name>isSupportedFileInSubfolders</name></member>
       <member refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" kind="function"><name>loadSceneFromAnySupportedFormat</name></member>
+      <member refid="group__DataModelGroup_1ga9a4a18906ca46f6623c37d611df539c3" kind="function"><name>makeObjectMesh</name></member>
       <member refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" kind="function"><name>deserializeObjectTree</name></member>
       <member refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
       <member refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kind="function"><name>getAllFilters</name></member>

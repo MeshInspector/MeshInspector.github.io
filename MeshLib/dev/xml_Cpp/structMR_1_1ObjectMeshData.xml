@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="structMR_1_1ObjectMeshData" kind="struct" language="C++" prot="public">
     <compoundname>MR::ObjectMeshData</compoundname>
+    <derivedcompoundref refid="structMR_1_1LoadedMeshData" prot="public" virt="non-virtual">MR::LoadedMeshData</derivedcompoundref>
     <includes refid="MRObjectMeshData_8h" local="no">MRMesh/MRObjectMeshData.h</includes>
     <sectiondef kind="public-attrib">
       <member refid="group__GeneralGroup_1gab37aa2308b1d163cba441684f134762a" kind="variable"><name>mesh</name></member>
@@ -22,6 +23,18 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::LoadedMeshData</label>
+        <link refid="structMR_1_1LoadedMeshData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectMeshData</label>
+        <link refid="structMR_1_1ObjectMeshData"/>
+      </node>
+    </inheritancegraph>
     <location file="MRMesh/MRObjectMeshData.h" line="16" column="1" bodyfile="MRMesh/MRObjectMeshData.h" bodystart="17" bodyend="39"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gae12896dbfb3b9f1cbea264c478768f85" prot="public" virt="non-virtual"><scope>MR::ObjectMeshData</scope><name>clone</name></member>

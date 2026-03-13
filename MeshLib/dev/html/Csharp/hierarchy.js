@@ -1116,6 +1116,9 @@ var hierarchy =
       [ "MR.Const_LinesLoadSettings", null, [
         [ "MR.LinesLoadSettings", "classMR_1_1LinesLoadSettings.html", null ]
       ] ],
+      [ "MR.Const_LoadedMeshData", null, [
+        [ "MR.LoadedMeshData", "classMR_1_1LoadedMeshData.html", null ]
+      ] ],
       [ "MR.Const_LoadedObjectT", null, [
         [ "MR.LoadedObjectT", "classMR_1_1LoadedObjectT.html", null ]
       ] ],
@@ -3662,6 +3665,7 @@ var hierarchy =
       [ "MR.Const_LineSegm3d", null, null ],
       [ "MR.Const_LineSegm3f", null, null ],
       [ "MR.Const_LinesLoadSettings", null, null ],
+      [ "MR.Const_LoadedMeshData", null, null ],
       [ "MR.Const_LoadedObjectT", null, null ],
       [ "MR.Const_LoadedObjectT_MRObjectLines", null, null ],
       [ "MR.Const_LoadedObjectT_MRObjectMesh", null, null ],

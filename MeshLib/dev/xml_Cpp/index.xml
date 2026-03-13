@@ -4854,6 +4854,12 @@
     <member refid="structMR_1_1LinesSave_1_1LinesSaver_1ad73141f50545fb8920f07f75132ec6ec" kind="variable"><name>fileSave</name></member>
     <member refid="structMR_1_1LinesSave_1_1LinesSaver_1a735f5d3f3d96af8932f3ed31b33b2054" kind="variable"><name>streamSave</name></member>
   </compound>
+  <compound refid="structMR_1_1LoadedMeshData" kind="struct"><name>MR::LoadedMeshData</name>
+    <member refid="group__GeneralGroup_1gaafc54b70b462f2c09a711edeca045dd9" kind="variable"><name>texture</name></member>
+    <member refid="group__GeneralGroup_1gaa4caf12f413c9b3a6228a29e2c7addeb" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1ga2b34624650bce15d4802d67235a4fa09" kind="variable"><name>skippedFaceCount</name></member>
+    <member refid="group__GeneralGroup_1gac62307437d592311d84a2d4689889d6e" kind="variable"><name>duplicatedVertexCount</name></member>
+  </compound>
   <compound refid="structMR_1_1ViewerSetup_1_1LoadedModule" kind="struct"><name>MR::ViewerSetup::LoadedModule</name>
     <member refid="group__GeneralGroup_1ga35513ae94fe050c531007ff11ed80236" kind="variable"><name>filename</name></member>
   </compound>
@@ -13483,6 +13489,7 @@
     <member refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" kind="function"><name>loadObjectFromFile</name></member>
     <member refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" kind="function"><name>isSupportedFileInSubfolders</name></member>
     <member refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" kind="function"><name>loadSceneFromAnySupportedFormat</name></member>
+    <member refid="group__DataModelGroup_1ga9a4a18906ca46f6623c37d611df539c3" kind="function"><name>makeObjectMesh</name></member>
     <member refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
     <member refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kind="function"><name>getAllFilters</name></member>
@@ -16855,6 +16862,8 @@
   </compound>
   <compound refid="MRLinesSave_8h" kind="file"><name>MRLinesSave.h</name>
   </compound>
+  <compound refid="MRLoadedMeshData_8h" kind="file"><name>MRLoadedMeshData.h</name>
+  </compound>
   <compound refid="MRLoadedObjects_8h" kind="file"><name>MRLoadedObjects.h</name>
   </compound>
   <compound refid="MRLocalTriangulations_8h" kind="file"><name>MRLocalTriangulations.h</name>
@@ -18746,6 +18755,7 @@
     <member refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" kind="function"><name>loadObjectFromFile</name></member>
     <member refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" kind="function"><name>isSupportedFileInSubfolders</name></member>
     <member refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" kind="function"><name>loadSceneFromAnySupportedFormat</name></member>
+    <member refid="group__DataModelGroup_1ga9a4a18906ca46f6623c37d611df539c3" kind="function"><name>makeObjectMesh</name></member>
     <member refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
     <member refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kind="function"><name>getAllFilters</name></member>
@@ -19310,6 +19320,7 @@
     <member refid="group__DataModelGroup_1ga8f970cf17eda4dc8ebd3a11ba3227894" kind="function"><name>loadObjectFromFile</name></member>
     <member refid="group__DataModelGroup_1gad2d1bf6f777a42936fe7f20f86a7afa7" kind="function"><name>isSupportedFileInSubfolders</name></member>
     <member refid="group__DataModelGroup_1gaca44e2332e7de600e47bb62bb01f93c5" kind="function"><name>loadSceneFromAnySupportedFormat</name></member>
+    <member refid="group__DataModelGroup_1ga9a4a18906ca46f6623c37d611df539c3" kind="function"><name>makeObjectMesh</name></member>
     <member refid="group__DataModelGroup_1ga6fd5afbbb086d0929f3dc6d4f227c744" kind="function"><name>deserializeObjectTree</name></member>
     <member refid="group__DataModelGroup_1ga6f03d6e2aa5d66aac5eb616ef651e31d" kind="function"><name>deserializeObjectTreeFromFolder</name></member>
     <member refid="group__DataModelGroup_1gaf486b5ab2b1a6bea43372dfd45b9dfc8" kind="function"><name>getAllFilters</name></member>
@@ -21485,6 +21496,10 @@
     <member refid="group__GeneralGroup_1ga4fb70d302e63d42b78b3ae9b090f1118" kind="variable"><name>colors</name></member>
     <member refid="group__GeneralGroup_1ga371abd05d6978245a5059c507e1b237e" kind="variable"><name>callback</name></member>
     <member refid="group__GeneralGroup_1ga67164bb7398f34f276583f2711748077" kind="variable"><name>telemetrySignal</name></member>
+    <member refid="group__GeneralGroup_1gaafc54b70b462f2c09a711edeca045dd9" kind="variable"><name>texture</name></member>
+    <member refid="group__GeneralGroup_1gaa4caf12f413c9b3a6228a29e2c7addeb" kind="variable"><name>xf</name></member>
+    <member refid="group__GeneralGroup_1ga2b34624650bce15d4802d67235a4fa09" kind="variable"><name>skippedFaceCount</name></member>
+    <member refid="group__GeneralGroup_1gac62307437d592311d84a2d4689889d6e" kind="variable"><name>duplicatedVertexCount</name></member>
     <member refid="group__GeneralGroup_1gaa8b42b98f6528509e4c4fe107fe6545a" kind="variable"><name>obj</name></member>
     <member refid="group__GeneralGroup_1gaabc1e6add51daf7ce715234cb96c9805" kind="variable"><name>warnings</name></member>
     <member refid="group__GeneralGroup_1ga869e1d0fd0383f0a90acabb56fc23eaa" kind="variable"><name>lengthUnit</name></member>

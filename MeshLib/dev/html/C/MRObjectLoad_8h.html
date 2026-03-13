@@ -170,6 +170,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:a71fd171039022c3691f4015026e0b62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">load all objects (or any type: mesh, lines, points, voxels or scene) from file  <br /></td></tr>
 <tr class="memitem:adb3ad6eb0ccf720f4bb679f8d88d1f92" id="r_adb3ad6eb0ccf720f4bb679f8d88d1f92"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb3ad6eb0ccf720f4bb679f8d88d1f92">MR_isSupportedFileInSubfolders</a> (const char *folder, const char *folder_end)</td></tr>
 <tr class="memitem:a3844f472deb17103df5c1e9f50cf9eb6" id="r_a3844f472deb17103df5c1e9f50cf9eb6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#ac492f1c84cf92602c38877cfaa415714">MR_expected_MR_LoadedObjectT_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3844f472deb17103df5c1e9f50cf9eb6">MR_loadSceneFromAnySupportedFormat</a> (const char *path, const char *path_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback)</td></tr>
+<tr class="memitem:ac951d29a9db8b774e96cbfae037d05c5" id="r_ac951d29a9db8b774e96cbfae037d05c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRLoadedObjects_8h.html#aadfcb0c6fd8b6edf1a0766a40ca4399a">MR_LoadedObjectT</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac951d29a9db8b774e96cbfae037d05c5">MR_makeObjectMesh</a> (const char *objName, const char *objName_end, MR_PassBy data_pass_by, <a class="el" href="MRLoadedMeshData_8h.html#a7266f0da86a80aa7ce2088b7c7ed983a">MR_LoadedMeshData</a> *data)</td></tr>
 <tr class="memitem:a5f9425181ae03341a073e9551764974e" id="r_a5f9425181ae03341a073e9551764974e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#ac492f1c84cf92602c38877cfaa415714">MR_expected_MR_LoadedObjectT_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f9425181ae03341a073e9551764974e">MR_deserializeObjectTree</a> (const char *path, const char *path_end, const <a class="el" href="#a30107ef4120845cdac99e9368f431014">MR_std_function_void_from_const_std_filesystem_path_ref</a> *postDecompress, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
 <tr class="memdesc:a5f9425181ae03341a073e9551764974e"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads objects tree from given scene file (zip/mru)  <br /></td></tr>
 <tr class="memitem:a715e5e6eeaab746ae612a76137875888" id="r_a715e5e6eeaab746ae612a76137875888"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#ac492f1c84cf92602c38877cfaa415714">MR_expected_MR_LoadedObjectT_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a715e5e6eeaab746ae612a76137875888">MR_deserializeObjectTreeFromFolder</a> (const char *folder, const char *folder_end, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *progressCb)</td></tr>
@@ -363,7 +364,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::isSupportedFileInSubfolders</span>. Parameter <span class="tt">folder</span> is a UTF-8 encoded filesystem path. </p>
+<p>checks if there are any supported files folder and subfolders Generated from function <span class="tt">MR::isSupportedFileInSubfolders</span>. Parameter <span class="tt">folder</span> is a UTF-8 encoded filesystem path. </p>
 
 </div>
 </div>
@@ -424,7 +425,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::loadSceneFromAnySupportedFormat</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">callback</span> is a single object. Parameter <span class="tt">callback</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_LoadedObjectT_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>tries to load scene from every format listed in SceneFormatFilters Generated from function <span class="tt">MR::loadSceneFromAnySupportedFormat</span>. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">callback</span> is a single object. Parameter <span class="tt">callback</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_LoadedObjectT_std_string_Destroy()</span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -553,6 +554,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>loads lines from given file in new object Generated from function <span class="tt">MR::makeObjectLinesFromFile</span>. Parameter <span class="tt">file</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">callback</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_ObjectLines_std_string_Destroy()</span> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac951d29a9db8b774e96cbfae037d05c5" name="ac951d29a9db8b774e96cbfae037d05c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac951d29a9db8b774e96cbfae037d05c5">&#9670;&#160;</a></span>MR_makeObjectMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRLoadedObjects_8h.html#aadfcb0c6fd8b6edf1a0766a40ca4399a">MR_LoadedObjectT</a> * MR_makeObjectMesh </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>objName</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>objName_end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>data_pass_by</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="MRLoadedMeshData_8h.html#a7266f0da86a80aa7ce2088b7c7ed983a">MR_LoadedMeshData</a> *</td>          <td class="paramname"><span class="paramname"><em>data</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>constructs new ObjectMesh from the given data Generated from function <span class="tt">MR::makeObjectMesh</span>. Parameter <span class="tt">objName</span> can not be null. If <span class="tt">objName_end</span> is null, then <span class="tt">objName</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="MRLoadedObjects_8h.html#aa33a6f93428c78b7748bdf57aec0ce13" title="Destroys a heap-allocated instance of MR_LoadedObjectT. Does nothing if the pointer is null.">MR_LoadedObjectT_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>

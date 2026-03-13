@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"namespaceMR_1_1BitSetParallel.html#a8c54ac4b7f59d210bf4835cfa5d86a8c":[6,0,1,0,1,1,1],
+"namespaceMR_1_1BitSetParallel.html#a8d363b4768efba11f60c43928c542bf1":[6,0,1,0,1,1,4],
+"namespaceMR_1_1BitSetParallel.html#a8f2ddae24bfbab61698167d301e96307":[6,0,1,0,1,1,3],
+"namespaceMR_1_1BitSetParallel.html#aaed29890343a67cc172f1987cd57dc10":[6,0,1,0,1,1,7],
+"namespaceMR_1_1BitSetParallel.html#ab05fc848939177c9fd25511b45bf05c3":[6,0,1,0,1,1,6],
+"namespaceMR_1_1BitSetParallel.html#ac886c0876beae880356ab560e584b63e":[6,0,1,0,1,1,2],
+"namespaceMR_1_1Cuda.html":[6,0,0,20,0],
+"namespaceMR_1_1Cuda.html#a0383a2435c0b02c9305d443c8e9f5579":[6,0,1,0,1,2,18],
 "namespaceMR_1_1Cuda.html#a3847533ea91606e4e7a4068edd599d86":[6,0,1,0,1,2,17],
 "namespaceMR_1_1Cuda.html#a57e91a18687a893997356f499e9a7e94":[6,0,1,0,1,2,12],
 "namespaceMR_1_1Cuda.html#a770259831b49f60068c30df5121056c9":[6,0,1,0,1,2,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325":[6,0,1,0,1,43,9,32],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ac43114d93db55ba1a84197b3b329997f":[6,0,1,0,1,43,9,20],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad0f4c12aa176d856d48f6b85c69a2b26":[6,0,1,0,1,43,9,1],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353":[6,0,1,0,1,43,9,23],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad38f785a7287d8ba9959a806cd03047b":[6,0,1,0,1,43,9,30],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad5c7c7093e96c026200b27ff2ec99ff1":[6,0,1,0,1,43,9,12],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191add78eb3edda7b21ae662a3af71aec8ff":[6,0,1,0,1,43,9,5],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea0c2eb0e1f4d601ef8845cb9d3265f7":[6,0,1,0,1,43,9,2],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191aea2a4a37b9d169eb4eddf18d7e07c2e4":[6,0,1,0,1,43,9,3],
-"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191afdf73f89250319addc5fb627e1a7d3cd":[6,0,1,0,1,43,9,11],
-"namespaceMR_1_1SpaceMouse.html#abf82e89e6fb5b9737517cfd1d6f69e18":[6,0,1,0,1,43,8],
-"namespaceMR_1_1SpaceMouse.html#af8da66a1778b1276a2273cce6aa25df1":[6,0,1,0,1,43,10]
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191ad382cd00dd25988802cf31b9d2182353":[6,0,1,0,1,43,9,23]
 };

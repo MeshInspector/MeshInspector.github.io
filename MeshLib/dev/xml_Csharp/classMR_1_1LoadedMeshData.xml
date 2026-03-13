@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1LoadedMeshData" kind="class" language="C#" prot="public">
+    <compoundname>MR::LoadedMeshData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_LoadedMeshData</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1acdc5bc631743b158a971d0f4a4eeb3e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref></type>
+        <definition>new unsafe MR.MeshTexture MR.LoadedMeshData.texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR.LoadedMeshData.texture</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="244" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="244" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1aff7e8e0530101d56e8630955ee69f834" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>new unsafe ref MR.AffineXf3f MR.LoadedMeshData.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.LoadedMeshData.xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="246" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1abee6a705d1c532c1090c251d3f92ed85" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.LoadedMeshData.skippedFaceCount</definition>
+        <argsstring></argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>MR.LoadedMeshData.skippedFaceCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="248" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1a0c67c21d9bad821ae6b87f2190fde054" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.LoadedMeshData.duplicatedVertexCount</definition>
+        <argsstring></argsstring>
+        <name>duplicatedVertexCount</name>
+        <qualifiedname>MR.LoadedMeshData.duplicatedVertexCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="250" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1a36d53f84ac94f92bc9cfe9a8090129d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.SharedPtr_MRMesh</type>
+        <definition>new unsafe MR.Std.SharedPtr_MRMesh MR.LoadedMeshData.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.LoadedMeshData.mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="252" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="252" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1ae47075947227a6f2d26b3e5bf7936eee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>new unsafe MR.FaceBitSet MR.LoadedMeshData.selectedFaces</definition>
+        <argsstring></argsstring>
+        <name>selectedFaces</name>
+        <qualifiedname>MR.LoadedMeshData.selectedFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="255" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="255" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1a833d5615d664a76954339cad537d6584" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.UndirectedEdgeBitSet MR.LoadedMeshData.selectedEdges</definition>
+        <argsstring></argsstring>
+        <name>selectedEdges</name>
+        <qualifiedname>MR.LoadedMeshData.selectedEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="257" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="257" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1a1e276d9d441d42f8df73e504ebc87bb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.UndirectedEdgeBitSet MR.LoadedMeshData.creases</definition>
+        <argsstring></argsstring>
+        <name>creases</name>
+        <qualifiedname>MR.LoadedMeshData.creases</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="259" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="259" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1a419213c43ec5fcf629801ef31cd98f33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+        <definition>new unsafe MR.VertColors MR.LoadedMeshData.vertColors</definition>
+        <argsstring></argsstring>
+        <name>vertColors</name>
+        <qualifiedname>MR.LoadedMeshData.vertColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="262" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1aa16a6e55d93bad85f78b06b3e2badc00" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref></type>
+        <definition>new unsafe MR.FaceColors MR.LoadedMeshData.faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR.LoadedMeshData.faceColors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="264" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="264" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1aec69476abfaf9913c960b4d66bf39ea1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+        <definition>new unsafe MR.VertCoords2 MR.LoadedMeshData.uvCoordinates</definition>
+        <argsstring></argsstring>
+        <name>uvCoordinates</name>
+        <qualifiedname>MR.LoadedMeshData.uvCoordinates</qualifiedname>
+        <briefdescription>
+<para>vertices coordinates in texture </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="269" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="269" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1LoadedMeshData_1ad5696949f587f67d8f2dc63836704177" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1TexturePerFace" kindref="compound">MR.TexturePerFace</ref></type>
+        <definition>new unsafe MR.TexturePerFace MR.LoadedMeshData.texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>texturePerFace</name>
+        <qualifiedname>MR.LoadedMeshData.texturePerFace</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="271" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="271" bodyend="271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1af56160f2e44c6d881363cc2b9cba0538" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LoadedMeshData.operator MR.ObjectMeshData</definition>
+        <argsstring>(LoadedMeshData self)</argsstring>
+        <name>operator MR.ObjectMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.operator MR.ObjectMeshData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="235" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="235" bodyend="242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1af855cef67ee96622c734607dfd487d71" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LoadedMeshData.LoadedMeshData</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>LoadedMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="346" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="346" bodyend="350"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LoadedMeshData.LoadedMeshData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadedMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="356" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="356" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1a17f2a6b7ae51878ac5b3dc668a371507" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LoadedMeshData.LoadedMeshData</definition>
+        <argsstring>(MR._ByValue_LoadedMeshData _other)</argsstring>
+        <name>LoadedMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
+        <param>
+          <type>MR._ByValue_LoadedMeshData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" kindref="member">MR.LoadedMeshData.LoadedMeshData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="367" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="367" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1a480a3178bed64c6945aa906d74ed8b38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.LoadedMeshData.LoadedMeshData</definition>
+        <argsstring>(Const_LoadedMeshData _other)</argsstring>
+        <name>LoadedMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
+        <param>
+          <type>Const_LoadedMeshData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" kindref="member">MR.LoadedMeshData.LoadedMeshData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="379" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="379" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1a73eb06c4034945c67639c9d97a935c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.LoadedMeshData.LoadedMeshData</definition>
+        <argsstring>(LoadedMeshData _other)</argsstring>
+        <name>LoadedMeshData</name>
+        <qualifiedname>MR.LoadedMeshData.LoadedMeshData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LoadedMeshData" kindref="compound">LoadedMeshData</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" kindref="member">MR.LoadedMeshData.LoadedMeshData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="384" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="384" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LoadedMeshData_1a0df9f46821410cf98aa9ebf35988fe9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LoadedMeshData" kindref="compound">MR.LoadedMeshData</ref></type>
+        <definition>unsafe MR.LoadedMeshData MR.LoadedMeshData.assign</definition>
+        <argsstring>(MR._ByValue_LoadedMeshData _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.LoadedMeshData.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_LoadedMeshData</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR::LoadedMeshData::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="389" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="389" bodyend="396"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> and additional information from mesh importer Generated from class <computeroutput><ref refid="classMR_1_1LoadedMeshData" kindref="compound">MR.LoadedMeshData</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.LoadedMeshData</label>
+        <link refid="classMR_1_1LoadedMeshData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_LoadedMeshData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.LoadedMeshData</label>
+        <link refid="classMR_1_1LoadedMeshData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR.Const_LoadedMeshData</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR.Misc.Object</label>
+      </node>
+      <node id="4">
+        <label>System.IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" line="232" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLoadedMeshData.cs" bodystart="233" bodyend="397"/>
+    <listofallmembers>
+      <member refid="classMR_1_1LoadedMeshData_1a0df9f46821410cf98aa9ebf35988fe9b" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>assign</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a1e276d9d441d42f8df73e504ebc87bb5" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>creases</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a0c67c21d9bad821ae6b87f2190fde054" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>duplicatedVertexCount</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1aa16a6e55d93bad85f78b06b3e2badc00" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1af855cef67ee96622c734607dfd487d71" prot="package" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a27fb46dd2c4c31d17c8abb5c8b8f97eb" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a17f2a6b7ae51878ac5b3dc668a371507" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a480a3178bed64c6945aa906d74ed8b38" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a73eb06c4034945c67639c9d97a935c78" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>LoadedMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a36d53f84ac94f92bc9cfe9a8090129d8" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>mesh</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1af56160f2e44c6d881363cc2b9cba0538" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>operator MR.ObjectMeshData</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a833d5615d664a76954339cad537d6584" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>selectedEdges</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1ae47075947227a6f2d26b3e5bf7936eee" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>selectedFaces</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1abee6a705d1c532c1090c251d3f92ed85" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>skippedFaceCount</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1acdc5bc631743b158a971d0f4a4eeb3e7" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>texture</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1ad5696949f587f67d8f2dc63836704177" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>texturePerFace</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1aec69476abfaf9913c960b4d66bf39ea1" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>uvCoordinates</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1a419213c43ec5fcf629801ef31cd98f33" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>vertColors</name></member>
+      <member refid="classMR_1_1LoadedMeshData_1aff7e8e0530101d56e8630955ee69f834" prot="public" virt="non-virtual"><scope>MR::LoadedMeshData</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

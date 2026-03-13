@@ -803,7 +803,9 @@ var hierarchy =
       [ "mrmeshpy.PointMeasurementObject", "classmrmeshpy_1_1PointMeasurementObject.html", null ]
     ] ],
     [ "mrmeshpy.ObjectFactoryBase", "classmrmeshpy_1_1ObjectFactoryBase.html", null ],
-    [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", null ],
+    [ "mrmeshpy.ObjectMeshData", "classmrmeshpy_1_1ObjectMeshData.html", [
+      [ "mrmeshpy.LoadedMeshData", "classmrmeshpy_1_1LoadedMeshData.html", null ]
+    ] ],
     [ "mrmeshpy.ObjectMeshMergeOptions", "classmrmeshpy_1_1ObjectMeshMergeOptions.html", null ],
     [ "mrmeshpy.ObjectSave", "classmrmeshpy_1_1ObjectSave.html", null ],
     [ "mrmeshpy.ObjectSelectivityType", "classmrmeshpy_1_1ObjectSelectivityType.html", null ],

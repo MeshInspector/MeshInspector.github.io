@@ -461,6 +461,7 @@ var group__DataModelGroup =
     [ "MR::makeObjectFromMeshFile", "group__DataModelGroup.html#gadd90fc0dc330a520a6dff51ba956a7f1", null ],
     [ "MR::makeObjectGcodeFromFile", "group__DataModelGroup.html#ga0bb66c4b59655efd884905cf765e7a8a", null ],
     [ "MR::makeObjectLinesFromFile", "group__DataModelGroup.html#gac9dd077808aa46ace7e81ce139b9059a", null ],
+    [ "MR::makeObjectMesh", "group__DataModelGroup.html#ga9a4a18906ca46f6623c37d611df539c3", null ],
     [ "MR::makeObjectMeshFromFile", "group__DataModelGroup.html#gae0171c457a8d377c478e26a0b170456c", null ],
     [ "MR::makeObjectPointsFromFile", "group__DataModelGroup.html#gae9ee60bba4a2913ac489fd27115fdd5b", null ]
 ];

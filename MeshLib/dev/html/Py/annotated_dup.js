@@ -468,6 +468,7 @@ var annotated_dup =
       [ "LinesLoadSettings", "classmrmeshpy_1_1LinesLoadSettings.html", "classmrmeshpy_1_1LinesLoadSettings" ],
       [ "LinesSave", "classmrmeshpy_1_1LinesSave.html", null ],
       [ "LinesVisualizePropertyType", "classmrmeshpy_1_1LinesVisualizePropertyType.html", "classmrmeshpy_1_1LinesVisualizePropertyType" ],
+      [ "LoadedMeshData", "classmrmeshpy_1_1LoadedMeshData.html", "classmrmeshpy_1_1LoadedMeshData" ],
       [ "LoadedObjects", "classmrmeshpy_1_1LoadedObjects.html", "classmrmeshpy_1_1LoadedObjects" ],
       [ "LoadedObjectT", "classmrmeshpy_1_1LoadedObjectT.html", "classmrmeshpy_1_1LoadedObjectT" ],
       [ "LoadedObjectT_ObjectLines", "classmrmeshpy_1_1LoadedObjectT__ObjectLines.html", "classmrmeshpy_1_1LoadedObjectT__ObjectLines" ],
