@@ -3676,17 +3676,9 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="classMR_1a93c701ffcc6efc02cd75b0925eb9c829a9f6fb4ccfeeb31d0a8cd19f5238430fa" prot="public">
-          <name>InvertedNormals</name>
-          <initializer>= 1</initializer>
-          <briefdescription>
-          </briefdescription>
-          <detaileddescription>
-          </detaileddescription>
-        </enumvalue>
         <enumvalue id="classMR_1a93c701ffcc6efc02cd75b0925eb9c829a49ee3087348e8d44e1feda1917443987" prot="public">
           <name>Name</name>
-          <initializer>= 2</initializer>
+          <initializer>= 1</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -3694,7 +3686,7 @@
         </enumvalue>
         <enumvalue id="classMR_1a93c701ffcc6efc02cd75b0925eb9c829a4fd94a9d801d7cb5e1ffacfac690a817" prot="public">
           <name>ClippedByPlane</name>
-          <initializer>= 3</initializer>
+          <initializer>= 2</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -3702,7 +3694,7 @@
         </enumvalue>
         <enumvalue id="classMR_1a93c701ffcc6efc02cd75b0925eb9c829a16704bc95ff0bd3291ba157e6f06e0ee" prot="public">
           <name>DepthTest</name>
-          <initializer>= 4</initializer>
+          <initializer>= 3</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -3710,7 +3702,7 @@
         </enumvalue>
         <enumvalue id="classMR_1a93c701ffcc6efc02cd75b0925eb9c829ae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
           <name>Count</name>
-          <initializer>= 5</initializer>
+          <initializer>= 4</initializer>
           <briefdescription>
           </briefdescription>
           <detaileddescription>
@@ -3722,7 +3714,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="5" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="6" bodyend="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="5" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="6" bodyend="12"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1afdc8eb214c61d43e8ef39575a19d0e29" prot="public" static="no" strong="yes">
         <type>int</type>
@@ -3887,7 +3879,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="532" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="533" bodyend="557"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" line="531" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVisualObject.cs" bodystart="532" bodyend="556"/>
       </memberdef>
       <memberdef kind="enum" id="classMR_1a39258c58105fd8ff811bd0ddb3b28414" prot="public" static="no" strong="yes">
         <type>sbyte</type>

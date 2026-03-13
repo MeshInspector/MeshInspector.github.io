@@ -12820,7 +12820,6 @@
     <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" kind="variable"><name>clipByPlane_</name></member>
     <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" kind="variable"><name>showName_</name></member>
     <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" kind="variable"><name>pickable_</name></member>
-    <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" kind="variable"><name>invertNormals_</name></member>
     <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" kind="variable"><name>depthTest_</name></member>
     <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" kind="variable"><name>shininess_</name></member>
     <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" kind="variable"><name>specularStrength_</name></member>
@@ -17433,7 +17432,6 @@
   </compound>
   <compound refid="MRVisualObject_8h" kind="file"><name>MRVisualObject.h</name>
     <member refid="MRVisualObject_8h_1a53d6f8ccb0015ea020228de41cfd2162" kind="variable"><name>Visibility</name></member>
-    <member refid="MRVisualObject_8h_1a36b2743bd075571aef0402d06dbe8c9d" kind="variable"><name>InvertedNormals</name></member>
     <member refid="MRVisualObject_8h_1aa5998168cabfb2b2e41151349077812c" kind="variable"><name>Name</name></member>
     <member refid="MRVisualObject_8h_1a86e5e23fe8af282d3772b2968223d2bb" kind="variable"><name>ClippedByPlane</name></member>
     <member refid="MRVisualObject_8h_1aab077be49ed8052394a3f5faace8becd" kind="variable"><name>DepthTest</name></member>

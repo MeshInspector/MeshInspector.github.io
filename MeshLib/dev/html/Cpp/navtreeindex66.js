@@ -1,7 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,0,0,2,16,1],
-"structMR_1_1VoxelsLoad_1_1RawParameters.html":[6,0,0,2,16,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,1,0,1,50,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,2,0,2,31,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[6,0,1,0,1,50,0,0],

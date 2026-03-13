@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"classMR_1_1VoxelsLoad_1_1RawParameters.html":[6,3,0,0,0,982,4],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#a2b4d7f21a3f4c1b9ac6c1e0387fec668":[6,3,0,0,0,982,4,5],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#a37cf4ee6cb2c27cad9681a696cad8773":[6,3,0,0,0,982,4,3],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#a3f1d91f9ad394baeb077d4cd628166c3":[6,3,0,0,0,982,4,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "functions_func_c.html":[6,3,0,3,1,2],
 "functions_func_d.html":[6,3,0,3,1,3],
 "functions_func_e.html":[6,3,0,3,1,4],
-"functions_func_f.html":[6,3,0,3,1,5]
+"functions_func_f.html":[6,3,0,3,1,5],
+"functions_func_g.html":[6,3,0,3,1,6]
 };

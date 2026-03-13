@@ -36,7 +36,6 @@ var MRVisualObject_8h =
     ] ],
     [ "MR_VisualizeMaskType", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dc", [
       [ "MR_VisualizeMaskType_Visibility", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcac2e2142adcb677eff42b74a6d1b095db", null ],
-      [ "MR_VisualizeMaskType_InvertedNormals", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcad72ce994554c2f06b20f286cb08193d1", null ],
       [ "MR_VisualizeMaskType_Name", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dca2dcdcdf88c512e6a650c9f8b4ae39fab", null ],
       [ "MR_VisualizeMaskType_ClippedByPlane", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dcade750b071f145f0307d783d9a6cc5cdf", null ],
       [ "MR_VisualizeMaskType_DepthTest", "MRVisualObject_8h.html#a4a32867b7b711b769b23aaa1953109dca91c6ff56f58d56aa0fc6ddc6e64b9d8d", null ],

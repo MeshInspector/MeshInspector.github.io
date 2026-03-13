@@ -250,12 +250,12 @@ var NAVTREEINDEX =
 "MRVector_8h.html#ae60820f881f55736c0a4b82e60eb5508",
 "MRVector_8h.html#af60ae56fae7b0d914784c2884f9bfea5",
 "MRViewportId_8h.html#aba8bdf2be16b009a493851bec04b6746",
-"MRVisualObject_8h.html#a7142a289f10d6db7595e665b86c8371e",
-"MRVolumeSegment_8h.html#ab45a55e16f09ad6da710a64d3eb9ef23",
-"MRVoxelsSave_8h_source.html",
-"MRVoxelsVolume_8h.html#a9a5e53a9a9b72072357e5458bf3e5b8f",
-"MRWeightedPointsShell_8h.html#a238aef2f08f735faf05fd8467634a082",
-"structMR__Matrix2i.html#a9396b99a45aa10d2bce6214d90a85417"
+"MRVisualObject_8h.html#a7184c6bcc8a446659b470ce9676c95bd",
+"MRVolumeSegment_8h.html#ab8a2cbe5a8b40c314a38234145ab6b5f",
+"MRVoxelsVolumeAccess_8h.html",
+"MRVoxelsVolume_8h.html#a9b1d0fe4cb79fa84576e0734868f0c1b",
+"MRWeightedPointsShell_8h.html#a24459438e0568bfce39d2a00ff28dfe2",
+"structMR__Matrix2i64.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

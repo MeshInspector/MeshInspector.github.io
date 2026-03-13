@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="102" column="14" bodyfile="MRMesh/MRVisualObject.h" bodystart="102" bodyend="102"/>
+        <location file="MRMesh/MRVisualObject.h" line="101" column="14" bodyfile="MRMesh/MRVisualObject.h" bodystart="101" bodyend="101"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="103" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="103" bodyend="103"/>
+        <location file="MRMesh/MRVisualObject.h" line="102" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="102" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a6413c49d02f7cf2203142d292b55f311" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="104" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="104" bodyend="104"/>
+        <location file="MRMesh/MRVisualObject.h" line="103" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="103" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a193091023ad909fc52546edecd127232" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="106" column="5"/>
+        <location file="MRMesh/MRVisualObject.h" line="105" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a821f9a5ba85a71d42db99a9fdff0e8b6" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="107" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="107" bodyend="107"/>
+        <location file="MRMesh/MRVisualObject.h" line="106" column="5" bodyfile="MRMesh/MRVisualObject.h" bodystart="106" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a5a46ea8b1d3e585f29a5761d2f2fc21a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type></type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="108" column="5"/>
+        <location file="MRMesh/MRVisualObject.h" line="107" column="5"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a4b00ee48141fd2ae03df7ace8df5ac78" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="109" column="11" bodyfile="MRMesh/MRVisualObject.h" bodystart="109" bodyend="109"/>
+        <location file="MRMesh/MRVisualObject.h" line="108" column="11" bodyfile="MRMesh/MRVisualObject.h" bodystart="108" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a76c3682b5945100a319d092463d942e5" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
@@ -129,7 +129,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="110" column="11"/>
+        <location file="MRMesh/MRVisualObject.h" line="109" column="11"/>
       </memberdef>
       <memberdef kind="function" id="structMR_1_1Dirty_1a3b3cf2d1593909573673d3d7a1d0d17c" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
         <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
@@ -147,7 +147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRMesh/MRVisualObject.h" line="111" column="11" bodyfile="MRMesh/MRVisualObject.h" bodystart="111" bodyend="111"/>
+        <location file="MRMesh/MRVisualObject.h" line="110" column="11" bodyfile="MRMesh/MRVisualObject.h" bodystart="110" bodyend="110"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -155,7 +155,7 @@
     <detaileddescription>
 <para>Marks dirty buffers that need to be uploaded to OpenGL. <ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> flags must be moved together with renderObj_, but not copied since renderObj_ is not copied as well </para>
     </detaileddescription>
-    <location file="MRMesh/MRVisualObject.h" line="100" column="1" bodyfile="MRMesh/MRVisualObject.h" bodystart="101" bodyend="112"/>
+    <location file="MRMesh/MRVisualObject.h" line="99" column="1" bodyfile="MRMesh/MRVisualObject.h" bodystart="100" bodyend="111"/>
     <listofallmembers>
       <member refid="structMR_1_1Dirty_1a193091023ad909fc52546edecd127232" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>Dirty</name></member>
       <member refid="structMR_1_1Dirty_1a821f9a5ba85a71d42db99a9fdff0e8b6" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>Dirty</name></member>

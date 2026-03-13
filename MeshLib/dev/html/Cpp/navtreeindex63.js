@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cone_01_4.html":[6,0,0,20,213],
-"structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4.html":[6,0,0,20,212],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Line_01_4.html":[6,0,0,20,208],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Plane_01_4.html":[6,0,0,20,209],
 "structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Point_01_4.html":[6,0,0,20,207],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "structMR_1_1RelaxParams.html":[6,0,0,20,451],
 "structMR_1_1RemeshSettings.html":[6,0,0,10,3],
 "structMR_1_1RemeshSettings.html#a193b9ba70e3770ddb3e240625ebb00f9":[6,0,0,10,3,1],
-"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,0,10,3,8]
+"structMR_1_1RemeshSettings.html#a22c46bdff64005e21bccd666e13e7f01":[6,0,0,10,3,8],
+"structMR_1_1RemeshSettings.html#a2302742bd2200fd6a5f9e078015705c1":[6,0,0,10,3,9],
+"structMR_1_1RemeshSettings.html#a4742691117b65ee01c742f25180e17a7":[6,0,0,10,3,15]
 };

@@ -33,11 +33,10 @@ var NAVTREEINDEX6 =
 "MRVisualObjectTag_8h.html":[6,0,3,0,9,166],
 "MRVisualObjectTag_8h_source.html":[6,0,3,0,9,166],
 "MRVisualObject_8h.html":[6,0,3,0,5,424],
-"MRVisualObject_8h.html#a36b2743bd075571aef0402d06dbe8c9d":[6,0,3,0,5,424,5],
-"MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162":[6,0,3,0,5,424,7],
+"MRVisualObject_8h.html#a53d6f8ccb0015ea020228de41cfd2162":[6,0,3,0,5,424,6],
 "MRVisualObject_8h.html#a69c4cff6b9a1cd95c71fc56b8dd9a983":[6,0,3,0,5,424,2],
 "MRVisualObject_8h.html#a86e5e23fe8af282d3772b2968223d2bb":[6,0,3,0,5,424,3],
-"MRVisualObject_8h.html#aa5998168cabfb2b2e41151349077812c":[6,0,3,0,5,424,6],
+"MRVisualObject_8h.html#aa5998168cabfb2b2e41151349077812c":[6,0,3,0,5,424,5],
 "MRVisualObject_8h.html#aab077be49ed8052394a3f5faace8becd":[6,0,3,0,5,424,4],
 "MRVisualObject_8h_source.html":[6,0,3,0,5,424],
 "MRVisualSubfeatures_8h.html":[6,0,3,0,9,167],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "classMR_1_1ChangeIsoAction.html#aa092c6c8626b2f08f27c88210a2df02e":[6,0,0,4,45,1],
 "classMR_1_1ChangeIsoAction.html#ac42a58b81acf452e6673fc739cdd14d0":[6,0,0,4,45,2],
 "classMR_1_1ChangeIsoAction.html#ae32cc04931a20fc9ae75cdcabad0b018":[6,0,0,4,45,3],
-"classMR_1_1ChangeLabelAction.html":[6,0,0,20,518]
+"classMR_1_1ChangeLabelAction.html":[6,0,0,20,518],
+"classMR_1_1ChangeLinesColorMapAction.html":[6,0,0,4,2]
 };

@@ -374,7 +374,6 @@
         <childnode refid="8" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -513,7 +512,6 @@
       <member refid="group__GeneralGroup_1ga088b746453f486538f4a92503bb57ad1" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>heapBytes</name></member>
       <member refid="group__GeneralGroup_1ga4195be2ed0948828c7593a815c4ec474" prot="public" virt="virtual"><scope>MR::ObjectMeshHolder</scope><name>invalidateMetricsCache</name></member>
       <member refid="classMR_1_1VisualObject_1a0afddb47790734d5e623060cab2fa9e4" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>invalidateMetricsCache_</name></member>
-      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" virt="non-virtual"><scope>MR::ObjectMeshHolder</scope><name>isGlobalAncillary</name></member>

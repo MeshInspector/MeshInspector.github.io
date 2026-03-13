@@ -100,7 +100,6 @@ var group__VisualObjectGroup =
       [ "coloringType_", "classMR_1_1VisualObject.html#a21eb2d0c923e3ca0544e4cf90782e6b1", null ],
       [ "depthTest_", "classMR_1_1VisualObject.html#a3c81a910d1fdd5c1f1b413c185bf750d", null ],
       [ "globalAlpha_", "classMR_1_1VisualObject.html#a96232055c664463cca20dda327b1c30f", null ],
-      [ "invertNormals_", "classMR_1_1VisualObject.html#af6cd63e72a721fbe39cdff002950bce4", null ],
       [ "pickable_", "classMR_1_1VisualObject.html#a43bcd013faf296110ba8cb4a94bbe12f", null ],
       [ "renderObj_", "classMR_1_1VisualObject.html#ab054b578e5da7a7822d693ec0f61b1e7", null ],
       [ "selectedColor_", "classMR_1_1VisualObject.html#ac75d179334e336af0672bf0d9c997038", null ],

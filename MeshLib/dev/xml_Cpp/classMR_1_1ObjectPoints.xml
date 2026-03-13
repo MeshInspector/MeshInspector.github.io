@@ -176,7 +176,6 @@
         <childnode refid="9" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -279,7 +278,6 @@
       <member refid="group__GeneralGroup_1ga8824c33bac24ff7ace26edef63b2ae39" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>hasVisualRepresentation</name></member>
       <member refid="group__GeneralGroup_1gad5608afd5c7be7e2bc7402119cce44de" prot="public" virt="virtual"><scope>MR::ObjectPoints</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1VisualObject_1a0afddb47790734d5e623060cab2fa9e4" prot="protected" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>invalidateMetricsCache_</name></member>
-      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isAncillary</name></member>
       <member refid="classMR_1_1Object_1a67ca42a9190dd34feda17f5c75fa676c" prot="public" virt="non-virtual"><scope>MR::ObjectPoints</scope><name>isGlobalAncillary</name></member>

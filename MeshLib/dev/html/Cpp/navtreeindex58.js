@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[6,0,0,1,3,0],
-"structMR_1_1AffineXf.html":[6,0,0,0,13],
 "structMR_1_1AffineXf.html":[6,0,0,20,103],
 "structMR_1_1AllLocalTriangulations.html":[6,0,0,20,300],
 "structMR_1_1AncillaryLabel.html":[6,0,0,20,528],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,197,5],
 "structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,178,5],
 "structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,197,0],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,178,0]
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,178,0],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,197,2],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,178,2]
 };

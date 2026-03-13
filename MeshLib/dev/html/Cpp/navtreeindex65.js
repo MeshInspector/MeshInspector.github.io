@@ -1,7 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a97127b609f58b4ac11085781558f55f6":[6,0,2,0,2,28,1,9],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,1,0,1,45,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#ad5edcde965a734c44ce7cb176b8784c2":[6,0,2,0,2,28,1,0],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,1,0,1,45,1,4],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#adaecbf29331f6b90ae2a11acaa0c153a":[6,0,2,0,2,28,1,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX65 =
 "structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,0,20,860],
 "structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,0,20,861],
 "structMR_1_1VoxelsLoad_1_1DicomStatus.html":[6,0,0,20,804],
-"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,0,20,805]
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,0,20,805],
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,0,0,2,16,1],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html":[6,0,0,2,16,0]
 };

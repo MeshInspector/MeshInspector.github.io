@@ -154,7 +154,6 @@
         <childnode refid="9" relation="usage">
           <edgelabel>clipByPlane_</edgelabel>
           <edgelabel>depthTest_</edgelabel>
-          <edgelabel>invertNormals_</edgelabel>
           <edgelabel>pickable_</edgelabel>
           <edgelabel>showName_</edgelabel>
         </childnode>
@@ -255,7 +254,6 @@
       <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>hasVisualRepresentation</name></member>
       <member refid="classMR_1_1VisualObject_1a46e7b1e2f2d00253dfab10bc0ccc0c64" prot="public" virt="virtual"><scope>MR::AngleMeasurementObject</scope><name>heapBytes</name></member>
       <member refid="classMR_1_1VisualObject_1a0afddb47790734d5e623060cab2fa9e4" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>invalidateMetricsCache_</name></member>
-      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>invertNormals_</name></member>
       <member refid="classMR_1_1Object_1a253fd3912bdef96fa071f29d781225a9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncestor</name></member>
       <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isAncillary</name></member>
       <member refid="group__GeneralGroup_1gacfc8f690c3bf3935fb4e3bc132ebd84b" prot="private" virt="non-virtual"><scope>MR::AngleMeasurementObject</scope><name>isConical_</name></member>

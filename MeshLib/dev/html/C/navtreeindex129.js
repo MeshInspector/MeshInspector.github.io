@@ -1,6 +1,5 @@
 var NAVTREEINDEX129 =
 {
-"structMR__Matrix2i.html#a9396b99a45aa10d2bce6214d90a85417":[6,2,0,0,24,1],
 "structMR__Matrix2i64.html":[6,2,0,0,25],
 "structMR__Matrix2i64.html#a4ca30965138a771b30dadaecc00e4850":[6,2,0,0,25,1],
 "structMR__Matrix2i64.html#a8d48e57e824c196f2f9bdf5aaa77153c":[6,2,0,0,25,0],
