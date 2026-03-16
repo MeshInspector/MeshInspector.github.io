@@ -1,5 +1,15 @@
 var NAVTREEINDEX58 =
 {
+"structMR_1_1AABBTreePoints_1_1Node.html#aa7d207477de6241a5d47a8971c2944aa":[6,0,0,1,7,0,5],
+"structMR_1_1AABBTreePoints_1_1Node.html#af8f74a9f0dc8b291dca8ff290c8b45a1":[6,0,0,1,7,0,4],
+"structMR_1_1AABBTreePoints_1_1Point.html":[6,0,0,1,7,1],
+"structMR_1_1AABBTreePoints_1_1Point.html#a14a9b34e597a6b504acd6c3ee97e12be":[6,0,0,1,7,1,0],
+"structMR_1_1AABBTreePoints_1_1Point.html#a75824d74d5ccd55a0440bf75f7d19077":[6,0,0,1,7,1,1],
+"structMR_1_1AABBTreeTraits.html":[6,0,0,1,3],
+"structMR_1_1AABBTreeTraits.html#a0a4c21a59ab274d8edaf4ecf3702bb7a":[6,0,0,1,3,2],
+"structMR_1_1AABBTreeTraits.html#a50bc8c0ccee7f3a7a6f9292ef97447f9":[6,0,0,1,3,1],
+"structMR_1_1AABBTreeTraits.html#af377f5f1d8b11732a56ec00544ed4c2e":[6,0,0,1,3,0],
+"structMR_1_1AffineXf.html":[6,0,0,0,13],
 "structMR_1_1AffineXf.html":[6,0,0,20,103],
 "structMR_1_1AllLocalTriangulations.html":[6,0,0,20,300],
 "structMR_1_1AncillaryLabel.html":[6,0,0,20,528],
@@ -239,15 +249,5 @@ var NAVTREEINDEX58 =
 "structMR_1_1DeloneSettings.html":[6,0,1,0,1,197],
 "structMR_1_1DeloneSettings.html":[6,0,2,0,2,178],
 "structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,1,0,1,197,4],
-"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,2,178,4],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,197,1],
-"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,2,178,1],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,197,3],
-"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,2,178,3],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,197,5],
-"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,178,5],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,197,0],
-"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,178,0],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,197,2],
-"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,178,2]
+"structMR_1_1DeloneSettings.html#a0f1d4b68cf91c9aebfb8f580d7ab6610":[6,0,2,0,2,178,4]
 };

@@ -28,9 +28,14 @@
     <detaileddescription>
 <para>This singleton struct contains default colors for scene objects </para>
     </detaileddescription>
-    <location file="MRMesh/MRSceneColors.h" line="15" column="1" bodyfile="MRMesh/MRSceneColors.h" bodystart="16" bodyend="67"/>
+    <location file="MRMesh/MRSceneColors.h" line="15" column="1" bodyfile="MRMesh/MRSceneColors.h" bodystart="16" bodyend="72"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa9a1cde7d2aa80a2631f4925686757e53" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BackFaces</name></member>
+      <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aacaa8780785f91ee4134c590351b90e00" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BrushAdd</name></member>
+      <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aae3db601d8322c3b769efbacea915ebc5" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BrushDeform</name></member>
+      <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aaea2413e64fc7fa47cbc5d38fa3be22f4" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BrushPatch</name></member>
+      <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa809402fd8548327d78ada6a7fe3874ab" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BrushRemove</name></member>
+      <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa8c1e02635341889b62067b9ab1a5ed22" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>BrushSmooth</name></member>
       <member refid="group__GeneralGroup_1ga8107de14813f5ecbb6e0435763200592" prot="private" virt="non-virtual"><scope>MR::SceneColors</scope><name>colors_</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa6f08361dd2396f9410852f2b3aedb483" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Count</name></member>
       <member refid="group__GeneralGroup_1gga1cacbfc4a30c305f1acb6b5c8d6b3a3aa578fe9b48a17b154dbfd272e206f58d7" prot="public" virt="non-virtual"><scope>MR::SceneColors</scope><name>Edges</name></member>

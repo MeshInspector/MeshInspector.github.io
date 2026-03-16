@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"structMR_1_1HoleEdgePoint.html":[6,0,0,20,591],
+"structMR_1_1HoleFillPlan.html":[6,0,0,9,3,3],
+"structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9":[6,0,0,9,3,3,1],
+"structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370":[6,0,0,9,3,3,0],
+"structMR_1_1ICPGroupPair.html":[6,0,0,20,351],
+"structMR_1_1ICPGroupPairs.html":[6,0,0,20,352],
+"structMR_1_1ICPPairData.html":[6,0,0,20,259],
+"structMR_1_1ICPProperties.html":[6,0,0,20,264],
+"structMR_1_1IConnectable.html":[6,0,0,20,734],
+"structMR_1_1IOFilter.html":[6,0,0,2,6,0],
 "structMR_1_1IOFilter.html#a18838c79f9c4e0c3b96c9c294f66b83b":[6,0,0,2,6,0,2],
 "structMR_1_1IOFilter.html#a54c41ce2b24a4ff3c52cb1bc4b87094a":[6,0,0,2,6,0,1],
 "structMR_1_1IOFilter.html#a5f6f14f66f3758e05a9ca414470b17e3":[6,0,0,2,6,0,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#a9e3d5ac123e9d4946e2528d2e39fc91b":[6,0,2,0,2,7,11,3],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#ae345223a87d4417bf78dfd0a28df08bb":[6,0,1,0,1,16,11,1],
 "structMR_1_1ImGuiMeasurementIndicators_1_1TextColor.html#ae345223a87d4417bf78dfd0a28df08bb":[6,0,2,0,2,7,11,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html":[6,0,1,0,1,16,12],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html":[6,0,2,0,2,7,12],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a47b6424fbecbea19cd78a5e947b9b944":[6,0,1,0,1,16,12,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a47b6424fbecbea19cd78a5e947b9b944":[6,0,2,0,2,7,12,0],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a5a7d4f1938b9ff815a4cdf0ab7a0493b":[6,0,1,0,1,16,12,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html#a5a7d4f1938b9ff815a4cdf0ab7a0493b":[6,0,2,0,2,7,12,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,1,0,1,16,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html":[6,0,2,0,2,7,13],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a0488824dd2e0c5d0496391ffc6bfec38":[6,0,1,0,1,16,13,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a0488824dd2e0c5d0496391ffc6bfec38":[6,0,2,0,2,7,13,1],
-"structMR_1_1ImGuiMeasurementIndicators_1_1TextParams.html#a3ddcb12e9e357887d1e2769769196eed":[6,0,1,0,1,16,13,4]
+"structMR_1_1ImGuiMeasurementIndicators_1_1TextFont.html":[6,0,1,0,1,16,12]
 };

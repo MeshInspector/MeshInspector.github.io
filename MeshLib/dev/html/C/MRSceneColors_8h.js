@@ -34,6 +34,11 @@ var MRSceneColors_8h =
       [ "MR_SceneColors_Type_UnselectedMeasurementsZ", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba88fd3ee7cfd479bc145d5a868438a918", null ],
       [ "MR_SceneColors_Type_SelectedTemporaryMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba489889d4af97e2704ed6a0618855ff78", null ],
       [ "MR_SceneColors_Type_UnselectedTemporaryMeasurements", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba5a87d6cd26182d0a7529a4bc659bfd1b", null ],
+      [ "MR_SceneColors_Type_BrushAdd", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba4957a22f8a0c8cf8df65073157e74a58", null ],
+      [ "MR_SceneColors_Type_BrushRemove", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba44f392ef195d20b770fd0723d471e067", null ],
+      [ "MR_SceneColors_Type_BrushSmooth", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba2543075c30358b2545dd429ee75d9573", null ],
+      [ "MR_SceneColors_Type_BrushDeform", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babacf8cd4f827d1657be6223d8d80aa2dfd", null ],
+      [ "MR_SceneColors_Type_BrushPatch", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763baba1a467dc6c904a8e8ff6aa8303f2155e3", null ],
       [ "MR_SceneColors_Type_Count", "MRSceneColors_8h.html#ac9cef54f15d866a97c8c76928c763babadc15826e12bef994356ac497642a90e0", null ]
     ] ],
     [ "MR_SceneColors_get", "MRSceneColors_8h.html#abd39f578f643bc642549d00d6d83ff94", null ],

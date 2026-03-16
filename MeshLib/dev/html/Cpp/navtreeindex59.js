@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,1,0,1,197,1],
+"structMR_1_1DeloneSettings.html#a2d89f7e52be83dd63ce7daed50c40c90":[6,0,2,0,2,178,1],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,1,0,1,197,3],
+"structMR_1_1DeloneSettings.html#a513ebe0c472b1ac5cdfa1226d4f52e27":[6,0,2,0,2,178,3],
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,1,0,1,197,5],
+"structMR_1_1DeloneSettings.html#a59743925cda5ef4a2b87449e410897e8":[6,0,2,0,2,178,5],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,1,0,1,197,0],
+"structMR_1_1DeloneSettings.html#ac1d8b0d536be2f423ac9a2d1b2bce7d2":[6,0,2,0,2,178,0],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,1,0,1,197,2],
+"structMR_1_1DeloneSettings.html#acc54a4a2c29214632bccda65b6e0cba0":[6,0,2,0,2,178,2],
 "structMR_1_1DenoiseViaNormalsSettings.html":[6,0,0,20,361],
 "structMR_1_1DenseBox.html":[6,0,0,0,15],
 "structMR_1_1DenseBox.html":[6,0,0,20,176],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,3,7,0,1],
 "structMR_1_1Heap_1_1Element.html#a7bd4aa28de0c5142c7149308ec9da563":[6,0,0,20,329,0,1],
 "structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,3,7,0,0],
-"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,20,329,0,0],
-"structMR_1_1HoleEdgePoint.html":[6,0,0,20,591],
-"structMR_1_1HoleFillPlan.html":[6,0,0,9,3,3],
-"structMR_1_1HoleFillPlan.html#a2817520d11bf0f37cbab7e6ef56b38b9":[6,0,0,9,3,3,1],
-"structMR_1_1HoleFillPlan.html#a7c843d95baaaeb4979c70aecb08e6370":[6,0,0,9,3,3,0],
-"structMR_1_1ICPGroupPair.html":[6,0,0,20,351],
-"structMR_1_1ICPGroupPairs.html":[6,0,0,20,352],
-"structMR_1_1ICPPairData.html":[6,0,0,20,259],
-"structMR_1_1ICPProperties.html":[6,0,0,20,264],
-"structMR_1_1IConnectable.html":[6,0,0,20,734],
-"structMR_1_1IOFilter.html":[6,0,0,2,6,0]
+"structMR_1_1Heap_1_1Element.html#af5f2ab7653bc95405d4e20891982a46b":[6,0,0,20,329,0,0]
 };

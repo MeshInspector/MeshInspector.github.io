@@ -1,5 +1,15 @@
 var NAVTREEINDEX66 =
 {
+"structMR_1_1VoxelMetricParameters.html#ae851669e25fee95a2b98a79736a529cf":[6,0,0,17,3,0,3],
+"structMR_1_1VoxelTraits.html":[6,0,0,20,858],
+"structMR_1_1VoxelTraits_3_01FloatGrid_01_4.html":[6,0,0,20,862],
+"structMR_1_1VoxelTraits_3_01Vector_3_01T_00_01VoxelId_01_4_01_4.html":[6,0,0,20,859],
+"structMR_1_1VoxelTraits_3_01VoxelBitSet_01_4.html":[6,0,0,20,860],
+"structMR_1_1VoxelTraits_3_01VoxelValueGetter_3_01T_01_4_01_4.html":[6,0,0,20,861],
+"structMR_1_1VoxelsLoad_1_1DicomStatus.html":[6,0,0,20,804],
+"structMR_1_1VoxelsLoad_1_1DicomVolumeT.html":[6,0,0,20,805],
+"structMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html":[6,0,0,2,16,1],
+"structMR_1_1VoxelsLoad_1_1RawParameters.html":[6,0,0,2,16,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,1,0,1,50,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html":[6,0,2,0,2,31,0],
 "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323":[6,0,1,0,1,50,0,0],
