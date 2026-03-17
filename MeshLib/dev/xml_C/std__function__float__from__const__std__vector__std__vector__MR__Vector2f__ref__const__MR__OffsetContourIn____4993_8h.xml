@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h" kind="file" language="C++">
+    <compoundname>std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h</label>
+        <link refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aeb32a611dfe16b749d1a48b947f5ae6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="24" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="24" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5a23999856e35980fe20bcbcb67f7547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ab19938fdf23e2156d0fd6f0cc44ac3f2" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5e2120169cdbffcdde7ea6f029a79cac" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae933db6853d3e15f4687191ef98fc4e2" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="29" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="29" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5c4649ede49ecee5b9147046b6e63682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *other)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="35" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="35" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ada439ecc786ba042708d0dd7172c9408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignFromAnother</definition>
+        <argsstring>(MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this, MR_PassBy other_pass_by, MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *other)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy</definition>
+        <argsstring>(const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy</name>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ab19938fdf23e2156d0fd6f0cc44ac3f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DestroyArray</definition>
+        <argsstring>(const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae933db6853d3e15f4687191ef98fc4e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetPtr</definition>
+        <argsstring>(const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="51" column="153" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="51" declcolumn="153"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5e2120169cdbffcdde7ea6f029a79cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="55" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="55" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aa790b20c191839ae39e82084a24b89ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_has_value</definition>
+        <argsstring>(const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_has_value</name>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores a callable, as opposed to being null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1af811a0dfb616eb09f35afa443c9904c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_reset</definition>
+        <argsstring>(MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_reset</name>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the stored callable, making this instance null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae75681f4f051f05f96808647721b0b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
+        <definition>MRC_API float MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_call</definition>
+        <argsstring>(const MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this, const MR_std_vector_std_vector_MR_Vector2f *_1, const MR_OffsetContourIndex *_2, const MR_OffsetContoursOrigins *_3)</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_call</name>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref> *</type>
+          <declname>_2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref> *</type>
+          <declname>_3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the stored callable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_2</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_3</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="70" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="70" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a2c85f30d850e6b16ea54d4862fe4fd75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructStateless</definition>
+        <argsstring>(float(*func)(const MR_std_vector_std_vector_MR_Vector2f *_1, const MR_OffsetContourIndex *_2, const MR_OffsetContoursOrigins *_3))</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructStateless</name>
+        <param>
+          <type>float(*)(const <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *_1, const <ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref> *_2, const <ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref> *_3)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="77" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="77" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a98ea7b18bc19409dd7970407e40faf9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Assign</definition>
+        <argsstring>(MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this, float(*func)(const MR_std_vector_std_vector_MR_Vector2f *_1, const MR_OffsetContourIndex *_2, const MR_OffsetContoursOrigins *_3))</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Assign</name>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float(*)(const <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *_1, const <ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref> *_2, const <ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref> *_3)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a stateless function. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6aea677df407586d8987c9b626dab9ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref * MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructEx</definition>
+        <argsstring>(float(*func)(const MR_std_vector_std_vector_MR_Vector2f *_1, const MR_OffsetContourIndex *_2, const MR_OffsetContoursOrigins *_3, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructEx</name>
+        <param>
+          <type>float(*)(const <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *_1, const <ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref> *_2, const <ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref> *_3, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a function with additional state. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="118" column="147" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="118" declcolumn="147"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a026ac2866fa288d0c2a34440554d0fed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignEx</definition>
+        <argsstring>(MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref *_this, float(*func)(const MR_std_vector_std_vector_MR_Vector2f *_1, const MR_OffsetContourIndex *_2, const MR_OffsetContoursOrigins *_3, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignEx</name>
+        <param>
+          <type><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float(*)(const <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *_1, const <ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref> *_2, const <ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref> *_3, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a function with additional state. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h" declline="152" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MROffsetContours.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MROffsetContours.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aeb32a611dfe16b749d1a48b947f5ae6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aeb32a611dfe16b749d1a48b947f5ae6d" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5a23999856e35980fe20bcbcb67f7547" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5a23999856e35980fe20bcbcb67f7547" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5c4649ede49ecee5b9147046b6e63682" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5c4649ede49ecee5b9147046b6e63682" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ada439ecc786ba042708d0dd7172c9408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ada439ecc786ba042708d0dd7172c9408" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignFromAnother</ref>(<ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6eef8b06726c9de48337109ba47d125a" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ab19938fdf23e2156d0fd6f0cc44ac3f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ab19938fdf23e2156d0fd6f0cc44ac3f2" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae933db6853d3e15f4687191ef98fc4e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae933db6853d3e15f4687191ef98fc4e2" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5e2120169cdbffcdde7ea6f029a79cac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a5e2120169cdbffcdde7ea6f029a79cac" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_OffsetMutablePtr</ref>(<ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aa790b20c191839ae39e82084a24b89ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1aa790b20c191839ae39e82084a24b89ed" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1af811a0dfb616eb09f35afa443c9904c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1af811a0dfb616eb09f35afa443c9904c2" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_reset</ref>(<ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae75681f4f051f05f96808647721b0b9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1ae75681f4f051f05f96808647721b0b9b" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/>*_3);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a2c85f30d850e6b16ea54d4862fe4fd75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a2c85f30d850e6b16ea54d4862fe4fd75" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructStateless</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/>*_3));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a98ea7b18bc19409dd7970407e40faf9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a98ea7b18bc19409dd7970407e40faf9d" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_Assign</ref>(<ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/>*_3));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6aea677df407586d8987c9b626dab9ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*<ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a6aea677df407586d8987c9b626dab9ad" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_ConstructEx</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a026ac2866fa288d0c2a34440554d0fed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__float__from__const__std__vector__std__vector__MR__Vector2f__ref__const__MR__OffsetContourIn____4993_8h_1a026ac2866fa288d0c2a34440554d0fed" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref_AssignEx</ref>(<ref refid="MROffsetContours_8h_1a86c80f9482459f931628d471a8a33238" kindref="member">MR_std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIndex_ref_const_MR_OffsetContoursOrigins_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1af0d56146c25bd40be465408cfe9fc8e3" kindref="member">MR_OffsetContourIndex</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROffsetContours_8h_1a09a242786b2ab0acb3cd7b488fe42d7b" kindref="member">MR_OffsetContoursOrigins</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_float_from_const_std_vector_std_vector_MR_Vector2f_ref_const_MR_OffsetContourIn__4993.h"/>
+  </compounddef>
+</doxygen>

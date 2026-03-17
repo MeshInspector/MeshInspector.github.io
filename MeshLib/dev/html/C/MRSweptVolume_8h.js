@@ -1,7 +1,6 @@
 var MRSweptVolume_8h =
 [
     [ "MR_ComputeSweptVolumeParameters", "MRSweptVolume_8h.html#ae366d65098a22096322a7b20b18485a3", null ],
-    [ "MR_expected_MR_Vector3i_std_string", "MRSweptVolume_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a", null ],
     [ "MR_IComputeToolDistance", "MRSweptVolume_8h.html#aff42432999e160e7f7f45b5f2160caf7", null ],
     [ "MR_computeGridBox", "MRSweptVolume_8h.html#acdee4ff61b6249ad7ae236fc9d671330", null ],
     [ "MR_ComputeSweptVolumeParameters_ConstructFrom", "MRSweptVolume_8h.html#aebcf76f489edd3b91dd86660da2e23df", null ],

@@ -3,8 +3,8 @@
   <compounddef id="MRSurfaceDistanceBuilder_8h" kind="file" language="C++">
     <compoundname>MRSurfaceDistanceBuilder.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -15,9 +15,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -29,22 +29,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -56,11 +67,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::VertDistance</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::VertDistance</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="24" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="24" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" prot="public" static="no">
         <type>struct <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref></type>
@@ -70,16 +81,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this class is responsible for iterative construction of distance map along the surface Generated from class <computeroutput>MR::SurfaceDistanceBuilder</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>this class is responsible for iterative construction of distance map along the surface Generated from class <computeroutput>MR::SurfaceDistanceBuilder</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="29" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a3ca0eed7f08fa60f2f1d8d16a812d691" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
         <definition>MRC_API const MR_VertId * MR_VertDistance_Get_vert</definition>
         <argsstring>(const MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_Get_vert</name>
@@ -94,10 +105,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="36" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="36" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="36" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a92b772958722342fc7f1de7db6c95b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VertDistance_Set_vert</definition>
         <argsstring>(MR_VertDistance *_this, MR_VertId value)</argsstring>
         <name>MR_VertDistance_Set_vert</name>
@@ -116,10 +127,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="43" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="43" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a585c698b2683a69f07b4abc7707834a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
         <definition>MRC_API MR_VertId * MR_VertDistance_GetMutable_vert</definition>
         <argsstring>(MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_GetMutable_vert</name>
@@ -134,10 +145,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="50" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="50" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a980a2fe047119159565b61a9f1ffea12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_VertDistance_Get_distance</definition>
         <argsstring>(const MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_Get_distance</name>
@@ -152,10 +163,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="57" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="57" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="57" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="57" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1aae5efd7a0c56ea8b15a1c12c789056df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VertDistance_Set_distance</definition>
         <argsstring>(MR_VertDistance *_this, float value)</argsstring>
         <name>MR_VertDistance_Set_distance</name>
@@ -174,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="63" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="63" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1ae28525778239abec3d4bc3c34dfa856d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_VertDistance_GetMutable_distance</definition>
         <argsstring>(MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_GetMutable_distance</name>
@@ -192,10 +203,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="70" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="70" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="70" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="70" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a76e8064d68fa68fd46b25f28bec17e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_VertDistance_DefaultConstruct</name>
@@ -209,10 +220,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="74" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="74" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="74" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="74" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a3a7c9174bbab76896d52ae82f2b4ded9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_VertDistance_DefaultConstructArray</name>
@@ -227,10 +238,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="79" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="79" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="79" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="79" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a2f145ce2b4622eff463121dc35d67ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API const MR_VertDistance * MR_VertDistance_OffsetPtr</definition>
         <argsstring>(const MR_VertDistance *ptr, ptrdiff_t i)</argsstring>
         <name>MR_VertDistance_OffsetPtr</name>
@@ -249,10 +260,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="83" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="83" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="83" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="83" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a8f2515683d84ad5bd7295a4fec9e1877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_OffsetMutablePtr</definition>
         <argsstring>(MR_VertDistance *ptr, ptrdiff_t i)</argsstring>
         <name>MR_VertDistance_OffsetMutablePtr</name>
@@ -271,10 +282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="87" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="87" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="87" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="87" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a5ddcc7f254249008465670f61f6bb6fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_ConstructFromAnother</definition>
         <argsstring>(const MR_VertDistance *_other)</argsstring>
         <name>MR_VertDistance_ConstructFromAnother</name>
@@ -289,10 +300,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="93" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="93" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="93" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="93" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a22fb39b5cdf9c24469e46b5037c37fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_Construct</definition>
         <argsstring>(MR_VertId v, float d)</argsstring>
         <name>MR_VertDistance_Construct</name>
@@ -311,10 +322,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="98" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="98" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="98" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="98" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a654b35b398eadb6e05bbe5b6ad024e1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VertDistance_Destroy</definition>
         <argsstring>(const MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_Destroy</name>
@@ -329,10 +340,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="101" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a460d8e63bcae4d4dea74cee2370a866f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_VertDistance_DestroyArray</definition>
         <argsstring>(const MR_VertDistance *_this)</argsstring>
         <name>MR_VertDistance_DestroyArray</name>
@@ -347,10 +358,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="104" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1aad6980145779508682e297d31a2e2fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref> *</type>
         <definition>MRC_API MR_VertDistance * MR_VertDistance_AssignFromAnother</definition>
         <argsstring>(MR_VertDistance *_this, const MR_VertDistance *_other)</argsstring>
         <name>MR_VertDistance_AssignFromAnother</name>
@@ -369,10 +380,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="112" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="112" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1acf99680cd852e320d9031be69414c2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_less_MR_VertDistance</definition>
         <argsstring>(const MR_VertDistance *a, const MR_VertDistance *b)</argsstring>
         <name>MR_less_MR_VertDistance</name>
@@ -391,15 +402,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="118" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1adfa2e516065b4aa7fe69bc05d7cfedc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
         <definition>MRC_API MR_SurfaceDistanceBuilder * MR_SurfaceDistanceBuilder_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_SurfaceDistanceBuilder *_other)</argsstring>
         <name>MR_SurfaceDistanceBuilder_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -413,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="123" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="123" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="123" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="123" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1ae47e2dee7d6b5f5b11b09ef2680fb4f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
         <definition>MRC_API const MR_SurfaceDistanceBuilder * MR_SurfaceDistanceBuilder_OffsetPtr</definition>
         <argsstring>(const MR_SurfaceDistanceBuilder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SurfaceDistanceBuilder_OffsetPtr</name>
@@ -435,10 +446,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="127" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="127" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="127" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="127" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a66b42416ecaa56aacea346a06a2e79dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
         <definition>MRC_API MR_SurfaceDistanceBuilder * MR_SurfaceDistanceBuilder_OffsetMutablePtr</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SurfaceDistanceBuilder_OffsetMutablePtr</name>
@@ -457,10 +468,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="131" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="131" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="131" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="131" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1ad027c90406b8610e6092ccd743739add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
         <definition>MRC_API MR_SurfaceDistanceBuilder * MR_SurfaceDistanceBuilder_Construct_2</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_VertBitSet *region)</argsstring>
         <name>MR_SurfaceDistanceBuilder_Construct_2</name>
@@ -479,10 +490,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="138" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="138" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1aa1c73c6a98897f20620d37af30c837cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref> *</type>
         <definition>MRC_API MR_SurfaceDistanceBuilder * MR_SurfaceDistanceBuilder_Construct_3</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_Vector3f *target, const MR_VertBitSet *region)</argsstring>
         <name>MR_SurfaceDistanceBuilder_Construct_3</name>
@@ -505,10 +516,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="147" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="147" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="147" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="147" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1aa781c115fc9426f1cd31b0ffc7841be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_Destroy</definition>
         <argsstring>(const MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_Destroy</name>
@@ -523,10 +534,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="150" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="150" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a894f7dc4b35dcec2649e3e65ee09ecbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_DestroyArray</definition>
         <argsstring>(const MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_DestroyArray</name>
@@ -541,10 +552,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="153" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1ab58cf65f768a2d4960105f48fc269e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_addStartRegion</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this, const MR_VertBitSet *region, float startDistance)</argsstring>
         <name>MR_SurfaceDistanceBuilder_addStartRegion</name>
@@ -567,10 +578,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="159" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="159" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a53e0522c371c5a5e806c57070cc8dad4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_addStartVertices</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this, const MR_phmap_flat_hash_map_MR_VertId_float *startVertices)</argsstring>
         <name>MR_SurfaceDistanceBuilder_addStartVertices</name>
@@ -589,10 +600,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="165" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="165" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a715f015deeb1227fe9733fb9a1e17bcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_addStart</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this, const MR_MeshTriPoint *start)</argsstring>
         <name>MR_SurfaceDistanceBuilder_addStart</name>
@@ -611,10 +622,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="171" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a5a369594526fe4bc6cf192edab1d8d02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SurfaceDistanceBuilder_setMaxVertUpdates</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this, int v)</argsstring>
         <name>MR_SurfaceDistanceBuilder_setMaxVertUpdates</name>
@@ -633,10 +644,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="177" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="177" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a0ec70674d6412513e8008d61c284c453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_SurfaceDistanceBuilder_growOne</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_growOne</name>
@@ -651,10 +662,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="182" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="182" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="182" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="182" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1afaba551cd740629f35a507d191c23cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
         <definition>MRC_API MR_VertScalars * MR_SurfaceDistanceBuilder_takeDistanceMap</definition>
         <argsstring>(MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_takeDistanceMap</name>
@@ -669,10 +680,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="188" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="188" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="188" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="188" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a8f06fc03d4617e504b853df22e4bfb11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_SurfaceDistanceBuilder_done</definition>
         <argsstring>(const MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_done</name>
@@ -687,10 +698,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="193" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="193" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSurfaceDistanceBuilder_8h_1a930104a82a176fcf3c10a29f0e749e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_SurfaceDistanceBuilder_doneDistance</definition>
         <argsstring>(const MR_SurfaceDistanceBuilder *_this)</argsstring>
         <name>MR_SurfaceDistanceBuilder_doneDistance</name>
@@ -705,7 +716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" line="198" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h" declline="198" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" line="198" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h" declline="198" declcolumn="15"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -716,8 +727,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -738,72 +749,72 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRSurfaceDistanceBuilder_8h_1a3ca0eed7f08fa60f2f1d8d16a812d691" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a3ca0eed7f08fa60f2f1d8d16a812d691" kindref="member">MR_VertDistance_Get_vert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36" refid="MRSurfaceDistanceBuilder_8h_1a3ca0eed7f08fa60f2f1d8d16a812d691" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a3ca0eed7f08fa60f2f1d8d16a812d691" kindref="member">MR_VertDistance_Get_vert</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRSurfaceDistanceBuilder_8h_1a92b772958722342fc7f1de7db6c95b55" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a92b772958722342fc7f1de7db6c95b55" kindref="member">MR_VertDistance_Set_vert</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="43" refid="MRSurfaceDistanceBuilder_8h_1a92b772958722342fc7f1de7db6c95b55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a92b772958722342fc7f1de7db6c95b55" kindref="member">MR_VertDistance_Set_vert</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRSurfaceDistanceBuilder_8h_1a585c698b2683a69f07b4abc7707834a4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a585c698b2683a69f07b4abc7707834a4" kindref="member">MR_VertDistance_GetMutable_vert</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRSurfaceDistanceBuilder_8h_1a585c698b2683a69f07b4abc7707834a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a585c698b2683a69f07b4abc7707834a4" kindref="member">MR_VertDistance_GetMutable_vert</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRSurfaceDistanceBuilder_8h_1a980a2fe047119159565b61a9f1ffea12" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a980a2fe047119159565b61a9f1ffea12" kindref="member">MR_VertDistance_Get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57" refid="MRSurfaceDistanceBuilder_8h_1a980a2fe047119159565b61a9f1ffea12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a980a2fe047119159565b61a9f1ffea12" kindref="member">MR_VertDistance_Get_distance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRSurfaceDistanceBuilder_8h_1aae5efd7a0c56ea8b15a1c12c789056df" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1aae5efd7a0c56ea8b15a1c12c789056df" kindref="member">MR_VertDistance_Set_distance</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="63" refid="MRSurfaceDistanceBuilder_8h_1aae5efd7a0c56ea8b15a1c12c789056df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1aae5efd7a0c56ea8b15a1c12c789056df" kindref="member">MR_VertDistance_Set_distance</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRSurfaceDistanceBuilder_8h_1ae28525778239abec3d4bc3c34dfa856d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ae28525778239abec3d4bc3c34dfa856d" kindref="member">MR_VertDistance_GetMutable_distance</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70" refid="MRSurfaceDistanceBuilder_8h_1ae28525778239abec3d4bc3c34dfa856d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ae28525778239abec3d4bc3c34dfa856d" kindref="member">MR_VertDistance_GetMutable_distance</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRSurfaceDistanceBuilder_8h_1a76e8064d68fa68fd46b25f28bec17e29" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a76e8064d68fa68fd46b25f28bec17e29" kindref="member">MR_VertDistance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74" refid="MRSurfaceDistanceBuilder_8h_1a76e8064d68fa68fd46b25f28bec17e29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a76e8064d68fa68fd46b25f28bec17e29" kindref="member">MR_VertDistance_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRSurfaceDistanceBuilder_8h_1a3a7c9174bbab76896d52ae82f2b4ded9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a3a7c9174bbab76896d52ae82f2b4ded9" kindref="member">MR_VertDistance_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="79" refid="MRSurfaceDistanceBuilder_8h_1a3a7c9174bbab76896d52ae82f2b4ded9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a3a7c9174bbab76896d52ae82f2b4ded9" kindref="member">MR_VertDistance_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRSurfaceDistanceBuilder_8h_1a2f145ce2b4622eff463121dc35d67ea7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a2f145ce2b4622eff463121dc35d67ea7" kindref="member">MR_VertDistance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="83" refid="MRSurfaceDistanceBuilder_8h_1a2f145ce2b4622eff463121dc35d67ea7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a2f145ce2b4622eff463121dc35d67ea7" kindref="member">MR_VertDistance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRSurfaceDistanceBuilder_8h_1a8f2515683d84ad5bd7295a4fec9e1877" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a8f2515683d84ad5bd7295a4fec9e1877" kindref="member">MR_VertDistance_OffsetMutablePtr</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="87" refid="MRSurfaceDistanceBuilder_8h_1a8f2515683d84ad5bd7295a4fec9e1877" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a8f2515683d84ad5bd7295a4fec9e1877" kindref="member">MR_VertDistance_OffsetMutablePtr</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRSurfaceDistanceBuilder_8h_1a5ddcc7f254249008465670f61f6bb6fb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a5ddcc7f254249008465670f61f6bb6fb" kindref="member">MR_VertDistance_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="93" refid="MRSurfaceDistanceBuilder_8h_1a5ddcc7f254249008465670f61f6bb6fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a5ddcc7f254249008465670f61f6bb6fb" kindref="member">MR_VertDistance_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRSurfaceDistanceBuilder_8h_1a22fb39b5cdf9c24469e46b5037c37fd4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a22fb39b5cdf9c24469e46b5037c37fd4" kindref="member">MR_VertDistance_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
+<codeline lineno="98" refid="MRSurfaceDistanceBuilder_8h_1a22fb39b5cdf9c24469e46b5037c37fd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a22fb39b5cdf9c24469e46b5037c37fd4" kindref="member">MR_VertDistance_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>d);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRSurfaceDistanceBuilder_8h_1a654b35b398eadb6e05bbe5b6ad024e1d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a654b35b398eadb6e05bbe5b6ad024e1d" kindref="member">MR_VertDistance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101" refid="MRSurfaceDistanceBuilder_8h_1a654b35b398eadb6e05bbe5b6ad024e1d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a654b35b398eadb6e05bbe5b6ad024e1d" kindref="member">MR_VertDistance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRSurfaceDistanceBuilder_8h_1a460d8e63bcae4d4dea74cee2370a866f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a460d8e63bcae4d4dea74cee2370a866f" kindref="member">MR_VertDistance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRSurfaceDistanceBuilder_8h_1a460d8e63bcae4d4dea74cee2370a866f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a460d8e63bcae4d4dea74cee2370a866f" kindref="member">MR_VertDistance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRSurfaceDistanceBuilder_8h_1aad6980145779508682e297d31a2e2fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1aad6980145779508682e297d31a2e2fb5" kindref="member">MR_VertDistance_AssignFromAnother</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="112" refid="MRSurfaceDistanceBuilder_8h_1aad6980145779508682e297d31a2e2fb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1aad6980145779508682e297d31a2e2fb5" kindref="member">MR_VertDistance_AssignFromAnother</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRSurfaceDistanceBuilder_8h_1acf99680cd852e320d9031be69414c2b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1acf99680cd852e320d9031be69414c2b2" kindref="member">MR_less_MR_VertDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="118" refid="MRSurfaceDistanceBuilder_8h_1acf99680cd852e320d9031be69414c2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1acf99680cd852e320d9031be69414c2b2" kindref="member">MR_less_MR_VertDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a33ea51b92cca6cac01baf4aa7a78e24a" kindref="member">MR_VertDistance</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRSurfaceDistanceBuilder_8h_1adfa2e516065b4aa7fe69bc05d7cfedc9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1adfa2e516065b4aa7fe69bc05d7cfedc9" kindref="member">MR_SurfaceDistanceBuilder_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="123" refid="MRSurfaceDistanceBuilder_8h_1adfa2e516065b4aa7fe69bc05d7cfedc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1adfa2e516065b4aa7fe69bc05d7cfedc9" kindref="member">MR_SurfaceDistanceBuilder_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRSurfaceDistanceBuilder_8h_1ae47e2dee7d6b5f5b11b09ef2680fb4f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ae47e2dee7d6b5f5b11b09ef2680fb4f1" kindref="member">MR_SurfaceDistanceBuilder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127" refid="MRSurfaceDistanceBuilder_8h_1ae47e2dee7d6b5f5b11b09ef2680fb4f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ae47e2dee7d6b5f5b11b09ef2680fb4f1" kindref="member">MR_SurfaceDistanceBuilder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRSurfaceDistanceBuilder_8h_1a66b42416ecaa56aacea346a06a2e79dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a66b42416ecaa56aacea346a06a2e79dc" kindref="member">MR_SurfaceDistanceBuilder_OffsetMutablePtr</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131" refid="MRSurfaceDistanceBuilder_8h_1a66b42416ecaa56aacea346a06a2e79dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1a66b42416ecaa56aacea346a06a2e79dc" kindref="member">MR_SurfaceDistanceBuilder_OffsetMutablePtr</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRSurfaceDistanceBuilder_8h_1ad027c90406b8610e6092ccd743739add" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ad027c90406b8610e6092ccd743739add" kindref="member">MR_SurfaceDistanceBuilder_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="138" refid="MRSurfaceDistanceBuilder_8h_1ad027c90406b8610e6092ccd743739add" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1ad027c90406b8610e6092ccd743739add" kindref="member">MR_SurfaceDistanceBuilder_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRSurfaceDistanceBuilder_8h_1aa1c73c6a98897f20620d37af30c837cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1aa1c73c6a98897f20620d37af30c837cb" kindref="member">MR_SurfaceDistanceBuilder_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="147" refid="MRSurfaceDistanceBuilder_8h_1aa1c73c6a98897f20620d37af30c837cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1aa1c73c6a98897f20620d37af30c837cb" kindref="member">MR_SurfaceDistanceBuilder_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*target,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRSurfaceDistanceBuilder_8h_1aa781c115fc9426f1cd31b0ffc7841be2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1aa781c115fc9426f1cd31b0ffc7841be2" kindref="member">MR_SurfaceDistanceBuilder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150" refid="MRSurfaceDistanceBuilder_8h_1aa781c115fc9426f1cd31b0ffc7841be2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1aa781c115fc9426f1cd31b0ffc7841be2" kindref="member">MR_SurfaceDistanceBuilder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRSurfaceDistanceBuilder_8h_1a894f7dc4b35dcec2649e3e65ee09ecbe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a894f7dc4b35dcec2649e3e65ee09ecbe" kindref="member">MR_SurfaceDistanceBuilder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRSurfaceDistanceBuilder_8h_1a894f7dc4b35dcec2649e3e65ee09ecbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a894f7dc4b35dcec2649e3e65ee09ecbe" kindref="member">MR_SurfaceDistanceBuilder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRSurfaceDistanceBuilder_8h_1ab58cf65f768a2d4960105f48fc269e71" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1ab58cf65f768a2d4960105f48fc269e71" kindref="member">MR_SurfaceDistanceBuilder_addStartRegion</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>startDistance);</highlight></codeline>
+<codeline lineno="159" refid="MRSurfaceDistanceBuilder_8h_1ab58cf65f768a2d4960105f48fc269e71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1ab58cf65f768a2d4960105f48fc269e71" kindref="member">MR_SurfaceDistanceBuilder_addStartRegion</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>startDistance);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRSurfaceDistanceBuilder_8h_1a53e0522c371c5a5e806c57070cc8dad4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a53e0522c371c5a5e806c57070cc8dad4" kindref="member">MR_SurfaceDistanceBuilder_addStartVertices</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistance_8h_1ae608d193970b2c92c351593c86ca1075" kindref="member">MR_phmap_flat_hash_map_MR_VertId_float</ref><sp/>*startVertices);</highlight></codeline>
+<codeline lineno="165" refid="MRSurfaceDistanceBuilder_8h_1a53e0522c371c5a5e806c57070cc8dad4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a53e0522c371c5a5e806c57070cc8dad4" kindref="member">MR_SurfaceDistanceBuilder_addStartVertices</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistance_8h_1ae608d193970b2c92c351593c86ca1075" kindref="member">MR_phmap_flat_hash_map_MR_VertId_float</ref><sp/>*startVertices);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRSurfaceDistanceBuilder_8h_1a715f015deeb1227fe9733fb9a1e17bcd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a715f015deeb1227fe9733fb9a1e17bcd" kindref="member">MR_SurfaceDistanceBuilder_addStart</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start);</highlight></codeline>
+<codeline lineno="171" refid="MRSurfaceDistanceBuilder_8h_1a715f015deeb1227fe9733fb9a1e17bcd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a715f015deeb1227fe9733fb9a1e17bcd" kindref="member">MR_SurfaceDistanceBuilder_addStart</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*start);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRSurfaceDistanceBuilder_8h_1a5a369594526fe4bc6cf192edab1d8d02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a5a369594526fe4bc6cf192edab1d8d02" kindref="member">MR_SurfaceDistanceBuilder_setMaxVertUpdates</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
+<codeline lineno="177" refid="MRSurfaceDistanceBuilder_8h_1a5a369594526fe4bc6cf192edab1d8d02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a5a369594526fe4bc6cf192edab1d8d02" kindref="member">MR_SurfaceDistanceBuilder_setMaxVertUpdates</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRSurfaceDistanceBuilder_8h_1a0ec70674d6412513e8008d61c284c453" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a0ec70674d6412513e8008d61c284c453" kindref="member">MR_SurfaceDistanceBuilder_growOne</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182" refid="MRSurfaceDistanceBuilder_8h_1a0ec70674d6412513e8008d61c284c453" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a0ec70674d6412513e8008d61c284c453" kindref="member">MR_SurfaceDistanceBuilder_growOne</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRSurfaceDistanceBuilder_8h_1afaba551cd740629f35a507d191c23cdf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1afaba551cd740629f35a507d191c23cdf" kindref="member">MR_SurfaceDistanceBuilder_takeDistanceMap</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188" refid="MRSurfaceDistanceBuilder_8h_1afaba551cd740629f35a507d191c23cdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRSurfaceDistanceBuilder_8h_1afaba551cd740629f35a507d191c23cdf" kindref="member">MR_SurfaceDistanceBuilder_takeDistanceMap</ref>(<ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRSurfaceDistanceBuilder_8h_1a8f06fc03d4617e504b853df22e4bfb11" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a8f06fc03d4617e504b853df22e4bfb11" kindref="member">MR_SurfaceDistanceBuilder_done</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="193" refid="MRSurfaceDistanceBuilder_8h_1a8f06fc03d4617e504b853df22e4bfb11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a8f06fc03d4617e504b853df22e4bfb11" kindref="member">MR_SurfaceDistanceBuilder_done</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRSurfaceDistanceBuilder_8h_1a930104a82a176fcf3c10a29f0e749e9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a930104a82a176fcf3c10a29f0e749e9e" kindref="member">MR_SurfaceDistanceBuilder_doneDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198" refid="MRSurfaceDistanceBuilder_8h_1a930104a82a176fcf3c10a29f0e749e9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a930104a82a176fcf3c10a29f0e749e9e" kindref="member">MR_SurfaceDistanceBuilder_doneDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSurfaceDistanceBuilder_8h_1a1d0a59dcbf14d2c46eb7f09430511c2f" kindref="member">MR_SurfaceDistanceBuilder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="201"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurfaceDistanceBuilder.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurfaceDistanceBuilder.h"/>
   </compounddef>
 </doxygen>

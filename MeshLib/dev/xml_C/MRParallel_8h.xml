@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRParallel_8h" kind="file" language="C++">
     <compoundname>MRParallel.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -29,11 +30,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::Parallel::CallSimply</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::Parallel::CallSimply</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="14" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="14" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" prot="public" static="no">
         <type>struct <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref></type>
@@ -43,16 +44,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::Parallel::CallSimplyMaker</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::Parallel::CallSimplyMaker</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="18" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="18" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimply_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Parallel_CallSimply_DefaultConstruct</name>
@@ -66,10 +67,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="22" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="22" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="22" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="22" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a2e6394d7577c95102bdbf4910331093b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimply_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Parallel_CallSimply_DefaultConstructArray</name>
@@ -84,10 +85,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="27" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="27" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="27" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="27" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a99bf0eccfd71b13e5574712c7c35512d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API const MR_Parallel_CallSimply * MR_Parallel_CallSimply_OffsetPtr</definition>
         <argsstring>(const MR_Parallel_CallSimply *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parallel_CallSimply_OffsetPtr</name>
@@ -106,10 +107,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="31" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="31" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="31" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="31" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1af4831092ab870f7c0ca35e00c7ef139c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimply_OffsetMutablePtr</definition>
         <argsstring>(MR_Parallel_CallSimply *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parallel_CallSimply_OffsetMutablePtr</name>
@@ -128,10 +129,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="35" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="35" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="35" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="35" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a2a9c7ca22a6e050612c46748694a10a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimply_ConstructFromAnother</definition>
         <argsstring>(const MR_Parallel_CallSimply *_other)</argsstring>
         <name>MR_Parallel_CallSimply_ConstructFromAnother</name>
@@ -146,10 +147,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="41" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="41" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="41" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="41" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1ad2cc991dfe81561e42441119f8da1034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parallel_CallSimply_Destroy</definition>
         <argsstring>(const MR_Parallel_CallSimply *_this)</argsstring>
         <name>MR_Parallel_CallSimply_Destroy</name>
@@ -164,10 +165,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="44" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a079ccd7fa1da4292b05f64a16b6ce237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parallel_CallSimply_DestroyArray</definition>
         <argsstring>(const MR_Parallel_CallSimply *_this)</argsstring>
         <name>MR_Parallel_CallSimply_DestroyArray</name>
@@ -182,10 +183,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="47" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a527e8ce7177a6717d6a4c2d660d3e0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimply_AssignFromAnother</definition>
         <argsstring>(MR_Parallel_CallSimply *_this, const MR_Parallel_CallSimply *_other)</argsstring>
         <name>MR_Parallel_CallSimply_AssignFromAnother</name>
@@ -204,10 +205,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="55" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="55" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="55" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="55" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a3edc190c58628a154b989bb22ef3ab1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_DefaultConstruct</name>
@@ -221,10 +222,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="59" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="59" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="59" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="59" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1ac60a12ad8bb2321aecc115c15674fe22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_DefaultConstructArray</name>
@@ -239,10 +240,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="64" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="64" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="64" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="64" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a7acb16970c846c933f0cea2876687f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API const MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_OffsetPtr</definition>
         <argsstring>(const MR_Parallel_CallSimplyMaker *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_OffsetPtr</name>
@@ -261,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="68" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="68" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="68" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="68" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1af1e5598746928f14d96e6dee5b981bff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_OffsetMutablePtr</definition>
         <argsstring>(MR_Parallel_CallSimplyMaker *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_OffsetMutablePtr</name>
@@ -283,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="72" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="72" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="72" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="72" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a2ebe383d32fbc0a8d6c545c3bbb7b55d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_ConstructFromAnother</definition>
         <argsstring>(const MR_Parallel_CallSimplyMaker *_other)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_ConstructFromAnother</name>
@@ -301,10 +302,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="78" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="78" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="78" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="78" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1adb4c3fbf1e664dd726dd47c0a82653e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parallel_CallSimplyMaker_Destroy</definition>
         <argsstring>(const MR_Parallel_CallSimplyMaker *_this)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_Destroy</name>
@@ -319,10 +320,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1abcab9ec955fed2d417197a18f25c4015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parallel_CallSimplyMaker_DestroyArray</definition>
         <argsstring>(const MR_Parallel_CallSimplyMaker *_this)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_DestroyArray</name>
@@ -337,10 +338,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="84" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="84" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a1ceda0f8226278986da8c6b0ed5a9afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimplyMaker * MR_Parallel_CallSimplyMaker_AssignFromAnother</definition>
         <argsstring>(MR_Parallel_CallSimplyMaker *_this, const MR_Parallel_CallSimplyMaker *_other)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_AssignFromAnother</name>
@@ -359,10 +360,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="92" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="92" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="92" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="92" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRParallel_8h_1a2ef21117adff2937017e9196c562714b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref> *</type>
         <definition>MRC_API MR_Parallel_CallSimply * MR_Parallel_CallSimplyMaker_call</definition>
         <argsstring>(const MR_Parallel_CallSimplyMaker *_this)</argsstring>
         <name>MR_Parallel_CallSimplyMaker_call</name>
@@ -377,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h" declline="97" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h" declline="97" declcolumn="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -387,7 +388,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -400,44 +401,44 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18" refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref>;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" kindref="member">MR_Parallel_CallSimply_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22" refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1aeb28a1fa9fe44bbce06e306215fd1a02" kindref="member">MR_Parallel_CallSimply_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRParallel_8h_1a2e6394d7577c95102bdbf4910331093b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2e6394d7577c95102bdbf4910331093b" kindref="member">MR_Parallel_CallSimply_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27" refid="MRParallel_8h_1a2e6394d7577c95102bdbf4910331093b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2e6394d7577c95102bdbf4910331093b" kindref="member">MR_Parallel_CallSimply_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRParallel_8h_1a99bf0eccfd71b13e5574712c7c35512d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a99bf0eccfd71b13e5574712c7c35512d" kindref="member">MR_Parallel_CallSimply_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="31" refid="MRParallel_8h_1a99bf0eccfd71b13e5574712c7c35512d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a99bf0eccfd71b13e5574712c7c35512d" kindref="member">MR_Parallel_CallSimply_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRParallel_8h_1af4831092ab870f7c0ca35e00c7ef139c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1af4831092ab870f7c0ca35e00c7ef139c" kindref="member">MR_Parallel_CallSimply_OffsetMutablePtr</ref>(<ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="35" refid="MRParallel_8h_1af4831092ab870f7c0ca35e00c7ef139c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1af4831092ab870f7c0ca35e00c7ef139c" kindref="member">MR_Parallel_CallSimply_OffsetMutablePtr</ref>(<ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRParallel_8h_1a2a9c7ca22a6e050612c46748694a10a0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2a9c7ca22a6e050612c46748694a10a0" kindref="member">MR_Parallel_CallSimply_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="41" refid="MRParallel_8h_1a2a9c7ca22a6e050612c46748694a10a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2a9c7ca22a6e050612c46748694a10a0" kindref="member">MR_Parallel_CallSimply_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRParallel_8h_1ad2cc991dfe81561e42441119f8da1034" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1ad2cc991dfe81561e42441119f8da1034" kindref="member">MR_Parallel_CallSimply_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRParallel_8h_1ad2cc991dfe81561e42441119f8da1034" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1ad2cc991dfe81561e42441119f8da1034" kindref="member">MR_Parallel_CallSimply_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRParallel_8h_1a079ccd7fa1da4292b05f64a16b6ce237" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a079ccd7fa1da4292b05f64a16b6ce237" kindref="member">MR_Parallel_CallSimply_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRParallel_8h_1a079ccd7fa1da4292b05f64a16b6ce237" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a079ccd7fa1da4292b05f64a16b6ce237" kindref="member">MR_Parallel_CallSimply_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRParallel_8h_1a527e8ce7177a6717d6a4c2d660d3e0f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a527e8ce7177a6717d6a4c2d660d3e0f6" kindref="member">MR_Parallel_CallSimply_AssignFromAnother</ref>(<ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="55" refid="MRParallel_8h_1a527e8ce7177a6717d6a4c2d660d3e0f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a527e8ce7177a6717d6a4c2d660d3e0f6" kindref="member">MR_Parallel_CallSimply_AssignFromAnother</ref>(<ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRParallel_8h_1a3edc190c58628a154b989bb22ef3ab1b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a3edc190c58628a154b989bb22ef3ab1b" kindref="member">MR_Parallel_CallSimplyMaker_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59" refid="MRParallel_8h_1a3edc190c58628a154b989bb22ef3ab1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a3edc190c58628a154b989bb22ef3ab1b" kindref="member">MR_Parallel_CallSimplyMaker_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRParallel_8h_1ac60a12ad8bb2321aecc115c15674fe22" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1ac60a12ad8bb2321aecc115c15674fe22" kindref="member">MR_Parallel_CallSimplyMaker_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="64" refid="MRParallel_8h_1ac60a12ad8bb2321aecc115c15674fe22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1ac60a12ad8bb2321aecc115c15674fe22" kindref="member">MR_Parallel_CallSimplyMaker_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRParallel_8h_1a7acb16970c846c933f0cea2876687f62" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a7acb16970c846c933f0cea2876687f62" kindref="member">MR_Parallel_CallSimplyMaker_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="68" refid="MRParallel_8h_1a7acb16970c846c933f0cea2876687f62" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a7acb16970c846c933f0cea2876687f62" kindref="member">MR_Parallel_CallSimplyMaker_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRParallel_8h_1af1e5598746928f14d96e6dee5b981bff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1af1e5598746928f14d96e6dee5b981bff" kindref="member">MR_Parallel_CallSimplyMaker_OffsetMutablePtr</ref>(<ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="72" refid="MRParallel_8h_1af1e5598746928f14d96e6dee5b981bff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1af1e5598746928f14d96e6dee5b981bff" kindref="member">MR_Parallel_CallSimplyMaker_OffsetMutablePtr</ref>(<ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRParallel_8h_1a2ebe383d32fbc0a8d6c545c3bbb7b55d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a2ebe383d32fbc0a8d6c545c3bbb7b55d" kindref="member">MR_Parallel_CallSimplyMaker_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="78" refid="MRParallel_8h_1a2ebe383d32fbc0a8d6c545c3bbb7b55d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a2ebe383d32fbc0a8d6c545c3bbb7b55d" kindref="member">MR_Parallel_CallSimplyMaker_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRParallel_8h_1adb4c3fbf1e664dd726dd47c0a82653e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adb4c3fbf1e664dd726dd47c0a82653e4" kindref="member">MR_Parallel_CallSimplyMaker_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRParallel_8h_1adb4c3fbf1e664dd726dd47c0a82653e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adb4c3fbf1e664dd726dd47c0a82653e4" kindref="member">MR_Parallel_CallSimplyMaker_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRParallel_8h_1abcab9ec955fed2d417197a18f25c4015" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1abcab9ec955fed2d417197a18f25c4015" kindref="member">MR_Parallel_CallSimplyMaker_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84" refid="MRParallel_8h_1abcab9ec955fed2d417197a18f25c4015" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1abcab9ec955fed2d417197a18f25c4015" kindref="member">MR_Parallel_CallSimplyMaker_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRParallel_8h_1a1ceda0f8226278986da8c6b0ed5a9afc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a1ceda0f8226278986da8c6b0ed5a9afc" kindref="member">MR_Parallel_CallSimplyMaker_AssignFromAnother</ref>(<ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="92" refid="MRParallel_8h_1a1ceda0f8226278986da8c6b0ed5a9afc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*<ref refid="MRParallel_8h_1a1ceda0f8226278986da8c6b0ed5a9afc" kindref="member">MR_Parallel_CallSimplyMaker_AssignFromAnother</ref>(<ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRParallel_8h_1a2ef21117adff2937017e9196c562714b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2ef21117adff2937017e9196c562714b" kindref="member">MR_Parallel_CallSimplyMaker_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97" refid="MRParallel_8h_1a2ef21117adff2937017e9196c562714b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRParallel_8h_1a97a7e0a3da69d2df705a2dd147fc13ab" kindref="member">MR_Parallel_CallSimply</ref><sp/>*<ref refid="MRParallel_8h_1a2ef21117adff2937017e9196c562714b" kindref="member">MR_Parallel_CallSimplyMaker_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRParallel_8h_1adf42f93152718038e9965e4cea919d17" kindref="member">MR_Parallel_CallSimplyMaker</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParallel.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParallel.h"/>
   </compounddef>
 </doxygen>

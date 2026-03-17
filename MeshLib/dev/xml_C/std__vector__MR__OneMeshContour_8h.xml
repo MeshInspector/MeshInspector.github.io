@@ -1,0 +1,1659 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__OneMeshContour_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_OneMeshContour.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_OneMeshContour.h</label>
+        <link refid="std__vector__MR__OneMeshContour_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_OneMeshContour_const_iterator MR_std_vector_MR_OneMeshContour_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="22" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_OneMeshContour_iterator MR_std_vector_MR_OneMeshContour_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="26" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a9244fb05f6c4b68e3274bae5b8625da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="30" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="30" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a45580737bf5457e63961034b92446234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1ab941b2bddd97e3d88306a0ca6303e1d2" kindref="member">MR_std_vector_MR_OneMeshContour_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aa021e728cd41b1e1dd5df2bb86c617ea" kindref="member">MR_std_vector_MR_OneMeshContour_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a3dc7fdd3a1f71d9e2cef62a5670fc0dd" kindref="member">MR_std_vector_MR_OneMeshContour_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="35" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="35" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1abf158ed0e63064fe8384f716cc147889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_OneMeshContour *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="41" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="41" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ae1f6c020b88226be65d3c2aed744d78d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, MR_PassBy other_pass_by, MR_std_vector_MR_OneMeshContour *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_Destroy</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ab941b2bddd97e3d88306a0ca6303e1d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a3dc7fdd3a1f71d9e2cef62a5670fc0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="57" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="57" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aa021e728cd41b1e1dd5df2bb86c617ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="61" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="61" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a15e2b2df11353bfa4734863687f043c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_OneMeshContour_size</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_size</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1af55736ec7aae404d0042a2445979f550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_OneMeshContour_empty</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_empty</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a9538806756a5e771e19ead1adb9d675e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_resize</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_resize</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a69e4141ed6affe8f7748d7a8538c5842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t new_size, const MR_OneMeshContour *value)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ad107487376967bd8a04b352f0ca6a9ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_clear</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_clear</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a93a13333b8ded19c5c722b5e3b2da207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_OneMeshContour_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_capacity</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1acda16fab933eaa1dce6c503f0b74df5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_reserve</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_reserve</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a3f2d73c8a2d2892e96c7c2c98982bb49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1abdce8a209f404f2219865b1f365eaa9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API const MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_at</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_at</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="101" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="101" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a49c43e4d47f9a7a80cb4e1adc424c60e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_at_mut</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="107" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="107" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a19ddbf4d4fff802d029e25f4e5e7eef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API const MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_front</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_front</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="112" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="112" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ab6bfb32779075403b00c2f14aebf0962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_front_mut</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="117" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="117" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a30e82517961b7eeeb7b106381ef9c168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API const MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_back</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_back</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="122" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="122" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ae5f379a258feaf790cd5b5c675b4dd2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_back_mut</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="127" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="127" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1af7443d62857fb3d3c53606bfd33a95da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_push_back</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, MR_PassBy new_elem_pass_by, MR_OneMeshContour *new_elem)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_push_back</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a429ed710db5a1ee35e8baf0623727ec7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_pop_back</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a1d86ced0f1176d879578f46159dd60f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_insert</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t position, MR_PassBy new_elem_pass_by, MR_OneMeshContour *new_elem)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_insert</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aef134aceed4f3e7620d8e24185eb5ba6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_erase</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_erase</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1abcf4e370cc95399fce25fcc77ade48f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_iterator *position, MR_PassBy new_elem_pass_by, MR_OneMeshContour *new_elem)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a44cb4a65cb92f4d473aa37dc7d15e299" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a7aaa2cd8d0d027f79c31248ec17b55e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *position, MR_PassBy new_elem_pass_by, MR_OneMeshContour *new_elem)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a52ae3486348f9809d42c7885323f7120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a0805d702200e584d10c41a96453bd01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_begin</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_begin</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="173" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="173" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a0d4d7eede7e90c7701e94f02ad345390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_OneMeshContour_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_is_begin</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a6b37669777ef358b9ba7e6216627e809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_begin_mut</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="184" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="184" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a79ffc94a8a5e89ebdcab417af16376ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_OneMeshContour_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aa50bbfc69d7789dc67b459c4951bb0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_end</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_end</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="195" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="195" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a09e5f1f14a14758660babc37ed8ac137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_OneMeshContour_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_is_end</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a6cdd763e32e31b133ab20be0372975ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_end_mut</name>
+        <param>
+          <type><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="206" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="206" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a4bd5202e0a2476e1bf1e595d0802d689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_OneMeshContour_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a18915f2a31297414452aa6bdedfaa8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_OneMeshContour_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_to_index</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a79cf58a5ba5aa713ebf292df2e05f5e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_OneMeshContour_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour *_this, const MR_std_vector_MR_OneMeshContour_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a72c3f6af483aa17f5fc741dc35b1781b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="225" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="225" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1afeb2c74336c967a5c494fe7922131286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a7f5f4fa28e4b4e27e6fad7a8161eb343" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a9ef360917035877a0ebb7cb1bed1c5b6" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a1f03500f1ed997f10f35ffa6b8140643" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="230" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="230" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aa75999458b1ec67b7069a41e7fb711b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="237" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="237" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a40e1031764758bbfe62db5f795542cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_const_iterator *_this, const MR_std_vector_MR_OneMeshContour_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a7f5f4fa28e4b4e27e6fad7a8161eb343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a1f03500f1ed997f10f35ffa6b8140643" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="254" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="254" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a9ef360917035877a0ebb7cb1bed1c5b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="258" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="258" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ac7948b1b20a8666f3e973efcef21b68b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_const_iterator * MR_std_vector_MR_OneMeshContour_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="263" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="263" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a73053414b4ad03e123bc59cfd9aebc7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="267" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="267" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1acdfa01cebef592f602a0d6eeeceb0fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a0d8650a5141bc58ea212569d62f719e1" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a483b290f0e5a5e3ec2f60f99121a47e5" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a840a355804547e6c5373ccdb158966cd" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="272" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="272" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a1db9a326b7b893449154ab7be7a6fd95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="279" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="279" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a32233ee5cd4d3ecc7aa5ddb47eb7d441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_iterator *_this, const MR_std_vector_MR_OneMeshContour_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a0d8650a5141bc58ea212569d62f719e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a840a355804547e6c5373ccdb158966cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="296" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="296" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a483b290f0e5a5e3ec2f60f99121a47e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_OneMeshContour_iterator * MR_std_vector_MR_OneMeshContour_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="300" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="300" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a439fab355e13d5a0ae41045cee001490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API const MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="306" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="306" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a01eec9d3069bf292f8400bafefe91f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a42d7271d179c697190104641b9d6a6c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a23c7f304e42632924e54643b45adf740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a6fce4f629aa918492f9e9dd0dc44bf57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_OneMeshContour_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *a, const MR_std_vector_MR_OneMeshContour_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_OneMeshContour_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1af67fb21162987fa5070fef9ce90cb982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_OneMeshContour_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_const_iterator *a, const MR_std_vector_MR_OneMeshContour_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_OneMeshContour_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a9abf55463a3fcd4911c17735f9229cd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref> *</type>
+        <definition>MRC_API MR_OneMeshContour * MR_std_vector_MR_OneMeshContour_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="334" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="334" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a96c6773a239b5137346399350ec90ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1aec63be0b5486f4c2596971f87c53896f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a001768cf04dc150ead4172d67f6b9129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_OneMeshContour_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_OneMeshContour_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_OneMeshContour_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1ac126673ca75139c64966b1cfeb367a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_OneMeshContour_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *a, const MR_std_vector_MR_OneMeshContour_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_OneMeshContour_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__OneMeshContour_8h_1a8dd42069fb9f98a808cabc126a377c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_OneMeshContour_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_OneMeshContour_iterator *a, const MR_std_vector_MR_OneMeshContour_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_OneMeshContour_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MROneMeshContours.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__OneMeshContour_8h_1a9244fb05f6c4b68e3274bae5b8625da7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a9244fb05f6c4b68e3274bae5b8625da7" kindref="member">MR_std_vector_MR_OneMeshContour_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__OneMeshContour_8h_1a45580737bf5457e63961034b92446234" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a45580737bf5457e63961034b92446234" kindref="member">MR_std_vector_MR_OneMeshContour_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__OneMeshContour_8h_1abf158ed0e63064fe8384f716cc147889" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1abf158ed0e63064fe8384f716cc147889" kindref="member">MR_std_vector_MR_OneMeshContour_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__OneMeshContour_8h_1ae1f6c020b88226be65d3c2aed744d78d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1ae1f6c020b88226be65d3c2aed744d78d" kindref="member">MR_std_vector_MR_OneMeshContour_AssignFromAnother</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a47df2effb5c8b10df6ecc6d9d656e6e6" kindref="member">MR_std_vector_MR_OneMeshContour_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__OneMeshContour_8h_1ab941b2bddd97e3d88306a0ca6303e1d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1ab941b2bddd97e3d88306a0ca6303e1d2" kindref="member">MR_std_vector_MR_OneMeshContour_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__OneMeshContour_8h_1a3dc7fdd3a1f71d9e2cef62a5670fc0dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a3dc7fdd3a1f71d9e2cef62a5670fc0dd" kindref="member">MR_std_vector_MR_OneMeshContour_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__OneMeshContour_8h_1aa021e728cd41b1e1dd5df2bb86c617ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1aa021e728cd41b1e1dd5df2bb86c617ea" kindref="member">MR_std_vector_MR_OneMeshContour_OffsetMutablePtr</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__OneMeshContour_8h_1a15e2b2df11353bfa4734863687f043c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a15e2b2df11353bfa4734863687f043c3" kindref="member">MR_std_vector_MR_OneMeshContour_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__OneMeshContour_8h_1af55736ec7aae404d0042a2445979f550" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1af55736ec7aae404d0042a2445979f550" kindref="member">MR_std_vector_MR_OneMeshContour_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__OneMeshContour_8h_1a9538806756a5e771e19ead1adb9d675e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a9538806756a5e771e19ead1adb9d675e" kindref="member">MR_std_vector_MR_OneMeshContour_resize</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__OneMeshContour_8h_1a69e4141ed6affe8f7748d7a8538c5842" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a69e4141ed6affe8f7748d7a8538c5842" kindref="member">MR_std_vector_MR_OneMeshContour_resize_with_default_value</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__OneMeshContour_8h_1ad107487376967bd8a04b352f0ca6a9ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1ad107487376967bd8a04b352f0ca6a9ba" kindref="member">MR_std_vector_MR_OneMeshContour_clear</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__OneMeshContour_8h_1a93a13333b8ded19c5c722b5e3b2da207" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a93a13333b8ded19c5c722b5e3b2da207" kindref="member">MR_std_vector_MR_OneMeshContour_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__OneMeshContour_8h_1acda16fab933eaa1dce6c503f0b74df5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1acda16fab933eaa1dce6c503f0b74df5e" kindref="member">MR_std_vector_MR_OneMeshContour_reserve</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__OneMeshContour_8h_1a3f2d73c8a2d2892e96c7c2c98982bb49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3f2d73c8a2d2892e96c7c2c98982bb49" kindref="member">MR_std_vector_MR_OneMeshContour_shrink_to_fit</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__OneMeshContour_8h_1abdce8a209f404f2219865b1f365eaa9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1abdce8a209f404f2219865b1f365eaa9d" kindref="member">MR_std_vector_MR_OneMeshContour_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__OneMeshContour_8h_1a49c43e4d47f9a7a80cb4e1adc424c60e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a49c43e4d47f9a7a80cb4e1adc424c60e" kindref="member">MR_std_vector_MR_OneMeshContour_at_mut</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__OneMeshContour_8h_1a19ddbf4d4fff802d029e25f4e5e7eef7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a19ddbf4d4fff802d029e25f4e5e7eef7" kindref="member">MR_std_vector_MR_OneMeshContour_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__OneMeshContour_8h_1ab6bfb32779075403b00c2f14aebf0962" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1ab6bfb32779075403b00c2f14aebf0962" kindref="member">MR_std_vector_MR_OneMeshContour_front_mut</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__OneMeshContour_8h_1a30e82517961b7eeeb7b106381ef9c168" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a30e82517961b7eeeb7b106381ef9c168" kindref="member">MR_std_vector_MR_OneMeshContour_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__OneMeshContour_8h_1ae5f379a258feaf790cd5b5c675b4dd2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1ae5f379a258feaf790cd5b5c675b4dd2d" kindref="member">MR_std_vector_MR_OneMeshContour_back_mut</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__OneMeshContour_8h_1af7443d62857fb3d3c53606bfd33a95da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1af7443d62857fb3d3c53606bfd33a95da" kindref="member">MR_std_vector_MR_OneMeshContour_push_back</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__OneMeshContour_8h_1a429ed710db5a1ee35e8baf0623727ec7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a429ed710db5a1ee35e8baf0623727ec7" kindref="member">MR_std_vector_MR_OneMeshContour_pop_back</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__OneMeshContour_8h_1a1d86ced0f1176d879578f46159dd60f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a1d86ced0f1176d879578f46159dd60f5" kindref="member">MR_std_vector_MR_OneMeshContour_insert</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__OneMeshContour_8h_1aef134aceed4f3e7620d8e24185eb5ba6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1aef134aceed4f3e7620d8e24185eb5ba6" kindref="member">MR_std_vector_MR_OneMeshContour_erase</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__OneMeshContour_8h_1abcf4e370cc95399fce25fcc77ade48f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1abcf4e370cc95399fce25fcc77ade48f8" kindref="member">MR_std_vector_MR_OneMeshContour_insert_at_mutable_iter</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__OneMeshContour_8h_1a44cb4a65cb92f4d473aa37dc7d15e299" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a44cb4a65cb92f4d473aa37dc7d15e299" kindref="member">MR_std_vector_MR_OneMeshContour_erase_at_mutable_iter</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__OneMeshContour_8h_1a7aaa2cd8d0d027f79c31248ec17b55e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a7aaa2cd8d0d027f79c31248ec17b55e4" kindref="member">MR_std_vector_MR_OneMeshContour_insert_at_iter</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__OneMeshContour_8h_1a52ae3486348f9809d42c7885323f7120" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a52ae3486348f9809d42c7885323f7120" kindref="member">MR_std_vector_MR_OneMeshContour_erase_at_iter</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__OneMeshContour_8h_1a0805d702200e584d10c41a96453bd01c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a0805d702200e584d10c41a96453bd01c" kindref="member">MR_std_vector_MR_OneMeshContour_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__OneMeshContour_8h_1a0d4d7eede7e90c7701e94f02ad345390" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a0d4d7eede7e90c7701e94f02ad345390" kindref="member">MR_std_vector_MR_OneMeshContour_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__OneMeshContour_8h_1a6b37669777ef358b9ba7e6216627e809" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a6b37669777ef358b9ba7e6216627e809" kindref="member">MR_std_vector_MR_OneMeshContour_begin_mut</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__OneMeshContour_8h_1a79ffc94a8a5e89ebdcab417af16376ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a79ffc94a8a5e89ebdcab417af16376ef" kindref="member">MR_std_vector_MR_OneMeshContour_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__OneMeshContour_8h_1aa50bbfc69d7789dc67b459c4951bb0f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1aa50bbfc69d7789dc67b459c4951bb0f2" kindref="member">MR_std_vector_MR_OneMeshContour_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__OneMeshContour_8h_1a09e5f1f14a14758660babc37ed8ac137" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a09e5f1f14a14758660babc37ed8ac137" kindref="member">MR_std_vector_MR_OneMeshContour_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__OneMeshContour_8h_1a6cdd763e32e31b133ab20be0372975ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a6cdd763e32e31b133ab20be0372975ee" kindref="member">MR_std_vector_MR_OneMeshContour_end_mut</ref>(<ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__OneMeshContour_8h_1a4bd5202e0a2476e1bf1e595d0802d689" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a4bd5202e0a2476e1bf1e595d0802d689" kindref="member">MR_std_vector_MR_OneMeshContour_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__OneMeshContour_8h_1a18915f2a31297414452aa6bdedfaa8ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a18915f2a31297414452aa6bdedfaa8ec" kindref="member">MR_std_vector_MR_OneMeshContour_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__OneMeshContour_8h_1a79cf58a5ba5aa713ebf292df2e05f5e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a79cf58a5ba5aa713ebf292df2e05f5e2" kindref="member">MR_std_vector_MR_OneMeshContour_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContoursCut_8h_1a071da9f0f67109f51758510529ba0b5b" kindref="member">MR_std_vector_MR_OneMeshContour</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__OneMeshContour_8h_1a72c3f6af483aa17f5fc741dc35b1781b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a72c3f6af483aa17f5fc741dc35b1781b" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__OneMeshContour_8h_1afeb2c74336c967a5c494fe7922131286" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1afeb2c74336c967a5c494fe7922131286" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__OneMeshContour_8h_1aa75999458b1ec67b7069a41e7fb711b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1aa75999458b1ec67b7069a41e7fb711b3" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__OneMeshContour_8h_1a40e1031764758bbfe62db5f795542cd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a40e1031764758bbfe62db5f795542cd6" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1aebd794edb294664803216337b4b5c58e" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__OneMeshContour_8h_1a7f5f4fa28e4b4e27e6fad7a8161eb343" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a7f5f4fa28e4b4e27e6fad7a8161eb343" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__OneMeshContour_8h_1a1f03500f1ed997f10f35ffa6b8140643" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a1f03500f1ed997f10f35ffa6b8140643" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__OneMeshContour_8h_1a9ef360917035877a0ebb7cb1bed1c5b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a9ef360917035877a0ebb7cb1bed1c5b6" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__OneMeshContour_8h_1ac7948b1b20a8666f3e973efcef21b68b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1ac7948b1b20a8666f3e973efcef21b68b" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__OneMeshContour_8h_1a73053414b4ad03e123bc59cfd9aebc7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a73053414b4ad03e123bc59cfd9aebc7b" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__OneMeshContour_8h_1acdfa01cebef592f602a0d6eeeceb0fab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1acdfa01cebef592f602a0d6eeeceb0fab" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__OneMeshContour_8h_1a1db9a326b7b893449154ab7be7a6fd95" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a1db9a326b7b893449154ab7be7a6fd95" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__OneMeshContour_8h_1a32233ee5cd4d3ecc7aa5ddb47eb7d441" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a32233ee5cd4d3ecc7aa5ddb47eb7d441" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a6fa5bbf16e5be95dff3496f4426943f9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__OneMeshContour_8h_1a0d8650a5141bc58ea212569d62f719e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a0d8650a5141bc58ea212569d62f719e1" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__OneMeshContour_8h_1a840a355804547e6c5373ccdb158966cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a840a355804547e6c5373ccdb158966cd" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__OneMeshContour_8h_1a483b290f0e5a5e3ec2f60f99121a47e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a483b290f0e5a5e3ec2f60f99121a47e5" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__OneMeshContour_8h_1a439fab355e13d5a0ae41045cee001490" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a439fab355e13d5a0ae41045cee001490" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__OneMeshContour_8h_1a01eec9d3069bf292f8400bafefe91f20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a01eec9d3069bf292f8400bafefe91f20" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_incr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__OneMeshContour_8h_1a42d7271d179c697190104641b9d6a6c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a42d7271d179c697190104641b9d6a6c1" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_decr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__OneMeshContour_8h_1a23c7f304e42632924e54643b45adf740" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a23c7f304e42632924e54643b45adf740" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__OneMeshContour_8h_1a6fce4f629aa918492f9e9dd0dc44bf57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a6fce4f629aa918492f9e9dd0dc44bf57" kindref="member">MR_sub_MR_std_vector_MR_OneMeshContour_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__OneMeshContour_8h_1af67fb21162987fa5070fef9ce90cb982" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1af67fb21162987fa5070fef9ce90cb982" kindref="member">MR_equal_MR_std_vector_MR_OneMeshContour_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a3eb36673de4b492c8806f8613000c4c2" kindref="member">MR_std_vector_MR_OneMeshContour_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__OneMeshContour_8h_1a9abf55463a3fcd4911c17735f9229cd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MROneMeshContours_8h_1acf48f2f428c5411d09902dcb7f6e7135" kindref="member">MR_OneMeshContour</ref><sp/>*<ref refid="std__vector__MR__OneMeshContour_8h_1a9abf55463a3fcd4911c17735f9229cd9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__OneMeshContour_8h_1a96c6773a239b5137346399350ec90ea9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a96c6773a239b5137346399350ec90ea9" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_incr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__OneMeshContour_8h_1aec63be0b5486f4c2596971f87c53896f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1aec63be0b5486f4c2596971f87c53896f" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_decr</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__OneMeshContour_8h_1a001768cf04dc150ead4172d67f6b9129" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a001768cf04dc150ead4172d67f6b9129" kindref="member">MR_std_vector_MR_OneMeshContour_iterator_add_assign</ref>(<ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__OneMeshContour_8h_1ac126673ca75139c64966b1cfeb367a3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__OneMeshContour_8h_1ac126673ca75139c64966b1cfeb367a3b" kindref="member">MR_sub_MR_std_vector_MR_OneMeshContour_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__OneMeshContour_8h_1a8dd42069fb9f98a808cabc126a377c45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a8dd42069fb9f98a808cabc126a377c45" kindref="member">MR_equal_MR_std_vector_MR_OneMeshContour_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OneMeshContour_8h_1a5aea0b4c6675987c3b0ead5239598b68" kindref="member">MR_std_vector_MR_OneMeshContour_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_OneMeshContour.h"/>
+  </compounddef>
+</doxygen>

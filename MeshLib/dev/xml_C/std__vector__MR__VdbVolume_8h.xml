@@ -1,0 +1,1659 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__VdbVolume_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_VdbVolume.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_VdbVolume.h</label>
+        <link refid="std__vector__MR__VdbVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_VdbVolume_const_iterator MR_std_vector_MR_VdbVolume_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="22" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_VdbVolume_iterator MR_std_vector_MR_VdbVolume_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="26" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a9275ceb4f2bd25cac24f0aa8af77df65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume * MR_std_vector_MR_VdbVolume_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a72aff2b03dd72e23d895a82a6c3ecb2f" kindref="member">MR_std_vector_MR_VdbVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="30" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="30" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a3007cce0930d21855afc85012d878f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume * MR_std_vector_MR_VdbVolume_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a0c00afd22ab12f9c32ec040afc6ca53f" kindref="member">MR_std_vector_MR_VdbVolume_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1ae8b395dd60c459ab4579469f06a62a54" kindref="member">MR_std_vector_MR_VdbVolume_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a18dd198924ac2717d75cf49675dabfa1" kindref="member">MR_std_vector_MR_VdbVolume_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="35" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="35" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ae20948d3a87155825c167386db2ec3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume * MR_std_vector_MR_VdbVolume_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_VdbVolume *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a72aff2b03dd72e23d895a82a6c3ecb2f" kindref="member">MR_std_vector_MR_VdbVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="41" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="41" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a3332201eaf6cf94f43b0a9895da5f500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, MR_PassBy other_pass_by, MR_std_vector_MR_VdbVolume *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_AssignFromAnother</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a72aff2b03dd72e23d895a82a6c3ecb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_Destroy</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0c00afd22ab12f9c32ec040afc6ca53f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_DestroyArray</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a18dd198924ac2717d75cf49675dabfa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VdbVolume * MR_std_vector_MR_VdbVolume_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="57" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="57" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ae8b395dd60c459ab4579469f06a62a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume * MR_std_vector_MR_VdbVolume_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="61" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="61" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ab6c1ee3eb514f38ae5a6cddb77fc4c11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VdbVolume_size</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_size</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a22e3d98423d2dc6e101cfec5252152bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VdbVolume_empty</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_empty</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a6662d4965efeccbd9c35a25908bf53d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_resize</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_resize</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1acd1992562b1269a266b5166036867229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t new_size, const MR_VdbVolume *value)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_resize_with_default_value</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a86ebb100760c0a57319744fcc2412c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_clear</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_clear</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a84bdd8f5fef18c04acdf07dcd9dc9d2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VdbVolume_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_capacity</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a464fba38c0224a7bbfeafa5598d7a096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_reserve</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_reserve</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a4b21b4ac91e93d8bfb414c931c05d98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_shrink_to_fit</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a664f519f063b168fd72e288412f465cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API const MR_VdbVolume * MR_std_vector_MR_VdbVolume_at</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_at</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="101" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="101" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a59c8c9dd03656050ad4b918d2f799625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_VdbVolume * MR_std_vector_MR_VdbVolume_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_at_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="107" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="107" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ab8db278d021ac4b1623275387262db27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API const MR_VdbVolume * MR_std_vector_MR_VdbVolume_front</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_front</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="112" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="112" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a1040b0b4f30c1dcb0ed834fbcdbe1013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_VdbVolume * MR_std_vector_MR_VdbVolume_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_front_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="117" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="117" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ad16e1b81304d937ef6075c30b71119e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API const MR_VdbVolume * MR_std_vector_MR_VdbVolume_back</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_back</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="122" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="122" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a3b097cbf8985c196e3cab84e9606359c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_VdbVolume * MR_std_vector_MR_VdbVolume_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_back_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="127" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="127" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a4c5effc3a0a2867aa0413d9261181619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_push_back</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, MR_PassBy new_elem_pass_by, MR_VdbVolume *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_push_back</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1aecc41781fe2e08eed5634365268f52e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_pop_back</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a18570e773a2c60132e1e99fbd6d2a030" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_insert</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t position, MR_PassBy new_elem_pass_by, MR_VdbVolume *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_insert</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ae531b7b65b1a20071233969782f92de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_erase</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_erase</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a910abb3915fc7f27a0997f5d1e401a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_iterator *position, MR_PassBy new_elem_pass_by, MR_VdbVolume *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="151" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="151" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a21e5892ccd2717b3b195a5d7f7a7f424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1aafa7a930abf3cdf8d698789dd3d938d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_const_iterator *position, MR_PassBy new_elem_pass_by, MR_VdbVolume *new_elem)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_insert_at_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>new_elem_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1aa64eb2e4567ae0a3a8686b33ad0f51b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_erase_at_iter</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1aacca2467d0e8770198a07a4e44c60d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_begin</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="173" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="173" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a282dae751b3d71749856285e7e77b9b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VdbVolume_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_is_begin</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a00ac5f11525d2541a41b63f5a1fbeb7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_begin_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" kindref="member">MR_std_vector_MR_VdbVolume_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="184" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="184" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1abf0d0df2a24d87f03a0f23c383a58195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VdbVolume_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ad6550343fbe27f785c0c289f0f45569b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_end</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_end</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="195" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="195" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a2929555e38aa4fffa66147c45c856bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VdbVolume_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_is_end</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1afa0ac14047b98a4d26b6614005fe0f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_end_mut</name>
+        <param>
+          <type><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" kindref="member">MR_std_vector_MR_VdbVolume_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="206" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="206" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a2a071a0a7620d34aa8460af4690f6e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VdbVolume_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_is_end_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a7dccbdb3611cf8bc7651887ae74fd516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VdbVolume_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_to_index</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a4a344a19e5bc363ed38d08fc51247e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VdbVolume_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume *_this, const MR_std_vector_MR_VdbVolume_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_to_index_mut</name>
+        <param>
+          <type>const <ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0af8cd28ee3c28a17dfad1adfe913e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="225" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="225" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0b06342ea44b28f55d872ac46c27c582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a5496cbca34476c3d3243d9a2e4e90f07" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1ab8d6f9e037a8f214353859d09e8bedeb" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a5601054c5397fd97153a1d25f16984ba" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="230" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="230" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ad3059bb618fd1508e1d298edded8f09c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="237" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="237" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a5097e8f1235377c39c297c72a0327ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_const_iterator *_this, const MR_std_vector_MR_VdbVolume_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a5496cbca34476c3d3243d9a2e4e90f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a5601054c5397fd97153a1d25f16984ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="254" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="254" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ab8d6f9e037a8f214353859d09e8bedeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="258" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="258" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a31bf44e4b85545445a8dcd8f7e8197e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_const_iterator * MR_std_vector_MR_VdbVolume_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="263" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="263" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a37a5be2e35ce5362855fc6d7e7faacf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" kindref="member">MR_std_vector_MR_VdbVolume_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="267" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="267" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a234daba910423fb291e3e28ede357452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a4d552b39d43cd2e2b0c2621237f1e3d0" kindref="member">MR_std_vector_MR_VdbVolume_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a0c567c3f932e8ec6356fc5fcd05e97cb" kindref="member">MR_std_vector_MR_VdbVolume_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a38eeeecc9a52686c242d6212f6aeeeb9" kindref="member">MR_std_vector_MR_VdbVolume_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="272" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="272" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1aa43bb31847d15d8844ac38a47de54537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" kindref="member">MR_std_vector_MR_VdbVolume_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="279" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="279" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0053efb1ead65190462150fbb4e0c59b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_iterator *_this, const MR_std_vector_MR_VdbVolume_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a4d552b39d43cd2e2b0c2621237f1e3d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a38eeeecc9a52686c242d6212f6aeeeb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="296" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="296" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0c567c3f932e8ec6356fc5fcd05e97cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VdbVolume_iterator * MR_std_vector_MR_VdbVolume_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="300" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="300" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ab59897a5d7f22079dcb5a59f6ca49db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API const MR_VdbVolume * MR_std_vector_MR_VdbVolume_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="306" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="306" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0271fc90a7e9fc403f4d97c8b9e8b0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a0087b7ebd88179697aae19c1143be408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a7ea42384d3697d0c10e498931409bf13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a37c550ea32b1c6d0f03778c58ddc4aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VdbVolume_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *a, const MR_std_vector_MR_VdbVolume_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VdbVolume_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1ae1a8d5d04044469cc31c1d9d0effe3f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VdbVolume_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_const_iterator *a, const MR_std_vector_MR_VdbVolume_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VdbVolume_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a7b06190f72fbe5855674a314563be1fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref> *</type>
+        <definition>MRC_API MR_VdbVolume * MR_std_vector_MR_VdbVolume_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="334" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="334" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1af8a7727adad63ba02b672eb7597766a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a304e3cec06e17f6624f27e3d46b08710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a946481794b6f859243ad38fd8ff3f0c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VdbVolume_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VdbVolume_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VdbVolume_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a037fc33739e3c340b69f58843a3724c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VdbVolume_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *a, const MR_std_vector_MR_VdbVolume_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VdbVolume_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VdbVolume_8h_1a6de0570636d2fdb556e3f773b53e5062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VdbVolume_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VdbVolume_iterator *a, const MR_std_vector_MR_VdbVolume_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VdbVolume_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__VdbVolume_8h_1a9275ceb4f2bd25cac24f0aa8af77df65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a9275ceb4f2bd25cac24f0aa8af77df65" kindref="member">MR_std_vector_MR_VdbVolume_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__VdbVolume_8h_1a3007cce0930d21855afc85012d878f2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a3007cce0930d21855afc85012d878f2c" kindref="member">MR_std_vector_MR_VdbVolume_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__VdbVolume_8h_1ae20948d3a87155825c167386db2ec3bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ae20948d3a87155825c167386db2ec3bd" kindref="member">MR_std_vector_MR_VdbVolume_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__VdbVolume_8h_1a3332201eaf6cf94f43b0a9895da5f500" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a3332201eaf6cf94f43b0a9895da5f500" kindref="member">MR_std_vector_MR_VdbVolume_AssignFromAnother</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__VdbVolume_8h_1a72aff2b03dd72e23d895a82a6c3ecb2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a72aff2b03dd72e23d895a82a6c3ecb2f" kindref="member">MR_std_vector_MR_VdbVolume_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__VdbVolume_8h_1a0c00afd22ab12f9c32ec040afc6ca53f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a0c00afd22ab12f9c32ec040afc6ca53f" kindref="member">MR_std_vector_MR_VdbVolume_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__VdbVolume_8h_1a18dd198924ac2717d75cf49675dabfa1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a18dd198924ac2717d75cf49675dabfa1" kindref="member">MR_std_vector_MR_VdbVolume_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__VdbVolume_8h_1ae8b395dd60c459ab4579469f06a62a54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ae8b395dd60c459ab4579469f06a62a54" kindref="member">MR_std_vector_MR_VdbVolume_OffsetMutablePtr</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__VdbVolume_8h_1ab6c1ee3eb514f38ae5a6cddb77fc4c11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1ab6c1ee3eb514f38ae5a6cddb77fc4c11" kindref="member">MR_std_vector_MR_VdbVolume_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__VdbVolume_8h_1a22e3d98423d2dc6e101cfec5252152bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a22e3d98423d2dc6e101cfec5252152bc" kindref="member">MR_std_vector_MR_VdbVolume_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__VdbVolume_8h_1a6662d4965efeccbd9c35a25908bf53d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a6662d4965efeccbd9c35a25908bf53d1" kindref="member">MR_std_vector_MR_VdbVolume_resize</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__VdbVolume_8h_1acd1992562b1269a266b5166036867229" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1acd1992562b1269a266b5166036867229" kindref="member">MR_std_vector_MR_VdbVolume_resize_with_default_value</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__VdbVolume_8h_1a86ebb100760c0a57319744fcc2412c44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a86ebb100760c0a57319744fcc2412c44" kindref="member">MR_std_vector_MR_VdbVolume_clear</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__VdbVolume_8h_1a84bdd8f5fef18c04acdf07dcd9dc9d2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a84bdd8f5fef18c04acdf07dcd9dc9d2c" kindref="member">MR_std_vector_MR_VdbVolume_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__VdbVolume_8h_1a464fba38c0224a7bbfeafa5598d7a096" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a464fba38c0224a7bbfeafa5598d7a096" kindref="member">MR_std_vector_MR_VdbVolume_reserve</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__VdbVolume_8h_1a4b21b4ac91e93d8bfb414c931c05d98a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a4b21b4ac91e93d8bfb414c931c05d98a" kindref="member">MR_std_vector_MR_VdbVolume_shrink_to_fit</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__VdbVolume_8h_1a664f519f063b168fd72e288412f465cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a664f519f063b168fd72e288412f465cb" kindref="member">MR_std_vector_MR_VdbVolume_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__VdbVolume_8h_1a59c8c9dd03656050ad4b918d2f799625" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a59c8c9dd03656050ad4b918d2f799625" kindref="member">MR_std_vector_MR_VdbVolume_at_mut</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__VdbVolume_8h_1ab8db278d021ac4b1623275387262db27" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ab8db278d021ac4b1623275387262db27" kindref="member">MR_std_vector_MR_VdbVolume_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__VdbVolume_8h_1a1040b0b4f30c1dcb0ed834fbcdbe1013" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a1040b0b4f30c1dcb0ed834fbcdbe1013" kindref="member">MR_std_vector_MR_VdbVolume_front_mut</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__VdbVolume_8h_1ad16e1b81304d937ef6075c30b71119e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ad16e1b81304d937ef6075c30b71119e6" kindref="member">MR_std_vector_MR_VdbVolume_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__VdbVolume_8h_1a3b097cbf8985c196e3cab84e9606359c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a3b097cbf8985c196e3cab84e9606359c" kindref="member">MR_std_vector_MR_VdbVolume_back_mut</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__MR__VdbVolume_8h_1a4c5effc3a0a2867aa0413d9261181619" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a4c5effc3a0a2867aa0413d9261181619" kindref="member">MR_std_vector_MR_VdbVolume_push_back</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__vector__MR__VdbVolume_8h_1aecc41781fe2e08eed5634365268f52e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1aecc41781fe2e08eed5634365268f52e7" kindref="member">MR_std_vector_MR_VdbVolume_pop_back</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="std__vector__MR__VdbVolume_8h_1a18570e773a2c60132e1e99fbd6d2a030" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a18570e773a2c60132e1e99fbd6d2a030" kindref="member">MR_std_vector_MR_VdbVolume_insert</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="std__vector__MR__VdbVolume_8h_1ae531b7b65b1a20071233969782f92de7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1ae531b7b65b1a20071233969782f92de7" kindref="member">MR_std_vector_MR_VdbVolume_erase</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="std__vector__MR__VdbVolume_8h_1a910abb3915fc7f27a0997f5d1e401a90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a910abb3915fc7f27a0997f5d1e401a90" kindref="member">MR_std_vector_MR_VdbVolume_insert_at_mutable_iter</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__vector__MR__VdbVolume_8h_1a21e5892ccd2717b3b195a5d7f7a7f424" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a21e5892ccd2717b3b195a5d7f7a7f424" kindref="member">MR_std_vector_MR_VdbVolume_erase_at_mutable_iter</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__VdbVolume_8h_1aafa7a930abf3cdf8d698789dd3d938d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1aafa7a930abf3cdf8d698789dd3d938d0" kindref="member">MR_std_vector_MR_VdbVolume_insert_at_iter</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*position,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>new_elem_pass_by,<sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__VdbVolume_8h_1aa64eb2e4567ae0a3a8686b33ad0f51b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1aa64eb2e4567ae0a3a8686b33ad0f51b0" kindref="member">MR_std_vector_MR_VdbVolume_erase_at_iter</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__VdbVolume_8h_1aacca2467d0e8770198a07a4e44c60d4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1aacca2467d0e8770198a07a4e44c60d4b" kindref="member">MR_std_vector_MR_VdbVolume_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__VdbVolume_8h_1a282dae751b3d71749856285e7e77b9b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a282dae751b3d71749856285e7e77b9b8" kindref="member">MR_std_vector_MR_VdbVolume_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__VdbVolume_8h_1a00ac5f11525d2541a41b63f5a1fbeb7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a00ac5f11525d2541a41b63f5a1fbeb7e" kindref="member">MR_std_vector_MR_VdbVolume_begin_mut</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__VdbVolume_8h_1abf0d0df2a24d87f03a0f23c383a58195" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1abf0d0df2a24d87f03a0f23c383a58195" kindref="member">MR_std_vector_MR_VdbVolume_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__VdbVolume_8h_1ad6550343fbe27f785c0c289f0f45569b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ad6550343fbe27f785c0c289f0f45569b" kindref="member">MR_std_vector_MR_VdbVolume_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__VdbVolume_8h_1a2929555e38aa4fffa66147c45c856bcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a2929555e38aa4fffa66147c45c856bcc" kindref="member">MR_std_vector_MR_VdbVolume_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__VdbVolume_8h_1afa0ac14047b98a4d26b6614005fe0f0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1afa0ac14047b98a4d26b6614005fe0f0d" kindref="member">MR_std_vector_MR_VdbVolume_end_mut</ref>(<ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__VdbVolume_8h_1a2a071a0a7620d34aa8460af4690f6e67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a2a071a0a7620d34aa8460af4690f6e67" kindref="member">MR_std_vector_MR_VdbVolume_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__VdbVolume_8h_1a7dccbdb3611cf8bc7651887ae74fd516" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VdbVolume_8h_1a7dccbdb3611cf8bc7651887ae74fd516" kindref="member">MR_std_vector_MR_VdbVolume_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__VdbVolume_8h_1a4a344a19e5bc363ed38d08fc51247e42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VdbVolume_8h_1a4a344a19e5bc363ed38d08fc51247e42" kindref="member">MR_std_vector_MR_VdbVolume_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__MR__VdbVolume__std__string_8h_1ac7fa26f25d61bc8e333ac94537a4d96c" kindref="member">MR_std_vector_MR_VdbVolume</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__VdbVolume_8h_1a0af8cd28ee3c28a17dfad1adfe913e9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a0af8cd28ee3c28a17dfad1adfe913e9d" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__VdbVolume_8h_1a0b06342ea44b28f55d872ac46c27c582" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a0b06342ea44b28f55d872ac46c27c582" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__VdbVolume_8h_1ad3059bb618fd1508e1d298edded8f09c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ad3059bb618fd1508e1d298edded8f09c" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__VdbVolume_8h_1a5097e8f1235377c39c297c72a0327ce7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a5097e8f1235377c39c297c72a0327ce7" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a6b94ef1878c991bb02d445f9be3fb455" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__VdbVolume_8h_1a5496cbca34476c3d3243d9a2e4e90f07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a5496cbca34476c3d3243d9a2e4e90f07" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__VdbVolume_8h_1a5601054c5397fd97153a1d25f16984ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a5601054c5397fd97153a1d25f16984ba" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__VdbVolume_8h_1ab8d6f9e037a8f214353859d09e8bedeb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ab8d6f9e037a8f214353859d09e8bedeb" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__VdbVolume_8h_1a31bf44e4b85545445a8dcd8f7e8197e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a31bf44e4b85545445a8dcd8f7e8197e5" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__VdbVolume_8h_1a37a5be2e35ce5362855fc6d7e7faacf5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a37a5be2e35ce5362855fc6d7e7faacf5" kindref="member">MR_std_vector_MR_VdbVolume_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__VdbVolume_8h_1a234daba910423fb291e3e28ede357452" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a234daba910423fb291e3e28ede357452" kindref="member">MR_std_vector_MR_VdbVolume_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__VdbVolume_8h_1aa43bb31847d15d8844ac38a47de54537" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1aa43bb31847d15d8844ac38a47de54537" kindref="member">MR_std_vector_MR_VdbVolume_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__VdbVolume_8h_1a0053efb1ead65190462150fbb4e0c59b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a0053efb1ead65190462150fbb4e0c59b" kindref="member">MR_std_vector_MR_VdbVolume_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a669990e7b14b6aeba0eddae155cb27cc" kindref="member">MR_std_vector_MR_VdbVolume_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__VdbVolume_8h_1a4d552b39d43cd2e2b0c2621237f1e3d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a4d552b39d43cd2e2b0c2621237f1e3d0" kindref="member">MR_std_vector_MR_VdbVolume_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__VdbVolume_8h_1a38eeeecc9a52686c242d6212f6aeeeb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a38eeeecc9a52686c242d6212f6aeeeb9" kindref="member">MR_std_vector_MR_VdbVolume_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__VdbVolume_8h_1a0c567c3f932e8ec6356fc5fcd05e97cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a0c567c3f932e8ec6356fc5fcd05e97cb" kindref="member">MR_std_vector_MR_VdbVolume_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__VdbVolume_8h_1ab59897a5d7f22079dcb5a59f6ca49db3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1ab59897a5d7f22079dcb5a59f6ca49db3" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__VdbVolume_8h_1a0271fc90a7e9fc403f4d97c8b9e8b0b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a0271fc90a7e9fc403f4d97c8b9e8b0b2" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_incr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__VdbVolume_8h_1a0087b7ebd88179697aae19c1143be408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a0087b7ebd88179697aae19c1143be408" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_decr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__VdbVolume_8h_1a7ea42384d3697d0c10e498931409bf13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a7ea42384d3697d0c10e498931409bf13" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__VdbVolume_8h_1a37c550ea32b1c6d0f03778c58ddc4aca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VdbVolume_8h_1a37c550ea32b1c6d0f03778c58ddc4aca" kindref="member">MR_sub_MR_std_vector_MR_VdbVolume_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__VdbVolume_8h_1ae1a8d5d04044469cc31c1d9d0effe3f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1ae1a8d5d04044469cc31c1d9d0effe3f6" kindref="member">MR_equal_MR_std_vector_MR_VdbVolume_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a14f04d91ff02a2bbbd0d3657a3e06b05" kindref="member">MR_std_vector_MR_VdbVolume_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__VdbVolume_8h_1a7b06190f72fbe5855674a314563be1fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VdbVolume__std__string_8h_1a3d8aa59058b2516d2c9b34241f2c0441" kindref="member">MR_VdbVolume</ref><sp/>*<ref refid="std__vector__MR__VdbVolume_8h_1a7b06190f72fbe5855674a314563be1fa" kindref="member">MR_std_vector_MR_VdbVolume_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__VdbVolume_8h_1af8a7727adad63ba02b672eb7597766a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1af8a7727adad63ba02b672eb7597766a9" kindref="member">MR_std_vector_MR_VdbVolume_iterator_incr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__VdbVolume_8h_1a304e3cec06e17f6624f27e3d46b08710" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a304e3cec06e17f6624f27e3d46b08710" kindref="member">MR_std_vector_MR_VdbVolume_iterator_decr</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__VdbVolume_8h_1a946481794b6f859243ad38fd8ff3f0c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a946481794b6f859243ad38fd8ff3f0c4" kindref="member">MR_std_vector_MR_VdbVolume_iterator_add_assign</ref>(<ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__VdbVolume_8h_1a037fc33739e3c340b69f58843a3724c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VdbVolume_8h_1a037fc33739e3c340b69f58843a3724c0" kindref="member">MR_sub_MR_std_vector_MR_VdbVolume_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__VdbVolume_8h_1a6de0570636d2fdb556e3f773b53e5062" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a6de0570636d2fdb556e3f773b53e5062" kindref="member">MR_equal_MR_std_vector_MR_VdbVolume_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VdbVolume_8h_1a755e3ac97a17c80d4d35aec226fd191a" kindref="member">MR_std_vector_MR_VdbVolume_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VdbVolume.h"/>
+  </compounddef>
+</doxygen>

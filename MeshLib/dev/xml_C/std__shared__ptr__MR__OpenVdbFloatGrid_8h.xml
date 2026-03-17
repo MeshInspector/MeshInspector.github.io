@@ -1,0 +1,583 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__OpenVdbFloatGrid_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_OpenVdbFloatGrid.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_OpenVdbFloatGrid.h</label>
+        <link refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref></type>
+        <definition>typedef struct MR_OpenVdbFloatGrid MR_OpenVdbFloatGrid</definition>
+        <argsstring></argsstring>
+        <name>MR_OpenVdbFloatGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this class just hides very complex type of typedef openvdb::FloatGrid Generated from class <computeroutput>MR::OpenVdbFloatGrid</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="13" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_OpenVdbFloatGrid MR_std_shared_ptr_MR_OpenVdbFloatGrid</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::OpenVdbFloatGrid</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="20" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9346bd5c2c02bb5923bec82b6db3c796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="24" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="24" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5d41e41888156f323fe682c41692cd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a6c50e626c88354bf18acb96f4efd4b43" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab24fceab8a650f30e0bfc29c666d062a" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3da803d9c02929d5ecf9404dcc0d74f1" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="29" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="29" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a852b195194fa910e1d4f98e5cb992fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_OpenVdbFloatGrid *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="35" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="35" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a901697f57242d96d4e2785161342ff8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_OpenVdbFloatGrid *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a6c50e626c88354bf18acb96f4efd4b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3da803d9c02929d5ecf9404dcc0d74f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="51" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="51" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab24fceab8a650f30e0bfc29c666d062a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="55" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="55" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ac8a1764f8577d4b489a923f1d89d1800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="60" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="60" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a387c21b88f7855638c5a9b1ad83287ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_OpenVdbFloatGrid_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a44e9045122acd31d6f6412db12e98c68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_OpenVdbFloatGrid_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ac8a1764f8577d4b489a923f1d89d1800" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a697832d0dac768bb38485133ddbfc80c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ada14cfa9f75564bf909c8cc11ea5531f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromValue</definition>
+        <argsstring>(MR_PassBy value_pass_by, MR_OpenVdbFloatGrid *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromValue</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="80" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="80" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a7d5a403a26285212c9e184820d37c833" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_Construct</definition>
+        <argsstring>(MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_Construct</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRVDBFloatGrid_8h_1afe5a5cc650bfe5fc81bd99b401f243e5" kindref="member">MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="86" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="86" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3ebf095cbb2685a55c641457cfa1681b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this, MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRVDBFloatGrid_8h_1afe5a5cc650bfe5fc81bd99b401f243e5" kindref="member">MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1af361fc63db5e846c34d9bc08ed353738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructNonOwning</definition>
+        <argsstring>(MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="98" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="98" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a4a8893677a46f5743710f02ec98f5f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this, MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="104" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab7448ad8c4049f70d5619392b3d80ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_OpenVdbFloatGrid * MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="111" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="111" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aeccc3a7b271f710faf7a407910d44045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_OpenVdbFloatGrid *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a0d601bf77b57d720af032ddf44bc9848" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="123" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="123" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9a8c4b87da2c6e4c499ee9fcf6b9f5f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_OpenVdbFloatGrid *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h" declline="128" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVDBFloatGrid.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9346bd5c2c02bb5923bec82b6db3c796" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9346bd5c2c02bb5923bec82b6db3c796" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5d41e41888156f323fe682c41692cd40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5d41e41888156f323fe682c41692cd40" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a852b195194fa910e1d4f98e5cb992fa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a852b195194fa910e1d4f98e5cb992fa0" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a901697f57242d96d4e2785161342ff8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a901697f57242d96d4e2785161342ff8e" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1abebace453dc0de2b5c15ef8805100049" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a6c50e626c88354bf18acb96f4efd4b43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a6c50e626c88354bf18acb96f4efd4b43" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3da803d9c02929d5ecf9404dcc0d74f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3da803d9c02929d5ecf9404dcc0d74f1" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab24fceab8a650f30e0bfc29c666d062a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab24fceab8a650f30e0bfc29c666d062a" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ac8a1764f8577d4b489a923f1d89d1800" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ac8a1764f8577d4b489a923f1d89d1800" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a387c21b88f7855638c5a9b1ad83287ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a387c21b88f7855638c5a9b1ad83287ac" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a44e9045122acd31d6f6412db12e98c68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a44e9045122acd31d6f6412db12e98c68" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a697832d0dac768bb38485133ddbfc80c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a697832d0dac768bb38485133ddbfc80c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_reset</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ada14cfa9f75564bf909c8cc11ea5531f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ada14cfa9f75564bf909c8cc11ea5531f" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a7d5a403a26285212c9e184820d37c833" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a7d5a403a26285212c9e184820d37c833" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Construct</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3ebf095cbb2685a55c641457cfa1681b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a3ebf095cbb2685a55c641457cfa1681b" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_Assign</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1af361fc63db5e846c34d9bc08ed353738" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1af361fc63db5e846c34d9bc08ed353738" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructNonOwning</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a4a8893677a46f5743710f02ec98f5f75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a4a8893677a46f5743710f02ec98f5f75" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab7448ad8c4049f70d5619392b3d80ab6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1ab7448ad8c4049f70d5619392b3d80ab6" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aeccc3a7b271f710faf7a407910d44045" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aeccc3a7b271f710faf7a407910d44045" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1aac20c639173df481ee73c6586269c72f" kindref="member">MR_OpenVdbFloatGrid</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a0d601bf77b57d720af032ddf44bc9848" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a0d601bf77b57d720af032ddf44bc9848" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9a8c4b87da2c6e4c499ee9fcf6b9f5f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a9a8c4b87da2c6e4c499ee9fcf6b9f5f0" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__OpenVdbFloatGrid_8h_1a5c8ff4291115b7eb85975766541c1c5c" kindref="member">MR_std_shared_ptr_MR_OpenVdbFloatGrid</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_OpenVdbFloatGrid.h"/>
+  </compounddef>
+</doxygen>

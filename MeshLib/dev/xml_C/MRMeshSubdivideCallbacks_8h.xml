@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshSubdivideCallbacks_8h" kind="file" language="C++">
     <compoundname>MRMeshSubdivideCallbacks.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRMeshSubdivideCallbacks.h</label>
@@ -12,11 +12,12 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_meshOnEdgeSplitAttribute</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshAttributesToUpdate *params)</argsstring>
         <name>MR_meshOnEdgeSplitAttribute</name>
@@ -31,14 +32,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>auto uvCoords = obj_-&gt;getUVCoords(); auto texturePerFace = obj_-&gt;getTexturePerFace(); MeshAttributesToUpdate meshParams; if ( !uvCoords.empty() ) meshParams.uvCoords = &amp;uvCoords; if ( !texturePerFace.empty() ) meshParams.texturePerFace = &amp;texturePerFace; subs.onEdgeSplit = meshOnEdgeSplitAttribute( *obj_-&gt;varMesh(), meshParams ); subdivideMesh( *obj_-&gt;varMesh(), subs ); Generated from function <computeroutput>MR::meshOnEdgeSplitAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>auto uvCoords = obj_-&gt;getUVCoords(); auto texturePerFace = obj_-&gt;getTexturePerFace(); MeshAttributesToUpdate meshParams; if ( !uvCoords.empty() ) meshParams.uvCoords = &amp;uvCoords; if ( !texturePerFace.empty() ) meshParams.texturePerFace = &amp;texturePerFace; subs.onEdgeSplit = meshOnEdgeSplitAttribute( *obj_-&gt;varMesh(), meshParams ); subdivideMesh( *obj_-&gt;varMesh(), subs ); Generated from function <computeroutput>MR::meshOnEdgeSplitAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__EdgeId__MR__EdgeId_8h_1a5cd4178ad04b6f5e4fa6494a5e249050" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="29" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" declline="29" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" line="29" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" declline="29" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSubdivideCallbacks_8h_1ac38229960de46836438e6c97228b13c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_meshOnEdgeSplitVertAttribute</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshAttributesToUpdate *params)</argsstring>
         <name>MR_meshOnEdgeSplitVertAttribute</name>
@@ -53,14 +54,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::meshOnEdgeSplitVertAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::meshOnEdgeSplitVertAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__EdgeId__MR__EdgeId_8h_1a5cd4178ad04b6f5e4fa6494a5e249050" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="35" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" declline="35" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" line="35" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" declline="35" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshSubdivideCallbacks_8h_1a11d239761eb72fcd0345a685e1b69cbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_meshOnEdgeSplitFaceAttribute</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshAttributesToUpdate *params)</argsstring>
         <name>MR_meshOnEdgeSplitFaceAttribute</name>
@@ -75,11 +76,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::meshOnEdgeSplitFaceAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::meshOnEdgeSplitFaceAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__void__from__MR__EdgeId__MR__EdgeId_8h_1a5cd4178ad04b6f5e4fa6494a5e249050" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" line="41" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h" declline="41" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" line="41" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h" declline="41" declcolumn="55"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -89,7 +90,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -100,16 +101,16 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_MR_EdgeId_MR_EdgeId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" kindref="member">MR_meshOnEdgeSplitAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="29" refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1ad960f41d3cac86ef8cee8da5877768bb" kindref="member">MR_meshOnEdgeSplitAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRMeshSubdivideCallbacks_8h_1ac38229960de46836438e6c97228b13c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1ac38229960de46836438e6c97228b13c1" kindref="member">MR_meshOnEdgeSplitVertAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="35" refid="MRMeshSubdivideCallbacks_8h_1ac38229960de46836438e6c97228b13c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1ac38229960de46836438e6c97228b13c1" kindref="member">MR_meshOnEdgeSplitVertAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRMeshSubdivideCallbacks_8h_1a11d239761eb72fcd0345a685e1b69cbb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1a11d239761eb72fcd0345a685e1b69cbb" kindref="member">MR_meshOnEdgeSplitFaceAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="41" refid="MRMeshSubdivideCallbacks_8h_1a11d239761eb72fcd0345a685e1b69cbb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRMeshSubdivideCallbacks_8h_1a11d239761eb72fcd0345a685e1b69cbb" kindref="member">MR_meshOnEdgeSplitFaceAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="44"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshSubdivideCallbacks.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshSubdivideCallbacks.h"/>
   </compounddef>
 </doxygen>

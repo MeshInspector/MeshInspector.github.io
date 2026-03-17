@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRAddNoise_8h" kind="file" language="C++">
     <compoundname>MRAddNoise.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,12 +18,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -35,16 +46,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::NoiseSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::NoiseSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="21" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="21" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRAddNoise_8h_1ae35a6c3b9428d266c4c24412aa6af3b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_NoiseSettings_Get_sigma</definition>
         <argsstring>(const MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_Get_sigma</name>
@@ -59,10 +70,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="27" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="27" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="27" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1adfee086b104c93ac4ec15714cdc75589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_NoiseSettings_Set_sigma</definition>
         <argsstring>(MR_NoiseSettings *_this, float value)</argsstring>
         <name>MR_NoiseSettings_Set_sigma</name>
@@ -81,10 +92,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="32" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="32" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a5d8a86100b33b20b6b06a74f46ea819e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_NoiseSettings_GetMutable_sigma</definition>
         <argsstring>(MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_GetMutable_sigma</name>
@@ -99,10 +110,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="38" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="38" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="38" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="38" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a4e717bd50c3cc17f62c626cde3234a3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const unsigned int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const unsigned int *</type>
         <definition>MRC_API const unsigned int * MR_NoiseSettings_Get_seed</definition>
         <argsstring>(const MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_Get_seed</name>
@@ -117,10 +128,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="45" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="45" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="45" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="45" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a25fb3d68cba5876f0d9b389f0565928c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_NoiseSettings_Set_seed</definition>
         <argsstring>(MR_NoiseSettings *_this, unsigned int value)</argsstring>
         <name>MR_NoiseSettings_Set_seed</name>
@@ -139,10 +150,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="52" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1ad1e1fbeb03ac3bfdf720892a52d732ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API unsigned int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> unsigned int *</type>
         <definition>MRC_API unsigned int * MR_NoiseSettings_GetMutable_seed</definition>
         <argsstring>(MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_GetMutable_seed</name>
@@ -157,10 +168,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="59" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="59" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="59" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="59" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1adfc693c682edd7c0121aacfa0a2f8168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_NoiseSettings_Get_callback</definition>
         <argsstring>(const MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_Get_callback</name>
@@ -175,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="65" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="65" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="65" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="65" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a7060f6c654baed8637d6b7ed0b542712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_NoiseSettings_Set_callback</definition>
         <argsstring>(MR_NoiseSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_NoiseSettings_Set_callback</name>
@@ -187,7 +198,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -201,10 +212,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="71" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1aa2f2c06b8cb362dabd34db3a4954049c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_NoiseSettings_GetMutable_callback</definition>
         <argsstring>(MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_GetMutable_callback</name>
@@ -219,10 +230,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="77" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="77" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="77" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="77" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a1b6df507815b5c251a34f0b3c5c57093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_NoiseSettings_DefaultConstruct</name>
@@ -236,10 +247,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="81" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="81" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="81" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="81" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a81dd8a73978e618660b9f9f0078e27e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_NoiseSettings_DefaultConstructArray</name>
@@ -254,10 +265,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="86" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="86" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="86" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="86" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a507529cd22586e0ba90d7c938e8d88db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_ConstructFrom</definition>
         <argsstring>(float sigma, unsigned int seed, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
         <name>MR_NoiseSettings_ConstructFrom</name>
@@ -270,7 +281,7 @@
           <declname>seed</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>callback_pass_by</declname>
         </param>
         <param>
@@ -284,10 +295,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="93" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="93" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="93" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="93" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a9440dd6c244087505d96e9e41b43a223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API const MR_NoiseSettings * MR_NoiseSettings_OffsetPtr</definition>
         <argsstring>(const MR_NoiseSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_NoiseSettings_OffsetPtr</name>
@@ -306,10 +317,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="97" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="97" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a27a3e8f8984d1436ad89d59419332bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_NoiseSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_NoiseSettings_OffsetMutablePtr</name>
@@ -328,15 +339,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="101" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="101" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="101" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="101" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a3c19d2d906662b40bf1606e12056ed42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_NoiseSettings *_other)</argsstring>
         <name>MR_NoiseSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -350,10 +361,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="106" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="106" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="106" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="106" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_NoiseSettings_Destroy</definition>
         <argsstring>(const MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_Destroy</name>
@@ -368,10 +379,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="109" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1afa62449e82c29f91e4dea0300a64f96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_NoiseSettings_DestroyArray</definition>
         <argsstring>(const MR_NoiseSettings *_this)</argsstring>
         <name>MR_NoiseSettings_DestroyArray</name>
@@ -386,10 +397,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="112" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="112" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1a46558b999ba7fc867b52d0ddaaabfd59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref> *</type>
         <definition>MRC_API MR_NoiseSettings * MR_NoiseSettings_AssignFromAnother</definition>
         <argsstring>(MR_NoiseSettings *_this, MR_PassBy _other_pass_by, MR_NoiseSettings *_other)</argsstring>
         <name>MR_NoiseSettings_AssignFromAnother</name>
@@ -398,7 +409,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -412,10 +423,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="119" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="119" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="119" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="119" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1af5b41d5112c2b52995d45963c3c13e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_addNoise_MR_VertCoords</definition>
         <argsstring>(MR_VertCoords *points, const MR_VertBitSet *validVerts, MR_PassBy settings_pass_by, MR_NoiseSettings *settings)</argsstring>
         <name>MR_addNoise_MR_VertCoords</name>
@@ -428,7 +439,7 @@
           <declname>validVerts</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>settings_pass_by</declname>
         </param>
         <param>
@@ -438,14 +449,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::addNoise</computeroutput>. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validVerts</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::addNoise</computeroutput>. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validVerts</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="126" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="126" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="126" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="126" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRAddNoise_8h_1ae01649fe201c10e39954cef86fd68018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_addNoise_MR_Mesh</definition>
         <argsstring>(MR_Mesh *mesh, const MR_VertBitSet *region, const MR_NoiseSettings *settings)</argsstring>
         <name>MR_addNoise_MR_Mesh</name>
@@ -464,11 +475,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::addNoise</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::addNoise</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" line="134" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h" declline="134" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" line="134" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h" declline="134" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -478,8 +489,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -496,54 +507,54 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRAddNoise_8h_1ae35a6c3b9428d266c4c24412aa6af3b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1ae35a6c3b9428d266c4c24412aa6af3b5" kindref="member">MR_NoiseSettings_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27" refid="MRAddNoise_8h_1ae35a6c3b9428d266c4c24412aa6af3b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1ae35a6c3b9428d266c4c24412aa6af3b5" kindref="member">MR_NoiseSettings_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRAddNoise_8h_1adfee086b104c93ac4ec15714cdc75589" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1adfee086b104c93ac4ec15714cdc75589" kindref="member">MR_NoiseSettings_Set_sigma</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="32" refid="MRAddNoise_8h_1adfee086b104c93ac4ec15714cdc75589" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1adfee086b104c93ac4ec15714cdc75589" kindref="member">MR_NoiseSettings_Set_sigma</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRAddNoise_8h_1a5d8a86100b33b20b6b06a74f46ea819e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1a5d8a86100b33b20b6b06a74f46ea819e" kindref="member">MR_NoiseSettings_GetMutable_sigma</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRAddNoise_8h_1a5d8a86100b33b20b6b06a74f46ea819e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1a5d8a86100b33b20b6b06a74f46ea819e" kindref="member">MR_NoiseSettings_GetMutable_sigma</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>start<sp/>state<sp/>of<sp/>the<sp/>generator<sp/>engine</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRAddNoise_8h_1a4e717bd50c3cc17f62c626cde3234a3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1a4e717bd50c3cc17f62c626cde3234a3f" kindref="member">MR_NoiseSettings_Get_seed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRAddNoise_8h_1a4e717bd50c3cc17f62c626cde3234a3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1a4e717bd50c3cc17f62c626cde3234a3f" kindref="member">MR_NoiseSettings_Get_seed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>start<sp/>state<sp/>of<sp/>the<sp/>generator<sp/>engine</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRAddNoise_8h_1a25fb3d68cba5876f0d9b389f0565928c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a25fb3d68cba5876f0d9b389f0565928c" kindref="member">MR_NoiseSettings_Set_seed</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="52" refid="MRAddNoise_8h_1a25fb3d68cba5876f0d9b389f0565928c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a25fb3d68cba5876f0d9b389f0565928c" kindref="member">MR_NoiseSettings_Set_seed</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>start<sp/>state<sp/>of<sp/>the<sp/>generator<sp/>engine</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRAddNoise_8h_1ad1e1fbeb03ac3bfdf720892a52d732ce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1ad1e1fbeb03ac3bfdf720892a52d732ce" kindref="member">MR_NoiseSettings_GetMutable_seed</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59" refid="MRAddNoise_8h_1ad1e1fbeb03ac3bfdf720892a52d732ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRAddNoise_8h_1ad1e1fbeb03ac3bfdf720892a52d732ce" kindref="member">MR_NoiseSettings_GetMutable_seed</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRAddNoise_8h_1adfc693c682edd7c0121aacfa0a2f8168" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRAddNoise_8h_1adfc693c682edd7c0121aacfa0a2f8168" kindref="member">MR_NoiseSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65" refid="MRAddNoise_8h_1adfc693c682edd7c0121aacfa0a2f8168" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRAddNoise_8h_1adfc693c682edd7c0121aacfa0a2f8168" kindref="member">MR_NoiseSettings_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRAddNoise_8h_1a7060f6c654baed8637d6b7ed0b542712" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a7060f6c654baed8637d6b7ed0b542712" kindref="member">MR_NoiseSettings_Set_callback</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="71" refid="MRAddNoise_8h_1a7060f6c654baed8637d6b7ed0b542712" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a7060f6c654baed8637d6b7ed0b542712" kindref="member">MR_NoiseSettings_Set_callback</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRAddNoise_8h_1aa2f2c06b8cb362dabd34db3a4954049c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRAddNoise_8h_1aa2f2c06b8cb362dabd34db3a4954049c" kindref="member">MR_NoiseSettings_GetMutable_callback</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77" refid="MRAddNoise_8h_1aa2f2c06b8cb362dabd34db3a4954049c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRAddNoise_8h_1aa2f2c06b8cb362dabd34db3a4954049c" kindref="member">MR_NoiseSettings_GetMutable_callback</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRAddNoise_8h_1a1b6df507815b5c251a34f0b3c5c57093" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a1b6df507815b5c251a34f0b3c5c57093" kindref="member">MR_NoiseSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81" refid="MRAddNoise_8h_1a1b6df507815b5c251a34f0b3c5c57093" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a1b6df507815b5c251a34f0b3c5c57093" kindref="member">MR_NoiseSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRAddNoise_8h_1a81dd8a73978e618660b9f9f0078e27e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a81dd8a73978e618660b9f9f0078e27e7" kindref="member">MR_NoiseSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="86" refid="MRAddNoise_8h_1a81dd8a73978e618660b9f9f0078e27e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a81dd8a73978e618660b9f9f0078e27e7" kindref="member">MR_NoiseSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRAddNoise_8h_1a507529cd22586e0ba90d7c938e8d88db" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a507529cd22586e0ba90d7c938e8d88db" kindref="member">MR_NoiseSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="93" refid="MRAddNoise_8h_1a507529cd22586e0ba90d7c938e8d88db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a507529cd22586e0ba90d7c938e8d88db" kindref="member">MR_NoiseSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRAddNoise_8h_1a9440dd6c244087505d96e9e41b43a223" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a9440dd6c244087505d96e9e41b43a223" kindref="member">MR_NoiseSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="97" refid="MRAddNoise_8h_1a9440dd6c244087505d96e9e41b43a223" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a9440dd6c244087505d96e9e41b43a223" kindref="member">MR_NoiseSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRAddNoise_8h_1a27a3e8f8984d1436ad89d59419332bf2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a27a3e8f8984d1436ad89d59419332bf2" kindref="member">MR_NoiseSettings_OffsetMutablePtr</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="101" refid="MRAddNoise_8h_1a27a3e8f8984d1436ad89d59419332bf2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a27a3e8f8984d1436ad89d59419332bf2" kindref="member">MR_NoiseSettings_OffsetMutablePtr</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRAddNoise_8h_1a3c19d2d906662b40bf1606e12056ed42" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a3c19d2d906662b40bf1606e12056ed42" kindref="member">MR_NoiseSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="106" refid="MRAddNoise_8h_1a3c19d2d906662b40bf1606e12056ed42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a3c19d2d906662b40bf1606e12056ed42" kindref="member">MR_NoiseSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" kindref="member">MR_NoiseSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109" refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a1e3ea801c9d94d6478247c6392e0cbd3" kindref="member">MR_NoiseSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRAddNoise_8h_1afa62449e82c29f91e4dea0300a64f96a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1afa62449e82c29f91e4dea0300a64f96a" kindref="member">MR_NoiseSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112" refid="MRAddNoise_8h_1afa62449e82c29f91e4dea0300a64f96a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1afa62449e82c29f91e4dea0300a64f96a" kindref="member">MR_NoiseSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRAddNoise_8h_1a46558b999ba7fc867b52d0ddaaabfd59" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a46558b999ba7fc867b52d0ddaaabfd59" kindref="member">MR_NoiseSettings_AssignFromAnother</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="119" refid="MRAddNoise_8h_1a46558b999ba7fc867b52d0ddaaabfd59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*<ref refid="MRAddNoise_8h_1a46558b999ba7fc867b52d0ddaaabfd59" kindref="member">MR_NoiseSettings_AssignFromAnother</ref>(<ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Adds<sp/>noise<sp/>to<sp/>the<sp/>points,<sp/>using<sp/>a<sp/>normal<sp/>distribution</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRAddNoise_8h_1af5b41d5112c2b52995d45963c3c13e79" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRAddNoise_8h_1af5b41d5112c2b52995d45963c3c13e79" kindref="member">MR_addNoise_MR_VertCoords</ref>(<ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validVerts,<sp/>MR_PassBy<sp/>settings_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="126" refid="MRAddNoise_8h_1af5b41d5112c2b52995d45963c3c13e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRAddNoise_8h_1af5b41d5112c2b52995d45963c3c13e79" kindref="member">MR_addNoise_MR_VertCoords</ref>(<ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validVerts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>settings_pass_by,<sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRAddNoise_8h_1ae01649fe201c10e39954cef86fd68018" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRAddNoise_8h_1ae01649fe201c10e39954cef86fd68018" kindref="member">MR_addNoise_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="134" refid="MRAddNoise_8h_1ae01649fe201c10e39954cef86fd68018" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRAddNoise_8h_1ae01649fe201c10e39954cef86fd68018" kindref="member">MR_addNoise_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddNoise_8h_1a75aa4d81b0df957fad37c7a2096b92c7" kindref="member">MR_NoiseSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAddNoise.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRAddNoise.h"/>
   </compounddef>
 </doxygen>

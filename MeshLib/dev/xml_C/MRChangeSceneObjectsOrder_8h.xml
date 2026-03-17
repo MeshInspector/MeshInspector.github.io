@@ -3,8 +3,8 @@
   <compounddef id="MRChangeSceneObjectsOrder_8h" kind="file" language="C++">
     <compoundname>MRChangeSceneObjectsOrder.h</compoundname>
     <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -16,7 +16,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -53,21 +64,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>History action for scene objects order change Generated from class <computeroutput>MR::ChangeSceneObjectsOrder</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>History action for scene objects order change Generated from class <computeroutput>MR::ChangeSceneObjectsOrder</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="24" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="24" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a0a55b8c7ce9c256e5fd0b3d34730f103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ChangeSceneObjectsOrder *_other)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -81,10 +92,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="29" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="29" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="29" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="29" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1abcbccce50615534f5e8a9e6432cd935a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API const MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_OffsetPtr</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_OffsetPtr</name>
@@ -103,10 +114,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="33" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="33" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="33" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="33" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a8f828e3fc71e5d5e535dd41c725c20e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_OffsetMutablePtr</definition>
         <argsstring>(MR_ChangeSceneObjectsOrder *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_OffsetMutablePtr</name>
@@ -125,10 +136,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="37" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="37" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="37" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="37" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1aeccb41e39ab0bf268541276b2488e022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API const MR_HistoryAction * MR_ChangeSceneObjectsOrder_UpcastTo_MR_HistoryAction</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_UpcastTo_MR_HistoryAction</name>
@@ -143,10 +154,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="42" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="42" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a03a5e2cbee5f02d02e1c1681c797633e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
         <definition>MRC_API MR_HistoryAction * MR_ChangeSceneObjectsOrder_MutableUpcastTo_MR_HistoryAction</definition>
         <argsstring>(MR_ChangeSceneObjectsOrder *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_MutableUpcastTo_MR_HistoryAction</name>
@@ -161,10 +172,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="46" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="46" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a804446140a33846cd89bd9ebaf043afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API const MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_StaticDowncastFrom_MR_HistoryAction</definition>
         <argsstring>(const MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_StaticDowncastFrom_MR_HistoryAction</name>
@@ -179,10 +190,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="52" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="52" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="52" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="52" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a1c4a04acbc62fdb34deeb121cd3ecc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_MutableStaticDowncastFrom_MR_HistoryAction</definition>
         <argsstring>(MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_MutableStaticDowncastFrom_MR_HistoryAction</name>
@@ -197,10 +208,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="57" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="57" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="57" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="57" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1aea3a7cb4efa1789c60c3a0a643b6ae84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API const MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_DynamicDowncastFrom_MR_HistoryAction</definition>
         <argsstring>(const MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_DynamicDowncastFrom_MR_HistoryAction</name>
@@ -215,10 +226,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="63" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="63" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="63" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="63" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a46c664cc659b72c6b3c5630475824eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFrom_MR_HistoryAction</definition>
         <argsstring>(MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFrom_MR_HistoryAction</name>
@@ -233,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="68" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="68" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="68" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="68" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a232e61d25604dd22987aef46645f35e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API const MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_DynamicDowncastFromOrFail_MR_HistoryAction</definition>
         <argsstring>(const MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_DynamicDowncastFromOrFail_MR_HistoryAction</name>
@@ -251,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="76" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="76" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="76" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="76" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1ac1c3ee4d32df22f1558bdd9a86972808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFromOrFail_MR_HistoryAction</definition>
         <argsstring>(MR_HistoryAction *object)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFromOrFail_MR_HistoryAction</name>
@@ -269,10 +280,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="83" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="83" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="83" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="83" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1ab61ecfe25610b4ec0036fd374b372965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_Construct</definition>
         <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_Object *obj)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_Construct</name>
@@ -295,10 +306,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="93" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="93" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="93" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="93" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a5c5c391cb45e93bee1338d35911d594a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeSceneObjectsOrder_Destroy</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *_this)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_Destroy</name>
@@ -313,10 +324,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="96" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a45ed8fb8f8161a2a0864fb119b7c3b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeSceneObjectsOrder_DestroyArray</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *_this)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_DestroyArray</name>
@@ -331,10 +342,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="99" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a4514207bfc83cc7b6f9c3e0f84d2245c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref> *</type>
         <definition>MRC_API MR_ChangeSceneObjectsOrder * MR_ChangeSceneObjectsOrder_AssignFromAnother</definition>
         <argsstring>(MR_ChangeSceneObjectsOrder *_this, MR_PassBy _other_pass_by, MR_ChangeSceneObjectsOrder *_other)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_AssignFromAnother</name>
@@ -343,7 +354,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -357,10 +368,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="106" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="106" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="106" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="106" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a132e786d6b357540ce28c7ab7fb1b1c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_ChangeSceneObjectsOrder_name</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *_this)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_name</name>
@@ -371,14 +382,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from method <computeroutput>MR::ChangeSceneObjectsOrder::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from method <computeroutput>MR::ChangeSceneObjectsOrder::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__string_8h_1a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" kindref="member">MR_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="111" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="111" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="111" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1a34820c9930227e03c954922848ae8cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ChangeSceneObjectsOrder_action</definition>
         <argsstring>(MR_ChangeSceneObjectsOrder *_this, MR_HistoryAction_Type _1)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_action</name>
@@ -397,10 +408,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="115" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRChangeSceneObjectsOrder_8h_1af81cc0066daaecc1a75e20e46f0b1c1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_ChangeSceneObjectsOrder_heapBytes</definition>
         <argsstring>(const MR_ChangeSceneObjectsOrder *_this)</argsstring>
         <name>MR_ChangeSceneObjectsOrder_heapBytes</name>
@@ -415,7 +426,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" line="119" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h" declline="119" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" line="119" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h" declline="119" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -426,8 +437,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -442,46 +453,46 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRChangeSceneObjectsOrder_8h_1a0a55b8c7ce9c256e5fd0b3d34730f103" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a0a55b8c7ce9c256e5fd0b3d34730f103" kindref="member">MR_ChangeSceneObjectsOrder_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="29" refid="MRChangeSceneObjectsOrder_8h_1a0a55b8c7ce9c256e5fd0b3d34730f103" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a0a55b8c7ce9c256e5fd0b3d34730f103" kindref="member">MR_ChangeSceneObjectsOrder_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRChangeSceneObjectsOrder_8h_1abcbccce50615534f5e8a9e6432cd935a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1abcbccce50615534f5e8a9e6432cd935a" kindref="member">MR_ChangeSceneObjectsOrder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="33" refid="MRChangeSceneObjectsOrder_8h_1abcbccce50615534f5e8a9e6432cd935a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1abcbccce50615534f5e8a9e6432cd935a" kindref="member">MR_ChangeSceneObjectsOrder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRChangeSceneObjectsOrder_8h_1a8f828e3fc71e5d5e535dd41c725c20e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a8f828e3fc71e5d5e535dd41c725c20e1" kindref="member">MR_ChangeSceneObjectsOrder_OffsetMutablePtr</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="37" refid="MRChangeSceneObjectsOrder_8h_1a8f828e3fc71e5d5e535dd41c725c20e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a8f828e3fc71e5d5e535dd41c725c20e1" kindref="member">MR_ChangeSceneObjectsOrder_OffsetMutablePtr</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRChangeSceneObjectsOrder_8h_1aeccb41e39ab0bf268541276b2488e022" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1aeccb41e39ab0bf268541276b2488e022" kindref="member">MR_ChangeSceneObjectsOrder_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42" refid="MRChangeSceneObjectsOrder_8h_1aeccb41e39ab0bf268541276b2488e022" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1aeccb41e39ab0bf268541276b2488e022" kindref="member">MR_ChangeSceneObjectsOrder_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRChangeSceneObjectsOrder_8h_1a03a5e2cbee5f02d02e1c1681c797633e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a03a5e2cbee5f02d02e1c1681c797633e" kindref="member">MR_ChangeSceneObjectsOrder_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46" refid="MRChangeSceneObjectsOrder_8h_1a03a5e2cbee5f02d02e1c1681c797633e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a03a5e2cbee5f02d02e1c1681c797633e" kindref="member">MR_ChangeSceneObjectsOrder_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRChangeSceneObjectsOrder_8h_1a804446140a33846cd89bd9ebaf043afd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a804446140a33846cd89bd9ebaf043afd" kindref="member">MR_ChangeSceneObjectsOrder_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52" refid="MRChangeSceneObjectsOrder_8h_1a804446140a33846cd89bd9ebaf043afd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a804446140a33846cd89bd9ebaf043afd" kindref="member">MR_ChangeSceneObjectsOrder_StaticDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRChangeSceneObjectsOrder_8h_1a1c4a04acbc62fdb34deeb121cd3ecc87" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a1c4a04acbc62fdb34deeb121cd3ecc87" kindref="member">MR_ChangeSceneObjectsOrder_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57" refid="MRChangeSceneObjectsOrder_8h_1a1c4a04acbc62fdb34deeb121cd3ecc87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a1c4a04acbc62fdb34deeb121cd3ecc87" kindref="member">MR_ChangeSceneObjectsOrder_MutableStaticDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRChangeSceneObjectsOrder_8h_1aea3a7cb4efa1789c60c3a0a643b6ae84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1aea3a7cb4efa1789c60c3a0a643b6ae84" kindref="member">MR_ChangeSceneObjectsOrder_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63" refid="MRChangeSceneObjectsOrder_8h_1aea3a7cb4efa1789c60c3a0a643b6ae84" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1aea3a7cb4efa1789c60c3a0a643b6ae84" kindref="member">MR_ChangeSceneObjectsOrder_DynamicDowncastFrom_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRChangeSceneObjectsOrder_8h_1a46c664cc659b72c6b3c5630475824eac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a46c664cc659b72c6b3c5630475824eac" kindref="member">MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68" refid="MRChangeSceneObjectsOrder_8h_1a46c664cc659b72c6b3c5630475824eac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a46c664cc659b72c6b3c5630475824eac" kindref="member">MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFrom_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRChangeSceneObjectsOrder_8h_1a232e61d25604dd22987aef46645f35e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a232e61d25604dd22987aef46645f35e2" kindref="member">MR_ChangeSceneObjectsOrder_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76" refid="MRChangeSceneObjectsOrder_8h_1a232e61d25604dd22987aef46645f35e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a232e61d25604dd22987aef46645f35e2" kindref="member">MR_ChangeSceneObjectsOrder_DynamicDowncastFromOrFail_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRChangeSceneObjectsOrder_8h_1ac1c3ee4d32df22f1558bdd9a86972808" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1ac1c3ee4d32df22f1558bdd9a86972808" kindref="member">MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83" refid="MRChangeSceneObjectsOrder_8h_1ac1c3ee4d32df22f1558bdd9a86972808" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1ac1c3ee4d32df22f1558bdd9a86972808" kindref="member">MR_ChangeSceneObjectsOrder_MutableDynamicDowncastFromOrFail_MR_HistoryAction</ref>(<ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRChangeSceneObjectsOrder_8h_1ab61ecfe25610b4ec0036fd374b372965" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1ab61ecfe25610b4ec0036fd374b372965" kindref="member">MR_ChangeSceneObjectsOrder_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="93" refid="MRChangeSceneObjectsOrder_8h_1ab61ecfe25610b4ec0036fd374b372965" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1ab61ecfe25610b4ec0036fd374b372965" kindref="member">MR_ChangeSceneObjectsOrder_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRChangeSceneObjectsOrder_8h_1a5c5c391cb45e93bee1338d35911d594a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a5c5c391cb45e93bee1338d35911d594a" kindref="member">MR_ChangeSceneObjectsOrder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRChangeSceneObjectsOrder_8h_1a5c5c391cb45e93bee1338d35911d594a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a5c5c391cb45e93bee1338d35911d594a" kindref="member">MR_ChangeSceneObjectsOrder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRChangeSceneObjectsOrder_8h_1a45ed8fb8f8161a2a0864fb119b7c3b54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a45ed8fb8f8161a2a0864fb119b7c3b54" kindref="member">MR_ChangeSceneObjectsOrder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99" refid="MRChangeSceneObjectsOrder_8h_1a45ed8fb8f8161a2a0864fb119b7c3b54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a45ed8fb8f8161a2a0864fb119b7c3b54" kindref="member">MR_ChangeSceneObjectsOrder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRChangeSceneObjectsOrder_8h_1a4514207bfc83cc7b6f9c3e0f84d2245c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a4514207bfc83cc7b6f9c3e0f84d2245c" kindref="member">MR_ChangeSceneObjectsOrder_AssignFromAnother</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="106" refid="MRChangeSceneObjectsOrder_8h_1a4514207bfc83cc7b6f9c3e0f84d2245c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a4514207bfc83cc7b6f9c3e0f84d2245c" kindref="member">MR_ChangeSceneObjectsOrder_AssignFromAnother</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRChangeSceneObjectsOrder_8h_1a132e786d6b357540ce28c7ab7fb1b1c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a132e786d6b357540ce28c7ab7fb1b1c5" kindref="member">MR_ChangeSceneObjectsOrder_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111" refid="MRChangeSceneObjectsOrder_8h_1a132e786d6b357540ce28c7ab7fb1b1c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeSceneObjectsOrder_8h_1a132e786d6b357540ce28c7ab7fb1b1c5" kindref="member">MR_ChangeSceneObjectsOrder_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRChangeSceneObjectsOrder_8h_1a34820c9930227e03c954922848ae8cb9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a34820c9930227e03c954922848ae8cb9" kindref="member">MR_ChangeSceneObjectsOrder_action</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="115" refid="MRChangeSceneObjectsOrder_8h_1a34820c9930227e03c954922848ae8cb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a34820c9930227e03c954922848ae8cb9" kindref="member">MR_ChangeSceneObjectsOrder_action</ref>(<ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRChangeSceneObjectsOrder_8h_1af81cc0066daaecc1a75e20e46f0b1c1a" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeSceneObjectsOrder_8h_1af81cc0066daaecc1a75e20e46f0b1c1a" kindref="member">MR_ChangeSceneObjectsOrder_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119" refid="MRChangeSceneObjectsOrder_8h_1af81cc0066daaecc1a75e20e46f0b1c1a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1af81cc0066daaecc1a75e20e46f0b1c1a" kindref="member">MR_ChangeSceneObjectsOrder_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneObjectsOrder_8h_1a99dcc89e6a69ce8be6c55d1a7a9e6a91" kindref="member">MR_ChangeSceneObjectsOrder</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneObjectsOrder.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRChangeSceneObjectsOrder.h"/>
   </compounddef>
 </doxygen>

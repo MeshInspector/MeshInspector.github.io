@@ -2,16 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPointsToMeshFusion_8h" kind="file" language="C++">
     <compoundname>MRPointsToMeshFusion.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>MRPointsToMeshFusion.h</label>
-        <link refid="MRPointsToMeshFusion_8h"/>
-        <childnode refid="2" relation="include">
-        </childnode>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -19,59 +17,33 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="1">
+        <label>MRPointsToMeshFusion.h</label>
+        <link refid="MRPointsToMeshFusion_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref></type>
-        <definition>typedef struct MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="16" column="106" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref></type>
-        <definition>typedef struct MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="18" column="143" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref></type>
-        <definition>typedef struct MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</definition>
-        <argsstring></argsstring>
-        <name>MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="19" column="214" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" bodystart="19" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" prot="public" static="no">
         <type>struct <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref></type>
         <definition>typedef struct MR_PointsToMeshParameters MR_PointsToMeshParameters</definition>
@@ -80,16 +52,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::PointsToMeshParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::PointsToMeshParameters</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="24" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="24" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a782fb383ff70ce44d5c9f43b7aaffbc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToMeshParameters_Get_sigma</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_sigma</name>
@@ -104,10 +76,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="32" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="32" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="32" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a305e42a2ed9f26297d04b65f1f5cd948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_sigma</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, float value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_sigma</name>
@@ -126,10 +98,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="39" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="39" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ab3d90184a8f52145259422fb0efd9850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToMeshParameters_GetMutable_sigma</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_sigma</name>
@@ -144,10 +116,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="47" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="47" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="47" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="47" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a2ab8a39701d697b8f00ba1d5e75874f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToMeshParameters_Get_minWeight</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_minWeight</name>
@@ -162,10 +134,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="54" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="54" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="54" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a996bea93cf5ce0e12e5efbaafe65b56c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_minWeight</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, float value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_minWeight</name>
@@ -184,10 +156,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="60" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="60" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a2c248e2f22f0e8a3b844e5b4556f1adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToMeshParameters_GetMutable_minWeight</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_minWeight</name>
@@ -202,10 +174,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="67" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="67" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="67" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="67" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a127533903f16d0c2a9d34af42f0fab53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToMeshParameters_Get_invSigmaModifier</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_invSigmaModifier</name>
@@ -220,10 +192,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="75" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="75" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="75" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a034f78c5cba6357e5b738b6ab38598de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_invSigmaModifier</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, float value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_invSigmaModifier</name>
@@ -242,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="82" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="82" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a531c118e12646e9985a5b916860c5ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToMeshParameters_GetMutable_invSigmaModifier</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_invSigmaModifier</name>
@@ -260,10 +232,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="90" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="90" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="90" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="90" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1acac8439750c699315202332db91d4ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_PointsToMeshParameters_Get_sqrtAngleWeight</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_sqrtAngleWeight</name>
@@ -278,10 +250,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="98" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="98" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="98" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="98" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a8d3768a9f56e60ce39c6deeba6d2240e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_sqrtAngleWeight</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, bool value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_sqrtAngleWeight</name>
@@ -300,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="105" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="105" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1aaaa28ff4d4238b734e5c88b7b5f1c111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight</name>
@@ -318,10 +290,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="113" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="113" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a30bd875d3288b2f01e9c9fc0403b3bfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToMeshParameters_Get_voxelSize</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_voxelSize</name>
@@ -336,10 +308,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="121" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="121" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="121" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="121" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a70aa6d57f226ed981c9ec2a480cd1550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_voxelSize</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, float value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_voxelSize</name>
@@ -358,10 +330,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="128" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1adaf6872d4df1c547f69c39f13c3a3db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToMeshParameters_GetMutable_voxelSize</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_voxelSize</name>
@@ -376,10 +348,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="136" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="136" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="136" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="136" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1aeadc8e747be49572606c21d03944b66e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
         <definition>MRC_API const MR_VertColors *const  * MR_PointsToMeshParameters_Get_ptColors</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_ptColors</name>
@@ -394,10 +366,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="143" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="143" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a5a8dcc9a88c89ff385041a5983609d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_ptColors</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, const MR_VertColors *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_ptColors</name>
@@ -416,10 +388,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="150" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="150" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ab3b79a201333ea6b9ea728163c07821e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
         <definition>MRC_API const MR_VertColors ** MR_PointsToMeshParameters_GetMutable_ptColors</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_ptColors</name>
@@ -434,10 +406,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="157" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="157" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="157" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="157" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1aac559e8007d69d44294fb8967700b910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
         <definition>MRC_API MR_VertColors *const  * MR_PointsToMeshParameters_Get_vColors</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_vColors</name>
@@ -452,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="164" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="164" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="164" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="164" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a610b4d73529880adec7ca7f208d35953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_vColors</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_VertColors *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_vColors</name>
@@ -474,10 +446,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="171" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ae874b1dd6f445dfc947bc605133faec3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
         <definition>MRC_API MR_VertColors ** MR_PointsToMeshParameters_GetMutable_vColors</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_vColors</name>
@@ -492,10 +464,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="178" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="178" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="178" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="178" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ab87fad2bd74f45df94ddd9523a6430de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_PointsToMeshParameters_Get_progress</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_progress</name>
@@ -510,10 +482,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="185" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="185" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="185" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="185" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a1a3708d8156c455b886bbfa59024b496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_progress</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_progress</name>
@@ -522,7 +494,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -536,10 +508,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="192" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="192" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="192" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a317e76002fcde4f09243b54a46c9f88d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_PointsToMeshParameters_GetMutable_progress</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_progress</name>
@@ -554,10 +526,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="199" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="199" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="199" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="199" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a320681d0e72faa494e87937461cbd6f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
         <definition>MRC_API const MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int * MR_PointsToMeshParameters_Get_createVolumeCallbackByParts</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_createVolumeCallbackByParts</name>
@@ -572,10 +544,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="207" column="215" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="207" declcolumn="215"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="207" column="215" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="207" declcolumn="215"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1acdfe884e80ad892aef99a1ea7004687e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_createVolumeCallbackByParts</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_PassBy value_pass_by, MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_createVolumeCallbackByParts</name>
@@ -584,11 +556,11 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
+          <type><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -598,10 +570,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="215" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="215" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a365580a5216f0dd30c4ae624be2ff586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
         <definition>MRC_API MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int * MR_PointsToMeshParameters_GetMutable_createVolumeCallbackByParts</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_createVolumeCallbackByParts</name>
@@ -616,10 +588,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="223" column="209" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="223" declcolumn="209"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="223" column="209" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="223" declcolumn="209"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1add1267ba5eefe1ce0fdf68d6929a5bc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
         <definition>MRC_API const MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref * MR_PointsToMeshParameters_Get_createVolumeCallback</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_createVolumeCallback</name>
@@ -634,10 +606,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="230" column="144" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="230" declcolumn="144"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="230" column="144" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="230" declcolumn="144"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a2d122d73543b3997f9b1b3b7c708a846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_createVolumeCallback</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_PassBy value_pass_by, MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_createVolumeCallback</name>
@@ -646,11 +618,11 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+          <type><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -660,10 +632,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="237" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="237" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ad6369b9786c4f76c338eeadbac91e1c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
         <definition>MRC_API MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref * MR_PointsToMeshParameters_GetMutable_createVolumeCallback</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_createVolumeCallback</name>
@@ -678,10 +650,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="244" column="138" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="244" declcolumn="138"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="244" column="138" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="244" declcolumn="138"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a627f5e82808d322bad56bfa9316b2081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref * MR_PointsToMeshParameters_Get_canCreateVolume</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Get_canCreateVolume</name>
@@ -696,10 +668,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="251" column="107" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="251" declcolumn="107"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="251" column="107" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="251" declcolumn="107"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a5da710d4d2d91f3b99696dd43d69b467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Set_canCreateVolume</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref *value)</argsstring>
         <name>MR_PointsToMeshParameters_Set_canCreateVolume</name>
@@ -708,11 +680,11 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
           <declname>value</declname>
         </param>
         <briefdescription>
@@ -722,10 +694,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="258" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="258" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a5cd95bd71114234f0d3cc58e5c3e4ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref * MR_PointsToMeshParameters_GetMutable_canCreateVolume</definition>
         <argsstring>(MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_GetMutable_canCreateVolume</name>
@@ -740,10 +712,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="265" column="101" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="265" declcolumn="101"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="265" column="101" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="265" declcolumn="101"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a16253cd2747a4a603593707250c885b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PointsToMeshParameters_DefaultConstruct</name>
@@ -757,10 +729,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="269" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="269" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="269" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="269" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a87476bf1a126aa4bd8636a4b1e6c59b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PointsToMeshParameters_DefaultConstructArray</name>
@@ -775,10 +747,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="274" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="274" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="274" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="274" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1aac106060658669cc7b6d96ca9a3b89cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_ConstructFrom</definition>
         <argsstring>(float sigma, float minWeight, float invSigmaModifier, bool sqrtAngleWeight, float voxelSize, const MR_VertColors *ptColors, MR_VertColors *vColors, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress, MR_PassBy createVolumeCallbackByParts_pass_by, MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int *createVolumeCallbackByParts, MR_PassBy createVolumeCallback_pass_by, MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref *createVolumeCallback, MR_PassBy canCreateVolume_pass_by, MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref *canCreateVolume)</argsstring>
         <name>MR_PointsToMeshParameters_ConstructFrom</name>
@@ -811,7 +783,7 @@
           <declname>vColors</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progress_pass_by</declname>
         </param>
         <param>
@@ -819,27 +791,27 @@
           <declname>progress</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>createVolumeCallbackByParts_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
+          <type><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref> *</type>
           <declname>createVolumeCallbackByParts</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>createVolumeCallback_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+          <type><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
           <declname>createVolumeCallback</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>canCreateVolume_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref> *</type>
           <declname>canCreateVolume</declname>
         </param>
         <briefdescription>
@@ -849,10 +821,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="285" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="285" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="285" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="285" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a7ea08e2ef246c7f866d503e6ce45e9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API const MR_PointsToMeshParameters * MR_PointsToMeshParameters_OffsetPtr</definition>
         <argsstring>(const MR_PointsToMeshParameters *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsToMeshParameters_OffsetPtr</name>
@@ -871,10 +843,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="289" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="289" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="289" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="289" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1af32cf3b0a6d67e7ff477a89a8a854444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_OffsetMutablePtr</definition>
         <argsstring>(MR_PointsToMeshParameters *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsToMeshParameters_OffsetMutablePtr</name>
@@ -893,15 +865,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="293" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="293" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="293" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="293" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a4830fa967ef96feb25e71be0148e7cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PointsToMeshParameters *_other)</argsstring>
         <name>MR_PointsToMeshParameters_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -915,10 +887,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="298" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="298" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="298" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="298" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1ac2e4f245d8d6d57019ca78dadd944dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_Destroy</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_Destroy</name>
@@ -933,10 +905,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="301" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="301" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1a74fe108ab7072b6d30f12d30445b8943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToMeshParameters_DestroyArray</definition>
         <argsstring>(const MR_PointsToMeshParameters *_this)</argsstring>
         <name>MR_PointsToMeshParameters_DestroyArray</name>
@@ -951,10 +923,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="304" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="304" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1add793906d9d533ce958c7abde23211a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref> *</type>
         <definition>MRC_API MR_PointsToMeshParameters * MR_PointsToMeshParameters_AssignFromAnother</definition>
         <argsstring>(MR_PointsToMeshParameters *_this, MR_PassBy _other_pass_by, MR_PointsToMeshParameters *_other)</argsstring>
         <name>MR_PointsToMeshParameters_AssignFromAnother</name>
@@ -963,7 +935,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -977,10 +949,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="311" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="311" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="311" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="311" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToMeshFusion_8h_1abd4eb307824b69a55471aee7577fee54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_pointsToMeshFusion</definition>
         <argsstring>(const MR_PointCloud *cloud, const MR_PointsToMeshParameters *params)</argsstring>
         <name>MR_pointsToMeshFusion</name>
@@ -995,11 +967,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>makes mesh from points with normals by constructing intermediate volume with signed distances and then using marching cubes algorithm to extract the surface from there Generated from function <computeroutput>MR::pointsToMeshFusion</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>makes mesh from points with normals by constructing intermediate volume with signed distances and then using marching cubes algorithm to extract the surface from there Generated from function <computeroutput>MR::pointsToMeshFusion</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" line="319" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h" declline="319" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" line="319" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h" declline="319" declcolumn="40"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1009,8 +981,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1022,104 +994,104 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR__4cb9.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistance__5fc9.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR__4cb9.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistance__5fc9.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRPointsToMeshFusion_8h_1a782fb383ff70ce44d5c9f43b7aaffbc1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a782fb383ff70ce44d5c9f43b7aaffbc1" kindref="member">MR_PointsToMeshParameters_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32" refid="MRPointsToMeshFusion_8h_1a782fb383ff70ce44d5c9f43b7aaffbc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a782fb383ff70ce44d5c9f43b7aaffbc1" kindref="member">MR_PointsToMeshParameters_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRPointsToMeshFusion_8h_1a305e42a2ed9f26297d04b65f1f5cd948" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a305e42a2ed9f26297d04b65f1f5cd948" kindref="member">MR_PointsToMeshParameters_Set_sigma</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="39" refid="MRPointsToMeshFusion_8h_1a305e42a2ed9f26297d04b65f1f5cd948" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a305e42a2ed9f26297d04b65f1f5cd948" kindref="member">MR_PointsToMeshParameters_Set_sigma</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRPointsToMeshFusion_8h_1ab3d90184a8f52145259422fb0efd9850" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ab3d90184a8f52145259422fb0efd9850" kindref="member">MR_PointsToMeshParameters_GetMutable_sigma</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRPointsToMeshFusion_8h_1ab3d90184a8f52145259422fb0efd9850" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ab3d90184a8f52145259422fb0efd9850" kindref="member">MR_PointsToMeshParameters_GetMutable_sigma</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRPointsToMeshFusion_8h_1a2ab8a39701d697b8f00ba1d5e75874f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a2ab8a39701d697b8f00ba1d5e75874f7" kindref="member">MR_PointsToMeshParameters_Get_minWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="MRPointsToMeshFusion_8h_1a2ab8a39701d697b8f00ba1d5e75874f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a2ab8a39701d697b8f00ba1d5e75874f7" kindref="member">MR_PointsToMeshParameters_Get_minWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPointsToMeshFusion_8h_1a996bea93cf5ce0e12e5efbaafe65b56c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a996bea93cf5ce0e12e5efbaafe65b56c" kindref="member">MR_PointsToMeshParameters_Set_minWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60" refid="MRPointsToMeshFusion_8h_1a996bea93cf5ce0e12e5efbaafe65b56c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a996bea93cf5ce0e12e5efbaafe65b56c" kindref="member">MR_PointsToMeshParameters_Set_minWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRPointsToMeshFusion_8h_1a2c248e2f22f0e8a3b844e5b4556f1adb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a2c248e2f22f0e8a3b844e5b4556f1adb" kindref="member">MR_PointsToMeshParameters_GetMutable_minWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67" refid="MRPointsToMeshFusion_8h_1a2c248e2f22f0e8a3b844e5b4556f1adb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a2c248e2f22f0e8a3b844e5b4556f1adb" kindref="member">MR_PointsToMeshParameters_GetMutable_minWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRPointsToMeshFusion_8h_1a127533903f16d0c2a9d34af42f0fab53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a127533903f16d0c2a9d34af42f0fab53" kindref="member">MR_PointsToMeshParameters_Get_invSigmaModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75" refid="MRPointsToMeshFusion_8h_1a127533903f16d0c2a9d34af42f0fab53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a127533903f16d0c2a9d34af42f0fab53" kindref="member">MR_PointsToMeshParameters_Get_invSigmaModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRPointsToMeshFusion_8h_1a034f78c5cba6357e5b738b6ab38598de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a034f78c5cba6357e5b738b6ab38598de" kindref="member">MR_PointsToMeshParameters_Set_invSigmaModifier</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="82" refid="MRPointsToMeshFusion_8h_1a034f78c5cba6357e5b738b6ab38598de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a034f78c5cba6357e5b738b6ab38598de" kindref="member">MR_PointsToMeshParameters_Set_invSigmaModifier</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRPointsToMeshFusion_8h_1a531c118e12646e9985a5b916860c5ee8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a531c118e12646e9985a5b916860c5ee8" kindref="member">MR_PointsToMeshParameters_GetMutable_invSigmaModifier</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="MRPointsToMeshFusion_8h_1a531c118e12646e9985a5b916860c5ee8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a531c118e12646e9985a5b916860c5ee8" kindref="member">MR_PointsToMeshParameters_GetMutable_invSigmaModifier</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRPointsToMeshFusion_8h_1acac8439750c699315202332db91d4ec2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1acac8439750c699315202332db91d4ec2" kindref="member">MR_PointsToMeshParameters_Get_sqrtAngleWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98" refid="MRPointsToMeshFusion_8h_1acac8439750c699315202332db91d4ec2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1acac8439750c699315202332db91d4ec2" kindref="member">MR_PointsToMeshParameters_Get_sqrtAngleWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRPointsToMeshFusion_8h_1a8d3768a9f56e60ce39c6deeba6d2240e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a8d3768a9f56e60ce39c6deeba6d2240e" kindref="member">MR_PointsToMeshParameters_Set_sqrtAngleWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="105" refid="MRPointsToMeshFusion_8h_1a8d3768a9f56e60ce39c6deeba6d2240e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a8d3768a9f56e60ce39c6deeba6d2240e" kindref="member">MR_PointsToMeshParameters_Set_sqrtAngleWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRPointsToMeshFusion_8h_1aaaa28ff4d4238b734e5c88b7b5f1c111" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aaaa28ff4d4238b734e5c88b7b5f1c111" kindref="member">MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113" refid="MRPointsToMeshFusion_8h_1aaaa28ff4d4238b734e5c88b7b5f1c111" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aaaa28ff4d4238b734e5c88b7b5f1c111" kindref="member">MR_PointsToMeshParameters_GetMutable_sqrtAngleWeight</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRPointsToMeshFusion_8h_1a30bd875d3288b2f01e9c9fc0403b3bfb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a30bd875d3288b2f01e9c9fc0403b3bfb" kindref="member">MR_PointsToMeshParameters_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121" refid="MRPointsToMeshFusion_8h_1a30bd875d3288b2f01e9c9fc0403b3bfb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a30bd875d3288b2f01e9c9fc0403b3bfb" kindref="member">MR_PointsToMeshParameters_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRPointsToMeshFusion_8h_1a70aa6d57f226ed981c9ec2a480cd1550" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a70aa6d57f226ed981c9ec2a480cd1550" kindref="member">MR_PointsToMeshParameters_Set_voxelSize</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="128" refid="MRPointsToMeshFusion_8h_1a70aa6d57f226ed981c9ec2a480cd1550" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a70aa6d57f226ed981c9ec2a480cd1550" kindref="member">MR_PointsToMeshParameters_Set_voxelSize</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRPointsToMeshFusion_8h_1adaf6872d4df1c547f69c39f13c3a3db8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1adaf6872d4df1c547f69c39f13c3a3db8" kindref="member">MR_PointsToMeshParameters_GetMutable_voxelSize</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRPointsToMeshFusion_8h_1adaf6872d4df1c547f69c39f13c3a3db8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1adaf6872d4df1c547f69c39f13c3a3db8" kindref="member">MR_PointsToMeshParameters_GetMutable_voxelSize</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRPointsToMeshFusion_8h_1aeadc8e747be49572606c21d03944b66e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aeadc8e747be49572606c21d03944b66e" kindref="member">MR_PointsToMeshParameters_Get_ptColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143" refid="MRPointsToMeshFusion_8h_1aeadc8e747be49572606c21d03944b66e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aeadc8e747be49572606c21d03944b66e" kindref="member">MR_PointsToMeshParameters_Get_ptColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRPointsToMeshFusion_8h_1a5a8dcc9a88c89ff385041a5983609d86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a5a8dcc9a88c89ff385041a5983609d86" kindref="member">MR_PointsToMeshParameters_Set_ptColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="150" refid="MRPointsToMeshFusion_8h_1a5a8dcc9a88c89ff385041a5983609d86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a5a8dcc9a88c89ff385041a5983609d86" kindref="member">MR_PointsToMeshParameters_Set_ptColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRPointsToMeshFusion_8h_1ab3b79a201333ea6b9ea728163c07821e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsToMeshFusion_8h_1ab3b79a201333ea6b9ea728163c07821e" kindref="member">MR_PointsToMeshParameters_GetMutable_ptColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157" refid="MRPointsToMeshFusion_8h_1ab3b79a201333ea6b9ea728163c07821e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsToMeshFusion_8h_1ab3b79a201333ea6b9ea728163c07821e" kindref="member">MR_PointsToMeshParameters_GetMutable_ptColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRPointsToMeshFusion_8h_1aac559e8007d69d44294fb8967700b910" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aac559e8007d69d44294fb8967700b910" kindref="member">MR_PointsToMeshParameters_Get_vColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164" refid="MRPointsToMeshFusion_8h_1aac559e8007d69d44294fb8967700b910" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aac559e8007d69d44294fb8967700b910" kindref="member">MR_PointsToMeshParameters_Get_vColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRPointsToMeshFusion_8h_1a610b4d73529880adec7ca7f208d35953" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a610b4d73529880adec7ca7f208d35953" kindref="member">MR_PointsToMeshParameters_Set_vColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171" refid="MRPointsToMeshFusion_8h_1a610b4d73529880adec7ca7f208d35953" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a610b4d73529880adec7ca7f208d35953" kindref="member">MR_PointsToMeshParameters_Set_vColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRPointsToMeshFusion_8h_1ae874b1dd6f445dfc947bc605133faec3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsToMeshFusion_8h_1ae874b1dd6f445dfc947bc605133faec3" kindref="member">MR_PointsToMeshParameters_GetMutable_vColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178" refid="MRPointsToMeshFusion_8h_1ae874b1dd6f445dfc947bc605133faec3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRPointsToMeshFusion_8h_1ae874b1dd6f445dfc947bc605133faec3" kindref="member">MR_PointsToMeshParameters_GetMutable_vColors</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRPointsToMeshFusion_8h_1ab87fad2bd74f45df94ddd9523a6430de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ab87fad2bd74f45df94ddd9523a6430de" kindref="member">MR_PointsToMeshParameters_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185" refid="MRPointsToMeshFusion_8h_1ab87fad2bd74f45df94ddd9523a6430de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ab87fad2bd74f45df94ddd9523a6430de" kindref="member">MR_PointsToMeshParameters_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRPointsToMeshFusion_8h_1a1a3708d8156c455b886bbfa59024b496" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a1a3708d8156c455b886bbfa59024b496" kindref="member">MR_PointsToMeshParameters_Set_progress</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="192" refid="MRPointsToMeshFusion_8h_1a1a3708d8156c455b886bbfa59024b496" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a1a3708d8156c455b886bbfa59024b496" kindref="member">MR_PointsToMeshParameters_Set_progress</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="199" refid="MRPointsToMeshFusion_8h_1a317e76002fcde4f09243b54a46c9f88d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a317e76002fcde4f09243b54a46c9f88d" kindref="member">MR_PointsToMeshParameters_GetMutable_progress</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199" refid="MRPointsToMeshFusion_8h_1a317e76002fcde4f09243b54a46c9f88d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a317e76002fcde4f09243b54a46c9f88d" kindref="member">MR_PointsToMeshParameters_GetMutable_progress</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRPointsToMeshFusion_8h_1a320681d0e72faa494e87937461cbd6f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a320681d0e72faa494e87937461cbd6f5" kindref="member">MR_PointsToMeshParameters_Get_createVolumeCallbackByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207" refid="MRPointsToMeshFusion_8h_1a320681d0e72faa494e87937461cbd6f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a320681d0e72faa494e87937461cbd6f5" kindref="member">MR_PointsToMeshParameters_Get_createVolumeCallbackByParts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215" refid="MRPointsToMeshFusion_8h_1acdfe884e80ad892aef99a1ea7004687e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1acdfe884e80ad892aef99a1ea7004687e" kindref="member">MR_PointsToMeshParameters_Set_createVolumeCallbackByParts</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="215" refid="MRPointsToMeshFusion_8h_1acdfe884e80ad892aef99a1ea7004687e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1acdfe884e80ad892aef99a1ea7004687e" kindref="member">MR_PointsToMeshParameters_Set_createVolumeCallbackByParts</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRPointsToMeshFusion_8h_1a365580a5216f0dd30c4ae624be2ff586" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a365580a5216f0dd30c4ae624be2ff586" kindref="member">MR_PointsToMeshParameters_GetMutable_createVolumeCallbackByParts</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223" refid="MRPointsToMeshFusion_8h_1a365580a5216f0dd30c4ae624be2ff586" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a365580a5216f0dd30c4ae624be2ff586" kindref="member">MR_PointsToMeshParameters_GetMutable_createVolumeCallbackByParts</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="230" refid="MRPointsToMeshFusion_8h_1add1267ba5eefe1ce0fdf68d6929a5bc6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1add1267ba5eefe1ce0fdf68d6929a5bc6" kindref="member">MR_PointsToMeshParameters_Get_createVolumeCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="230" refid="MRPointsToMeshFusion_8h_1add1267ba5eefe1ce0fdf68d6929a5bc6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1add1267ba5eefe1ce0fdf68d6929a5bc6" kindref="member">MR_PointsToMeshParameters_Get_createVolumeCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRPointsToMeshFusion_8h_1a2d122d73543b3997f9b1b3b7c708a846" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a2d122d73543b3997f9b1b3b7c708a846" kindref="member">MR_PointsToMeshParameters_Set_createVolumeCallback</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="237" refid="MRPointsToMeshFusion_8h_1a2d122d73543b3997f9b1b3b7c708a846" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a2d122d73543b3997f9b1b3b7c708a846" kindref="member">MR_PointsToMeshParameters_Set_createVolumeCallback</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRPointsToMeshFusion_8h_1ad6369b9786c4f76c338eeadbac91e1c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ad6369b9786c4f76c338eeadbac91e1c2" kindref="member">MR_PointsToMeshParameters_GetMutable_createVolumeCallback</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244" refid="MRPointsToMeshFusion_8h_1ad6369b9786c4f76c338eeadbac91e1c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1ad6369b9786c4f76c338eeadbac91e1c2" kindref="member">MR_PointsToMeshParameters_GetMutable_createVolumeCallback</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="251" refid="MRPointsToMeshFusion_8h_1a627f5e82808d322bad56bfa9316b2081" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a627f5e82808d322bad56bfa9316b2081" kindref="member">MR_PointsToMeshParameters_Get_canCreateVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251" refid="MRPointsToMeshFusion_8h_1a627f5e82808d322bad56bfa9316b2081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a627f5e82808d322bad56bfa9316b2081" kindref="member">MR_PointsToMeshParameters_Get_canCreateVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRPointsToMeshFusion_8h_1a5da710d4d2d91f3b99696dd43d69b467" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a5da710d4d2d91f3b99696dd43d69b467" kindref="member">MR_PointsToMeshParameters_Set_canCreateVolume</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="258" refid="MRPointsToMeshFusion_8h_1a5da710d4d2d91f3b99696dd43d69b467" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a5da710d4d2d91f3b99696dd43d69b467" kindref="member">MR_PointsToMeshParameters_Set_canCreateVolume</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
-<codeline lineno="265" refid="MRPointsToMeshFusion_8h_1a5cd95bd71114234f0d3cc58e5c3e4ebe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a5cd95bd71114234f0d3cc58e5c3e4ebe" kindref="member">MR_PointsToMeshParameters_GetMutable_canCreateVolume</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265" refid="MRPointsToMeshFusion_8h_1a5cd95bd71114234f0d3cc58e5c3e4ebe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a5cd95bd71114234f0d3cc58e5c3e4ebe" kindref="member">MR_PointsToMeshParameters_GetMutable_canCreateVolume</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="266"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRPointsToMeshFusion_8h_1a16253cd2747a4a603593707250c885b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a16253cd2747a4a603593707250c885b2" kindref="member">MR_PointsToMeshParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="269" refid="MRPointsToMeshFusion_8h_1a16253cd2747a4a603593707250c885b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a16253cd2747a4a603593707250c885b2" kindref="member">MR_PointsToMeshParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="274" refid="MRPointsToMeshFusion_8h_1a87476bf1a126aa4bd8636a4b1e6c59b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a87476bf1a126aa4bd8636a4b1e6c59b2" kindref="member">MR_PointsToMeshParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="274" refid="MRPointsToMeshFusion_8h_1a87476bf1a126aa4bd8636a4b1e6c59b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a87476bf1a126aa4bd8636a4b1e6c59b2" kindref="member">MR_PointsToMeshParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="275"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285" refid="MRPointsToMeshFusion_8h_1aac106060658669cc7b6d96ca9a3b89cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aac106060658669cc7b6d96ca9a3b89cc" kindref="member">MR_PointsToMeshParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minWeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>invSigmaModifier,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sqrtAngleWeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*ptColors,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*vColors,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/>MR_PassBy<sp/>createVolumeCallbackByParts_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*createVolumeCallbackByParts,<sp/>MR_PassBy<sp/>createVolumeCallback_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*createVolumeCallback,<sp/>MR_PassBy<sp/>canCreateVolume_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*canCreateVolume);</highlight></codeline>
+<codeline lineno="285" refid="MRPointsToMeshFusion_8h_1aac106060658669cc7b6d96ca9a3b89cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1aac106060658669cc7b6d96ca9a3b89cc" kindref="member">MR_PointsToMeshParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minWeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>invSigmaModifier,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>sqrtAngleWeight,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*ptColors,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*vColors,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>createVolumeCallbackByParts_pass_by,<sp/><ref refid="std__function__expected__void__std__string__from__const__MR__PointCloud__ref__const__MR__PointsToDistance____5fc9_8h_1af0700ba8b4cc1879efcb8b2d8e5e8166" kindref="member">MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int</ref><sp/>*createVolumeCallbackByParts,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>createVolumeCallback_pass_by,<sp/><ref refid="std__function__expected__MR__SimpleVolumeMinMax__std__string__from__const__MR__PointCloud__ref__const__MR____4cb9_8h_1a4ef68edfc3c352c52516512b5c094a04" kindref="member">MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*createVolumeCallback,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>canCreateVolume_pass_by,<sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1aeeeb6c5bdb7d63d48e26ab2edd8116ab" kindref="member">MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref</ref><sp/>*canCreateVolume);</highlight></codeline>
 <codeline lineno="286"><highlight class="normal"></highlight></codeline>
-<codeline lineno="289" refid="MRPointsToMeshFusion_8h_1a7ea08e2ef246c7f866d503e6ce45e9fa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a7ea08e2ef246c7f866d503e6ce45e9fa" kindref="member">MR_PointsToMeshParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="289" refid="MRPointsToMeshFusion_8h_1a7ea08e2ef246c7f866d503e6ce45e9fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a7ea08e2ef246c7f866d503e6ce45e9fa" kindref="member">MR_PointsToMeshParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="290"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRPointsToMeshFusion_8h_1af32cf3b0a6d67e7ff477a89a8a854444" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1af32cf3b0a6d67e7ff477a89a8a854444" kindref="member">MR_PointsToMeshParameters_OffsetMutablePtr</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="293" refid="MRPointsToMeshFusion_8h_1af32cf3b0a6d67e7ff477a89a8a854444" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1af32cf3b0a6d67e7ff477a89a8a854444" kindref="member">MR_PointsToMeshParameters_OffsetMutablePtr</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRPointsToMeshFusion_8h_1a4830fa967ef96feb25e71be0148e7cdf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a4830fa967ef96feb25e71be0148e7cdf" kindref="member">MR_PointsToMeshParameters_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="298" refid="MRPointsToMeshFusion_8h_1a4830fa967ef96feb25e71be0148e7cdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1a4830fa967ef96feb25e71be0148e7cdf" kindref="member">MR_PointsToMeshParameters_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="301" refid="MRPointsToMeshFusion_8h_1ac2e4f245d8d6d57019ca78dadd944dd4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ac2e4f245d8d6d57019ca78dadd944dd4" kindref="member">MR_PointsToMeshParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="301" refid="MRPointsToMeshFusion_8h_1ac2e4f245d8d6d57019ca78dadd944dd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ac2e4f245d8d6d57019ca78dadd944dd4" kindref="member">MR_PointsToMeshParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="302"><highlight class="normal"></highlight></codeline>
-<codeline lineno="304" refid="MRPointsToMeshFusion_8h_1a74fe108ab7072b6d30f12d30445b8943" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a74fe108ab7072b6d30f12d30445b8943" kindref="member">MR_PointsToMeshParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="304" refid="MRPointsToMeshFusion_8h_1a74fe108ab7072b6d30f12d30445b8943" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1a74fe108ab7072b6d30f12d30445b8943" kindref="member">MR_PointsToMeshParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="305"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRPointsToMeshFusion_8h_1add793906d9d533ce958c7abde23211a8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1add793906d9d533ce958c7abde23211a8" kindref="member">MR_PointsToMeshParameters_AssignFromAnother</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="311" refid="MRPointsToMeshFusion_8h_1add793906d9d533ce958c7abde23211a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1add793906d9d533ce958c7abde23211a8" kindref="member">MR_PointsToMeshParameters_AssignFromAnother</ref>(<ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
-<codeline lineno="319" refid="MRPointsToMeshFusion_8h_1abd4eb307824b69a55471aee7577fee54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1abd4eb307824b69a55471aee7577fee54" kindref="member">MR_pointsToMeshFusion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="319" refid="MRPointsToMeshFusion_8h_1abd4eb307824b69a55471aee7577fee54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRPointsToMeshFusion_8h_1abd4eb307824b69a55471aee7577fee54" kindref="member">MR_pointsToMeshFusion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshFusion_8h_1ad87c5191463fedf3c7383ddbcb57f085" kindref="member">MR_PointsToMeshParameters</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="320"><highlight class="normal"></highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="322"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="323"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToMeshFusion.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToMeshFusion.h"/>
   </compounddef>
 </doxygen>

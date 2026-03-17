@@ -1,9 +1,5 @@
 var MRVolumeSegment_8h =
 [
-    [ "MR_expected_MR_VoxelBitSet_std_string", "MRVolumeSegment_8h.html#adbc0fff30d322ff1210cc6de0d6dda12", null ],
-    [ "MR_expected_std_vector_MR_Mesh_std_string", "MRVolumeSegment_8h.html#a2704ecc047fdd30fa88d824c247edcde", null ],
-    [ "MR_std_vector_MR_Vector3i", "MRVolumeSegment_8h.html#a7f44233acc15e6606c18834b06a1629d", null ],
-    [ "MR_std_vector_std_pair_MR_Vector3f_MR_Vector3f", "MRVolumeSegment_8h.html#aa2a44878522bc2a9ca50db378bfa329b", null ],
     [ "MR_VolumeSegmentationParameters", "MRVolumeSegment_8h.html#a7121a8ffcb5592f4d56354b69b5ff914", null ],
     [ "MR_VolumeSegmenter", "MRVolumeSegment_8h.html#a44dacd5572f893e267413ac24c8daf81", null ],
     [ "MR_VolumeSegmenter_SeedType", "MRVolumeSegment_8h.html#a2af59428533d5b0b42136dfa6d503672", null ],

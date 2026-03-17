@@ -143,47 +143,31 @@ $(function(){initNavTree('MRSequentialNester_8h.html','',''); });
   <div class="headertitle"><div class="title">MRSequentialNester.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRSequentialNester_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7af52d2f25dd7325a836e12f4b78c76c" id="r_a7af52d2f25dd7325a836e12f4b78c76c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a></td></tr>
-<tr class="memitem:ab1c89c354fd202a217135e0ccc83e457" id="r_ab1c89c354fd202a217135e0ccc83e457"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a></td></tr>
 <tr class="memitem:af291d21bb0863baa7cced145cec21dc2" id="r_af291d21bb0863baa7cced145cec21dc2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a85dfb89d630de9dd4bdbe8281c60d4bc" id="r_a85dfb89d630de9dd4bdbe8281c60d4bc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85dfb89d630de9dd4bdbe8281c60d4bc">MR_Nesting_SequentialNester_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_other)</td></tr>
-<tr class="memitem:a81b935d1b0290ca657af3cbd5433daa1" id="r_a81b935d1b0290ca657af3cbd5433daa1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81b935d1b0290ca657af3cbd5433daa1">MR_Nesting_SequentialNester_OffsetPtr</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:ab833e013f1ff50c464db7c7396d56219" id="r_ab833e013f1ff50c464db7c7396d56219"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab833e013f1ff50c464db7c7396d56219">MR_Nesting_SequentialNester_OffsetMutablePtr</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a3dd3703e69ca959cb826ff5abf248f75" id="r_a3dd3703e69ca959cb826ff5abf248f75"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd3703e69ca959cb826ff5abf248f75">MR_Nesting_SequentialNester_Construct</a> (const <a class="el" href="MRBoxNesting_8h.html#a01a5f7a8548d013798066b53ac95d7bb">MR_Nesting_NestingBaseParams</a> *params, float voxelSize)</td></tr>
-<tr class="memitem:a069e897f3854b09cf15e133f35da4f3d" id="r_a069e897f3854b09cf15e133f35da4f3d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069e897f3854b09cf15e133f35da4f3d">MR_Nesting_SequentialNester_Destroy</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this)</td></tr>
+<tr class="memitem:a85dfb89d630de9dd4bdbe8281c60d4bc" id="r_a85dfb89d630de9dd4bdbe8281c60d4bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a85dfb89d630de9dd4bdbe8281c60d4bc">MR_Nesting_SequentialNester_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_other)</td></tr>
+<tr class="memitem:a81b935d1b0290ca657af3cbd5433daa1" id="r_a81b935d1b0290ca657af3cbd5433daa1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81b935d1b0290ca657af3cbd5433daa1">MR_Nesting_SequentialNester_OffsetPtr</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ab833e013f1ff50c464db7c7396d56219" id="r_ab833e013f1ff50c464db7c7396d56219"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab833e013f1ff50c464db7c7396d56219">MR_Nesting_SequentialNester_OffsetMutablePtr</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a3dd3703e69ca959cb826ff5abf248f75" id="r_a3dd3703e69ca959cb826ff5abf248f75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dd3703e69ca959cb826ff5abf248f75">MR_Nesting_SequentialNester_Construct</a> (const <a class="el" href="MRBoxNesting_8h.html#a01a5f7a8548d013798066b53ac95d7bb">MR_Nesting_NestingBaseParams</a> *params, float voxelSize)</td></tr>
+<tr class="memitem:a069e897f3854b09cf15e133f35da4f3d" id="r_a069e897f3854b09cf15e133f35da4f3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a069e897f3854b09cf15e133f35da4f3d">MR_Nesting_SequentialNester_Destroy</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this)</td></tr>
 <tr class="memdesc:a069e897f3854b09cf15e133f35da4f3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a79935791f3e4102d5c4d8ce97f5ce548" id="r_a79935791f3e4102d5c4d8ce97f5ce548"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79935791f3e4102d5c4d8ce97f5ce548">MR_Nesting_SequentialNester_DestroyArray</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this)</td></tr>
+<tr class="memitem:a79935791f3e4102d5c4d8ce97f5ce548" id="r_a79935791f3e4102d5c4d8ce97f5ce548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79935791f3e4102d5c4d8ce97f5ce548">MR_Nesting_SequentialNester_DestroyArray</a> (const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this)</td></tr>
 <tr class="memdesc:a79935791f3e4102d5c4d8ce97f5ce548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a91e5697b406d6abbef5c695c8e70d00a" id="r_a91e5697b406d6abbef5c695c8e70d00a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e5697b406d6abbef5c695c8e70d00a">MR_Nesting_SequentialNester_AssignFromAnother</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_other)</td></tr>
-<tr class="memitem:a93988ca15fd1a1dd22adbdd9631b3f71" id="r_a93988ca15fd1a1dd22adbdd9631b3f71"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93988ca15fd1a1dd22adbdd9631b3f71">MR_Nesting_SequentialNester_nestMesh</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, const <a class="el" href="MRNestingStructures_8h.html#ac738734a10fba05e5521878c2f4f5521">MR_Nesting_MeshXf</a> *meshXf, const <a class="el" href="MRBoxNesting_8h.html#a93035b6a90f74702bbaaa0ecad0053a7">MR_Nesting_BoxNestingOptions</a> *options, const <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *densificationSequence)</td></tr>
-<tr class="memitem:a94248b22efefbc86fc172701450e9756" id="r_a94248b22efefbc86fc172701450e9756"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBoxNesting_8h.html#a472a9318c0e7d5411354597b4286690d">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94248b22efefbc86fc172701450e9756">MR_Nesting_SequentialNester_nestMeshes</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, const <a class="el" href="MRNesting3mfExport_8h.html#ad9d1a459f1892b048ab0561ba2797264">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</a> *meshes, const <a class="el" href="MRBoxNesting_8h.html#a93035b6a90f74702bbaaa0ecad0053a7">MR_Nesting_BoxNestingOptions</a> *options, const <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *densificationSequence)</td></tr>
+<tr class="memitem:a91e5697b406d6abbef5c695c8e70d00a" id="r_a91e5697b406d6abbef5c695c8e70d00a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91e5697b406d6abbef5c695c8e70d00a">MR_Nesting_SequentialNester_AssignFromAnother</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_other)</td></tr>
+<tr class="memitem:a93988ca15fd1a1dd22adbdd9631b3f71" id="r_a93988ca15fd1a1dd22adbdd9631b3f71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Nesting__NestingResult__std__string_8h.html#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93988ca15fd1a1dd22adbdd9631b3f71">MR_Nesting_SequentialNester_nestMesh</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, const <a class="el" href="MRNestingStructures_8h.html#ac738734a10fba05e5521878c2f4f5521">MR_Nesting_MeshXf</a> *meshXf, const <a class="el" href="MRBoxNesting_8h.html#a93035b6a90f74702bbaaa0ecad0053a7">MR_Nesting_BoxNestingOptions</a> *options, const <a class="el" href="std__vector__MR__OutEdge_8h.html#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *densificationSequence)</td></tr>
+<tr class="memitem:a94248b22efefbc86fc172701450e9756" id="r_a94248b22efefbc86fc172701450e9756"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBoxNesting_8h.html#a472a9318c0e7d5411354597b4286690d">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94248b22efefbc86fc172701450e9756">MR_Nesting_SequentialNester_nestMeshes</a> (<a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *_this, const <a class="el" href="MRNesting3mfExport_8h.html#ad9d1a459f1892b048ab0561ba2797264">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</a> *meshes, const <a class="el" href="MRBoxNesting_8h.html#a93035b6a90f74702bbaaa0ecad0053a7">MR_Nesting_BoxNestingOptions</a> *options, const <a class="el" href="std__vector__MR__OutEdge_8h.html#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *densificationSequence)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a7af52d2f25dd7325a836e12f4b78c76c" name="a7af52d2f25dd7325a836e12f4b78c76c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7af52d2f25dd7325a836e12f4b78c76c">&#9670;&#160;</a></span>MR_expected_MR_Nesting_NestingResult_std_string</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a> <a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af291d21bb0863baa7cced145cec21dc2" name="af291d21bb0863baa7cced145cec21dc2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af291d21bb0863baa7cced145cec21dc2">&#9670;&#160;</a></span>MR_Nesting_SequentialNester</h2>
 
@@ -195,21 +179,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>class to add meshes to nest sequentially Generated from class <span class="tt">MR::Nesting::SequentialNester</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="ab1c89c354fd202a217135e0ccc83e457" name="ab1c89c354fd202a217135e0ccc83e457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c89c354fd202a217135e0ccc83e457">&#9670;&#160;</a></span>MR_std_vector_MR_OutEdge</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>class to add meshes to nest sequentially Generated from class <span class="tt">MR::Nesting::SequentialNester</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -221,14 +191,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -248,7 +218,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_Construct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_Construct </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRBoxNesting_8h.html#a01a5f7a8548d013798066b53ac95d7bb">MR_Nesting_NestingBaseParams</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span>, </td>
         </tr>
@@ -270,9 +240,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -292,7 +262,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Nesting_SequentialNester_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Nesting_SequentialNester_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -311,7 +281,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_Nesting_SequentialNester_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_Nesting_SequentialNester_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -330,7 +300,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a> * MR_Nesting_SequentialNester_nestMesh </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Nesting__NestingResult__std__string_8h.html#a7af52d2f25dd7325a836e12f4b78c76c">MR_expected_MR_Nesting_NestingResult_std_string</a> * MR_Nesting_SequentialNester_nestMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -347,11 +317,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>densificationSequence</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__OutEdge_8h.html#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>densificationSequence</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tries to add single mesh to the nest returns true if mesh is nested, false otherwise (can be canceled) Generated from method <span class="tt">MR::Nesting::SequentialNester::nestMesh</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">meshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">densificationSequence</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Nesting_NestingResult_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>tries to add single mesh to the nest returns true if mesh is nested, false otherwise (can be canceled) Generated from method <span class="tt">MR::Nesting::SequentialNester::nestMesh</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">meshXf</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">densificationSequence</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Nesting__NestingResult__std__string_8h.html#a18c44c291e83613327627a85d993d319" title="Destroys a heap-allocated instance of MR_expected_MR_Nesting_NestingResult_std_string....">MR_expected_MR_Nesting_NestingResult_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -362,7 +332,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBoxNesting_8h.html#a472a9318c0e7d5411354597b4286690d">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</a> * MR_Nesting_SequentialNester_nestMeshes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBoxNesting_8h.html#a472a9318c0e7d5411354597b4286690d">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</a> * MR_Nesting_SequentialNester_nestMeshes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -379,11 +349,11 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>densificationSequence</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="std__vector__MR__OutEdge_8h.html#ab1c89c354fd202a217135e0ccc83e457">MR_std_vector_MR_OutEdge</a> *</td>          <td class="paramname"><span class="paramname"><em>densificationSequence</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>tries to add multiple mesh to the nest returns bitset of nested meshes (can be canceled) Generated from method <span class="tt">MR::Nesting::SequentialNester::nestMeshes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">meshes</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">densificationSequence</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>tries to add multiple mesh to the nest returns bitset of nested meshes (can be canceled) Generated from method <span class="tt">MR::Nesting::SequentialNester::nestMeshes</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">meshes</span> can not be null. It is a single object. Parameter <span class="tt">options</span> can not be null. It is a single object. Parameter <span class="tt">densificationSequence</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Vector__MR__Nesting__NestingResult__MR__ObjId__std__string_8h.html#adace9b1fd11fd630291a5dd56c259006" title="Destroys a heap-allocated instance of MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_str...">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -394,7 +364,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -416,7 +386,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> * MR_Nesting_SequentialNester_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#af291d21bb0863baa7cced145cec21dc2">MR_Nesting_SequentialNester</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -438,7 +408,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a href="MRSequentialNester_8h.html">MRSequentialNester.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_0a2b2b3c4a45c3f535d8cb570d2e647d.html">MRCVoxels</a></li><li class="navelem"><a href="MRSequentialNester_8h.html">MRSequentialNester.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

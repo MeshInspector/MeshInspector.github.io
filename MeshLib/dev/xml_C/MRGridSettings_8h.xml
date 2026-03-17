@@ -3,8 +3,8 @@
   <compounddef id="MRGridSettings_8h" kind="file" language="C++">
     <compoundname>MRGridSettings.h</compoundname>
     <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -16,7 +16,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -86,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="19" bodyend="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" bodystart="19" bodyend="28"/>
       </memberdef>
       <memberdef kind="enum" id="MRGridSettings_8h_1a67dfa26a9268fcb75419dba0e0247ece" prot="public" static="no" strong="no">
         <type></type>
@@ -113,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="31" bodyend="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" bodystart="31" bodyend="36"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -128,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="28" column="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="28" column="26"/>
       </memberdef>
       <memberdef kind="typedef" id="MRGridSettings_8h_1a7a393df8efcc2bc97f02f376b197a66b" prot="public" static="no">
         <type>enum <ref refid="MRGridSettings_8h_1a67dfa26a9268fcb75419dba0e0247ece" kindref="member">MR_GridSettings_TriType</ref></type>
@@ -141,7 +152,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="36" column="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="36" column="25"/>
       </memberdef>
       <memberdef kind="typedef" id="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" prot="public" static="no">
         <type>struct <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref></type>
@@ -151,16 +162,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <computeroutput>MR::GridSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <computeroutput>MR::GridSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="41" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="41" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
         <definition>MRC_API const MR_Vector2i * MR_GridSettings_Get_dim</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_Get_dim</name>
@@ -175,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="49" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="49" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="49" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="49" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1ab8f639063d8cb985381657e0ee2a8469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_Set_dim</definition>
         <argsstring>(MR_GridSettings *_this, MR_Vector2i value)</argsstring>
         <name>MR_GridSettings_Set_dim</name>
@@ -197,10 +208,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="57" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="57" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1acee1786b3cedf78ef2a30b44753c0464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
         <definition>MRC_API MR_Vector2i * MR_GridSettings_GetMutable_dim</definition>
         <argsstring>(MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_GetMutable_dim</name>
@@ -215,10 +226,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="65" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="65" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a9e62a626adb397d095c2ec2105a998a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref> *</type>
         <definition>MRC_API const MR_BMap_MR_VertId_uint64_t * MR_GridSettings_Get_vertIds</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_Get_vertIds</name>
@@ -233,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="73" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="73" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="73" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="73" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a44b6e0ebce245ef6a74e335d9c6d01ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_Set_vertIds</definition>
         <argsstring>(MR_GridSettings *_this, MR_PassBy value_pass_by, MR_BMap_MR_VertId_uint64_t *value)</argsstring>
         <name>MR_GridSettings_Set_vertIds</name>
@@ -245,7 +256,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -259,10 +270,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1ac79f912c69efa2e4bea208a7b7081f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref> *</type>
         <definition>MRC_API MR_BMap_MR_VertId_uint64_t * MR_GridSettings_GetMutable_vertIds</definition>
         <argsstring>(MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_GetMutable_vertIds</name>
@@ -277,10 +288,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="89" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="89" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="89" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="89" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a696a81f80b5dca4fa372f8281e88d423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref> *</type>
         <definition>MRC_API const MR_BMap_MR_UndirectedEdgeId_uint64_t * MR_GridSettings_Get_uedgeIds</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_Get_uedgeIds</name>
@@ -295,10 +306,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="98" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="98" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="98" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="98" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a86474ca481b9d8679cbd27377093c3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_Set_uedgeIds</definition>
         <argsstring>(MR_GridSettings *_this, MR_PassBy value_pass_by, MR_BMap_MR_UndirectedEdgeId_uint64_t *value)</argsstring>
         <name>MR_GridSettings_Set_uedgeIds</name>
@@ -307,7 +318,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -321,10 +332,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="107" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="107" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a83decfe53806a38f00efc69458ac263d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref> *</type>
         <definition>MRC_API MR_BMap_MR_UndirectedEdgeId_uint64_t * MR_GridSettings_GetMutable_uedgeIds</definition>
         <argsstring>(MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_GetMutable_uedgeIds</name>
@@ -339,10 +350,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="116" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="116" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="116" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="116" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a40c0fff8a927e9a9fead86dde68bde9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref> *</type>
         <definition>MRC_API const MR_BMap_MR_FaceId_uint64_t * MR_GridSettings_Get_faceIds</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_Get_faceIds</name>
@@ -357,10 +368,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="125" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="125" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="125" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="125" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1afe2b2ed729f7d45a509d535328fb1cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_Set_faceIds</definition>
         <argsstring>(MR_GridSettings *_this, MR_PassBy value_pass_by, MR_BMap_MR_FaceId_uint64_t *value)</argsstring>
         <name>MR_GridSettings_Set_faceIds</name>
@@ -369,7 +380,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -383,10 +394,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="134" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="134" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1ab124ef9bcf6e76575651ad1938f37d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref> *</type>
         <definition>MRC_API MR_BMap_MR_FaceId_uint64_t * MR_GridSettings_GetMutable_faceIds</definition>
         <argsstring>(MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_GetMutable_faceIds</name>
@@ -401,10 +412,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="143" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="143" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="143" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="143" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a45f70e86504c4af97956f42e66a7764e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_GridSettings_DefaultConstruct</name>
@@ -418,10 +429,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="147" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="147" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="147" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="147" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1af2668f3f4cb3b2986f3701d92cee16ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_GridSettings_DefaultConstructArray</name>
@@ -436,10 +447,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="152" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="152" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="152" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="152" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a12454e087ab76df832f2389610634cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_ConstructFrom</definition>
         <argsstring>(MR_Vector2i dim, MR_PassBy vertIds_pass_by, MR_BMap_MR_VertId_uint64_t *vertIds, MR_PassBy uedgeIds_pass_by, MR_BMap_MR_UndirectedEdgeId_uint64_t *uedgeIds, MR_PassBy faceIds_pass_by, MR_BMap_MR_FaceId_uint64_t *faceIds)</argsstring>
         <name>MR_GridSettings_ConstructFrom</name>
@@ -448,7 +459,7 @@
           <declname>dim</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>vertIds_pass_by</declname>
         </param>
         <param>
@@ -456,7 +467,7 @@
           <declname>vertIds</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>uedgeIds_pass_by</declname>
         </param>
         <param>
@@ -464,7 +475,7 @@
           <declname>uedgeIds</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>faceIds_pass_by</declname>
         </param>
         <param>
@@ -478,10 +489,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="161" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="161" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="161" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="161" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1aca113f827311d3783588bef40e2299b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API const MR_GridSettings * MR_GridSettings_OffsetPtr</definition>
         <argsstring>(const MR_GridSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_GridSettings_OffsetPtr</name>
@@ -500,10 +511,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="165" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="165" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="165" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="165" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a0dbf2e7a8836cc557bb12c5f29f2e8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_GridSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_GridSettings_OffsetMutablePtr</name>
@@ -522,15 +533,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="169" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="169" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="169" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="169" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a998e128bb271649a68cac29369700976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_GridSettings *_other)</argsstring>
         <name>MR_GridSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -544,10 +555,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="174" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="174" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="174" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="174" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_Destroy</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_Destroy</name>
@@ -562,10 +573,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="177" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="177" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1af9a1cb8c7e11b9b7d12599373f10af5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_GridSettings_DestroyArray</definition>
         <argsstring>(const MR_GridSettings *_this)</argsstring>
         <name>MR_GridSettings_DestroyArray</name>
@@ -580,10 +591,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="180" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRGridSettings_8h_1a6a8b8d44268cc46142c76a113449c04b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref> *</type>
         <definition>MRC_API MR_GridSettings * MR_GridSettings_AssignFromAnother</definition>
         <argsstring>(MR_GridSettings *_this, MR_PassBy _other_pass_by, MR_GridSettings *_other)</argsstring>
         <name>MR_GridSettings_AssignFromAnother</name>
@@ -592,7 +603,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -606,7 +617,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" line="187" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h" declline="187" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" line="187" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h" declline="187" declcolumn="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -617,8 +628,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -653,52 +664,52 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49" refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" kindref="member">MR_GridSettings_Get_dim</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49" refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRGridSettings_8h_1ab2837951c78644b63d62e291f5b20e98" kindref="member">MR_GridSettings_Get_dim</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRGridSettings_8h_1ab8f639063d8cb985381657e0ee2a8469" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1ab8f639063d8cb985381657e0ee2a8469" kindref="member">MR_GridSettings_Set_dim</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="57" refid="MRGridSettings_8h_1ab8f639063d8cb985381657e0ee2a8469" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1ab8f639063d8cb985381657e0ee2a8469" kindref="member">MR_GridSettings_Set_dim</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRGridSettings_8h_1acee1786b3cedf78ef2a30b44753c0464" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRGridSettings_8h_1acee1786b3cedf78ef2a30b44753c0464" kindref="member">MR_GridSettings_GetMutable_dim</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65" refid="MRGridSettings_8h_1acee1786b3cedf78ef2a30b44753c0464" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRGridSettings_8h_1acee1786b3cedf78ef2a30b44753c0464" kindref="member">MR_GridSettings_GetMutable_dim</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRGridSettings_8h_1a9e62a626adb397d095c2ec2105a998a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a9e62a626adb397d095c2ec2105a998a4" kindref="member">MR_GridSettings_Get_vertIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73" refid="MRGridSettings_8h_1a9e62a626adb397d095c2ec2105a998a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a9e62a626adb397d095c2ec2105a998a4" kindref="member">MR_GridSettings_Get_vertIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRGridSettings_8h_1a44b6e0ebce245ef6a74e335d9c6d01ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a44b6e0ebce245ef6a74e335d9c6d01ac" kindref="member">MR_GridSettings_Set_vertIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81" refid="MRGridSettings_8h_1a44b6e0ebce245ef6a74e335d9c6d01ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a44b6e0ebce245ef6a74e335d9c6d01ac" kindref="member">MR_GridSettings_Set_vertIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRGridSettings_8h_1ac79f912c69efa2e4bea208a7b7081f66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1ac79f912c69efa2e4bea208a7b7081f66" kindref="member">MR_GridSettings_GetMutable_vertIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89" refid="MRGridSettings_8h_1ac79f912c69efa2e4bea208a7b7081f66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1ac79f912c69efa2e4bea208a7b7081f66" kindref="member">MR_GridSettings_GetMutable_vertIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRGridSettings_8h_1a696a81f80b5dca4fa372f8281e88d423" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a696a81f80b5dca4fa372f8281e88d423" kindref="member">MR_GridSettings_Get_uedgeIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98" refid="MRGridSettings_8h_1a696a81f80b5dca4fa372f8281e88d423" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a696a81f80b5dca4fa372f8281e88d423" kindref="member">MR_GridSettings_Get_uedgeIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRGridSettings_8h_1a86474ca481b9d8679cbd27377093c3f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a86474ca481b9d8679cbd27377093c3f9" kindref="member">MR_GridSettings_Set_uedgeIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="107" refid="MRGridSettings_8h_1a86474ca481b9d8679cbd27377093c3f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a86474ca481b9d8679cbd27377093c3f9" kindref="member">MR_GridSettings_Set_uedgeIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRGridSettings_8h_1a83decfe53806a38f00efc69458ac263d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a83decfe53806a38f00efc69458ac263d" kindref="member">MR_GridSettings_GetMutable_uedgeIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116" refid="MRGridSettings_8h_1a83decfe53806a38f00efc69458ac263d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a83decfe53806a38f00efc69458ac263d" kindref="member">MR_GridSettings_GetMutable_uedgeIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRGridSettings_8h_1a40c0fff8a927e9a9fead86dde68bde9b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a40c0fff8a927e9a9fead86dde68bde9b" kindref="member">MR_GridSettings_Get_faceIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125" refid="MRGridSettings_8h_1a40c0fff8a927e9a9fead86dde68bde9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1a40c0fff8a927e9a9fead86dde68bde9b" kindref="member">MR_GridSettings_Get_faceIds</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRGridSettings_8h_1afe2b2ed729f7d45a509d535328fb1cf6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1afe2b2ed729f7d45a509d535328fb1cf6" kindref="member">MR_GridSettings_Set_faceIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="134" refid="MRGridSettings_8h_1afe2b2ed729f7d45a509d535328fb1cf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1afe2b2ed729f7d45a509d535328fb1cf6" kindref="member">MR_GridSettings_Set_faceIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRGridSettings_8h_1ab124ef9bcf6e76575651ad1938f37d6e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1ab124ef9bcf6e76575651ad1938f37d6e" kindref="member">MR_GridSettings_GetMutable_faceIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143" refid="MRGridSettings_8h_1ab124ef9bcf6e76575651ad1938f37d6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*<ref refid="MRGridSettings_8h_1ab124ef9bcf6e76575651ad1938f37d6e" kindref="member">MR_GridSettings_GetMutable_faceIds</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRGridSettings_8h_1a45f70e86504c4af97956f42e66a7764e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a45f70e86504c4af97956f42e66a7764e" kindref="member">MR_GridSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147" refid="MRGridSettings_8h_1a45f70e86504c4af97956f42e66a7764e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a45f70e86504c4af97956f42e66a7764e" kindref="member">MR_GridSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRGridSettings_8h_1af2668f3f4cb3b2986f3701d92cee16ca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1af2668f3f4cb3b2986f3701d92cee16ca" kindref="member">MR_GridSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="152" refid="MRGridSettings_8h_1af2668f3f4cb3b2986f3701d92cee16ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1af2668f3f4cb3b2986f3701d92cee16ca" kindref="member">MR_GridSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRGridSettings_8h_1a12454e087ab76df832f2389610634cc1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a12454e087ab76df832f2389610634cc1" kindref="member">MR_GridSettings_ConstructFrom</ref>(<ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>dim,<sp/>MR_PassBy<sp/>vertIds_pass_by,<sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*vertIds,<sp/>MR_PassBy<sp/>uedgeIds_pass_by,<sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*uedgeIds,<sp/>MR_PassBy<sp/>faceIds_pass_by,<sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*faceIds);</highlight></codeline>
+<codeline lineno="161" refid="MRGridSettings_8h_1a12454e087ab76df832f2389610634cc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a12454e087ab76df832f2389610634cc1" kindref="member">MR_GridSettings_ConstructFrom</ref>(<ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>dim,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>vertIds_pass_by,<sp/><ref refid="MRBuffer_8h_1a7f5f03336386d65f3e0804994394713e" kindref="member">MR_BMap_MR_VertId_uint64_t</ref><sp/>*vertIds,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>uedgeIds_pass_by,<sp/><ref refid="MRBuffer_8h_1a8a7105d6f2c0d694d7dff11a45e316f9" kindref="member">MR_BMap_MR_UndirectedEdgeId_uint64_t</ref><sp/>*uedgeIds,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>faceIds_pass_by,<sp/><ref refid="MRBuffer_8h_1ac3b408307603e915fb9df60a6981b582" kindref="member">MR_BMap_MR_FaceId_uint64_t</ref><sp/>*faceIds);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRGridSettings_8h_1aca113f827311d3783588bef40e2299b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1aca113f827311d3783588bef40e2299b0" kindref="member">MR_GridSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="165" refid="MRGridSettings_8h_1aca113f827311d3783588bef40e2299b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1aca113f827311d3783588bef40e2299b0" kindref="member">MR_GridSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRGridSettings_8h_1a0dbf2e7a8836cc557bb12c5f29f2e8b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a0dbf2e7a8836cc557bb12c5f29f2e8b4" kindref="member">MR_GridSettings_OffsetMutablePtr</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="169" refid="MRGridSettings_8h_1a0dbf2e7a8836cc557bb12c5f29f2e8b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a0dbf2e7a8836cc557bb12c5f29f2e8b4" kindref="member">MR_GridSettings_OffsetMutablePtr</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRGridSettings_8h_1a998e128bb271649a68cac29369700976" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a998e128bb271649a68cac29369700976" kindref="member">MR_GridSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="174" refid="MRGridSettings_8h_1a998e128bb271649a68cac29369700976" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a998e128bb271649a68cac29369700976" kindref="member">MR_GridSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" kindref="member">MR_GridSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177" refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a301db484650714a6cbafba01c6620f97" kindref="member">MR_GridSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRGridSettings_8h_1af9a1cb8c7e11b9b7d12599373f10af5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1af9a1cb8c7e11b9b7d12599373f10af5f" kindref="member">MR_GridSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="180" refid="MRGridSettings_8h_1af9a1cb8c7e11b9b7d12599373f10af5f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1af9a1cb8c7e11b9b7d12599373f10af5f" kindref="member">MR_GridSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRGridSettings_8h_1a6a8b8d44268cc46142c76a113449c04b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a6a8b8d44268cc46142c76a113449c04b" kindref="member">MR_GridSettings_AssignFromAnother</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="187" refid="MRGridSettings_8h_1a6a8b8d44268cc46142c76a113449c04b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*<ref refid="MRGridSettings_8h_1a6a8b8d44268cc46142c76a113449c04b" kindref="member">MR_GridSettings_AssignFromAnother</ref>(<ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRGridSettings_8h_1a1fed3ff99b050e83b401a1b490fe0e58" kindref="member">MR_GridSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="190"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRGridSettings.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRGridSettings.h"/>
   </compounddef>
 </doxygen>

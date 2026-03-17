@@ -1,9 +1,6 @@
 var MRVoxelsVolume_8h =
 [
     [ "MR_FunctionVolumeU8", "MRVoxelsVolume_8h.html#a480ce5e5c2dfe6c859cc7a844065c5fa", null ],
-    [ "MR_SimpleVolumeMinMaxU16", "MRVoxelsVolume_8h.html#ab1efb7cbe013a5efb4e773a0f9f524f2", null ],
-    [ "MR_std_function_float_from_const_MR_Vector3i_ref", "MRVoxelsVolume_8h.html#a7ac6611449c281ea5a1d9bd0ede7b138", null ],
-    [ "MR_std_function_unsigned_char_from_const_MR_Vector3i_ref", "MRVoxelsVolume_8h.html#a4df916e9131c785d95761ba90b4d3542", null ],
     [ "MR_VoxelsVolume_MR_FloatGrid", "MRVoxelsVolume_8h.html#a8adc9b97c5e21a2a5100eed8d268976f", null ],
     [ "MR_VoxelTraits_MR_FloatGrid", "MRVoxelsVolume_8h.html#aed461f0469dbc005bc426e8aed486b98", null ],
     [ "MR_VoxelTraits_MR_Vector_float_MR_VoxelId", "MRVoxelsVolume_8h.html#a7a91e8ea51f3468e67f3640aa4abad0a", null ],

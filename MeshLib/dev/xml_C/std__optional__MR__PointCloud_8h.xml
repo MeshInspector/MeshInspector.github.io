@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__PointCloud_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_PointCloud.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_PointCloud.h</label>
+        <link refid="std__optional__MR__PointCloud_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1ad0bf2f00b1d91b5be4387eff22339e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" kindref="member">MR_std_optional_MR_PointCloud_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="22" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="22" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a501836f7ed0e7e4f5158f7dcc76b7b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1a7c971a495fbab9fac7166eb63bc33066" kindref="member">MR_std_optional_MR_PointCloud_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1a3e725b51083478235ab0273672844a7c" kindref="member">MR_std_optional_MR_PointCloud_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1a1b66f38f8e2420db0c0a2962e06a083e" kindref="member">MR_std_optional_MR_PointCloud_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="27" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="27" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1aa77f6c605e7fb6ff4b6196fec4ca7cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_optional_MR_PointCloud *other)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" kindref="member">MR_std_optional_MR_PointCloud_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="33" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="33" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1aa382ce7bf2cacc1101ff4e8064e37bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_ConstructFrom</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_PointCloud *other)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" kindref="member">MR_std_optional_MR_PointCloud_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="38" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="38" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a7f90a964b8eade7ce7edce35189191e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_PointCloud_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_PointCloud *_this, MR_PassBy other_pass_by, MR_std_optional_MR_PointCloud *other)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a385d02a6c3f7666086fa46bc7c9ff69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_PointCloud_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_PointCloud *_this, MR_PassBy other_pass_by, MR_PointCloud *other)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_AssignFrom</name>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_PointCloud_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_PointCloud *_this)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_Destroy</name>
+        <param>
+          <type>const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a7c971a495fbab9fac7166eb63bc33066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_PointCloud_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_PointCloud *_this)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a1b66f38f8e2420db0c0a2962e06a083e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_PointCloud *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="59" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="59" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a3e725b51083478235ab0273672844a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_PointCloud * MR_std_optional_MR_PointCloud_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_PointCloud *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="63" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="63" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a7a2bca136d28f91a9cf7115cd444e692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_PointCloud_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_PointCloud *_this)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_has_value</name>
+        <param>
+          <type>const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1acfe5917ed8cc98c36570e5feed059a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+        <definition>MRC_API const MR_PointCloud * MR_std_optional_MR_PointCloud_value</definition>
+        <argsstring>(const MR_std_optional_MR_PointCloud *_this)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_value</name>
+        <param>
+          <type>const <ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="72" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="72" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__PointCloud_8h_1a755994841d3e8c7a233bab17c57d01ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+        <definition>MRC_API MR_PointCloud * MR_std_optional_MR_PointCloud_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_PointCloud *_this)</argsstring>
+        <name>MR_std_optional_MR_PointCloud_value_mut</name>
+        <param>
+          <type><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" line="77" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h" declline="77" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__optional__MR__PointCloud_8h_1ad0bf2f00b1d91b5be4387eff22339e32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1ad0bf2f00b1d91b5be4387eff22339e32" kindref="member">MR_std_optional_MR_PointCloud_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__optional__MR__PointCloud_8h_1a501836f7ed0e7e4f5158f7dcc76b7b0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1a501836f7ed0e7e4f5158f7dcc76b7b0e" kindref="member">MR_std_optional_MR_PointCloud_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__optional__MR__PointCloud_8h_1aa77f6c605e7fb6ff4b6196fec4ca7cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1aa77f6c605e7fb6ff4b6196fec4ca7cad" kindref="member">MR_std_optional_MR_PointCloud_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__optional__MR__PointCloud_8h_1aa382ce7bf2cacc1101ff4e8064e37bf3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1aa382ce7bf2cacc1101ff4e8064e37bf3" kindref="member">MR_std_optional_MR_PointCloud_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__MR__PointCloud_8h_1a7f90a964b8eade7ce7edce35189191e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__PointCloud_8h_1a7f90a964b8eade7ce7edce35189191e7" kindref="member">MR_std_optional_MR_PointCloud_AssignFromAnother</ref>(<ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__PointCloud_8h_1a385d02a6c3f7666086fa46bc7c9ff69a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__PointCloud_8h_1a385d02a6c3f7666086fa46bc7c9ff69a" kindref="member">MR_std_optional_MR_PointCloud_AssignFrom</ref>(<ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__PointCloud_8h_1ae841f6c23349a4c298e34abd4c887e37" kindref="member">MR_std_optional_MR_PointCloud_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__MR__PointCloud_8h_1a7c971a495fbab9fac7166eb63bc33066" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__PointCloud_8h_1a7c971a495fbab9fac7166eb63bc33066" kindref="member">MR_std_optional_MR_PointCloud_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__MR__PointCloud_8h_1a1b66f38f8e2420db0c0a2962e06a083e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1a1b66f38f8e2420db0c0a2962e06a083e" kindref="member">MR_std_optional_MR_PointCloud_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__MR__PointCloud_8h_1a3e725b51083478235ab0273672844a7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1a3e725b51083478235ab0273672844a7c" kindref="member">MR_std_optional_MR_PointCloud_OffsetMutablePtr</ref>(<ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__MR__PointCloud_8h_1a7a2bca136d28f91a9cf7115cd444e692" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__PointCloud_8h_1a7a2bca136d28f91a9cf7115cd444e692" kindref="member">MR_std_optional_MR_PointCloud_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__MR__PointCloud_8h_1acfe5917ed8cc98c36570e5feed059a98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1acfe5917ed8cc98c36570e5feed059a98" kindref="member">MR_std_optional_MR_PointCloud_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__MR__PointCloud_8h_1a755994841d3e8c7a233bab17c57d01ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="std__optional__MR__PointCloud_8h_1a755994841d3e8c7a233bab17c57d01ad" kindref="member">MR_std_optional_MR_PointCloud_value_mut</ref>(<ref refid="MRUniformSampling_8h_1ab344b30a267b068a4443e581cbbf0c82" kindref="member">MR_std_optional_MR_PointCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_PointCloud.h"/>
+  </compounddef>
+</doxygen>

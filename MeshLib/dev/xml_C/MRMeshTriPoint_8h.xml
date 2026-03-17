@@ -3,7 +3,7 @@
   <compounddef id="MRMeshTriPoint_8h" kind="file" language="C++">
     <compoundname>MRMeshTriPoint.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -54,11 +65,11 @@
 <para>encodes a point inside a triangle using barycentric coordinates </para>
         </briefdescription>
         <detaileddescription>
-<para>Notations used below: v0, v1, v2 - points of the triangle Generated from class <computeroutput>MR::TriPointf</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Notations used below: v0, v1, v2 - points of the triangle Generated from class <computeroutput>MR::TriPointf</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="17" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="17" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" prot="public" static="no">
         <type>struct <ref refid="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" kindref="member">MR_std_array_MR_WeightedVertex_3</ref></type>
@@ -68,10 +79,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>A fixed-size array of <computeroutput>MR::WeightedVertex</computeroutput> of size 3. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="18" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="18" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" prot="public" static="no">
         <type>struct <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref></type>
@@ -81,16 +93,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::WeightedVertex</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::WeightedVertex</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="23" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="23" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a18c0df2f227b6ead51a97d6728a93b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
         <definition>MRC_API const MR_VertId * MR_WeightedVertex_Get_v</definition>
         <argsstring>(const MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_Get_v</name>
@@ -105,10 +117,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="38" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="38" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="38" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="38" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a256831db7eb9a7491ecc65cffe042ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_WeightedVertex_Set_v</definition>
         <argsstring>(MR_WeightedVertex *_this, MR_VertId value)</argsstring>
         <name>MR_WeightedVertex_Set_v</name>
@@ -127,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="44" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a96a75b154b6437e9ed3b7628d4a8c0e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
         <definition>MRC_API MR_VertId * MR_WeightedVertex_GetMutable_v</definition>
         <argsstring>(MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_GetMutable_v</name>
@@ -145,10 +157,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="50" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="50" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a70a170ceae79db23d8de83a1a321985e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_WeightedVertex_Get_weight</definition>
         <argsstring>(const MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_Get_weight</name>
@@ -163,10 +175,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="56" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="56" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="56" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="56" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a96d52737934f6ffb5d6b0582257d259e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_WeightedVertex_Set_weight</definition>
         <argsstring>(MR_WeightedVertex *_this, float value)</argsstring>
         <name>MR_WeightedVertex_Set_weight</name>
@@ -185,10 +197,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="61" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="61" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a03121144e10a7224b395344ceee1b2f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_WeightedVertex_GetMutable_weight</definition>
         <argsstring>(MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_GetMutable_weight</name>
@@ -203,10 +215,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="67" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="67" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="67" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="67" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a6eccdd7bdb34fc812fb10388ae75ab08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_WeightedVertex_DefaultConstruct</name>
@@ -220,10 +232,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="71" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="71" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="71" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="71" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1aae43a70bea9f485859b249599457c310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_WeightedVertex_DefaultConstructArray</name>
@@ -238,10 +250,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="76" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="76" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="76" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="76" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a666a51787682d1804ac33dc8c0ff12dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_ConstructFrom</definition>
         <argsstring>(MR_VertId v, float weight)</argsstring>
         <name>MR_WeightedVertex_ConstructFrom</name>
@@ -260,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="82" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="82" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="82" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="82" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a8c8101e7f6aae9590f384bf1274c15d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API const MR_WeightedVertex * MR_WeightedVertex_OffsetPtr</definition>
         <argsstring>(const MR_WeightedVertex *ptr, ptrdiff_t i)</argsstring>
         <name>MR_WeightedVertex_OffsetPtr</name>
@@ -282,10 +294,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="86" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="86" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="86" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="86" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a16b76dd59298f8223ced597df94d0264" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_OffsetMutablePtr</definition>
         <argsstring>(MR_WeightedVertex *ptr, ptrdiff_t i)</argsstring>
         <name>MR_WeightedVertex_OffsetMutablePtr</name>
@@ -304,10 +316,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="90" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="90" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="90" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="90" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1aeb6c48fff233742668814adc49029ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_ConstructFromAnother</definition>
         <argsstring>(const MR_WeightedVertex *_other)</argsstring>
         <name>MR_WeightedVertex_ConstructFromAnother</name>
@@ -322,10 +334,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="96" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="96" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="96" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="96" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_WeightedVertex_Destroy</definition>
         <argsstring>(const MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_Destroy</name>
@@ -340,10 +352,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="99" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="99" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a3793cc0cf67941a1091f5a03b41a4d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_WeightedVertex_DestroyArray</definition>
         <argsstring>(const MR_WeightedVertex *_this)</argsstring>
         <name>MR_WeightedVertex_DestroyArray</name>
@@ -358,10 +370,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="102" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="102" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1adc6c11771941a099d8ae036161eed497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref> *</type>
         <definition>MRC_API MR_WeightedVertex * MR_WeightedVertex_AssignFromAnother</definition>
         <argsstring>(MR_WeightedVertex *_this, const MR_WeightedVertex *_other)</argsstring>
         <name>MR_WeightedVertex_AssignFromAnother</name>
@@ -380,10 +392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="110" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="110" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="110" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="110" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a27c9f5ee76526ec1a3930253faddbdd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
         <definition>MRC_API const MR_EdgeId * MR_MeshTriPoint_Get_e</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_Get_e</name>
@@ -398,10 +410,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="117" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="117" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="117" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a45e02119b6962526a7e238f611aed9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTriPoint_Set_e</definition>
         <argsstring>(MR_MeshTriPoint *_this, MR_EdgeId value)</argsstring>
         <name>MR_MeshTriPoint_Set_e</name>
@@ -420,10 +432,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="124" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ab0603ab817eb9f5d0392dad2ecc75da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_EdgeId * MR_MeshTriPoint_GetMutable_e</definition>
         <argsstring>(MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_GetMutable_e</name>
@@ -437,10 +449,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="131" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="131" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="131" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="131" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1afc3d2e0fde54d82dff31c2ecd438d49a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
         <definition>MRC_API const MR_TriPointf * MR_MeshTriPoint_Get_bary</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_Get_bary</name>
@@ -456,10 +468,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="141" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="141" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="141" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="141" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ad65e6c08fd033bcb260e640153fb900c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTriPoint_Set_bary</definition>
         <argsstring>(MR_MeshTriPoint *_this, const MR_TriPointf *value)</argsstring>
         <name>MR_MeshTriPoint_Set_bary</name>
@@ -479,10 +491,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="152" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="152" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1acec47ccb56aeb642eb17d19d43592221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
         <definition>MRC_API MR_TriPointf * MR_MeshTriPoint_GetMutable_bary</definition>
         <argsstring>(MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_GetMutable_bary</name>
@@ -498,10 +510,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="162" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="162" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="162" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="162" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a9a42bc5a3b75788342cdbe978510ebcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MeshTriPoint_DefaultConstruct</name>
@@ -515,10 +527,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="166" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="166" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="166" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="166" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ac49e49079fc1bbe73b23f6e8195645a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MeshTriPoint_DefaultConstructArray</name>
@@ -533,10 +545,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="171" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="171" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="171" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="171" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a5f32abe2216595c8aba53c2c08d1eacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API const MR_MeshTriPoint * MR_MeshTriPoint_OffsetPtr</definition>
         <argsstring>(const MR_MeshTriPoint *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshTriPoint_OffsetPtr</name>
@@ -555,10 +567,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="175" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="175" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="175" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="175" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a4d10c8c55f82716ad7c4614b9dd8fe5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshTriPoint *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshTriPoint_OffsetMutablePtr</name>
@@ -577,10 +589,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="179" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="179" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="179" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="179" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a7e805387b73f9b52afdd92f84cdbefb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshTriPoint *_other)</argsstring>
         <name>MR_MeshTriPoint_ConstructFromAnother</name>
@@ -595,10 +607,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="185" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="185" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="185" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="185" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1aada0ec9ed8f63bae87f1e3bbcd58cff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_Construct_1_MR_NoInit</definition>
         <argsstring>(const MR_NoInit *_1)</argsstring>
         <name>MR_MeshTriPoint_Construct_1_MR_NoInit</name>
@@ -613,10 +625,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="191" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="191" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="191" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="191" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1adc2ecaba259ad7583f6d9b20a2ddbc66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_Construct_2_MR_EdgeId</definition>
         <argsstring>(MR_EdgeId e, const MR_TriPointf *bary)</argsstring>
         <name>MR_MeshTriPoint_Construct_2_MR_EdgeId</name>
@@ -635,10 +647,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="198" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="198" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="198" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="198" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a92bb61f0b59547a41b3067a90d920c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_Construct_1_MR_EdgePoint</definition>
         <argsstring>(const MR_EdgePoint *ep)</argsstring>
         <name>MR_MeshTriPoint_Construct_1_MR_EdgePoint</name>
@@ -653,10 +665,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="204" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="204" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="204" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="204" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a0ace8a573947bacbc22be17fb2c77a2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_Construct_2_MR_MeshTopology</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_VertId v)</argsstring>
         <name>MR_MeshTriPoint_Construct_2_MR_MeshTopology</name>
@@ -675,10 +687,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="211" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="211" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="211" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="211" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a169855c36247e8ece026fe5e0b1b8585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTriPoint_Destroy</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_Destroy</name>
@@ -693,10 +705,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="214" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="214" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="214" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1af3c12d6c5fc447f48aff169b80e70eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshTriPoint_DestroyArray</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_DestroyArray</name>
@@ -711,10 +723,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="217" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="217" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a03cc4bc4e9a81898b5367ea685880fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshTriPoint_ConvertTo_bool</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_ConvertTo_bool</name>
@@ -729,10 +741,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="221" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="221" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a6e64ec1fed2ab8dda98e4f593bf1c220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_AssignFromAnother</definition>
         <argsstring>(MR_MeshTriPoint *_this, const MR_MeshTriPoint *_other)</argsstring>
         <name>MR_MeshTriPoint_AssignFromAnother</name>
@@ -751,10 +763,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="229" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="229" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="229" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="229" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a674641687a9e4117471f3f718454d390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_MeshTriPoint_inVertex_1</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology)</argsstring>
         <name>MR_MeshTriPoint_inVertex_1</name>
@@ -773,10 +785,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="235" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="235" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="235" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="235" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1aabef5306d956f8c2083e77685a646647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshTriPoint_inVertex_0</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_inVertex_0</name>
@@ -791,10 +803,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="240" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="240" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a46dca6362cc0a0131368b66ed9b71e50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
         <definition>MRC_API MR_EdgePoint * MR_MeshTriPoint_onEdge</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology)</argsstring>
         <name>MR_MeshTriPoint_onEdge</name>
@@ -813,10 +825,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="248" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="248" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="248" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="248" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1adfee7a78e1ea919d6925f5dcff6da2d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshTriPoint_isBd</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology, const MR_FaceBitSet *region)</argsstring>
         <name>MR_MeshTriPoint_isBd</name>
@@ -839,10 +851,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="255" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="255" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a2bb756ece69d80337c6e77d07cddcc0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshTriPoint_fromTriangle</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology, MR_FaceId f)</argsstring>
         <name>MR_MeshTriPoint_fromTriangle</name>
@@ -865,10 +877,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="261" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="261" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a3cd1bc4bf2d8b0b58f70b2ebd46c52a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_MeshTriPoint_valid</definition>
         <argsstring>(const MR_MeshTriPoint *_this)</argsstring>
         <name>MR_MeshTriPoint_valid</name>
@@ -883,10 +895,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="266" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="266" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="266" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ab0baaa844f01349415d8fa9ce25fd5a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_lnext</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology)</argsstring>
         <name>MR_MeshTriPoint_lnext</name>
@@ -905,10 +917,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="273" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="273" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="273" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="273" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a6f2eaf4c721db2754c9863ff1fdd60b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_MeshTriPoint_canonical</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology)</argsstring>
         <name>MR_MeshTriPoint_canonical</name>
@@ -927,10 +939,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="280" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="280" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="280" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="280" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a8b365cb3f736888f04fc187787b6f10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" kindref="member">MR_std_array_MR_WeightedVertex_3</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" kindref="member">MR_std_array_MR_WeightedVertex_3</ref> *</type>
         <definition>MRC_API MR_std_array_MR_WeightedVertex_3 * MR_MeshTriPoint_getWeightedVerts</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTopology *topology)</argsstring>
         <name>MR_MeshTriPoint_getWeightedVerts</name>
@@ -945,14 +957,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>returns three weighted triangle&apos;s vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex Generated from method <computeroutput>MR::MeshTriPoint::getWeightedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_array_MR_WeightedVertex_3_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>returns three weighted triangle&apos;s vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex Generated from method <computeroutput>MR::MeshTriPoint::getWeightedVerts</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__array__MR__WeightedVertex__3_8h_1a0fe90e3c873a4d38252c8d9da882ef5e" kindref="member">MR_std_array_MR_WeightedVertex_3_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="287" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="287" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="287" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="287" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1adceffb3b5ac61411bd26c06fba519cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_equal_MR_MeshTriPoint</definition>
         <argsstring>(const MR_MeshTriPoint *_this, const MR_MeshTriPoint *rhs)</argsstring>
         <name>MR_equal_MR_MeshTriPoint</name>
@@ -971,10 +983,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="293" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="293" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a67ad2352114d048eed4e368416423f93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_same_MR_MeshTriPoint</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_MeshTriPoint *lhs, const MR_MeshTriPoint *rhs)</argsstring>
         <name>MR_same_MR_MeshTriPoint</name>
@@ -997,10 +1009,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="300" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="300" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ae8962b68245c559b6ed19a695f4eb4ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_fromSameTriangle_MR_MeshTriPoint_ref</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_MeshTriPoint *a, MR_MeshTriPoint *b)</argsstring>
         <name>MR_fromSameTriangle_MR_MeshTriPoint_ref</name>
@@ -1023,10 +1035,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="308" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="308" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="308" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1a74c798a579046f6d615051e3d9a69512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_MeshTriPoint *a, MR_MeshTriPoint *b)</argsstring>
         <name>MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</name>
@@ -1049,10 +1061,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="320" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="320" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="320" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="320" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshTriPoint_8h_1ab6db2aa8e981509009641e924761fe5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
         <definition>MRC_API MR_MeshTriPoint * MR_getVertexAsMeshTriPoint</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_EdgeId e, MR_VertId v)</argsstring>
         <name>MR_getVertexAsMeshTriPoint</name>
@@ -1075,7 +1087,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" line="326" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h" declline="326" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" line="326" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h" declline="326" declcolumn="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1086,7 +1098,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1107,106 +1119,106 @@
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRMeshTriPoint_8h_1a18c0df2f227b6ead51a97d6728a93b32" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a18c0df2f227b6ead51a97d6728a93b32" kindref="member">MR_WeightedVertex_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRMeshTriPoint_8h_1a18c0df2f227b6ead51a97d6728a93b32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a18c0df2f227b6ead51a97d6728a93b32" kindref="member">MR_WeightedVertex_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshTriPoint_8h_1a256831db7eb9a7491ecc65cffe042ae7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a256831db7eb9a7491ecc65cffe042ae7" kindref="member">MR_WeightedVertex_Set_v</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshTriPoint_8h_1a256831db7eb9a7491ecc65cffe042ae7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a256831db7eb9a7491ecc65cffe042ae7" kindref="member">MR_WeightedVertex_Set_v</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMeshTriPoint_8h_1a96a75b154b6437e9ed3b7628d4a8c0e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a96a75b154b6437e9ed3b7628d4a8c0e9" kindref="member">MR_WeightedVertex_GetMutable_v</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRMeshTriPoint_8h_1a96a75b154b6437e9ed3b7628d4a8c0e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a96a75b154b6437e9ed3b7628d4a8c0e9" kindref="member">MR_WeightedVertex_GetMutable_v</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRMeshTriPoint_8h_1a70a170ceae79db23d8de83a1a321985e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTriPoint_8h_1a70a170ceae79db23d8de83a1a321985e" kindref="member">MR_WeightedVertex_Get_weight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRMeshTriPoint_8h_1a70a170ceae79db23d8de83a1a321985e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTriPoint_8h_1a70a170ceae79db23d8de83a1a321985e" kindref="member">MR_WeightedVertex_Get_weight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRMeshTriPoint_8h_1a96d52737934f6ffb5d6b0582257d259e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a96d52737934f6ffb5d6b0582257d259e" kindref="member">MR_WeightedVertex_Set_weight</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="61" refid="MRMeshTriPoint_8h_1a96d52737934f6ffb5d6b0582257d259e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a96d52737934f6ffb5d6b0582257d259e" kindref="member">MR_WeightedVertex_Set_weight</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRMeshTriPoint_8h_1a03121144e10a7224b395344ceee1b2f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTriPoint_8h_1a03121144e10a7224b395344ceee1b2f6" kindref="member">MR_WeightedVertex_GetMutable_weight</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67" refid="MRMeshTriPoint_8h_1a03121144e10a7224b395344ceee1b2f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshTriPoint_8h_1a03121144e10a7224b395344ceee1b2f6" kindref="member">MR_WeightedVertex_GetMutable_weight</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRMeshTriPoint_8h_1a6eccdd7bdb34fc812fb10388ae75ab08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6eccdd7bdb34fc812fb10388ae75ab08" kindref="member">MR_WeightedVertex_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71" refid="MRMeshTriPoint_8h_1a6eccdd7bdb34fc812fb10388ae75ab08" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6eccdd7bdb34fc812fb10388ae75ab08" kindref="member">MR_WeightedVertex_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRMeshTriPoint_8h_1aae43a70bea9f485859b249599457c310" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aae43a70bea9f485859b249599457c310" kindref="member">MR_WeightedVertex_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="76" refid="MRMeshTriPoint_8h_1aae43a70bea9f485859b249599457c310" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aae43a70bea9f485859b249599457c310" kindref="member">MR_WeightedVertex_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRMeshTriPoint_8h_1a666a51787682d1804ac33dc8c0ff12dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a666a51787682d1804ac33dc8c0ff12dd" kindref="member">MR_WeightedVertex_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>weight);</highlight></codeline>
+<codeline lineno="82" refid="MRMeshTriPoint_8h_1a666a51787682d1804ac33dc8c0ff12dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a666a51787682d1804ac33dc8c0ff12dd" kindref="member">MR_WeightedVertex_ConstructFrom</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>weight);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRMeshTriPoint_8h_1a8c8101e7f6aae9590f384bf1274c15d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a8c8101e7f6aae9590f384bf1274c15d9" kindref="member">MR_WeightedVertex_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="86" refid="MRMeshTriPoint_8h_1a8c8101e7f6aae9590f384bf1274c15d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a8c8101e7f6aae9590f384bf1274c15d9" kindref="member">MR_WeightedVertex_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRMeshTriPoint_8h_1a16b76dd59298f8223ced597df94d0264" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a16b76dd59298f8223ced597df94d0264" kindref="member">MR_WeightedVertex_OffsetMutablePtr</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="90" refid="MRMeshTriPoint_8h_1a16b76dd59298f8223ced597df94d0264" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a16b76dd59298f8223ced597df94d0264" kindref="member">MR_WeightedVertex_OffsetMutablePtr</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRMeshTriPoint_8h_1aeb6c48fff233742668814adc49029ab2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aeb6c48fff233742668814adc49029ab2" kindref="member">MR_WeightedVertex_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="96" refid="MRMeshTriPoint_8h_1aeb6c48fff233742668814adc49029ab2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aeb6c48fff233742668814adc49029ab2" kindref="member">MR_WeightedVertex_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" kindref="member">MR_WeightedVertex_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99" refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9a5767526cd72df11ae514409c52610c" kindref="member">MR_WeightedVertex_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRMeshTriPoint_8h_1a3793cc0cf67941a1091f5a03b41a4d53" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a3793cc0cf67941a1091f5a03b41a4d53" kindref="member">MR_WeightedVertex_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRMeshTriPoint_8h_1a3793cc0cf67941a1091f5a03b41a4d53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a3793cc0cf67941a1091f5a03b41a4d53" kindref="member">MR_WeightedVertex_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRMeshTriPoint_8h_1adc6c11771941a099d8ae036161eed497" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1adc6c11771941a099d8ae036161eed497" kindref="member">MR_WeightedVertex_AssignFromAnother</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="110" refid="MRMeshTriPoint_8h_1adc6c11771941a099d8ae036161eed497" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1adc6c11771941a099d8ae036161eed497" kindref="member">MR_WeightedVertex_AssignFromAnother</ref>(<ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a952541534f8c2ed5464a4cd0e9dd22e1" kindref="member">MR_WeightedVertex</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRMeshTriPoint_8h_1a27c9f5ee76526ec1a3930253faddbdd4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a27c9f5ee76526ec1a3930253faddbdd4" kindref="member">MR_MeshTriPoint_Get_e</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117" refid="MRMeshTriPoint_8h_1a27c9f5ee76526ec1a3930253faddbdd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a27c9f5ee76526ec1a3930253faddbdd4" kindref="member">MR_MeshTriPoint_Get_e</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRMeshTriPoint_8h_1a45e02119b6962526a7e238f611aed9ac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a45e02119b6962526a7e238f611aed9ac" kindref="member">MR_MeshTriPoint_Set_e</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="124" refid="MRMeshTriPoint_8h_1a45e02119b6962526a7e238f611aed9ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a45e02119b6962526a7e238f611aed9ac" kindref="member">MR_MeshTriPoint_Set_e</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRMeshTriPoint_8h_1ab0603ab817eb9f5d0392dad2ecc75da6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab0603ab817eb9f5d0392dad2ecc75da6" kindref="member">MR_MeshTriPoint_GetMutable_e</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131" refid="MRMeshTriPoint_8h_1ab0603ab817eb9f5d0392dad2ecc75da6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab0603ab817eb9f5d0392dad2ecc75da6" kindref="member">MR_MeshTriPoint_GetMutable_e</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRMeshTriPoint_8h_1afc3d2e0fde54d82dff31c2ecd438d49a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1afc3d2e0fde54d82dff31c2ecd438d49a" kindref="member">MR_MeshTriPoint_Get_bary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141" refid="MRMeshTriPoint_8h_1afc3d2e0fde54d82dff31c2ecd438d49a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1afc3d2e0fde54d82dff31c2ecd438d49a" kindref="member">MR_MeshTriPoint_Get_bary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRMeshTriPoint_8h_1ad65e6c08fd033bcb260e640153fb900c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1ad65e6c08fd033bcb260e640153fb900c" kindref="member">MR_MeshTriPoint_Set_bary</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="152" refid="MRMeshTriPoint_8h_1ad65e6c08fd033bcb260e640153fb900c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1ad65e6c08fd033bcb260e640153fb900c" kindref="member">MR_MeshTriPoint_Set_bary</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRMeshTriPoint_8h_1acec47ccb56aeb642eb17d19d43592221" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1acec47ccb56aeb642eb17d19d43592221" kindref="member">MR_MeshTriPoint_GetMutable_bary</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="162" refid="MRMeshTriPoint_8h_1acec47ccb56aeb642eb17d19d43592221" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1acec47ccb56aeb642eb17d19d43592221" kindref="member">MR_MeshTriPoint_GetMutable_bary</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRMeshTriPoint_8h_1a9a42bc5a3b75788342cdbe978510ebcb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a9a42bc5a3b75788342cdbe978510ebcb" kindref="member">MR_MeshTriPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166" refid="MRMeshTriPoint_8h_1a9a42bc5a3b75788342cdbe978510ebcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a9a42bc5a3b75788342cdbe978510ebcb" kindref="member">MR_MeshTriPoint_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRMeshTriPoint_8h_1ac49e49079fc1bbe73b23f6e8195645a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ac49e49079fc1bbe73b23f6e8195645a3" kindref="member">MR_MeshTriPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="171" refid="MRMeshTriPoint_8h_1ac49e49079fc1bbe73b23f6e8195645a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ac49e49079fc1bbe73b23f6e8195645a3" kindref="member">MR_MeshTriPoint_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRMeshTriPoint_8h_1a5f32abe2216595c8aba53c2c08d1eacf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a5f32abe2216595c8aba53c2c08d1eacf" kindref="member">MR_MeshTriPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="175" refid="MRMeshTriPoint_8h_1a5f32abe2216595c8aba53c2c08d1eacf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a5f32abe2216595c8aba53c2c08d1eacf" kindref="member">MR_MeshTriPoint_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRMeshTriPoint_8h_1a4d10c8c55f82716ad7c4614b9dd8fe5a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a4d10c8c55f82716ad7c4614b9dd8fe5a" kindref="member">MR_MeshTriPoint_OffsetMutablePtr</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="179" refid="MRMeshTriPoint_8h_1a4d10c8c55f82716ad7c4614b9dd8fe5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a4d10c8c55f82716ad7c4614b9dd8fe5a" kindref="member">MR_MeshTriPoint_OffsetMutablePtr</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRMeshTriPoint_8h_1a7e805387b73f9b52afdd92f84cdbefb3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a7e805387b73f9b52afdd92f84cdbefb3" kindref="member">MR_MeshTriPoint_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="185" refid="MRMeshTriPoint_8h_1a7e805387b73f9b52afdd92f84cdbefb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a7e805387b73f9b52afdd92f84cdbefb3" kindref="member">MR_MeshTriPoint_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRMeshTriPoint_8h_1aada0ec9ed8f63bae87f1e3bbcd58cff1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aada0ec9ed8f63bae87f1e3bbcd58cff1" kindref="member">MR_MeshTriPoint_Construct_1_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
+<codeline lineno="191" refid="MRMeshTriPoint_8h_1aada0ec9ed8f63bae87f1e3bbcd58cff1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1aada0ec9ed8f63bae87f1e3bbcd58cff1" kindref="member">MR_MeshTriPoint_Construct_1_MR_NoInit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBox_8h_1a14f0f26a43ddb92c3fa3c2192008224c" kindref="member">MR_NoInit</ref><sp/>*_1);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRMeshTriPoint_8h_1adc2ecaba259ad7583f6d9b20a2ddbc66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1adc2ecaba259ad7583f6d9b20a2ddbc66" kindref="member">MR_MeshTriPoint_Construct_2_MR_EdgeId</ref>(<ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*bary);</highlight></codeline>
+<codeline lineno="198" refid="MRMeshTriPoint_8h_1adc2ecaba259ad7583f6d9b20a2ddbc66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1adc2ecaba259ad7583f6d9b20a2ddbc66" kindref="member">MR_MeshTriPoint_Construct_2_MR_EdgeId</ref>(<ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*bary);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRMeshTriPoint_8h_1a92bb61f0b59547a41b3067a90d920c2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a92bb61f0b59547a41b3067a90d920c2e" kindref="member">MR_MeshTriPoint_Construct_1_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ep);</highlight></codeline>
+<codeline lineno="204" refid="MRMeshTriPoint_8h_1a92bb61f0b59547a41b3067a90d920c2e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a92bb61f0b59547a41b3067a90d920c2e" kindref="member">MR_MeshTriPoint_Construct_1_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*ep);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRMeshTriPoint_8h_1a0ace8a573947bacbc22be17fb2c77a2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a0ace8a573947bacbc22be17fb2c77a2c" kindref="member">MR_MeshTriPoint_Construct_2_MR_MeshTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
+<codeline lineno="211" refid="MRMeshTriPoint_8h_1a0ace8a573947bacbc22be17fb2c77a2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a0ace8a573947bacbc22be17fb2c77a2c" kindref="member">MR_MeshTriPoint_Construct_2_MR_MeshTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214" refid="MRMeshTriPoint_8h_1a169855c36247e8ece026fe5e0b1b8585" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a169855c36247e8ece026fe5e0b1b8585" kindref="member">MR_MeshTriPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214" refid="MRMeshTriPoint_8h_1a169855c36247e8ece026fe5e0b1b8585" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a169855c36247e8ece026fe5e0b1b8585" kindref="member">MR_MeshTriPoint_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRMeshTriPoint_8h_1af3c12d6c5fc447f48aff169b80e70eac" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1af3c12d6c5fc447f48aff169b80e70eac" kindref="member">MR_MeshTriPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217" refid="MRMeshTriPoint_8h_1af3c12d6c5fc447f48aff169b80e70eac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1af3c12d6c5fc447f48aff169b80e70eac" kindref="member">MR_MeshTriPoint_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRMeshTriPoint_8h_1a03cc4bc4e9a81898b5367ea685880fd4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a03cc4bc4e9a81898b5367ea685880fd4" kindref="member">MR_MeshTriPoint_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="221" refid="MRMeshTriPoint_8h_1a03cc4bc4e9a81898b5367ea685880fd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a03cc4bc4e9a81898b5367ea685880fd4" kindref="member">MR_MeshTriPoint_ConvertTo_bool</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRMeshTriPoint_8h_1a6e64ec1fed2ab8dda98e4f593bf1c220" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6e64ec1fed2ab8dda98e4f593bf1c220" kindref="member">MR_MeshTriPoint_AssignFromAnother</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="229" refid="MRMeshTriPoint_8h_1a6e64ec1fed2ab8dda98e4f593bf1c220" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6e64ec1fed2ab8dda98e4f593bf1c220" kindref="member">MR_MeshTriPoint_AssignFromAnother</ref>(<ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="235" refid="MRMeshTriPoint_8h_1a674641687a9e4117471f3f718454d390" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRMeshTriPoint_8h_1a674641687a9e4117471f3f718454d390" kindref="member">MR_MeshTriPoint_inVertex_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="235" refid="MRMeshTriPoint_8h_1a674641687a9e4117471f3f718454d390" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRMeshTriPoint_8h_1a674641687a9e4117471f3f718454d390" kindref="member">MR_MeshTriPoint_inVertex_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRMeshTriPoint_8h_1aabef5306d956f8c2083e77685a646647" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1aabef5306d956f8c2083e77685a646647" kindref="member">MR_MeshTriPoint_inVertex_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240" refid="MRMeshTriPoint_8h_1aabef5306d956f8c2083e77685a646647" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1aabef5306d956f8c2083e77685a646647" kindref="member">MR_MeshTriPoint_inVertex_0</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRMeshTriPoint_8h_1a46dca6362cc0a0131368b66ed9b71e50" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a46dca6362cc0a0131368b66ed9b71e50" kindref="member">MR_MeshTriPoint_onEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="248" refid="MRMeshTriPoint_8h_1a46dca6362cc0a0131368b66ed9b71e50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a46dca6362cc0a0131368b66ed9b71e50" kindref="member">MR_MeshTriPoint_onEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="255" refid="MRMeshTriPoint_8h_1adfee7a78e1ea919d6925f5dcff6da2d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1adfee7a78e1ea919d6925f5dcff6da2d3" kindref="member">MR_MeshTriPoint_isBd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="255" refid="MRMeshTriPoint_8h_1adfee7a78e1ea919d6925f5dcff6da2d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1adfee7a78e1ea919d6925f5dcff6da2d3" kindref="member">MR_MeshTriPoint_isBd</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="256"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRMeshTriPoint_8h_1a2bb756ece69d80337c6e77d07cddcc0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a2bb756ece69d80337c6e77d07cddcc0a" kindref="member">MR_MeshTriPoint_fromTriangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
+<codeline lineno="261" refid="MRMeshTriPoint_8h_1a2bb756ece69d80337c6e77d07cddcc0a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a2bb756ece69d80337c6e77d07cddcc0a" kindref="member">MR_MeshTriPoint_fromTriangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRMeshTriPoint_8h_1a3cd1bc4bf2d8b0b58f70b2ebd46c52a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a3cd1bc4bf2d8b0b58f70b2ebd46c52a1" kindref="member">MR_MeshTriPoint_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="266" refid="MRMeshTriPoint_8h_1a3cd1bc4bf2d8b0b58f70b2ebd46c52a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a3cd1bc4bf2d8b0b58f70b2ebd46c52a1" kindref="member">MR_MeshTriPoint_valid</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="273" refid="MRMeshTriPoint_8h_1ab0baaa844f01349415d8fa9ce25fd5a5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab0baaa844f01349415d8fa9ce25fd5a5" kindref="member">MR_MeshTriPoint_lnext</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="273" refid="MRMeshTriPoint_8h_1ab0baaa844f01349415d8fa9ce25fd5a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab0baaa844f01349415d8fa9ce25fd5a5" kindref="member">MR_MeshTriPoint_lnext</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="274"><highlight class="normal"></highlight></codeline>
-<codeline lineno="280" refid="MRMeshTriPoint_8h_1a6f2eaf4c721db2754c9863ff1fdd60b6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6f2eaf4c721db2754c9863ff1fdd60b6" kindref="member">MR_MeshTriPoint_canonical</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="280" refid="MRMeshTriPoint_8h_1a6f2eaf4c721db2754c9863ff1fdd60b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a6f2eaf4c721db2754c9863ff1fdd60b6" kindref="member">MR_MeshTriPoint_canonical</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="281"><highlight class="normal"></highlight></codeline>
-<codeline lineno="287" refid="MRMeshTriPoint_8h_1a8b365cb3f736888f04fc187787b6f10e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" kindref="member">MR_std_array_MR_WeightedVertex_3</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a8b365cb3f736888f04fc187787b6f10e" kindref="member">MR_MeshTriPoint_getWeightedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="287" refid="MRMeshTriPoint_8h_1a8b365cb3f736888f04fc187787b6f10e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTriPoint_8h_1acee251444e864a39820436d6262c2534" kindref="member">MR_std_array_MR_WeightedVertex_3</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1a8b365cb3f736888f04fc187787b6f10e" kindref="member">MR_MeshTriPoint_getWeightedVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="288"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRMeshTriPoint_8h_1adceffb3b5ac61411bd26c06fba519cdd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1adceffb3b5ac61411bd26c06fba519cdd" kindref="member">MR_equal_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="293" refid="MRMeshTriPoint_8h_1adceffb3b5ac61411bd26c06fba519cdd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1adceffb3b5ac61411bd26c06fba519cdd" kindref="member">MR_equal_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*rhs);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="300" refid="MRMeshTriPoint_8h_1a67ad2352114d048eed4e368416423f93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a67ad2352114d048eed4e368416423f93" kindref="member">MR_same_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*rhs);</highlight></codeline>
+<codeline lineno="300" refid="MRMeshTriPoint_8h_1a67ad2352114d048eed4e368416423f93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a67ad2352114d048eed4e368416423f93" kindref="member">MR_same_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*lhs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*rhs);</highlight></codeline>
 <codeline lineno="301"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MRMeshTriPoint_8h_1ae8962b68245c559b6ed19a695f4eb4ad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1ae8962b68245c559b6ed19a695f4eb4ad" kindref="member">MR_fromSameTriangle_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*a,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="308" refid="MRMeshTriPoint_8h_1ae8962b68245c559b6ed19a695f4eb4ad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1ae8962b68245c559b6ed19a695f4eb4ad" kindref="member">MR_fromSameTriangle_MR_MeshTriPoint_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*a,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="320" refid="MRMeshTriPoint_8h_1a74c798a579046f6d615051e3d9a69512" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a74c798a579046f6d615051e3d9a69512" kindref="member">MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*a,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="320" refid="MRMeshTriPoint_8h_1a74c798a579046f6d615051e3d9a69512" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a74c798a579046f6d615051e3d9a69512" kindref="member">MR_fromSameTriangle_MR_MeshTriPoint_rvalue_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*a,<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="321"><highlight class="normal"></highlight></codeline>
-<codeline lineno="326" refid="MRMeshTriPoint_8h_1ab6db2aa8e981509009641e924761fe5d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab6db2aa8e981509009641e924761fe5d" kindref="member">MR_getVertexAsMeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
+<codeline lineno="326" refid="MRMeshTriPoint_8h_1ab6db2aa8e981509009641e924761fe5d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="MRMeshTriPoint_8h_1ab6db2aa8e981509009641e924761fe5d" kindref="member">MR_getVertexAsMeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>v);</highlight></codeline>
 <codeline lineno="327"><highlight class="normal"></highlight></codeline>
 <codeline lineno="328"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="329"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="330"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshTriPoint.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshTriPoint.h"/>
   </compounddef>
 </doxygen>

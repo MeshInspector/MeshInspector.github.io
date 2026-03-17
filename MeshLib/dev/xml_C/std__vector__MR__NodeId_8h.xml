@@ -1,0 +1,1719 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__NodeId_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_NodeId.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_NodeId.h</label>
+        <link refid="std__vector__MR__NodeId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a848e7caf1a2a83b6e33b5e60190d42a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_NodeId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" kindref="member">MR_std_vector_MR_NodeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="29" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="29" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a9777a4141b04bb19896ced93ca665606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_NodeId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a3229304e256bbe4b5b302fb15c2d6087" kindref="member">MR_std_vector_MR_NodeId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__NodeId_8h_1afabb0996abc8654b7d5d779b0cffe459" kindref="member">MR_std_vector_MR_NodeId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a872ac1f1e2b80c7e73274ee04e9d0150" kindref="member">MR_std_vector_MR_NodeId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="34" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="34" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a76f0f1bec7611635c20da454acefc5b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_NodeId *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" kindref="member">MR_std_vector_MR_NodeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="40" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="40" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a379d401f92a34f928bb668551523164f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, MR_PassBy other_pass_by, MR_std_vector_MR_NodeId *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a3229304e256bbe4b5b302fb15c2d6087" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a872ac1f1e2b80c7e73274ee04e9d0150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="56" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="56" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1afabb0996abc8654b7d5d779b0cffe459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="60" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="60" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac78ae1dc7784bb61c5366638fac06591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId * MR_std_vector_MR_NodeId_ConstructFromRange</definition>
+        <argsstring>(const MR_NodeId *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_NodeId_ConstructFromRange</name>
+        <param>
+          <type>const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" kindref="member">MR_std_vector_MR_NodeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="64" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="64" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a8e01705779045bd5661cee0acb2c7489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_AssignFromRange</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, const MR_NodeId *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_NodeId_AssignFromRange</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign from a range of elements, overwriting previous contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1af270c8cc033165406c5de0e29a739ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_NodeId_size</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_size</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="72" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="72" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a9edd8d7f73d1030db4168a218438be25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_NodeId_empty</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_empty</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a748d2e04d3d4d865859acf8a95ab2125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_resize</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_NodeId_resize</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a90ef0eb3d1e9bda9965f932bec1981a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t new_size, const MR_NodeId *value)</argsstring>
+        <name>MR_std_vector_MR_NodeId_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a11e0b2bef79b379ad6dd73e811975c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_clear</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_clear</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a9c1cc01e563e5c3151e373e556c86057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_NodeId_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_capacity</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="94" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="94" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ab7f57d7ccc38bd8c3297d2ac55ee8911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_reserve</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_NodeId_reserve</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a6e067457ad2626ef7d7d560a0f718237" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1adf4b92d1364771db4d118ede63229167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_NodeId * MR_std_vector_MR_NodeId_at</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_at</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="108" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="108" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a17ebe35eb1fcb22a42d27405923e7600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_NodeId * MR_std_vector_MR_NodeId_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_at_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="114" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="114" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac55ac202ad0a48b685301d7d35707c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_NodeId * MR_std_vector_MR_NodeId_front</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_front</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="119" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="119" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ae6c8ca55e4879fec08589b668769e55e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_NodeId * MR_std_vector_MR_NodeId_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_front_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="124" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="124" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a69008e75cd867964cb5619ec42034cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_NodeId * MR_std_vector_MR_NodeId_back</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_back</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="129" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="129" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1acfbf3fb79626f361e5698d41ab0944c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_NodeId * MR_std_vector_MR_NodeId_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_back_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="134" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="134" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1af78848038f7f25121306fad705a9bb90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_NodeId * MR_std_vector_MR_NodeId_data</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_data</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="139" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="139" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a38f7c208858700b5a86f2beb144e9b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_NodeId * MR_std_vector_MR_NodeId_data_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_data_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="144" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="144" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a629d9f40203eb57d4d59fca567361cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_push_back</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, MR_NodeId new_elem)</argsstring>
+        <name>MR_std_vector_MR_NodeId_push_back</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a31ff237a83025bbaee0eef039f5180a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_pop_back</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="153" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a8d7b0d49475c590d5fadc62f57be47b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_insert</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t position, MR_NodeId new_elem)</argsstring>
+        <name>MR_std_vector_MR_NodeId_insert</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a3678e8f9e54951ee2c458996a092444b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_erase</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_NodeId_erase</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a3f8aeb22e9247faced06f5b60ad9257a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_iterator *position, MR_NodeId new_elem)</argsstring>
+        <name>MR_std_vector_MR_NodeId_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac72f84e2512c7ad95ccbdb13c2ba9f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_NodeId_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a844192973c3a72a9fae293b18ef161b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_const_iterator *position, MR_NodeId new_elem)</argsstring>
+        <name>MR_std_vector_MR_NodeId_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="179" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a40417c3e335eb9b562974cf4a6aae629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_NodeId_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="184" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac98d6fa3ae82f7b5a19ffec642a47ab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_begin</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_begin</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="190" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="190" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1aab42bb020f8b60235ec6467cd8acdfd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_NodeId_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_is_begin</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="195" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a7323b79eb9d4ed9430db1740574da8c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_begin_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" kindref="member">MR_std_vector_MR_NodeId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="201" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="201" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a9f4ee1b84e2e47cd9b43ab1fbbd01312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_NodeId_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a7a559735a6b4a1b476f872460986c22e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_end</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_end</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="212" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="212" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a0b30b4ad0e4217ef9b2602fa0a69fc81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_NodeId_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_is_end</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="217" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1af76e2dd529ae7d604937f11a6987ce21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_NodeId *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_end_mut</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" kindref="member">MR_std_vector_MR_NodeId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="223" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="223" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ad061f1d22bc6dceb2cee3098fb89f290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_NodeId_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a579a4348ace2915c014ffad024ade99a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_NodeId_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_to_index</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="233" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a286ddee3f1dc6e5a51ad59d08dc8e4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_NodeId_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId *_this, const MR_std_vector_MR_NodeId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="238" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1aef51e97c95b9a1888df8cac00c42c4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="242" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="242" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a27183904e2aaffa03cb0ec8eff94ad29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__NodeId_8h_1ac305c5b0d4fcf9ae5df30b91e46f6916" kindref="member">MR_std_vector_MR_NodeId_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a12ad810cc628d3e28f7c467f4b07d130" kindref="member">MR_std_vector_MR_NodeId_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a041b9d46fa342417cb7d3d6b0e65db57" kindref="member">MR_std_vector_MR_NodeId_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="247" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="247" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1afe8bbf342588b97b5d5244230eb26345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="254" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="254" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1afc403e1bd5170501427ada63f93a5891" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_const_iterator *_this, const MR_std_vector_MR_NodeId_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="261" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="264" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="264" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ac305c5b0d4fcf9ae5df30b91e46f6916" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="267" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a041b9d46fa342417cb7d3d6b0e65db57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="271" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="271" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a12ad810cc628d3e28f7c467f4b07d130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="275" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="275" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a2a8c172bdf48b06a7294292f15e5d0a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_const_iterator * MR_std_vector_MR_NodeId_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="280" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="280" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1adf3b77a1b7aa562c343e0dc9202eb51a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" kindref="member">MR_std_vector_MR_NodeId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="284" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="284" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1aec3b4219863cacae5156e54b3735130e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a96667d2b670632745dec97f39c8524b6" kindref="member">MR_std_vector_MR_NodeId_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__NodeId_8h_1af946d574b2d715aa0b6e5c28b4b23c75" kindref="member">MR_std_vector_MR_NodeId_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__NodeId_8h_1ab9afef1d51d59f999efbe735be5433ff" kindref="member">MR_std_vector_MR_NodeId_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="289" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="289" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a0872de1efab29bb08f036e2a200d1fc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" kindref="member">MR_std_vector_MR_NodeId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="296" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="296" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a1e9af963a739b8752d47c1635761e76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_iterator *_this, const MR_std_vector_MR_NodeId_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="303" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="306" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a96667d2b670632745dec97f39c8524b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="309" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ab9afef1d51d59f999efbe735be5433ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="313" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="313" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1af946d574b2d715aa0b6e5c28b4b23c75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_NodeId_iterator * MR_std_vector_MR_NodeId_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="317" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="317" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a0c8cb931a15e55ea1417bd75d22d0ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API const MR_NodeId * MR_std_vector_MR_NodeId_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="323" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="323" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a4fbc32470f5d2e34813e1e002cf42884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="327" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="327" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a4b207c833c26cd9ff2e43a8cf0c7c2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a930a67d6fe016eea3fd92e002fadc2b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_NodeId_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="335" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="335" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a45066788bbb3c8c7c1de461c1ce3d0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_NodeId_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *a, const MR_std_vector_MR_NodeId_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_NodeId_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="340" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="340" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a7ab4cb6b2faf4c7a1963ecc7acd83a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_NodeId_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_const_iterator *a, const MR_std_vector_MR_NodeId_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_NodeId_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="345" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a4056f6f631f55c9117fa22ae071ba20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref> *</type>
+        <definition>MRC_API MR_NodeId * MR_std_vector_MR_NodeId_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1ab23000d64a1e073dfde606bdd23d3a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="355" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="355" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a5060a1096627e5af26839efd1ecafcf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="359" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="359" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1aa1c5c38285bd3517761a1512abf3b1ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_NodeId_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_NodeId_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_NodeId_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="363" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="363" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a2e411bffa4e805d53e12b0936a2d9d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_NodeId_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *a, const MR_std_vector_MR_NodeId_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_NodeId_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="368" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="368" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__NodeId_8h_1a2187e31ebedc6d5d49647740e0886a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_NodeId_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_NodeId_iterator *a, const MR_std_vector_MR_NodeId_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_NodeId_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" line="373" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h" declline="373" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__vector__MR__NodeId_8h_1a848e7caf1a2a83b6e33b5e60190d42a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a848e7caf1a2a83b6e33b5e60190d42a3" kindref="member">MR_std_vector_MR_NodeId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__vector__MR__NodeId_8h_1a9777a4141b04bb19896ced93ca665606" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a9777a4141b04bb19896ced93ca665606" kindref="member">MR_std_vector_MR_NodeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__vector__MR__NodeId_8h_1a76f0f1bec7611635c20da454acefc5b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a76f0f1bec7611635c20da454acefc5b5" kindref="member">MR_std_vector_MR_NodeId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__vector__MR__NodeId_8h_1a379d401f92a34f928bb668551523164f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a379d401f92a34f928bb668551523164f" kindref="member">MR_std_vector_MR_NodeId_AssignFromAnother</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ac34c3da88a1dd1af54b01878951b35c9" kindref="member">MR_std_vector_MR_NodeId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__vector__MR__NodeId_8h_1a3229304e256bbe4b5b302fb15c2d6087" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a3229304e256bbe4b5b302fb15c2d6087" kindref="member">MR_std_vector_MR_NodeId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__vector__MR__NodeId_8h_1a872ac1f1e2b80c7e73274ee04e9d0150" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a872ac1f1e2b80c7e73274ee04e9d0150" kindref="member">MR_std_vector_MR_NodeId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__vector__MR__NodeId_8h_1afabb0996abc8654b7d5d779b0cffe459" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1afabb0996abc8654b7d5d779b0cffe459" kindref="member">MR_std_vector_MR_NodeId_OffsetMutablePtr</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__vector__MR__NodeId_8h_1ac78ae1dc7784bb61c5366638fac06591" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1ac78ae1dc7784bb61c5366638fac06591" kindref="member">MR_std_vector_MR_NodeId_ConstructFromRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__vector__MR__NodeId_8h_1a8e01705779045bd5661cee0acb2c7489" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a8e01705779045bd5661cee0acb2c7489" kindref="member">MR_std_vector_MR_NodeId_AssignFromRange</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__vector__MR__NodeId_8h_1af270c8cc033165406c5de0e29a739ca3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1af270c8cc033165406c5de0e29a739ca3" kindref="member">MR_std_vector_MR_NodeId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__vector__MR__NodeId_8h_1a9edd8d7f73d1030db4168a218438be25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a9edd8d7f73d1030db4168a218438be25" kindref="member">MR_std_vector_MR_NodeId_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__vector__MR__NodeId_8h_1a748d2e04d3d4d865859acf8a95ab2125" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a748d2e04d3d4d865859acf8a95ab2125" kindref="member">MR_std_vector_MR_NodeId_resize</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="std__vector__MR__NodeId_8h_1a90ef0eb3d1e9bda9965f932bec1981a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a90ef0eb3d1e9bda9965f932bec1981a5" kindref="member">MR_std_vector_MR_NodeId_resize_with_default_value</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="std__vector__MR__NodeId_8h_1a11e0b2bef79b379ad6dd73e811975c8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a11e0b2bef79b379ad6dd73e811975c8c" kindref="member">MR_std_vector_MR_NodeId_clear</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="std__vector__MR__NodeId_8h_1a9c1cc01e563e5c3151e373e556c86057" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a9c1cc01e563e5c3151e373e556c86057" kindref="member">MR_std_vector_MR_NodeId_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__vector__MR__NodeId_8h_1ab7f57d7ccc38bd8c3297d2ac55ee8911" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ab7f57d7ccc38bd8c3297d2ac55ee8911" kindref="member">MR_std_vector_MR_NodeId_reserve</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__vector__MR__NodeId_8h_1a6e067457ad2626ef7d7d560a0f718237" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a6e067457ad2626ef7d7d560a0f718237" kindref="member">MR_std_vector_MR_NodeId_shrink_to_fit</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__vector__MR__NodeId_8h_1adf4b92d1364771db4d118ede63229167" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1adf4b92d1364771db4d118ede63229167" kindref="member">MR_std_vector_MR_NodeId_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="std__vector__MR__NodeId_8h_1a17ebe35eb1fcb22a42d27405923e7600" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a17ebe35eb1fcb22a42d27405923e7600" kindref="member">MR_std_vector_MR_NodeId_at_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__vector__MR__NodeId_8h_1ac55ac202ad0a48b685301d7d35707c19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1ac55ac202ad0a48b685301d7d35707c19" kindref="member">MR_std_vector_MR_NodeId_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="std__vector__MR__NodeId_8h_1ae6c8ca55e4879fec08589b668769e55e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1ae6c8ca55e4879fec08589b668769e55e" kindref="member">MR_std_vector_MR_NodeId_front_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__vector__MR__NodeId_8h_1a69008e75cd867964cb5619ec42034cc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a69008e75cd867964cb5619ec42034cc1" kindref="member">MR_std_vector_MR_NodeId_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="std__vector__MR__NodeId_8h_1acfbf3fb79626f361e5698d41ab0944c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1acfbf3fb79626f361e5698d41ab0944c1" kindref="member">MR_std_vector_MR_NodeId_back_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__vector__MR__NodeId_8h_1af78848038f7f25121306fad705a9bb90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1af78848038f7f25121306fad705a9bb90" kindref="member">MR_std_vector_MR_NodeId_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="std__vector__MR__NodeId_8h_1a38f7c208858700b5a86f2beb144e9b08" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a38f7c208858700b5a86f2beb144e9b08" kindref="member">MR_std_vector_MR_NodeId_data_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="std__vector__MR__NodeId_8h_1a629d9f40203eb57d4d59fca567361cf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a629d9f40203eb57d4d59fca567361cf9" kindref="member">MR_std_vector_MR_NodeId_push_back</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="std__vector__MR__NodeId_8h_1a31ff237a83025bbaee0eef039f5180a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a31ff237a83025bbaee0eef039f5180a6" kindref="member">MR_std_vector_MR_NodeId_pop_back</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="std__vector__MR__NodeId_8h_1a8d7b0d49475c590d5fadc62f57be47b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a8d7b0d49475c590d5fadc62f57be47b3" kindref="member">MR_std_vector_MR_NodeId_insert</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__NodeId_8h_1a3678e8f9e54951ee2c458996a092444b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a3678e8f9e54951ee2c458996a092444b" kindref="member">MR_std_vector_MR_NodeId_erase</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="std__vector__MR__NodeId_8h_1a3f8aeb22e9247faced06f5b60ad9257a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a3f8aeb22e9247faced06f5b60ad9257a" kindref="member">MR_std_vector_MR_NodeId_insert_at_mutable_iter</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*position,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__NodeId_8h_1ac72f84e2512c7ad95ccbdb13c2ba9f4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ac72f84e2512c7ad95ccbdb13c2ba9f4f" kindref="member">MR_std_vector_MR_NodeId_erase_at_mutable_iter</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="std__vector__MR__NodeId_8h_1a844192973c3a72a9fae293b18ef161b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a844192973c3a72a9fae293b18ef161b7" kindref="member">MR_std_vector_MR_NodeId_insert_at_iter</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*position,<sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__NodeId_8h_1a40417c3e335eb9b562974cf4a6aae629" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a40417c3e335eb9b562974cf4a6aae629" kindref="member">MR_std_vector_MR_NodeId_erase_at_iter</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="std__vector__MR__NodeId_8h_1ac98d6fa3ae82f7b5a19ffec642a47ab7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1ac98d6fa3ae82f7b5a19ffec642a47ab7" kindref="member">MR_std_vector_MR_NodeId_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__NodeId_8h_1aab42bb020f8b60235ec6467cd8acdfd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1aab42bb020f8b60235ec6467cd8acdfd9" kindref="member">MR_std_vector_MR_NodeId_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="std__vector__MR__NodeId_8h_1a7323b79eb9d4ed9430db1740574da8c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a7323b79eb9d4ed9430db1740574da8c2" kindref="member">MR_std_vector_MR_NodeId_begin_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__NodeId_8h_1a9f4ee1b84e2e47cd9b43ab1fbbd01312" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a9f4ee1b84e2e47cd9b43ab1fbbd01312" kindref="member">MR_std_vector_MR_NodeId_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="std__vector__MR__NodeId_8h_1a7a559735a6b4a1b476f872460986c22e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a7a559735a6b4a1b476f872460986c22e" kindref="member">MR_std_vector_MR_NodeId_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="std__vector__MR__NodeId_8h_1a0b30b4ad0e4217ef9b2602fa0a69fc81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a0b30b4ad0e4217ef9b2602fa0a69fc81" kindref="member">MR_std_vector_MR_NodeId_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="std__vector__MR__NodeId_8h_1af76e2dd529ae7d604937f11a6987ce21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1af76e2dd529ae7d604937f11a6987ce21" kindref="member">MR_std_vector_MR_NodeId_end_mut</ref>(<ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="std__vector__MR__NodeId_8h_1ad061f1d22bc6dceb2cee3098fb89f290" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ad061f1d22bc6dceb2cee3098fb89f290" kindref="member">MR_std_vector_MR_NodeId_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="std__vector__MR__NodeId_8h_1a579a4348ace2915c014ffad024ade99a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__NodeId_8h_1a579a4348ace2915c014ffad024ade99a" kindref="member">MR_std_vector_MR_NodeId_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="std__vector__MR__NodeId_8h_1a286ddee3f1dc6e5a51ad59d08dc8e4c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__NodeId_8h_1a286ddee3f1dc6e5a51ad59d08dc8e4c3" kindref="member">MR_std_vector_MR_NodeId_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a1158aa6b6ad18c6b9a857e3db9a7722a" kindref="member">MR_std_vector_MR_NodeId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="std__vector__MR__NodeId_8h_1aef51e97c95b9a1888df8cac00c42c4c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1aef51e97c95b9a1888df8cac00c42c4c3" kindref="member">MR_std_vector_MR_NodeId_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__NodeId_8h_1a27183904e2aaffa03cb0ec8eff94ad29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a27183904e2aaffa03cb0ec8eff94ad29" kindref="member">MR_std_vector_MR_NodeId_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__NodeId_8h_1afe8bbf342588b97b5d5244230eb26345" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1afe8bbf342588b97b5d5244230eb26345" kindref="member">MR_std_vector_MR_NodeId_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="std__vector__MR__NodeId_8h_1afc403e1bd5170501427ada63f93a5891" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1afc403e1bd5170501427ada63f93a5891" kindref="member">MR_std_vector_MR_NodeId_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1aa8f9803e83c26699bd30be3efcb4dc65" kindref="member">MR_std_vector_MR_NodeId_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__NodeId_8h_1ac305c5b0d4fcf9ae5df30b91e46f6916" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ac305c5b0d4fcf9ae5df30b91e46f6916" kindref="member">MR_std_vector_MR_NodeId_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__NodeId_8h_1a041b9d46fa342417cb7d3d6b0e65db57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a041b9d46fa342417cb7d3d6b0e65db57" kindref="member">MR_std_vector_MR_NodeId_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="std__vector__MR__NodeId_8h_1a12ad810cc628d3e28f7c467f4b07d130" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a12ad810cc628d3e28f7c467f4b07d130" kindref="member">MR_std_vector_MR_NodeId_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="std__vector__MR__NodeId_8h_1a2a8c172bdf48b06a7294292f15e5d0a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a2a8c172bdf48b06a7294292f15e5d0a7" kindref="member">MR_std_vector_MR_NodeId_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="std__vector__MR__NodeId_8h_1adf3b77a1b7aa562c343e0dc9202eb51a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1adf3b77a1b7aa562c343e0dc9202eb51a" kindref="member">MR_std_vector_MR_NodeId_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__NodeId_8h_1aec3b4219863cacae5156e54b3735130e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1aec3b4219863cacae5156e54b3735130e" kindref="member">MR_std_vector_MR_NodeId_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__NodeId_8h_1a0872de1efab29bb08f036e2a200d1fc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a0872de1efab29bb08f036e2a200d1fc0" kindref="member">MR_std_vector_MR_NodeId_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="std__vector__MR__NodeId_8h_1a1e9af963a739b8752d47c1635761e76c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a1e9af963a739b8752d47c1635761e76c" kindref="member">MR_std_vector_MR_NodeId_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a560472b30ae7f7cb8591dc55e0d52fa5" kindref="member">MR_std_vector_MR_NodeId_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="std__vector__MR__NodeId_8h_1a96667d2b670632745dec97f39c8524b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a96667d2b670632745dec97f39c8524b6" kindref="member">MR_std_vector_MR_NodeId_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="std__vector__MR__NodeId_8h_1ab9afef1d51d59f999efbe735be5433ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1ab9afef1d51d59f999efbe735be5433ff" kindref="member">MR_std_vector_MR_NodeId_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="std__vector__MR__NodeId_8h_1af946d574b2d715aa0b6e5c28b4b23c75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1af946d574b2d715aa0b6e5c28b4b23c75" kindref="member">MR_std_vector_MR_NodeId_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__NodeId_8h_1a0c8cb931a15e55ea1417bd75d22d0ace" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a0c8cb931a15e55ea1417bd75d22d0ace" kindref="member">MR_std_vector_MR_NodeId_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__NodeId_8h_1a4fbc32470f5d2e34813e1e002cf42884" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a4fbc32470f5d2e34813e1e002cf42884" kindref="member">MR_std_vector_MR_NodeId_const_iterator_incr</ref>(<ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="std__vector__MR__NodeId_8h_1a4b207c833c26cd9ff2e43a8cf0c7c2e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a4b207c833c26cd9ff2e43a8cf0c7c2e4" kindref="member">MR_std_vector_MR_NodeId_const_iterator_decr</ref>(<ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="std__vector__MR__NodeId_8h_1a930a67d6fe016eea3fd92e002fadc2b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a930a67d6fe016eea3fd92e002fadc2b1" kindref="member">MR_std_vector_MR_NodeId_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="std__vector__MR__NodeId_8h_1a45066788bbb3c8c7c1de461c1ce3d0b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__NodeId_8h_1a45066788bbb3c8c7c1de461c1ce3d0b8" kindref="member">MR_sub_MR_std_vector_MR_NodeId_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="std__vector__MR__NodeId_8h_1a7ab4cb6b2faf4c7a1963ecc7acd83a57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a7ab4cb6b2faf4c7a1963ecc7acd83a57" kindref="member">MR_equal_MR_std_vector_MR_NodeId_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1aeec849902284fe8e6613b393faf5650a" kindref="member">MR_std_vector_MR_NodeId_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__NodeId_8h_1a4056f6f631f55c9117fa22ae071ba20b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__NodeId" kindref="compound">MR_NodeId</ref><sp/>*<ref refid="std__vector__MR__NodeId_8h_1a4056f6f631f55c9117fa22ae071ba20b" kindref="member">MR_std_vector_MR_NodeId_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__NodeId_8h_1ab23000d64a1e073dfde606bdd23d3a43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1ab23000d64a1e073dfde606bdd23d3a43" kindref="member">MR_std_vector_MR_NodeId_iterator_incr</ref>(<ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="std__vector__MR__NodeId_8h_1a5060a1096627e5af26839efd1ecafcf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a5060a1096627e5af26839efd1ecafcf1" kindref="member">MR_std_vector_MR_NodeId_iterator_decr</ref>(<ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="std__vector__MR__NodeId_8h_1aa1c5c38285bd3517761a1512abf3b1ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1aa1c5c38285bd3517761a1512abf3b1ae" kindref="member">MR_std_vector_MR_NodeId_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="std__vector__MR__NodeId_8h_1a2e411bffa4e805d53e12b0936a2d9d53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__NodeId_8h_1a2e411bffa4e805d53e12b0936a2d9d53" kindref="member">MR_sub_MR_std_vector_MR_NodeId_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="std__vector__MR__NodeId_8h_1a2187e31ebedc6d5d49647740e0886a81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__NodeId_8h_1a2187e31ebedc6d5d49647740e0886a81" kindref="member">MR_equal_MR_std_vector_MR_NodeId_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a93843e1533ee4c051b8645049e202c7a" kindref="member">MR_std_vector_MR_NodeId_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_NodeId.h"/>
+  </compounddef>
+</doxygen>

@@ -1,8 +1,5 @@
 var MRPointsToDistanceVolume_8h =
 [
-    [ "MR_expected_MR_SimpleVolume_std_string", "MRPointsToDistanceVolume_8h.html#a1fc8e13b15f164149cdebe00fc8c33b8", null ],
-    [ "MR_expected_MR_VertColors_std_string", "MRPointsToDistanceVolume_8h.html#a401c27a5a8649aadc2ab876a153c54d6", null ],
-    [ "MR_PointsToDistanceVolumeParams", "MRPointsToDistanceVolume_8h.html#a62f44af92ecc2488d2abf67bc90c6804", null ],
     [ "MR_calcAvgColors", "MRPointsToDistanceVolume_8h.html#a88ee201c428c624e871945c67afb2f43", null ],
     [ "MR_pointsToDistanceFunctionVolume", "MRPointsToDistanceVolume_8h.html#a756f633a49755a8bd4b1a79f7a80b896", null ],
     [ "MR_pointsToDistanceVolume", "MRPointsToDistanceVolume_8h.html#a0362d48493d5a4f5eeb5cfe725f9a090", null ],

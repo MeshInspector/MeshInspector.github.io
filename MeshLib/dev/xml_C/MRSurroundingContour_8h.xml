@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSurroundingContour_8h" kind="file" language="C++">
     <compoundname>MRSurroundingContour.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRSurroundingContour.h</label>
@@ -15,9 +15,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -29,15 +43,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>std::vector&lt;MR::EdgeId&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" line="12" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" line="12" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" bodystart="12" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSurroundingContour_8h_1a2ef2c9c14a49078491db47fa69889168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_EdgeId_std_string * MR_surroundingContour_std_vector_MR_EdgeId</definition>
         <argsstring>(const MR_Mesh *mesh, MR_PassBy includeEdges_pass_by, MR_std_vector_MR_EdgeId *includeEdges, const MR_std_function_float_from_MR_EdgeId *edgeMetric, const MR_Vector3f *dir)</argsstring>
         <name>MR_surroundingContour_std_vector_MR_EdgeId</name>
@@ -46,7 +61,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>includeEdges_pass_by</declname>
         </param>
         <param>
@@ -86,7 +101,7 @@
 <parametername>dir</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip Generated from function <computeroutput>MR::surroundingContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeMetric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip Generated from function <computeroutput>MR::surroundingContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeMetric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgeId__std__string_8h_1acc2c8c58bde7da4696e5ce41d7be5946" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -94,10 +109,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" line="34" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" declline="34" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" line="34" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" declline="34" declcolumn="53"/>
       </memberdef>
       <memberdef kind="function" id="MRSurroundingContour_8h_1a176f781042cc87d7e262a11a2cf63365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_EdgeId_std_string * MR_surroundingContour_std_vector_MR_VertId</definition>
         <argsstring>(const MR_Mesh *mesh, MR_PassBy keyVertices_pass_by, MR_std_vector_MR_VertId *keyVertices, const MR_std_function_float_from_MR_EdgeId *edgeMetric, const MR_Vector3f *dir)</argsstring>
         <name>MR_surroundingContour_std_vector_MR_VertId</name>
@@ -106,7 +121,7 @@
           <declname>mesh</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>keyVertices_pass_by</declname>
         </param>
         <param>
@@ -146,7 +161,7 @@
 <parametername>dir</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip Generated from function <computeroutput>MR::surroundingContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeMetric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip Generated from function <computeroutput>MR::surroundingContour</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>edgeMetric</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__EdgeId__std__string_8h_1acc2c8c58bde7da4696e5ce41d7be5946" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -154,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" line="52" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h" declline="52" declcolumn="53"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" line="52" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h" declline="52" declcolumn="53"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -164,8 +179,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -179,14 +194,14 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_VertId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRSurroundingContour_8h_1a2ef2c9c14a49078491db47fa69889168" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRSurroundingContour_8h_1a2ef2c9c14a49078491db47fa69889168" kindref="member">MR_surroundingContour_std_vector_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>MR_PassBy<sp/>includeEdges_pass_by,<sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*includeEdges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*edgeMetric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="34" refid="MRSurroundingContour_8h_1a2ef2c9c14a49078491db47fa69889168" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRSurroundingContour_8h_1a2ef2c9c14a49078491db47fa69889168" kindref="member">MR_surroundingContour_std_vector_MR_EdgeId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>includeEdges_pass_by,<sp/><ref refid="MRContoursStitch_8h_1aa2cb99914308eb7429fd11738cf79483" kindref="member">MR_std_vector_MR_EdgeId</ref><sp/>*includeEdges,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*edgeMetric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRSurroundingContour_8h_1a176f781042cc87d7e262a11a2cf63365" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRSurroundingContour_8h_1a176f781042cc87d7e262a11a2cf63365" kindref="member">MR_surroundingContour_std_vector_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/>MR_PassBy<sp/>keyVertices_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*keyVertices,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*edgeMetric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="52" refid="MRSurroundingContour_8h_1a176f781042cc87d7e262a11a2cf63365" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSurroundingContour_8h_1a113b2c998614f463539fb118dd416dd0" kindref="member">MR_expected_std_vector_MR_EdgeId_std_string</ref><sp/>*<ref refid="MRSurroundingContour_8h_1a176f781042cc87d7e262a11a2cf63365" kindref="member">MR_surroundingContour_std_vector_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>keyVertices_pass_by,<sp/><ref refid="MREdgePaths_8h_1a954949e1753f6a2063d09e91b23d252d" kindref="member">MR_std_vector_MR_VertId</ref><sp/>*keyVertices,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeMetric_8h_1abe08d8d5c70c2a7fb9600f5a1dfd1687" kindref="member">MR_std_function_float_from_MR_EdgeId</ref><sp/>*edgeMetric,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="55"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSurroundingContour.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSurroundingContour.h"/>
   </compounddef>
 </doxygen>

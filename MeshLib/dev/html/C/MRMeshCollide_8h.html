@@ -144,8 +144,8 @@ $(function(){initNavTree('MRMeshCollide_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRMeshCollide_8h_source.html">Go to the source code of this file.</a></p>
@@ -161,17 +161,17 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab422b73d45c4fe9bf3b79eb5a9cb00b3" id="r_ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
+<tr class="memitem:ab422b73d45c4fe9bf3b79eb5a9cb00b3" id="r_ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab422b73d45c4fe9bf3b79eb5a9cb00b3">MR_findCollidingTriangles</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A, const bool *firstIntersectionOnly)</td></tr>
 <tr class="memdesc:ab422b73d45c4fe9bf3b79eb5a9cb00b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds all pairs of colliding triangles from two meshes or two mesh regions  <br /></td></tr>
-<tr class="memitem:aa7b06d1e1a64adfa8b6b48ea296e99b6" id="r_aa7b06d1e1a64adfa8b6b48ea296e99b6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
-<tr class="memitem:aefa424ca584afedf141f855fcd9fa230" id="r_aefa424ca584afedf141f855fcd9fa230"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa424ca584afedf141f855fcd9fa230">MR_findSelfCollidingTriangles_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *outCollidingPairs, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
-<tr class="memitem:a8b90515fa812a00dd5d452f203d71f93" id="r_a8b90515fa812a00dd5d452f203d71f93"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b90515fa812a00dd5d452f203d71f93">MR_findSelfCollidingTriangles_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
-<tr class="memitem:a1bd4cde4068f4ce4618340a485a2c489" id="r_a1bd4cde4068f4ce4618340a485a2c489"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd4cde4068f4ce4618340a485a2c489">MR_findSelfCollidingTrianglesBS</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
-<tr class="memitem:a9766f52c9e9744a6666ce071a457546c" id="r_a9766f52c9e9744a6666ce071a457546c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9766f52c9e9744a6666ce071a457546c">MR_isInside_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:aa7b06d1e1a64adfa8b6b48ea296e99b6" id="r_aa7b06d1e1a64adfa8b6b48ea296e99b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7b06d1e1a64adfa8b6b48ea296e99b6">MR_findCollidingTriangleBitsets</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:aefa424ca584afedf141f855fcd9fa230" id="r_aefa424ca584afedf141f855fcd9fa230"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefa424ca584afedf141f855fcd9fa230">MR_findSelfCollidingTriangles_5</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> *outCollidingPairs, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:a8b90515fa812a00dd5d452f203d71f93" id="r_a8b90515fa812a00dd5d452f203d71f93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b90515fa812a00dd5d452f203d71f93">MR_findSelfCollidingTriangles_4</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:a1bd4cde4068f4ce4618340a485a2c489" id="r_a1bd4cde4068f4ce4618340a485a2c489"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bd4cde4068f4ce4618340a485a2c489">MR_findSelfCollidingTrianglesBS</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *mp, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb, const <a class="el" href="#a241ebc5168b85254384f769ec1b1268e">MR_Face2RegionMap</a> *regionMap, const bool *touchIsIntersection)</td></tr>
+<tr class="memitem:a9766f52c9e9744a6666ce071a457546c" id="r_a9766f52c9e9744a6666ce071a457546c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9766f52c9e9744a6666ce071a457546c">MR_isInside_MR_MeshPart</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:a9766f52c9e9744a6666ce071a457546c"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B  <br /></td></tr>
-<tr class="memitem:a2c1aab7670608e4f81e3be519d7f0c4f" id="r_a2c1aab7670608e4f81e3be519d7f0c4f"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1aab7670608e4f81e3be519d7f0c4f">MR_isNonIntersectingInside_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:a2c1aab7670608e4f81e3be519d7f0c4f" id="r_a2c1aab7670608e4f81e3be519d7f0c4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c1aab7670608e4f81e3be519d7f0c4f">MR_isNonIntersectingInside_3</a> (const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *a, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:a2c1aab7670608e4f81e3be519d7f0c4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh part A is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
-<tr class="memitem:aaf362c364519ae7b7d3f396c11f1c244" id="r_aaf362c364519ae7b7d3f396c11f1c244"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf362c364519ae7b7d3f396c11f1c244">MR_isNonIntersectingInside_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
+<tr class="memitem:aaf362c364519ae7b7d3f396c11f1c244" id="r_aaf362c364519ae7b7d3f396c11f1c244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf362c364519ae7b7d3f396c11f1c244">MR_isNonIntersectingInside_4</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *a, <a class="el" href="structMR__FaceId.html">MR_FaceId</a> partFace, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *b, const <a class="el" href="structMR__AffineXf3f.html">MR_AffineXf3f</a> *rigidB2A)</td></tr>
 <tr class="memdesc:aaf362c364519ae7b7d3f396c11f1c244"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks that arbitrary mesh A part (whole part is represented by one face <span class="tt">partFace</span>) is inside of closed mesh part B The version of <span class="tt">isInside</span> without collision check; it is user's responsibility to guarantee that the meshes don't collide  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -186,6 +186,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stores either a <span class="tt">bool</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -200,6 +201,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stores either a <span class="tt">std::vector&lt;MR::FaceFace&gt;</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -219,7 +221,7 @@ Functions</h2></td></tr>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>type of stored elements </td></tr>
-    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Face2RegionMap</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
+    <tr><td class="paramname">I</td><td>type of index (shall be convertible to size_t) Generated from class <span class="tt">MR::Face2RegionMap</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </td></tr>
   </table>
   </dd>
 </dl>
@@ -237,6 +239,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stores two objects: <span class="tt">MR::FaceBitSet</span> and <span class="tt">MR::FaceBitSet</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -251,6 +254,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Generated from C++ container <span class="tt">std::vector&lt;MR::FaceFace&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -262,7 +266,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> * MR_findCollidingTriangleBitsets </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a8ceedec9dcad3f944edabd2d4d228de7">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</a> * MR_findCollidingTriangleBitsets </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -278,7 +282,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the same as findCollidingTriangles, but returns one bite set per mesh with colliding triangles Generated from function <span class="tt">MR::findCollidingTriangleBitsets</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy()</span> to free it when you're done using it. </p>
+<p>the same as findCollidingTriangles, but returns one bite set per mesh with colliding triangles Generated from function <span class="tt">MR::findCollidingTriangleBitsets</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__pair__MR__FaceBitSet__MR__FaceBitSet_8h.html#a76e68f9a277e8991bf428e110313ebad" title="Destroys a heap-allocated instance of MR_std_pair_MR_FaceBitSet_MR_FaceBitSet. Does nothing if the po...">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -289,7 +293,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> * MR_findCollidingTriangles </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a43987a7ef95446878c91e59b0ef55b11">MR_std_vector_MR_FaceFace</a> * MR_findCollidingTriangles </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -315,7 +319,7 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">rigidB2A</td><td>rigid transformation from B-mesh space to A mesh space, nullptr considered as identity transformation </td></tr>
-    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles and returns faster Generated from function <span class="tt">MR::findCollidingTriangles</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">firstIntersectionOnly</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_MR_FaceFace_Destroy()</span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">firstIntersectionOnly</td><td>if true then the function returns at most one pair of intersecting triangles and returns faster Generated from function <span class="tt">MR::findCollidingTriangles</span>. Parameter <span class="tt">a</span> can not be null. It is a single object. Parameter <span class="tt">b</span> can not be null. It is a single object. Parameter <span class="tt">rigidB2A</span> defaults to a null pointer in C++. Parameter <span class="tt">firstIntersectionOnly</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__MR__FaceFace_8h.html#aed26ad7d280dba85c8eba72b49291d6b" title="Destroys a heap-allocated instance of MR_std_vector_MR_FaceFace. Does nothing if the pointer is null.">MR_std_vector_MR_FaceFace_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -329,14 +333,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> * MR_findSelfCollidingTriangles_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aba9a9797e256d419b82e9ab4886546fd">MR_expected_std_vector_MR_FaceFace_std_string</a> * MR_findSelfCollidingTriangles_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -355,7 +359,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all pairs of colliding triangles from one mesh or a region Generated from function <span class="tt">MR::findSelfCollidingTriangles</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_vector_MR_FaceFace_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>finds all pairs of colliding triangles from one mesh or a region Generated from function <span class="tt">MR::findSelfCollidingTriangles</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__MR__FaceFace__std__string_8h.html#a27813681d05a3295929e623a5e489287" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_FaceFace_std_string....">MR_expected_std_vector_MR_FaceFace_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -366,7 +370,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> * MR_findSelfCollidingTriangles_5 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a74aaa8804e7ff506aeb3bda836914375">MR_expected_bool_std_string</a> * MR_findSelfCollidingTriangles_5 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
@@ -378,7 +382,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -397,7 +401,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>finds all pairs (or the fact of any self-collision) of colliding triangles from one mesh or a region Generated from function <span class="tt">MR::findSelfCollidingTriangles</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_bool_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>finds all pairs (or the fact of any self-collision) of colliding triangles from one mesh or a region Generated from function <span class="tt">MR::findSelfCollidingTriangles</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__bool__std__string_8h.html#a9bfad18d370ecc2d788eaf115e5d4770" title="Destroys a heap-allocated instance of MR_expected_bool_std_string. Does nothing if the pointer is nul...">MR_expected_bool_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -408,14 +412,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findSelfCollidingTrianglesBS </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRContoursCut_8h.html#a6aeecd4fac2aea90513510421de3f37b">MR_expected_MR_FaceBitSet_std_string</a> * MR_findSelfCollidingTrianglesBS </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>mp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -434,7 +438,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the same findSelfCollidingTriangles but returns the union of all self-intersecting faces Generated from function <span class="tt">MR::findSelfCollidingTrianglesBS</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_FaceBitSet_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>the same findSelfCollidingTriangles but returns the union of all self-intersecting faces Generated from function <span class="tt">MR::findSelfCollidingTrianglesBS</span>. Parameter <span class="tt">mp</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Parameter <span class="tt">regionMap</span> defaults to a null pointer in C++. Parameter <span class="tt">touchIsIntersection</span> has a default argument: <span class="tt">false</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__FaceBitSet__std__string_8h.html#a49f25f78be01bd3b7e077cd474bb21d5" title="Destroys a heap-allocated instance of MR_expected_MR_FaceBitSet_std_string. Does nothing if the point...">MR_expected_MR_FaceBitSet_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -445,7 +449,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isInside_MR_MeshPart </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isInside_MR_MeshPart </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -479,7 +483,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isNonIntersectingInside_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isNonIntersectingInside_3 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -513,7 +517,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_isNonIntersectingInside_4 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_isNonIntersectingInside_4 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -552,7 +556,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRMeshCollide_8h.html">MRMeshCollide.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRMeshCollide_8h.html">MRMeshCollide.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

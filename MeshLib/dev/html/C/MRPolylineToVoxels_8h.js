@@ -1,8 +1,5 @@
 var MRPolylineToVoxels_8h =
 [
-    [ "MR_expected_MR_FloatGrid_std_string", "MRPolylineToVoxels_8h.html#ad964a22a5f428efbf66fb45d2d17ed82", null ],
-    [ "MR_expected_MR_FunctionVolume_std_string", "MRPolylineToVoxels_8h.html#a6d763aded740c8f4a904266815282341", null ],
-    [ "MR_expected_MR_VdbVolume_std_string", "MRPolylineToVoxels_8h.html#a61cd90e7a5c3eb5c7524a41ee1678db1", null ],
     [ "MR_PolylineToDistanceVolumeParams", "MRPolylineToVoxels_8h.html#a1e139f346b0d12414ed3c4ab8b50c1f9", null ],
     [ "MR_PolylineToVolumeParams", "MRPolylineToVoxels_8h.html#a3251850bdaa632f44f6046b2db9b6c6b", null ],
     [ "MR_polylineToDistanceField", "MRPolylineToVoxels_8h.html#a39662768026f65a0c0c5c9beb27299b4", null ],

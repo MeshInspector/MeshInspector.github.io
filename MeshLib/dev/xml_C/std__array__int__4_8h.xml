@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__array__int__4_8h" kind="file" language="C++">
+    <compoundname>std_array_int_4.h</compoundname>
+    <includedby refid="MRLocalTriangulations_8h" local="no">MRLocalTriangulations.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRLocalTriangulations.h</label>
+        <link refid="MRLocalTriangulations_8h"/>
+      </node>
+      <node id="1">
+        <label>std_array_int_4.h</label>
+        <link refid="std__array__int__4_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR__std__array__int__4" prot="public">MR_std_array_int_4</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__array__int__4_8h_1a2141885cd0dc03562c31cfd5d9648d49" prot="public" static="no">
+        <type>struct MR_std_array_int_4</type>
+        <definition>typedef struct MR_std_array_int_4 MR_std_array_int_4</definition>
+        <argsstring></argsstring>
+        <name>MR_std_array_int_4</name>
+        <briefdescription>
+<para>A fixed-size array of <computeroutput>int</computeroutput> of size 4. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_int_4.h" line="12" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structMR__std__array__int__4" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__std__array__int__4" kindref="compound">MR_std_array_int_4</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="structMR__std__array__int__4_1a5415f23b52c08121e579b70138926996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR__std__array__int__4_1a5415f23b52c08121e579b70138926996" kindref="member">elems</ref>[4];</highlight></codeline>
+<codeline lineno="12" refid="std__array__int__4_8h_1a2141885cd0dc03562c31cfd5d9648d49" refkind="member"><highlight class="normal">}<sp/><ref refid="structMR__std__array__int__4" kindref="compound">MR_std_array_int_4</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_int_4.h"/>
+  </compounddef>
+</doxygen>

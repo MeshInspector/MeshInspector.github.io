@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__DimensionsVisualizePropertyType_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_DimensionsVisualizePropertyType.h</compoundname>
+    <includes refid="MRObjectDimensionsEnum_8h" local="no">MRCMesh/MRObjectDimensionsEnum.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRObjectDimensionsEnum.h</label>
+        <link refid="MRObjectDimensionsEnum_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_DimensionsVisualizePropertyType.h</label>
+        <link refid="std__optional__MR__DimensionsVisualizePropertyType_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3bfda106e61d840cea8a96894b330b40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="20" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="20" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a0b3bbd0ea818bc6895490178aba6df6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a04b59b08f18994d3ed46c965c5e50738" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a79a7308b33a2b0310dfa95ac16a638ab" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a28ca3d2b84e3ba64ac9d60e094d80874" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="25" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="25" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a885e1d536053db28d7d3c0836235fe51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *other)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="32" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="32" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3eb67a8de681092d9e522adc5ef2d20f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFrom</definition>
+        <argsstring>(const MR_DimensionsVisualizePropertyType *other)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="37" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="37" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1af8806a60857ba00e5aa466317b15546a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_DimensionsVisualizePropertyType *_this, const MR_std_optional_MR_DimensionsVisualizePropertyType *other)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a4c767eb06701891ef4585c52fa2d4d3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_DimensionsVisualizePropertyType *_this, const MR_DimensionsVisualizePropertyType *other)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFrom</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *_this)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a04b59b08f18994d3ed46c965c5e50738" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_DimensionsVisualizePropertyType_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *_this)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a28ca3d2b84e3ba64ac9d60e094d80874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="59" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="59" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a79a7308b33a2b0310dfa95ac16a638ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_DimensionsVisualizePropertyType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="63" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="63" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1a8d62a3122c09fab1b379843e204816de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_DimensionsVisualizePropertyType_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *_this)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_has_value</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1abf7f09728025023af90e740413756628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API const MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_value</definition>
+        <argsstring>(const MR_std_optional_MR_DimensionsVisualizePropertyType *_this)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_value</name>
+        <param>
+          <type>const <ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="72" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="72" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__DimensionsVisualizePropertyType_8h_1aa7ce112d1e5aa78a4589a8f621c0f47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref> *</type>
+        <definition>MRC_API MR_DimensionsVisualizePropertyType * MR_std_optional_MR_DimensionsVisualizePropertyType_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_DimensionsVisualizePropertyType *_this)</argsstring>
+        <name>MR_std_optional_MR_DimensionsVisualizePropertyType_value_mut</name>
+        <param>
+          <type><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" line="77" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h" declline="77" declcolumn="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRObjectDimensionsEnum_8h" kindref="compound">MRCMesh/MRObjectDimensionsEnum.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3bfda106e61d840cea8a96894b330b40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3bfda106e61d840cea8a96894b330b40" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a0b3bbd0ea818bc6895490178aba6df6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a0b3bbd0ea818bc6895490178aba6df6c" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a885e1d536053db28d7d3c0836235fe51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a885e1d536053db28d7d3c0836235fe51" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3eb67a8de681092d9e522adc5ef2d20f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a3eb67a8de681092d9e522adc5ef2d20f" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1af8806a60857ba00e5aa466317b15546a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1af8806a60857ba00e5aa466317b15546a" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFromAnother</ref>(<ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a4c767eb06701891ef4585c52fa2d4d3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a4c767eb06701891ef4585c52fa2d4d3e" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_AssignFrom</ref>(<ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a07178184378967b0dac298016d98f133" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a04b59b08f18994d3ed46c965c5e50738" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a04b59b08f18994d3ed46c965c5e50738" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a28ca3d2b84e3ba64ac9d60e094d80874" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a28ca3d2b84e3ba64ac9d60e094d80874" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a79a7308b33a2b0310dfa95ac16a638ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a79a7308b33a2b0310dfa95ac16a638ab" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_OffsetMutablePtr</ref>(<ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a8d62a3122c09fab1b379843e204816de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1a8d62a3122c09fab1b379843e204816de" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1abf7f09728025023af90e740413756628" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1abf7f09728025023af90e740413756628" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1aa7ce112d1e5aa78a4589a8f621c0f47c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectDimensionsEnum_8h_1a6c6eb20cd5f98d435ef900cd2cf4e836" kindref="member">MR_DimensionsVisualizePropertyType</ref><sp/>*<ref refid="std__optional__MR__DimensionsVisualizePropertyType_8h_1aa7ce112d1e5aa78a4589a8f621c0f47c" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType_value_mut</ref>(<ref refid="MRVisualObject_8h_1a81472ed99a5ca151f2463c9deabb79fa" kindref="member">MR_std_optional_MR_DimensionsVisualizePropertyType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_DimensionsVisualizePropertyType.h"/>
+  </compounddef>
+</doxygen>

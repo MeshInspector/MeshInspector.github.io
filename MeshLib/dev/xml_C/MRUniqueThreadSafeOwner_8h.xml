@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRUniqueThreadSafeOwner_8h" kind="file" language="C++">
     <compoundname>MRUniqueThreadSafeOwner.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,12 +18,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -35,10 +46,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>MR::AABBTree(void)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniqueThreadSafeOwner_8h_1aaefa060201ce97844138dfcbc64289f8" prot="public" static="no">
         <type>struct <ref refid="MRUniqueThreadSafeOwner_8h_1aaefa060201ce97844138dfcbc64289f8" kindref="member">MR_std_function_MR_AABBTreePoints</ref></type>
@@ -48,10 +60,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>MR::AABBTreePoints(void)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="15" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="15" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniqueThreadSafeOwner_8h_1a066a21cee5ed30c6ecaf1f498fe8f100" prot="public" static="no">
         <type>struct <ref refid="MRUniqueThreadSafeOwner_8h_1a066a21cee5ed30c6ecaf1f498fe8f100" kindref="member">MR_std_function_void_from_MR_AABBTreePoints_ref</ref></type>
@@ -61,10 +74,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>void(MR::AABBTreePoints &amp;)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="16" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="16" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniqueThreadSafeOwner_8h_1af3ae2dc332a954db8afdc3d44d83b5c9" prot="public" static="no">
         <type>struct <ref refid="MRUniqueThreadSafeOwner_8h_1af3ae2dc332a954db8afdc3d44d83b5c9" kindref="member">MR_std_function_void_from_MR_AABBTree_ref</ref></type>
@@ -74,10 +88,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>void(MR::AABBTree &amp;)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="17" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="17" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" prot="public" static="no">
         <type>struct <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref></type>
@@ -87,11 +102,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="24" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="24" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" prot="public" static="no">
         <type>struct <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref></type>
@@ -101,16 +116,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>This class is base class for unique thread safe owning of some objects, for example AABBTree classes derived from this one should have function like getOrCreate Generated from class <computeroutput>MR::UniqueThreadSafeOwner&lt;MR::AABBTreePoints&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="30" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="30" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" bodystart="30" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1aca7fad5a6963b949c4592a9c6d9c8206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstruct</name>
@@ -124,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="34" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="34" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="34" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="34" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a4b61596912c3ea1c6c7557a45194c3e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstructArray</name>
@@ -142,10 +157,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="39" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="39" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="39" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="39" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a7940e4f5ca059db691a5eb63d6926d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API const MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetPtr</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTree *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetPtr</name>
@@ -164,10 +179,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="43" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="43" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="43" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="43" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a251369572c8a6fa7cd4520d63cf1f436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetMutablePtr</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetMutablePtr</name>
@@ -186,15 +201,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="47" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="47" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="47" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="47" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a6fc3a81b8ce5ce66ae4c92e557fda8e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_UniqueThreadSafeOwner_MR_AABBTree *_other)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -208,10 +223,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="52" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="52" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="52" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="52" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a4dc6ed3c4490b0be15a6dfd0d69672aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTree *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy</name>
@@ -226,10 +241,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="55" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="55" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a226184235ea74a6cc8915632169c28cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTree_DestroyArray</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTree *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_DestroyArray</name>
@@ -244,10 +259,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="58" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="58" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1af0da6f454eadb835752291762db595ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_AssignFromAnother</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *_this, MR_PassBy _other_pass_by, MR_UniqueThreadSafeOwner_MR_AABBTree *_other)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_AssignFromAnother</name>
@@ -256,7 +271,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -270,10 +285,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="66" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="66" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="66" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="66" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a55eb49d8f587efe996794e772ed249b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTree_reset</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_reset</name>
@@ -288,10 +303,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="71" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="71" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1ab68c1595634e44aa7fba3b645390b90c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_get</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_get</name>
@@ -306,10 +321,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="76" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="76" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="76" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a28eaf9ac8b83e096e44e89bdf5983d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref> *</type>
         <definition>MRC_API MR_AABBTree * MR_UniqueThreadSafeOwner_MR_AABBTree_getOrCreate</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *_this, const MR_std_function_MR_AABBTree *creator)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_getOrCreate</name>
@@ -328,10 +343,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="83" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="83" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a9aa2bb6d03e9d1f2bb5350dae119c4d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTree_update</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTree *_this, const MR_std_function_void_from_MR_AABBTree_ref *updater)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_update</name>
@@ -350,10 +365,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="89" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="89" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a3ad8a434cea0d8661ecbf5a841ef596b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_UniqueThreadSafeOwner_MR_AABBTree_heapBytes</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTree *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTree_heapBytes</name>
@@ -368,10 +383,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="94" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="94" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="94" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="94" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a7726c8c8a1d19dca42ddde20ab76196c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstruct</name>
@@ -385,10 +400,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="98" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="98" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="98" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="98" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a462d7b4b9651d2c49d4f4bfd49a6733b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstructArray</name>
@@ -403,10 +418,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="103" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="103" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="103" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="103" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a86f2436f55c16b79137c62dadca23f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API const MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetPtr</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTreePoints *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetPtr</name>
@@ -425,10 +440,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="107" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="107" declcolumn="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="107" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="107" declcolumn="58"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a40e7407fa9bd29efc3494d3f04ae0e06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetMutablePtr</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetMutablePtr</name>
@@ -447,15 +462,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="111" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="111" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="111" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="111" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1aa2b5a2aae1f97fc00b98db5267046768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_other)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -469,10 +484,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="116" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="116" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="116" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="116" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1acf09fe903e125f922594da7ec6b591b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy</name>
@@ -487,10 +502,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a28d182dda30ae768ad8f76fcd4511af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DestroyArray</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DestroyArray</name>
@@ -505,10 +520,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a591bbec596f7deb4ba980a70a08d123b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_UniqueThreadSafeOwner_MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_AssignFromAnother</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this, MR_PassBy _other_pass_by, MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_other)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_AssignFromAnother</name>
@@ -517,7 +532,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -531,10 +546,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="130" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="130" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="130" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="130" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1aa401ddb7449dbae8c0653bb9a89a3adb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTreePoints_reset</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_reset</name>
@@ -549,10 +564,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="135" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="135" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1aa722c89736c43955716cbe4abb72e6f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_get</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_get</name>
@@ -567,10 +582,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="140" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="140" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="140" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="140" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a1af8b3333b8b24dd3819c22f81085e0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref> *</type>
         <definition>MRC_API MR_AABBTreePoints * MR_UniqueThreadSafeOwner_MR_AABBTreePoints_getOrCreate</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this, const MR_std_function_MR_AABBTreePoints *creator)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_getOrCreate</name>
@@ -589,10 +604,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="147" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="147" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="147" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="147" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a4ab4fdac12872e966f48e69b3b9cb8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UniqueThreadSafeOwner_MR_AABBTreePoints_update</definition>
         <argsstring>(MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this, const MR_std_function_void_from_MR_AABBTreePoints_ref *updater)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_update</name>
@@ -611,10 +626,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="153" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="153" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRUniqueThreadSafeOwner_8h_1a770f57cee279b5b0371cc4b1994d238d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API MR_uint64_t</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
         <definition>MRC_API MR_uint64_t MR_UniqueThreadSafeOwner_MR_AABBTreePoints_heapBytes</definition>
         <argsstring>(const MR_UniqueThreadSafeOwner_MR_AABBTreePoints *_this)</argsstring>
         <name>MR_UniqueThreadSafeOwner_MR_AABBTreePoints_heapBytes</name>
@@ -629,7 +644,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" line="158" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h" declline="158" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" line="158" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h" declline="158" declcolumn="21"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -639,8 +654,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -660,62 +675,62 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="30" refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRUniqueThreadSafeOwner_8h_1aca7fad5a6963b949c4592a9c6d9c8206" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aca7fad5a6963b949c4592a9c6d9c8206" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34" refid="MRUniqueThreadSafeOwner_8h_1aca7fad5a6963b949c4592a9c6d9c8206" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aca7fad5a6963b949c4592a9c6d9c8206" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRUniqueThreadSafeOwner_8h_1a4b61596912c3ea1c6c7557a45194c3e9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a4b61596912c3ea1c6c7557a45194c3e9" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="39" refid="MRUniqueThreadSafeOwner_8h_1a4b61596912c3ea1c6c7557a45194c3e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a4b61596912c3ea1c6c7557a45194c3e9" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRUniqueThreadSafeOwner_8h_1a7940e4f5ca059db691a5eb63d6926d60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a7940e4f5ca059db691a5eb63d6926d60" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="43" refid="MRUniqueThreadSafeOwner_8h_1a7940e4f5ca059db691a5eb63d6926d60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a7940e4f5ca059db691a5eb63d6926d60" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRUniqueThreadSafeOwner_8h_1a251369572c8a6fa7cd4520d63cf1f436" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a251369572c8a6fa7cd4520d63cf1f436" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetMutablePtr</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="47" refid="MRUniqueThreadSafeOwner_8h_1a251369572c8a6fa7cd4520d63cf1f436" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a251369572c8a6fa7cd4520d63cf1f436" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_OffsetMutablePtr</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRUniqueThreadSafeOwner_8h_1a6fc3a81b8ce5ce66ae4c92e557fda8e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a6fc3a81b8ce5ce66ae4c92e557fda8e0" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="52" refid="MRUniqueThreadSafeOwner_8h_1a6fc3a81b8ce5ce66ae4c92e557fda8e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a6fc3a81b8ce5ce66ae4c92e557fda8e0" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRUniqueThreadSafeOwner_8h_1a4dc6ed3c4490b0be15a6dfd0d69672aa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a4dc6ed3c4490b0be15a6dfd0d69672aa" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55" refid="MRUniqueThreadSafeOwner_8h_1a4dc6ed3c4490b0be15a6dfd0d69672aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a4dc6ed3c4490b0be15a6dfd0d69672aa" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRUniqueThreadSafeOwner_8h_1a226184235ea74a6cc8915632169c28cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a226184235ea74a6cc8915632169c28cc" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58" refid="MRUniqueThreadSafeOwner_8h_1a226184235ea74a6cc8915632169c28cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a226184235ea74a6cc8915632169c28cc" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRUniqueThreadSafeOwner_8h_1af0da6f454eadb835752291762db595ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1af0da6f454eadb835752291762db595ed" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_AssignFromAnother</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="66" refid="MRUniqueThreadSafeOwner_8h_1af0da6f454eadb835752291762db595ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1af0da6f454eadb835752291762db595ed" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_AssignFromAnother</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRUniqueThreadSafeOwner_8h_1a55eb49d8f587efe996794e772ed249b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a55eb49d8f587efe996794e772ed249b2" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_reset</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRUniqueThreadSafeOwner_8h_1a55eb49d8f587efe996794e772ed249b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a55eb49d8f587efe996794e772ed249b2" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_reset</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRUniqueThreadSafeOwner_8h_1ab68c1595634e44aa7fba3b645390b90c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1ab68c1595634e44aa7fba3b645390b90c" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_get</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76" refid="MRUniqueThreadSafeOwner_8h_1ab68c1595634e44aa7fba3b645390b90c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1ab68c1595634e44aa7fba3b645390b90c" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_get</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRUniqueThreadSafeOwner_8h_1a28eaf9ac8b83e096e44e89bdf5983d5b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a28eaf9ac8b83e096e44e89bdf5983d5b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_getOrCreate</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a462d7d9126150e66e0a3694b1b50b004" kindref="member">MR_std_function_MR_AABBTree</ref><sp/>*creator);</highlight></codeline>
+<codeline lineno="83" refid="MRUniqueThreadSafeOwner_8h_1a28eaf9ac8b83e096e44e89bdf5983d5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a5f65578b8ae684c98e7ad038c8b419e0" kindref="member">MR_AABBTree</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a28eaf9ac8b83e096e44e89bdf5983d5b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_getOrCreate</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a462d7d9126150e66e0a3694b1b50b004" kindref="member">MR_std_function_MR_AABBTree</ref><sp/>*creator);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRUniqueThreadSafeOwner_8h_1a9aa2bb6d03e9d1f2bb5350dae119c4d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a9aa2bb6d03e9d1f2bb5350dae119c4d4" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_update</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af3ae2dc332a954db8afdc3d44d83b5c9" kindref="member">MR_std_function_void_from_MR_AABBTree_ref</ref><sp/>*updater);</highlight></codeline>
+<codeline lineno="89" refid="MRUniqueThreadSafeOwner_8h_1a9aa2bb6d03e9d1f2bb5350dae119c4d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a9aa2bb6d03e9d1f2bb5350dae119c4d4" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_update</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af3ae2dc332a954db8afdc3d44d83b5c9" kindref="member">MR_std_function_void_from_MR_AABBTree_ref</ref><sp/>*updater);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRUniqueThreadSafeOwner_8h_1a3ad8a434cea0d8661ecbf5a841ef596b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a3ad8a434cea0d8661ecbf5a841ef596b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94" refid="MRUniqueThreadSafeOwner_8h_1a3ad8a434cea0d8661ecbf5a841ef596b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a3ad8a434cea0d8661ecbf5a841ef596b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1ad361435b7e5d5b959d209870a215c5e1" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTree</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRUniqueThreadSafeOwner_8h_1a7726c8c8a1d19dca42ddde20ab76196c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a7726c8c8a1d19dca42ddde20ab76196c" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98" refid="MRUniqueThreadSafeOwner_8h_1a7726c8c8a1d19dca42ddde20ab76196c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a7726c8c8a1d19dca42ddde20ab76196c" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRUniqueThreadSafeOwner_8h_1a462d7b4b9651d2c49d4f4bfd49a6733b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a462d7b4b9651d2c49d4f4bfd49a6733b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="103" refid="MRUniqueThreadSafeOwner_8h_1a462d7b4b9651d2c49d4f4bfd49a6733b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a462d7b4b9651d2c49d4f4bfd49a6733b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRUniqueThreadSafeOwner_8h_1a86f2436f55c16b79137c62dadca23f00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a86f2436f55c16b79137c62dadca23f00" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="107" refid="MRUniqueThreadSafeOwner_8h_1a86f2436f55c16b79137c62dadca23f00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a86f2436f55c16b79137c62dadca23f00" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRUniqueThreadSafeOwner_8h_1a40e7407fa9bd29efc3494d3f04ae0e06" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a40e7407fa9bd29efc3494d3f04ae0e06" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetMutablePtr</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="111" refid="MRUniqueThreadSafeOwner_8h_1a40e7407fa9bd29efc3494d3f04ae0e06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a40e7407fa9bd29efc3494d3f04ae0e06" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_OffsetMutablePtr</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRUniqueThreadSafeOwner_8h_1aa2b5a2aae1f97fc00b98db5267046768" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aa2b5a2aae1f97fc00b98db5267046768" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="116" refid="MRUniqueThreadSafeOwner_8h_1aa2b5a2aae1f97fc00b98db5267046768" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aa2b5a2aae1f97fc00b98db5267046768" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRUniqueThreadSafeOwner_8h_1acf09fe903e125f922594da7ec6b591b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1acf09fe903e125f922594da7ec6b591b9" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119" refid="MRUniqueThreadSafeOwner_8h_1acf09fe903e125f922594da7ec6b591b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1acf09fe903e125f922594da7ec6b591b9" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRUniqueThreadSafeOwner_8h_1a28d182dda30ae768ad8f76fcd4511af6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a28d182dda30ae768ad8f76fcd4511af6" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MRUniqueThreadSafeOwner_8h_1a28d182dda30ae768ad8f76fcd4511af6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a28d182dda30ae768ad8f76fcd4511af6" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRUniqueThreadSafeOwner_8h_1a591bbec596f7deb4ba980a70a08d123b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a591bbec596f7deb4ba980a70a08d123b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_AssignFromAnother</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="130" refid="MRUniqueThreadSafeOwner_8h_1a591bbec596f7deb4ba980a70a08d123b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a591bbec596f7deb4ba980a70a08d123b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_AssignFromAnother</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="135" refid="MRUniqueThreadSafeOwner_8h_1aa401ddb7449dbae8c0653bb9a89a3adb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1aa401ddb7449dbae8c0653bb9a89a3adb" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_reset</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135" refid="MRUniqueThreadSafeOwner_8h_1aa401ddb7449dbae8c0653bb9a89a3adb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1aa401ddb7449dbae8c0653bb9a89a3adb" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_reset</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRUniqueThreadSafeOwner_8h_1aa722c89736c43955716cbe4abb72e6f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aa722c89736c43955716cbe4abb72e6f3" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_get</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRUniqueThreadSafeOwner_8h_1aa722c89736c43955716cbe4abb72e6f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1aa722c89736c43955716cbe4abb72e6f3" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_get</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRUniqueThreadSafeOwner_8h_1a1af8b3333b8b24dd3819c22f81085e0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a1af8b3333b8b24dd3819c22f81085e0b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_getOrCreate</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1aaefa060201ce97844138dfcbc64289f8" kindref="member">MR_std_function_MR_AABBTreePoints</ref><sp/>*creator);</highlight></codeline>
+<codeline lineno="147" refid="MRUniqueThreadSafeOwner_8h_1a1af8b3333b8b24dd3819c22f81085e0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aaa96ed5b79deaa81e7e5e848584a7b6a" kindref="member">MR_AABBTreePoints</ref><sp/>*<ref refid="MRUniqueThreadSafeOwner_8h_1a1af8b3333b8b24dd3819c22f81085e0b" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_getOrCreate</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1aaefa060201ce97844138dfcbc64289f8" kindref="member">MR_std_function_MR_AABBTreePoints</ref><sp/>*creator);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRUniqueThreadSafeOwner_8h_1a4ab4fdac12872e966f48e69b3b9cb8a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a4ab4fdac12872e966f48e69b3b9cb8a7" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_update</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a066a21cee5ed30c6ecaf1f498fe8f100" kindref="member">MR_std_function_void_from_MR_AABBTreePoints_ref</ref><sp/>*updater);</highlight></codeline>
+<codeline lineno="153" refid="MRUniqueThreadSafeOwner_8h_1a4ab4fdac12872e966f48e69b3b9cb8a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a4ab4fdac12872e966f48e69b3b9cb8a7" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_update</ref>(<ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a066a21cee5ed30c6ecaf1f498fe8f100" kindref="member">MR_std_function_void_from_MR_AABBTreePoints_ref</ref><sp/>*updater);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRUniqueThreadSafeOwner_8h_1a770f57cee279b5b0371cc4b1994d238d" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a770f57cee279b5b0371cc4b1994d238d" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158" refid="MRUniqueThreadSafeOwner_8h_1a770f57cee279b5b0371cc4b1994d238d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1a770f57cee279b5b0371cc4b1994d238d" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUniqueThreadSafeOwner_8h_1af4d8ec0cf0df60e431b8d23d8245bb87" kindref="member">MR_UniqueThreadSafeOwner_MR_AABBTreePoints</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="161"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUniqueThreadSafeOwner.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRUniqueThreadSafeOwner.h"/>
   </compounddef>
 </doxygen>

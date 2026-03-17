@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRParabola_8h" kind="file" language="C++">
     <compoundname>MRParabola.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -22,7 +23,7 @@
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Parabolaf_Get_a</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_Get_a</name>
@@ -37,10 +38,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="26" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="26" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="26" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolaf_Set_a</definition>
         <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
         <name>MR_Parabolaf_Set_a</name>
@@ -59,10 +60,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="31" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="31" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="31" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="31" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Parabolaf_GetMutable_a</definition>
         <argsstring>(MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_GetMutable_a</name>
@@ -77,10 +78,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="37" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="37" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="37" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="37" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Parabolaf_Get_b</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_Get_b</name>
@@ -95,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="43" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="43" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolaf_Set_b</definition>
         <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
         <name>MR_Parabolaf_Set_b</name>
@@ -117,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="48" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="48" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Parabolaf_GetMutable_b</definition>
         <argsstring>(MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_GetMutable_b</name>
@@ -135,10 +136,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="54" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="54" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="54" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="54" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Parabolaf_Get_c</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_Get_c</name>
@@ -153,10 +154,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="60" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="60" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolaf_Set_c</definition>
         <argsstring>(MR_Parabolaf *_this, float value)</argsstring>
         <name>MR_Parabolaf_Set_c</name>
@@ -175,10 +176,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="65" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Parabolaf_GetMutable_c</definition>
         <argsstring>(MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_GetMutable_c</name>
@@ -193,10 +194,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="71" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="71" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="71" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="71" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Parabolaf_DefaultConstruct</name>
@@ -210,10 +211,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="75" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="75" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="75" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="75" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Parabolaf_DefaultConstructArray</name>
@@ -228,10 +229,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="80" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="80" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="80" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="80" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API const MR_Parabolaf * MR_Parabolaf_OffsetPtr</definition>
         <argsstring>(const MR_Parabolaf *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parabolaf_OffsetPtr</name>
@@ -250,10 +251,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="84" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="84" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="84" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="84" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_OffsetMutablePtr</definition>
         <argsstring>(MR_Parabolaf *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parabolaf_OffsetMutablePtr</name>
@@ -272,10 +273,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="88" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="88" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="88" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="88" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a43374250052334aa455c21e69e990666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_ConstructFromAnother</definition>
         <argsstring>(const MR_Parabolaf *_other)</argsstring>
         <name>MR_Parabolaf_ConstructFromAnother</name>
@@ -290,10 +291,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="94" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="94" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="94" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="94" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_Construct</definition>
         <argsstring>(float a, float b, float c)</argsstring>
         <name>MR_Parabolaf_Construct</name>
@@ -316,10 +317,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="98" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="98" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="98" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="98" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolaf_Destroy</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_Destroy</name>
@@ -334,10 +335,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="101" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolaf_DestroyArray</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_DestroyArray</name>
@@ -352,10 +353,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="104" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="104" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref> *</type>
         <definition>MRC_API MR_Parabolaf * MR_Parabolaf_AssignFromAnother</definition>
         <argsstring>(MR_Parabolaf *_this, const MR_Parabolaf *_other)</argsstring>
         <name>MR_Parabolaf_AssignFromAnother</name>
@@ -374,10 +375,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="112" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="112" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="112" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="112" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Parabolaf_call</definition>
         <argsstring>(const MR_Parabolaf *_this, float x)</argsstring>
         <name>MR_Parabolaf_call</name>
@@ -396,10 +397,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="117" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="117" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="117" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="117" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Parabolaf_extremArg</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_extremArg</name>
@@ -414,10 +415,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="122" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="122" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="122" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_Parabolaf_extremVal</definition>
         <argsstring>(const MR_Parabolaf *_this)</argsstring>
         <name>MR_Parabolaf_extremVal</name>
@@ -432,10 +433,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="127" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="127" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="127" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="127" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_Parabolad_Get_a</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_Get_a</name>
@@ -450,10 +451,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="133" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="133" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="133" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="133" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolad_Set_a</definition>
         <argsstring>(MR_Parabolad *_this, double value)</argsstring>
         <name>MR_Parabolad_Set_a</name>
@@ -472,10 +473,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="138" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="138" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_Parabolad_GetMutable_a</definition>
         <argsstring>(MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_GetMutable_a</name>
@@ -490,10 +491,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="144" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="144" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="144" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="144" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_Parabolad_Get_b</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_Get_b</name>
@@ -508,10 +509,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="150" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="150" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="150" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="150" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolad_Set_b</definition>
         <argsstring>(MR_Parabolad *_this, double value)</argsstring>
         <name>MR_Parabolad_Set_b</name>
@@ -530,10 +531,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="155" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_Parabolad_GetMutable_b</definition>
         <argsstring>(MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_GetMutable_b</name>
@@ -548,10 +549,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="161" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="161" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="161" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="161" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_Parabolad_Get_c</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_Get_c</name>
@@ -566,10 +567,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="167" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="167" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="167" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="167" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolad_Set_c</definition>
         <argsstring>(MR_Parabolad *_this, double value)</argsstring>
         <name>MR_Parabolad_Set_c</name>
@@ -588,10 +589,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="172" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="172" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="172" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_Parabolad_GetMutable_c</definition>
         <argsstring>(MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_GetMutable_c</name>
@@ -606,10 +607,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="178" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="178" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="178" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="178" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Parabolad_DefaultConstruct</name>
@@ -623,10 +624,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="182" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="182" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="182" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Parabolad_DefaultConstructArray</name>
@@ -641,10 +642,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="187" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="187" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="187" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="187" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API const MR_Parabolad * MR_Parabolad_OffsetPtr</definition>
         <argsstring>(const MR_Parabolad *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parabolad_OffsetPtr</name>
@@ -663,10 +664,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="191" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="191" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="191" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="191" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_OffsetMutablePtr</definition>
         <argsstring>(MR_Parabolad *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Parabolad_OffsetMutablePtr</name>
@@ -685,10 +686,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="195" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="195" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="195" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="195" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_ConstructFromAnother</definition>
         <argsstring>(const MR_Parabolad *_other)</argsstring>
         <name>MR_Parabolad_ConstructFromAnother</name>
@@ -703,10 +704,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="201" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="201" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="201" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="201" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_Construct</definition>
         <argsstring>(double a, double b, double c)</argsstring>
         <name>MR_Parabolad_Construct</name>
@@ -729,10 +730,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="205" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="205" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="205" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="205" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolad_Destroy</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_Destroy</name>
@@ -747,10 +748,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="208" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="208" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Parabolad_DestroyArray</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_DestroyArray</name>
@@ -765,10 +766,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="211" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="211" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref> *</type>
         <definition>MRC_API MR_Parabolad * MR_Parabolad_AssignFromAnother</definition>
         <argsstring>(MR_Parabolad *_this, const MR_Parabolad *_other)</argsstring>
         <name>MR_Parabolad_AssignFromAnother</name>
@@ -787,10 +788,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="219" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="219" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="219" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="219" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_Parabolad_call</definition>
         <argsstring>(const MR_Parabolad *_this, double x)</argsstring>
         <name>MR_Parabolad_call</name>
@@ -809,10 +810,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="224" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="224" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="224" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="224" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_Parabolad_extremArg</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_extremArg</name>
@@ -827,10 +828,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="229" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="229" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="229" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="229" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_Parabolad_extremVal</definition>
         <argsstring>(const MR_Parabolad *_this)</argsstring>
         <name>MR_Parabolad_extremVal</name>
@@ -845,7 +846,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" line="234" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h" declline="234" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" line="234" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h" declline="234" declcolumn="16"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -855,7 +856,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -868,94 +869,94 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" kindref="member">MR_Parabolaf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26" refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a5ae3d7aec7979b1190a226ccc20f0acf" kindref="member">MR_Parabolaf_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" kindref="member">MR_Parabolaf_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="31" refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af6df9848944776573ae72241ff47cc0b" kindref="member">MR_Parabolaf_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" kindref="member">MR_Parabolaf_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37" refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a58e38aa2625d4b183eecbe6ea0565c44" kindref="member">MR_Parabolaf_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" kindref="member">MR_Parabolaf_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43" refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a1f0001594be58c8a566ebbdc2c12ff86" kindref="member">MR_Parabolaf_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" kindref="member">MR_Parabolaf_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="48" refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2c0f3d5c14cb1241cb1be39591140f89" kindref="member">MR_Parabolaf_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" kindref="member">MR_Parabolaf_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aa85f1e0d9e5bfb8c865fd80620ae0aee" kindref="member">MR_Parabolaf_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" kindref="member">MR_Parabolaf_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a30813b8658ccd59c3ba96096faef30f9" kindref="member">MR_Parabolaf_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" kindref="member">MR_Parabolaf_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="65" refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a3de59d62ea7a693cf0bcf95fe9a6577a" kindref="member">MR_Parabolaf_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" kindref="member">MR_Parabolaf_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a110eed3f5877828a5895e0fe6c29f387" kindref="member">MR_Parabolaf_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" kindref="member">MR_Parabolaf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75" refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1ae719e1dd35c1d59d615ba3d5de2dcbe7" kindref="member">MR_Parabolaf_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" kindref="member">MR_Parabolaf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="80" refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a6b03a69aa60ade51a7d18f1714953aa5" kindref="member">MR_Parabolaf_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" kindref="member">MR_Parabolaf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="84" refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0660b8cd2a8bccb2fcec85e9a54173f4" kindref="member">MR_Parabolaf_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" kindref="member">MR_Parabolaf_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="88" refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1aa47e5a82f8db60fa015066b175408742" kindref="member">MR_Parabolaf_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" kindref="member">MR_Parabolaf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="94" refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a43374250052334aa455c21e69e990666" kindref="member">MR_Parabolaf_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" kindref="member">MR_Parabolaf_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="98" refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a1b0cff1c050034044ef90f8b66801ff2" kindref="member">MR_Parabolaf_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101" refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a1f0c75c94c0e36247195ba01b76780f4" kindref="member">MR_Parabolaf_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" kindref="member">MR_Parabolaf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac7c61c5edfd482554e159d13ef85dce3" kindref="member">MR_Parabolaf_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" kindref="member">MR_Parabolaf_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="112" refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*<ref refid="MRParabola_8h_1a0c58a5eb35412e460d1b4c3d29723f12" kindref="member">MR_Parabolaf_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" kindref="member">MR_Parabolaf_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="117" refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1af13a4c4df5c132fdcc334479a5719e5c" kindref="member">MR_Parabolaf_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" kindref="member">MR_Parabolaf_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a61eac465a35477af67a8bf523a1bed44" kindref="member">MR_Parabolaf_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" kindref="member">MR_Parabolaf_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127" refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac4f0308400aaa029e763dbfece5fa4f4" kindref="member">MR_Parabolaf_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a57ed3f5d1e62d017b705f6f90fa63450" kindref="member">MR_Parabolaf</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" kindref="member">MR_Parabolad_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133" refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ae246e0fcdc89c1effc1e2ede442d11f8" kindref="member">MR_Parabolad_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" kindref="member">MR_Parabolad_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="138" refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ab7e8ccb49fe17236aeec5b3af2278d22" kindref="member">MR_Parabolad_Set_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" kindref="member">MR_Parabolad_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144" refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ac203002c98e12dcfffa255dc59fdc6e4" kindref="member">MR_Parabolad_GetMutable_a</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" kindref="member">MR_Parabolad_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150" refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a42d3fb6c40b7fdc908123da3c4ac9d7f" kindref="member">MR_Parabolad_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" kindref="member">MR_Parabolad_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="155" refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a88d1038efd80f5c21fa4e1d111160a64" kindref="member">MR_Parabolad_Set_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" kindref="member">MR_Parabolad_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161" refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1a310a7a9b943ce60c0fa2e9d0e37ca6c3" kindref="member">MR_Parabolad_GetMutable_b</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" kindref="member">MR_Parabolad_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167" refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1aeeedf0370dbdb4f69a9fc8d5c85aa249" kindref="member">MR_Parabolad_Get_c</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" kindref="member">MR_Parabolad_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="172" refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1ac018a909f78cf1b4fc15039b051257b0" kindref="member">MR_Parabolad_Set_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" kindref="member">MR_Parabolad_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178" refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRParabola_8h_1ad01a4a45a1cd4353a9eb31950376cb60" kindref="member">MR_Parabolad_GetMutable_c</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" kindref="member">MR_Parabolad_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="182" refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5561f52e773cd6b0d615083acd64dd01" kindref="member">MR_Parabolad_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" kindref="member">MR_Parabolad_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="187" refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a5c7c1ca70977bcea2a6662abf4808a20" kindref="member">MR_Parabolad_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" kindref="member">MR_Parabolad_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="191" refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1ae5017d81f9d299b01f90c9f99c23c06c" kindref="member">MR_Parabolad_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195" refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" kindref="member">MR_Parabolad_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="195" refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1afbce5561db0da17cb70c211ad42c05cc" kindref="member">MR_Parabolad_OffsetMutablePtr</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" kindref="member">MR_Parabolad_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="201" refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a35b0206dd34b6154497d8982bb3e1a7c" kindref="member">MR_Parabolad_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205" refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" kindref="member">MR_Parabolad_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
+<codeline lineno="205" refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1aabd17353382c90c72182ea704f49835d" kindref="member">MR_Parabolad_Construct</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>a,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>c);</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="208" refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a0aeb67662554529885d6ba8753c74619" kindref="member">MR_Parabolad_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211" refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" kindref="member">MR_Parabolad_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211" refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a7cb8864e0a8d60440adafec9d19725ab" kindref="member">MR_Parabolad_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="212"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219" refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" kindref="member">MR_Parabolad_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="219" refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*<ref refid="MRParabola_8h_1a2a018686e11cd07d562b6e8cffbdfbb1" kindref="member">MR_Parabolad_AssignFromAnother</ref>(<ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" kindref="member">MR_Parabolad_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="224" refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1afe755483b5cee139d5d1a51e11ff1ecf" kindref="member">MR_Parabolad_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" kindref="member">MR_Parabolad_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229" refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1a2aebb90583d9add1f93e597f75b4f7b9" kindref="member">MR_Parabolad_extremArg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" kindref="member">MR_Parabolad_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234" refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRParabola_8h_1aa43427b315d93e94217a0fe0d87aaf5e" kindref="member">MR_Parabolad_extremVal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitParabola_8h_1a1b4d94d76f0d8747aa0c55910db4c1b3" kindref="member">MR_Parabolad</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="237"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRParabola.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRParabola.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h" kind="file" language="C++">
+    <compoundname>std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h</label>
+        <link refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a79f56768655159b8501718c261201a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="23" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="23" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acf229c8570b6b3af5dd50b02063c25b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aa767357c7793298649e92eeae16e469c" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad974c78cf23c9caeca1ffc0c88424ff6" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a3fd7c61314cbd89572cb1475956ae9de" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="28" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="28" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a0fb58aa2d55a1be244699a08f3bbb6e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *other)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="35" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="35" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1adbb2c5e5dc24f939b3df68241c75429e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignFromAnother</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this, const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *other)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aa767357c7793298649e92eeae16e469c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DestroyArray</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a3fd7c61314cbd89572cb1475956ae9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetPtr</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="52" column="83" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="52" declcolumn="83"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad974c78cf23c9caeca1ffc0c88424ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="56" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="56" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aea292b1f310c008346b72cec617e91f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_index</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_index</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the index of the stored element type. In rare cases may return -1 if this variant is &quot;valueless by exception&quot;. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="60" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="60" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad8ab0a65f1f973ec1935617a6176d87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_std_monostate</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_std_monostate</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 0, of type <computeroutput>std::monostate</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="66" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="66" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aad9c499b2e535f4b280853ec56142bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_MeshTriPoint</definition>
+        <argsstring>(const MR_MeshTriPoint *value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_MeshTriPoint</name>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 1, of type <computeroutput>MR::MeshTriPoint</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="73" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="73" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1af7dd0e289f0fedcf63212e7016a8df35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_EdgePoint</definition>
+        <argsstring>(const MR_EdgePoint *value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_EdgePoint</name>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 2, of type <computeroutput>MR::EdgePoint</computeroutput>. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="80" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="80" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a2f1f3ca7506a9a53e8ae642b0fd2b4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_VertId</definition>
+        <argsstring>(MR_VertId value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_VertId</name>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the variant storing the element 3, of type <computeroutput>MR::VertId</computeroutput>. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="86" column="77" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="86" declcolumn="77"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a309d345fc1589fab75044dc6bca333a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_std_monostate</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_std_monostate</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 0, of type <computeroutput>std::monostate</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a76127d6b332a26c84492189902d21bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_MeshTriPoint</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this, const MR_MeshTriPoint *value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_MeshTriPoint</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 1, of type <computeroutput>MR::MeshTriPoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="99" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a5d5b2757b75562e6e3e1c8ba95742fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_EdgePoint</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this, const MR_EdgePoint *value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_EdgePoint</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 2, of type <computeroutput>MR::EdgePoint</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="106" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad80c2ad7e44df4f2940a48e1a5942345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_VertId</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this, MR_VertId value)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_VertId</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns to the variant, making it store the element 3, of type <computeroutput>MR::VertId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a58129efc8b0c96fc5e38785088aaccf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_std_monostate</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_std_monostate</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 0, of type <computeroutput>std::monostate</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="117" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="117" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a4ee7af0abef73ce2bce9cbeebc829efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API const MR_MeshTriPoint * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::MeshTriPoint</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="122" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="122" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acd8168b910e21eafe049af7bb89c12be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref> *</type>
+        <definition>MRC_API MR_MeshTriPoint * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint_mut</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint_mut</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 1, of type <computeroutput>MR::MeshTriPoint</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="127" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="127" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a6d9b649da6374735614a4e4f49d97fb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
+        <definition>MRC_API const MR_EdgePoint * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::EdgePoint</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="132" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="132" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ae4e371c9d792283401de338da418c094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref> *</type>
+        <definition>MRC_API MR_EdgePoint * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint_mut</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint_mut</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 2, of type <computeroutput>MR::EdgePoint</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="137" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="137" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a67142e56f0b03d52c3e1a205d9315c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId</definition>
+        <argsstring>(const MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId</name>
+        <param>
+          <type>const <ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>MR::VertId</computeroutput>, read-only. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="142" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="142" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afc7deded395790c2374b7b5126783aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref> *</type>
+        <definition>MRC_API MR_VertId * MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId_mut</definition>
+        <argsstring>(MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId *_this)</argsstring>
+        <name>MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId_mut</name>
+        <param>
+          <type><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element 3, of type <computeroutput>MR::VertId</computeroutput>, mutable. If it&apos;s not the active element, returns null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" line="147" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h" declline="147" declcolumn="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a79f56768655159b8501718c261201a45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a79f56768655159b8501718c261201a45" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acf229c8570b6b3af5dd50b02063c25b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acf229c8570b6b3af5dd50b02063c25b3" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a0fb58aa2d55a1be244699a08f3bbb6e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a0fb58aa2d55a1be244699a08f3bbb6e4" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1adbb2c5e5dc24f939b3df68241c75429e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1adbb2c5e5dc24f939b3df68241c75429e" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignFromAnother</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afdb0891bef89c58b1c30363e865e6eb5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aa767357c7793298649e92eeae16e469c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aa767357c7793298649e92eeae16e469c" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a3fd7c61314cbd89572cb1475956ae9de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a3fd7c61314cbd89572cb1475956ae9de" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad974c78cf23c9caeca1ffc0c88424ff6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad974c78cf23c9caeca1ffc0c88424ff6" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aea292b1f310c008346b72cec617e91f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aea292b1f310c008346b72cec617e91f5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad8ab0a65f1f973ec1935617a6176d87a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad8ab0a65f1f973ec1935617a6176d87a" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_std_monostate</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aad9c499b2e535f4b280853ec56142bfa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1aad9c499b2e535f4b280853ec56142bfa" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1af7dd0e289f0fedcf63212e7016a8df35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1af7dd0e289f0fedcf63212e7016a8df35" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a2f1f3ca7506a9a53e8ae642b0fd2b4aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a2f1f3ca7506a9a53e8ae642b0fd2b4aa" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_ConstructAs_MR_VertId</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a309d345fc1589fab75044dc6bca333a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a309d345fc1589fab75044dc6bca333a3" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_std_monostate</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a76127d6b332a26c84492189902d21bf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a76127d6b332a26c84492189902d21bf6" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_MeshTriPoint</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a5d5b2757b75562e6e3e1c8ba95742fa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a5d5b2757b75562e6e3e1c8ba95742fa5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_EdgePoint</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad80c2ad7e44df4f2940a48e1a5942345" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ad80c2ad7e44df4f2940a48e1a5942345" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_AssignAs_MR_VertId</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a58129efc8b0c96fc5e38785088aaccf5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a58129efc8b0c96fc5e38785088aaccf5" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_std_monostate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a4ee7af0abef73ce2bce9cbeebc829efb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a4ee7af0abef73ce2bce9cbeebc829efb" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acd8168b910e21eafe049af7bb89c12be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a741f5bb0872ea5dd2506146d0fd1afdc" kindref="member">MR_MeshTriPoint</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1acd8168b910e21eafe049af7bb89c12be" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_MeshTriPoint_mut</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a6d9b649da6374735614a4e4f49d97fb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a6d9b649da6374735614a4e4f49d97fb3" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ae4e371c9d792283401de338da418c094" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a50185006f78fd01ef7f1316a047afa45" kindref="member">MR_EdgePoint</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1ae4e371c9d792283401de338da418c094" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_EdgePoint_mut</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a67142e56f0b03d52c3e1a205d9315c88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1a67142e56f0b03d52c3e1a205d9315c88" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afc7deded395790c2374b7b5126783aa7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>*<ref refid="std__variant__std__monostate__MR__MeshTriPoint__MR__EdgePoint__MR__VertId_8h_1afc7deded395790c2374b7b5126783aa7" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId_get_MR_VertId_mut</ref>(<ref refid="MRPointOnObject_8h_1a360760a7fe4afc9590f0b7400169a743" kindref="member">MR_std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_variant_std_monostate_MR_MeshTriPoint_MR_EdgePoint_MR_VertId.h"/>
+  </compounddef>
+</doxygen>

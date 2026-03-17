@@ -1,6 +1,5 @@
 var MRChangeVoxelSelectionAction_8h =
 [
-    [ "MR_ChangVoxelSelectionAction", "MRChangeVoxelSelectionAction_8h.html#a57a2ae8d8eb710bac84ccc821236200d", null ],
     [ "MR_ChangVoxelSelectionAction_action", "MRChangeVoxelSelectionAction_8h.html#afa59fd467f0a0784d18891b8ae81d02c", null ],
     [ "MR_ChangVoxelSelectionAction_AssignFromAnother", "MRChangeVoxelSelectionAction_8h.html#aa89a1b3942ddc10a173ef48354a577cf", null ],
     [ "MR_ChangVoxelSelectionAction_Construct", "MRChangeVoxelSelectionAction_8h.html#a3687138e880e2d986efbb61efac7b39d", null ],

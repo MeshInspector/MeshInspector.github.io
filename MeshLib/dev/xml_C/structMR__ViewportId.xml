@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" line="18" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRViewportId.h" line="18" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRViewportId.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -24,7 +24,7 @@
     <detaileddescription>
 <para>stores unique identifier of a viewport, which is power of two; id=0 has a special meaning of default viewport in some contexts Generated from class <computeroutput>MR::ViewportId</computeroutput>. </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRViewportId.h" bodystart="17" bodyend="19"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRViewportId.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRViewportId.h" bodystart="17" bodyend="19"/>
     <listofallmembers>
       <member refid="structMR__ViewportId_1a1121b5764f381703487ab5a6a8ddba0f" prot="public" virt="non-virtual"><scope>MR_ViewportId</scope><name>id_</name></member>
     </listofallmembers>

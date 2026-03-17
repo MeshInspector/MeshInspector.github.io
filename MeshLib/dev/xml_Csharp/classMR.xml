@@ -13726,13 +13726,13 @@ this function must be faster than extractXYPlaneSections function when connectin
           <declname>contour</declname>
         </param>
         <briefdescription>
-<para>Generated from function <computeroutput><ref refid="classMR_1a0f95b3508a5a4f6f59c26ed5b3bcfcdf" kindref="member">MR.fillContourLeft</ref></computeroutput>. </para>
+<para>returns the region located to the left from the given edges; if the contour(s) are not separating and there is a tunnel connecting left and right side of the contour(s), then all faces from contour's connected components are returned; please use <ref refid="classMR_1abf8a72f9a9947fb60609ea99a1d4f611" kindref="member">fillContourLeftByGraphCut</ref> for not-separating contours instead Generated from function <computeroutput><ref refid="classMR_1a0f95b3508a5a4f6f59c26ed5b3bcfcdf" kindref="member">MR.fillContourLeft</ref></computeroutput>. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" line="7" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" bodystart="7" bodyend="12"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" line="10" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" bodystart="10" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1ae6abb0ac7da6db33822ad20e647e21b4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
@@ -13755,7 +13755,7 @@ this function must be faster than extractXYPlaneSections function when connectin
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" line="17" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" bodystart="17" bodyend="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" line="20" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFillContour.cs" bodystart="20" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classMR_1abf8a72f9a9947fb60609ea99a1d4f611" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>

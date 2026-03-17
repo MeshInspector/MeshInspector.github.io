@@ -3,8 +3,8 @@
   <compounddef id="MRMeshBooleanFacade_8h" kind="file" language="C++">
     <compoundname>MRMeshBooleanFacade.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -12,17 +12,17 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -34,23 +34,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -62,7 +62,7 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -72,16 +72,26 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -89,17 +99,18 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="6">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -111,11 +122,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>an object that stores a mesh Generated from class <computeroutput>MR::ObjectMesh</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectMeshHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>an object that stores a mesh Generated from class <computeroutput>MR::ObjectMesh</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::ObjectMeshHolder</computeroutput> Indirect: (non-virtual) <computeroutput>MR::ObjectChildrenHolder</computeroutput> <computeroutput>MR::Object</computeroutput> <computeroutput>MR::VisualObject</computeroutput> Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" prot="public" static="no">
         <type>struct <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref></type>
@@ -125,11 +136,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>just stores a mesh and its transformation to some fixed reference frame Generated from class <computeroutput>MR::TransformedMesh</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>just stores a mesh and its transformation to some fixed reference frame Generated from class <computeroutput>MR::TransformedMesh</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="20" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="20" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" prot="public" static="no">
         <type>struct <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref></type>
@@ -139,16 +150,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the purpose of this class is to be a replacement for MeshVoxelsConverter in case one wants to quickly assess the change from voxel-based to mesh-based boolean Generated from class <computeroutput>MR::MeshMeshConverter</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>the purpose of this class is to be a replacement for MeshVoxelsConverter in case one wants to quickly assess the change from voxel-based to mesh-based boolean Generated from class <computeroutput>MR::MeshMeshConverter</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="26" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" bodystart="26" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="26" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" bodystart="26" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1ac7b17f248c909b25357637e04829e785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API const MR_Mesh * MR_TransformedMesh_Get_mesh</definition>
         <argsstring>(const MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_Get_mesh</name>
@@ -163,10 +174,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="32" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="32" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="32" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="32" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a9824dcd617eef16266f98fdf1efa9fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformedMesh_Set_mesh</definition>
         <argsstring>(MR_TransformedMesh *_this, MR_PassBy value_pass_by, MR_Mesh *value)</argsstring>
         <name>MR_TransformedMesh_Set_mesh</name>
@@ -175,7 +186,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -189,10 +200,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="38" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a15e72feaee46b3c62d9bd9f123f0601c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_TransformedMesh_GetMutable_mesh</definition>
         <argsstring>(MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_GetMutable_mesh</name>
@@ -207,10 +218,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="44" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="44" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="44" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="44" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1ae6b698b5139f3b790afe354f9f777ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API const MR_AffineXf3f * MR_TransformedMesh_Get_xf</definition>
         <argsstring>(const MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_Get_xf</name>
@@ -225,10 +236,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="50" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="50" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="50" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="50" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a8265746af52f2c98dad9beefd1d2a566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformedMesh_Set_xf</definition>
         <argsstring>(MR_TransformedMesh *_this, MR_AffineXf3f value)</argsstring>
         <name>MR_TransformedMesh_Set_xf</name>
@@ -247,10 +258,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a6d4e922d50c807ae1ce63f4a4fa7ff14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API MR_AffineXf3f * MR_TransformedMesh_GetMutable_xf</definition>
         <argsstring>(MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_GetMutable_xf</name>
@@ -265,10 +276,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="62" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="62" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="62" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="62" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a54e92800fb184c0431118c24bf4bcf73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_TransformedMesh_DefaultConstruct</name>
@@ -282,10 +293,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="66" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="66" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="66" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="66" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a3c1b32a07e87e7af37c0f361f0b78746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_TransformedMesh_DefaultConstructArray</name>
@@ -300,10 +311,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="71" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="71" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="71" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="71" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a2959745ae1970261cc23effb3cc58f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API const MR_TransformedMesh * MR_TransformedMesh_OffsetPtr</definition>
         <argsstring>(const MR_TransformedMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TransformedMesh_OffsetPtr</name>
@@ -322,10 +333,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="75" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="75" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="75" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="75" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1abe1b26d698772a634bb0681531da0f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_OffsetMutablePtr</definition>
         <argsstring>(MR_TransformedMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TransformedMesh_OffsetMutablePtr</name>
@@ -344,15 +355,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="79" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="79" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="79" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="79" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a810012794d82655139210b6226ca8e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_TransformedMesh *_other)</argsstring>
         <name>MR_TransformedMesh_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -366,15 +377,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="84" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="84" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="84" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="84" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a14df3cd42ad09abb7fd3c0c34f93a357" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_Construct</definition>
         <argsstring>(MR_PassBy mesh_pass_by, MR_Mesh *mesh, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_TransformedMesh_Construct</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>mesh_pass_by</declname>
         </param>
         <param>
@@ -392,10 +403,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="92" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="92" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="92" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="92" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a44968e2d4bcc71b7269533f06b3798ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformedMesh_Destroy</definition>
         <argsstring>(const MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_Destroy</name>
@@ -410,10 +421,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1ae28fc192a3d7a0dd3d0c0ff69a44acdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TransformedMesh_DestroyArray</definition>
         <argsstring>(const MR_TransformedMesh *_this)</argsstring>
         <name>MR_TransformedMesh_DestroyArray</name>
@@ -428,10 +439,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="98" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a6fb8e78a3bfaef76ca0f91fad8584987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_TransformedMesh_AssignFromAnother</definition>
         <argsstring>(MR_TransformedMesh *_this, MR_PassBy _other_pass_by, MR_TransformedMesh *_other)</argsstring>
         <name>MR_TransformedMesh_AssignFromAnother</name>
@@ -440,7 +451,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -454,10 +465,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="105" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="105" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="105" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="105" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a68c7a28cc4e88a844313e3f2c6ccfebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API MR_MeshMeshConverter * MR_MeshMeshConverter_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MeshMeshConverter_DefaultConstruct</name>
@@ -471,10 +482,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="109" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="109" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="109" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="109" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a7eac7dae8310781b7cb2ec04de4222dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API MR_MeshMeshConverter * MR_MeshMeshConverter_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MeshMeshConverter_DefaultConstructArray</name>
@@ -489,10 +500,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="114" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="114" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="114" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="114" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1ad2e0468ab4bd4af4fae7759ce430f29c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API const MR_MeshMeshConverter * MR_MeshMeshConverter_OffsetPtr</definition>
         <argsstring>(const MR_MeshMeshConverter *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshMeshConverter_OffsetPtr</name>
@@ -511,10 +522,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="118" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="118" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="118" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="118" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1aad28bc18ff5dc1b7be08db8608384e45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API MR_MeshMeshConverter * MR_MeshMeshConverter_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshMeshConverter *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshMeshConverter_OffsetMutablePtr</name>
@@ -533,10 +544,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="122" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="122" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="122" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="122" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a396c29fb76693cd6266995ab6c9eda52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API MR_MeshMeshConverter * MR_MeshMeshConverter_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshMeshConverter *_other)</argsstring>
         <name>MR_MeshMeshConverter_ConstructFromAnother</name>
@@ -551,10 +562,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="128" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="128" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="128" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="128" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1aec0361552b1022d87e4bf20c436c108e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshMeshConverter_Destroy</definition>
         <argsstring>(const MR_MeshMeshConverter *_this)</argsstring>
         <name>MR_MeshMeshConverter_Destroy</name>
@@ -569,10 +580,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a6678f88a1f513240d984743f3cb82a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshMeshConverter_DestroyArray</definition>
         <argsstring>(const MR_MeshMeshConverter *_this)</argsstring>
         <name>MR_MeshMeshConverter_DestroyArray</name>
@@ -587,10 +598,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="134" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="134" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1ad4c5c10573af2357d6e39da7057bf960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref> *</type>
         <definition>MRC_API MR_MeshMeshConverter * MR_MeshMeshConverter_AssignFromAnother</definition>
         <argsstring>(MR_MeshMeshConverter *_this, const MR_MeshMeshConverter *_other)</argsstring>
         <name>MR_MeshMeshConverter_AssignFromAnother</name>
@@ -609,10 +620,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="142" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="142" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="142" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="142" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a5f3da24fbfe2fd1441a85e210d13c230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_MeshMeshConverter_call_2</definition>
         <argsstring>(const MR_MeshMeshConverter *_this, MR_PassBy mesh_pass_by, MR_Mesh *mesh, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_MeshMeshConverter_call_2</name>
@@ -621,7 +632,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>mesh_pass_by</declname>
         </param>
         <param>
@@ -639,10 +650,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="149" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="149" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="149" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="149" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1aaa37c3a9db0e9ca20166f0aa70e7b810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_MeshMeshConverter_call_1_const_MR_ObjectMesh_ref</definition>
         <argsstring>(const MR_MeshMeshConverter *_this, const MR_ObjectMesh *obj)</argsstring>
         <name>MR_MeshMeshConverter_call_1_const_MR_ObjectMesh_ref</name>
@@ -661,10 +672,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="155" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="155" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="155" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="155" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a6a2a3d7e2fc4351bd53c657aa29c7823" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API const MR_Mesh * MR_MeshMeshConverter_call_1_const_MR_TransformedMesh_ref</definition>
         <argsstring>(const MR_MeshMeshConverter *_this, const MR_TransformedMesh *xm)</argsstring>
         <name>MR_MeshMeshConverter_call_1_const_MR_TransformedMesh_ref</name>
@@ -683,10 +694,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="161" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="161" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="161" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="161" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1aa6ed74f7e92a721736ab08d632912a0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_MeshMeshConverter_call_1_MR_TransformedMesh_rvalue_ref</definition>
         <argsstring>(const MR_MeshMeshConverter *_this, MR_TransformedMesh *xm)</argsstring>
         <name>MR_MeshMeshConverter_call_1_MR_TransformedMesh_rvalue_ref</name>
@@ -705,10 +716,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="170" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="170" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="170" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="170" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a447406c09361344bfe07233e19e4a1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_add_assign_MR_TransformedMesh</definition>
         <argsstring>(MR_TransformedMesh *a, const MR_TransformedMesh *b)</argsstring>
         <name>MR_add_assign_MR_TransformedMesh</name>
@@ -727,10 +738,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="177" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="177" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="177" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="177" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a84ace29128cef106b61635fc0c6874fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_sub_assign_MR_TransformedMesh</definition>
         <argsstring>(MR_TransformedMesh *a, const MR_TransformedMesh *b)</argsstring>
         <name>MR_sub_assign_MR_TransformedMesh</name>
@@ -749,10 +760,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="184" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="184" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="184" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="184" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshBooleanFacade_8h_1a3b6856b108aa1be57d79dbc7b9853b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref> *</type>
         <definition>MRC_API MR_TransformedMesh * MR_mul_assign_MR_TransformedMesh</definition>
         <argsstring>(MR_TransformedMesh *a, const MR_TransformedMesh *b)</argsstring>
         <name>MR_mul_assign_MR_TransformedMesh</name>
@@ -771,7 +782,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" line="191" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h" declline="191" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" line="191" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h" declline="191" declcolumn="28"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -782,8 +793,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -799,70 +810,70 @@
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26" refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref>;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRMeshBooleanFacade_8h_1ac7b17f248c909b25357637e04829e785" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ac7b17f248c909b25357637e04829e785" kindref="member">MR_TransformedMesh_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32" refid="MRMeshBooleanFacade_8h_1ac7b17f248c909b25357637e04829e785" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ac7b17f248c909b25357637e04829e785" kindref="member">MR_TransformedMesh_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRMeshBooleanFacade_8h_1a9824dcd617eef16266f98fdf1efa9fe0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a9824dcd617eef16266f98fdf1efa9fe0" kindref="member">MR_TransformedMesh_Set_mesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="38" refid="MRMeshBooleanFacade_8h_1a9824dcd617eef16266f98fdf1efa9fe0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a9824dcd617eef16266f98fdf1efa9fe0" kindref="member">MR_TransformedMesh_Set_mesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshBooleanFacade_8h_1a15e72feaee46b3c62d9bd9f123f0601c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a15e72feaee46b3c62d9bd9f123f0601c" kindref="member">MR_TransformedMesh_GetMutable_mesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshBooleanFacade_8h_1a15e72feaee46b3c62d9bd9f123f0601c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a15e72feaee46b3c62d9bd9f123f0601c" kindref="member">MR_TransformedMesh_GetMutable_mesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMeshBooleanFacade_8h_1ae6b698b5139f3b790afe354f9f777ff6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ae6b698b5139f3b790afe354f9f777ff6" kindref="member">MR_TransformedMesh_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRMeshBooleanFacade_8h_1ae6b698b5139f3b790afe354f9f777ff6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ae6b698b5139f3b790afe354f9f777ff6" kindref="member">MR_TransformedMesh_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRMeshBooleanFacade_8h_1a8265746af52f2c98dad9beefd1d2a566" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a8265746af52f2c98dad9beefd1d2a566" kindref="member">MR_TransformedMesh_Set_xf</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="56" refid="MRMeshBooleanFacade_8h_1a8265746af52f2c98dad9beefd1d2a566" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a8265746af52f2c98dad9beefd1d2a566" kindref="member">MR_TransformedMesh_Set_xf</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMeshBooleanFacade_8h_1a6d4e922d50c807ae1ce63f4a4fa7ff14" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6d4e922d50c807ae1ce63f4a4fa7ff14" kindref="member">MR_TransformedMesh_GetMutable_xf</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRMeshBooleanFacade_8h_1a6d4e922d50c807ae1ce63f4a4fa7ff14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6d4e922d50c807ae1ce63f4a4fa7ff14" kindref="member">MR_TransformedMesh_GetMutable_xf</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRMeshBooleanFacade_8h_1a54e92800fb184c0431118c24bf4bcf73" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a54e92800fb184c0431118c24bf4bcf73" kindref="member">MR_TransformedMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66" refid="MRMeshBooleanFacade_8h_1a54e92800fb184c0431118c24bf4bcf73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a54e92800fb184c0431118c24bf4bcf73" kindref="member">MR_TransformedMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRMeshBooleanFacade_8h_1a3c1b32a07e87e7af37c0f361f0b78746" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a3c1b32a07e87e7af37c0f361f0b78746" kindref="member">MR_TransformedMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="71" refid="MRMeshBooleanFacade_8h_1a3c1b32a07e87e7af37c0f361f0b78746" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a3c1b32a07e87e7af37c0f361f0b78746" kindref="member">MR_TransformedMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRMeshBooleanFacade_8h_1a2959745ae1970261cc23effb3cc58f1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a2959745ae1970261cc23effb3cc58f1e" kindref="member">MR_TransformedMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="75" refid="MRMeshBooleanFacade_8h_1a2959745ae1970261cc23effb3cc58f1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a2959745ae1970261cc23effb3cc58f1e" kindref="member">MR_TransformedMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRMeshBooleanFacade_8h_1abe1b26d698772a634bb0681531da0f0b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1abe1b26d698772a634bb0681531da0f0b" kindref="member">MR_TransformedMesh_OffsetMutablePtr</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="79" refid="MRMeshBooleanFacade_8h_1abe1b26d698772a634bb0681531da0f0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1abe1b26d698772a634bb0681531da0f0b" kindref="member">MR_TransformedMesh_OffsetMutablePtr</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRMeshBooleanFacade_8h_1a810012794d82655139210b6226ca8e56" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a810012794d82655139210b6226ca8e56" kindref="member">MR_TransformedMesh_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="84" refid="MRMeshBooleanFacade_8h_1a810012794d82655139210b6226ca8e56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a810012794d82655139210b6226ca8e56" kindref="member">MR_TransformedMesh_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRMeshBooleanFacade_8h_1a14df3cd42ad09abb7fd3c0c34f93a357" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a14df3cd42ad09abb7fd3c0c34f93a357" kindref="member">MR_TransformedMesh_Construct</ref>(MR_PassBy<sp/>mesh_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="92" refid="MRMeshBooleanFacade_8h_1a14df3cd42ad09abb7fd3c0c34f93a357" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a14df3cd42ad09abb7fd3c0c34f93a357" kindref="member">MR_TransformedMesh_Construct</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>mesh_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRMeshBooleanFacade_8h_1a44968e2d4bcc71b7269533f06b3798ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a44968e2d4bcc71b7269533f06b3798ee" kindref="member">MR_TransformedMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MRMeshBooleanFacade_8h_1a44968e2d4bcc71b7269533f06b3798ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a44968e2d4bcc71b7269533f06b3798ee" kindref="member">MR_TransformedMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRMeshBooleanFacade_8h_1ae28fc192a3d7a0dd3d0c0ff69a44acdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1ae28fc192a3d7a0dd3d0c0ff69a44acdc" kindref="member">MR_TransformedMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98" refid="MRMeshBooleanFacade_8h_1ae28fc192a3d7a0dd3d0c0ff69a44acdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1ae28fc192a3d7a0dd3d0c0ff69a44acdc" kindref="member">MR_TransformedMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRMeshBooleanFacade_8h_1a6fb8e78a3bfaef76ca0f91fad8584987" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6fb8e78a3bfaef76ca0f91fad8584987" kindref="member">MR_TransformedMesh_AssignFromAnother</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="105" refid="MRMeshBooleanFacade_8h_1a6fb8e78a3bfaef76ca0f91fad8584987" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6fb8e78a3bfaef76ca0f91fad8584987" kindref="member">MR_TransformedMesh_AssignFromAnother</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRMeshBooleanFacade_8h_1a68c7a28cc4e88a844313e3f2c6ccfebe" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a68c7a28cc4e88a844313e3f2c6ccfebe" kindref="member">MR_MeshMeshConverter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109" refid="MRMeshBooleanFacade_8h_1a68c7a28cc4e88a844313e3f2c6ccfebe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a68c7a28cc4e88a844313e3f2c6ccfebe" kindref="member">MR_MeshMeshConverter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRMeshBooleanFacade_8h_1a7eac7dae8310781b7cb2ec04de4222dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a7eac7dae8310781b7cb2ec04de4222dd" kindref="member">MR_MeshMeshConverter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="114" refid="MRMeshBooleanFacade_8h_1a7eac7dae8310781b7cb2ec04de4222dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a7eac7dae8310781b7cb2ec04de4222dd" kindref="member">MR_MeshMeshConverter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRMeshBooleanFacade_8h_1ad2e0468ab4bd4af4fae7759ce430f29c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ad2e0468ab4bd4af4fae7759ce430f29c" kindref="member">MR_MeshMeshConverter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="118" refid="MRMeshBooleanFacade_8h_1ad2e0468ab4bd4af4fae7759ce430f29c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ad2e0468ab4bd4af4fae7759ce430f29c" kindref="member">MR_MeshMeshConverter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRMeshBooleanFacade_8h_1aad28bc18ff5dc1b7be08db8608384e45" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aad28bc18ff5dc1b7be08db8608384e45" kindref="member">MR_MeshMeshConverter_OffsetMutablePtr</ref>(<ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="122" refid="MRMeshBooleanFacade_8h_1aad28bc18ff5dc1b7be08db8608384e45" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aad28bc18ff5dc1b7be08db8608384e45" kindref="member">MR_MeshMeshConverter_OffsetMutablePtr</ref>(<ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRMeshBooleanFacade_8h_1a396c29fb76693cd6266995ab6c9eda52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a396c29fb76693cd6266995ab6c9eda52" kindref="member">MR_MeshMeshConverter_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="128" refid="MRMeshBooleanFacade_8h_1a396c29fb76693cd6266995ab6c9eda52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a396c29fb76693cd6266995ab6c9eda52" kindref="member">MR_MeshMeshConverter_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRMeshBooleanFacade_8h_1aec0361552b1022d87e4bf20c436c108e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1aec0361552b1022d87e4bf20c436c108e" kindref="member">MR_MeshMeshConverter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131" refid="MRMeshBooleanFacade_8h_1aec0361552b1022d87e4bf20c436c108e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1aec0361552b1022d87e4bf20c436c108e" kindref="member">MR_MeshMeshConverter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRMeshBooleanFacade_8h_1a6678f88a1f513240d984743f3cb82a03" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a6678f88a1f513240d984743f3cb82a03" kindref="member">MR_MeshMeshConverter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRMeshBooleanFacade_8h_1a6678f88a1f513240d984743f3cb82a03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a6678f88a1f513240d984743f3cb82a03" kindref="member">MR_MeshMeshConverter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRMeshBooleanFacade_8h_1ad4c5c10573af2357d6e39da7057bf960" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ad4c5c10573af2357d6e39da7057bf960" kindref="member">MR_MeshMeshConverter_AssignFromAnother</ref>(<ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="142" refid="MRMeshBooleanFacade_8h_1ad4c5c10573af2357d6e39da7057bf960" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1ad4c5c10573af2357d6e39da7057bf960" kindref="member">MR_MeshMeshConverter_AssignFromAnother</ref>(<ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRMeshBooleanFacade_8h_1a5f3da24fbfe2fd1441a85e210d13c230" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a5f3da24fbfe2fd1441a85e210d13c230" kindref="member">MR_MeshMeshConverter_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/>MR_PassBy<sp/>mesh_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="149" refid="MRMeshBooleanFacade_8h_1a5f3da24fbfe2fd1441a85e210d13c230" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a5f3da24fbfe2fd1441a85e210d13c230" kindref="member">MR_MeshMeshConverter_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>mesh_pass_by,<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRMeshBooleanFacade_8h_1aaa37c3a9db0e9ca20166f0aa70e7b810" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aaa37c3a9db0e9ca20166f0aa70e7b810" kindref="member">MR_MeshMeshConverter_call_1_const_MR_ObjectMesh_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="155" refid="MRMeshBooleanFacade_8h_1aaa37c3a9db0e9ca20166f0aa70e7b810" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aaa37c3a9db0e9ca20166f0aa70e7b810" kindref="member">MR_MeshMeshConverter_call_1_const_MR_ObjectMesh_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a56cfc66ab2739e1be0c5e38e4bfe6da6" kindref="member">MR_ObjectMesh</ref><sp/>*obj);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRMeshBooleanFacade_8h_1a6a2a3d7e2fc4351bd53c657aa29c7823" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6a2a3d7e2fc4351bd53c657aa29c7823" kindref="member">MR_MeshMeshConverter_call_1_const_MR_TransformedMesh_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*xm);</highlight></codeline>
+<codeline lineno="161" refid="MRMeshBooleanFacade_8h_1a6a2a3d7e2fc4351bd53c657aa29c7823" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a6a2a3d7e2fc4351bd53c657aa29c7823" kindref="member">MR_MeshMeshConverter_call_1_const_MR_TransformedMesh_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*xm);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="170" refid="MRMeshBooleanFacade_8h_1aa6ed74f7e92a721736ab08d632912a0a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aa6ed74f7e92a721736ab08d632912a0a" kindref="member">MR_MeshMeshConverter_call_1_MR_TransformedMesh_rvalue_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*xm);</highlight></codeline>
+<codeline lineno="170" refid="MRMeshBooleanFacade_8h_1aa6ed74f7e92a721736ab08d632912a0a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1aa6ed74f7e92a721736ab08d632912a0a" kindref="member">MR_MeshMeshConverter_call_1_MR_TransformedMesh_rvalue_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a812d28ecb2fbc0f0c4aa2985d32dc668" kindref="member">MR_MeshMeshConverter</ref><sp/>*_this,<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*xm);</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177" refid="MRMeshBooleanFacade_8h_1a447406c09361344bfe07233e19e4a1b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a447406c09361344bfe07233e19e4a1b2" kindref="member">MR_add_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="177" refid="MRMeshBooleanFacade_8h_1a447406c09361344bfe07233e19e4a1b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a447406c09361344bfe07233e19e4a1b2" kindref="member">MR_add_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRMeshBooleanFacade_8h_1a84ace29128cef106b61635fc0c6874fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a84ace29128cef106b61635fc0c6874fa" kindref="member">MR_sub_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="184" refid="MRMeshBooleanFacade_8h_1a84ace29128cef106b61635fc0c6874fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a84ace29128cef106b61635fc0c6874fa" kindref="member">MR_sub_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRMeshBooleanFacade_8h_1a3b6856b108aa1be57d79dbc7b9853b52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a3b6856b108aa1be57d79dbc7b9853b52" kindref="member">MR_mul_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="191" refid="MRMeshBooleanFacade_8h_1a3b6856b108aa1be57d79dbc7b9853b52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*<ref refid="MRMeshBooleanFacade_8h_1a3b6856b108aa1be57d79dbc7b9853b52" kindref="member">MR_mul_assign_MR_TransformedMesh</ref>(<ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBooleanFacade_8h_1a5ad88833281e2d67e33e4b46cdc78b51" kindref="member">MR_TransformedMesh</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="194"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBooleanFacade.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshBooleanFacade.h"/>
   </compounddef>
 </doxygen>

@@ -1,7 +1,5 @@
 var MRFloatGrid_8h =
 [
-    [ "MR_OpenVdbFloatGrid", "MRFloatGrid_8h.html#aac20c639173df481ee73c6586269c72f", null ],
-    [ "MR_std_shared_ptr_MR_OpenVdbFloatGrid", "MRFloatGrid_8h.html#a5c8ff4291115b7eb85975766541c1c5c", null ],
     [ "MR_add_assign_MR_FloatGrid", "MRFloatGrid_8h.html#ac82b0e6c368fea1143a64468bf0087ac", null ],
     [ "MR_add_MR_FloatGrid", "MRFloatGrid_8h.html#a7b7113850e335ad760b7c5e2ac62351e", null ],
     [ "MR_countVoxelsWithValueGreater", "MRFloatGrid_8h.html#a75efb622f03a08c32c0bdc92f0695c48", null ],

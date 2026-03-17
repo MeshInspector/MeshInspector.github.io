@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__EdgeSegment_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_EdgeSegment.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_EdgeSegment.h</label>
+        <link refid="std__vector__MR__EdgeSegment_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_EdgeSegment_const_iterator MR_std_vector_MR_EdgeSegment_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="22" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_EdgeSegment_iterator MR_std_vector_MR_EdgeSegment_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="26" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aedbd621545c9629df8f12252dff9afda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" kindref="member">MR_std_vector_MR_EdgeSegment_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="30" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="30" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a304a74a6686ff86f9c0b2269e31113d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a28b3abc73d1e7a07af8330521f9d13ca" kindref="member">MR_std_vector_MR_EdgeSegment_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a914765ddb27698d603f0ba39bf2ba609" kindref="member">MR_std_vector_MR_EdgeSegment_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1aa425a4c2c54b199678750cbf7081e7c4" kindref="member">MR_std_vector_MR_EdgeSegment_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="35" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="35" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ab668b48cf13e88268a0e5939bea2e3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_EdgeSegment *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" kindref="member">MR_std_vector_MR_EdgeSegment_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="41" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="41" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a99050ad7094b30cd7d7954831ced86f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, MR_PassBy other_pass_by, MR_std_vector_MR_EdgeSegment *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a28b3abc73d1e7a07af8330521f9d13ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aa425a4c2c54b199678750cbf7081e7c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="57" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="57" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a914765ddb27698d603f0ba39bf2ba609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="61" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="61" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a28327fb43856a53ae5ba37bd6a701e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_EdgeSegment_size</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_size</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1afea9aaa89ffcf8b8834f955d75068871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgeSegment_empty</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_empty</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a81d5ac6605f23020bcac9d140627dc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_resize</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_resize</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a757b908f1723e9381979f12f6c44f808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t new_size, const MR_EdgeSegment *value)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ab53e71ff9ac339cad603809236ef6b71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_clear</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_clear</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1acb824410b49576fb5071414df738c2d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_EdgeSegment_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_capacity</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a9af68db5941e54d1921f232fb56ffea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_reserve</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_reserve</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a3fadcc5a7fb94fab7d81bd5b025715b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ad3b4610b54590118739fbf722a62136c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API const MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_at</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_at</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="101" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="101" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aa206f1bc7c9ce4587f483f0134a722f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_at_mut</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="107" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="107" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a2dbd53d217cf4e86ab0b6d41a9143f76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API const MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_front</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_front</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="112" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="112" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ada21b8dedc64b70c61c61b9e9a483b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_front_mut</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="117" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="117" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a625de6115b345b7223d85f0c4ca24f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API const MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_back</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_back</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="122" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="122" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a5edef1de78b0d15bd3c01f3414b087e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_back_mut</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="127" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="127" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ac2fa3a3a0b75d3247a25893be2521c97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_push_back</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, const MR_EdgeSegment *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_push_back</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a884d5a6067728ce478e41d09ff28e766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_pop_back</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1afda4c79c1fdbdb20667996bac58113c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_insert</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t position, const MR_EdgeSegment *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_insert</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a0e3f781b86cf09acaf6e61dabdbab474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_erase</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_erase</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a2fa0bb2f1776c1d3848320ce5939a1a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_iterator *position, const MR_EdgeSegment *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a1fee0afd6440ee9779a686257b521d53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a71ea84c8ea90cbd8ce5f88f2a081a6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *position, const MR_EdgeSegment *new_elem)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ab8f0b3c29631ee9c33eec286406ecd0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a1207edac7d3bc1e8755e8d96f24a95a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_begin</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_begin</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="177" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="177" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aba158d6bdb313d026a9ebdfedfaf3fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgeSegment_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_is_begin</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1afb6bda7f7697b0a12fa13422d498df6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_begin_mut</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="188" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="188" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a89bacbb9d0f98a982b4497b05e04d847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgeSegment_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a0946e7ede524195431a426f17974b099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_end</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_end</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="199" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="199" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1acb3160ead9c5e5bbaf1ed75e24ed49ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgeSegment_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_is_end</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aa9425509687f613b47e5bf9a90d52cb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_end_mut</name>
+        <param>
+          <type><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="210" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="210" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a9b23d439658e2536359087ed2b61ee40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_EdgeSegment_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a9714e3afc5a55e2cf9dd8e61bd6e43a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_to_index</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a36384f3e5cbdaa2fff5201ace615658c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_EdgeSegment_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment *_this, const MR_std_vector_MR_EdgeSegment_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a2d7f1f213f5334ef1f9ddb97d58e1c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="229" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="229" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ae3346e4d784f29c816c82addad8420bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a84c494b218edf537101b42445673fea2" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a50d54722da81698a66cb346bee62d43b" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a1f81d461b55ac20c11047ae8a5bf5dbc" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="234" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="234" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ad7e546bec8a53547338f38e3e997fd40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="241" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="241" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a0c1700248c4b55d2582137e16e3e84c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_const_iterator *_this, const MR_std_vector_MR_EdgeSegment_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a84c494b218edf537101b42445673fea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a1f81d461b55ac20c11047ae8a5bf5dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="258" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="258" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a50d54722da81698a66cb346bee62d43b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="262" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="262" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a6552c1bf5c03222553950c28434e1c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_const_iterator * MR_std_vector_MR_EdgeSegment_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="267" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="267" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ac322e1d8cd62af85bd384d9332fb3da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="271" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="271" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a88f094d41b1a3bdf7f65ea7e9b659efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a6ca030b4d986dcfe62e9bbe009f2b8cb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1aa4daef9c89bf619dad20089ad320863d" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a5c64127a51f0f0521ea0b8cb52e56134" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="276" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="276" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a38407ada752ba992151b3d13113875f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="283" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="283" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ae980ecf6da61640c112574aac285ba28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_iterator *_this, const MR_std_vector_MR_EdgeSegment_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a6ca030b4d986dcfe62e9bbe009f2b8cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a5c64127a51f0f0521ea0b8cb52e56134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="300" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="300" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1aa4daef9c89bf619dad20089ad320863d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_EdgeSegment_iterator * MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="304" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="304" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ac92cbe9d7a3ed91597a727f48e462687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API const MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="310" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="310" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a771f22c9584a117490701459df30a7de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ac7699b88145951216d7f2e72c12ca037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ae3118ce4dfe3e677a0af4f83e9a16eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1ad5876fd03d432a5eddc39e5b60021f8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_EdgeSegment_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *a, const MR_std_vector_MR_EdgeSegment_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_EdgeSegment_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a7447204e0b7abc9032327478a534d094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_EdgeSegment_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_const_iterator *a, const MR_std_vector_MR_EdgeSegment_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_EdgeSegment_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1af907bfcfa5c31bc93f0fa7d2525806ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref> *</type>
+        <definition>MRC_API MR_EdgeSegment * MR_std_vector_MR_EdgeSegment_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="338" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="338" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a61448078af3cfaa28798108ed7818eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a8284509f658bb172224fe9c45f9314c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1adc56789daceebe4b5a6ad31b7fd9b630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_EdgeSegment_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_EdgeSegment_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_EdgeSegment_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1a087b3bc8c5f802fd5001a1b72a4fac36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_EdgeSegment_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *a, const MR_std_vector_MR_EdgeSegment_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_EdgeSegment_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__EdgeSegment_8h_1acfe9367640b21ea16d79b8a273564b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_EdgeSegment_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_EdgeSegment_iterator *a, const MR_std_vector_MR_EdgeSegment_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_EdgeSegment_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREdgePoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__EdgeSegment_8h_1aedbd621545c9629df8f12252dff9afda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1aedbd621545c9629df8f12252dff9afda" kindref="member">MR_std_vector_MR_EdgeSegment_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__EdgeSegment_8h_1a304a74a6686ff86f9c0b2269e31113d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a304a74a6686ff86f9c0b2269e31113d1" kindref="member">MR_std_vector_MR_EdgeSegment_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__EdgeSegment_8h_1ab668b48cf13e88268a0e5939bea2e3e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ab668b48cf13e88268a0e5939bea2e3e5" kindref="member">MR_std_vector_MR_EdgeSegment_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__EdgeSegment_8h_1a99050ad7094b30cd7d7954831ced86f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a99050ad7094b30cd7d7954831ced86f1" kindref="member">MR_std_vector_MR_EdgeSegment_AssignFromAnother</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" kindref="member">MR_std_vector_MR_EdgeSegment_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__EdgeSegment_8h_1a28b3abc73d1e7a07af8330521f9d13ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a28b3abc73d1e7a07af8330521f9d13ca" kindref="member">MR_std_vector_MR_EdgeSegment_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__EdgeSegment_8h_1aa425a4c2c54b199678750cbf7081e7c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1aa425a4c2c54b199678750cbf7081e7c4" kindref="member">MR_std_vector_MR_EdgeSegment_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__EdgeSegment_8h_1a914765ddb27698d603f0ba39bf2ba609" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a914765ddb27698d603f0ba39bf2ba609" kindref="member">MR_std_vector_MR_EdgeSegment_OffsetMutablePtr</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__EdgeSegment_8h_1a28327fb43856a53ae5ba37bd6a701e07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a28327fb43856a53ae5ba37bd6a701e07" kindref="member">MR_std_vector_MR_EdgeSegment_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__EdgeSegment_8h_1afea9aaa89ffcf8b8834f955d75068871" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1afea9aaa89ffcf8b8834f955d75068871" kindref="member">MR_std_vector_MR_EdgeSegment_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__EdgeSegment_8h_1a81d5ac6605f23020bcac9d140627dc39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a81d5ac6605f23020bcac9d140627dc39" kindref="member">MR_std_vector_MR_EdgeSegment_resize</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__EdgeSegment_8h_1a757b908f1723e9381979f12f6c44f808" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a757b908f1723e9381979f12f6c44f808" kindref="member">MR_std_vector_MR_EdgeSegment_resize_with_default_value</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__EdgeSegment_8h_1ab53e71ff9ac339cad603809236ef6b71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ab53e71ff9ac339cad603809236ef6b71" kindref="member">MR_std_vector_MR_EdgeSegment_clear</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__EdgeSegment_8h_1acb824410b49576fb5071414df738c2d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1acb824410b49576fb5071414df738c2d1" kindref="member">MR_std_vector_MR_EdgeSegment_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__EdgeSegment_8h_1a9af68db5941e54d1921f232fb56ffea2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a9af68db5941e54d1921f232fb56ffea2" kindref="member">MR_std_vector_MR_EdgeSegment_reserve</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__EdgeSegment_8h_1a3fadcc5a7fb94fab7d81bd5b025715b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a3fadcc5a7fb94fab7d81bd5b025715b6" kindref="member">MR_std_vector_MR_EdgeSegment_shrink_to_fit</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__EdgeSegment_8h_1ad3b4610b54590118739fbf722a62136c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ad3b4610b54590118739fbf722a62136c" kindref="member">MR_std_vector_MR_EdgeSegment_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__EdgeSegment_8h_1aa206f1bc7c9ce4587f483f0134a722f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1aa206f1bc7c9ce4587f483f0134a722f4" kindref="member">MR_std_vector_MR_EdgeSegment_at_mut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__EdgeSegment_8h_1a2dbd53d217cf4e86ab0b6d41a9143f76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a2dbd53d217cf4e86ab0b6d41a9143f76" kindref="member">MR_std_vector_MR_EdgeSegment_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__EdgeSegment_8h_1ada21b8dedc64b70c61c61b9e9a483b43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ada21b8dedc64b70c61c61b9e9a483b43" kindref="member">MR_std_vector_MR_EdgeSegment_front_mut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__EdgeSegment_8h_1a625de6115b345b7223d85f0c4ca24f3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a625de6115b345b7223d85f0c4ca24f3b" kindref="member">MR_std_vector_MR_EdgeSegment_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__EdgeSegment_8h_1a5edef1de78b0d15bd3c01f3414b087e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a5edef1de78b0d15bd3c01f3414b087e5" kindref="member">MR_std_vector_MR_EdgeSegment_back_mut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__EdgeSegment_8h_1ac2fa3a3a0b75d3247a25893be2521c97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ac2fa3a3a0b75d3247a25893be2521c97" kindref="member">MR_std_vector_MR_EdgeSegment_push_back</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__EdgeSegment_8h_1a884d5a6067728ce478e41d09ff28e766" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a884d5a6067728ce478e41d09ff28e766" kindref="member">MR_std_vector_MR_EdgeSegment_pop_back</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__EdgeSegment_8h_1afda4c79c1fdbdb20667996bac58113c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1afda4c79c1fdbdb20667996bac58113c0" kindref="member">MR_std_vector_MR_EdgeSegment_insert</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__EdgeSegment_8h_1a0e3f781b86cf09acaf6e61dabdbab474" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a0e3f781b86cf09acaf6e61dabdbab474" kindref="member">MR_std_vector_MR_EdgeSegment_erase</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__EdgeSegment_8h_1a2fa0bb2f1776c1d3848320ce5939a1a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2fa0bb2f1776c1d3848320ce5939a1a0" kindref="member">MR_std_vector_MR_EdgeSegment_insert_at_mutable_iter</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__EdgeSegment_8h_1a1fee0afd6440ee9779a686257b521d53" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a1fee0afd6440ee9779a686257b521d53" kindref="member">MR_std_vector_MR_EdgeSegment_erase_at_mutable_iter</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__EdgeSegment_8h_1a71ea84c8ea90cbd8ce5f88f2a081a6de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a71ea84c8ea90cbd8ce5f88f2a081a6de" kindref="member">MR_std_vector_MR_EdgeSegment_insert_at_iter</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__EdgeSegment_8h_1ab8f0b3c29631ee9c33eec286406ecd0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ab8f0b3c29631ee9c33eec286406ecd0c" kindref="member">MR_std_vector_MR_EdgeSegment_erase_at_iter</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__EdgeSegment_8h_1a1207edac7d3bc1e8755e8d96f24a95a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a1207edac7d3bc1e8755e8d96f24a95a9" kindref="member">MR_std_vector_MR_EdgeSegment_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__EdgeSegment_8h_1aba158d6bdb313d026a9ebdfedfaf3fe9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aba158d6bdb313d026a9ebdfedfaf3fe9" kindref="member">MR_std_vector_MR_EdgeSegment_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__EdgeSegment_8h_1afb6bda7f7697b0a12fa13422d498df6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1afb6bda7f7697b0a12fa13422d498df6e" kindref="member">MR_std_vector_MR_EdgeSegment_begin_mut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__EdgeSegment_8h_1a89bacbb9d0f98a982b4497b05e04d847" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a89bacbb9d0f98a982b4497b05e04d847" kindref="member">MR_std_vector_MR_EdgeSegment_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__EdgeSegment_8h_1a0946e7ede524195431a426f17974b099" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a0946e7ede524195431a426f17974b099" kindref="member">MR_std_vector_MR_EdgeSegment_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__EdgeSegment_8h_1acb3160ead9c5e5bbaf1ed75e24ed49ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1acb3160ead9c5e5bbaf1ed75e24ed49ff" kindref="member">MR_std_vector_MR_EdgeSegment_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__EdgeSegment_8h_1aa9425509687f613b47e5bf9a90d52cb9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1aa9425509687f613b47e5bf9a90d52cb9" kindref="member">MR_std_vector_MR_EdgeSegment_end_mut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__EdgeSegment_8h_1a9b23d439658e2536359087ed2b61ee40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a9b23d439658e2536359087ed2b61ee40" kindref="member">MR_std_vector_MR_EdgeSegment_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__EdgeSegment_8h_1a9714e3afc5a55e2cf9dd8e61bd6e43a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a9714e3afc5a55e2cf9dd8e61bd6e43a6" kindref="member">MR_std_vector_MR_EdgeSegment_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__EdgeSegment_8h_1a36384f3e5cbdaa2fff5201ace615658c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a36384f3e5cbdaa2fff5201ace615658c" kindref="member">MR_std_vector_MR_EdgeSegment_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__EdgeSegment_8h_1a2d7f1f213f5334ef1f9ddb97d58e1c0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a2d7f1f213f5334ef1f9ddb97d58e1c0f" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__EdgeSegment_8h_1ae3346e4d784f29c816c82addad8420bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ae3346e4d784f29c816c82addad8420bc" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__EdgeSegment_8h_1ad7e546bec8a53547338f38e3e997fd40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ad7e546bec8a53547338f38e3e997fd40" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__EdgeSegment_8h_1a0c1700248c4b55d2582137e16e3e84c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a0c1700248c4b55d2582137e16e3e84c8" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a6354d07a1e91079483904fad7cd85804" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__EdgeSegment_8h_1a84c494b218edf537101b42445673fea2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a84c494b218edf537101b42445673fea2" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__EdgeSegment_8h_1a1f81d461b55ac20c11047ae8a5bf5dbc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a1f81d461b55ac20c11047ae8a5bf5dbc" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__EdgeSegment_8h_1a50d54722da81698a66cb346bee62d43b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a50d54722da81698a66cb346bee62d43b" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__EdgeSegment_8h_1a6552c1bf5c03222553950c28434e1c74" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a6552c1bf5c03222553950c28434e1c74" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__EdgeSegment_8h_1ac322e1d8cd62af85bd384d9332fb3da6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ac322e1d8cd62af85bd384d9332fb3da6" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__EdgeSegment_8h_1a88f094d41b1a3bdf7f65ea7e9b659efc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a88f094d41b1a3bdf7f65ea7e9b659efc" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__EdgeSegment_8h_1a38407ada752ba992151b3d13113875f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a38407ada752ba992151b3d13113875f6" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__EdgeSegment_8h_1ae980ecf6da61640c112574aac285ba28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ae980ecf6da61640c112574aac285ba28" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a1edd3cc2a04d4441cb69da498406a246" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__EdgeSegment_8h_1a6ca030b4d986dcfe62e9bbe009f2b8cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a6ca030b4d986dcfe62e9bbe009f2b8cb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__EdgeSegment_8h_1a5c64127a51f0f0521ea0b8cb52e56134" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1a5c64127a51f0f0521ea0b8cb52e56134" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__EdgeSegment_8h_1aa4daef9c89bf619dad20089ad320863d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1aa4daef9c89bf619dad20089ad320863d" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__EdgeSegment_8h_1ac92cbe9d7a3ed91597a727f48e462687" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1ac92cbe9d7a3ed91597a727f48e462687" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__EdgeSegment_8h_1a771f22c9584a117490701459df30a7de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a771f22c9584a117490701459df30a7de" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_incr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__EdgeSegment_8h_1ac7699b88145951216d7f2e72c12ca037" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ac7699b88145951216d7f2e72c12ca037" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_decr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__EdgeSegment_8h_1ae3118ce4dfe3e677a0af4f83e9a16eed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ae3118ce4dfe3e677a0af4f83e9a16eed" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__EdgeSegment_8h_1ad5876fd03d432a5eddc39e5b60021f8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgeSegment_8h_1ad5876fd03d432a5eddc39e5b60021f8f" kindref="member">MR_sub_MR_std_vector_MR_EdgeSegment_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__EdgeSegment_8h_1a7447204e0b7abc9032327478a534d094" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a7447204e0b7abc9032327478a534d094" kindref="member">MR_equal_MR_std_vector_MR_EdgeSegment_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1aae1cb64706ce283a57f30a01cb3f6463" kindref="member">MR_std_vector_MR_EdgeSegment_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__EdgeSegment_8h_1af907bfcfa5c31bc93f0fa7d2525806ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgePoint_8h_1a0c021c1ff5455ddaf134f46731ff4583" kindref="member">MR_EdgeSegment</ref><sp/>*<ref refid="std__vector__MR__EdgeSegment_8h_1af907bfcfa5c31bc93f0fa7d2525806ff" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__EdgeSegment_8h_1a61448078af3cfaa28798108ed7818eae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a61448078af3cfaa28798108ed7818eae" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_incr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__EdgeSegment_8h_1a8284509f658bb172224fe9c45f9314c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a8284509f658bb172224fe9c45f9314c1" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_decr</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__EdgeSegment_8h_1adc56789daceebe4b5a6ad31b7fd9b630" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1adc56789daceebe4b5a6ad31b7fd9b630" kindref="member">MR_std_vector_MR_EdgeSegment_iterator_add_assign</ref>(<ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__EdgeSegment_8h_1a087b3bc8c5f802fd5001a1b72a4fac36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a087b3bc8c5f802fd5001a1b72a4fac36" kindref="member">MR_sub_MR_std_vector_MR_EdgeSegment_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__EdgeSegment_8h_1acfe9367640b21ea16d79b8a273564b35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1acfe9367640b21ea16d79b8a273564b35" kindref="member">MR_equal_MR_std_vector_MR_EdgeSegment_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__EdgeSegment_8h_1a2469134f2e9b34351eac7d4f68c9efcb" kindref="member">MR_std_vector_MR_EdgeSegment_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_EdgeSegment.h"/>
+  </compounddef>
+</doxygen>

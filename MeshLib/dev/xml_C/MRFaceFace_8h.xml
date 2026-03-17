@@ -3,7 +3,7 @@
   <compounddef id="MRFaceFace_8h" kind="file" language="C++">
     <compoundname>MRFaceFace.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -13,7 +13,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -23,22 +23,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -50,11 +61,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a pair of faces Generated from class <computeroutput>MR::FaceFace</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>a pair of faces Generated from class <computeroutput>MR::FaceFace</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" prot="public" static="no">
         <type>struct <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref></type>
@@ -64,16 +75,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a pair of undirected edges Generated from class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>a pair of undirected edges Generated from class <computeroutput>MR::UndirectedEdgeUndirectedEdge</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="21" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="21" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_FaceId * MR_FaceFace_Get_aFace</definition>
         <argsstring>(const MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_Get_aFace</name>
@@ -88,10 +99,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="27" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="27" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="27" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="27" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFace_Set_aFace</definition>
         <argsstring>(MR_FaceFace *_this, MR_FaceId value)</argsstring>
         <name>MR_FaceFace_Set_aFace</name>
@@ -110,10 +121,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="33" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="33" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="33" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API MR_FaceId * MR_FaceFace_GetMutable_aFace</definition>
         <argsstring>(MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_GetMutable_aFace</name>
@@ -128,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="39" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="39" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="39" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="39" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_FaceId * MR_FaceFace_Get_bFace</definition>
         <argsstring>(const MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_Get_bFace</name>
@@ -146,10 +157,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="45" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="45" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="45" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="45" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFace_Set_bFace</definition>
         <argsstring>(MR_FaceFace *_this, MR_FaceId value)</argsstring>
         <name>MR_FaceFace_Set_bFace</name>
@@ -168,10 +179,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="51" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="51" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API MR_FaceId * MR_FaceFace_GetMutable_bFace</definition>
         <argsstring>(MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_GetMutable_bFace</name>
@@ -186,10 +197,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="57" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="57" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="57" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="57" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_FaceFace_DefaultConstruct</name>
@@ -203,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="61" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="61" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="61" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="61" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_FaceFace_DefaultConstructArray</name>
@@ -221,10 +232,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="66" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="66" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API const MR_FaceFace * MR_FaceFace_OffsetPtr</definition>
         <argsstring>(const MR_FaceFace *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FaceFace_OffsetPtr</name>
@@ -243,10 +254,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="70" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="70" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="70" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="70" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_OffsetMutablePtr</definition>
         <argsstring>(MR_FaceFace *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FaceFace_OffsetMutablePtr</name>
@@ -265,10 +276,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="74" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="74" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_ConstructFromAnother</definition>
         <argsstring>(const MR_FaceFace *_other)</argsstring>
         <name>MR_FaceFace_ConstructFromAnother</name>
@@ -283,10 +294,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="80" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="80" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="80" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="80" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_Construct</definition>
         <argsstring>(MR_FaceId a, MR_FaceId b)</argsstring>
         <name>MR_FaceFace_Construct</name>
@@ -305,10 +316,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="86" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="86" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="86" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="86" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFace_Destroy</definition>
         <argsstring>(const MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_Destroy</name>
@@ -323,10 +334,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="89" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="89" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFace_DestroyArray</definition>
         <argsstring>(const MR_FaceFace *_this)</argsstring>
         <name>MR_FaceFace_DestroyArray</name>
@@ -341,10 +352,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFace * MR_FaceFace_AssignFromAnother</definition>
         <argsstring>(MR_FaceFace *_this, const MR_FaceFace *_other)</argsstring>
         <name>MR_FaceFace_AssignFromAnother</name>
@@ -363,10 +374,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="100" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="100" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
         <definition>MRC_API const MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</name>
@@ -381,10 +392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="106" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="106" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="106" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="106" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, MR_UndirectedEdgeId value)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</name>
@@ -403,10 +414,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="112" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="112" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</name>
@@ -421,10 +432,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="118" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="118" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="118" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="118" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
         <definition>MRC_API const MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</name>
@@ -439,10 +450,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="124" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="124" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="124" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="124" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, MR_UndirectedEdgeId value)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</name>
@@ -461,10 +472,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="130" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="130" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeId * MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</name>
@@ -479,10 +490,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="136" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="136" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="136" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="136" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</name>
@@ -496,10 +507,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="140" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="140" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="140" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="140" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</name>
@@ -514,10 +525,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="145" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="145" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="145" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="145" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API const MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_OffsetPtr</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_OffsetPtr</name>
@@ -536,10 +547,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="149" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="149" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="149" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="149" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *ptr, ptrdiff_t i)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</name>
@@ -558,10 +569,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="153" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="153" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="153" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="153" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_other)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</name>
@@ -576,10 +587,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="159" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="159" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="159" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="159" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_Construct</definition>
         <argsstring>(MR_UndirectedEdgeId a, MR_UndirectedEdgeId b)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Construct</name>
@@ -598,10 +609,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="165" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="165" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="165" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="165" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_Destroy</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_Destroy</name>
@@ -616,10 +627,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="168" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="168" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_UndirectedEdgeUndirectedEdge_DestroyArray</definition>
         <argsstring>(const MR_UndirectedEdgeUndirectedEdge *_this)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_DestroyArray</name>
@@ -634,10 +645,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="171" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="171" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeUndirectedEdge * MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</definition>
         <argsstring>(MR_UndirectedEdgeUndirectedEdge *_this, const MR_UndirectedEdgeUndirectedEdge *_other)</argsstring>
         <name>MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</name>
@@ -656,7 +667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" line="179" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h" declline="179" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" line="179" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h" declline="179" declcolumn="41"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -667,7 +678,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -680,70 +691,70 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27" refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" kindref="member">MR_FaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="27" refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a974f01b9647664814573a9c0f47443e6" kindref="member">MR_FaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" kindref="member">MR_FaceFace_Set_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="33" refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a831f10a7cad0998e6a5f5659eff62277" kindref="member">MR_FaceFace_Set_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" kindref="member">MR_FaceFace_GetMutable_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39" refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a3b34df474c3295fc77a392ea2095672a" kindref="member">MR_FaceFace_GetMutable_aFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" kindref="member">MR_FaceFace_Get_bFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a783f59febd8b2a48e01179e3a4228715" kindref="member">MR_FaceFace_Get_bFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" kindref="member">MR_FaceFace_Set_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="51" refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a325fc856f029385971052da1cad5c34f" kindref="member">MR_FaceFace_Set_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" kindref="member">MR_FaceFace_GetMutable_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57" refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRFaceFace_8h_1a2e5b3ef25b0208971fb12440778e9700" kindref="member">MR_FaceFace_GetMutable_bFace</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" kindref="member">MR_FaceFace_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61" refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae2eec9851c7b9d45e02ca8c07d18868b" kindref="member">MR_FaceFace_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" kindref="member">MR_FaceFace_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="66" refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a2f0b9215c94daa11bc856fbefb66587a" kindref="member">MR_FaceFace_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" kindref="member">MR_FaceFace_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="70" refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a6c9dc72dbd7508fcaa8401b2846f07ef" kindref="member">MR_FaceFace_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" kindref="member">MR_FaceFace_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="74" refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a12454b49469cadb3d5bcd1b7a5092532" kindref="member">MR_FaceFace_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" kindref="member">MR_FaceFace_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="80" refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1afb0886060740ab5aa1d35e2ef17da388" kindref="member">MR_FaceFace_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" kindref="member">MR_FaceFace_Construct</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>b);</highlight></codeline>
+<codeline lineno="86" refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1a8d96e3c6084b872da96e5716fd0cb1a8" kindref="member">MR_FaceFace_Construct</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>b);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89" refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a392354c01f0dace2e8d162125c6dfb57" kindref="member">MR_FaceFace_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" kindref="member">MR_FaceFace_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a241b6e499b40a3bfd854f687f9aba0a6" kindref="member">MR_FaceFace_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="100" refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" kindref="member">MR_FaceFace_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="100" refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*<ref refid="MRFaceFace_8h_1ae1332ebe7a8b39e4c6360a6daf0c8703" kindref="member">MR_FaceFace_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a3adc232a1bd3f56864f810f00d984ae1" kindref="member">MR_FaceFace</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="101"><highlight class="normal"></highlight></codeline>
-<codeline lineno="106" refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="106" refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a5dc75729a1dd5e7f21d7cb7e09af76b9" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_aUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="112" refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a87f102bce3ea95377ec42ff469a12d94" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118" refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1adfbc854c713d31fc4fc585b2f9d77aac" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_aUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124" refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1acd644b2694e37eaedca933ae630df074" kindref="member">MR_UndirectedEdgeUndirectedEdge_Get_bUndirEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="130" refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1abbc5cfec12d7bb44f2a7fbc3dac26aec" kindref="member">MR_UndirectedEdgeUndirectedEdge_Set_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRFaceFace_8h_1a48539132cec60d6727f5ead8c8d8dc25" kindref="member">MR_UndirectedEdgeUndirectedEdge_GetMutable_bUndirEdge</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="140" refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a68c4d3a891bb36059b30a62f7e4cdbac" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="145" refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a5361f8b6e8c8000b698a433669b9c310" kindref="member">MR_UndirectedEdgeUndirectedEdge_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149" refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="149" refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a4de9aeeb6e6be4f783a00f098a4f6f3f" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="153" refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ae37afa1fca06f833b4f1792b74cd5771" kindref="member">MR_UndirectedEdgeUndirectedEdge_OffsetMutablePtr</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" kindref="member">MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="159" refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1ab1e5c51f767621f0d4d33c17b87d4359" kindref="member">MR_UndirectedEdgeUndirectedEdge_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" kindref="member">MR_UndirectedEdgeUndirectedEdge_Construct</ref>(<ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>b);</highlight></codeline>
+<codeline lineno="165" refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1a66eb66ce2ba42f77cabb94442f516484" kindref="member">MR_UndirectedEdgeUndirectedEdge_Construct</ref>(<ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>b);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168" refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1a0353450fe24d7b653060d35c75ea69f5" kindref="member">MR_UndirectedEdgeUndirectedEdge_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" kindref="member">MR_UndirectedEdgeUndirectedEdge_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171" refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad79f0cd27aca4c9f88fcfdf1ec29e771" kindref="member">MR_UndirectedEdgeUndirectedEdge_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="179" refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" kindref="member">MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="179" refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRFaceFace_8h_1accadf4b200f88a329804cf81eec06081" kindref="member">MR_UndirectedEdgeUndirectedEdge_AssignFromAnother</ref>(<ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFaceFace_8h_1ad136b7b4671d29816419c7d6fea653f9" kindref="member">MR_UndirectedEdgeUndirectedEdge</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"></highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="182"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRFaceFace.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRFaceFace.h"/>
   </compounddef>
 </doxygen>

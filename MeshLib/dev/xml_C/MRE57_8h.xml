@@ -3,8 +3,8 @@
   <compounddef id="MRE57_8h" kind="file" language="C++">
     <compoundname>MRE57.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -17,9 +17,9 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -27,17 +27,17 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -49,23 +49,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -75,16 +75,26 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -92,17 +102,18 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="6">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -114,10 +125,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::LoadedObjects</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="17" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="17" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" prot="public" static="no">
         <type>struct <ref refid="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string</ref></type>
@@ -127,10 +139,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>std::vector&lt;MR::PointsLoad::NamedCloud&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="19" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="19" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" prot="public" static="no">
         <type>struct <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref></type>
@@ -140,11 +153,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::PointsLoad::E57LoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="27" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="27" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" prot="public" static="no">
         <type>struct <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref></type>
@@ -154,16 +167,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads scene from e57 file Generated from class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>loads scene from e57 file Generated from class <computeroutput>MR::PointsLoad::NamedCloud</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="32" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="32" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" bodystart="32" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRE57_8h_1aaf7b9652399b02f5c330459dd6a449d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_PointsLoad_E57LoadSettings_Get_combineAllObjects</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Get_combineAllObjects</name>
@@ -178,10 +191,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="39" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="39" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="39" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="39" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a8632e3ada1943fa2d668f1393f4d67a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_E57LoadSettings_Set_combineAllObjects</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this, bool value)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Set_combineAllObjects</name>
@@ -200,10 +213,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="45" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="45" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ab6c6d55df97c38710884584f4823990f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_PointsLoad_E57LoadSettings_GetMutable_combineAllObjects</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_GetMutable_combineAllObjects</name>
@@ -218,10 +231,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="52" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1abe261c04fca4ae4216ee23a52dac46dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_PointsLoad_E57LoadSettings_Get_identityXf</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Get_identityXf</name>
@@ -236,10 +249,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="59" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="59" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1abd43346a8851237cec3f31aa5deeb91b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_E57LoadSettings_Set_identityXf</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this, bool value)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Set_identityXf</name>
@@ -258,10 +271,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="65" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="65" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a8a491bd85ad9673d5227043ab11d1cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_PointsLoad_E57LoadSettings_GetMutable_identityXf</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_GetMutable_identityXf</name>
@@ -276,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="72" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a6ef69108c24196d0a6b37cb7b2bfbf75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_PointsLoad_E57LoadSettings_Get_progress</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Get_progress</name>
@@ -294,10 +307,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="79" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="79" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="79" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="79" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ab5190df2a4954a12af096599740b7450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_E57LoadSettings_Set_progress</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Set_progress</name>
@@ -306,7 +319,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -320,10 +333,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="86" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a902eafd171c2a482626393d3c2337582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_PointsLoad_E57LoadSettings_GetMutable_progress</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_GetMutable_progress</name>
@@ -338,10 +351,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="93" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="93" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="93" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="93" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1aff05eb697eb67cb4d12164cd070e9c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_DefaultConstruct</name>
@@ -355,10 +368,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="97" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="97" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="97" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="97" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1afa25b76e5d05c1ef4cbf177f5feaf59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_DefaultConstructArray</name>
@@ -373,10 +386,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="102" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="102" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="102" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="102" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ac2caf238b1f13399cfa9b195fb16739e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_ConstructFrom</definition>
         <argsstring>(bool combineAllObjects, bool identityXf, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_ConstructFrom</name>
@@ -389,7 +402,7 @@
           <declname>identityXf</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progress_pass_by</declname>
         </param>
         <param>
@@ -403,10 +416,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="108" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="108" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="108" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="108" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a4b02f3d520993f0f322a907acb4260be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API const MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_OffsetPtr</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_OffsetPtr</name>
@@ -425,10 +438,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="112" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="112" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="112" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="112" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ad93ef68b7f3e30f00f01dd44eb63114c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_OffsetMutablePtr</name>
@@ -447,15 +460,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="116" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="116" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="116" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="116" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a6cc4b5a469a0ee1fb0d29b11b3f8454c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PointsLoad_E57LoadSettings *_other)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -469,10 +482,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="121" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="121" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="121" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="121" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_E57LoadSettings_Destroy</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_Destroy</name>
@@ -487,10 +500,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="124" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="124" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a4ef2e307e5bcdd883b4dd13c3512336e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_E57LoadSettings_DestroyArray</definition>
         <argsstring>(const MR_PointsLoad_E57LoadSettings *_this)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_DestroyArray</name>
@@ -505,10 +518,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="127" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="127" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a0b82792a9c508b0cd19f6881ab6eaa52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref> *</type>
         <definition>MRC_API MR_PointsLoad_E57LoadSettings * MR_PointsLoad_E57LoadSettings_AssignFromAnother</definition>
         <argsstring>(MR_PointsLoad_E57LoadSettings *_this, MR_PassBy _other_pass_by, MR_PointsLoad_E57LoadSettings *_other)</argsstring>
         <name>MR_PointsLoad_E57LoadSettings_AssignFromAnother</name>
@@ -517,7 +530,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -531,10 +544,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="134" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="134" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="134" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="134" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1aad743c2dfede8049de399a4c50282ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API const MR_std_string * MR_PointsLoad_NamedCloud_Get_name</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Get_name</name>
@@ -549,10 +562,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="140" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="140" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a9420366be1818e7389b94c3d3e936c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_Set_name</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this, const char *value, const char *value_end)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Set_name</name>
@@ -575,10 +588,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="148" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="148" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a3672b7eeb67b06b24e72dd65003043de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
         <definition>MRC_API MR_std_string * MR_PointsLoad_NamedCloud_GetMutable_name</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_GetMutable_name</name>
@@ -593,10 +606,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="154" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="154" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="154" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="154" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a3c6ec93b6be021ecc781d834ebbcedd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
         <definition>MRC_API const MR_PointCloud * MR_PointsLoad_NamedCloud_Get_cloud</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Get_cloud</name>
@@ -611,10 +624,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="160" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="160" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="160" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="160" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a4a2ec7417b79b4e7c3fb4ef8a061d52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_Set_cloud</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this, MR_PassBy value_pass_by, MR_PointCloud *value)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Set_cloud</name>
@@ -623,7 +636,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -637,10 +650,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="166" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="166" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a8042274384d40cc8d6526ea19fa99f0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *</type>
         <definition>MRC_API MR_PointCloud * MR_PointsLoad_NamedCloud_GetMutable_cloud</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_GetMutable_cloud</name>
@@ -655,10 +668,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="172" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="172" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="172" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="172" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a6ead68fe334909620a8ccf14185b49a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API const MR_AffineXf3f * MR_PointsLoad_NamedCloud_Get_xf</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Get_xf</name>
@@ -673,10 +686,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="178" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="178" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="178" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="178" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a17221319e3e6674b91046bdba77a1df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_Set_xf</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this, MR_AffineXf3f value)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Set_xf</name>
@@ -695,10 +708,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="184" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="184" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ae837a25ef6c0acf24b700f51c095abf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API MR_AffineXf3f * MR_PointsLoad_NamedCloud_GetMutable_xf</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_GetMutable_xf</name>
@@ -713,10 +726,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="190" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="190" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="190" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="190" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a985c0dbba1beaa480ed6bd3943ce5400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
         <definition>MRC_API const MR_VertColors * MR_PointsLoad_NamedCloud_Get_colors</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Get_colors</name>
@@ -731,10 +744,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="196" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="196" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="196" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="196" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a645b162663a7ae2179961079524eec8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_Set_colors</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this, MR_PassBy value_pass_by, MR_VertColors *value)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Set_colors</name>
@@ -743,7 +756,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -757,10 +770,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="202" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="202" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a9dc1ccbc29bfc4502931a544df4511d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *</type>
         <definition>MRC_API MR_VertColors * MR_PointsLoad_NamedCloud_GetMutable_colors</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_GetMutable_colors</name>
@@ -775,10 +788,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="208" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="208" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="208" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="208" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a66bff0bf80935419bc392a0c6b43f48e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PointsLoad_NamedCloud_DefaultConstruct</name>
@@ -792,10 +805,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="212" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="212" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="212" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="212" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a2ed12c3ab9b5c33844f5894edbc00a61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PointsLoad_NamedCloud_DefaultConstructArray</name>
@@ -810,10 +823,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="217" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="217" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="217" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="217" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a8ce4fd910843d9b1723ca4f8e880c15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_ConstructFrom</definition>
         <argsstring>(const char *name, const char *name_end, MR_PassBy cloud_pass_by, MR_PointCloud *cloud, MR_AffineXf3f xf, MR_PassBy colors_pass_by, MR_VertColors *colors)</argsstring>
         <name>MR_PointsLoad_NamedCloud_ConstructFrom</name>
@@ -826,7 +839,7 @@
           <declname>name_end</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cloud_pass_by</declname>
         </param>
         <param>
@@ -838,7 +851,7 @@
           <declname>xf</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>colors_pass_by</declname>
         </param>
         <param>
@@ -852,10 +865,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="228" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="228" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="228" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="228" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a54133a331ab914dcd1deb7148f073ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API const MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_OffsetPtr</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsLoad_NamedCloud_OffsetPtr</name>
@@ -874,10 +887,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="232" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="232" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="232" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="232" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a38abeffcf744a0b0903bdc092385dea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_OffsetMutablePtr</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsLoad_NamedCloud_OffsetMutablePtr</name>
@@ -896,15 +909,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="236" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="236" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="236" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="236" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ac25a7f7fd9bdbcc3cf65cc8139606904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PointsLoad_NamedCloud *_other)</argsstring>
         <name>MR_PointsLoad_NamedCloud_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -918,10 +931,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="241" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="241" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="241" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="241" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_Destroy</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_Destroy</name>
@@ -936,10 +949,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="244" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="244" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1afeaf124cb5cbf081fc75c323e4fde988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsLoad_NamedCloud_DestroyArray</definition>
         <argsstring>(const MR_PointsLoad_NamedCloud *_this)</argsstring>
         <name>MR_PointsLoad_NamedCloud_DestroyArray</name>
@@ -954,10 +967,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="247" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="247" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a984b4328dc8f10251535868d6cdbd00e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref> *</type>
         <definition>MRC_API MR_PointsLoad_NamedCloud * MR_PointsLoad_NamedCloud_AssignFromAnother</definition>
         <argsstring>(MR_PointsLoad_NamedCloud *_this, MR_PassBy _other_pass_by, MR_PointsLoad_NamedCloud *_other)</argsstring>
         <name>MR_PointsLoad_NamedCloud_AssignFromAnother</name>
@@ -966,7 +979,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -980,10 +993,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="254" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="254" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="254" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="254" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1ad891df65d10aab162e33220fade073d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string * MR_PointsLoad_fromSceneE57File</definition>
         <argsstring>(const char *file, const char *file_end, const MR_PointsLoad_E57LoadSettings *settings)</argsstring>
         <name>MR_PointsLoad_fromSceneE57File</name>
@@ -1002,14 +1015,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::PointsLoad::fromSceneE57File</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::PointsLoad::fromSceneE57File</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__PointsLoad__NamedCloud__std__string_8h_1ab4a19094a67d5f4c524da164380a9600" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="261" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="261" declcolumn="68"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="261" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="261" declcolumn="68"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a49dd5dea740afb664928510ab09e6c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromE57_std_filesystem_path</definition>
         <argsstring>(const char *file, const char *file_end, const MR_PointsLoadSettings *settings)</argsstring>
         <name>MR_PointsLoad_fromE57_std_filesystem_path</name>
@@ -1028,14 +1041,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads from .e57 file Generated from function <computeroutput>MR::PointsLoad::fromE57</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_PointCloud_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads from .e57 file Generated from function <computeroutput>MR::PointsLoad::fromE57</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__PointCloud__std__string_8h_1a8654ce01cf68830f66fb0f132ea8ca5f" kindref="member">MR_expected_MR_PointCloud_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="269" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="269" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="269" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="269" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_PointCloud_std_string * MR_PointsLoad_fromE57_std_istream</definition>
         <argsstring>(MR_std_istream *in, const MR_PointsLoadSettings *settings)</argsstring>
         <name>MR_PointsLoad_fromE57_std_istream</name>
@@ -1050,14 +1063,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::PointsLoad::fromE57</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_PointCloud_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::PointsLoad::fromE57</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__PointCloud__std__string_8h_1a8654ce01cf68830f66fb0f132ea8ca5f" kindref="member">MR_expected_MR_PointCloud_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="276" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="276" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="276" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="276" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_LoadedObjects_std_string * MR_PointsLoad_loadObjectFromE57</definition>
         <argsstring>(const char *path, const char *path_end, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_PointsLoad_loadObjectFromE57</name>
@@ -1076,11 +1089,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::PointsLoad::loadObjectFromE57</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_LoadedObjects_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::PointsLoad::loadObjectFromE57</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__LoadedObjects__std__string_8h_1a473289ce8f7d72bea2182cb2dba9257b" kindref="member">MR_expected_MR_LoadedObjects_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" line="283" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h" declline="283" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" line="283" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h" declline="283" declcolumn="49"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1091,8 +1104,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1116,96 +1129,96 @@
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32" refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref>;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRE57_8h_1aaf7b9652399b02f5c330459dd6a449d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1aaf7b9652399b02f5c330459dd6a449d2" kindref="member">MR_PointsLoad_E57LoadSettings_Get_combineAllObjects</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="39" refid="MRE57_8h_1aaf7b9652399b02f5c330459dd6a449d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1aaf7b9652399b02f5c330459dd6a449d2" kindref="member">MR_PointsLoad_E57LoadSettings_Get_combineAllObjects</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRE57_8h_1a8632e3ada1943fa2d668f1393f4d67a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a8632e3ada1943fa2d668f1393f4d67a3" kindref="member">MR_PointsLoad_E57LoadSettings_Set_combineAllObjects</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="45" refid="MRE57_8h_1a8632e3ada1943fa2d668f1393f4d67a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a8632e3ada1943fa2d668f1393f4d67a3" kindref="member">MR_PointsLoad_E57LoadSettings_Set_combineAllObjects</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRE57_8h_1ab6c6d55df97c38710884584f4823990f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1ab6c6d55df97c38710884584f4823990f" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_combineAllObjects</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52" refid="MRE57_8h_1ab6c6d55df97c38710884584f4823990f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1ab6c6d55df97c38710884584f4823990f" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_combineAllObjects</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRE57_8h_1abe261c04fca4ae4216ee23a52dac46dc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1abe261c04fca4ae4216ee23a52dac46dc" kindref="member">MR_PointsLoad_E57LoadSettings_Get_identityXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59" refid="MRE57_8h_1abe261c04fca4ae4216ee23a52dac46dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1abe261c04fca4ae4216ee23a52dac46dc" kindref="member">MR_PointsLoad_E57LoadSettings_Get_identityXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRE57_8h_1abd43346a8851237cec3f31aa5deeb91b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1abd43346a8851237cec3f31aa5deeb91b" kindref="member">MR_PointsLoad_E57LoadSettings_Set_identityXf</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="65" refid="MRE57_8h_1abd43346a8851237cec3f31aa5deeb91b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1abd43346a8851237cec3f31aa5deeb91b" kindref="member">MR_PointsLoad_E57LoadSettings_Set_identityXf</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRE57_8h_1a8a491bd85ad9673d5227043ab11d1cdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1a8a491bd85ad9673d5227043ab11d1cdc" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_identityXf</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72" refid="MRE57_8h_1a8a491bd85ad9673d5227043ab11d1cdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRE57_8h_1a8a491bd85ad9673d5227043ab11d1cdc" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_identityXf</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRE57_8h_1a6ef69108c24196d0a6b37cb7b2bfbf75" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRE57_8h_1a6ef69108c24196d0a6b37cb7b2bfbf75" kindref="member">MR_PointsLoad_E57LoadSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79" refid="MRE57_8h_1a6ef69108c24196d0a6b37cb7b2bfbf75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRE57_8h_1a6ef69108c24196d0a6b37cb7b2bfbf75" kindref="member">MR_PointsLoad_E57LoadSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRE57_8h_1ab5190df2a4954a12af096599740b7450" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1ab5190df2a4954a12af096599740b7450" kindref="member">MR_PointsLoad_E57LoadSettings_Set_progress</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="86" refid="MRE57_8h_1ab5190df2a4954a12af096599740b7450" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1ab5190df2a4954a12af096599740b7450" kindref="member">MR_PointsLoad_E57LoadSettings_Set_progress</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRE57_8h_1a902eafd171c2a482626393d3c2337582" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRE57_8h_1a902eafd171c2a482626393d3c2337582" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_progress</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93" refid="MRE57_8h_1a902eafd171c2a482626393d3c2337582" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRE57_8h_1a902eafd171c2a482626393d3c2337582" kindref="member">MR_PointsLoad_E57LoadSettings_GetMutable_progress</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRE57_8h_1aff05eb697eb67cb4d12164cd070e9c80" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1aff05eb697eb67cb4d12164cd070e9c80" kindref="member">MR_PointsLoad_E57LoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97" refid="MRE57_8h_1aff05eb697eb67cb4d12164cd070e9c80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1aff05eb697eb67cb4d12164cd070e9c80" kindref="member">MR_PointsLoad_E57LoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRE57_8h_1afa25b76e5d05c1ef4cbf177f5feaf59d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1afa25b76e5d05c1ef4cbf177f5feaf59d" kindref="member">MR_PointsLoad_E57LoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="102" refid="MRE57_8h_1afa25b76e5d05c1ef4cbf177f5feaf59d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1afa25b76e5d05c1ef4cbf177f5feaf59d" kindref="member">MR_PointsLoad_E57LoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRE57_8h_1ac2caf238b1f13399cfa9b195fb16739e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1ac2caf238b1f13399cfa9b195fb16739e" kindref="member">MR_PointsLoad_E57LoadSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>identityXf,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="108" refid="MRE57_8h_1ac2caf238b1f13399cfa9b195fb16739e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1ac2caf238b1f13399cfa9b195fb16739e" kindref="member">MR_PointsLoad_E57LoadSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>combineAllObjects,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>identityXf,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRE57_8h_1a4b02f3d520993f0f322a907acb4260be" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a4b02f3d520993f0f322a907acb4260be" kindref="member">MR_PointsLoad_E57LoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="112" refid="MRE57_8h_1a4b02f3d520993f0f322a907acb4260be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a4b02f3d520993f0f322a907acb4260be" kindref="member">MR_PointsLoad_E57LoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRE57_8h_1ad93ef68b7f3e30f00f01dd44eb63114c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1ad93ef68b7f3e30f00f01dd44eb63114c" kindref="member">MR_PointsLoad_E57LoadSettings_OffsetMutablePtr</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="116" refid="MRE57_8h_1ad93ef68b7f3e30f00f01dd44eb63114c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1ad93ef68b7f3e30f00f01dd44eb63114c" kindref="member">MR_PointsLoad_E57LoadSettings_OffsetMutablePtr</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="121" refid="MRE57_8h_1a6cc4b5a469a0ee1fb0d29b11b3f8454c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a6cc4b5a469a0ee1fb0d29b11b3f8454c" kindref="member">MR_PointsLoad_E57LoadSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="121" refid="MRE57_8h_1a6cc4b5a469a0ee1fb0d29b11b3f8454c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a6cc4b5a469a0ee1fb0d29b11b3f8454c" kindref="member">MR_PointsLoad_E57LoadSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" kindref="member">MR_PointsLoad_E57LoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124" refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a19c185e1a9733f11ccba4763bc6d0e1f" kindref="member">MR_PointsLoad_E57LoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRE57_8h_1a4ef2e307e5bcdd883b4dd13c3512336e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a4ef2e307e5bcdd883b4dd13c3512336e" kindref="member">MR_PointsLoad_E57LoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127" refid="MRE57_8h_1a4ef2e307e5bcdd883b4dd13c3512336e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a4ef2e307e5bcdd883b4dd13c3512336e" kindref="member">MR_PointsLoad_E57LoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRE57_8h_1a0b82792a9c508b0cd19f6881ab6eaa52" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a0b82792a9c508b0cd19f6881ab6eaa52" kindref="member">MR_PointsLoad_E57LoadSettings_AssignFromAnother</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="134" refid="MRE57_8h_1a0b82792a9c508b0cd19f6881ab6eaa52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*<ref refid="MRE57_8h_1a0b82792a9c508b0cd19f6881ab6eaa52" kindref="member">MR_PointsLoad_E57LoadSettings_AssignFromAnother</ref>(<ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRE57_8h_1aad743c2dfede8049de399a4c50282ba8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRE57_8h_1aad743c2dfede8049de399a4c50282ba8" kindref="member">MR_PointsLoad_NamedCloud_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRE57_8h_1aad743c2dfede8049de399a4c50282ba8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRE57_8h_1aad743c2dfede8049de399a4c50282ba8" kindref="member">MR_PointsLoad_NamedCloud_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRE57_8h_1a9420366be1818e7389b94c3d3e936c96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a9420366be1818e7389b94c3d3e936c96" kindref="member">MR_PointsLoad_NamedCloud_Set_name</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="148" refid="MRE57_8h_1a9420366be1818e7389b94c3d3e936c96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a9420366be1818e7389b94c3d3e936c96" kindref="member">MR_PointsLoad_NamedCloud_Set_name</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRE57_8h_1a3672b7eeb67b06b24e72dd65003043de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRE57_8h_1a3672b7eeb67b06b24e72dd65003043de" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_name</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154" refid="MRE57_8h_1a3672b7eeb67b06b24e72dd65003043de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRE57_8h_1a3672b7eeb67b06b24e72dd65003043de" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_name</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRE57_8h_1a3c6ec93b6be021ecc781d834ebbcedd2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRE57_8h_1a3c6ec93b6be021ecc781d834ebbcedd2" kindref="member">MR_PointsLoad_NamedCloud_Get_cloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160" refid="MRE57_8h_1a3c6ec93b6be021ecc781d834ebbcedd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRE57_8h_1a3c6ec93b6be021ecc781d834ebbcedd2" kindref="member">MR_PointsLoad_NamedCloud_Get_cloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRE57_8h_1a4a2ec7417b79b4e7c3fb4ef8a061d52f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a4a2ec7417b79b4e7c3fb4ef8a061d52f" kindref="member">MR_PointsLoad_NamedCloud_Set_cloud</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="166" refid="MRE57_8h_1a4a2ec7417b79b4e7c3fb4ef8a061d52f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a4a2ec7417b79b4e7c3fb4ef8a061d52f" kindref="member">MR_PointsLoad_NamedCloud_Set_cloud</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="172" refid="MRE57_8h_1a8042274384d40cc8d6526ea19fa99f0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRE57_8h_1a8042274384d40cc8d6526ea19fa99f0d" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_cloud</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172" refid="MRE57_8h_1a8042274384d40cc8d6526ea19fa99f0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*<ref refid="MRE57_8h_1a8042274384d40cc8d6526ea19fa99f0d" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_cloud</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRE57_8h_1a6ead68fe334909620a8ccf14185b49a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRE57_8h_1a6ead68fe334909620a8ccf14185b49a3" kindref="member">MR_PointsLoad_NamedCloud_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178" refid="MRE57_8h_1a6ead68fe334909620a8ccf14185b49a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRE57_8h_1a6ead68fe334909620a8ccf14185b49a3" kindref="member">MR_PointsLoad_NamedCloud_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRE57_8h_1a17221319e3e6674b91046bdba77a1df2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a17221319e3e6674b91046bdba77a1df2" kindref="member">MR_PointsLoad_NamedCloud_Set_xf</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="184" refid="MRE57_8h_1a17221319e3e6674b91046bdba77a1df2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a17221319e3e6674b91046bdba77a1df2" kindref="member">MR_PointsLoad_NamedCloud_Set_xf</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRE57_8h_1ae837a25ef6c0acf24b700f51c095abf1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRE57_8h_1ae837a25ef6c0acf24b700f51c095abf1" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_xf</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190" refid="MRE57_8h_1ae837a25ef6c0acf24b700f51c095abf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRE57_8h_1ae837a25ef6c0acf24b700f51c095abf1" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_xf</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRE57_8h_1a985c0dbba1beaa480ed6bd3943ce5400" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRE57_8h_1a985c0dbba1beaa480ed6bd3943ce5400" kindref="member">MR_PointsLoad_NamedCloud_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196" refid="MRE57_8h_1a985c0dbba1beaa480ed6bd3943ce5400" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRE57_8h_1a985c0dbba1beaa480ed6bd3943ce5400" kindref="member">MR_PointsLoad_NamedCloud_Get_colors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202" refid="MRE57_8h_1a645b162663a7ae2179961079524eec8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a645b162663a7ae2179961079524eec8f" kindref="member">MR_PointsLoad_NamedCloud_Set_colors</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="202" refid="MRE57_8h_1a645b162663a7ae2179961079524eec8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a645b162663a7ae2179961079524eec8f" kindref="member">MR_PointsLoad_NamedCloud_Set_colors</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="203"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRE57_8h_1a9dc1ccbc29bfc4502931a544df4511d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRE57_8h_1a9dc1ccbc29bfc4502931a544df4511d3" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_colors</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="208" refid="MRE57_8h_1a9dc1ccbc29bfc4502931a544df4511d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*<ref refid="MRE57_8h_1a9dc1ccbc29bfc4502931a544df4511d3" kindref="member">MR_PointsLoad_NamedCloud_GetMutable_colors</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRE57_8h_1a66bff0bf80935419bc392a0c6b43f48e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a66bff0bf80935419bc392a0c6b43f48e" kindref="member">MR_PointsLoad_NamedCloud_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="212" refid="MRE57_8h_1a66bff0bf80935419bc392a0c6b43f48e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a66bff0bf80935419bc392a0c6b43f48e" kindref="member">MR_PointsLoad_NamedCloud_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRE57_8h_1a2ed12c3ab9b5c33844f5894edbc00a61" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a2ed12c3ab9b5c33844f5894edbc00a61" kindref="member">MR_PointsLoad_NamedCloud_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="217" refid="MRE57_8h_1a2ed12c3ab9b5c33844f5894edbc00a61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a2ed12c3ab9b5c33844f5894edbc00a61" kindref="member">MR_PointsLoad_NamedCloud_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRE57_8h_1a8ce4fd910843d9b1723ca4f8e880c15f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a8ce4fd910843d9b1723ca4f8e880c15f" kindref="member">MR_PointsLoad_NamedCloud_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/>MR_PassBy<sp/>cloud_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf,<sp/>MR_PassBy<sp/>colors_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors);</highlight></codeline>
+<codeline lineno="228" refid="MRE57_8h_1a8ce4fd910843d9b1723ca4f8e880c15f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a8ce4fd910843d9b1723ca4f8e880c15f" kindref="member">MR_PointsLoad_NamedCloud_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cloud_pass_by,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>xf,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>colors_pass_by,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRE57_8h_1a54133a331ab914dcd1deb7148f073ae6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a54133a331ab914dcd1deb7148f073ae6" kindref="member">MR_PointsLoad_NamedCloud_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="232" refid="MRE57_8h_1a54133a331ab914dcd1deb7148f073ae6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a54133a331ab914dcd1deb7148f073ae6" kindref="member">MR_PointsLoad_NamedCloud_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="236" refid="MRE57_8h_1a38abeffcf744a0b0903bdc092385dea7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a38abeffcf744a0b0903bdc092385dea7" kindref="member">MR_PointsLoad_NamedCloud_OffsetMutablePtr</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="236" refid="MRE57_8h_1a38abeffcf744a0b0903bdc092385dea7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a38abeffcf744a0b0903bdc092385dea7" kindref="member">MR_PointsLoad_NamedCloud_OffsetMutablePtr</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="237"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRE57_8h_1ac25a7f7fd9bdbcc3cf65cc8139606904" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1ac25a7f7fd9bdbcc3cf65cc8139606904" kindref="member">MR_PointsLoad_NamedCloud_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="241" refid="MRE57_8h_1ac25a7f7fd9bdbcc3cf65cc8139606904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1ac25a7f7fd9bdbcc3cf65cc8139606904" kindref="member">MR_PointsLoad_NamedCloud_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="244" refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" kindref="member">MR_PointsLoad_NamedCloud_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244" refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1abf95e2ac5e943329c628c1866c1483bd" kindref="member">MR_PointsLoad_NamedCloud_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="245"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRE57_8h_1afeaf124cb5cbf081fc75c323e4fde988" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1afeaf124cb5cbf081fc75c323e4fde988" kindref="member">MR_PointsLoad_NamedCloud_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247" refid="MRE57_8h_1afeaf124cb5cbf081fc75c323e4fde988" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1afeaf124cb5cbf081fc75c323e4fde988" kindref="member">MR_PointsLoad_NamedCloud_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="254" refid="MRE57_8h_1a984b4328dc8f10251535868d6cdbd00e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a984b4328dc8f10251535868d6cdbd00e" kindref="member">MR_PointsLoad_NamedCloud_AssignFromAnother</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="254" refid="MRE57_8h_1a984b4328dc8f10251535868d6cdbd00e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*<ref refid="MRE57_8h_1a984b4328dc8f10251535868d6cdbd00e" kindref="member">MR_PointsLoad_NamedCloud_AssignFromAnother</ref>(<ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRE57_8h_1a2e724107d609a8e4d4f81da6beb2eba0" kindref="member">MR_PointsLoad_NamedCloud</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRE57_8h_1ad891df65d10aab162e33220fade073d4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1ad891df65d10aab162e33220fade073d4" kindref="member">MR_PointsLoad_fromSceneE57File</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="261" refid="MRE57_8h_1ad891df65d10aab162e33220fade073d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1a691e12800ee03c8df9f09ac231d76c43" kindref="member">MR_expected_std_vector_MR_PointsLoad_NamedCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1ad891df65d10aab162e33220fade073d4" kindref="member">MR_PointsLoad_fromSceneE57File</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRE57_8h_1aaf6e01cc3e4e1f5b8329ff9deb5e5d99" kindref="member">MR_PointsLoad_E57LoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRE57_8h_1a49dd5dea740afb664928510ab09e6c3d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1a49dd5dea740afb664928510ab09e6c3d" kindref="member">MR_PointsLoad_fromE57_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="269" refid="MRE57_8h_1a49dd5dea740afb664928510ab09e6c3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1a49dd5dea740afb664928510ab09e6c3d" kindref="member">MR_PointsLoad_fromE57_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="276" refid="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" kindref="member">MR_PointsLoad_fromE57_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="276" refid="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a9dbbf904c32d71d8c8ec8da2165b4a12" kindref="member">MR_expected_MR_PointCloud_std_string</ref><sp/>*<ref refid="MRE57_8h_1a8015403f06c7c6c7bea91069853d41d7" kindref="member">MR_PointsLoad_fromE57_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a67029d3455a5c9aa45725d3c35e1e4df" kindref="member">MR_PointsLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
-<codeline lineno="283" refid="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" kindref="member">MR_PointsLoad_loadObjectFromE57</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="283" refid="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRE57_8h_1afddfdf9f07abac630b268df02dbaed95" kindref="member">MR_expected_MR_LoadedObjects_std_string</ref><sp/>*<ref refid="MRE57_8h_1a32679619e5d19d0c7d152145465a51c8" kindref="member">MR_PointsLoad_loadObjectFromE57</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"></highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="286"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRE57.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRE57.h"/>
   </compounddef>
 </doxygen>

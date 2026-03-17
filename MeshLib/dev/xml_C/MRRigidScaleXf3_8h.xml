@@ -4,7 +4,7 @@
     <compoundname>MRRigidScaleXf3.h</compoundname>
     <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -12,17 +12,17 @@
         <link refid="MRAffineXf_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -34,23 +34,23 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="9">
+      <node id="10">
         <label>MRCMesh/MRMatrix3.h</label>
         <link refid="MRMatrix3_8h"/>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="7" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -58,11 +58,11 @@
         <link refid="MRRigidScaleXf3_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="10" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="4">
@@ -72,16 +72,26 @@
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="8" relation="include">
-        </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>MRCMesh/MRVector3.h</label>
         <link refid="MRVector3_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
         <childnode refid="6" relation="include">
         </childnode>
         <childnode refid="7" relation="include">
@@ -89,17 +99,18 @@
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="5">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="6">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="7">
+      <node id="9">
         <label>stdbool.h</label>
       </node>
-      <node id="8">
+      <node id="7">
         <label>stddef.h</label>
+      </node>
+      <node id="8">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -111,16 +122,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidScaleXf3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidScaleXf3f</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="18" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="18" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" bodystart="18" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_RigidScaleXf3f_Get_a</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_Get_a</name>
@@ -135,10 +146,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="31" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="31" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="31" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="31" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1addc459ff5b5db143ab4f855aff3be611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3f_Set_a</definition>
         <argsstring>(MR_RigidScaleXf3f *_this, MR_Vector3f value)</argsstring>
         <name>MR_RigidScaleXf3f_Set_a</name>
@@ -157,10 +168,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="38" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a05e68b58c8ac44681e4c793e9fc36466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_RigidScaleXf3f_GetMutable_a</definition>
         <argsstring>(MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_GetMutable_a</name>
@@ -175,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="45" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="45" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ab9ff34f443f168b06ac395abeed34a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_RigidScaleXf3f_Get_b</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_Get_b</name>
@@ -193,10 +204,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="52" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="52" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a96300a500d06a78499a7dbf7a28672a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3f_Set_b</definition>
         <argsstring>(MR_RigidScaleXf3f *_this, MR_Vector3f value)</argsstring>
         <name>MR_RigidScaleXf3f_Set_b</name>
@@ -215,10 +226,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="59" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="59" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a1891d287eef155b26d8a116ad1735194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_RigidScaleXf3f_GetMutable_b</definition>
         <argsstring>(MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_GetMutable_b</name>
@@ -233,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="66" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="66" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ab8a3dd67c382bc67f4e1943e831bdb60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_RigidScaleXf3f_Get_s</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_Get_s</name>
@@ -251,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="73" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="73" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a6af840a61ff8da13c0f8b457bc7bf8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3f_Set_s</definition>
         <argsstring>(MR_RigidScaleXf3f *_this, float value)</argsstring>
         <name>MR_RigidScaleXf3f_Set_s</name>
@@ -273,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ae531ae4fefb1911b8ecf6052af2ac139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_RigidScaleXf3f_GetMutable_s</definition>
         <argsstring>(MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_GetMutable_s</name>
@@ -290,10 +301,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="86" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="86" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="86" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="86" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1abc527db478ce5f3b21cbcfdfc6368b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_RigidScaleXf3f_DefaultConstruct</name>
@@ -307,10 +318,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="90" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="90" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="90" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="90" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a86e5fe91e2847e25bcd6f3aef8654a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_RigidScaleXf3f_DefaultConstructArray</name>
@@ -325,10 +336,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="95" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="95" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="95" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="95" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a233817ad98ce4f772a1df11cd497a008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API const MR_RigidScaleXf3f * MR_RigidScaleXf3f_OffsetPtr</definition>
         <argsstring>(const MR_RigidScaleXf3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_RigidScaleXf3f_OffsetPtr</name>
@@ -347,10 +358,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="99" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="99" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="99" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="99" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1af7a626d8a5d48a6443e4a0a194433689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_OffsetMutablePtr</definition>
         <argsstring>(MR_RigidScaleXf3f *ptr, ptrdiff_t i)</argsstring>
         <name>MR_RigidScaleXf3f_OffsetMutablePtr</name>
@@ -369,10 +380,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="103" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="103" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="103" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="103" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1adac825d8c1553d7ef10e048b11f461a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_ConstructFromAnother</definition>
         <argsstring>(const MR_RigidScaleXf3f *_other)</argsstring>
         <name>MR_RigidScaleXf3f_ConstructFromAnother</name>
@@ -387,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="109" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="109" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="109" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="109" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a17108ce830cae9f0b5e9c61866ba1eb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_Construct</definition>
         <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b, float s)</argsstring>
         <name>MR_RigidScaleXf3f_Construct</name>
@@ -413,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="117" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="117" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="117" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="117" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a267307cd09e6bfebdc2c1cc37a09170e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3f_Destroy</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_Destroy</name>
@@ -431,10 +442,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="120" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="120" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="120" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1aa0c90bae355f9f8af203ddd340b2d927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3f_DestroyArray</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_DestroyArray</name>
@@ -449,10 +460,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="123" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a99ad96285d5f92818f21605bb903acf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3f * MR_RigidScaleXf3f_AssignFromAnother</definition>
         <argsstring>(MR_RigidScaleXf3f *_this, const MR_RigidScaleXf3f *_other)</argsstring>
         <name>MR_RigidScaleXf3f_AssignFromAnother</name>
@@ -471,10 +482,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="131" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="131" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="131" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="131" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1af0de2c604a5f11052b94cad658f49749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
         <definition>MRC_API MR_AffineXf3f MR_RigidScaleXf3f_rigidScaleXf</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_rigidScaleXf</name>
@@ -489,10 +500,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="136" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="136" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a5e52a156b9fb016f13ed712204332f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
         <definition>MRC_API MR_AffineXf3f MR_RigidScaleXf3f_linearXf</definition>
         <argsstring>(const MR_RigidScaleXf3f *_this)</argsstring>
         <name>MR_RigidScaleXf3f_linearXf</name>
@@ -507,10 +518,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="141" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="141" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="141" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="141" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ab0cad6f1919ee3db6e3987c8cc1f51b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API const MR_Vector3d * MR_RigidScaleXf3d_Get_a</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_Get_a</name>
@@ -525,10 +536,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="148" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="148" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="148" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="148" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a35eba8dd775250af9f54eb74fe874c28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3d_Set_a</definition>
         <argsstring>(MR_RigidScaleXf3d *_this, MR_Vector3d value)</argsstring>
         <name>MR_RigidScaleXf3d_Set_a</name>
@@ -547,10 +558,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="155" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="155" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ad0a79be643a6e70c5137cfbf2a055b7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_Vector3d * MR_RigidScaleXf3d_GetMutable_a</definition>
         <argsstring>(MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_GetMutable_a</name>
@@ -565,10 +576,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="162" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="162" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="162" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="162" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a709066d1c2c74c4f9f0dd10812c34127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API const MR_Vector3d * MR_RigidScaleXf3d_Get_b</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_Get_b</name>
@@ -583,10 +594,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="169" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="169" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="169" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="169" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a2e70a527308775698c6ae3b054dc3b4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3d_Set_b</definition>
         <argsstring>(MR_RigidScaleXf3d *_this, MR_Vector3d value)</argsstring>
         <name>MR_RigidScaleXf3d_Set_b</name>
@@ -605,10 +616,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="176" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="176" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a97427ff9c687ccbe509156677648ef7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_Vector3d * MR_RigidScaleXf3d_GetMutable_b</definition>
         <argsstring>(MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_GetMutable_b</name>
@@ -623,10 +634,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="183" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="183" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="183" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="183" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1afe131c8136c39e737431ab1568deafdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_RigidScaleXf3d_Get_s</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_Get_s</name>
@@ -641,10 +652,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="190" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="190" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="190" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="190" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a127284443dfe85baa712286376a06759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3d_Set_s</definition>
         <argsstring>(MR_RigidScaleXf3d *_this, double value)</argsstring>
         <name>MR_RigidScaleXf3d_Set_s</name>
@@ -663,10 +674,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="196" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ab53ff69fc3804479a1b4a69152681af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_RigidScaleXf3d_GetMutable_s</definition>
         <argsstring>(MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_GetMutable_s</name>
@@ -680,10 +691,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="203" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="203" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="203" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="203" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a1543a31f2dd489739d9a57d3c9a6af8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_RigidScaleXf3d_DefaultConstruct</name>
@@ -697,10 +708,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="207" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="207" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="207" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="207" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a49a25229ea02664d5c33c808307a4508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_RigidScaleXf3d_DefaultConstructArray</name>
@@ -715,10 +726,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="212" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="212" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="212" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="212" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1aefc6bafef4051d44baa3cd0285bf0a0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API const MR_RigidScaleXf3d * MR_RigidScaleXf3d_OffsetPtr</definition>
         <argsstring>(const MR_RigidScaleXf3d *ptr, ptrdiff_t i)</argsstring>
         <name>MR_RigidScaleXf3d_OffsetPtr</name>
@@ -737,10 +748,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="216" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="216" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="216" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="216" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a1e014de64d6b190bcc3cc7ac362328f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_OffsetMutablePtr</definition>
         <argsstring>(MR_RigidScaleXf3d *ptr, ptrdiff_t i)</argsstring>
         <name>MR_RigidScaleXf3d_OffsetMutablePtr</name>
@@ -759,10 +770,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="220" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="220" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="220" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="220" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1afc5caa8d6983bcffc254c42efc431aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_ConstructFromAnother</definition>
         <argsstring>(const MR_RigidScaleXf3d *_other)</argsstring>
         <name>MR_RigidScaleXf3d_ConstructFromAnother</name>
@@ -777,10 +788,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="226" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="226" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="226" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="226" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a6e5d96853398f83ec1e1f6daa13f61ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_Construct</definition>
         <argsstring>(const MR_Vector3d *a, const MR_Vector3d *b, double s)</argsstring>
         <name>MR_RigidScaleXf3d_Construct</name>
@@ -803,10 +814,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="234" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="234" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="234" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="234" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a45b72f61257d6ea8db0aa6740c47ee67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3d_Destroy</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_Destroy</name>
@@ -821,10 +832,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="237" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="237" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="237" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a02e86f48750b242d0b6f7b7ca332c981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_RigidScaleXf3d_DestroyArray</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_DestroyArray</name>
@@ -839,10 +850,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="240" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="240" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="240" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1a8edff08d2866ce1754ea96f650d2da90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref> *</type>
         <definition>MRC_API MR_RigidScaleXf3d * MR_RigidScaleXf3d_AssignFromAnother</definition>
         <argsstring>(MR_RigidScaleXf3d *_this, const MR_RigidScaleXf3d *_other)</argsstring>
         <name>MR_RigidScaleXf3d_AssignFromAnother</name>
@@ -861,10 +872,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="248" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="248" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="248" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="248" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1acb9c17791d3665c56a3887efe5f6082f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
         <definition>MRC_API MR_AffineXf3d MR_RigidScaleXf3d_rigidScaleXf</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_rigidScaleXf</name>
@@ -879,10 +890,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="253" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="253" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="253" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="253" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRRigidScaleXf3_8h_1ab9912f1c60beab6ae677a7c7db197063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
         <definition>MRC_API MR_AffineXf3d MR_RigidScaleXf3d_linearXf</definition>
         <argsstring>(const MR_RigidScaleXf3d *_this)</argsstring>
         <name>MR_RigidScaleXf3d_linearXf</name>
@@ -897,7 +908,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" line="258" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h" declline="258" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" line="258" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h" declline="258" declcolumn="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -909,7 +920,7 @@
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -922,90 +933,90 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" kindref="member">MR_RigidScaleXf3f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="31" refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a7052f80fd5896ad74977631ebed58ee4" kindref="member">MR_RigidScaleXf3f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRRigidScaleXf3_8h_1addc459ff5b5db143ab4f855aff3be611" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1addc459ff5b5db143ab4f855aff3be611" kindref="member">MR_RigidScaleXf3f_Set_a</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="38" refid="MRRigidScaleXf3_8h_1addc459ff5b5db143ab4f855aff3be611" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1addc459ff5b5db143ab4f855aff3be611" kindref="member">MR_RigidScaleXf3f_Set_a</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRRigidScaleXf3_8h_1a05e68b58c8ac44681e4c793e9fc36466" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a05e68b58c8ac44681e4c793e9fc36466" kindref="member">MR_RigidScaleXf3f_GetMutable_a</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRRigidScaleXf3_8h_1a05e68b58c8ac44681e4c793e9fc36466" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a05e68b58c8ac44681e4c793e9fc36466" kindref="member">MR_RigidScaleXf3f_GetMutable_a</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRRigidScaleXf3_8h_1ab9ff34f443f168b06ac395abeed34a67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab9ff34f443f168b06ac395abeed34a67" kindref="member">MR_RigidScaleXf3f_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52" refid="MRRigidScaleXf3_8h_1ab9ff34f443f168b06ac395abeed34a67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab9ff34f443f168b06ac395abeed34a67" kindref="member">MR_RigidScaleXf3f_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRRigidScaleXf3_8h_1a96300a500d06a78499a7dbf7a28672a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a96300a500d06a78499a7dbf7a28672a7" kindref="member">MR_RigidScaleXf3f_Set_b</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="59" refid="MRRigidScaleXf3_8h_1a96300a500d06a78499a7dbf7a28672a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a96300a500d06a78499a7dbf7a28672a7" kindref="member">MR_RigidScaleXf3f_Set_b</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRRigidScaleXf3_8h_1a1891d287eef155b26d8a116ad1735194" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1891d287eef155b26d8a116ad1735194" kindref="member">MR_RigidScaleXf3f_GetMutable_b</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66" refid="MRRigidScaleXf3_8h_1a1891d287eef155b26d8a116ad1735194" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1891d287eef155b26d8a116ad1735194" kindref="member">MR_RigidScaleXf3f_GetMutable_b</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRRigidScaleXf3_8h_1ab8a3dd67c382bc67f4e1943e831bdb60" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab8a3dd67c382bc67f4e1943e831bdb60" kindref="member">MR_RigidScaleXf3f_Get_s</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73" refid="MRRigidScaleXf3_8h_1ab8a3dd67c382bc67f4e1943e831bdb60" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab8a3dd67c382bc67f4e1943e831bdb60" kindref="member">MR_RigidScaleXf3f_Get_s</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRRigidScaleXf3_8h_1a6af840a61ff8da13c0f8b457bc7bf8fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a6af840a61ff8da13c0f8b457bc7bf8fb" kindref="member">MR_RigidScaleXf3f_Set_s</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="79" refid="MRRigidScaleXf3_8h_1a6af840a61ff8da13c0f8b457bc7bf8fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a6af840a61ff8da13c0f8b457bc7bf8fb" kindref="member">MR_RigidScaleXf3f_Set_s</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRRigidScaleXf3_8h_1ae531ae4fefb1911b8ecf6052af2ac139" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ae531ae4fefb1911b8ecf6052af2ac139" kindref="member">MR_RigidScaleXf3f_GetMutable_s</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="86" refid="MRRigidScaleXf3_8h_1ae531ae4fefb1911b8ecf6052af2ac139" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ae531ae4fefb1911b8ecf6052af2ac139" kindref="member">MR_RigidScaleXf3f_GetMutable_s</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRRigidScaleXf3_8h_1abc527db478ce5f3b21cbcfdfc6368b01" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1abc527db478ce5f3b21cbcfdfc6368b01" kindref="member">MR_RigidScaleXf3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90" refid="MRRigidScaleXf3_8h_1abc527db478ce5f3b21cbcfdfc6368b01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1abc527db478ce5f3b21cbcfdfc6368b01" kindref="member">MR_RigidScaleXf3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRRigidScaleXf3_8h_1a86e5fe91e2847e25bcd6f3aef8654a5a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a86e5fe91e2847e25bcd6f3aef8654a5a" kindref="member">MR_RigidScaleXf3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="95" refid="MRRigidScaleXf3_8h_1a86e5fe91e2847e25bcd6f3aef8654a5a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a86e5fe91e2847e25bcd6f3aef8654a5a" kindref="member">MR_RigidScaleXf3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRRigidScaleXf3_8h_1a233817ad98ce4f772a1df11cd497a008" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a233817ad98ce4f772a1df11cd497a008" kindref="member">MR_RigidScaleXf3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="99" refid="MRRigidScaleXf3_8h_1a233817ad98ce4f772a1df11cd497a008" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a233817ad98ce4f772a1df11cd497a008" kindref="member">MR_RigidScaleXf3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRRigidScaleXf3_8h_1af7a626d8a5d48a6443e4a0a194433689" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1af7a626d8a5d48a6443e4a0a194433689" kindref="member">MR_RigidScaleXf3f_OffsetMutablePtr</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="103" refid="MRRigidScaleXf3_8h_1af7a626d8a5d48a6443e4a0a194433689" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1af7a626d8a5d48a6443e4a0a194433689" kindref="member">MR_RigidScaleXf3f_OffsetMutablePtr</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRRigidScaleXf3_8h_1adac825d8c1553d7ef10e048b11f461a9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1adac825d8c1553d7ef10e048b11f461a9" kindref="member">MR_RigidScaleXf3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="109" refid="MRRigidScaleXf3_8h_1adac825d8c1553d7ef10e048b11f461a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1adac825d8c1553d7ef10e048b11f461a9" kindref="member">MR_RigidScaleXf3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="117" refid="MRRigidScaleXf3_8h_1a17108ce830cae9f0b5e9c61866ba1eb1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a17108ce830cae9f0b5e9c61866ba1eb1" kindref="member">MR_RigidScaleXf3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
+<codeline lineno="117" refid="MRRigidScaleXf3_8h_1a17108ce830cae9f0b5e9c61866ba1eb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a17108ce830cae9f0b5e9c61866ba1eb1" kindref="member">MR_RigidScaleXf3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MRRigidScaleXf3_8h_1a267307cd09e6bfebdc2c1cc37a09170e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a267307cd09e6bfebdc2c1cc37a09170e" kindref="member">MR_RigidScaleXf3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120" refid="MRRigidScaleXf3_8h_1a267307cd09e6bfebdc2c1cc37a09170e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a267307cd09e6bfebdc2c1cc37a09170e" kindref="member">MR_RigidScaleXf3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRRigidScaleXf3_8h_1aa0c90bae355f9f8af203ddd340b2d927" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1aa0c90bae355f9f8af203ddd340b2d927" kindref="member">MR_RigidScaleXf3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123" refid="MRRigidScaleXf3_8h_1aa0c90bae355f9f8af203ddd340b2d927" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1aa0c90bae355f9f8af203ddd340b2d927" kindref="member">MR_RigidScaleXf3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRRigidScaleXf3_8h_1a99ad96285d5f92818f21605bb903acf6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a99ad96285d5f92818f21605bb903acf6" kindref="member">MR_RigidScaleXf3f_AssignFromAnother</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="131" refid="MRRigidScaleXf3_8h_1a99ad96285d5f92818f21605bb903acf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a99ad96285d5f92818f21605bb903acf6" kindref="member">MR_RigidScaleXf3f_AssignFromAnother</ref>(<ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRRigidScaleXf3_8h_1af0de2c604a5f11052b94cad658f49749" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1af0de2c604a5f11052b94cad658f49749" kindref="member">MR_RigidScaleXf3f_rigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRRigidScaleXf3_8h_1af0de2c604a5f11052b94cad658f49749" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1af0de2c604a5f11052b94cad658f49749" kindref="member">MR_RigidScaleXf3f_rigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="141" refid="MRRigidScaleXf3_8h_1a5e52a156b9fb016f13ed712204332f80" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1a5e52a156b9fb016f13ed712204332f80" kindref="member">MR_RigidScaleXf3f_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141" refid="MRRigidScaleXf3_8h_1a5e52a156b9fb016f13ed712204332f80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidScaleXf3_8h_1a5e52a156b9fb016f13ed712204332f80" kindref="member">MR_RigidScaleXf3f_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1abe1e8769e8910c39faff18f2f42d6b21" kindref="member">MR_RigidScaleXf3f</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRRigidScaleXf3_8h_1ab0cad6f1919ee3db6e3987c8cc1f51b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab0cad6f1919ee3db6e3987c8cc1f51b7" kindref="member">MR_RigidScaleXf3d_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="148" refid="MRRigidScaleXf3_8h_1ab0cad6f1919ee3db6e3987c8cc1f51b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab0cad6f1919ee3db6e3987c8cc1f51b7" kindref="member">MR_RigidScaleXf3d_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="155" refid="MRRigidScaleXf3_8h_1a35eba8dd775250af9f54eb74fe874c28" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a35eba8dd775250af9f54eb74fe874c28" kindref="member">MR_RigidScaleXf3d_Set_a</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="155" refid="MRRigidScaleXf3_8h_1a35eba8dd775250af9f54eb74fe874c28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a35eba8dd775250af9f54eb74fe874c28" kindref="member">MR_RigidScaleXf3d_Set_a</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight></codeline>
-<codeline lineno="162" refid="MRRigidScaleXf3_8h_1ad0a79be643a6e70c5137cfbf2a055b7f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ad0a79be643a6e70c5137cfbf2a055b7f" kindref="member">MR_RigidScaleXf3d_GetMutable_a</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="162" refid="MRRigidScaleXf3_8h_1ad0a79be643a6e70c5137cfbf2a055b7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1ad0a79be643a6e70c5137cfbf2a055b7f" kindref="member">MR_RigidScaleXf3d_GetMutable_a</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRRigidScaleXf3_8h_1a709066d1c2c74c4f9f0dd10812c34127" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a709066d1c2c74c4f9f0dd10812c34127" kindref="member">MR_RigidScaleXf3d_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="169" refid="MRRigidScaleXf3_8h_1a709066d1c2c74c4f9f0dd10812c34127" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a709066d1c2c74c4f9f0dd10812c34127" kindref="member">MR_RigidScaleXf3d_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRRigidScaleXf3_8h_1a2e70a527308775698c6ae3b054dc3b4a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a2e70a527308775698c6ae3b054dc3b4a" kindref="member">MR_RigidScaleXf3d_Set_b</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="176" refid="MRRigidScaleXf3_8h_1a2e70a527308775698c6ae3b054dc3b4a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a2e70a527308775698c6ae3b054dc3b4a" kindref="member">MR_RigidScaleXf3d_Set_b</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRRigidScaleXf3_8h_1a97427ff9c687ccbe509156677648ef7e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a97427ff9c687ccbe509156677648ef7e" kindref="member">MR_RigidScaleXf3d_GetMutable_b</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="183" refid="MRRigidScaleXf3_8h_1a97427ff9c687ccbe509156677648ef7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a97427ff9c687ccbe509156677648ef7e" kindref="member">MR_RigidScaleXf3d_GetMutable_b</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="190" refid="MRRigidScaleXf3_8h_1afe131c8136c39e737431ab1568deafdf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1afe131c8136c39e737431ab1568deafdf" kindref="member">MR_RigidScaleXf3d_Get_s</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="190" refid="MRRigidScaleXf3_8h_1afe131c8136c39e737431ab1568deafdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1afe131c8136c39e737431ab1568deafdf" kindref="member">MR_RigidScaleXf3d_Get_s</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRRigidScaleXf3_8h_1a127284443dfe85baa712286376a06759" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a127284443dfe85baa712286376a06759" kindref="member">MR_RigidScaleXf3d_Set_s</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="196" refid="MRRigidScaleXf3_8h_1a127284443dfe85baa712286376a06759" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a127284443dfe85baa712286376a06759" kindref="member">MR_RigidScaleXf3d_Set_s</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRRigidScaleXf3_8h_1ab53ff69fc3804479a1b4a69152681af3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab53ff69fc3804479a1b4a69152681af3" kindref="member">MR_RigidScaleXf3d_GetMutable_s</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203" refid="MRRigidScaleXf3_8h_1ab53ff69fc3804479a1b4a69152681af3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRRigidScaleXf3_8h_1ab53ff69fc3804479a1b4a69152681af3" kindref="member">MR_RigidScaleXf3d_GetMutable_s</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="207" refid="MRRigidScaleXf3_8h_1a1543a31f2dd489739d9a57d3c9a6af8d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1543a31f2dd489739d9a57d3c9a6af8d" kindref="member">MR_RigidScaleXf3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="207" refid="MRRigidScaleXf3_8h_1a1543a31f2dd489739d9a57d3c9a6af8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1543a31f2dd489739d9a57d3c9a6af8d" kindref="member">MR_RigidScaleXf3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="208"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRRigidScaleXf3_8h_1a49a25229ea02664d5c33c808307a4508" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a49a25229ea02664d5c33c808307a4508" kindref="member">MR_RigidScaleXf3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="212" refid="MRRigidScaleXf3_8h_1a49a25229ea02664d5c33c808307a4508" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a49a25229ea02664d5c33c808307a4508" kindref="member">MR_RigidScaleXf3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRRigidScaleXf3_8h_1aefc6bafef4051d44baa3cd0285bf0a0b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1aefc6bafef4051d44baa3cd0285bf0a0b" kindref="member">MR_RigidScaleXf3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="216" refid="MRRigidScaleXf3_8h_1aefc6bafef4051d44baa3cd0285bf0a0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1aefc6bafef4051d44baa3cd0285bf0a0b" kindref="member">MR_RigidScaleXf3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRRigidScaleXf3_8h_1a1e014de64d6b190bcc3cc7ac362328f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1e014de64d6b190bcc3cc7ac362328f0" kindref="member">MR_RigidScaleXf3d_OffsetMutablePtr</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="220" refid="MRRigidScaleXf3_8h_1a1e014de64d6b190bcc3cc7ac362328f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a1e014de64d6b190bcc3cc7ac362328f0" kindref="member">MR_RigidScaleXf3d_OffsetMutablePtr</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRRigidScaleXf3_8h_1afc5caa8d6983bcffc254c42efc431aa8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1afc5caa8d6983bcffc254c42efc431aa8" kindref="member">MR_RigidScaleXf3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="226" refid="MRRigidScaleXf3_8h_1afc5caa8d6983bcffc254c42efc431aa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1afc5caa8d6983bcffc254c42efc431aa8" kindref="member">MR_RigidScaleXf3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRRigidScaleXf3_8h_1a6e5d96853398f83ec1e1f6daa13f61ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a6e5d96853398f83ec1e1f6daa13f61ed" kindref="member">MR_RigidScaleXf3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
+<codeline lineno="234" refid="MRRigidScaleXf3_8h_1a6e5d96853398f83ec1e1f6daa13f61ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a6e5d96853398f83ec1e1f6daa13f61ed" kindref="member">MR_RigidScaleXf3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>s);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRRigidScaleXf3_8h_1a45b72f61257d6ea8db0aa6740c47ee67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a45b72f61257d6ea8db0aa6740c47ee67" kindref="member">MR_RigidScaleXf3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237" refid="MRRigidScaleXf3_8h_1a45b72f61257d6ea8db0aa6740c47ee67" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a45b72f61257d6ea8db0aa6740c47ee67" kindref="member">MR_RigidScaleXf3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="240" refid="MRRigidScaleXf3_8h_1a02e86f48750b242d0b6f7b7ca332c981" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a02e86f48750b242d0b6f7b7ca332c981" kindref="member">MR_RigidScaleXf3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="240" refid="MRRigidScaleXf3_8h_1a02e86f48750b242d0b6f7b7ca332c981" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidScaleXf3_8h_1a02e86f48750b242d0b6f7b7ca332c981" kindref="member">MR_RigidScaleXf3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="241"><highlight class="normal"></highlight></codeline>
-<codeline lineno="248" refid="MRRigidScaleXf3_8h_1a8edff08d2866ce1754ea96f650d2da90" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a8edff08d2866ce1754ea96f650d2da90" kindref="member">MR_RigidScaleXf3d_AssignFromAnother</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="248" refid="MRRigidScaleXf3_8h_1a8edff08d2866ce1754ea96f650d2da90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*<ref refid="MRRigidScaleXf3_8h_1a8edff08d2866ce1754ea96f650d2da90" kindref="member">MR_RigidScaleXf3d_AssignFromAnother</ref>(<ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRRigidScaleXf3_8h_1acb9c17791d3665c56a3887efe5f6082f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidScaleXf3_8h_1acb9c17791d3665c56a3887efe5f6082f" kindref="member">MR_RigidScaleXf3d_rigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="253" refid="MRRigidScaleXf3_8h_1acb9c17791d3665c56a3887efe5f6082f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidScaleXf3_8h_1acb9c17791d3665c56a3887efe5f6082f" kindref="member">MR_RigidScaleXf3d_rigidScaleXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
-<codeline lineno="258" refid="MRRigidScaleXf3_8h_1ab9912f1c60beab6ae677a7c7db197063" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidScaleXf3_8h_1ab9912f1c60beab6ae677a7c7db197063" kindref="member">MR_RigidScaleXf3d_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="258" refid="MRRigidScaleXf3_8h_1ab9912f1c60beab6ae677a7c7db197063" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidScaleXf3_8h_1ab9912f1c60beab6ae677a7c7db197063" kindref="member">MR_RigidScaleXf3d_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointToPlaneAligningTransform_8h_1ad1591488603e4a7f9f1931786ba322b8" kindref="member">MR_RigidScaleXf3d</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"></highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="261"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidScaleXf3.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRRigidScaleXf3.h"/>
   </compounddef>
 </doxygen>

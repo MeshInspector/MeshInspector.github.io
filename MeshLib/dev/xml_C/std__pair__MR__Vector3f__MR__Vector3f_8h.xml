@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__MR__Vector3f__MR__Vector3f_8h" kind="file" language="C++">
+    <compoundname>std_pair_MR_Vector3f_MR_Vector3f.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_MR_Vector3f_MR_Vector3f.h</label>
+        <link refid="std__pair__MR__Vector3f__MR__Vector3f_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9ac65e0f1dd97d8dcdc8b0ef741f2ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="19" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="19" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a551368718ae672f92f7a872abc228ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aea90781126d8c9dcf57f1e27153e139a" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a328ccdfa8cfd41ea452833684b1a38c6" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a994d6bf4120d85350675fed5fa44bd97" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="24" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="24" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac6425eed11e87eda7f5abdb48a81c20e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *other)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="31" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="31" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a49f6bbe53669816048cad7ef3f7a8ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_Vector3f_AssignFromAnother</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_Vector3f *_this, const MR_std_pair_MR_Vector3f_MR_Vector3f *other)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1aea90781126d8c9dcf57f1e27153e139a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_MR_Vector3f_MR_Vector3f_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a994d6bf4120d85350675fed5fa44bd97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="48" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="48" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a328ccdfa8cfd41ea452833684b1a38c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_Vector3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="52" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="52" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a76599e21544402393aca21eb0c794a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_Vector3f_MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_Construct</definition>
+        <argsstring>(MR_Vector3f first, MR_Vector3f second)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_Construct</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>second</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="59" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="59" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1afadaa6644db8345af031ad0355e06eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_first</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_first</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="65" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="65" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac2f5aa141771d265017276c5611b830c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_first_mut</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_first_mut</name>
+        <param>
+          <type><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="71" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="71" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9bc7366b912bd781d980fcd72c00e0c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_second</definition>
+        <argsstring>(const MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_second</name>
+        <param>
+          <type>const <ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="77" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="77" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__MR__Vector3f__MR__Vector3f_8h_1a8557ba2197ab9d7fdfe8450e42d7f43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_std_pair_MR_Vector3f_MR_Vector3f_second_mut</definition>
+        <argsstring>(MR_std_pair_MR_Vector3f_MR_Vector3f *_this)</argsstring>
+        <name>MR_std_pair_MR_Vector3f_MR_Vector3f_second_mut</name>
+        <param>
+          <type><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" line="83" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h" declline="83" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9ac65e0f1dd97d8dcdc8b0ef741f2ca7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9ac65e0f1dd97d8dcdc8b0ef741f2ca7" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a551368718ae672f92f7a872abc228ebc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a551368718ae672f92f7a872abc228ebc" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac6425eed11e87eda7f5abdb48a81c20e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac6425eed11e87eda7f5abdb48a81c20e" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a49f6bbe53669816048cad7ef3f7a8ef4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a49f6bbe53669816048cad7ef3f7a8ef4" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_AssignFromAnother</ref>(<ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aab1e8d891cee01c6870840eaa96e26de" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aea90781126d8c9dcf57f1e27153e139a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1aea90781126d8c9dcf57f1e27153e139a" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a994d6bf4120d85350675fed5fa44bd97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a994d6bf4120d85350675fed5fa44bd97" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a328ccdfa8cfd41ea452833684b1a38c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a328ccdfa8cfd41ea452833684b1a38c6" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_OffsetMutablePtr</ref>(<ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a76599e21544402393aca21eb0c794a16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a76599e21544402393aca21eb0c794a16" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_Construct</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>first,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>second);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1afadaa6644db8345af031ad0355e06eba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1afadaa6644db8345af031ad0355e06eba" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac2f5aa141771d265017276c5611b830c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1ac2f5aa141771d265017276c5611b830c" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_first_mut</ref>(<ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9bc7366b912bd781d980fcd72c00e0c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a9bc7366b912bd781d980fcd72c00e0c6" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a8557ba2197ab9d7fdfe8450e42d7f43a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="std__pair__MR__Vector3f__MR__Vector3f_8h_1a8557ba2197ab9d7fdfe8450e42d7f43a" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f_second_mut</ref>(<ref refid="MRVector3_8h_1a7f46d5cb7e799f7aa307ac92cc910911" kindref="member">MR_std_pair_MR_Vector3f_MR_Vector3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_MR_Vector3f_MR_Vector3f.h"/>
+  </compounddef>
+</doxygen>

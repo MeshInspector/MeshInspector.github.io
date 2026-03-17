@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h" kind="file" language="C++">
+    <compoundname>std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h</label>
+        <link refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a741b9ff20e693271765d143470c9acd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="21" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="21" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a42803d90ab1e7c9f9cadf7e7f613a8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a21482237d608b37ce6038765a73f7886" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ae9ce884904669a6058c7370d9084271e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ab1d58ce081baeeb0dd04697b7a3a4a4f" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="26" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="26" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a1a026ea33b3bf07542431a02313d5011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *other)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="32" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="32" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a29712e640488d968bd56b7975f728418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_AssignFromAnother</definition>
+        <argsstring>(MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this, MR_PassBy other_pass_by, MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *other)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy</definition>
+        <argsstring>(const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a21482237d608b37ce6038765a73f7886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DestroyArray</definition>
+        <argsstring>(const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ab1d58ce081baeeb0dd04697b7a3a4a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetPtr</definition>
+        <argsstring>(const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="48" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="48" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ae9ce884904669a6058c7370d9084271e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="52" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="52" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a48023f733f6d7f4f622d25a47549fe9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+        <definition>MRC_API MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Construct</definition>
+        <argsstring>(MR_PassBy first_pass_by, MR_std_vector_MR_UndirectedEdgeBitSet *first, int second)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Construct</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>first_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs the pair elementwise. The reference to the parameter <computeroutput>first</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="58" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="58" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a79f3fa555ba1dc4a8e238d0d0da4a1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_UndirectedEdgeBitSet * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first</definition>
+        <argsstring>(const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="64" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="64" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a91c899529830472d1f9904d0108dd3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UndirectedEdgeBitSet * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first_mut</definition>
+        <argsstring>(MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first_mut</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="70" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="70" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1af55c9d8081ebcd1e78a5f22c2620e4c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
+        <definition>MRC_API const int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second</definition>
+        <argsstring>(const MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second</name>
+        <param>
+          <type>const <ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="76" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="76" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a600e980cedb9b29a5226fc3626eb2d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
+        <definition>MRC_API int * MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second_mut</definition>
+        <argsstring>(MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int *_this)</argsstring>
+        <name>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second_mut</name>
+        <param>
+          <type><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The second of the two elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" line="82" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h" declline="82" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a741b9ff20e693271765d143470c9acd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a741b9ff20e693271765d143470c9acd7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a42803d90ab1e7c9f9cadf7e7f613a8b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a42803d90ab1e7c9f9cadf7e7f613a8b8" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a1a026ea33b3bf07542431a02313d5011" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a1a026ea33b3bf07542431a02313d5011" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a29712e640488d968bd56b7975f728418" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a29712e640488d968bd56b7975f728418" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_AssignFromAnother</ref>(<ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a4de05746960d988506554f6398c29a1e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a21482237d608b37ce6038765a73f7886" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a21482237d608b37ce6038765a73f7886" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ab1d58ce081baeeb0dd04697b7a3a4a4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ab1d58ce081baeeb0dd04697b7a3a4a4f" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ae9ce884904669a6058c7370d9084271e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1ae9ce884904669a6058c7370d9084271e" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_OffsetMutablePtr</ref>(<ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a48023f733f6d7f4f622d25a47549fe9c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a48023f733f6d7f4f622d25a47549fe9c" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Construct</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>first_pass_by,<sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*first,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>second);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a79f3fa555ba1dc4a8e238d0d0da4a1ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a79f3fa555ba1dc4a8e238d0d0da4a1ed" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a91c899529830472d1f9904d0108dd3ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshComponents_8h_1a4dc8885d6b62886c37f07eec1cd9ad2e" kindref="member">MR_std_vector_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a91c899529830472d1f9904d0108dd3ea" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_first_mut</ref>(<ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1af55c9d8081ebcd1e78a5f22c2620e4c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1af55c9d8081ebcd1e78a5f22c2620e4c0" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a600e980cedb9b29a5226fc3626eb2d0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h_1a600e980cedb9b29a5226fc3626eb2d0c" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_second_mut</ref>(<ref refid="MRPolylineComponents_8h_1ae4a70f65018c3942c21f0c66710e54d7" kindref="member">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_pair_std_vector_MR_UndirectedEdgeBitSet_int.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__MeshBuilder__VertSpan_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_MeshBuilder_VertSpan.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_MeshBuilder_VertSpan.h</label>
+        <link refid="std__vector__MR__MeshBuilder__VertSpan_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a3ad43fb8c04f27ef92ff5ed285d1c43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0cbfae32573c9d57fccfcc1bbf702b6f" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="30" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="30" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a5297f865ce7a9529c0441c11ba1378b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f1baf59512b6a70bf3525ede7f46031" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0530127b05be5e7fde62ec20d6aad023" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a8dda05348e33286b55edebe9235a9977" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="35" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="35" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ac60336dd0c9df68b45c9a6f7e12ff982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_MeshBuilder_VertSpan *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0cbfae32573c9d57fccfcc1bbf702b6f" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="41" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="41" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aaa4fc58b9924cfed40c9a7facf0d9827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, MR_PassBy other_pass_by, MR_std_vector_MR_MeshBuilder_VertSpan *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0cbfae32573c9d57fccfcc1bbf702b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f1baf59512b6a70bf3525ede7f46031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a8dda05348e33286b55edebe9235a9977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="57" column="53" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="57" declcolumn="53"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0530127b05be5e7fde62ec20d6aad023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="61" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="61" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1afa7a1c755d37af7c86926d5abf85df22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshBuilder_VertSpan_size</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a907a3a654e38771bd69da4acb5272f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshBuilder_VertSpan_empty</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ae891d69f031f6f5f147f513a84efa144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_resize</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1abfaec88d2d25574d876882a2b0a29a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t new_size, const MR_MeshBuilder_VertSpan *value)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0c77178a099bfb62e77fb026a80d2a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_clear</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a5c9303c6e3bfcde8f8469dcc876fd629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_MeshBuilder_VertSpan_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aa746c42bc5c47d10dcb2c0101fecb6fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_reserve</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a2eca8cd72d5c936e8241964b810797a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a833fc44f554e2b3c24a1a012891cdaf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_at</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="101" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="101" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ab7d0d18a522dfc62a9cb128c43de9107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="107" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="107" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ad328e009952e050adc5c069ff212f512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_front</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="112" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="112" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a663f5f1309e6407d18453f112d82ff26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="117" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="117" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a81f6f1b88a2b737366b2c0428cb646bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_back</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="122" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="122" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ac069e007eb1fabbe76b40c6cde333268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="127" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="127" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a81d8a8360a74108b6fd5e644f0244e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_push_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_MeshBuilder_VertSpan *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a99d1cbad3f4166b50aa2a9042dfc1dfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aa85e6dd5961e162e0fa0c66cea857abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_insert</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t position, const MR_MeshBuilder_VertSpan *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a940b236a15fcc95d5703aa8761ad83f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_erase</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a8d4be35c2736c50389ddab2a99fe5176" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *position, const MR_MeshBuilder_VertSpan *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a57c388fe3095e39b3bc55abdd64c5895" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a47e98913f3f0bcaa4a1625a8bad04e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *position, const MR_MeshBuilder_VertSpan *new_elem)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a224511b786e8937b967045135f86f904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a55acbffbe8396f63cf0007a37e3c638d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="177" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="177" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ace1e87d1619c430dbd6dc7eb56b9755f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshBuilder_VertSpan_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a591401ef1e941fd12bbd81c9a42d05ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="188" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="188" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ada047ef646831e69563cbae49809c9a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshBuilder_VertSpan_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1af4d0ca70accb5a71a0bbf47f7c0f8e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="199" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="199" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a05bbaa220f5f088cfbb05de79a5a04a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshBuilder_VertSpan_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a4a17c7803b3721dad18c3e1ccfcab2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="210" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="210" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a47a72eb6df88ca501e668456372455a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_MeshBuilder_VertSpan_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a3b119b1760b546fb9cded5cc08f82d5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertSpan_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ae194600df67d6793367099b39f50a1c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_MeshBuilder_VertSpan_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a868ba814478f3850d1c6bdf9849679d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="229" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="229" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1af7c80086715c6e9d173f8ed0dba60b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a9cfa75206ff91648587fd40be970bf2b" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a4587c5dbd2c68d60afc32eacaeb91d17" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0e7c7b70281bed5f75ae7542e313c998" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="234" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="234" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a574ffd8c4db925c366f9e9095bd86dc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="241" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="241" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a423617762597c6839c7e7bd96eba4a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a9cfa75206ff91648587fd40be970bf2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0e7c7b70281bed5f75ae7542e313c998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="258" column="68" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="258" declcolumn="68"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a4587c5dbd2c68d60afc32eacaeb91d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="262" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="262" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1abeb072a9f9e06af191a62ceec4e0debc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="267" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="267" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1acb314ac09c8240f80ef0ad82600251e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="271" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="271" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aeb607f936f07a5560f317e2ae614d59a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1afc6849e4c70bfbf5706f1501aedb3cad" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae76e3b034f62645685f3e70f08df22b5" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a35823b429ce94247ab678d4e2a4e4569" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="276" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="276" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aa63e25fc3b40af9ef04703532344f953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="283" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="283" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a5dd1cfdf517f1e9b34caf612ad9e17af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1afc6849e4c70bfbf5706f1501aedb3cad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a35823b429ce94247ab678d4e2a4e4569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="300" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="300" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ae76e3b034f62645685f3e70f08df22b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_MeshBuilder_VertSpan_iterator * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="304" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="304" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a07b6c4f1a606efc24030dd07fa3f65c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="310" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="310" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a5ab73b2cd4fd0ccae38e66e69adc6ec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ace0939cf4866ebcefa076a7b32cffb9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a11ebcc21bebf09935627c031820acb90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a49cf81bef4ee123859f5a79d3b7b7cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *a, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a98844ab2bfd14b702c5f6130e371d15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *a, const MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a7f73380d29a88f8b6c5ff8b644a00aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_std_vector_MR_MeshBuilder_VertSpan_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="338" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="338" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ac776517ccb1b50d1247310408f8a581c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ab8465f4d6e222598c90e50d27c3983b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1aea9f82134aa205296e60ca1e17381834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_MeshBuilder_VertSpan_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_MeshBuilder_VertSpan_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_MeshBuilder_VertSpan_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1ad06a4a09e84d8ce6c9b945ff826a1bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *a, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f25b1b33575a71bced6da58a1a4ddfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *a, const MR_std_vector_MR_MeshBuilder_VertSpan_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshBuilderTypes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a3ad43fb8c04f27ef92ff5ed285d1c43e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a3ad43fb8c04f27ef92ff5ed285d1c43e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5297f865ce7a9529c0441c11ba1378b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5297f865ce7a9529c0441c11ba1378b6" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac60336dd0c9df68b45c9a6f7e12ff982" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac60336dd0c9df68b45c9a6f7e12ff982" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aaa4fc58b9924cfed40c9a7facf0d9827" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aaa4fc58b9924cfed40c9a7facf0d9827" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0cbfae32573c9d57fccfcc1bbf702b6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0cbfae32573c9d57fccfcc1bbf702b6f" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f1baf59512b6a70bf3525ede7f46031" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f1baf59512b6a70bf3525ede7f46031" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a8dda05348e33286b55edebe9235a9977" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a8dda05348e33286b55edebe9235a9977" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0530127b05be5e7fde62ec20d6aad023" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0530127b05be5e7fde62ec20d6aad023" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1afa7a1c755d37af7c86926d5abf85df22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1afa7a1c755d37af7c86926d5abf85df22" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a907a3a654e38771bd69da4acb5272f15" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a907a3a654e38771bd69da4acb5272f15" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae891d69f031f6f5f147f513a84efa144" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae891d69f031f6f5f147f513a84efa144" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_resize</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1abfaec88d2d25574d876882a2b0a29a0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1abfaec88d2d25574d876882a2b0a29a0c" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_resize_with_default_value</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0c77178a099bfb62e77fb026a80d2a90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0c77178a099bfb62e77fb026a80d2a90" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_clear</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5c9303c6e3bfcde8f8469dcc876fd629" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5c9303c6e3bfcde8f8469dcc876fd629" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa746c42bc5c47d10dcb2c0101fecb6fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa746c42bc5c47d10dcb2c0101fecb6fc" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_reserve</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a2eca8cd72d5c936e8241964b810797a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a2eca8cd72d5c936e8241964b810797a4" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_shrink_to_fit</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a833fc44f554e2b3c24a1a012891cdaf0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a833fc44f554e2b3c24a1a012891cdaf0" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ab7d0d18a522dfc62a9cb128c43de9107" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ab7d0d18a522dfc62a9cb128c43de9107" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_at_mut</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ad328e009952e050adc5c069ff212f512" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ad328e009952e050adc5c069ff212f512" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a663f5f1309e6407d18453f112d82ff26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a663f5f1309e6407d18453f112d82ff26" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_front_mut</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a81f6f1b88a2b737366b2c0428cb646bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a81f6f1b88a2b737366b2c0428cb646bc" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac069e007eb1fabbe76b40c6cde333268" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac069e007eb1fabbe76b40c6cde333268" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_back_mut</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a81d8a8360a74108b6fd5e644f0244e79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a81d8a8360a74108b6fd5e644f0244e79" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_push_back</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a99d1cbad3f4166b50aa2a9042dfc1dfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a99d1cbad3f4166b50aa2a9042dfc1dfc" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_pop_back</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa85e6dd5961e162e0fa0c66cea857abf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa85e6dd5961e162e0fa0c66cea857abf" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_insert</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a940b236a15fcc95d5703aa8761ad83f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a940b236a15fcc95d5703aa8761ad83f7" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_erase</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a8d4be35c2736c50389ddab2a99fe5176" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a8d4be35c2736c50389ddab2a99fe5176" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a57c388fe3095e39b3bc55abdd64c5895" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a57c388fe3095e39b3bc55abdd64c5895" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a47e98913f3f0bcaa4a1625a8bad04e8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a47e98913f3f0bcaa4a1625a8bad04e8b" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_insert_at_iter</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a224511b786e8937b967045135f86f904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a224511b786e8937b967045135f86f904" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_erase_at_iter</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a55acbffbe8396f63cf0007a37e3c638d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a55acbffbe8396f63cf0007a37e3c638d" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ace1e87d1619c430dbd6dc7eb56b9755f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ace1e87d1619c430dbd6dc7eb56b9755f" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a591401ef1e941fd12bbd81c9a42d05ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a591401ef1e941fd12bbd81c9a42d05ea" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_begin_mut</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ada047ef646831e69563cbae49809c9a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ada047ef646831e69563cbae49809c9a3" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1af4d0ca70accb5a71a0bbf47f7c0f8e6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1af4d0ca70accb5a71a0bbf47f7c0f8e6c" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a05bbaa220f5f088cfbb05de79a5a04a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a05bbaa220f5f088cfbb05de79a5a04a3" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a4a17c7803b3721dad18c3e1ccfcab2e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a4a17c7803b3721dad18c3e1ccfcab2e9" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_end_mut</ref>(<ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a47a72eb6df88ca501e668456372455a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a47a72eb6df88ca501e668456372455a8" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a3b119b1760b546fb9cded5cc08f82d5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a3b119b1760b546fb9cded5cc08f82d5c" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae194600df67d6793367099b39f50a1c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae194600df67d6793367099b39f50a1c9" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a88f0a63139a225176bf966f1155b781e" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a868ba814478f3850d1c6bdf9849679d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a868ba814478f3850d1c6bdf9849679d2" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1af7c80086715c6e9d173f8ed0dba60b16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1af7c80086715c6e9d173f8ed0dba60b16" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a574ffd8c4db925c366f9e9095bd86dc7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a574ffd8c4db925c366f9e9095bd86dc7" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a423617762597c6839c7e7bd96eba4a58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a423617762597c6839c7e7bd96eba4a58" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aedf7363de579e53e327c35c11ad038fe" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a9cfa75206ff91648587fd40be970bf2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a9cfa75206ff91648587fd40be970bf2b" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0e7c7b70281bed5f75ae7542e313c998" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0e7c7b70281bed5f75ae7542e313c998" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a4587c5dbd2c68d60afc32eacaeb91d17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a4587c5dbd2c68d60afc32eacaeb91d17" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1abeb072a9f9e06af191a62ceec4e0debc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1abeb072a9f9e06af191a62ceec4e0debc" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1acb314ac09c8240f80ef0ad82600251e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1acb314ac09c8240f80ef0ad82600251e4" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aeb607f936f07a5560f317e2ae614d59a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aeb607f936f07a5560f317e2ae614d59a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa63e25fc3b40af9ef04703532344f953" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aa63e25fc3b40af9ef04703532344f953" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5dd1cfdf517f1e9b34caf612ad9e17af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5dd1cfdf517f1e9b34caf612ad9e17af" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac659a9af5d9e6468678e6a9d27039b28" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1afc6849e4c70bfbf5706f1501aedb3cad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1afc6849e4c70bfbf5706f1501aedb3cad" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a35823b429ce94247ab678d4e2a4e4569" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a35823b429ce94247ab678d4e2a4e4569" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae76e3b034f62645685f3e70f08df22b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ae76e3b034f62645685f3e70f08df22b5" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a07b6c4f1a606efc24030dd07fa3f65c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a07b6c4f1a606efc24030dd07fa3f65c6" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5ab73b2cd4fd0ccae38e66e69adc6ec9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a5ab73b2cd4fd0ccae38e66e69adc6ec9" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_incr</ref>(<ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ace0939cf4866ebcefa076a7b32cffb9c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ace0939cf4866ebcefa076a7b32cffb9c" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_decr</ref>(<ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a11ebcc21bebf09935627c031820acb90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a11ebcc21bebf09935627c031820acb90" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a49cf81bef4ee123859f5a79d3b7b7cda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a49cf81bef4ee123859f5a79d3b7b7cda" kindref="member">MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a98844ab2bfd14b702c5f6130e371d15f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a98844ab2bfd14b702c5f6130e371d15f" kindref="member">MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1add25976d96456117b3c1b0839dc1d000" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a7f73380d29a88f8b6c5ff8b644a00aea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a7f73380d29a88f8b6c5ff8b644a00aea" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac776517ccb1b50d1247310408f8a581c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ac776517ccb1b50d1247310408f8a581c" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_incr</ref>(<ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ab8465f4d6e222598c90e50d27c3983b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ab8465f4d6e222598c90e50d27c3983b3" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_decr</ref>(<ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aea9f82134aa205296e60ca1e17381834" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1aea9f82134aa205296e60ca1e17381834" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator_add_assign</ref>(<ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ad06a4a09e84d8ce6c9b945ff826a1bfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1ad06a4a09e84d8ce6c9b945ff826a1bfd" kindref="member">MR_sub_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f25b1b33575a71bced6da58a1a4ddfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__MeshBuilder__VertSpan_8h_1a0f25b1b33575a71bced6da58a1a4ddfc" kindref="member">MR_equal_MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab2a8539f0ec981394e0010ea60ff3a4a" kindref="member">MR_std_vector_MR_MeshBuilder_VertSpan_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_MeshBuilder_VertSpan.h"/>
+  </compounddef>
+</doxygen>

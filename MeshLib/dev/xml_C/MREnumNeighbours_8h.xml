@@ -3,8 +3,8 @@
   <compounddef id="MREnumNeighbours_8h" kind="file" language="C++">
     <compoundname>MREnumNeighbours.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -16,7 +16,7 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -53,11 +64,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a point located on some mesh&apos;s face Generated from class <computeroutput>MR::PointOnFace</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>a point located on some mesh&apos;s face Generated from class <computeroutput>MR::PointOnFace</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" prot="public" static="no">
         <type>struct <ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref></type>
@@ -67,10 +78,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>bool(MR::FaceId)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="18" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="18" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" prot="public" static="no">
         <type>struct <ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref></type>
@@ -80,10 +92,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores a functor of type: <computeroutput>bool(MR::VertId)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="19" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="19" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" prot="public" static="no">
         <type>struct <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref></type>
@@ -93,11 +106,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::EnumNeihbourVertices</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::EnumNeihbourVertices</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="25" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="25" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" prot="public" static="no">
         <type>struct <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref></type>
@@ -107,16 +120,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::EnumNeihbourFaces</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::EnumNeihbourFaces</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="29" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="29" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MREnumNeighbours_8h_1a837b6fb2c0d3bac45fcddbdbd675c2b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_EnumNeihbourVertices_DefaultConstruct</name>
@@ -130,10 +143,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="33" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="33" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="33" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="33" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a8b432260fbeb0c306139360bf49ba3f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_EnumNeihbourVertices_DefaultConstructArray</name>
@@ -148,10 +161,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="38" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="38" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="38" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="38" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a41a697213ddb76345ad16c6c3c21c159" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API const MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_OffsetPtr</definition>
         <argsstring>(const MR_EnumNeihbourVertices *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EnumNeihbourVertices_OffsetPtr</name>
@@ -170,10 +183,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="42" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="42" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="42" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="42" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1ae1a1d073ec9ed6bb358c7e7646ffff64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_OffsetMutablePtr</definition>
         <argsstring>(MR_EnumNeihbourVertices *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EnumNeihbourVertices_OffsetMutablePtr</name>
@@ -192,15 +205,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="46" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="46" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="46" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="46" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a437d7cf67f586d0197c0cc91d48f43f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_EnumNeihbourVertices *_other)</argsstring>
         <name>MR_EnumNeihbourVertices_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -214,10 +227,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="51" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="51" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="51" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="51" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a243b9309403e0e7c7a777bafab78553f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourVertices_Destroy</definition>
         <argsstring>(const MR_EnumNeihbourVertices *_this)</argsstring>
         <name>MR_EnumNeihbourVertices_Destroy</name>
@@ -232,10 +245,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a921a891a7619b9aa06960fee68a86408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourVertices_DestroyArray</definition>
         <argsstring>(const MR_EnumNeihbourVertices *_this)</argsstring>
         <name>MR_EnumNeihbourVertices_DestroyArray</name>
@@ -250,10 +263,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="57" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="57" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1aa5e062b1f311e87dac0cce69b09802e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourVertices * MR_EnumNeihbourVertices_AssignFromAnother</definition>
         <argsstring>(MR_EnumNeihbourVertices *_this, MR_PassBy _other_pass_by, MR_EnumNeihbourVertices *_other)</argsstring>
         <name>MR_EnumNeihbourVertices_AssignFromAnother</name>
@@ -262,7 +275,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -276,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="64" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="64" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="64" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="64" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a595327ba7d9c729e0a73fe7dca6d04b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourVertices_run_MR_VertId</definition>
         <argsstring>(MR_EnumNeihbourVertices *_this, const MR_MeshTopology *topology, MR_VertId start, const MR_std_function_bool_from_MR_VertId *pred)</argsstring>
         <name>MR_EnumNeihbourVertices_run_MR_VertId</name>
@@ -316,10 +329,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="72" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="72" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1acc7f56c338325844f0869204ce59633d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourVertices_run_MR_VertBitSet</definition>
         <argsstring>(MR_EnumNeihbourVertices *_this, const MR_MeshTopology *topology, const MR_VertBitSet *start, const MR_std_function_bool_from_MR_VertId *pred)</argsstring>
         <name>MR_EnumNeihbourVertices_run_MR_VertBitSet</name>
@@ -346,10 +359,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a91dbb87699928f0d570d6d59b4c2861c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint</definition>
         <argsstring>(MR_EnumNeihbourVertices *_this, const MR_MeshTopology *topology, const MR_std_vector_MR_MeshTriPoint *start, const MR_std_function_bool_from_MR_VertId *pred)</argsstring>
         <name>MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint</name>
@@ -376,10 +389,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="86" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a86fd3b32e8d63136c38bab31aa4e306d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
         <definition>MRC_API MR_VertScalars * MR_computeSpaceDistances</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_PointOnFace *start, float range)</argsstring>
         <name>MR_computeSpaceDistances</name>
@@ -411,10 +424,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="94" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="94" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="94" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="94" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1ac3359574e2038c5863952d6d0588fa3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
         <definition>MRC_API MR_VertBitSet * MR_findNeighborVerts</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_PointOnFace *start, float rangeSq)</argsstring>
         <name>MR_findNeighborVerts</name>
@@ -454,10 +467,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="103" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="103" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="103" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1ae9e1a761c7f6ddbfbcaa0ce8fb92901e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_EnumNeihbourFaces_DefaultConstruct</name>
@@ -471,10 +484,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="107" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="107" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="107" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="107" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1ab24bf7e09e9459cc61d309c61b5d233e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_EnumNeihbourFaces_DefaultConstructArray</name>
@@ -489,10 +502,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="112" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="112" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="112" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="112" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a5897b668f8781137779ed4f530facea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API const MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_OffsetPtr</definition>
         <argsstring>(const MR_EnumNeihbourFaces *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EnumNeihbourFaces_OffsetPtr</name>
@@ -511,10 +524,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="116" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="116" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="116" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="116" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1af92fbeffd3a9d0e6964755aca31b0066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_OffsetMutablePtr</definition>
         <argsstring>(MR_EnumNeihbourFaces *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EnumNeihbourFaces_OffsetMutablePtr</name>
@@ -533,15 +546,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="120" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="120" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="120" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="120" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a14466d8c92dd68170a0b6ca7b9d674ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_EnumNeihbourFaces *_other)</argsstring>
         <name>MR_EnumNeihbourFaces_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -555,10 +568,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="125" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="125" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="125" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="125" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a65777a19fb45a9d58577843e9fb234b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourFaces_Destroy</definition>
         <argsstring>(const MR_EnumNeihbourFaces *_this)</argsstring>
         <name>MR_EnumNeihbourFaces_Destroy</name>
@@ -573,10 +586,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="128" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1acb0c0df8063838678477eeb1734c8976" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourFaces_DestroyArray</definition>
         <argsstring>(const MR_EnumNeihbourFaces *_this)</argsstring>
         <name>MR_EnumNeihbourFaces_DestroyArray</name>
@@ -591,10 +604,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a48d4837b1cb3d19ed511f510ac455c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref> *</type>
         <definition>MRC_API MR_EnumNeihbourFaces * MR_EnumNeihbourFaces_AssignFromAnother</definition>
         <argsstring>(MR_EnumNeihbourFaces *_this, MR_PassBy _other_pass_by, MR_EnumNeihbourFaces *_other)</argsstring>
         <name>MR_EnumNeihbourFaces_AssignFromAnother</name>
@@ -603,7 +616,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -617,10 +630,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="138" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="138" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="138" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="138" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MREnumNeighbours_8h_1a90c32125013bf9cc74107197ffe9874d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EnumNeihbourFaces_run</definition>
         <argsstring>(MR_EnumNeihbourFaces *_this, const MR_MeshTopology *topology, MR_VertId start, const MR_std_function_bool_from_MR_FaceId *pred)</argsstring>
         <name>MR_EnumNeihbourFaces_run</name>
@@ -657,7 +670,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h" declline="146" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h" declline="146" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -668,8 +681,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -691,54 +704,54 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MREnumNeighbours_8h_1a837b6fb2c0d3bac45fcddbdbd675c2b2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a837b6fb2c0d3bac45fcddbdbd675c2b2" kindref="member">MR_EnumNeihbourVertices_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33" refid="MREnumNeighbours_8h_1a837b6fb2c0d3bac45fcddbdbd675c2b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a837b6fb2c0d3bac45fcddbdbd675c2b2" kindref="member">MR_EnumNeihbourVertices_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MREnumNeighbours_8h_1a8b432260fbeb0c306139360bf49ba3f1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a8b432260fbeb0c306139360bf49ba3f1" kindref="member">MR_EnumNeihbourVertices_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="38" refid="MREnumNeighbours_8h_1a8b432260fbeb0c306139360bf49ba3f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a8b432260fbeb0c306139360bf49ba3f1" kindref="member">MR_EnumNeihbourVertices_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MREnumNeighbours_8h_1a41a697213ddb76345ad16c6c3c21c159" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a41a697213ddb76345ad16c6c3c21c159" kindref="member">MR_EnumNeihbourVertices_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="42" refid="MREnumNeighbours_8h_1a41a697213ddb76345ad16c6c3c21c159" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a41a697213ddb76345ad16c6c3c21c159" kindref="member">MR_EnumNeihbourVertices_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MREnumNeighbours_8h_1ae1a1d073ec9ed6bb358c7e7646ffff64" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ae1a1d073ec9ed6bb358c7e7646ffff64" kindref="member">MR_EnumNeihbourVertices_OffsetMutablePtr</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="46" refid="MREnumNeighbours_8h_1ae1a1d073ec9ed6bb358c7e7646ffff64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ae1a1d073ec9ed6bb358c7e7646ffff64" kindref="member">MR_EnumNeihbourVertices_OffsetMutablePtr</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MREnumNeighbours_8h_1a437d7cf67f586d0197c0cc91d48f43f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a437d7cf67f586d0197c0cc91d48f43f6" kindref="member">MR_EnumNeihbourVertices_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="51" refid="MREnumNeighbours_8h_1a437d7cf67f586d0197c0cc91d48f43f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a437d7cf67f586d0197c0cc91d48f43f6" kindref="member">MR_EnumNeihbourVertices_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MREnumNeighbours_8h_1a243b9309403e0e7c7a777bafab78553f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a243b9309403e0e7c7a777bafab78553f" kindref="member">MR_EnumNeihbourVertices_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54" refid="MREnumNeighbours_8h_1a243b9309403e0e7c7a777bafab78553f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a243b9309403e0e7c7a777bafab78553f" kindref="member">MR_EnumNeihbourVertices_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MREnumNeighbours_8h_1a921a891a7619b9aa06960fee68a86408" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a921a891a7619b9aa06960fee68a86408" kindref="member">MR_EnumNeihbourVertices_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="57" refid="MREnumNeighbours_8h_1a921a891a7619b9aa06960fee68a86408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a921a891a7619b9aa06960fee68a86408" kindref="member">MR_EnumNeihbourVertices_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MREnumNeighbours_8h_1aa5e062b1f311e87dac0cce69b09802e7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1aa5e062b1f311e87dac0cce69b09802e7" kindref="member">MR_EnumNeihbourVertices_AssignFromAnother</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="64" refid="MREnumNeighbours_8h_1aa5e062b1f311e87dac0cce69b09802e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*<ref refid="MREnumNeighbours_8h_1aa5e062b1f311e87dac0cce69b09802e7" kindref="member">MR_EnumNeihbourVertices_AssignFromAnother</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MREnumNeighbours_8h_1a595327ba7d9c729e0a73fe7dca6d04b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a595327ba7d9c729e0a73fe7dca6d04b9" kindref="member">MR_EnumNeihbourVertices_run_MR_VertId</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
+<codeline lineno="72" refid="MREnumNeighbours_8h_1a595327ba7d9c729e0a73fe7dca6d04b9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a595327ba7d9c729e0a73fe7dca6d04b9" kindref="member">MR_EnumNeihbourVertices_run_MR_VertId</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MREnumNeighbours_8h_1acc7f56c338325844f0869204ce59633d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1acc7f56c338325844f0869204ce59633d" kindref="member">MR_EnumNeihbourVertices_run_MR_VertBitSet</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
+<codeline lineno="79" refid="MREnumNeighbours_8h_1acc7f56c338325844f0869204ce59633d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1acc7f56c338325844f0869204ce59633d" kindref="member">MR_EnumNeihbourVertices_run_MR_VertBitSet</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MREnumNeighbours_8h_1a91dbb87699928f0d570d6d59b4c2861c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91dbb87699928f0d570d6d59b4c2861c" kindref="member">MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
+<codeline lineno="86" refid="MREnumNeighbours_8h_1a91dbb87699928f0d570d6d59b4c2861c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91dbb87699928f0d570d6d59b4c2861c" kindref="member">MR_EnumNeihbourVertices_run_std_vector_MR_MeshTriPoint</ref>(<ref refid="MREnumNeighbours_8h_1a8d2e13be2795d8b8139792311bdc8359" kindref="member">MR_EnumNeihbourVertices</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1a087d1afcc55aadc6e828d844329c9727" kindref="member">MR_std_vector_MR_MeshTriPoint</ref><sp/>*start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a64d1658b7258dab72096c88486c6c84a" kindref="member">MR_std_function_bool_from_MR_VertId</ref><sp/>*pred);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MREnumNeighbours_8h_1a86fd3b32e8d63136c38bab31aa4e306d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a86fd3b32e8d63136c38bab31aa4e306d" kindref="member">MR_computeSpaceDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range);</highlight></codeline>
+<codeline lineno="94" refid="MREnumNeighbours_8h_1a86fd3b32e8d63136c38bab31aa4e306d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a86fd3b32e8d63136c38bab31aa4e306d" kindref="member">MR_computeSpaceDistances</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MREnumNeighbours_8h_1ac3359574e2038c5863952d6d0588fa3f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ac3359574e2038c5863952d6d0588fa3f" kindref="member">MR_findNeighborVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rangeSq);</highlight></codeline>
+<codeline lineno="103" refid="MREnumNeighbours_8h_1ac3359574e2038c5863952d6d0588fa3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ac3359574e2038c5863952d6d0588fa3f" kindref="member">MR_findNeighborVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a8329bba5dc9407bd75ca1a4909c9fe9a" kindref="member">MR_PointOnFace</ref><sp/>*start,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rangeSq);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MREnumNeighbours_8h_1ae9e1a761c7f6ddbfbcaa0ce8fb92901e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ae9e1a761c7f6ddbfbcaa0ce8fb92901e" kindref="member">MR_EnumNeihbourFaces_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107" refid="MREnumNeighbours_8h_1ae9e1a761c7f6ddbfbcaa0ce8fb92901e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ae9e1a761c7f6ddbfbcaa0ce8fb92901e" kindref="member">MR_EnumNeihbourFaces_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MREnumNeighbours_8h_1ab24bf7e09e9459cc61d309c61b5d233e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ab24bf7e09e9459cc61d309c61b5d233e" kindref="member">MR_EnumNeihbourFaces_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="112" refid="MREnumNeighbours_8h_1ab24bf7e09e9459cc61d309c61b5d233e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1ab24bf7e09e9459cc61d309c61b5d233e" kindref="member">MR_EnumNeihbourFaces_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MREnumNeighbours_8h_1a5897b668f8781137779ed4f530facea6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a5897b668f8781137779ed4f530facea6" kindref="member">MR_EnumNeihbourFaces_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="116" refid="MREnumNeighbours_8h_1a5897b668f8781137779ed4f530facea6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a5897b668f8781137779ed4f530facea6" kindref="member">MR_EnumNeihbourFaces_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MREnumNeighbours_8h_1af92fbeffd3a9d0e6964755aca31b0066" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1af92fbeffd3a9d0e6964755aca31b0066" kindref="member">MR_EnumNeihbourFaces_OffsetMutablePtr</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="120" refid="MREnumNeighbours_8h_1af92fbeffd3a9d0e6964755aca31b0066" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1af92fbeffd3a9d0e6964755aca31b0066" kindref="member">MR_EnumNeihbourFaces_OffsetMutablePtr</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MREnumNeighbours_8h_1a14466d8c92dd68170a0b6ca7b9d674ff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a14466d8c92dd68170a0b6ca7b9d674ff" kindref="member">MR_EnumNeihbourFaces_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="125" refid="MREnumNeighbours_8h_1a14466d8c92dd68170a0b6ca7b9d674ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a14466d8c92dd68170a0b6ca7b9d674ff" kindref="member">MR_EnumNeihbourFaces_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MREnumNeighbours_8h_1a65777a19fb45a9d58577843e9fb234b0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a65777a19fb45a9d58577843e9fb234b0" kindref="member">MR_EnumNeihbourFaces_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MREnumNeighbours_8h_1a65777a19fb45a9d58577843e9fb234b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a65777a19fb45a9d58577843e9fb234b0" kindref="member">MR_EnumNeihbourFaces_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MREnumNeighbours_8h_1acb0c0df8063838678477eeb1734c8976" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1acb0c0df8063838678477eeb1734c8976" kindref="member">MR_EnumNeihbourFaces_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131" refid="MREnumNeighbours_8h_1acb0c0df8063838678477eeb1734c8976" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1acb0c0df8063838678477eeb1734c8976" kindref="member">MR_EnumNeihbourFaces_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MREnumNeighbours_8h_1a48d4837b1cb3d19ed511f510ac455c08" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a48d4837b1cb3d19ed511f510ac455c08" kindref="member">MR_EnumNeihbourFaces_AssignFromAnother</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="138" refid="MREnumNeighbours_8h_1a48d4837b1cb3d19ed511f510ac455c08" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*<ref refid="MREnumNeighbours_8h_1a48d4837b1cb3d19ed511f510ac455c08" kindref="member">MR_EnumNeihbourFaces_AssignFromAnother</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MREnumNeighbours_8h_1a90c32125013bf9cc74107197ffe9874d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a90c32125013bf9cc74107197ffe9874d" kindref="member">MR_EnumNeihbourFaces_run</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*pred);</highlight></codeline>
+<codeline lineno="146" refid="MREnumNeighbours_8h_1a90c32125013bf9cc74107197ffe9874d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a90c32125013bf9cc74107197ffe9874d" kindref="member">MR_EnumNeihbourFaces_run</ref>(<ref refid="MREnumNeighbours_8h_1a91d12dec5a5e125bf17302298a3f5ff5" kindref="member">MR_EnumNeihbourFaces</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>start,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREnumNeighbours_8h_1a63aa216938f28c268d3a921062bf6621" kindref="member">MR_std_function_bool_from_MR_FaceId</ref><sp/>*pred);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="149"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnumNeighbours.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnumNeighbours.h"/>
   </compounddef>
 </doxygen>

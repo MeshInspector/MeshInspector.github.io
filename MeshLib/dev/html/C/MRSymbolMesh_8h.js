@@ -1,7 +1,6 @@
 var MRSymbolMesh_8h =
 [
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a1e277c214b29d3ad0568598d3bfee8af", null ],
-    [ "MR_expected_std_vector_std_vector_MR_Vector2f_std_string", "MRSymbolMesh_8h.html#afdcb1f8d5602f1f7db00a97d0b5dd528", null ],
     [ "MR_AlignType", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cd", [
       [ "MR_AlignType_Left", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cda7223564bc3249aaa9925a9950ce63bc6", null ],
       [ "MR_AlignType_Center", "MRSymbolMesh_8h.html#a5f3ea33c07a887155afc8586d50ad7cda0e0f2ae6f0d08db3f690825d88e7550a", null ],

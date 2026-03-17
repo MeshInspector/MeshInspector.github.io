@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="MRCudaBasic_8h" kind="file" language="C++">
+    <compoundname>MRCudaBasic.h</compoundname>
+    <includes refid="uda_2include_2MRCCuda_2exports_8h" local="no">MRCCuda/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>MRCudaBasic.h</label>
+        <link refid="MRCudaBasic_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCCuda/exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> bool</type>
+        <definition>MRC_CUDA_API bool MR_Cuda_isCudaAvailable</definition>
+        <argsstring>(int *driverVersion, int *runtimeVersion, int *computeMajor, int *computeMinor)</argsstring>
+        <name>MR_Cuda_isCudaAvailable</name>
+        <param>
+          <type>int *</type>
+          <declname>driverVersion</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>runtimeVersion</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>computeMajor</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>computeMinor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::Cuda::isCudaAvailable</computeroutput>. Parameter <computeroutput>driverVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>runtimeVersion</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMajor</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>computeMinor</computeroutput> defaults to a null pointer in C++. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="26" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="26" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_getCudaAvailableMemory</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_getCudaAvailableMemory</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Cuda::getCudaAvailableMemory</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="30" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="30" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_getCudaSafeMemoryLimit</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Cuda_getCudaSafeMemoryLimit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Cuda::getCudaSafeMemoryLimit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="34" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="34" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSize</definition>
+        <argsstring>(MR_uint64_t availableBytes, MR_uint64_t elementCount, MR_uint64_t elementBytes)</argsstring>
+        <name>MR_Cuda_maxBufferSize</name>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>elementCount</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::Cuda::maxBufferSize</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="38" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</definition>
+        <argsstring>(MR_uint64_t availableBytes, const MR_Vector2i *blockDims, MR_uint64_t elementBytes)</argsstring>
+        <name>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</name>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::Cuda::maxBufferSizeAlignedByBlock</computeroutput>. Parameter <computeroutput>blockDims</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="44" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="44" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref> <ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+        <definition>MRC_CUDA_API MR_uint64_t MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</definition>
+        <argsstring>(MR_uint64_t availableBytes, const MR_Vector3i *blockDims, MR_uint64_t elementBytes)</argsstring>
+        <name>MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</name>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::Cuda::maxBufferSizeAlignedByBlock</computeroutput>. Parameter <computeroutput>blockDims</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" line="48" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h" declline="48" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="uda_2include_2MRCCuda_2exports_8h" kindref="compound">MRCCuda/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>true<sp/>if<sp/>Cuda<sp/>is<sp/>present<sp/>on<sp/>this<sp/>GPU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>maximum<sp/>driver<sp/>supported<sp/>version</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>current<sp/>runtime<sp/>version</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>compute<sp/>capability<sp/>major<sp/>version</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>optional<sp/>out<sp/>compute<sp/>capability<sp/>minor<sp/>version</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRCudaBasic_8h_1ae160d973f7139b718662631806fc7426" kindref="member">MR_Cuda_isCudaAvailable</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*driverVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*runtimeVersion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMajor,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*computeMinor);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>available<sp/>GPU<sp/>memory<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1a252753cfeb46dccd8c1de3d784ea1554" kindref="member">MR_Cuda_getCudaAvailableMemory</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>safe<sp/>amount<sp/>of<sp/>free<sp/>GPU<sp/>memory<sp/>that<sp/>will<sp/>be<sp/>used<sp/>for<sp/>dynamic-sized<sp/>buffers</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1ae4dd980c10eba05d79e236207a7d2e9a" kindref="member">MR_Cuda_getCudaSafeMemoryLimit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>buffer<sp/>size<sp/>in<sp/>elements<sp/>that<sp/>can<sp/>be<sp/>allocated<sp/>with<sp/>given<sp/>memory<sp/>limit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1afd1fe52d99e326865fb105b2b42767a3" kindref="member">MR_Cuda_maxBufferSize</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementCount,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Returns<sp/>maximum<sp/>buffer<sp/>size<sp/>in<sp/>elements<sp/>that<sp/>can<sp/>be<sp/>allocated<sp/>with<sp/>given<sp/>memory<sp/>limit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>size<sp/>is<sp/>aligned<sp/>to<sp/>the<sp/>block<sp/>dimensions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1aec0c5afef3814cdf557260b8eaf64851" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector2i</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*blockDims,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" refkind="member"><highlight class="normal"><ref refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" kindref="member">MRC_CUDA_API</ref><sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/><ref refid="MRCudaBasic_8h_1acd5db200ec33e84f953f3cc674cae70b" kindref="member">MR_Cuda_maxBufferSizeAlignedByBlock_MR_Vector3i</ref>(<ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>availableBytes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*blockDims,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>elementBytes);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/MRCudaBasic.h"/>
+  </compounddef>
+</doxygen>

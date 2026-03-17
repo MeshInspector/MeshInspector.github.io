@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRNesting3mfExport_8h" kind="file" language="C++">
     <compoundname>MRNesting3mfExport.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -55,7 +66,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Nesting::MeshXf, MR::ObjId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;MR::Nesting::MeshXf, MR::ObjId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -63,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="14" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" prot="public" static="no">
         <type>struct <ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref></type>
@@ -73,10 +84,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::Image&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="17" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="17" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" prot="public" static="no">
         <type>struct <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref></type>
@@ -86,10 +98,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::string&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="18" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="18" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" prot="public" static="no">
         <type>struct <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref></type>
@@ -99,16 +112,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::Nesting::Nesting3mfParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::Nesting::Nesting3mfParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="23" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="23" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a77494dec188bae54e16a9bc40d559278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref> *</type>
         <definition>MRC_API const MR_Vector_MR_Nesting_MeshXf_MR_ObjId * MR_Nesting_Nesting3mfParams_Get_meshes</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_meshes</name>
@@ -123,10 +136,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="30" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="30" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="30" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="30" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a669ecedca7768ca8379c9a16d0bf30d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_meshes</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, MR_PassBy value_pass_by, MR_Vector_MR_Nesting_MeshXf_MR_ObjId *value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_meshes</name>
@@ -135,7 +148,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -149,10 +162,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="37" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="37" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1aecf1c440ca4c66aa4d2e3523770dc865" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref> *</type>
         <definition>MRC_API MR_Vector_MR_Nesting_MeshXf_MR_ObjId * MR_Nesting_Nesting3mfParams_GetMutable_meshes</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_meshes</name>
@@ -167,10 +180,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="44" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="44" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="44" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="44" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1add76f09e061ba76d547464cb778a272b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_Nesting_Nesting3mfParams_Get_zStep</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_zStep</name>
@@ -185,10 +198,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="51" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="51" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="51" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="51" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a80009b1040c660c4206284d4095cd831" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_zStep</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, float value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_zStep</name>
@@ -207,10 +220,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="57" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="57" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1aa787e070c814450e3883dcfa0cd98b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_Nesting_Nesting3mfParams_GetMutable_zStep</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_zStep</name>
@@ -225,10 +238,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="64" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="64" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="64" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="64" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1aee14375e12613b9a2c14227ba5bf9d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_Nesting_Nesting3mfParams_Get_decimateSlices</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_decimateSlices</name>
@@ -243,10 +256,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="71" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="71" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="71" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="71" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ae18ebabed98ffb8d3109fa86da22057f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_decimateSlices</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, bool value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_decimateSlices</name>
@@ -265,10 +278,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="77" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="77" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a577e675a59909288939585d620c1f363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_Nesting_Nesting3mfParams_GetMutable_decimateSlices</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_decimateSlices</name>
@@ -283,10 +296,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="84" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="84" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a874ffb840e2e02ba1ab03615f474b87d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> *const *</type>
         <definition>MRC_API const MR_Image *const  * MR_Nesting_Nesting3mfParams_Get_image</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_image</name>
@@ -301,10 +314,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="91" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="91" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="91" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="91" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a3b8b0d01ab58db9ccaab433f79e091ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_image</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, const MR_Image *value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_image</name>
@@ -323,10 +336,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="98" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="98" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a09195ad77642ad53bdf484b56aecdba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref> **</type>
         <definition>MRC_API const MR_Image ** MR_Nesting_Nesting3mfParams_GetMutable_image</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_image</name>
@@ -341,10 +354,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="105" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="105" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="105" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="105" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a99ecf70d8afd463def6d2072e9a174c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref> *const *</type>
         <definition>MRC_API const MR_std_vector_MR_Image *const  * MR_Nesting_Nesting3mfParams_Get_meshImages</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_meshImages</name>
@@ -359,10 +372,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="112" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="112" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="112" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="112" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a08a9be06de9cbdc504ced18dd3c96729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_meshImages</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, const MR_std_vector_MR_Image *value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_meshImages</name>
@@ -381,10 +394,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ad7f489c1f3122d57d8c48f8a798e711d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref> **</type>
         <definition>MRC_API const MR_std_vector_MR_Image ** MR_Nesting_Nesting3mfParams_GetMutable_meshImages</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_meshImages</name>
@@ -399,10 +412,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="126" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="126" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="126" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="126" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1aaec60022f7b47800e509dd1ca4c1cca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> *const *</type>
         <definition>MRC_API const MR_std_vector_std_string *const  * MR_Nesting_Nesting3mfParams_Get_meshNames</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_meshNames</name>
@@ -417,10 +430,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="133" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="133" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="133" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="133" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1accab9ffab034b8b3ae7e1a0ed6252e58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_meshNames</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, const MR_std_vector_std_string *value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_meshNames</name>
@@ -439,10 +452,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="140" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="140" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="140" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a47bb661286823e57cd9df885a899b62c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref> **</type>
         <definition>MRC_API const MR_std_vector_std_string ** MR_Nesting_Nesting3mfParams_GetMutable_meshNames</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_meshNames</name>
@@ -457,10 +470,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="147" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="147" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="147" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="147" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a8e663466fc52dede6146967190a3f0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_Nesting_Nesting3mfParams_Get_cb</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Get_cb</name>
@@ -475,10 +488,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="153" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="153" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="153" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="153" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a61d613d608155c2ff8b8778bd2c4bd1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Set_cb</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Set_cb</name>
@@ -487,7 +500,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -501,10 +514,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="159" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="159" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1af6ac15def0fe577fcdd13bccfb15baa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_Nesting_Nesting3mfParams_GetMutable_cb</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_GetMutable_cb</name>
@@ -519,10 +532,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="165" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="165" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="165" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="165" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ad76489d57b0bae3db505ab37623f5bf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_DefaultConstruct</name>
@@ -536,10 +549,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="169" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="169" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="169" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="169" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a84b7edca3e838af70c4fada9741692d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_DefaultConstructArray</name>
@@ -554,15 +567,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="174" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="174" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="174" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="174" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ad1830ac89e3276d2107fc211ae976871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_ConstructFrom</definition>
         <argsstring>(MR_PassBy meshes_pass_by, MR_Vector_MR_Nesting_MeshXf_MR_ObjId *meshes, float zStep, bool decimateSlices, const MR_Image *image, const MR_std_vector_MR_Image *meshImages, const MR_std_vector_std_string *meshNames, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>meshes_pass_by</declname>
         </param>
         <param>
@@ -590,7 +603,7 @@
           <declname>meshNames</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -604,10 +617,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="184" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="184" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="184" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="184" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a730479f7d393e5fd2b25f459c285b4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API const MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_OffsetPtr</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_OffsetPtr</name>
@@ -626,10 +639,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="188" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="188" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="188" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="188" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a6278491936b6d0facc298e892a39bdc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_OffsetMutablePtr</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_OffsetMutablePtr</name>
@@ -648,15 +661,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="192" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="192" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="192" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="192" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ac023aecec0b49eac172063097160b61d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_Nesting_Nesting3mfParams *_other)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -670,10 +683,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="197" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="197" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="197" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="197" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a2439a97321d52cd7251637f52cb4dc9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_Destroy</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_Destroy</name>
@@ -688,10 +701,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="200" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="200" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a325168191cbb1d9e013251424e0bc21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_Nesting3mfParams_DestroyArray</definition>
         <argsstring>(const MR_Nesting_Nesting3mfParams *_this)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_DestroyArray</name>
@@ -706,10 +719,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="203" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="203" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="203" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="203" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1ab5ba8e62da94b8fc6bd222084c59c3a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref> *</type>
         <definition>MRC_API MR_Nesting_Nesting3mfParams * MR_Nesting_Nesting3mfParams_AssignFromAnother</definition>
         <argsstring>(MR_Nesting_Nesting3mfParams *_this, MR_PassBy _other_pass_by, MR_Nesting_Nesting3mfParams *_other)</argsstring>
         <name>MR_Nesting_Nesting3mfParams_AssignFromAnother</name>
@@ -718,7 +731,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -732,10 +745,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="210" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="210" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="210" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="210" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRNesting3mfExport_8h_1a18350ad95b9fcd148b75ade27bbe190a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_Nesting_exportNesting3mf</definition>
         <argsstring>(const char *path, const char *path_end, const MR_Nesting_Nesting3mfParams *params)</argsstring>
         <name>MR_Nesting_exportNesting3mf</name>
@@ -754,11 +767,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>exports slicestack 3mf file based on placed meshes Generated from function <computeroutput>MR::Nesting::exportNesting3mf</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>exports slicestack 3mf file based on placed meshes Generated from function <computeroutput>MR::Nesting::exportNesting3mf</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" line="217" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h" declline="217" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" line="217" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h" declline="217" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -768,8 +781,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -788,72 +801,72 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRNesting3mfExport_8h_1a77494dec188bae54e16a9bc40d559278" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a77494dec188bae54e16a9bc40d559278" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRNesting3mfExport_8h_1a77494dec188bae54e16a9bc40d559278" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a77494dec188bae54e16a9bc40d559278" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRNesting3mfExport_8h_1a669ecedca7768ca8379c9a16d0bf30d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a669ecedca7768ca8379c9a16d0bf30d9" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshes</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="37" refid="MRNesting3mfExport_8h_1a669ecedca7768ca8379c9a16d0bf30d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a669ecedca7768ca8379c9a16d0bf30d9" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshes</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRNesting3mfExport_8h_1aecf1c440ca4c66aa4d2e3523770dc865" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1aecf1c440ca4c66aa4d2e3523770dc865" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshes</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRNesting3mfExport_8h_1aecf1c440ca4c66aa4d2e3523770dc865" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1aecf1c440ca4c66aa4d2e3523770dc865" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshes</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRNesting3mfExport_8h_1add76f09e061ba76d547464cb778a272b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1add76f09e061ba76d547464cb778a272b" kindref="member">MR_Nesting_Nesting3mfParams_Get_zStep</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="MRNesting3mfExport_8h_1add76f09e061ba76d547464cb778a272b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1add76f09e061ba76d547464cb778a272b" kindref="member">MR_Nesting_Nesting3mfParams_Get_zStep</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRNesting3mfExport_8h_1a80009b1040c660c4206284d4095cd831" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a80009b1040c660c4206284d4095cd831" kindref="member">MR_Nesting_Nesting3mfParams_Set_zStep</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="57" refid="MRNesting3mfExport_8h_1a80009b1040c660c4206284d4095cd831" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a80009b1040c660c4206284d4095cd831" kindref="member">MR_Nesting_Nesting3mfParams_Set_zStep</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRNesting3mfExport_8h_1aa787e070c814450e3883dcfa0cd98b58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aa787e070c814450e3883dcfa0cd98b58" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_zStep</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64" refid="MRNesting3mfExport_8h_1aa787e070c814450e3883dcfa0cd98b58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aa787e070c814450e3883dcfa0cd98b58" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_zStep</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRNesting3mfExport_8h_1aee14375e12613b9a2c14227ba5bf9d8f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aee14375e12613b9a2c14227ba5bf9d8f" kindref="member">MR_Nesting_Nesting3mfParams_Get_decimateSlices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRNesting3mfExport_8h_1aee14375e12613b9a2c14227ba5bf9d8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aee14375e12613b9a2c14227ba5bf9d8f" kindref="member">MR_Nesting_Nesting3mfParams_Get_decimateSlices</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRNesting3mfExport_8h_1ae18ebabed98ffb8d3109fa86da22057f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ae18ebabed98ffb8d3109fa86da22057f" kindref="member">MR_Nesting_Nesting3mfParams_Set_decimateSlices</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="77" refid="MRNesting3mfExport_8h_1ae18ebabed98ffb8d3109fa86da22057f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ae18ebabed98ffb8d3109fa86da22057f" kindref="member">MR_Nesting_Nesting3mfParams_Set_decimateSlices</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRNesting3mfExport_8h_1a577e675a59909288939585d620c1f363" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a577e675a59909288939585d620c1f363" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_decimateSlices</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84" refid="MRNesting3mfExport_8h_1a577e675a59909288939585d620c1f363" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a577e675a59909288939585d620c1f363" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_decimateSlices</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRNesting3mfExport_8h_1a874ffb840e2e02ba1ab03615f474b87d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a874ffb840e2e02ba1ab03615f474b87d" kindref="member">MR_Nesting_Nesting3mfParams_Get_image</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91" refid="MRNesting3mfExport_8h_1a874ffb840e2e02ba1ab03615f474b87d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a874ffb840e2e02ba1ab03615f474b87d" kindref="member">MR_Nesting_Nesting3mfParams_Get_image</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRNesting3mfExport_8h_1a3b8b0d01ab58db9ccaab433f79e091ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a3b8b0d01ab58db9ccaab433f79e091ef" kindref="member">MR_Nesting_Nesting3mfParams_Set_image</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="98" refid="MRNesting3mfExport_8h_1a3b8b0d01ab58db9ccaab433f79e091ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a3b8b0d01ab58db9ccaab433f79e091ef" kindref="member">MR_Nesting_Nesting3mfParams_Set_image</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRNesting3mfExport_8h_1a09195ad77642ad53bdf484b56aecdba3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1a09195ad77642ad53bdf484b56aecdba3" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_image</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105" refid="MRNesting3mfExport_8h_1a09195ad77642ad53bdf484b56aecdba3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1a09195ad77642ad53bdf484b56aecdba3" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_image</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRNesting3mfExport_8h_1a99ecf70d8afd463def6d2072e9a174c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a99ecf70d8afd463def6d2072e9a174c0" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshImages</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112" refid="MRNesting3mfExport_8h_1a99ecf70d8afd463def6d2072e9a174c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1a99ecf70d8afd463def6d2072e9a174c0" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshImages</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRNesting3mfExport_8h_1a08a9be06de9cbdc504ced18dd3c96729" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a08a9be06de9cbdc504ced18dd3c96729" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshImages</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="119" refid="MRNesting3mfExport_8h_1a08a9be06de9cbdc504ced18dd3c96729" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a08a9be06de9cbdc504ced18dd3c96729" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshImages</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRNesting3mfExport_8h_1ad7f489c1f3122d57d8c48f8a798e711d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1ad7f489c1f3122d57d8c48f8a798e711d" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshImages</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126" refid="MRNesting3mfExport_8h_1ad7f489c1f3122d57d8c48f8a798e711d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1ad7f489c1f3122d57d8c48f8a798e711d" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshImages</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRNesting3mfExport_8h_1aaec60022f7b47800e509dd1ca4c1cca2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aaec60022f7b47800e509dd1ca4c1cca2" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshNames</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133" refid="MRNesting3mfExport_8h_1aaec60022f7b47800e509dd1ca4c1cca2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRNesting3mfExport_8h_1aaec60022f7b47800e509dd1ca4c1cca2" kindref="member">MR_Nesting_Nesting3mfParams_Get_meshNames</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRNesting3mfExport_8h_1accab9ffab034b8b3ae7e1a0ed6252e58" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1accab9ffab034b8b3ae7e1a0ed6252e58" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshNames</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="140" refid="MRNesting3mfExport_8h_1accab9ffab034b8b3ae7e1a0ed6252e58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1accab9ffab034b8b3ae7e1a0ed6252e58" kindref="member">MR_Nesting_Nesting3mfParams_Set_meshNames</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRNesting3mfExport_8h_1a47bb661286823e57cd9df885a899b62c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1a47bb661286823e57cd9df885a899b62c" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshNames</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="147" refid="MRNesting3mfExport_8h_1a47bb661286823e57cd9df885a899b62c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>**<ref refid="MRNesting3mfExport_8h_1a47bb661286823e57cd9df885a899b62c" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_meshNames</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRNesting3mfExport_8h_1a8e663466fc52dede6146967190a3f0b2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a8e663466fc52dede6146967190a3f0b2" kindref="member">MR_Nesting_Nesting3mfParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRNesting3mfExport_8h_1a8e663466fc52dede6146967190a3f0b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a8e663466fc52dede6146967190a3f0b2" kindref="member">MR_Nesting_Nesting3mfParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRNesting3mfExport_8h_1a61d613d608155c2ff8b8778bd2c4bd1c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a61d613d608155c2ff8b8778bd2c4bd1c" kindref="member">MR_Nesting_Nesting3mfParams_Set_cb</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="159" refid="MRNesting3mfExport_8h_1a61d613d608155c2ff8b8778bd2c4bd1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a61d613d608155c2ff8b8778bd2c4bd1c" kindref="member">MR_Nesting_Nesting3mfParams_Set_cb</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="165" refid="MRNesting3mfExport_8h_1af6ac15def0fe577fcdd13bccfb15baa8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1af6ac15def0fe577fcdd13bccfb15baa8" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_cb</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="165" refid="MRNesting3mfExport_8h_1af6ac15def0fe577fcdd13bccfb15baa8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1af6ac15def0fe577fcdd13bccfb15baa8" kindref="member">MR_Nesting_Nesting3mfParams_GetMutable_cb</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="166"><highlight class="normal"></highlight></codeline>
-<codeline lineno="169" refid="MRNesting3mfExport_8h_1ad76489d57b0bae3db505ab37623f5bf8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ad76489d57b0bae3db505ab37623f5bf8" kindref="member">MR_Nesting_Nesting3mfParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="169" refid="MRNesting3mfExport_8h_1ad76489d57b0bae3db505ab37623f5bf8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ad76489d57b0bae3db505ab37623f5bf8" kindref="member">MR_Nesting_Nesting3mfParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRNesting3mfExport_8h_1a84b7edca3e838af70c4fada9741692d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a84b7edca3e838af70c4fada9741692d6" kindref="member">MR_Nesting_Nesting3mfParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="174" refid="MRNesting3mfExport_8h_1a84b7edca3e838af70c4fada9741692d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a84b7edca3e838af70c4fada9741692d6" kindref="member">MR_Nesting_Nesting3mfParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRNesting3mfExport_8h_1ad1830ac89e3276d2107fc211ae976871" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ad1830ac89e3276d2107fc211ae976871" kindref="member">MR_Nesting_Nesting3mfParams_ConstructFrom</ref>(MR_PassBy<sp/>meshes_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*meshes,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zStep,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>decimateSlices,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*meshImages,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*meshNames,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="184" refid="MRNesting3mfExport_8h_1ad1830ac89e3276d2107fc211ae976871" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ad1830ac89e3276d2107fc211ae976871" kindref="member">MR_Nesting_Nesting3mfParams_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>meshes_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*meshes,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zStep,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>decimateSlices,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRJpeg_8h_1a5e2943bfe5a7ecddf6b533bccae5f9c0" kindref="member">MR_Image</ref><sp/>*image,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1acd4ddc2cfe7e9fdedb2f8c06846f05e8" kindref="member">MR_std_vector_MR_Image</ref><sp/>*meshImages,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ab26d333cd7549e6f3f49cc80e3ba5900" kindref="member">MR_std_vector_std_string</ref><sp/>*meshNames,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRNesting3mfExport_8h_1a730479f7d393e5fd2b25f459c285b4a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a730479f7d393e5fd2b25f459c285b4a6" kindref="member">MR_Nesting_Nesting3mfParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="188" refid="MRNesting3mfExport_8h_1a730479f7d393e5fd2b25f459c285b4a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a730479f7d393e5fd2b25f459c285b4a6" kindref="member">MR_Nesting_Nesting3mfParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRNesting3mfExport_8h_1a6278491936b6d0facc298e892a39bdc0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a6278491936b6d0facc298e892a39bdc0" kindref="member">MR_Nesting_Nesting3mfParams_OffsetMutablePtr</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="192" refid="MRNesting3mfExport_8h_1a6278491936b6d0facc298e892a39bdc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a6278491936b6d0facc298e892a39bdc0" kindref="member">MR_Nesting_Nesting3mfParams_OffsetMutablePtr</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRNesting3mfExport_8h_1ac023aecec0b49eac172063097160b61d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ac023aecec0b49eac172063097160b61d" kindref="member">MR_Nesting_Nesting3mfParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="197" refid="MRNesting3mfExport_8h_1ac023aecec0b49eac172063097160b61d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ac023aecec0b49eac172063097160b61d" kindref="member">MR_Nesting_Nesting3mfParams_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="200" refid="MRNesting3mfExport_8h_1a2439a97321d52cd7251637f52cb4dc9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a2439a97321d52cd7251637f52cb4dc9e" kindref="member">MR_Nesting_Nesting3mfParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200" refid="MRNesting3mfExport_8h_1a2439a97321d52cd7251637f52cb4dc9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a2439a97321d52cd7251637f52cb4dc9e" kindref="member">MR_Nesting_Nesting3mfParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRNesting3mfExport_8h_1a325168191cbb1d9e013251424e0bc21c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a325168191cbb1d9e013251424e0bc21c" kindref="member">MR_Nesting_Nesting3mfParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203" refid="MRNesting3mfExport_8h_1a325168191cbb1d9e013251424e0bc21c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a325168191cbb1d9e013251424e0bc21c" kindref="member">MR_Nesting_Nesting3mfParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRNesting3mfExport_8h_1ab5ba8e62da94b8fc6bd222084c59c3a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ab5ba8e62da94b8fc6bd222084c59c3a7" kindref="member">MR_Nesting_Nesting3mfParams_AssignFromAnother</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="210" refid="MRNesting3mfExport_8h_1ab5ba8e62da94b8fc6bd222084c59c3a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1ab5ba8e62da94b8fc6bd222084c59c3a7" kindref="member">MR_Nesting_Nesting3mfParams_AssignFromAnother</ref>(<ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRNesting3mfExport_8h_1a18350ad95b9fcd148b75ade27bbe190a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a18350ad95b9fcd148b75ade27bbe190a" kindref="member">MR_Nesting_exportNesting3mf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="217" refid="MRNesting3mfExport_8h_1a18350ad95b9fcd148b75ade27bbe190a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRNesting3mfExport_8h_1a18350ad95b9fcd148b75ade27bbe190a" kindref="member">MR_Nesting_exportNesting3mf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1a00ba31354bd84da8afe131439833fbb9" kindref="member">MR_Nesting_Nesting3mfParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="220"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRNesting3mfExport.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRNesting3mfExport.h"/>
   </compounddef>
 </doxygen>

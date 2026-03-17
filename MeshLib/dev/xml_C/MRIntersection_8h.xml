@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRIntersection_8h" kind="file" language="C++">
     <compoundname>MRIntersection.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRIntersection.h</label>
@@ -12,6 +12,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -23,16 +24,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::LineSegm2f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::LineSegm2f</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" line="9" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" bodystart="9" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIntersection.h" line="9" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIntersection.h" bodystart="9" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector2f * MR_intersection</definition>
         <argsstring>(const MR_LineSegm2f *segm1, const MR_LineSegm2f *segm2)</argsstring>
         <name>MR_intersection</name>
@@ -47,13 +48,13 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds an intersection between a segm1 and a segm2 <simplesect kind="return"><para>nullopt if they don&apos;t intersect (even if they match) Generated from function <computeroutput>MR::intersection</computeroutput>. Parameter <computeroutput>segm1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>segm2</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds an intersection between a segm1 and a segm2 <simplesect kind="return"><para>nullopt if they don&apos;t intersect (even if they match) Generated from function <computeroutput>MR::intersection</computeroutput>. Parameter <computeroutput>segm1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>segm2</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__Vector2f_8h_1aa91a903785a5927b2c5b937179dde768" kindref="member">MR_std_optional_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" line="19" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h" declline="19" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIntersection.h" line="19" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIntersection.h" declline="19" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -63,7 +64,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -73,12 +74,12 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_Vector2f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/>*<ref refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" kindref="member">MR_intersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm2);</highlight></codeline>
+<codeline lineno="19" refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCNCMachineSettings_8h_1af7ea855ac419f239c2499023478617a4" kindref="member">MR_std_optional_MR_Vector2f</ref><sp/>*<ref refid="MRIntersection_8h_1a9a690189883feb4eb4d2e7c1e145ef0e" kindref="member">MR_intersection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersection_8h_1a40ebbdb98ca17b35cd8f2efa0697e309" kindref="member">MR_LineSegm2f</ref><sp/>*segm2);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersection.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRIntersection.h"/>
   </compounddef>
 </doxygen>

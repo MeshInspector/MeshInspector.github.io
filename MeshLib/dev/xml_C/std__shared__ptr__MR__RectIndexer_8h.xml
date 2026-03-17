@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__RectIndexer_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_RectIndexer.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_RectIndexer.h</label>
+        <link refid="std__shared__ptr__MR__RectIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_RectIndexer MR_std_shared_ptr_MR_RectIndexer</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::RectIndexer</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="20" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1add318f875d775e22809adda316ce52fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="24" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="24" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1aa43597f4fa1e3b90d99f75dd97f13c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a9f8d3c42351ac8e1dd95fc69ef4dfd9e" kindref="member">MR_std_shared_ptr_MR_RectIndexer_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a786928de74c4f32bc4c751b36e58f331" kindref="member">MR_std_shared_ptr_MR_RectIndexer_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1ac3e68e3dea017b6244450f7fb65a1fdf" kindref="member">MR_std_shared_ptr_MR_RectIndexer_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="29" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="29" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a343be30974cc33a9ba850f28a5a5354a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_RectIndexer *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="35" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="35" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a7a63b278c281957870bcd9fa1b75a448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_RectIndexer *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a9f8d3c42351ac8e1dd95fc69ef4dfd9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1ac3e68e3dea017b6244450f7fb65a1fdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="51" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="51" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a786928de74c4f32bc4c751b36e58f331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="55" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="55" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a28f6407e417783a169b3b8ff453ccf0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="60" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="60" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a9a1c4ae0265b7ce84d637c34468d224f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_RectIndexer_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a006f18cf22e86390c078c4b61483cd29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_RectIndexer_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a28f6407e417783a169b3b8ff453ccf0e" kindref="member">MR_std_shared_ptr_MR_RectIndexer_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a52785d5f0b0b4acb935a1c52089d4070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1ab7815e6b13f0d074af038cf3aa1da401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_ConstructFromValue</definition>
+        <argsstring>(const MR_RectIndexer *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_ConstructFromValue</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="81" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="81" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a6b520aff06e3ebf436e2a03240dd9a83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_Construct</definition>
+        <argsstring>(MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_Construct</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="87" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="87" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a570e9526272422318095fdb1cae2026b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *_this, MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="93" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1ab606539a649e0792da23126876ddeb40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_ConstructNonOwning</definition>
+        <argsstring>(MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="99" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="99" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1aa8c20986392b3a449b61a501e84341c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *_this, MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="105" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="105" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a42c837dc86c1014da1396e365cd22dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_RectIndexer * MR_std_shared_ptr_MR_RectIndexer_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="112" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="112" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a26a9b6be701d2b6bbafd50f21c6d7211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_RectIndexer *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_RectIndexer *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="119" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1ad3acdc30cfd78b2b1faf25a0d34bc499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_RectIndexer_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="124" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="124" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__RectIndexer_8h_1a38f30016ca17686fd74571552f15e8d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_RectIndexer_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_RectIndexer *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_RectIndexer_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h" declline="129" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRectIndexer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__RectIndexer_8h_1add318f875d775e22809adda316ce52fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1add318f875d775e22809adda316ce52fe" kindref="member">MR_std_shared_ptr_MR_RectIndexer_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__RectIndexer_8h_1aa43597f4fa1e3b90d99f75dd97f13c92" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa43597f4fa1e3b90d99f75dd97f13c92" kindref="member">MR_std_shared_ptr_MR_RectIndexer_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__RectIndexer_8h_1a343be30974cc33a9ba850f28a5a5354a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1a343be30974cc33a9ba850f28a5a5354a" kindref="member">MR_std_shared_ptr_MR_RectIndexer_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__RectIndexer_8h_1a7a63b278c281957870bcd9fa1b75a448" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a7a63b278c281957870bcd9fa1b75a448" kindref="member">MR_std_shared_ptr_MR_RectIndexer_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa4a0bddc8bd6a29c4a875625ba71de76" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__RectIndexer_8h_1a9f8d3c42351ac8e1dd95fc69ef4dfd9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a9f8d3c42351ac8e1dd95fc69ef4dfd9e" kindref="member">MR_std_shared_ptr_MR_RectIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__RectIndexer_8h_1ac3e68e3dea017b6244450f7fb65a1fdf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1ac3e68e3dea017b6244450f7fb65a1fdf" kindref="member">MR_std_shared_ptr_MR_RectIndexer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__RectIndexer_8h_1a786928de74c4f32bc4c751b36e58f331" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1a786928de74c4f32bc4c751b36e58f331" kindref="member">MR_std_shared_ptr_MR_RectIndexer_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__RectIndexer_8h_1a28f6407e417783a169b3b8ff453ccf0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1a28f6407e417783a169b3b8ff453ccf0e" kindref="member">MR_std_shared_ptr_MR_RectIndexer_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__RectIndexer_8h_1a9a1c4ae0265b7ce84d637c34468d224f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a9a1c4ae0265b7ce84d637c34468d224f" kindref="member">MR_std_shared_ptr_MR_RectIndexer_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__RectIndexer_8h_1a006f18cf22e86390c078c4b61483cd29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a006f18cf22e86390c078c4b61483cd29" kindref="member">MR_std_shared_ptr_MR_RectIndexer_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__RectIndexer_8h_1a52785d5f0b0b4acb935a1c52089d4070" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a52785d5f0b0b4acb935a1c52089d4070" kindref="member">MR_std_shared_ptr_MR_RectIndexer_reset</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="std__shared__ptr__MR__RectIndexer_8h_1ab7815e6b13f0d074af038cf3aa1da401" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1ab7815e6b13f0d074af038cf3aa1da401" kindref="member">MR_std_shared_ptr_MR_RectIndexer_ConstructFromValue</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__shared__ptr__MR__RectIndexer_8h_1a6b520aff06e3ebf436e2a03240dd9a83" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1a6b520aff06e3ebf436e2a03240dd9a83" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Construct</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="std__shared__ptr__MR__RectIndexer_8h_1a570e9526272422318095fdb1cae2026b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a570e9526272422318095fdb1cae2026b" kindref="member">MR_std_shared_ptr_MR_RectIndexer_Assign</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="std__shared__ptr__MR__RectIndexer_8h_1ab606539a649e0792da23126876ddeb40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1ab606539a649e0792da23126876ddeb40" kindref="member">MR_std_shared_ptr_MR_RectIndexer_ConstructNonOwning</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="std__shared__ptr__MR__RectIndexer_8h_1aa8c20986392b3a449b61a501e84341c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1aa8c20986392b3a449b61a501e84341c9" kindref="member">MR_std_shared_ptr_MR_RectIndexer_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__shared__ptr__MR__RectIndexer_8h_1a42c837dc86c1014da1396e365cd22dce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1a42c837dc86c1014da1396e365cd22dce" kindref="member">MR_std_shared_ptr_MR_RectIndexer_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__shared__ptr__MR__RectIndexer_8h_1a26a9b6be701d2b6bbafd50f21c6d7211" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a26a9b6be701d2b6bbafd50f21c6d7211" kindref="member">MR_std_shared_ptr_MR_RectIndexer_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="std__shared__ptr__MR__RectIndexer_8h_1ad3acdc30cfd78b2b1faf25a0d34bc499" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__RectIndexer_8h_1ad3acdc30cfd78b2b1faf25a0d34bc499" kindref="member">MR_std_shared_ptr_MR_RectIndexer_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__shared__ptr__MR__RectIndexer_8h_1a38f30016ca17686fd74571552f15e8d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1a38f30016ca17686fd74571552f15e8d6" kindref="member">MR_std_shared_ptr_MR_RectIndexer_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__RectIndexer_8h_1abcfce5caed9f27e9a4fb30ee048b5929" kindref="member">MR_std_shared_ptr_MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_RectIndexer.h"/>
+  </compounddef>
+</doxygen>

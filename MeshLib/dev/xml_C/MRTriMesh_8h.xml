@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRTriMesh_8h" kind="file" language="C++">
     <compoundname>MRTriMesh.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,17 +18,28 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRTriMesh_8h_1acc84307eccc8990f5081235b12d46da2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
         <definition>MRC_API const MR_Triangulation * MR_TriMesh_Get_tris</definition>
         <argsstring>(const MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_Get_tris</name>
@@ -43,10 +54,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="26" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="26" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="26" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="26" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1aeb5fbf5c54225134f6a5a57863d1f932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TriMesh_Set_tris</definition>
         <argsstring>(MR_TriMesh *_this, MR_PassBy value_pass_by, MR_Triangulation *value)</argsstring>
         <name>MR_TriMesh_Set_tris</name>
@@ -55,7 +66,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -69,10 +80,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="32" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="32" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1ab25c9dac772deb86d74cb26a303d16d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref> *</type>
         <definition>MRC_API MR_Triangulation * MR_TriMesh_GetMutable_tris</definition>
         <argsstring>(MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_GetMutable_tris</name>
@@ -87,10 +98,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="38" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="38" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="38" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1acf3d4baf9ff1fbe403a32d5a071d1305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
         <definition>MRC_API const MR_VertCoords * MR_TriMesh_Get_points</definition>
         <argsstring>(const MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_Get_points</name>
@@ -105,10 +116,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="44" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="44" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1af24b435f44314b6b00f2da9e270d9a04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TriMesh_Set_points</definition>
         <argsstring>(MR_TriMesh *_this, MR_PassBy value_pass_by, MR_VertCoords *value)</argsstring>
         <name>MR_TriMesh_Set_points</name>
@@ -117,7 +128,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -131,10 +142,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a8ce069d16c4aad0f41d61447b8260d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
         <definition>MRC_API MR_VertCoords * MR_TriMesh_GetMutable_points</definition>
         <argsstring>(MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_GetMutable_points</name>
@@ -149,10 +160,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="56" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="56" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a8d0b7e0dfc8345f5118a72a2ae9aa47a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_TriMesh_DefaultConstruct</name>
@@ -166,10 +177,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="60" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="60" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="60" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="60" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a5468a7253647f438d8ca6a89ad34bf19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_TriMesh_DefaultConstructArray</name>
@@ -184,15 +195,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="65" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="65" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="65" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="65" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1ac38b40ec16a66c2a7ef4d31c04413a3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_ConstructFrom</definition>
         <argsstring>(MR_PassBy tris_pass_by, MR_Triangulation *tris, MR_PassBy points_pass_by, MR_VertCoords *points)</argsstring>
         <name>MR_TriMesh_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>tris_pass_by</declname>
         </param>
         <param>
@@ -200,7 +211,7 @@
           <declname>tris</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>points_pass_by</declname>
         </param>
         <param>
@@ -214,10 +225,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="72" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="72" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="72" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="72" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a0ca2fb1b53d0a2b73ac17af588b4f377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API const MR_TriMesh * MR_TriMesh_OffsetPtr</definition>
         <argsstring>(const MR_TriMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TriMesh_OffsetPtr</name>
@@ -236,10 +247,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="76" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="76" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="76" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="76" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a3523c87ac7d60c331f7d362993d00262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_OffsetMutablePtr</definition>
         <argsstring>(MR_TriMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_TriMesh_OffsetMutablePtr</name>
@@ -258,15 +269,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="80" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="80" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="80" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="80" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a091baa8258ab10c9c7753618ec811488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_TriMesh *_other)</argsstring>
         <name>MR_TriMesh_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -280,10 +291,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="85" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="85" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="85" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="85" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1a18aaf0a91c2e19d066de7e6dd70be78e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TriMesh_Destroy</definition>
         <argsstring>(const MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_Destroy</name>
@@ -298,10 +309,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="88" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="88" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1ab026b83e53387c9b27e4508b5cc5428d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_TriMesh_DestroyArray</definition>
         <argsstring>(const MR_TriMesh *_this)</argsstring>
         <name>MR_TriMesh_DestroyArray</name>
@@ -316,10 +327,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="91" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="91" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTriMesh_8h_1aed065bf8680186990084059c32fc506c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref> *</type>
         <definition>MRC_API MR_TriMesh * MR_TriMesh_AssignFromAnother</definition>
         <argsstring>(MR_TriMesh *_this, MR_PassBy _other_pass_by, MR_TriMesh *_other)</argsstring>
         <name>MR_TriMesh_AssignFromAnother</name>
@@ -328,7 +339,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -342,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" line="98" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h" declline="98" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" line="98" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h" declline="98" declcolumn="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -352,8 +363,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -367,40 +378,40 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRTriMesh_8h_1acc84307eccc8990f5081235b12d46da2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRTriMesh_8h_1acc84307eccc8990f5081235b12d46da2" kindref="member">MR_TriMesh_Get_tris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26" refid="MRTriMesh_8h_1acc84307eccc8990f5081235b12d46da2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRTriMesh_8h_1acc84307eccc8990f5081235b12d46da2" kindref="member">MR_TriMesh_Get_tris</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRTriMesh_8h_1aeb5fbf5c54225134f6a5a57863d1f932" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1aeb5fbf5c54225134f6a5a57863d1f932" kindref="member">MR_TriMesh_Set_tris</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="32" refid="MRTriMesh_8h_1aeb5fbf5c54225134f6a5a57863d1f932" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1aeb5fbf5c54225134f6a5a57863d1f932" kindref="member">MR_TriMesh_Set_tris</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRTriMesh_8h_1ab25c9dac772deb86d74cb26a303d16d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRTriMesh_8h_1ab25c9dac772deb86d74cb26a303d16d8" kindref="member">MR_TriMesh_GetMutable_tris</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRTriMesh_8h_1ab25c9dac772deb86d74cb26a303d16d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*<ref refid="MRTriMesh_8h_1ab25c9dac772deb86d74cb26a303d16d8" kindref="member">MR_TriMesh_GetMutable_tris</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRTriMesh_8h_1acf3d4baf9ff1fbe403a32d5a071d1305" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRTriMesh_8h_1acf3d4baf9ff1fbe403a32d5a071d1305" kindref="member">MR_TriMesh_Get_points</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRTriMesh_8h_1acf3d4baf9ff1fbe403a32d5a071d1305" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRTriMesh_8h_1acf3d4baf9ff1fbe403a32d5a071d1305" kindref="member">MR_TriMesh_Get_points</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRTriMesh_8h_1af24b435f44314b6b00f2da9e270d9a04" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1af24b435f44314b6b00f2da9e270d9a04" kindref="member">MR_TriMesh_Set_points</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="50" refid="MRTriMesh_8h_1af24b435f44314b6b00f2da9e270d9a04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1af24b435f44314b6b00f2da9e270d9a04" kindref="member">MR_TriMesh_Set_points</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRTriMesh_8h_1a8ce069d16c4aad0f41d61447b8260d8a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRTriMesh_8h_1a8ce069d16c4aad0f41d61447b8260d8a" kindref="member">MR_TriMesh_GetMutable_points</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRTriMesh_8h_1a8ce069d16c4aad0f41d61447b8260d8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*<ref refid="MRTriMesh_8h_1a8ce069d16c4aad0f41d61447b8260d8a" kindref="member">MR_TriMesh_GetMutable_points</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRTriMesh_8h_1a8d0b7e0dfc8345f5118a72a2ae9aa47a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a8d0b7e0dfc8345f5118a72a2ae9aa47a" kindref="member">MR_TriMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60" refid="MRTriMesh_8h_1a8d0b7e0dfc8345f5118a72a2ae9aa47a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a8d0b7e0dfc8345f5118a72a2ae9aa47a" kindref="member">MR_TriMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65" refid="MRTriMesh_8h_1a5468a7253647f438d8ca6a89ad34bf19" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a5468a7253647f438d8ca6a89ad34bf19" kindref="member">MR_TriMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="65" refid="MRTriMesh_8h_1a5468a7253647f438d8ca6a89ad34bf19" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a5468a7253647f438d8ca6a89ad34bf19" kindref="member">MR_TriMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRTriMesh_8h_1ac38b40ec16a66c2a7ef4d31c04413a3b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1ac38b40ec16a66c2a7ef4d31c04413a3b" kindref="member">MR_TriMesh_ConstructFrom</ref>(MR_PassBy<sp/>tris_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*tris,<sp/>MR_PassBy<sp/>points_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
+<codeline lineno="72" refid="MRTriMesh_8h_1ac38b40ec16a66c2a7ef4d31c04413a3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1ac38b40ec16a66c2a7ef4d31c04413a3b" kindref="member">MR_TriMesh_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>tris_pass_by,<sp/><ref refid="MRIdentifyVertices_8h_1a33f2cead15f3bf37534d3678feb4af22" kindref="member">MR_Triangulation</ref><sp/>*tris,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>points_pass_by,<sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRTriMesh_8h_1a0ca2fb1b53d0a2b73ac17af588b4f377" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a0ca2fb1b53d0a2b73ac17af588b4f377" kindref="member">MR_TriMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="76" refid="MRTriMesh_8h_1a0ca2fb1b53d0a2b73ac17af588b4f377" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a0ca2fb1b53d0a2b73ac17af588b4f377" kindref="member">MR_TriMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRTriMesh_8h_1a3523c87ac7d60c331f7d362993d00262" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a3523c87ac7d60c331f7d362993d00262" kindref="member">MR_TriMesh_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80" refid="MRTriMesh_8h_1a3523c87ac7d60c331f7d362993d00262" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a3523c87ac7d60c331f7d362993d00262" kindref="member">MR_TriMesh_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRTriMesh_8h_1a091baa8258ab10c9c7753618ec811488" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a091baa8258ab10c9c7753618ec811488" kindref="member">MR_TriMesh_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="85" refid="MRTriMesh_8h_1a091baa8258ab10c9c7753618ec811488" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1a091baa8258ab10c9c7753618ec811488" kindref="member">MR_TriMesh_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRTriMesh_8h_1a18aaf0a91c2e19d066de7e6dd70be78e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1a18aaf0a91c2e19d066de7e6dd70be78e" kindref="member">MR_TriMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88" refid="MRTriMesh_8h_1a18aaf0a91c2e19d066de7e6dd70be78e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1a18aaf0a91c2e19d066de7e6dd70be78e" kindref="member">MR_TriMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRTriMesh_8h_1ab026b83e53387c9b27e4508b5cc5428d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1ab026b83e53387c9b27e4508b5cc5428d" kindref="member">MR_TriMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91" refid="MRTriMesh_8h_1ab026b83e53387c9b27e4508b5cc5428d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriMesh_8h_1ab026b83e53387c9b27e4508b5cc5428d" kindref="member">MR_TriMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRTriMesh_8h_1aed065bf8680186990084059c32fc506c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1aed065bf8680186990084059c32fc506c" kindref="member">MR_TriMesh_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="98" refid="MRTriMesh_8h_1aed065bf8680186990084059c32fc506c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*<ref refid="MRTriMesh_8h_1aed065bf8680186990084059c32fc506c" kindref="member">MR_TriMesh_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRMesh_8h_1ab606653bb9578226f3ddd4aba7a46645" kindref="member">MR_TriMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="101"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriMesh.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTriMesh.h"/>
   </compounddef>
 </doxygen>

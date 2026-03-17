@@ -1,7 +1,6 @@
 var MRObjectLabel_8h =
 [
     [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a84057dee07f0b5c1d6295602a46c7db5", null ],
-    [ "MR_ObjectLabel", "MRObjectLabel_8h.html#a4edfc78551f61ec34b3b0e5f5173453f", null ],
     [ "MR_LabelVisualizePropertyType", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276", [
       [ "MR_LabelVisualizePropertyType_SourcePoint", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a922eb827e6cdad1d6eeff943319b9c31", null ],
       [ "MR_LabelVisualizePropertyType_LeaderLine", "MRObjectLabel_8h.html#a49cdb8c5e7c474664a48c4a47b2c5276a4450fb8ce2c13de12e66a4ab68a52ccb", null ],

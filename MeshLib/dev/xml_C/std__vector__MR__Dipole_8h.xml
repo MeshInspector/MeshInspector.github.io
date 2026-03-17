@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__Dipole_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_Dipole.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_Dipole.h</label>
+        <link refid="std__vector__MR__Dipole_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a4646cb29f69c0c9d453a3e7c4c789b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole * MR_std_vector_MR_Dipole_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Dipole_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a96243fe63322f5f058a68cd1fddd68e8" kindref="member">MR_std_vector_MR_Dipole_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="30" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="30" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a7d434e1359e728a7275bd2e6df12fd17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole * MR_std_vector_MR_Dipole_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Dipole_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a1eda0d34c4e2d6183363b5d4cc1f5d76" kindref="member">MR_std_vector_MR_Dipole_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a8563f21837529d6c99d5b0f262b8fb0e" kindref="member">MR_std_vector_MR_Dipole_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a65a2bd9c2011cf76c51f004cb40237af" kindref="member">MR_std_vector_MR_Dipole_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="35" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="35" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a28b17126f878fe48a6bd93b01bcb5a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole * MR_std_vector_MR_Dipole_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_Dipole *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a96243fe63322f5f058a68cd1fddd68e8" kindref="member">MR_std_vector_MR_Dipole_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="41" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="41" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aecdc82cbb36abc1f9fcb6a055fca74f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, MR_PassBy other_pass_by, MR_std_vector_MR_Dipole *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a96243fe63322f5f058a68cd1fddd68e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a1eda0d34c4e2d6183363b5d4cc1f5d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a65a2bd9c2011cf76c51f004cb40237af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Dipole * MR_std_vector_MR_Dipole_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="57" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="57" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a8563f21837529d6c99d5b0f262b8fb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole * MR_std_vector_MR_Dipole_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="61" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="61" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a197e618ae8cb8bc8c948b83161a5562d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Dipole_size</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aa5f64dc5a0f717cee69c37241b7509a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Dipole_empty</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a59d2bbe4642889d3b7a962076b0ff45d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_resize</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_Dipole_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ad4c47747c8167e149577a0ffc6c18c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t new_size, const MR_Dipole *value)</argsstring>
+        <name>MR_std_vector_MR_Dipole_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a5c4a4d71b02a4f69867a66b14394ec2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_clear</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a9d465d3a96f3f28989ba7b9553bf8f14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_Dipole_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ab424b1b0f377e7b4ea9dd5af09250239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_reserve</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_Dipole_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1af83af1976be7a650cacbc73065e61b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1af5759644d1d420722b812802c18c0654" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API const MR_Dipole * MR_std_vector_MR_Dipole_at</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="101" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="101" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a286bc7e69e35bfe0cad300c5a3a97bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_Dipole * MR_std_vector_MR_Dipole_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="107" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="107" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a79ca6741d9030a83ecbf0fd07054a530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API const MR_Dipole * MR_std_vector_MR_Dipole_front</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="112" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a72c938eceebeb722ec60caab36ea08de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_Dipole * MR_std_vector_MR_Dipole_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="117" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="117" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aea861e44b981e339d216d99754d004a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API const MR_Dipole * MR_std_vector_MR_Dipole_back</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="122" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="122" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a22a9aa58bf0bc656206a917aa76fc049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_Dipole * MR_std_vector_MR_Dipole_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="127" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="127" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ae7c95228c2a0e31aaba74f175b49b8e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_push_back</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, const MR_Dipole *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Dipole_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ad038f02ee6675dcf1d87cb5e553c56ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a189f1ef45e492bf15ec0d1ae7d1ecbad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_insert</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t position, const MR_Dipole *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Dipole_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a28ad2cad8fd88eb87e8d4832250e11d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_erase</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_Dipole_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a54f4a2627f4cd946be45b94caf786904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_iterator *position, const MR_Dipole *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Dipole_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a4a20017da7951817700b06a45143d4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Dipole_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a35034a89ea12f957ab63709da37e4305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_const_iterator *position, const MR_Dipole *new_elem)</argsstring>
+        <name>MR_std_vector_MR_Dipole_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a548d097b3874f2abaa8ac5445cecf25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_Dipole_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ad90bdb2add38fa4b3d62a7cfa99702c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="177" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="177" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a9bd98a45e29aa1942755313252f001cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Dipole_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aa55debb60fb8bf1bef2cc2491b7cc4c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" kindref="member">MR_std_vector_MR_Dipole_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="188" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="188" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a43f21df8a97388f53c6b702e37c8a72c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Dipole_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aa4c14c302e59046a342c6cb96d13afab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_end</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="199" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="199" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a6e39e35ea8d93beb298eacc3ea98eea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Dipole_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ae46aa65cd295a644f033b5957de9afae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_Dipole *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" kindref="member">MR_std_vector_MR_Dipole_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="210" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="210" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a46359bffa7e0f15abf0af068690c5893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_Dipole_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a95cbddcbfac263b8936198fbcfde9915" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Dipole_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a99927f0107a928324fcdd5b6dcb629fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_Dipole_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole *_this, const MR_std_vector_MR_Dipole_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a721b70f5fc0e20f12e2a4e5265e28513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="229" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="229" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a4058b4979c668523d373b04f80f4640d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a2748b37e851b4e55cff02829a3c49231" kindref="member">MR_std_vector_MR_Dipole_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a647fc3d7a434c42c2587e3a5a69e919b" kindref="member">MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a2036bc3f80fc801aeb6b3eedfc962b76" kindref="member">MR_std_vector_MR_Dipole_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="234" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="234" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a9dbdcc209fb3d87a12fd4db22d0710af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="241" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="241" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a65916ff0459abb0f4deb964b7ef729e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_const_iterator *_this, const MR_std_vector_MR_Dipole_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a2748b37e851b4e55cff02829a3c49231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a2036bc3f80fc801aeb6b3eedfc962b76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="258" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="258" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a647fc3d7a434c42c2587e3a5a69e919b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="262" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="262" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ac0b69615c82661a145f6b6362d345eb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_const_iterator * MR_std_vector_MR_Dipole_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="267" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="267" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a681282a9240b22acde552891bc8578be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" kindref="member">MR_std_vector_MR_Dipole_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="271" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="271" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a362745fca7e162743930074510e803ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a61cbde51bfdf129f3912ed27f5b0db29" kindref="member">MR_std_vector_MR_Dipole_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__Dipole_8h_1a3907eaeff17837820db3cafb0db779c0" kindref="member">MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__Dipole_8h_1af3e4cc31b0af221a7b025b36288c24b2" kindref="member">MR_std_vector_MR_Dipole_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="276" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="276" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a26ee62f0b9f889ebf37a629a854ec4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" kindref="member">MR_std_vector_MR_Dipole_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="283" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="283" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a43cdf6362e6f280a22ecf16612f00b14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_iterator *_this, const MR_std_vector_MR_Dipole_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a61cbde51bfdf129f3912ed27f5b0db29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1af3e4cc31b0af221a7b025b36288c24b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="300" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="300" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a3907eaeff17837820db3cafb0db779c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_Dipole_iterator * MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="304" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="304" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a85f9803accf0f6af8064a82a278fd5d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API const MR_Dipole * MR_std_vector_MR_Dipole_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="310" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="310" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a12df707bb7cf091d6008d5b916093b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ac4561568a0175f189287ff3209779b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1ac6ed5e568be337b4903d24f2256dcdc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Dipole_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a0de5b90be404434f220b857bf232bebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Dipole_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *a, const MR_std_vector_MR_Dipole_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Dipole_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a0b820647fb85716c0b15ef1b145ccb82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Dipole_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_const_iterator *a, const MR_std_vector_MR_Dipole_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Dipole_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a288362fbf82ec5ff0b529600eab3c121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref> *</type>
+        <definition>MRC_API MR_Dipole * MR_std_vector_MR_Dipole_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="338" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="338" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1aa220d19134c52441cbe33b884bf29f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a8006390eaa6e8184c644d5661d0368d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a7397c65113ebc1c576c6fe00e9a97d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_Dipole_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_Dipole_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_Dipole_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1a2f99046c939e05e32646cf9b080b99e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_Dipole_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *a, const MR_std_vector_MR_Dipole_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_Dipole_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__Dipole_8h_1abbdb1ed905c0a5377e026b9773b26ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_Dipole_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_Dipole_iterator *a, const MR_std_vector_MR_Dipole_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_Dipole_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDipole.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__Dipole_8h_1a4646cb29f69c0c9d453a3e7c4c789b3b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a4646cb29f69c0c9d453a3e7c4c789b3b" kindref="member">MR_std_vector_MR_Dipole_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__Dipole_8h_1a7d434e1359e728a7275bd2e6df12fd17" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a7d434e1359e728a7275bd2e6df12fd17" kindref="member">MR_std_vector_MR_Dipole_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__Dipole_8h_1a28b17126f878fe48a6bd93b01bcb5a98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a28b17126f878fe48a6bd93b01bcb5a98" kindref="member">MR_std_vector_MR_Dipole_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__Dipole_8h_1aecdc82cbb36abc1f9fcb6a055fca74f9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1aecdc82cbb36abc1f9fcb6a055fca74f9" kindref="member">MR_std_vector_MR_Dipole_AssignFromAnother</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__Dipole_8h_1a96243fe63322f5f058a68cd1fddd68e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a96243fe63322f5f058a68cd1fddd68e8" kindref="member">MR_std_vector_MR_Dipole_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__Dipole_8h_1a1eda0d34c4e2d6183363b5d4cc1f5d76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a1eda0d34c4e2d6183363b5d4cc1f5d76" kindref="member">MR_std_vector_MR_Dipole_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__Dipole_8h_1a65a2bd9c2011cf76c51f004cb40237af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a65a2bd9c2011cf76c51f004cb40237af" kindref="member">MR_std_vector_MR_Dipole_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__Dipole_8h_1a8563f21837529d6c99d5b0f262b8fb0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a8563f21837529d6c99d5b0f262b8fb0e" kindref="member">MR_std_vector_MR_Dipole_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__Dipole_8h_1a197e618ae8cb8bc8c948b83161a5562d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a197e618ae8cb8bc8c948b83161a5562d" kindref="member">MR_std_vector_MR_Dipole_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__Dipole_8h_1aa5f64dc5a0f717cee69c37241b7509a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1aa5f64dc5a0f717cee69c37241b7509a3" kindref="member">MR_std_vector_MR_Dipole_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__Dipole_8h_1a59d2bbe4642889d3b7a962076b0ff45d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a59d2bbe4642889d3b7a962076b0ff45d" kindref="member">MR_std_vector_MR_Dipole_resize</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__Dipole_8h_1ad4c47747c8167e149577a0ffc6c18c3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ad4c47747c8167e149577a0ffc6c18c3a" kindref="member">MR_std_vector_MR_Dipole_resize_with_default_value</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__Dipole_8h_1a5c4a4d71b02a4f69867a66b14394ec2e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a5c4a4d71b02a4f69867a66b14394ec2e" kindref="member">MR_std_vector_MR_Dipole_clear</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__Dipole_8h_1a9d465d3a96f3f28989ba7b9553bf8f14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a9d465d3a96f3f28989ba7b9553bf8f14" kindref="member">MR_std_vector_MR_Dipole_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__Dipole_8h_1ab424b1b0f377e7b4ea9dd5af09250239" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ab424b1b0f377e7b4ea9dd5af09250239" kindref="member">MR_std_vector_MR_Dipole_reserve</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__Dipole_8h_1af83af1976be7a650cacbc73065e61b32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1af83af1976be7a650cacbc73065e61b32" kindref="member">MR_std_vector_MR_Dipole_shrink_to_fit</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__Dipole_8h_1af5759644d1d420722b812802c18c0654" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1af5759644d1d420722b812802c18c0654" kindref="member">MR_std_vector_MR_Dipole_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__Dipole_8h_1a286bc7e69e35bfe0cad300c5a3a97bb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a286bc7e69e35bfe0cad300c5a3a97bb5" kindref="member">MR_std_vector_MR_Dipole_at_mut</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__Dipole_8h_1a79ca6741d9030a83ecbf0fd07054a530" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a79ca6741d9030a83ecbf0fd07054a530" kindref="member">MR_std_vector_MR_Dipole_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__Dipole_8h_1a72c938eceebeb722ec60caab36ea08de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a72c938eceebeb722ec60caab36ea08de" kindref="member">MR_std_vector_MR_Dipole_front_mut</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__Dipole_8h_1aea861e44b981e339d216d99754d004a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1aea861e44b981e339d216d99754d004a1" kindref="member">MR_std_vector_MR_Dipole_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__Dipole_8h_1a22a9aa58bf0bc656206a917aa76fc049" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a22a9aa58bf0bc656206a917aa76fc049" kindref="member">MR_std_vector_MR_Dipole_back_mut</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__Dipole_8h_1ae7c95228c2a0e31aaba74f175b49b8e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ae7c95228c2a0e31aaba74f175b49b8e4" kindref="member">MR_std_vector_MR_Dipole_push_back</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__Dipole_8h_1ad038f02ee6675dcf1d87cb5e553c56ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ad038f02ee6675dcf1d87cb5e553c56ac" kindref="member">MR_std_vector_MR_Dipole_pop_back</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__Dipole_8h_1a189f1ef45e492bf15ec0d1ae7d1ecbad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a189f1ef45e492bf15ec0d1ae7d1ecbad" kindref="member">MR_std_vector_MR_Dipole_insert</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__Dipole_8h_1a28ad2cad8fd88eb87e8d4832250e11d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a28ad2cad8fd88eb87e8d4832250e11d1" kindref="member">MR_std_vector_MR_Dipole_erase</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__Dipole_8h_1a54f4a2627f4cd946be45b94caf786904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a54f4a2627f4cd946be45b94caf786904" kindref="member">MR_std_vector_MR_Dipole_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__Dipole_8h_1a4a20017da7951817700b06a45143d4a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a4a20017da7951817700b06a45143d4a6" kindref="member">MR_std_vector_MR_Dipole_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__Dipole_8h_1a35034a89ea12f957ab63709da37e4305" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a35034a89ea12f957ab63709da37e4305" kindref="member">MR_std_vector_MR_Dipole_insert_at_iter</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__Dipole_8h_1a548d097b3874f2abaa8ac5445cecf25e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a548d097b3874f2abaa8ac5445cecf25e" kindref="member">MR_std_vector_MR_Dipole_erase_at_iter</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__Dipole_8h_1ad90bdb2add38fa4b3d62a7cfa99702c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1ad90bdb2add38fa4b3d62a7cfa99702c4" kindref="member">MR_std_vector_MR_Dipole_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__Dipole_8h_1a9bd98a45e29aa1942755313252f001cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a9bd98a45e29aa1942755313252f001cf" kindref="member">MR_std_vector_MR_Dipole_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__Dipole_8h_1aa55debb60fb8bf1bef2cc2491b7cc4c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1aa55debb60fb8bf1bef2cc2491b7cc4c8" kindref="member">MR_std_vector_MR_Dipole_begin_mut</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__Dipole_8h_1a43f21df8a97388f53c6b702e37c8a72c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a43f21df8a97388f53c6b702e37c8a72c" kindref="member">MR_std_vector_MR_Dipole_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__Dipole_8h_1aa4c14c302e59046a342c6cb96d13afab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1aa4c14c302e59046a342c6cb96d13afab" kindref="member">MR_std_vector_MR_Dipole_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__Dipole_8h_1a6e39e35ea8d93beb298eacc3ea98eea4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a6e39e35ea8d93beb298eacc3ea98eea4" kindref="member">MR_std_vector_MR_Dipole_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__Dipole_8h_1ae46aa65cd295a644f033b5957de9afae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1ae46aa65cd295a644f033b5957de9afae" kindref="member">MR_std_vector_MR_Dipole_end_mut</ref>(<ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__Dipole_8h_1a46359bffa7e0f15abf0af068690c5893" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a46359bffa7e0f15abf0af068690c5893" kindref="member">MR_std_vector_MR_Dipole_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__Dipole_8h_1a95cbddcbfac263b8936198fbcfde9915" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Dipole_8h_1a95cbddcbfac263b8936198fbcfde9915" kindref="member">MR_std_vector_MR_Dipole_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__Dipole_8h_1a99927f0107a928324fcdd5b6dcb629fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Dipole_8h_1a99927f0107a928324fcdd5b6dcb629fc" kindref="member">MR_std_vector_MR_Dipole_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1abaeea631b3bf284704cbff68b83f9486" kindref="member">MR_std_vector_MR_Dipole</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__Dipole_8h_1a721b70f5fc0e20f12e2a4e5265e28513" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a721b70f5fc0e20f12e2a4e5265e28513" kindref="member">MR_std_vector_MR_Dipole_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__Dipole_8h_1a4058b4979c668523d373b04f80f4640d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a4058b4979c668523d373b04f80f4640d" kindref="member">MR_std_vector_MR_Dipole_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__Dipole_8h_1a9dbdcc209fb3d87a12fd4db22d0710af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a9dbdcc209fb3d87a12fd4db22d0710af" kindref="member">MR_std_vector_MR_Dipole_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__Dipole_8h_1a65916ff0459abb0f4deb964b7ef729e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a65916ff0459abb0f4deb964b7ef729e2" kindref="member">MR_std_vector_MR_Dipole_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a26c7f2988871b77f8e1d6bbd1da01cb7" kindref="member">MR_std_vector_MR_Dipole_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__Dipole_8h_1a2748b37e851b4e55cff02829a3c49231" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a2748b37e851b4e55cff02829a3c49231" kindref="member">MR_std_vector_MR_Dipole_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__Dipole_8h_1a2036bc3f80fc801aeb6b3eedfc962b76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a2036bc3f80fc801aeb6b3eedfc962b76" kindref="member">MR_std_vector_MR_Dipole_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__Dipole_8h_1a647fc3d7a434c42c2587e3a5a69e919b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a647fc3d7a434c42c2587e3a5a69e919b" kindref="member">MR_std_vector_MR_Dipole_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__Dipole_8h_1ac0b69615c82661a145f6b6362d345eb6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1ac0b69615c82661a145f6b6362d345eb6" kindref="member">MR_std_vector_MR_Dipole_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__Dipole_8h_1a681282a9240b22acde552891bc8578be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a681282a9240b22acde552891bc8578be" kindref="member">MR_std_vector_MR_Dipole_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__Dipole_8h_1a362745fca7e162743930074510e803ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a362745fca7e162743930074510e803ea" kindref="member">MR_std_vector_MR_Dipole_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__Dipole_8h_1a26ee62f0b9f889ebf37a629a854ec4ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a26ee62f0b9f889ebf37a629a854ec4ef" kindref="member">MR_std_vector_MR_Dipole_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__Dipole_8h_1a43cdf6362e6f280a22ecf16612f00b14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a43cdf6362e6f280a22ecf16612f00b14" kindref="member">MR_std_vector_MR_Dipole_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1afc26762eaf64be73fb93aca955b03c44" kindref="member">MR_std_vector_MR_Dipole_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__Dipole_8h_1a61cbde51bfdf129f3912ed27f5b0db29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a61cbde51bfdf129f3912ed27f5b0db29" kindref="member">MR_std_vector_MR_Dipole_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__Dipole_8h_1af3e4cc31b0af221a7b025b36288c24b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1af3e4cc31b0af221a7b025b36288c24b2" kindref="member">MR_std_vector_MR_Dipole_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__Dipole_8h_1a3907eaeff17837820db3cafb0db779c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a3907eaeff17837820db3cafb0db779c0" kindref="member">MR_std_vector_MR_Dipole_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__Dipole_8h_1a85f9803accf0f6af8064a82a278fd5d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a85f9803accf0f6af8064a82a278fd5d9" kindref="member">MR_std_vector_MR_Dipole_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__Dipole_8h_1a12df707bb7cf091d6008d5b916093b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a12df707bb7cf091d6008d5b916093b72" kindref="member">MR_std_vector_MR_Dipole_const_iterator_incr</ref>(<ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__Dipole_8h_1ac4561568a0175f189287ff3209779b21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ac4561568a0175f189287ff3209779b21" kindref="member">MR_std_vector_MR_Dipole_const_iterator_decr</ref>(<ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__Dipole_8h_1ac6ed5e568be337b4903d24f2256dcdc1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1ac6ed5e568be337b4903d24f2256dcdc1" kindref="member">MR_std_vector_MR_Dipole_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__Dipole_8h_1a0de5b90be404434f220b857bf232bebc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Dipole_8h_1a0de5b90be404434f220b857bf232bebc" kindref="member">MR_sub_MR_std_vector_MR_Dipole_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__Dipole_8h_1a0b820647fb85716c0b15ef1b145ccb82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a0b820647fb85716c0b15ef1b145ccb82" kindref="member">MR_equal_MR_std_vector_MR_Dipole_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ad33b5937075b0fd2fbb00ee3697d9bd9" kindref="member">MR_std_vector_MR_Dipole_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__Dipole_8h_1a288362fbf82ec5ff0b529600eab3c121" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDipole_8h_1a1355a9205c77a994f7dc42f7ce5eb774" kindref="member">MR_Dipole</ref><sp/>*<ref refid="std__vector__MR__Dipole_8h_1a288362fbf82ec5ff0b529600eab3c121" kindref="member">MR_std_vector_MR_Dipole_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__Dipole_8h_1aa220d19134c52441cbe33b884bf29f70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1aa220d19134c52441cbe33b884bf29f70" kindref="member">MR_std_vector_MR_Dipole_iterator_incr</ref>(<ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__Dipole_8h_1a8006390eaa6e8184c644d5661d0368d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a8006390eaa6e8184c644d5661d0368d6" kindref="member">MR_std_vector_MR_Dipole_iterator_decr</ref>(<ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__Dipole_8h_1a7397c65113ebc1c576c6fe00e9a97d20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1a7397c65113ebc1c576c6fe00e9a97d20" kindref="member">MR_std_vector_MR_Dipole_iterator_add_assign</ref>(<ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__Dipole_8h_1a2f99046c939e05e32646cf9b080b99e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__Dipole_8h_1a2f99046c939e05e32646cf9b080b99e8" kindref="member">MR_sub_MR_std_vector_MR_Dipole_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__Dipole_8h_1abbdb1ed905c0a5377e026b9773b26ae5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__Dipole_8h_1abbdb1ed905c0a5377e026b9773b26ae5" kindref="member">MR_equal_MR_std_vector_MR_Dipole_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ab0e2144843316a1e4710007217c6ba96" kindref="member">MR_std_vector_MR_Dipole_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_Dipole.h"/>
+  </compounddef>
+</doxygen>

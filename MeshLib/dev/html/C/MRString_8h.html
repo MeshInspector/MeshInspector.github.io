@@ -142,23 +142,23 @@ $(function(){initNavTree('MRString_8h.html','',''); });
   <div class="headertitle"><div class="title">MRString.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRString_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2fca89005bcfc6a8ffb05d0b62c0d78b" id="r_a2fca89005bcfc6a8ffb05d0b62c0d78b"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fca89005bcfc6a8ffb05d0b62c0d78b">MR_findSubstringCaseInsensitive</a> (const char *string, const char *string_end, const char *substring, const char *substring_end)</td></tr>
-<tr class="memitem:a9b7ce354046f8ac3423f758e6dcdd585" id="r_a9b7ce354046f8ac3423f758e6dcdd585"><td class="memItemLeft" align="right" valign="top">MRC_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7ce354046f8ac3423f758e6dcdd585">MR_calcDamerauLevenshteinDistance</a> (const char *stringA, const char *stringA_end, const char *stringB, const char *stringB_end, const bool *caseSensitive, int *outLeftRightAddition)</td></tr>
-<tr class="memitem:a02016bca08b40cca6e46ef85ed1f6c12" id="r_a02016bca08b40cca6e46ef85ed1f6c12"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02016bca08b40cca6e46ef85ed1f6c12">MR_split</a> (const char *string, const char *string_end, const char *delimiter, const char *delimiter_end)</td></tr>
-<tr class="memitem:ac8335e464659f316b9021b3b115f2d89" id="r_ac8335e464659f316b9021b3b115f2d89"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8335e464659f316b9021b3b115f2d89">MR_replace</a> (const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
-<tr class="memitem:a1e0bde14d170a00b409d84ed2c46f8f9" id="r_a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0bde14d170a00b409d84ed2c46f8f9">MR_replaceInplace</a> (<a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *target, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
-<tr class="memitem:a761c476b3907f0b69dd807ef0a27e0aa" id="r_a761c476b3907f0b69dd807ef0a27e0aa"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c476b3907f0b69dd807ef0a27e0aa">MR_trim</a> (const char *str, const char *str_end)</td></tr>
-<tr class="memitem:a29d2ca719ccfa90529543fb832aa871f" id="r_a29d2ca719ccfa90529543fb832aa871f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d2ca719ccfa90529543fb832aa871f">MR_trimLeft</a> (const char *str, const char *str_end)</td></tr>
-<tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
-<tr class="memitem:a3f559f4b3910c386775645dad777c241" id="r_a3f559f4b3910c386775645dad777c241"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f559f4b3910c386775645dad777c241">MR_hasFormatPlaceholders</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a2fca89005bcfc6a8ffb05d0b62c0d78b" id="r_a2fca89005bcfc6a8ffb05d0b62c0d78b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fca89005bcfc6a8ffb05d0b62c0d78b">MR_findSubstringCaseInsensitive</a> (const char *string, const char *string_end, const char *substring, const char *substring_end)</td></tr>
+<tr class="memitem:a9b7ce354046f8ac3423f758e6dcdd585" id="r_a9b7ce354046f8ac3423f758e6dcdd585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b7ce354046f8ac3423f758e6dcdd585">MR_calcDamerauLevenshteinDistance</a> (const char *stringA, const char *stringA_end, const char *stringB, const char *stringB_end, const bool *caseSensitive, int *outLeftRightAddition)</td></tr>
+<tr class="memitem:a02016bca08b40cca6e46ef85ed1f6c12" id="r_a02016bca08b40cca6e46ef85ed1f6c12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02016bca08b40cca6e46ef85ed1f6c12">MR_split</a> (const char *string, const char *string_end, const char *delimiter, const char *delimiter_end)</td></tr>
+<tr class="memitem:ac8335e464659f316b9021b3b115f2d89" id="r_ac8335e464659f316b9021b3b115f2d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac8335e464659f316b9021b3b115f2d89">MR_replace</a> (const char *target, const char *target_end, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
+<tr class="memitem:a1e0bde14d170a00b409d84ed2c46f8f9" id="r_a1e0bde14d170a00b409d84ed2c46f8f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e0bde14d170a00b409d84ed2c46f8f9">MR_replaceInplace</a> (<a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *target, const char *from, const char *from_end, const char *to, const char *to_end)</td></tr>
+<tr class="memitem:a761c476b3907f0b69dd807ef0a27e0aa" id="r_a761c476b3907f0b69dd807ef0a27e0aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a761c476b3907f0b69dd807ef0a27e0aa">MR_trim</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a29d2ca719ccfa90529543fb832aa871f" id="r_a29d2ca719ccfa90529543fb832aa871f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a29d2ca719ccfa90529543fb832aa871f">MR_trimLeft</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a95ca4120d6ab5fee907117ac3d93edce" id="r_a95ca4120d6ab5fee907117ac3d93edce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ca4120d6ab5fee907117ac3d93edce">MR_trimRight</a> (const char *str, const char *str_end)</td></tr>
+<tr class="memitem:a3f559f4b3910c386775645dad777c241" id="r_a3f559f4b3910c386775645dad777c241"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f559f4b3910c386775645dad777c241">MR_hasFormatPlaceholders</a> (const char *str, const char *str_end)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a9b7ce354046f8ac3423f758e6dcdd585" name="a9b7ce354046f8ac3423f758e6dcdd585"></a>
@@ -168,7 +168,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API int MR_calcDamerauLevenshteinDistance </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int MR_calcDamerauLevenshteinDistance </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>stringA</em></span>, </td>
         </tr>
@@ -215,7 +215,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_uint64_t MR_findSubstringCaseInsensitive </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_findSubstringCaseInsensitive </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -247,7 +247,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_hasFormatPlaceholders </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_hasFormatPlaceholders </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -269,7 +269,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_replace </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> * MR_replace </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -304,7 +304,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">target</td><td>with all</td></tr>
     <tr><td class="paramname">from</td><td>replaced with</td></tr>
-    <tr><td class="paramname">to,zero</td><td>or more times. Generated from function <span class="tt">MR::replace</span>. Parameter <span class="tt">target</span> can not be null. If <span class="tt">target_end</span> is null, then <span class="tt">target</span> is assumed to be null-terminated. Parameter <span class="tt">from</span> can not be null. If <span class="tt">from_end</span> is null, then <span class="tt">from</span> is assumed to be null-terminated. Parameter <span class="tt">to</span> can not be null. If <span class="tt">to_end</span> is null, then <span class="tt">to</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_string_Destroy()</span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">to,zero</td><td>or more times. Generated from function <span class="tt">MR::replace</span>. Parameter <span class="tt">target</span> can not be null. If <span class="tt">target_end</span> is null, then <span class="tt">target</span> is assumed to be null-terminated. Parameter <span class="tt">from</span> can not be null. If <span class="tt">from_end</span> is null, then <span class="tt">from</span> is assumed to be null-terminated. Parameter <span class="tt">to</span> can not be null. If <span class="tt">to_end</span> is null, then <span class="tt">to</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__string_8h.html#a9ffa0a79c0c1ac50a81c8dfdf2fd5d91" title="Destroys a heap-allocated instance of MR_std_string. Does nothing if the pointer is null.">MR_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -318,7 +318,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_replaceInplace </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_replaceInplace </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a69dc6868c10c92fb8b8a255b0130d289">MR_std_string</a> *</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -362,7 +362,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_split </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_split </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>string</em></span>, </td>
         </tr>
@@ -383,7 +383,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Splits given string by delimiter. </p><dl class="section return"><dt>Returns</dt><dd>vector of split strings Generated from function <span class="tt">MR::split</span>. Parameter <span class="tt">string</span> can not be null. If <span class="tt">string_end</span> is null, then <span class="tt">string</span> is assumed to be null-terminated. Parameter <span class="tt">delimiter</span> can not be null. If <span class="tt">delimiter_end</span> is null, then <span class="tt">delimiter</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_std_string_Destroy()</span> to free it when you're done using it. </dd></dl>
+<p>Splits given string by delimiter. </p><dl class="section return"><dt>Returns</dt><dd>vector of split strings Generated from function <span class="tt">MR::split</span>. Parameter <span class="tt">string</span> can not be null. If <span class="tt">string_end</span> is null, then <span class="tt">string</span> is assumed to be null-terminated. Parameter <span class="tt">delimiter</span> can not be null. If <span class="tt">delimiter_end</span> is null, then <span class="tt">delimiter</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -394,7 +394,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trim </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trim </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -405,7 +405,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <span class="tt">MR::trim</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_string_view_Destroy()</span> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the beginning and the end of string view Generated from function <span class="tt">MR::trim</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -416,7 +416,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimLeft </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimLeft </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -427,7 +427,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <span class="tt">MR::trimLeft</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_string_view_Destroy()</span> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the beginning of string view Generated from function <span class="tt">MR::trimLeft</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -438,7 +438,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimRight </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRDistanceMeasurementObject_8h.html#a169b2cb1c4b9a267fdcd4b388a456d37">MR_std_string_view</a> * MR_trimRight </td>
           <td>(</td>
           <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
         </tr>
@@ -449,7 +449,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <span class="tt">MR::trimRight</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_string_view_Destroy()</span> to free it when you're done using it. </p>
+<p>Removes all whitespace character (detected by std::isspace) at the end of string view Generated from function <span class="tt">MR::trimRight</span>. Parameter <span class="tt">str</span> can not be null. If <span class="tt">str_end</span> is null, then <span class="tt">str</span> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__string__view_8h.html#a60263c987a5fa5a84ab719fb020cad24" title="Destroys a heap-allocated instance of MR_std_string_view. Does nothing if the pointer is null.">MR_std_string_view_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -460,7 +460,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRString_8h.html">MRString.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRString_8h.html">MRString.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

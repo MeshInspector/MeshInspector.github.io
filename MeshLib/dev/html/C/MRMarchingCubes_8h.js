@@ -1,12 +1,8 @@
 var MRMarchingCubes_8h =
 [
-    [ "MR_expected_MR_TriMesh_std_string", "MRMarchingCubes_8h.html#abba3269885ea2c785d41576ce387913c", null ],
     [ "MR_MarchingCubesByParts", "MRMarchingCubes_8h.html#a29b96ebac96e57ea3f9e456f60172924", null ],
     [ "MR_MarchingCubesParams", "MRMarchingCubes_8h.html#a1984172f8194867c8a6b616e8e2772dc", null ],
     [ "MR_MarchingCubesParams_CachingMode", "MRMarchingCubes_8h.html#a16eb026a6c0d955824ad60ef5ad641c6", null ],
-    [ "MR_SimpleBinaryVolume", "MRMarchingCubes_8h.html#aaa4ae6bbf6ad9117ec1235050e489a58", null ],
-    [ "MR_SimpleVolume", "MRMarchingCubes_8h.html#a9eebc3ffb6c9528989e38a2930f391cf", null ],
-    [ "MR_std_function_MR_Vector3f_from_const_MR_Vector3f_ref_const_MR_Vector3f_ref_float_float_float", "MRMarchingCubes_8h.html#a9df647acfeac434db64ba98df9302185", null ],
     [ "MR_MarchingCubesParams_CachingMode", "MRMarchingCubes_8h.html#ad392dc18f426d3ba900d02eb9c576ccd", [
       [ "MR_MarchingCubesParams_CachingMode_Automatic", "MRMarchingCubes_8h.html#ad392dc18f426d3ba900d02eb9c576ccda809691d268d937d20d1313b8f8530168", null ],
       [ "MR_MarchingCubesParams_CachingMode_None", "MRMarchingCubes_8h.html#ad392dc18f426d3ba900d02eb9c576ccdab0f7437d78eca27bed730bd530181b11", null ],

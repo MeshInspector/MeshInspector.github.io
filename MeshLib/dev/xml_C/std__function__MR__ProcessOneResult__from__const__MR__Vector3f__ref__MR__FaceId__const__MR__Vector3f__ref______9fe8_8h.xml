@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h" kind="file" language="C++">
+    <compoundname>std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="MRMeshDistance_8h" local="no">MRCMesh/MRMeshDistance.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRCMesh/MRMeshDistance.h</label>
+        <link refid="MRMeshDistance_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h</label>
+        <link refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac7290dff7e562aa01576ce3f09394a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="24" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="24" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a64597378f093f72c89f94389529cdf5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a2447d2742d383b3e3a91c65c7dbce20b" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ad9c47dcf398b99af5dad81b89f9aea24" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a4263e0befccef6334ed3a478cfc56410" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="29" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="29" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a54ffb1db554d2efdc63bac4f002e262d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *other)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="35" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="35" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a5a32af15db6b94950e1b94792c522b77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignFromAnother</definition>
+        <argsstring>(MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this, MR_PassBy other_pass_by, MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *other)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy</definition>
+        <argsstring>(const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a2447d2742d383b3e3a91c65c7dbce20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DestroyArray</definition>
+        <argsstring>(const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a4263e0befccef6334ed3a478cfc56410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetPtr</definition>
+        <argsstring>(const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="51" column="116" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="51" declcolumn="116"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ad9c47dcf398b99af5dad81b89f9aea24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="55" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="55" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a6b1dbdffecab620bdab7e25b4798c3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_has_value</definition>
+        <argsstring>(const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_has_value</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores a callable, as opposed to being null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a48976369650562751e95fa348707f781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_reset</definition>
+        <argsstring>(MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_reset</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the stored callable, making this instance null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac950e2514e6f20f298869aa4d7decd8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref></type>
+        <definition>MRC_API MR_ProcessOneResult MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_call</definition>
+        <argsstring>(const MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this, const MR_Vector3f *_1, MR_FaceId _2, const MR_Vector3f *_3, float _4)</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_call</name>
+        <param>
+          <type>const <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>_2</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>_3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>_4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the stored callable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_3</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="69" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="69" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1adbacd68c061d88df1e4e5967422cb637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructStateless</definition>
+        <argsstring>(MR_ProcessOneResult(*func)(const MR_Vector3f *_1, MR_FaceId *_2, const MR_Vector3f *_3, float _4))</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructStateless</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref>(*)(const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_1, <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *_2, const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_3, float _4)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="77" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="77" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a1015ff86eccd59c33aeee29d3befd118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Assign</definition>
+        <argsstring>(MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this, MR_ProcessOneResult(*func)(const MR_Vector3f *_1, MR_FaceId *_2, const MR_Vector3f *_3, float _4))</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Assign</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref>(*)(const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_1, <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *_2, const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_3, float _4)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a stateless function. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a849f1941ada4d6077df35bd100d52f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float * MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructEx</definition>
+        <argsstring>(MR_ProcessOneResult(*func)(const MR_Vector3f *_1, MR_FaceId *_2, const MR_Vector3f *_3, float _4, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructEx</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref>(*)(const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_1, <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *_2, const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_3, float _4, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a function with additional state. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="120" column="110" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="120" declcolumn="110"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a3295af805c0995e46a056d03c36e10e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignEx</definition>
+        <argsstring>(MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float *_this, MR_ProcessOneResult(*func)(const MR_Vector3f *_1, MR_FaceId *_2, const MR_Vector3f *_3, float _4, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignEx</name>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref>(*)(const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_1, <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *_2, const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *_3, float _4, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a function with additional state. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. In C++ that parameter is an rvalue reference. Callback parameter <computeroutput>_3</computeroutput> will never be null. It is non-owning, do NOT destroy it. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h" declline="155" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRMeshDistance_8h" kindref="compound">MRCMesh/MRMeshDistance.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac7290dff7e562aa01576ce3f09394a7d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac7290dff7e562aa01576ce3f09394a7d" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a64597378f093f72c89f94389529cdf5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a64597378f093f72c89f94389529cdf5e" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a54ffb1db554d2efdc63bac4f002e262d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a54ffb1db554d2efdc63bac4f002e262d" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a5a32af15db6b94950e1b94792c522b77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a5a32af15db6b94950e1b94792c522b77" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignFromAnother</ref>(<ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1aaf5dd72dec198e56b3c1bee5caf62dd0" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a2447d2742d383b3e3a91c65c7dbce20b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a2447d2742d383b3e3a91c65c7dbce20b" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a4263e0befccef6334ed3a478cfc56410" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a4263e0befccef6334ed3a478cfc56410" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ad9c47dcf398b99af5dad81b89f9aea24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ad9c47dcf398b99af5dad81b89f9aea24" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_OffsetMutablePtr</ref>(<ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a6b1dbdffecab620bdab7e25b4798c3c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a6b1dbdffecab620bdab7e25b4798c3c4" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a48976369650562751e95fa348707f781" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a48976369650562751e95fa348707f781" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_reset</ref>(<ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac950e2514e6f20f298869aa4d7decd8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1ac950e2514e6f20f298869aa4d7decd8a" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_1,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_4);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1adbacd68c061d88df1e4e5967422cb637" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1adbacd68c061d88df1e4e5967422cb637" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructStateless</ref>(<ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_1,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_4));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a1015ff86eccd59c33aeee29d3befd118" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a1015ff86eccd59c33aeee29d3befd118" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_Assign</ref>(<ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this,<sp/><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_1,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_4));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a849f1941ada4d6077df35bd100d52f42" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*<ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a849f1941ada4d6077df35bd100d52f42" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_ConstructEx</ref>(<ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_1,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_4,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a3295af805c0995e46a056d03c36e10e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__ProcessOneResult__from__const__MR__Vector3f__ref__MR__FaceId__const__MR__Vector3f__ref______9fe8_8h_1a3295af805c0995e46a056d03c36e10e6" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float_AssignEx</ref>(<ref refid="MRMeshDistance_8h_1a33e68eb066e83c670d26b4cb03b2a9b3" kindref="member">MR_std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref_float</ref><sp/>*_this,<sp/><ref refid="MRMeshDistance_8h_1a9a9e76348b3ba37e03d825a75c07e976" kindref="member">MR_ProcessOneResult</ref><sp/>(*func)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_1,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*_2,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*_3,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_4,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_ProcessOneResult_from_const_MR_Vector3f_ref_MR_FaceId_const_MR_Vector3f_ref___9fe8.h"/>
+  </compounddef>
+</doxygen>

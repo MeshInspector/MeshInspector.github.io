@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="expected__bool__std__string_8h" kind="file" language="C++">
+    <compoundname>expected_bool_std_string.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>expected_bool_std_string.h</label>
+        <link refid="expected__bool__std__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a53fd12128b11aa8012b7e1490b3e6133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_bool_std_string * MR_expected_bool_std_string_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_expected_bool_std_string_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" kindref="member">MR_expected_bool_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="22" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="22" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a972a433eca6ceb3962ea532d53ab520d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_bool_std_string * MR_expected_bool_std_string_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_expected_bool_std_string_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="expected__bool__std__string_8h_1a34e37d0790721da2d487c231ea56c18c" kindref="member">MR_expected_bool_std_string_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="expected__bool__std__string_8h_1aba912b6f0420446f62ac802fcb188649" kindref="member">MR_expected_bool_std_string_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="expected__bool__std__string_8h_1a4b276adb4e55eb692235e8827b4a3188" kindref="member">MR_expected_bool_std_string_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="27" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="27" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1ab713ec5a695a8b12ee31eb1089e4d38b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_bool_std_string * MR_expected_bool_std_string_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_expected_bool_std_string *other)</argsstring>
+        <name>MR_expected_bool_std_string_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" kindref="member">MR_expected_bool_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="33" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="33" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a31eb01f0ae9ce01fa269f1c5dbaa71e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_bool_std_string_AssignFromAnother</definition>
+        <argsstring>(MR_expected_bool_std_string *_this, MR_PassBy other_pass_by, MR_expected_bool_std_string *other)</argsstring>
+        <name>MR_expected_bool_std_string_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="39" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_bool_std_string_Destroy</definition>
+        <argsstring>(const MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="42" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="42" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a34e37d0790721da2d487c231ea56c18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_bool_std_string_DestroyArray</definition>
+        <argsstring>(const MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a4b276adb4e55eb692235e8827b4a3188" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <definition>MRC_API const MR_expected_bool_std_string * MR_expected_bool_std_string_OffsetPtr</definition>
+        <argsstring>(const MR_expected_bool_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_bool_std_string_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="49" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="49" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1aba912b6f0420446f62ac802fcb188649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_bool_std_string * MR_expected_bool_std_string_OffsetMutablePtr</definition>
+        <argsstring>(MR_expected_bool_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_bool_std_string_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="53" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="53" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1af8f449b895d5a0e57941ecd7123996e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_expected_bool_std_string_success</definition>
+        <argsstring>(const MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_success</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance represents success, or false if it represents an error. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="57" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="57" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a7edb0e875beb1976a2685f2368f66e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
+        <definition>MRC_API const bool * MR_expected_bool_std_string_value</definition>
+        <argsstring>(const MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_value</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>bool</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="62" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="62" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a19d23d48adb194e444cf206d942fde8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_expected_bool_std_string_error</definition>
+        <argsstring>(const MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_error</name>
+        <param>
+          <type>const <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>std::string</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="67" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="67" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1abf6721d8f5faf3bfba922dd252dd0a14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
+        <definition>MRC_API bool * MR_expected_bool_std_string_value_mut</definition>
+        <argsstring>(MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_value_mut</name>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>bool</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="72" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="72" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__bool__std__string_8h_1a48da17af8757cc52318098d0283bddc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_expected_bool_std_string_error_mut</definition>
+        <argsstring>(MR_expected_bool_std_string *_this)</argsstring>
+        <name>MR_expected_bool_std_string_error_mut</name>
+        <param>
+          <type><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>std::string</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" line="77" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h" declline="77" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="expected__bool__std__string_8h_1a53fd12128b11aa8012b7e1490b3e6133" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1a53fd12128b11aa8012b7e1490b3e6133" kindref="member">MR_expected_bool_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="expected__bool__std__string_8h_1a972a433eca6ceb3962ea532d53ab520d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1a972a433eca6ceb3962ea532d53ab520d" kindref="member">MR_expected_bool_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="expected__bool__std__string_8h_1ab713ec5a695a8b12ee31eb1089e4d38b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1ab713ec5a695a8b12ee31eb1089e4d38b" kindref="member">MR_expected_bool_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="expected__bool__std__string_8h_1a31eb01f0ae9ce01fa269f1c5dbaa71e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__bool__std__string_8h_1a31eb01f0ae9ce01fa269f1c5dbaa71e4" kindref="member">MR_expected_bool_std_string_AssignFromAnother</ref>(<ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" kindref="member">MR_expected_bool_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="expected__bool__std__string_8h_1a34e37d0790721da2d487c231ea56c18c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__bool__std__string_8h_1a34e37d0790721da2d487c231ea56c18c" kindref="member">MR_expected_bool_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="expected__bool__std__string_8h_1a4b276adb4e55eb692235e8827b4a3188" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1a4b276adb4e55eb692235e8827b4a3188" kindref="member">MR_expected_bool_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="expected__bool__std__string_8h_1aba912b6f0420446f62ac802fcb188649" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1aba912b6f0420446f62ac802fcb188649" kindref="member">MR_expected_bool_std_string_OffsetMutablePtr</ref>(<ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="expected__bool__std__string_8h_1af8f449b895d5a0e57941ecd7123996e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="expected__bool__std__string_8h_1af8f449b895d5a0e57941ecd7123996e0" kindref="member">MR_expected_bool_std_string_success</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="expected__bool__std__string_8h_1a7edb0e875beb1976a2685f2368f66e61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="expected__bool__std__string_8h_1a7edb0e875beb1976a2685f2368f66e61" kindref="member">MR_expected_bool_std_string_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="expected__bool__std__string_8h_1a19d23d48adb194e444cf206d942fde8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1a19d23d48adb194e444cf206d942fde8c" kindref="member">MR_expected_bool_std_string_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="expected__bool__std__string_8h_1abf6721d8f5faf3bfba922dd252dd0a14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="expected__bool__std__string_8h_1abf6721d8f5faf3bfba922dd252dd0a14" kindref="member">MR_expected_bool_std_string_value_mut</ref>(<ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="expected__bool__std__string_8h_1a48da17af8757cc52318098d0283bddc5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__bool__std__string_8h_1a48da17af8757cc52318098d0283bddc5" kindref="member">MR_expected_bool_std_string_error_mut</ref>(<ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_bool_std_string.h"/>
+  </compounddef>
+</doxygen>

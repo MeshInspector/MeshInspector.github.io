@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__optional__MR__VertMap_8h" kind="file" language="C++">
+    <compoundname>std_optional_MR_VertMap.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_optional_MR_VertMap.h</label>
+        <link refid="std__optional__MR__VertMap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a7a7f6d5f60edbc665cc25d46c28208ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_optional_MR_VertMap_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" kindref="member">MR_std_optional_MR_VertMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="22" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="22" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a1c56cb3f2621199b9af177b829aaaf51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_optional_MR_VertMap_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__optional__MR__VertMap_8h_1a59f0af15fc9eb705909823952f892fb8" kindref="member">MR_std_optional_MR_VertMap_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__optional__MR__VertMap_8h_1aa01fd9cecca3efa452b61bc96283e40d" kindref="member">MR_std_optional_MR_VertMap_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__optional__MR__VertMap_8h_1a93f8077cde7d642468b94bff99cb89b1" kindref="member">MR_std_optional_MR_VertMap_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="27" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="27" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a07d341ba050f1164ba32b2cbd0e7fa8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_optional_MR_VertMap *other)</argsstring>
+        <name>MR_std_optional_MR_VertMap_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" kindref="member">MR_std_optional_MR_VertMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="33" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="33" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a4fe4162776a25b5fe8e4a23a58c75dd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_ConstructFrom</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_VertMap *other)</argsstring>
+        <name>MR_std_optional_MR_VertMap_ConstructFrom</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new instance. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" kindref="member">MR_std_optional_MR_VertMap_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="38" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="38" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1af24304159b3df782b2fbdd7c0a633cdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_VertMap_AssignFromAnother</definition>
+        <argsstring>(MR_std_optional_MR_VertMap *_this, MR_PassBy other_pass_by, MR_std_optional_MR_VertMap *other)</argsstring>
+        <name>MR_std_optional_MR_VertMap_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1aa29512d264744c3b4a11728541905cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_VertMap_AssignFrom</definition>
+        <argsstring>(MR_std_optional_MR_VertMap *_this, MR_PassBy other_pass_by, MR_VertMap *other)</argsstring>
+        <name>MR_std_optional_MR_VertMap_AssignFrom</name>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> is optional. To keep it empty, pass <computeroutput>MR_PassBy_NoObject</computeroutput> and a null pointer. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_VertMap_Destroy</definition>
+        <argsstring>(const MR_std_optional_MR_VertMap *_this)</argsstring>
+        <name>MR_std_optional_MR_VertMap_Destroy</name>
+        <param>
+          <type>const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a59f0af15fc9eb705909823952f892fb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_optional_MR_VertMap_DestroyArray</definition>
+        <argsstring>(const MR_std_optional_MR_VertMap *_this)</argsstring>
+        <name>MR_std_optional_MR_VertMap_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="55" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="55" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a93f8077cde7d642468b94bff99cb89b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API const MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_OffsetPtr</definition>
+        <argsstring>(const MR_std_optional_MR_VertMap *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_VertMap_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="59" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="59" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1aa01fd9cecca3efa452b61bc96283e40d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_VertMap * MR_std_optional_MR_VertMap_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_optional_MR_VertMap *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_optional_MR_VertMap_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="63" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="63" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a86fa00ba57498e25acd97e908f067aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_optional_MR_VertMap_has_value</definition>
+        <argsstring>(const MR_std_optional_MR_VertMap *_this)</argsstring>
+        <name>MR_std_optional_MR_VertMap_has_value</name>
+        <param>
+          <type>const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores an object, as opposed to being empty. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1aa1fc693b30c5f2a22c8fbc4326700714" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+        <definition>MRC_API const MR_VertMap * MR_std_optional_MR_VertMap_value</definition>
+        <argsstring>(const MR_std_optional_MR_VertMap *_this)</argsstring>
+        <name>MR_std_optional_MR_VertMap_value</name>
+        <param>
+          <type>const <ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="72" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="72" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__optional__MR__VertMap_8h_1a2427f144a9bcadd132f5641fbe2c41d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+        <definition>MRC_API MR_VertMap * MR_std_optional_MR_VertMap_value_mut</definition>
+        <argsstring>(MR_std_optional_MR_VertMap *_this)</argsstring>
+        <name>MR_std_optional_MR_VertMap_value_mut</name>
+        <param>
+          <type><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The stored element or null if none, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" line="77" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h" declline="77" declcolumn="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__optional__MR__VertMap_8h_1a7a7f6d5f60edbc665cc25d46c28208ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a7a7f6d5f60edbc665cc25d46c28208ed" kindref="member">MR_std_optional_MR_VertMap_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="std__optional__MR__VertMap_8h_1a1c56cb3f2621199b9af177b829aaaf51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a1c56cb3f2621199b9af177b829aaaf51" kindref="member">MR_std_optional_MR_VertMap_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__optional__MR__VertMap_8h_1a07d341ba050f1164ba32b2cbd0e7fa8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a07d341ba050f1164ba32b2cbd0e7fa8b" kindref="member">MR_std_optional_MR_VertMap_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="std__optional__MR__VertMap_8h_1a4fe4162776a25b5fe8e4a23a58c75dd1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a4fe4162776a25b5fe8e4a23a58c75dd1" kindref="member">MR_std_optional_MR_VertMap_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__optional__MR__VertMap_8h_1af24304159b3df782b2fbdd7c0a633cdb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__VertMap_8h_1af24304159b3df782b2fbdd7c0a633cdb" kindref="member">MR_std_optional_MR_VertMap_AssignFromAnother</ref>(<ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__optional__MR__VertMap_8h_1aa29512d264744c3b4a11728541905cd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__VertMap_8h_1aa29512d264744c3b4a11728541905cd7" kindref="member">MR_std_optional_MR_VertMap_AssignFrom</ref>(<ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__VertMap_8h_1a34109466963a8ada210fbcdd71eec2ca" kindref="member">MR_std_optional_MR_VertMap_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__optional__MR__VertMap_8h_1a59f0af15fc9eb705909823952f892fb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__VertMap_8h_1a59f0af15fc9eb705909823952f892fb8" kindref="member">MR_std_optional_MR_VertMap_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__optional__MR__VertMap_8h_1a93f8077cde7d642468b94bff99cb89b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a93f8077cde7d642468b94bff99cb89b1" kindref="member">MR_std_optional_MR_VertMap_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__optional__MR__VertMap_8h_1aa01fd9cecca3efa452b61bc96283e40d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1aa01fd9cecca3efa452b61bc96283e40d" kindref="member">MR_std_optional_MR_VertMap_OffsetMutablePtr</ref>(<ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__optional__MR__VertMap_8h_1a86fa00ba57498e25acd97e908f067aee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__optional__MR__VertMap_8h_1a86fa00ba57498e25acd97e908f067aee" kindref="member">MR_std_optional_MR_VertMap_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__optional__MR__VertMap_8h_1aa1fc693b30c5f2a22c8fbc4326700714" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1aa1fc693b30c5f2a22c8fbc4326700714" kindref="member">MR_std_optional_MR_VertMap_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__optional__MR__VertMap_8h_1a2427f144a9bcadd132f5641fbe2c41d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="std__optional__MR__VertMap_8h_1a2427f144a9bcadd132f5641fbe2c41d3" kindref="member">MR_std_optional_MR_VertMap_value_mut</ref>(<ref refid="MRCloseVertices_8h_1a950c6af30a4d04d866522904c982ff6a" kindref="member">MR_std_optional_MR_VertMap</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_optional_MR_VertMap.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR__std__array__MR__Vector2f__3" kind="struct" language="C++" prot="public">
+    <compoundname>MR_std_array_MR_Vector2f_3</compoundname>
+    <includes refid="std__array__MR__Vector2f__3_8h" local="no">std_array_MR_Vector2f_3.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__std__array__MR__Vector2f__3_1a9fcaaceb7c8b617c24fce24e4940590f" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+        <definition>MR_Vector2f MR_std_array_MR_Vector2f_3::elems[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>elems</name>
+        <qualifiedname>MR_std_array_MR_Vector2f_3::elems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_Vector2f_3.h" line="13" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_Vector2f_3.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A fixed-size array of <computeroutput>MR::Vector2f</computeroutput> of size 3. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR_Vector2f</label>
+        <link refid="structMR__Vector2f"/>
+      </node>
+      <node id="1">
+        <label>MR_std_array_MR_Vector2f_3</label>
+        <link refid="structMR__std__array__MR__Vector2f__3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>elems</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_Vector2f_3.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_Vector2f_3.h" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structMR__std__array__MR__Vector2f__3_1a9fcaaceb7c8b617c24fce24e4940590f" prot="public" virt="non-virtual"><scope>MR_std_array_MR_Vector2f_3</scope><name>elems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

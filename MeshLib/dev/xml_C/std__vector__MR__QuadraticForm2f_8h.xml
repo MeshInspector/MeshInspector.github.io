@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__QuadraticForm2f_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_QuadraticForm2f.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_QuadraticForm2f.h</label>
+        <link refid="std__vector__MR__QuadraticForm2f_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a7a0fbd1b73b8088ddab9fd2fcd7d8371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1adf0b6b3f7fb067424c00db986f5dda5b" kindref="member">MR_std_vector_MR_QuadraticForm2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="30" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="30" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a86ce9fe254773850af928e4e9370043e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a47f7112b579b178b91782cec7e9a0072" kindref="member">MR_std_vector_MR_QuadraticForm2f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1ac359bb7bfefda4d4fb71c18faac8cd39" kindref="member">MR_std_vector_MR_QuadraticForm2f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a2fced905a066bd2bb501e727b4935b90" kindref="member">MR_std_vector_MR_QuadraticForm2f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="35" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="35" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aa662354821886c99834679fbd045a30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_QuadraticForm2f *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1adf0b6b3f7fb067424c00db986f5dda5b" kindref="member">MR_std_vector_MR_QuadraticForm2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="41" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="41" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a9b4077a6d35bf841aa19aafcd9108e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, MR_PassBy other_pass_by, MR_std_vector_MR_QuadraticForm2f *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1adf0b6b3f7fb067424c00db986f5dda5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a47f7112b579b178b91782cec7e9a0072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a2fced905a066bd2bb501e727b4935b90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="57" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="57" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ac359bb7bfefda4d4fb71c18faac8cd39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="61" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="61" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1acce31782937fc8ab7fbcfcff1b92b90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_QuadraticForm2f_size</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aad3117fb5df0c9b061d34eb515a36f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_QuadraticForm2f_empty</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a7fe07ba213865da2d81eeeb8f47d9e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_resize</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a2bcf003947e63a776af232e2e8d501ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t new_size, const MR_QuadraticForm2f *value)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1afb422218e88559d3589a73fc32fe3801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_clear</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a63b85f3329cc7c4c570f101807dab994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_QuadraticForm2f_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a9b94158ead4a965575e8b7f3054da38e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_reserve</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a00e46bd6e72ca29aa27d375970dc26a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a1fd1fd8451b8f7659f1c5cee3ed91138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API const MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_at</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="101" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="101" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a7ceafe305e2083e64ebbe699f7ce5ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="107" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="107" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a3bbfe7cb14cbf69ee4ae67b4c45d538c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API const MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_front</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="112" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="112" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ab0e26e87efd856b284c48352c3917250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="117" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="117" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a5159458f6bb984525a9ac1a6a762042b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API const MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_back</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="122" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="122" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ac7f4d996e6f71c8c36340936c92722ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="127" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="127" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a3fb0ee19536a0ea3aea9029cb361cee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_push_back</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, const MR_QuadraticForm2f *new_elem)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aa8fd8290caad71fa9f28716cd409d3a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1af57d1e0336103d5e293c9c17594c4329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_insert</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t position, const MR_QuadraticForm2f *new_elem)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ac532c4c7b2c1e2c40181ef79b90042d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_erase</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aea235a2340a016b36dd4c9ddc28d964b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *position, const MR_QuadraticForm2f *new_elem)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aea15689f4a0a867f28f187373be0ff03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a2dc75f272ce3dfb93b45eface023ee7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *position, const MR_QuadraticForm2f *new_elem)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a6149d7020d16e3c467bf9298a18e8068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a35f398462ee4fa90433dc6ce7187142b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_begin</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="177" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="177" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ac8bb0aa606a52fe8d1d67ae0b5ed5b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_QuadraticForm2f_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a42a6b1349076e5e211fd73899d12e399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="188" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="188" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a3b25cce4abc30f10d3dad635da43315d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_QuadraticForm2f_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aedbd51955a2b063e865b2d9e86cd0cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_end</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="199" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="199" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a66a01dbc2cab505b6cf665099e7780f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_QuadraticForm2f_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a6150535024c200603db1528735faffa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="210" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="210" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aedef9b318ee2b09a081a2c5ffe3441e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_QuadraticForm2f_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a1745419773e3cbf894fb555aba29d6b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_QuadraticForm2f_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1acdaf96a4b446875cedd5f526096a4f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_QuadraticForm2f_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ad7b38ec82aea87e8cfd17c6a19da0850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="229" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="229" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a1fcd4d3b6268fb58f5edc816bedfa288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1ad3c9c78f4c4299eb51fa69c53d5a6599" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a750458ddca7de8b65f1e7e60c1a58514" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1af405f6e98a3b3463e898dc7fc7d71372" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="234" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="234" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1aa8a8adcd404682388b0ff179b3bce6d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="241" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="241" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a76d19719bc0bd70dae2f7c37c66ff4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_const_iterator *_this, const MR_std_vector_MR_QuadraticForm2f_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ad3c9c78f4c4299eb51fa69c53d5a6599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1af405f6e98a3b3463e898dc7fc7d71372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="258" column="63" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="258" declcolumn="63"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a750458ddca7de8b65f1e7e60c1a58514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="262" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="262" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1af63d7aa5162e817349d7326c5a7715bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_const_iterator * MR_std_vector_MR_QuadraticForm2f_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="267" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="267" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ad6d1041393a21cc8d5c35f12f43edcb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="271" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="271" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1acf43e8f96176a8212ce444a762fb4ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a478f86def5f4d3c8b7aea8394ed376e2" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a5779299caa4c07212d54f9b5457702aa" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a463acb8df4409630e33d6323eaf7a6ab" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="276" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="276" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a55b79e5387bc7b1d9b62b4553d7e136d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="283" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="283" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a80c48fb2cad2795fd93120cc3d7a0262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_iterator *_this, const MR_std_vector_MR_QuadraticForm2f_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a478f86def5f4d3c8b7aea8394ed376e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a463acb8df4409630e33d6323eaf7a6ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="300" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="300" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a5779299caa4c07212d54f9b5457702aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_QuadraticForm2f_iterator * MR_std_vector_MR_QuadraticForm2f_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="304" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="304" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a1bff6455951f3eefb2cedc1a377d6022" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API const MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="310" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="310" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ab9676ac4ea92a27de91c0797debc59ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ade549e705b77225a310c54f7426ac77e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ab6bb1a4326518a67e4e368ea203433c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a4da8039311e0e908f8c15b907115e0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_QuadraticForm2f_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *a, const MR_std_vector_MR_QuadraticForm2f_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_QuadraticForm2f_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a9648168d7ad5a5eecbbffeb198a562ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_QuadraticForm2f_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_const_iterator *a, const MR_std_vector_MR_QuadraticForm2f_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_QuadraticForm2f_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1adf17a943bdcba0e1bad810eb486a4396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref> *</type>
+        <definition>MRC_API MR_QuadraticForm2f * MR_std_vector_MR_QuadraticForm2f_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="338" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="338" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a5840e550a0cb728a7a57304fb296b18e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a57da3a36bfc24f3ee5584f7ef8bb8047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1ae7c851679511d4e0286d2b992e327617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_QuadraticForm2f_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_QuadraticForm2f_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_QuadraticForm2f_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a22134a2cff67623c8aa58e4994dd749e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_QuadraticForm2f_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *a, const MR_std_vector_MR_QuadraticForm2f_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_QuadraticForm2f_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__QuadraticForm2f_8h_1a072455146308ce7bea6e49c20bb4ab56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_QuadraticForm2f_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_QuadraticForm2f_iterator *a, const MR_std_vector_MR_QuadraticForm2f_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_QuadraticForm2f_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRQuadraticForm.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__QuadraticForm2f_8h_1a7a0fbd1b73b8088ddab9fd2fcd7d8371" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a7a0fbd1b73b8088ddab9fd2fcd7d8371" kindref="member">MR_std_vector_MR_QuadraticForm2f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__QuadraticForm2f_8h_1a86ce9fe254773850af928e4e9370043e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a86ce9fe254773850af928e4e9370043e" kindref="member">MR_std_vector_MR_QuadraticForm2f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__QuadraticForm2f_8h_1aa662354821886c99834679fbd045a30f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1aa662354821886c99834679fbd045a30f" kindref="member">MR_std_vector_MR_QuadraticForm2f_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__QuadraticForm2f_8h_1a9b4077a6d35bf841aa19aafcd9108e56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a9b4077a6d35bf841aa19aafcd9108e56" kindref="member">MR_std_vector_MR_QuadraticForm2f_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__QuadraticForm2f_8h_1adf0b6b3f7fb067424c00db986f5dda5b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1adf0b6b3f7fb067424c00db986f5dda5b" kindref="member">MR_std_vector_MR_QuadraticForm2f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__QuadraticForm2f_8h_1a47f7112b579b178b91782cec7e9a0072" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a47f7112b579b178b91782cec7e9a0072" kindref="member">MR_std_vector_MR_QuadraticForm2f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__QuadraticForm2f_8h_1a2fced905a066bd2bb501e727b4935b90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a2fced905a066bd2bb501e727b4935b90" kindref="member">MR_std_vector_MR_QuadraticForm2f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__QuadraticForm2f_8h_1ac359bb7bfefda4d4fb71c18faac8cd39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1ac359bb7bfefda4d4fb71c18faac8cd39" kindref="member">MR_std_vector_MR_QuadraticForm2f_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__QuadraticForm2f_8h_1acce31782937fc8ab7fbcfcff1b92b90a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1acce31782937fc8ab7fbcfcff1b92b90a" kindref="member">MR_std_vector_MR_QuadraticForm2f_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__QuadraticForm2f_8h_1aad3117fb5df0c9b061d34eb515a36f0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1aad3117fb5df0c9b061d34eb515a36f0f" kindref="member">MR_std_vector_MR_QuadraticForm2f_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__QuadraticForm2f_8h_1a7fe07ba213865da2d81eeeb8f47d9e25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a7fe07ba213865da2d81eeeb8f47d9e25" kindref="member">MR_std_vector_MR_QuadraticForm2f_resize</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__QuadraticForm2f_8h_1a2bcf003947e63a776af232e2e8d501ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a2bcf003947e63a776af232e2e8d501ce" kindref="member">MR_std_vector_MR_QuadraticForm2f_resize_with_default_value</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__QuadraticForm2f_8h_1afb422218e88559d3589a73fc32fe3801" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1afb422218e88559d3589a73fc32fe3801" kindref="member">MR_std_vector_MR_QuadraticForm2f_clear</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__QuadraticForm2f_8h_1a63b85f3329cc7c4c570f101807dab994" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a63b85f3329cc7c4c570f101807dab994" kindref="member">MR_std_vector_MR_QuadraticForm2f_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__QuadraticForm2f_8h_1a9b94158ead4a965575e8b7f3054da38e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a9b94158ead4a965575e8b7f3054da38e" kindref="member">MR_std_vector_MR_QuadraticForm2f_reserve</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__QuadraticForm2f_8h_1a00e46bd6e72ca29aa27d375970dc26a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a00e46bd6e72ca29aa27d375970dc26a2" kindref="member">MR_std_vector_MR_QuadraticForm2f_shrink_to_fit</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__QuadraticForm2f_8h_1a1fd1fd8451b8f7659f1c5cee3ed91138" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a1fd1fd8451b8f7659f1c5cee3ed91138" kindref="member">MR_std_vector_MR_QuadraticForm2f_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__QuadraticForm2f_8h_1a7ceafe305e2083e64ebbe699f7ce5ace" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a7ceafe305e2083e64ebbe699f7ce5ace" kindref="member">MR_std_vector_MR_QuadraticForm2f_at_mut</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__QuadraticForm2f_8h_1a3bbfe7cb14cbf69ee4ae67b4c45d538c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a3bbfe7cb14cbf69ee4ae67b4c45d538c" kindref="member">MR_std_vector_MR_QuadraticForm2f_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__QuadraticForm2f_8h_1ab0e26e87efd856b284c48352c3917250" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1ab0e26e87efd856b284c48352c3917250" kindref="member">MR_std_vector_MR_QuadraticForm2f_front_mut</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__QuadraticForm2f_8h_1a5159458f6bb984525a9ac1a6a762042b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a5159458f6bb984525a9ac1a6a762042b" kindref="member">MR_std_vector_MR_QuadraticForm2f_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__QuadraticForm2f_8h_1ac7f4d996e6f71c8c36340936c92722ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1ac7f4d996e6f71c8c36340936c92722ea" kindref="member">MR_std_vector_MR_QuadraticForm2f_back_mut</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__QuadraticForm2f_8h_1a3fb0ee19536a0ea3aea9029cb361cee8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3fb0ee19536a0ea3aea9029cb361cee8" kindref="member">MR_std_vector_MR_QuadraticForm2f_push_back</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__QuadraticForm2f_8h_1aa8fd8290caad71fa9f28716cd409d3a3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1aa8fd8290caad71fa9f28716cd409d3a3" kindref="member">MR_std_vector_MR_QuadraticForm2f_pop_back</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__QuadraticForm2f_8h_1af57d1e0336103d5e293c9c17594c4329" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1af57d1e0336103d5e293c9c17594c4329" kindref="member">MR_std_vector_MR_QuadraticForm2f_insert</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__QuadraticForm2f_8h_1ac532c4c7b2c1e2c40181ef79b90042d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ac532c4c7b2c1e2c40181ef79b90042d1" kindref="member">MR_std_vector_MR_QuadraticForm2f_erase</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__QuadraticForm2f_8h_1aea235a2340a016b36dd4c9ddc28d964b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1aea235a2340a016b36dd4c9ddc28d964b" kindref="member">MR_std_vector_MR_QuadraticForm2f_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__QuadraticForm2f_8h_1aea15689f4a0a867f28f187373be0ff03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1aea15689f4a0a867f28f187373be0ff03" kindref="member">MR_std_vector_MR_QuadraticForm2f_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__QuadraticForm2f_8h_1a2dc75f272ce3dfb93b45eface023ee7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a2dc75f272ce3dfb93b45eface023ee7c" kindref="member">MR_std_vector_MR_QuadraticForm2f_insert_at_iter</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__QuadraticForm2f_8h_1a6149d7020d16e3c467bf9298a18e8068" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a6149d7020d16e3c467bf9298a18e8068" kindref="member">MR_std_vector_MR_QuadraticForm2f_erase_at_iter</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__QuadraticForm2f_8h_1a35f398462ee4fa90433dc6ce7187142b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a35f398462ee4fa90433dc6ce7187142b" kindref="member">MR_std_vector_MR_QuadraticForm2f_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__QuadraticForm2f_8h_1ac8bb0aa606a52fe8d1d67ae0b5ed5b01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ac8bb0aa606a52fe8d1d67ae0b5ed5b01" kindref="member">MR_std_vector_MR_QuadraticForm2f_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__QuadraticForm2f_8h_1a42a6b1349076e5e211fd73899d12e399" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a42a6b1349076e5e211fd73899d12e399" kindref="member">MR_std_vector_MR_QuadraticForm2f_begin_mut</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__QuadraticForm2f_8h_1a3b25cce4abc30f10d3dad635da43315d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3b25cce4abc30f10d3dad635da43315d" kindref="member">MR_std_vector_MR_QuadraticForm2f_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__QuadraticForm2f_8h_1aedbd51955a2b063e865b2d9e86cd0cac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1aedbd51955a2b063e865b2d9e86cd0cac" kindref="member">MR_std_vector_MR_QuadraticForm2f_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__QuadraticForm2f_8h_1a66a01dbc2cab505b6cf665099e7780f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a66a01dbc2cab505b6cf665099e7780f3" kindref="member">MR_std_vector_MR_QuadraticForm2f_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__QuadraticForm2f_8h_1a6150535024c200603db1528735faffa4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a6150535024c200603db1528735faffa4" kindref="member">MR_std_vector_MR_QuadraticForm2f_end_mut</ref>(<ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__QuadraticForm2f_8h_1aedef9b318ee2b09a081a2c5ffe3441e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1aedef9b318ee2b09a081a2c5ffe3441e4" kindref="member">MR_std_vector_MR_QuadraticForm2f_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__QuadraticForm2f_8h_1a1745419773e3cbf894fb555aba29d6b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a1745419773e3cbf894fb555aba29d6b7" kindref="member">MR_std_vector_MR_QuadraticForm2f_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__QuadraticForm2f_8h_1acdaf96a4b446875cedd5f526096a4f75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1acdaf96a4b446875cedd5f526096a4f75" kindref="member">MR_std_vector_MR_QuadraticForm2f_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a82d2b51b919e96acd587a7703ad067a0" kindref="member">MR_std_vector_MR_QuadraticForm2f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__QuadraticForm2f_8h_1ad7b38ec82aea87e8cfd17c6a19da0850" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1ad7b38ec82aea87e8cfd17c6a19da0850" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__QuadraticForm2f_8h_1a1fcd4d3b6268fb58f5edc816bedfa288" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a1fcd4d3b6268fb58f5edc816bedfa288" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__QuadraticForm2f_8h_1aa8a8adcd404682388b0ff179b3bce6d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1aa8a8adcd404682388b0ff179b3bce6d1" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__QuadraticForm2f_8h_1a76d19719bc0bd70dae2f7c37c66ff4aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a76d19719bc0bd70dae2f7c37c66ff4aa" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a3cea5ab8f1bfd5f13f1da2f1033ad552" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__QuadraticForm2f_8h_1ad3c9c78f4c4299eb51fa69c53d5a6599" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ad3c9c78f4c4299eb51fa69c53d5a6599" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__QuadraticForm2f_8h_1af405f6e98a3b3463e898dc7fc7d71372" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1af405f6e98a3b3463e898dc7fc7d71372" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__QuadraticForm2f_8h_1a750458ddca7de8b65f1e7e60c1a58514" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a750458ddca7de8b65f1e7e60c1a58514" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__QuadraticForm2f_8h_1af63d7aa5162e817349d7326c5a7715bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1af63d7aa5162e817349d7326c5a7715bb" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__QuadraticForm2f_8h_1ad6d1041393a21cc8d5c35f12f43edcb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1ad6d1041393a21cc8d5c35f12f43edcb8" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__QuadraticForm2f_8h_1acf43e8f96176a8212ce444a762fb4ee1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1acf43e8f96176a8212ce444a762fb4ee1" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__QuadraticForm2f_8h_1a55b79e5387bc7b1d9b62b4553d7e136d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a55b79e5387bc7b1d9b62b4553d7e136d" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__QuadraticForm2f_8h_1a80c48fb2cad2795fd93120cc3d7a0262" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a80c48fb2cad2795fd93120cc3d7a0262" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a58505eae2aebac417a9fab56d616c713" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__QuadraticForm2f_8h_1a478f86def5f4d3c8b7aea8394ed376e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a478f86def5f4d3c8b7aea8394ed376e2" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__QuadraticForm2f_8h_1a463acb8df4409630e33d6323eaf7a6ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a463acb8df4409630e33d6323eaf7a6ab" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__QuadraticForm2f_8h_1a5779299caa4c07212d54f9b5457702aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a5779299caa4c07212d54f9b5457702aa" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__QuadraticForm2f_8h_1a1bff6455951f3eefb2cedc1a377d6022" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1a1bff6455951f3eefb2cedc1a377d6022" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__QuadraticForm2f_8h_1ab9676ac4ea92a27de91c0797debc59ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ab9676ac4ea92a27de91c0797debc59ec" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__QuadraticForm2f_8h_1ade549e705b77225a310c54f7426ac77e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ade549e705b77225a310c54f7426ac77e" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__QuadraticForm2f_8h_1ab6bb1a4326518a67e4e368ea203433c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ab6bb1a4326518a67e4e368ea203433c7" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__QuadraticForm2f_8h_1a4da8039311e0e908f8c15b907115e0d4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a4da8039311e0e908f8c15b907115e0d4" kindref="member">MR_sub_MR_std_vector_MR_QuadraticForm2f_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__QuadraticForm2f_8h_1a9648168d7ad5a5eecbbffeb198a562ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a9648168d7ad5a5eecbbffeb198a562ee" kindref="member">MR_equal_MR_std_vector_MR_QuadraticForm2f_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0fcd48be6b031a95b22759bd82aeb257" kindref="member">MR_std_vector_MR_QuadraticForm2f_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__QuadraticForm2f_8h_1adf17a943bdcba0e1bad810eb486a4396" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRQuadraticForm_8h_1a62b27ed4544a8c74d01fc16b658b0b91" kindref="member">MR_QuadraticForm2f</ref><sp/>*<ref refid="std__vector__MR__QuadraticForm2f_8h_1adf17a943bdcba0e1bad810eb486a4396" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__QuadraticForm2f_8h_1a5840e550a0cb728a7a57304fb296b18e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a5840e550a0cb728a7a57304fb296b18e" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_incr</ref>(<ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__QuadraticForm2f_8h_1a57da3a36bfc24f3ee5584f7ef8bb8047" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a57da3a36bfc24f3ee5584f7ef8bb8047" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_decr</ref>(<ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__QuadraticForm2f_8h_1ae7c851679511d4e0286d2b992e327617" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1ae7c851679511d4e0286d2b992e327617" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__QuadraticForm2f_8h_1a22134a2cff67623c8aa58e4994dd749e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a22134a2cff67623c8aa58e4994dd749e" kindref="member">MR_sub_MR_std_vector_MR_QuadraticForm2f_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__QuadraticForm2f_8h_1a072455146308ce7bea6e49c20bb4ab56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__QuadraticForm2f_8h_1a072455146308ce7bea6e49c20bb4ab56" kindref="member">MR_equal_MR_std_vector_MR_QuadraticForm2f_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a454f03d7fcc1f2606463a6fec9d28153" kindref="member">MR_std_vector_MR_QuadraticForm2f_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_QuadraticForm2f.h"/>
+  </compounddef>
+</doxygen>

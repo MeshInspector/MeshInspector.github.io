@@ -3,8 +3,8 @@
   <compounddef id="MREdgeLengthMesh_8h" kind="file" language="C++">
     <compoundname>MREdgeLengthMesh.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -17,9 +17,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -29,22 +29,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -56,16 +67,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. Generated from class <computeroutput>MR::EdgeLengthMesh</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. Generated from class <computeroutput>MR::EdgeLengthMesh</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="24" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="24" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a169a94fedf2bc1117312cc9082979186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
         <definition>MRC_API const MR_MeshTopology * MR_EdgeLengthMesh_Get_topology</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_Get_topology</name>
@@ -80,10 +91,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="30" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="30" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="30" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="30" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a2db33acc345904ae9c39b255a931bf41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EdgeLengthMesh_Set_topology</definition>
         <argsstring>(MR_EdgeLengthMesh *_this, MR_PassBy value_pass_by, MR_MeshTopology *value)</argsstring>
         <name>MR_EdgeLengthMesh_Set_topology</name>
@@ -92,7 +103,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -106,10 +117,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="36" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1ad4622f8a83a1fb68b1bb68a1dad5c32b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref> *</type>
         <definition>MRC_API MR_MeshTopology * MR_EdgeLengthMesh_GetMutable_topology</definition>
         <argsstring>(MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_GetMutable_topology</name>
@@ -124,10 +135,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="42" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="42" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="42" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="42" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a02f8cbd4346721410df102279cc96fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
         <definition>MRC_API const MR_UndirectedEdgeScalars * MR_EdgeLengthMesh_Get_edgeLengths</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_Get_edgeLengths</name>
@@ -142,10 +153,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="48" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="48" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="48" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="48" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a1e940405e1a3832bd517d11f53ec6f28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EdgeLengthMesh_Set_edgeLengths</definition>
         <argsstring>(MR_EdgeLengthMesh *_this, MR_PassBy value_pass_by, MR_UndirectedEdgeScalars *value)</argsstring>
         <name>MR_EdgeLengthMesh_Set_edgeLengths</name>
@@ -154,7 +165,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -168,10 +179,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a194e4a55f0044c3064c64e953be2ef55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeScalars * MR_EdgeLengthMesh_GetMutable_edgeLengths</definition>
         <argsstring>(MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_GetMutable_edgeLengths</name>
@@ -186,10 +197,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="60" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="60" declcolumn="34"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="60" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="60" declcolumn="34"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a86f01b6f5205ba2afd01af43344e7da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_EdgeLengthMesh_DefaultConstruct</name>
@@ -203,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="64" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="64" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="64" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="64" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1aa31e51711115fd31630df347a9996f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_EdgeLengthMesh_DefaultConstructArray</name>
@@ -221,15 +232,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="69" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="69" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="69" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="69" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a73b7521d8eee6830ace017a53dd979d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_ConstructFrom</definition>
         <argsstring>(MR_PassBy topology_pass_by, MR_MeshTopology *topology, MR_PassBy edgeLengths_pass_by, MR_UndirectedEdgeScalars *edgeLengths)</argsstring>
         <name>MR_EdgeLengthMesh_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>topology_pass_by</declname>
         </param>
         <param>
@@ -237,7 +248,7 @@
           <declname>topology</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>edgeLengths_pass_by</declname>
         </param>
         <param>
@@ -251,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="76" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="76" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="76" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="76" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1ac25eb8263f016da755c2abe83172daf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API const MR_EdgeLengthMesh * MR_EdgeLengthMesh_OffsetPtr</definition>
         <argsstring>(const MR_EdgeLengthMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EdgeLengthMesh_OffsetPtr</name>
@@ -273,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="80" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="80" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="80" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="80" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1aa25819efca378c174045d66f9413b92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_OffsetMutablePtr</definition>
         <argsstring>(MR_EdgeLengthMesh *ptr, ptrdiff_t i)</argsstring>
         <name>MR_EdgeLengthMesh_OffsetMutablePtr</name>
@@ -295,15 +306,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="84" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="84" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="84" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="84" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1ac7c7f2d49b04c953bb542fafece99b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_EdgeLengthMesh *_other)</argsstring>
         <name>MR_EdgeLengthMesh_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -317,10 +328,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="89" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="89" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="89" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="89" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EdgeLengthMesh_Destroy</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_Destroy</name>
@@ -335,10 +346,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1ac69f331cf7a88434b1b310186a64cb2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_EdgeLengthMesh_DestroyArray</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this)</argsstring>
         <name>MR_EdgeLengthMesh_DestroyArray</name>
@@ -353,10 +364,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a79e9815df135b73a7e8640fc10d46a73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_AssignFromAnother</definition>
         <argsstring>(MR_EdgeLengthMesh *_this, MR_PassBy _other_pass_by, MR_EdgeLengthMesh *_other)</argsstring>
         <name>MR_EdgeLengthMesh_AssignFromAnother</name>
@@ -365,7 +376,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -379,10 +390,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="102" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="102" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="102" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="102" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a04db7d9ab7667c705262335139fcd38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref> *</type>
         <definition>MRC_API MR_EdgeLengthMesh * MR_EdgeLengthMesh_fromMesh</definition>
         <argsstring>(const MR_Mesh *mesh)</argsstring>
         <name>MR_EdgeLengthMesh_fromMesh</name>
@@ -397,10 +408,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="108" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="108" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="108" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="108" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1af9da5c602e04247183ecb49f87656cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_EdgeLengthMesh_leftCotan</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this, MR_EdgeId e)</argsstring>
         <name>MR_EdgeLengthMesh_leftCotan</name>
@@ -419,10 +430,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="114" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="114" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="114" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="114" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1aba6cffd4643b991b5672681de98e09f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_EdgeLengthMesh_cotan</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this, MR_UndirectedEdgeId ue)</argsstring>
         <name>MR_EdgeLengthMesh_cotan</name>
@@ -441,10 +452,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="120" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="120" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="120" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="120" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a5b793ddc5e1fba8a2aa4e5c0636c6282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_EdgeLengthMesh_isDelone</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this, MR_UndirectedEdgeId ue, const float *threshold)</argsstring>
         <name>MR_EdgeLengthMesh_isDelone</name>
@@ -467,10 +478,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="128" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="128" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1ad490e2be238edb5d860181e40e7c8354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref> *</type>
         <definition>MRC_API MR_std_optional_float * MR_EdgeLengthMesh_edgeLengthAfterFlip</definition>
         <argsstring>(const MR_EdgeLengthMesh *_this, MR_EdgeId e)</argsstring>
         <name>MR_EdgeLengthMesh_edgeLengthAfterFlip</name>
@@ -485,14 +496,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given the edge with left and right triangular faces, which form together a quadrangle, returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge; returns std::nullopt if the geodesic line does not go fully inside the quadrangle Generated from method <computeroutput>MR::EdgeLengthMesh::edgeLengthAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_float_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>given the edge with left and right triangular faces, which form together a quadrangle, returns the length of geodesic line on original mesh between the vertices of the quadrangle opposite to given edge; returns std::nullopt if the geodesic line does not go fully inside the quadrangle Generated from method <computeroutput>MR::EdgeLengthMesh::edgeLengthAfterFlip</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__optional__float_8h_1a5d420413d3a6e2cfe102648fbce38a49" kindref="member">MR_std_optional_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="136" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="136" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="136" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="136" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MREdgeLengthMesh_8h_1a8b9b82a8a26c6d0c681dde4a3ec8acc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_EdgeLengthMesh_flipEdge</definition>
         <argsstring>(MR_EdgeLengthMesh *_this, MR_EdgeId e)</argsstring>
         <name>MR_EdgeLengthMesh_flipEdge</name>
@@ -511,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h" declline="144" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" line="144" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h" declline="144" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -522,8 +533,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -540,52 +551,52 @@
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MREdgeLengthMesh_8h_1a169a94fedf2bc1117312cc9082979186" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a169a94fedf2bc1117312cc9082979186" kindref="member">MR_EdgeLengthMesh_Get_topology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MREdgeLengthMesh_8h_1a169a94fedf2bc1117312cc9082979186" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a169a94fedf2bc1117312cc9082979186" kindref="member">MR_EdgeLengthMesh_Get_topology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MREdgeLengthMesh_8h_1a2db33acc345904ae9c39b255a931bf41" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a2db33acc345904ae9c39b255a931bf41" kindref="member">MR_EdgeLengthMesh_Set_topology</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="36" refid="MREdgeLengthMesh_8h_1a2db33acc345904ae9c39b255a931bf41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a2db33acc345904ae9c39b255a931bf41" kindref="member">MR_EdgeLengthMesh_Set_topology</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MREdgeLengthMesh_8h_1ad4622f8a83a1fb68b1bb68a1dad5c32b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ad4622f8a83a1fb68b1bb68a1dad5c32b" kindref="member">MR_EdgeLengthMesh_GetMutable_topology</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42" refid="MREdgeLengthMesh_8h_1ad4622f8a83a1fb68b1bb68a1dad5c32b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ad4622f8a83a1fb68b1bb68a1dad5c32b" kindref="member">MR_EdgeLengthMesh_GetMutable_topology</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MREdgeLengthMesh_8h_1a02f8cbd4346721410df102279cc96fa3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a02f8cbd4346721410df102279cc96fa3" kindref="member">MR_EdgeLengthMesh_Get_edgeLengths</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MREdgeLengthMesh_8h_1a02f8cbd4346721410df102279cc96fa3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a02f8cbd4346721410df102279cc96fa3" kindref="member">MR_EdgeLengthMesh_Get_edgeLengths</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MREdgeLengthMesh_8h_1a1e940405e1a3832bd517d11f53ec6f28" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a1e940405e1a3832bd517d11f53ec6f28" kindref="member">MR_EdgeLengthMesh_Set_edgeLengths</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="54" refid="MREdgeLengthMesh_8h_1a1e940405e1a3832bd517d11f53ec6f28" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a1e940405e1a3832bd517d11f53ec6f28" kindref="member">MR_EdgeLengthMesh_Set_edgeLengths</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MREdgeLengthMesh_8h_1a194e4a55f0044c3064c64e953be2ef55" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a194e4a55f0044c3064c64e953be2ef55" kindref="member">MR_EdgeLengthMesh_GetMutable_edgeLengths</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="MREdgeLengthMesh_8h_1a194e4a55f0044c3064c64e953be2ef55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a194e4a55f0044c3064c64e953be2ef55" kindref="member">MR_EdgeLengthMesh_GetMutable_edgeLengths</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MREdgeLengthMesh_8h_1a86f01b6f5205ba2afd01af43344e7da7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a86f01b6f5205ba2afd01af43344e7da7" kindref="member">MR_EdgeLengthMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64" refid="MREdgeLengthMesh_8h_1a86f01b6f5205ba2afd01af43344e7da7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a86f01b6f5205ba2afd01af43344e7da7" kindref="member">MR_EdgeLengthMesh_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MREdgeLengthMesh_8h_1aa31e51711115fd31630df347a9996f31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1aa31e51711115fd31630df347a9996f31" kindref="member">MR_EdgeLengthMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="69" refid="MREdgeLengthMesh_8h_1aa31e51711115fd31630df347a9996f31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1aa31e51711115fd31630df347a9996f31" kindref="member">MR_EdgeLengthMesh_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MREdgeLengthMesh_8h_1a73b7521d8eee6830ace017a53dd979d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a73b7521d8eee6830ace017a53dd979d5" kindref="member">MR_EdgeLengthMesh_ConstructFrom</ref>(MR_PassBy<sp/>topology_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/>MR_PassBy<sp/>edgeLengths_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*edgeLengths);</highlight></codeline>
+<codeline lineno="76" refid="MREdgeLengthMesh_8h_1a73b7521d8eee6830ace017a53dd979d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a73b7521d8eee6830ace017a53dd979d5" kindref="member">MR_EdgeLengthMesh_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>topology_pass_by,<sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>edgeLengths_pass_by,<sp/><ref refid="MRAggregateFlow_8h_1af24d03a25a98fafdbaf79dfeda2fc526" kindref="member">MR_UndirectedEdgeScalars</ref><sp/>*edgeLengths);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MREdgeLengthMesh_8h_1ac25eb8263f016da755c2abe83172daf4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ac25eb8263f016da755c2abe83172daf4" kindref="member">MR_EdgeLengthMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80" refid="MREdgeLengthMesh_8h_1ac25eb8263f016da755c2abe83172daf4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ac25eb8263f016da755c2abe83172daf4" kindref="member">MR_EdgeLengthMesh_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MREdgeLengthMesh_8h_1aa25819efca378c174045d66f9413b92a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1aa25819efca378c174045d66f9413b92a" kindref="member">MR_EdgeLengthMesh_OffsetMutablePtr</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="84" refid="MREdgeLengthMesh_8h_1aa25819efca378c174045d66f9413b92a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1aa25819efca378c174045d66f9413b92a" kindref="member">MR_EdgeLengthMesh_OffsetMutablePtr</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MREdgeLengthMesh_8h_1ac7c7f2d49b04c953bb542fafece99b69" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ac7c7f2d49b04c953bb542fafece99b69" kindref="member">MR_EdgeLengthMesh_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89" refid="MREdgeLengthMesh_8h_1ac7c7f2d49b04c953bb542fafece99b69" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ac7c7f2d49b04c953bb542fafece99b69" kindref="member">MR_EdgeLengthMesh_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" kindref="member">MR_EdgeLengthMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a2d77a05c2e04c162845f721c5baed5eb" kindref="member">MR_EdgeLengthMesh_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MREdgeLengthMesh_8h_1ac69f331cf7a88434b1b310186a64cb2e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1ac69f331cf7a88434b1b310186a64cb2e" kindref="member">MR_EdgeLengthMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MREdgeLengthMesh_8h_1ac69f331cf7a88434b1b310186a64cb2e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1ac69f331cf7a88434b1b310186a64cb2e" kindref="member">MR_EdgeLengthMesh_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MREdgeLengthMesh_8h_1a79e9815df135b73a7e8640fc10d46a73" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a79e9815df135b73a7e8640fc10d46a73" kindref="member">MR_EdgeLengthMesh_AssignFromAnother</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="102" refid="MREdgeLengthMesh_8h_1a79e9815df135b73a7e8640fc10d46a73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a79e9815df135b73a7e8640fc10d46a73" kindref="member">MR_EdgeLengthMesh_AssignFromAnother</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MREdgeLengthMesh_8h_1a04db7d9ab7667c705262335139fcd38d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a04db7d9ab7667c705262335139fcd38d" kindref="member">MR_EdgeLengthMesh_fromMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="108" refid="MREdgeLengthMesh_8h_1a04db7d9ab7667c705262335139fcd38d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1a04db7d9ab7667c705262335139fcd38d" kindref="member">MR_EdgeLengthMesh_fromMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MREdgeLengthMesh_8h_1af9da5c602e04247183ecb49f87656cf1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1af9da5c602e04247183ecb49f87656cf1" kindref="member">MR_EdgeLengthMesh_leftCotan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="114" refid="MREdgeLengthMesh_8h_1af9da5c602e04247183ecb49f87656cf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1af9da5c602e04247183ecb49f87656cf1" kindref="member">MR_EdgeLengthMesh_leftCotan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="120" refid="MREdgeLengthMesh_8h_1aba6cffd4643b991b5672681de98e09f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1aba6cffd4643b991b5672681de98e09f0" kindref="member">MR_EdgeLengthMesh_cotan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>ue);</highlight></codeline>
+<codeline lineno="120" refid="MREdgeLengthMesh_8h_1aba6cffd4643b991b5672681de98e09f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1aba6cffd4643b991b5672681de98e09f0" kindref="member">MR_EdgeLengthMesh_cotan</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>ue);</highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MREdgeLengthMesh_8h_1a5b793ddc5e1fba8a2aa4e5c0636c6282" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a5b793ddc5e1fba8a2aa4e5c0636c6282" kindref="member">MR_EdgeLengthMesh_isDelone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>ue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*threshold);</highlight></codeline>
+<codeline lineno="128" refid="MREdgeLengthMesh_8h_1a5b793ddc5e1fba8a2aa4e5c0636c6282" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a5b793ddc5e1fba8a2aa4e5c0636c6282" kindref="member">MR_EdgeLengthMesh_isDelone</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>ue,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*threshold);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MREdgeLengthMesh_8h_1ad490e2be238edb5d860181e40e7c8354" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ad490e2be238edb5d860181e40e7c8354" kindref="member">MR_EdgeLengthMesh_edgeLengthAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="136" refid="MREdgeLengthMesh_8h_1ad490e2be238edb5d860181e40e7c8354" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1a55e42a260ef15081eb6a47c600bd1f4b" kindref="member">MR_std_optional_float</ref><sp/>*<ref refid="MREdgeLengthMesh_8h_1ad490e2be238edb5d860181e40e7c8354" kindref="member">MR_EdgeLengthMesh_edgeLengthAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="144" refid="MREdgeLengthMesh_8h_1a8b9b82a8a26c6d0c681dde4a3ec8acc8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a8b9b82a8a26c6d0c681dde4a3ec8acc8" kindref="member">MR_EdgeLengthMesh_flipEdge</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
+<codeline lineno="144" refid="MREdgeLengthMesh_8h_1a8b9b82a8a26c6d0c681dde4a3ec8acc8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREdgeLengthMesh_8h_1a8b9b82a8a26c6d0c681dde4a3ec8acc8" kindref="member">MR_EdgeLengthMesh_flipEdge</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*_this,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e);</highlight></codeline>
 <codeline lineno="145"><highlight class="normal"></highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="147"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREdgeLengthMesh.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREdgeLengthMesh.h"/>
   </compounddef>
 </doxygen>

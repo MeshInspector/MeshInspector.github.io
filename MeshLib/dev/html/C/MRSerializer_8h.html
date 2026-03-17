@@ -142,13 +142,13 @@ $(function(){initNavTree('MRSerializer_8h.html','',''); });
   <div class="headertitle"><div class="title">MRSerializer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRSerializer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a895707f9a2070530708c9ecd4182d5a3" id="r_a895707f9a2070530708c9ecd4182d5a3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895707f9a2070530708c9ecd4182d5a3">MR_serializeMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const char *path, const char *path_end, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *selection, const char *const *serializeFormat)</td></tr>
+<tr class="memitem:a895707f9a2070530708c9ecd4182d5a3" id="r_a895707f9a2070530708c9ecd4182d5a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a895707f9a2070530708c9ecd4182d5a3">MR_serializeMesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const char *path, const char *path_end, const <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *selection, const char *const *serializeFormat)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a895707f9a2070530708c9ecd4182d5a3" name="a895707f9a2070530708c9ecd4182d5a3"></a>
@@ -158,7 +158,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_serializeMesh </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_serializeMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -184,7 +184,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves mesh with optional selection to mru format; this is very convenient for saving intermediate states during algorithm debugging; ".mrmesh" save mesh format is not space efficient, but guaranties no changes in the topology after loading Generated from function <span class="tt">MR::serializeMesh</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">selection</span> defaults to a null pointer in C++. Parameter <span class="tt">serializeFormat</span> has a default argument: <span class="tt">".mrmesh"</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_void_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>saves mesh with optional selection to mru format; this is very convenient for saving intermediate states during algorithm debugging; ".mrmesh" save mesh format is not space efficient, but guaranties no changes in the topology after loading Generated from function <span class="tt">MR::serializeMesh</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Parameter <span class="tt">selection</span> defaults to a null pointer in C++. Parameter <span class="tt">serializeFormat</span> has a default argument: <span class="tt">".mrmesh"</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -195,7 +195,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRSerializer_8h.html">MRSerializer.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRSerializer_8h.html">MRSerializer.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

@@ -1,0 +1,1719 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__VoxelId_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_VoxelId.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_VoxelId.h</label>
+        <link refid="std__vector__MR__VoxelId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a1e37fe0099c4d6fb9ab9624c31f785be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" kindref="member">MR_std_vector_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="29" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="29" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a5ed2a93a466527a5412d8db39e262e55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a1d82cbf7e6c102fb3e02ef5c10ef6eaf" kindref="member">MR_std_vector_MR_VoxelId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a0abe44bd56dc081a83de7e6c8aaf83a1" kindref="member">MR_std_vector_MR_VoxelId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a257976fb47814e24736840635978b32a" kindref="member">MR_std_vector_MR_VoxelId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="34" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="34" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a6997e9c351976ab430e408143ea18a85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_VoxelId *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" kindref="member">MR_std_vector_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="40" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="40" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a4e39d85a7517798c8411986470c23126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, MR_PassBy other_pass_by, MR_std_vector_MR_VoxelId *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a1d82cbf7e6c102fb3e02ef5c10ef6eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="52" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a257976fb47814e24736840635978b32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="56" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="56" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a0abe44bd56dc081a83de7e6c8aaf83a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="60" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="60" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a020f2792ca1d9b368cea25cc402e1d59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId * MR_std_vector_MR_VoxelId_ConstructFromRange</definition>
+        <argsstring>(const MR_VoxelId *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_ConstructFromRange</name>
+        <param>
+          <type>const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" kindref="member">MR_std_vector_MR_VoxelId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="64" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="64" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a5714c90954835f632d58e966639cd42e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_AssignFromRange</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, const MR_VoxelId *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_AssignFromRange</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign from a range of elements, overwriting previous contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="68" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a24dfc07faa13ebde6561604db1af29fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VoxelId_size</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="72" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="72" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ab13c488d22ccfdffe447fff75ab4ade3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VoxelId_empty</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a1c9835b7f0510c47a07008362d9232f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_resize</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="80" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a97e3c0cb30f10c7cf7c01790dc9e52d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t new_size, const MR_VoxelId *value)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1afecf422f3597ec6995e4c43b697ecbd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_clear</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a092f13b306e8495b3f8fcba343cae978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_VoxelId_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="94" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="94" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a510225a641b6328de06e90ad25bea127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_reserve</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1abe50859e4f917901d25f69ddf763e150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a184ab16aa25877a1a8983b44fd0a8ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_VoxelId * MR_std_vector_MR_VoxelId_at</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="108" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="108" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ae9e9853c044de0ae47d66c41d1a48f03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_VoxelId * MR_std_vector_MR_VoxelId_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="114" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="114" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1adae6c3a19f306780f1e32961d72d63bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_VoxelId * MR_std_vector_MR_VoxelId_front</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="119" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="119" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ade5c01fdca92eac67561fed7b80da7c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_VoxelId * MR_std_vector_MR_VoxelId_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="124" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="124" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1acf841217ef387b390d4e74dfeeddd3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_VoxelId * MR_std_vector_MR_VoxelId_back</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="129" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="129" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a4a3b280a6b618b97a461d851b0b69701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_VoxelId * MR_std_vector_MR_VoxelId_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="134" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="134" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ad3922a92d7966cc99992e11baeab2414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_VoxelId * MR_std_vector_MR_VoxelId_data</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_data</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="139" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="139" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a0493e0b1d69e003a77d5cbc134db8de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_VoxelId * MR_std_vector_MR_VoxelId_data_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_data_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="144" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="144" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a3d4c8f7d33e76593b8ef87d08ff857df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_push_back</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, MR_VoxelId new_elem)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a482e9a1c71d1ce4777703f888a2ff721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="153" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a1b6d2bdb1df8a392140a669da1303133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_insert</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t position, MR_VoxelId new_elem)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a63b88b4720e695f1e3a5dea1c7de550c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_erase</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a117814dcc2f49d9032d1ff504742cc1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_iterator *position, MR_VoxelId new_elem)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ac45553ee8054b0c3caaa27b12509b07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a550733cf5abf90a6d308f5ecaa866f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_const_iterator *position, MR_VoxelId new_elem)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref></type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="179" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="179" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1abc4c195b68493395231cf2f93484223b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="184" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="184" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a1f3af08c0d0f721b71819f7f57eab0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="190" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="190" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a714213b18b085168c69ab1028d9eb8a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VoxelId_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="195" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="195" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a6b1ce1dcb04a10a96c3b1375c477e5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" kindref="member">MR_std_vector_MR_VoxelId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="201" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="201" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a25a15eee086ac96acdbf0d45c6ca675d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VoxelId_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="206" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="206" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a19bd6b92ac0998c0c420fc263e13e930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_end</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="212" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="212" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ab6df84bef7c441b7023d4b89be89602a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VoxelId_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="217" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a8e6fb9b878814098ba81dbff18603315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" kindref="member">MR_std_vector_MR_VoxelId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="223" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="223" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1acf41c5f0af29c38b1bc5f8af77f6b0be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_VoxelId_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="228" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a39a564deccd208702ff884a5264acf96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VoxelId_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="233" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="233" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a56717ca2d4c995dfe915fb6077083ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_VoxelId_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId *_this, const MR_std_vector_MR_VoxelId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="238" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a121d9cf355a757bc43187cab46c51cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="242" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="242" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a38365c27ac8bbda501aa690ecbbcc685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a303fb560aab9e67d65838055af8fd5cd" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ad83d6c7a1680761a9730c81fd682d93c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ae9ba062d0b99d7ba91ff993c24584b81" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="247" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="247" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a205e440972819f0f38e938c9c9cc21d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="254" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="254" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1acedc49e7140139becfbc89a528a04f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_const_iterator *_this, const MR_std_vector_MR_VoxelId_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="261" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="264" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="264" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a303fb560aab9e67d65838055af8fd5cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="267" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="267" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ae9ba062d0b99d7ba91ff993c24584b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="271" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="271" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ad83d6c7a1680761a9730c81fd682d93c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="275" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="275" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a4ef067be3bbc9a600e7bff18d948d706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_const_iterator * MR_std_vector_MR_VoxelId_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="280" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="280" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a23a47da43e2889b1596044ad02601c82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" kindref="member">MR_std_vector_MR_VoxelId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="284" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="284" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a85c76ecbc97d9f81af376ef50c03e52b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a9d3a502bbdd8fc4e3ee9a5b475fff9d1" kindref="member">MR_std_vector_MR_VoxelId_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1a0b16abecf874c1022bdf9d61fbc01e90" kindref="member">MR_std_vector_MR_VoxelId_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1acfce5078d42adb7bdd14ab70daed2e96" kindref="member">MR_std_vector_MR_VoxelId_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="289" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="289" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a145bb328c11532c2e3498d2ca5a93b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" kindref="member">MR_std_vector_MR_VoxelId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="296" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="296" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a9d89111a0d2da1e4ca4b68d6c7d3015b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_iterator *_this, const MR_std_vector_MR_VoxelId_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="303" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="306" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a9d3a502bbdd8fc4e3ee9a5b475fff9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="309" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1acfce5078d42adb7bdd14ab70daed2e96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="313" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="313" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a0b16abecf874c1022bdf9d61fbc01e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_VoxelId_iterator * MR_std_vector_MR_VoxelId_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="317" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="317" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a3ad37eb59136cd3f47ac6f7d43011efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API const MR_VoxelId * MR_std_vector_MR_VoxelId_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="323" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="323" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1af2a09da6710e42ab0061306dd877989d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="327" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="327" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a7a2938fbe3f4eecc4ec99bc59264ba35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a2335cf7503d3a021483319d5d34e0746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="335" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="335" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1aeb693cb1f9ccff7c64b08077cce8d380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VoxelId_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *a, const MR_std_vector_MR_VoxelId_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VoxelId_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="340" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="340" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a32573423fa92b80e6839d8f0d876caa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VoxelId_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_const_iterator *a, const MR_std_vector_MR_VoxelId_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VoxelId_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="345" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a7f0857bec78742c6b809b14b5c690ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref> *</type>
+        <definition>MRC_API MR_VoxelId * MR_std_vector_MR_VoxelId_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="351" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="351" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a97f15e3ac887403fb4f01576dd26636d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="355" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="355" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a8defb7706488473d482184f1b3aa242f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="359" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="359" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a4b98aa2d85298f1c8a1e7c61fd0433a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_VoxelId_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_VoxelId_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_VoxelId_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="363" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="363" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1ae2d7f99578c00004b6520c75f913f223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_VoxelId_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *a, const MR_std_vector_MR_VoxelId_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_VoxelId_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="368" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="368" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__VoxelId_8h_1a87524a8ac01b29cf770dbaeba78f29a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_VoxelId_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_VoxelId_iterator *a, const MR_std_vector_MR_VoxelId_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_VoxelId_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" line="373" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h" declline="373" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__vector__MR__VoxelId_8h_1a1e37fe0099c4d6fb9ab9624c31f785be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a1e37fe0099c4d6fb9ab9624c31f785be" kindref="member">MR_std_vector_MR_VoxelId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="std__vector__MR__VoxelId_8h_1a5ed2a93a466527a5412d8db39e262e55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a5ed2a93a466527a5412d8db39e262e55" kindref="member">MR_std_vector_MR_VoxelId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="std__vector__MR__VoxelId_8h_1a6997e9c351976ab430e408143ea18a85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a6997e9c351976ab430e408143ea18a85" kindref="member">MR_std_vector_MR_VoxelId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__vector__MR__VoxelId_8h_1a4e39d85a7517798c8411986470c23126" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a4e39d85a7517798c8411986470c23126" kindref="member">MR_std_vector_MR_VoxelId_AssignFromAnother</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a87d1709cd039026cb5b867ebdcb5ef73" kindref="member">MR_std_vector_MR_VoxelId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="std__vector__MR__VoxelId_8h_1a1d82cbf7e6c102fb3e02ef5c10ef6eaf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a1d82cbf7e6c102fb3e02ef5c10ef6eaf" kindref="member">MR_std_vector_MR_VoxelId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="std__vector__MR__VoxelId_8h_1a257976fb47814e24736840635978b32a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a257976fb47814e24736840635978b32a" kindref="member">MR_std_vector_MR_VoxelId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__vector__MR__VoxelId_8h_1a0abe44bd56dc081a83de7e6c8aaf83a1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a0abe44bd56dc081a83de7e6c8aaf83a1" kindref="member">MR_std_vector_MR_VoxelId_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__vector__MR__VoxelId_8h_1a020f2792ca1d9b368cea25cc402e1d59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a020f2792ca1d9b368cea25cc402e1d59" kindref="member">MR_std_vector_MR_VoxelId_ConstructFromRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="std__vector__MR__VoxelId_8h_1a5714c90954835f632d58e966639cd42e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a5714c90954835f632d58e966639cd42e" kindref="member">MR_std_vector_MR_VoxelId_AssignFromRange</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="std__vector__MR__VoxelId_8h_1a24dfc07faa13ebde6561604db1af29fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a24dfc07faa13ebde6561604db1af29fb" kindref="member">MR_std_vector_MR_VoxelId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__vector__MR__VoxelId_8h_1ab13c488d22ccfdffe447fff75ab4ade3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1ab13c488d22ccfdffe447fff75ab4ade3" kindref="member">MR_std_vector_MR_VoxelId_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__vector__MR__VoxelId_8h_1a1c9835b7f0510c47a07008362d9232f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a1c9835b7f0510c47a07008362d9232f6" kindref="member">MR_std_vector_MR_VoxelId_resize</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="std__vector__MR__VoxelId_8h_1a97e3c0cb30f10c7cf7c01790dc9e52d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a97e3c0cb30f10c7cf7c01790dc9e52d9" kindref="member">MR_std_vector_MR_VoxelId_resize_with_default_value</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="std__vector__MR__VoxelId_8h_1afecf422f3597ec6995e4c43b697ecbd9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1afecf422f3597ec6995e4c43b697ecbd9" kindref="member">MR_std_vector_MR_VoxelId_clear</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="std__vector__MR__VoxelId_8h_1a092f13b306e8495b3f8fcba343cae978" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a092f13b306e8495b3f8fcba343cae978" kindref="member">MR_std_vector_MR_VoxelId_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__vector__MR__VoxelId_8h_1a510225a641b6328de06e90ad25bea127" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a510225a641b6328de06e90ad25bea127" kindref="member">MR_std_vector_MR_VoxelId_reserve</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__vector__MR__VoxelId_8h_1abe50859e4f917901d25f69ddf763e150" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1abe50859e4f917901d25f69ddf763e150" kindref="member">MR_std_vector_MR_VoxelId_shrink_to_fit</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__vector__MR__VoxelId_8h_1a184ab16aa25877a1a8983b44fd0a8ba4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a184ab16aa25877a1a8983b44fd0a8ba4" kindref="member">MR_std_vector_MR_VoxelId_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="std__vector__MR__VoxelId_8h_1ae9e9853c044de0ae47d66c41d1a48f03" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1ae9e9853c044de0ae47d66c41d1a48f03" kindref="member">MR_std_vector_MR_VoxelId_at_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="std__vector__MR__VoxelId_8h_1adae6c3a19f306780f1e32961d72d63bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1adae6c3a19f306780f1e32961d72d63bc" kindref="member">MR_std_vector_MR_VoxelId_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="std__vector__MR__VoxelId_8h_1ade5c01fdca92eac67561fed7b80da7c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1ade5c01fdca92eac67561fed7b80da7c3" kindref="member">MR_std_vector_MR_VoxelId_front_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__vector__MR__VoxelId_8h_1acf841217ef387b390d4e74dfeeddd3d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1acf841217ef387b390d4e74dfeeddd3d7" kindref="member">MR_std_vector_MR_VoxelId_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="std__vector__MR__VoxelId_8h_1a4a3b280a6b618b97a461d851b0b69701" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a4a3b280a6b618b97a461d851b0b69701" kindref="member">MR_std_vector_MR_VoxelId_back_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__vector__MR__VoxelId_8h_1ad3922a92d7966cc99992e11baeab2414" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1ad3922a92d7966cc99992e11baeab2414" kindref="member">MR_std_vector_MR_VoxelId_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144" refid="std__vector__MR__VoxelId_8h_1a0493e0b1d69e003a77d5cbc134db8de7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a0493e0b1d69e003a77d5cbc134db8de7" kindref="member">MR_std_vector_MR_VoxelId_data_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="std__vector__MR__VoxelId_8h_1a3d4c8f7d33e76593b8ef87d08ff857df" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a3d4c8f7d33e76593b8ef87d08ff857df" kindref="member">MR_std_vector_MR_VoxelId_push_back</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="std__vector__MR__VoxelId_8h_1a482e9a1c71d1ce4777703f888a2ff721" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a482e9a1c71d1ce4777703f888a2ff721" kindref="member">MR_std_vector_MR_VoxelId_pop_back</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="std__vector__MR__VoxelId_8h_1a1b6d2bdb1df8a392140a669da1303133" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a1b6d2bdb1df8a392140a669da1303133" kindref="member">MR_std_vector_MR_VoxelId_insert</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__VoxelId_8h_1a63b88b4720e695f1e3a5dea1c7de550c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a63b88b4720e695f1e3a5dea1c7de550c" kindref="member">MR_std_vector_MR_VoxelId_erase</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="std__vector__MR__VoxelId_8h_1a117814dcc2f49d9032d1ff504742cc1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a117814dcc2f49d9032d1ff504742cc1c" kindref="member">MR_std_vector_MR_VoxelId_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*position,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__VoxelId_8h_1ac45553ee8054b0c3caaa27b12509b07c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1ac45553ee8054b0c3caaa27b12509b07c" kindref="member">MR_std_vector_MR_VoxelId_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="std__vector__MR__VoxelId_8h_1a550733cf5abf90a6d308f5ecaa866f4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a550733cf5abf90a6d308f5ecaa866f4f" kindref="member">MR_std_vector_MR_VoxelId_insert_at_iter</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*position,<sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>new_elem);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__VoxelId_8h_1abc4c195b68493395231cf2f93484223b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1abc4c195b68493395231cf2f93484223b" kindref="member">MR_std_vector_MR_VoxelId_erase_at_iter</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="std__vector__MR__VoxelId_8h_1a1f3af08c0d0f721b71819f7f57eab0da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a1f3af08c0d0f721b71819f7f57eab0da" kindref="member">MR_std_vector_MR_VoxelId_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__VoxelId_8h_1a714213b18b085168c69ab1028d9eb8a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a714213b18b085168c69ab1028d9eb8a0" kindref="member">MR_std_vector_MR_VoxelId_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="std__vector__MR__VoxelId_8h_1a6b1ce1dcb04a10a96c3b1375c477e5e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a6b1ce1dcb04a10a96c3b1375c477e5e7" kindref="member">MR_std_vector_MR_VoxelId_begin_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__VoxelId_8h_1a25a15eee086ac96acdbf0d45c6ca675d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a25a15eee086ac96acdbf0d45c6ca675d" kindref="member">MR_std_vector_MR_VoxelId_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="std__vector__MR__VoxelId_8h_1a19bd6b92ac0998c0c420fc263e13e930" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a19bd6b92ac0998c0c420fc263e13e930" kindref="member">MR_std_vector_MR_VoxelId_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="std__vector__MR__VoxelId_8h_1ab6df84bef7c441b7023d4b89be89602a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1ab6df84bef7c441b7023d4b89be89602a" kindref="member">MR_std_vector_MR_VoxelId_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="std__vector__MR__VoxelId_8h_1a8e6fb9b878814098ba81dbff18603315" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a8e6fb9b878814098ba81dbff18603315" kindref="member">MR_std_vector_MR_VoxelId_end_mut</ref>(<ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="std__vector__MR__VoxelId_8h_1acf41c5f0af29c38b1bc5f8af77f6b0be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1acf41c5f0af29c38b1bc5f8af77f6b0be" kindref="member">MR_std_vector_MR_VoxelId_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="std__vector__MR__VoxelId_8h_1a39a564deccd208702ff884a5264acf96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VoxelId_8h_1a39a564deccd208702ff884a5264acf96" kindref="member">MR_std_vector_MR_VoxelId_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="std__vector__MR__VoxelId_8h_1a56717ca2d4c995dfe915fb6077083ad0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VoxelId_8h_1a56717ca2d4c995dfe915fb6077083ad0" kindref="member">MR_std_vector_MR_VoxelId_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1ae4235d9b456b9b56acf2898c97ea1d6a" kindref="member">MR_std_vector_MR_VoxelId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="std__vector__MR__VoxelId_8h_1a121d9cf355a757bc43187cab46c51cf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a121d9cf355a757bc43187cab46c51cf7" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__VoxelId_8h_1a38365c27ac8bbda501aa690ecbbcc685" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a38365c27ac8bbda501aa690ecbbcc685" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__VoxelId_8h_1a205e440972819f0f38e938c9c9cc21d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a205e440972819f0f38e938c9c9cc21d8" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="std__vector__MR__VoxelId_8h_1acedc49e7140139becfbc89a528a04f21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1acedc49e7140139becfbc89a528a04f21" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a47f3639b603f40298fe0c8d75c6d6bed" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__VoxelId_8h_1a303fb560aab9e67d65838055af8fd5cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a303fb560aab9e67d65838055af8fd5cd" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__VoxelId_8h_1ae9ba062d0b99d7ba91ff993c24584b81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1ae9ba062d0b99d7ba91ff993c24584b81" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="std__vector__MR__VoxelId_8h_1ad83d6c7a1680761a9730c81fd682d93c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1ad83d6c7a1680761a9730c81fd682d93c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="std__vector__MR__VoxelId_8h_1a4ef067be3bbc9a600e7bff18d948d706" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a4ef067be3bbc9a600e7bff18d948d706" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="std__vector__MR__VoxelId_8h_1a23a47da43e2889b1596044ad02601c82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a23a47da43e2889b1596044ad02601c82" kindref="member">MR_std_vector_MR_VoxelId_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__VoxelId_8h_1a85c76ecbc97d9f81af376ef50c03e52b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a85c76ecbc97d9f81af376ef50c03e52b" kindref="member">MR_std_vector_MR_VoxelId_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__VoxelId_8h_1a145bb328c11532c2e3498d2ca5a93b3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a145bb328c11532c2e3498d2ca5a93b3c" kindref="member">MR_std_vector_MR_VoxelId_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="std__vector__MR__VoxelId_8h_1a9d89111a0d2da1e4ca4b68d6c7d3015b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a9d89111a0d2da1e4ca4b68d6c7d3015b" kindref="member">MR_std_vector_MR_VoxelId_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1ab043d26f468e33e3e74811862350c510" kindref="member">MR_std_vector_MR_VoxelId_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="std__vector__MR__VoxelId_8h_1a9d3a502bbdd8fc4e3ee9a5b475fff9d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a9d3a502bbdd8fc4e3ee9a5b475fff9d1" kindref="member">MR_std_vector_MR_VoxelId_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="std__vector__MR__VoxelId_8h_1acfce5078d42adb7bdd14ab70daed2e96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1acfce5078d42adb7bdd14ab70daed2e96" kindref="member">MR_std_vector_MR_VoxelId_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="std__vector__MR__VoxelId_8h_1a0b16abecf874c1022bdf9d61fbc01e90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a0b16abecf874c1022bdf9d61fbc01e90" kindref="member">MR_std_vector_MR_VoxelId_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__VoxelId_8h_1a3ad37eb59136cd3f47ac6f7d43011efd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a3ad37eb59136cd3f47ac6f7d43011efd" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__VoxelId_8h_1af2a09da6710e42ab0061306dd877989d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1af2a09da6710e42ab0061306dd877989d" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="std__vector__MR__VoxelId_8h_1a7a2938fbe3f4eecc4ec99bc59264ba35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a7a2938fbe3f4eecc4ec99bc59264ba35" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335" refid="std__vector__MR__VoxelId_8h_1a2335cf7503d3a021483319d5d34e0746" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a2335cf7503d3a021483319d5d34e0746" kindref="member">MR_std_vector_MR_VoxelId_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340" refid="std__vector__MR__VoxelId_8h_1aeb693cb1f9ccff7c64b08077cce8d380" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VoxelId_8h_1aeb693cb1f9ccff7c64b08077cce8d380" kindref="member">MR_sub_MR_std_vector_MR_VoxelId_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="std__vector__MR__VoxelId_8h_1a32573423fa92b80e6839d8f0d876caa1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a32573423fa92b80e6839d8f0d876caa1" kindref="member">MR_equal_MR_std_vector_MR_VoxelId_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1740129e82ceeb98f07fa8d83392051c" kindref="member">MR_std_vector_MR_VoxelId_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__VoxelId_8h_1a7f0857bec78742c6b809b14b5c690ca4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VoxelId" kindref="compound">MR_VoxelId</ref><sp/>*<ref refid="std__vector__MR__VoxelId_8h_1a7f0857bec78742c6b809b14b5c690ca4" kindref="member">MR_std_vector_MR_VoxelId_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__VoxelId_8h_1a97f15e3ac887403fb4f01576dd26636d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a97f15e3ac887403fb4f01576dd26636d" kindref="member">MR_std_vector_MR_VoxelId_iterator_incr</ref>(<ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="std__vector__MR__VoxelId_8h_1a8defb7706488473d482184f1b3aa242f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a8defb7706488473d482184f1b3aa242f" kindref="member">MR_std_vector_MR_VoxelId_iterator_decr</ref>(<ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363" refid="std__vector__MR__VoxelId_8h_1a4b98aa2d85298f1c8a1e7c61fd0433a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a4b98aa2d85298f1c8a1e7c61fd0433a7" kindref="member">MR_std_vector_MR_VoxelId_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368" refid="std__vector__MR__VoxelId_8h_1ae2d7f99578c00004b6520c75f913f223" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__VoxelId_8h_1ae2d7f99578c00004b6520c75f913f223" kindref="member">MR_sub_MR_std_vector_MR_VoxelId_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="std__vector__MR__VoxelId_8h_1a87524a8ac01b29cf770dbaeba78f29a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__VoxelId_8h_1a87524a8ac01b29cf770dbaeba78f29a4" kindref="member">MR_equal_MR_std_vector_MR_VoxelId_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a5e7f52cbda0b4869936fd3328476fa78" kindref="member">MR_std_vector_MR_VoxelId_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_VoxelId.h"/>
+  </compounddef>
+</doxygen>

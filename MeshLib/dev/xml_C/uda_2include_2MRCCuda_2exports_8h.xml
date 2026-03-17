@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="uda_2include_2MRCCuda_2exports_8h" kind="file" language="C++">
+    <compoundname>uda/include/MRCCuda/exports.h</compoundname>
+    <includedby refid="MRCudaBasic_8h" local="no">MRCudaBasic.h</includedby>
+    <includedby refid="MRCudaContoursDistanceMap_8h" local="no">MRCudaContoursDistanceMap.h</includedby>
+    <includedby refid="MRCudaFastWindingNumber_8h" local="no">MRCudaFastWindingNumber.h</includedby>
+    <includedby refid="MRCudaMeshDistanceMap_8h" local="no">MRCudaMeshDistanceMap.h</includedby>
+    <includedby refid="MRCudaPointsProject_8h" local="no">MRCudaPointsProject.h</includedby>
+    <includedby refid="MRCudaPointsToDistanceVolume_8h" local="no">MRCudaPointsToDistanceVolume.h</includedby>
+    <includedby refid="MRCudaPointsToMeshProjector_8h" local="no">MRCudaPointsToMeshProjector.h</includedby>
+    <includedby refid="MRCudaSolarRadiation_8h" local="no">MRCudaSolarRadiation.h</includedby>
+    <includedby refid="MRCudaSweptVolume_8h" local="no">MRCudaSweptVolume.h</includedby>
+    <includedby refid="MRCudaTest_8h" local="no">MRCudaTest.h</includedby>
+    <includedby refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8h" local="no">std_shared_ptr_MR_Cuda_FastWindingNumber.h</includedby>
+    <includedby refid="std__shared__ptr__MR__Cuda__PointsToMeshProjector_8h" local="no">std_shared_ptr_MR_Cuda_PointsToMeshProjector.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRCudaBasic.h</label>
+        <link refid="MRCudaBasic_8h"/>
+      </node>
+      <node id="3">
+        <label>MRCudaContoursDistanceMap.h</label>
+        <link refid="MRCudaContoursDistanceMap_8h"/>
+      </node>
+      <node id="4">
+        <label>MRCudaFastWindingNumber.h</label>
+        <link refid="MRCudaFastWindingNumber_8h"/>
+      </node>
+      <node id="5">
+        <label>MRCudaMeshDistanceMap.h</label>
+        <link refid="MRCudaMeshDistanceMap_8h"/>
+      </node>
+      <node id="6">
+        <label>MRCudaPointsProject.h</label>
+        <link refid="MRCudaPointsProject_8h"/>
+      </node>
+      <node id="7">
+        <label>MRCudaPointsToDistanceVolume.h</label>
+        <link refid="MRCudaPointsToDistanceVolume_8h"/>
+      </node>
+      <node id="8">
+        <label>MRCudaPointsToMeshProjector.h</label>
+        <link refid="MRCudaPointsToMeshProjector_8h"/>
+      </node>
+      <node id="9">
+        <label>MRCudaSolarRadiation.h</label>
+        <link refid="MRCudaSolarRadiation_8h"/>
+      </node>
+      <node id="10">
+        <label>MRCudaSweptVolume.h</label>
+        <link refid="MRCudaSweptVolume_8h"/>
+      </node>
+      <node id="11">
+        <label>MRCudaTest.h</label>
+        <link refid="MRCudaTest_8h"/>
+      </node>
+      <node id="1">
+        <label>exports.h</label>
+        <link refid="uda_2include_2MRCCuda_2exports_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std_shared_ptr_MR_Cuda_FastWindingNumber.h</label>
+        <link refid="std__shared__ptr__MR__Cuda__FastWindingNumber_8h"/>
+      </node>
+      <node id="13">
+        <label>std_shared_ptr_MR_Cuda_PointsToMeshProjector.h</label>
+        <link refid="std__shared__ptr__MR__Cuda__PointsToMeshProjector_8h"/>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" prot="public" static="no">
+        <name>MRC_CUDA_API</name>
+        <initializer>__attribute__((__visibility__(&quot;default&quot;)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/exports.h" line="11" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/exports.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRC_CUDA_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>ifdef<sp/>MRC_CUDA_BUILD_LIBRARY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MRC_CUDA_API<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>MRC_CUDA_API<sp/>__declspec(dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="uda_2include_2MRCCuda_2exports_8h_1abe9d4e862ad348843b68b3e4f46cdab8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>MRC_CUDA_API<sp/>__attribute__((__visibility__(&quot;default&quot;)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CbindingsCuda/include/MRCCuda/exports.h"/>
+  </compounddef>
+</doxygen>

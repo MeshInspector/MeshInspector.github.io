@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__ObjectLinesHolder_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_ObjectLinesHolder.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_ObjectLinesHolder.h</label>
+        <link refid="std__shared__ptr__MR__ObjectLinesHolder_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1af634b42a209c27f4195af414f717bf09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="24" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="24" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5ef85cdd0858f520b0ff884c4782bf89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1aa17dc2dcbf7952d9fcd6d4412bcd3408" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1abf9c46add9de6015b24cc893da2c3925" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a622aa64167b81c658845952c31063dde" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="29" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="29" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5255615e07b3f4c9f5ffbf06df918c0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectLinesHolder *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="35" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="35" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1adc30d68af77f87c02d98562400237150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectLinesHolder *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1aa17dc2dcbf7952d9fcd6d4412bcd3408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a622aa64167b81c658845952c31063dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="51" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="51" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1abf9c46add9de6015b24cc893da2c3925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="55" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="55" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1ab5a1a32f1e00f0fec21e39e618d08d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_get</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="60" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="60" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a693110871cc36c1931221cdce00b66de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_ObjectLinesHolder_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_has_value</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1ac4aacd66520e9d45a25376ccfebbb105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_ObjectLinesHolder_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_use_count</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ab5a1a32f1e00f0fec21e39e618d08d80" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a36792986f79ef9c07bc693246782286c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_reset</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a1a9d571089fe3b2c4bd3142dbf3b255f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromValue</definition>
+        <argsstring>(MR_PassBy value_pass_by, MR_ObjectLinesHolder *value)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromValue</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a value. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="80" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="80" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a9ceade16137a15d4eace7fec91b8e2bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_Construct</definition>
+        <argsstring>(MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_Construct</name>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectLinesHolder_8h_1a600e38078bc0e8e12c1767fdc1f2c6c6" kindref="member">MR_ObjectLinesHolder_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="86" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="86" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a08d7d82dca70e99d5e40b0f0f97ffcf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *_this, MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_Assign</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectLinesHolder_8h_1a600e38078bc0e8e12c1767fdc1f2c6c6" kindref="member">MR_ObjectLinesHolder_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="92" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a73f8f69295e5e1a61542954d76d5ca9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructNonOwning</definition>
+        <argsstring>(MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="98" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="98" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5989dd00bdeebfb31cc1aff0d2a9a471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *_this, MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_AssignNonOwning</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="104" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="104" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a013bae0bf152bdf5eec5f43fd45b85e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectLinesHolder * MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="111" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="111" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5fd50f783f58420464a8631ed885c260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectLinesHolder *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectLinesHolder *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_AssignAliasing</name>
+        <param>
+          <type><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1ad533270fb7ba1c7aac2d3c7c808146f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_ObjectLinesHolder_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="123" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="123" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectLinesHolder_8h_1a7f36ab4e7fb525f503f2244b09eaa4ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectLinesHolder_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectLinesHolder *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectLinesHolder_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h" declline="128" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectLinesHolder.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1af634b42a209c27f4195af414f717bf09" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1af634b42a209c27f4195af414f717bf09" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5ef85cdd0858f520b0ff884c4782bf89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5ef85cdd0858f520b0ff884c4782bf89" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5255615e07b3f4c9f5ffbf06df918c0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5255615e07b3f4c9f5ffbf06df918c0b" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1adc30d68af77f87c02d98562400237150" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1adc30d68af77f87c02d98562400237150" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_AssignFromAnother</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1afd1cf180b88795ac1159c1f8bb58abfe" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1aa17dc2dcbf7952d9fcd6d4412bcd3408" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1aa17dc2dcbf7952d9fcd6d4412bcd3408" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a622aa64167b81c658845952c31063dde" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a622aa64167b81c658845952c31063dde" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1abf9c46add9de6015b24cc893da2c3925" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1abf9c46add9de6015b24cc893da2c3925" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_OffsetMutablePtr</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ab5a1a32f1e00f0fec21e39e618d08d80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ab5a1a32f1e00f0fec21e39e618d08d80" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a693110871cc36c1931221cdce00b66de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a693110871cc36c1931221cdce00b66de" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ac4aacd66520e9d45a25376ccfebbb105" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ac4aacd66520e9d45a25376ccfebbb105" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a36792986f79ef9c07bc693246782286c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a36792986f79ef9c07bc693246782286c" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_reset</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a1a9d571089fe3b2c4bd3142dbf3b255f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a1a9d571089fe3b2c4bd3142dbf3b255f" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructFromValue</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a9ceade16137a15d4eace7fec91b8e2bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a9ceade16137a15d4eace7fec91b8e2bd" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Construct</ref>(<ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a08d7d82dca70e99d5e40b0f0f97ffcf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a08d7d82dca70e99d5e40b0f0f97ffcf1" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_Assign</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a73f8f69295e5e1a61542954d76d5ca9b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a73f8f69295e5e1a61542954d76d5ca9b" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructNonOwning</ref>(<ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5989dd00bdeebfb31cc1aff0d2a9a471" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5989dd00bdeebfb31cc1aff0d2a9a471" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_AssignNonOwning</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this,<sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a013bae0bf152bdf5eec5f43fd45b85e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a013bae0bf152bdf5eec5f43fd45b85e6" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5fd50f783f58420464a8631ed885c260" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a5fd50f783f58420464a8631ed885c260" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_AssignAliasing</ref>(<ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRObjectGcode_8h_1af46c30b811dbea0af7a43f2bfcf2741a" kindref="member">MR_ObjectLinesHolder</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ad533270fb7ba1c7aac2d3c7c808146f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1ad533270fb7ba1c7aac2d3c7c808146f8" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a7f36ab4e7fb525f503f2244b09eaa4ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectLinesHolder_8h_1a7f36ab4e7fb525f503f2244b09eaa4ca" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1ad458eacc045c043795ff381c6b6455a7" kindref="member">MR_std_shared_ptr_MR_ObjectLinesHolder</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectLinesHolder.h"/>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshAttributesToUpdate_8h" kind="file" language="C++">
     <compoundname>MRMeshAttributesToUpdate.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -29,16 +30,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::MeshAttributesToUpdate</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::MeshAttributesToUpdate</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="20" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="20" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a62e11ed37812a7619c61f4ca46cb83f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> *const *</type>
         <definition>MRC_API MR_VertCoords2 *const  * MR_MeshAttributesToUpdate_Get_uvCoords</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_Get_uvCoords</name>
@@ -53,10 +54,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="26" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="26" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="26" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="26" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1ad5481bbaf5c6032e06d59b231d6bdb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_Set_uvCoords</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this, MR_VertCoords2 *value)</argsstring>
         <name>MR_MeshAttributesToUpdate_Set_uvCoords</name>
@@ -75,10 +76,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="32" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="32" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a24829120ddb04554a2d4878ff7505afa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref> **</type>
         <definition>MRC_API MR_VertCoords2 ** MR_MeshAttributesToUpdate_GetMutable_uvCoords</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_GetMutable_uvCoords</name>
@@ -93,10 +94,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="38" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="38" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="38" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="38" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1aeec29531a4cd0bf131e9f228456b224d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
         <definition>MRC_API MR_VertColors *const  * MR_MeshAttributesToUpdate_Get_colorMap</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_Get_colorMap</name>
@@ -111,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="44" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="44" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="44" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1aaf08f3021c7afac5fa05ffc28ec93f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_Set_colorMap</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this, MR_VertColors *value)</argsstring>
         <name>MR_MeshAttributesToUpdate_Set_colorMap</name>
@@ -133,10 +134,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1afe100f20dd8a1562f5953ba8210113d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
         <definition>MRC_API MR_VertColors ** MR_MeshAttributesToUpdate_GetMutable_colorMap</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_GetMutable_colorMap</name>
@@ -151,10 +152,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="56" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="56" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1aa5603dfe11354416f951be30f8f9840a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> *const *</type>
         <definition>MRC_API MR_TexturePerFace *const  * MR_MeshAttributesToUpdate_Get_texturePerFace</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_Get_texturePerFace</name>
@@ -169,10 +170,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="62" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="62" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="62" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="62" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a7a69448f45a98e47cbd9c5fdade708eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_Set_texturePerFace</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this, MR_TexturePerFace *value)</argsstring>
         <name>MR_MeshAttributesToUpdate_Set_texturePerFace</name>
@@ -191,10 +192,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="68" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="68" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1acb073ba41898dfd975b3a815b0d538c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref> **</type>
         <definition>MRC_API MR_TexturePerFace ** MR_MeshAttributesToUpdate_GetMutable_texturePerFace</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_GetMutable_texturePerFace</name>
@@ -209,10 +210,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="74" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="74" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="74" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="74" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1afcb6bd2d92436a442b1106e475656e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> *const *</type>
         <definition>MRC_API MR_FaceColors *const  * MR_MeshAttributesToUpdate_Get_faceColors</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_Get_faceColors</name>
@@ -227,10 +228,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="80" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="80" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="80" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="80" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a9c69266d79ba09605076f4a495fcf5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_Set_faceColors</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this, MR_FaceColors *value)</argsstring>
         <name>MR_MeshAttributesToUpdate_Set_faceColors</name>
@@ -249,10 +250,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="86" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="86" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a6774e2ac4839c6ce1853577c3a414556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref> **</type>
         <definition>MRC_API MR_FaceColors ** MR_MeshAttributesToUpdate_GetMutable_faceColors</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_GetMutable_faceColors</name>
@@ -267,10 +268,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="92" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="92" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="92" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="92" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a60014204edea6780a6ad647f10d46407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MeshAttributesToUpdate_DefaultConstruct</name>
@@ -284,10 +285,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="96" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="96" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="96" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="96" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a6ed4d78f9e8a6816bd6eb663b87d73b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MeshAttributesToUpdate_DefaultConstructArray</name>
@@ -302,10 +303,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="101" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="101" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="101" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="101" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a9b00b2f9609231f058a2c1f94e193fe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_ConstructFrom</definition>
         <argsstring>(MR_VertCoords2 *uvCoords, MR_VertColors *colorMap, MR_TexturePerFace *texturePerFace, MR_FaceColors *faceColors)</argsstring>
         <name>MR_MeshAttributesToUpdate_ConstructFrom</name>
@@ -332,10 +333,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="110" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="110" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="110" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="110" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a3ecbbbdb53beacb7eeee7a55a15a9996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API const MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_OffsetPtr</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshAttributesToUpdate_OffsetPtr</name>
@@ -354,10 +355,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="114" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="114" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="114" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="114" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1ac0b157b21f10547df57fc44528f0bc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshAttributesToUpdate *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshAttributesToUpdate_OffsetMutablePtr</name>
@@ -376,10 +377,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="118" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="118" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="118" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="118" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a11dd2bb19e3682c547bc3b37fb3bfd2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_other)</argsstring>
         <name>MR_MeshAttributesToUpdate_ConstructFromAnother</name>
@@ -394,10 +395,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="124" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="124" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="124" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="124" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_Destroy</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_Destroy</name>
@@ -412,10 +413,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="127" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="127" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="127" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a1a1e303a886d5efb59fdca9ef6bea6f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshAttributesToUpdate_DestroyArray</definition>
         <argsstring>(const MR_MeshAttributesToUpdate *_this)</argsstring>
         <name>MR_MeshAttributesToUpdate_DestroyArray</name>
@@ -430,10 +431,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="130" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="130" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="130" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshAttributesToUpdate_8h_1a47188d85c78eefc3547e2b3f71b101e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref> *</type>
         <definition>MRC_API MR_MeshAttributesToUpdate * MR_MeshAttributesToUpdate_AssignFromAnother</definition>
         <argsstring>(MR_MeshAttributesToUpdate *_this, const MR_MeshAttributesToUpdate *_other)</argsstring>
         <name>MR_MeshAttributesToUpdate_AssignFromAnother</name>
@@ -452,7 +453,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h" declline="138" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h" declline="138" declcolumn="35"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -462,7 +463,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -479,52 +480,52 @@
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>attribute<sp/>data<sp/>of<sp/>the<sp/>mesh<sp/>that<sp/>needs<sp/>to<sp/>be<sp/>updated</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRMeshAttributesToUpdate_8h_1a62e11ed37812a7619c61f4ca46cb83f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a62e11ed37812a7619c61f4ca46cb83f5" kindref="member">MR_MeshAttributesToUpdate_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26" refid="MRMeshAttributesToUpdate_8h_1a62e11ed37812a7619c61f4ca46cb83f5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a62e11ed37812a7619c61f4ca46cb83f5" kindref="member">MR_MeshAttributesToUpdate_Get_uvCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRMeshAttributesToUpdate_8h_1ad5481bbaf5c6032e06d59b231d6bdb02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1ad5481bbaf5c6032e06d59b231d6bdb02" kindref="member">MR_MeshAttributesToUpdate_Set_uvCoords</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="32" refid="MRMeshAttributesToUpdate_8h_1ad5481bbaf5c6032e06d59b231d6bdb02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1ad5481bbaf5c6032e06d59b231d6bdb02" kindref="member">MR_MeshAttributesToUpdate_Set_uvCoords</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRMeshAttributesToUpdate_8h_1a24829120ddb04554a2d4878ff7505afa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1a24829120ddb04554a2d4878ff7505afa" kindref="member">MR_MeshAttributesToUpdate_GetMutable_uvCoords</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRMeshAttributesToUpdate_8h_1a24829120ddb04554a2d4878ff7505afa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1a24829120ddb04554a2d4878ff7505afa" kindref="member">MR_MeshAttributesToUpdate_GetMutable_uvCoords</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshAttributesToUpdate_8h_1aeec29531a4cd0bf131e9f228456b224d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1aeec29531a4cd0bf131e9f228456b224d" kindref="member">MR_MeshAttributesToUpdate_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshAttributesToUpdate_8h_1aeec29531a4cd0bf131e9f228456b224d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1aeec29531a4cd0bf131e9f228456b224d" kindref="member">MR_MeshAttributesToUpdate_Get_colorMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRMeshAttributesToUpdate_8h_1aaf08f3021c7afac5fa05ffc28ec93f40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1aaf08f3021c7afac5fa05ffc28ec93f40" kindref="member">MR_MeshAttributesToUpdate_Set_colorMap</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="50" refid="MRMeshAttributesToUpdate_8h_1aaf08f3021c7afac5fa05ffc28ec93f40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1aaf08f3021c7afac5fa05ffc28ec93f40" kindref="member">MR_MeshAttributesToUpdate_Set_colorMap</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRMeshAttributesToUpdate_8h_1afe100f20dd8a1562f5953ba8210113d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1afe100f20dd8a1562f5953ba8210113d5" kindref="member">MR_MeshAttributesToUpdate_GetMutable_colorMap</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRMeshAttributesToUpdate_8h_1afe100f20dd8a1562f5953ba8210113d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1afe100f20dd8a1562f5953ba8210113d5" kindref="member">MR_MeshAttributesToUpdate_GetMutable_colorMap</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMeshAttributesToUpdate_8h_1aa5603dfe11354416f951be30f8f9840a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1aa5603dfe11354416f951be30f8f9840a" kindref="member">MR_MeshAttributesToUpdate_Get_texturePerFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRMeshAttributesToUpdate_8h_1aa5603dfe11354416f951be30f8f9840a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1aa5603dfe11354416f951be30f8f9840a" kindref="member">MR_MeshAttributesToUpdate_Get_texturePerFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRMeshAttributesToUpdate_8h_1a7a69448f45a98e47cbd9c5fdade708eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a7a69448f45a98e47cbd9c5fdade708eb" kindref="member">MR_MeshAttributesToUpdate_Set_texturePerFace</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="68" refid="MRMeshAttributesToUpdate_8h_1a7a69448f45a98e47cbd9c5fdade708eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a7a69448f45a98e47cbd9c5fdade708eb" kindref="member">MR_MeshAttributesToUpdate_Set_texturePerFace</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshAttributesToUpdate_8h_1acb073ba41898dfd975b3a815b0d538c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1acb073ba41898dfd975b3a815b0d538c7" kindref="member">MR_MeshAttributesToUpdate_GetMutable_texturePerFace</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRMeshAttributesToUpdate_8h_1acb073ba41898dfd975b3a815b0d538c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1acb073ba41898dfd975b3a815b0d538c7" kindref="member">MR_MeshAttributesToUpdate_GetMutable_texturePerFace</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRMeshAttributesToUpdate_8h_1afcb6bd2d92436a442b1106e475656e8f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1afcb6bd2d92436a442b1106e475656e8f" kindref="member">MR_MeshAttributesToUpdate_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80" refid="MRMeshAttributesToUpdate_8h_1afcb6bd2d92436a442b1106e475656e8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1afcb6bd2d92436a442b1106e475656e8f" kindref="member">MR_MeshAttributesToUpdate_Get_faceColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86" refid="MRMeshAttributesToUpdate_8h_1a9c69266d79ba09605076f4a495fcf5f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a9c69266d79ba09605076f4a495fcf5f7" kindref="member">MR_MeshAttributesToUpdate_Set_faceColors</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="86" refid="MRMeshAttributesToUpdate_8h_1a9c69266d79ba09605076f4a495fcf5f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a9c69266d79ba09605076f4a495fcf5f7" kindref="member">MR_MeshAttributesToUpdate_Set_faceColors</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="87"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRMeshAttributesToUpdate_8h_1a6774e2ac4839c6ce1853577c3a414556" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1a6774e2ac4839c6ce1853577c3a414556" kindref="member">MR_MeshAttributesToUpdate_GetMutable_faceColors</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRMeshAttributesToUpdate_8h_1a6774e2ac4839c6ce1853577c3a414556" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>**<ref refid="MRMeshAttributesToUpdate_8h_1a6774e2ac4839c6ce1853577c3a414556" kindref="member">MR_MeshAttributesToUpdate_GetMutable_faceColors</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRMeshAttributesToUpdate_8h_1a60014204edea6780a6ad647f10d46407" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a60014204edea6780a6ad647f10d46407" kindref="member">MR_MeshAttributesToUpdate_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96" refid="MRMeshAttributesToUpdate_8h_1a60014204edea6780a6ad647f10d46407" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a60014204edea6780a6ad647f10d46407" kindref="member">MR_MeshAttributesToUpdate_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRMeshAttributesToUpdate_8h_1a6ed4d78f9e8a6816bd6eb663b87d73b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a6ed4d78f9e8a6816bd6eb663b87d73b0" kindref="member">MR_MeshAttributesToUpdate_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="101" refid="MRMeshAttributesToUpdate_8h_1a6ed4d78f9e8a6816bd6eb663b87d73b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a6ed4d78f9e8a6816bd6eb663b87d73b0" kindref="member">MR_MeshAttributesToUpdate_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRMeshAttributesToUpdate_8h_1a9b00b2f9609231f058a2c1f94e193fe5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a9b00b2f9609231f058a2c1f94e193fe5" kindref="member">MR_MeshAttributesToUpdate_ConstructFrom</ref>(<ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colorMap,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*texturePerFace,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors);</highlight></codeline>
+<codeline lineno="110" refid="MRMeshAttributesToUpdate_8h_1a9b00b2f9609231f058a2c1f94e193fe5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a9b00b2f9609231f058a2c1f94e193fe5" kindref="member">MR_MeshAttributesToUpdate_ConstructFrom</ref>(<ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*uvCoords,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colorMap,<sp/><ref refid="MRChangeMeshAction_8h_1a248aef9b7513a21932ba1dfcfbd3410d" kindref="member">MR_TexturePerFace</ref><sp/>*texturePerFace,<sp/><ref refid="MRChangeColoringActions_8h_1a88c7503c40b624a577fda0eab1faa5fa" kindref="member">MR_FaceColors</ref><sp/>*faceColors);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRMeshAttributesToUpdate_8h_1a3ecbbbdb53beacb7eeee7a55a15a9996" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a3ecbbbdb53beacb7eeee7a55a15a9996" kindref="member">MR_MeshAttributesToUpdate_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="114" refid="MRMeshAttributesToUpdate_8h_1a3ecbbbdb53beacb7eeee7a55a15a9996" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a3ecbbbdb53beacb7eeee7a55a15a9996" kindref="member">MR_MeshAttributesToUpdate_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRMeshAttributesToUpdate_8h_1ac0b157b21f10547df57fc44528f0bc87" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1ac0b157b21f10547df57fc44528f0bc87" kindref="member">MR_MeshAttributesToUpdate_OffsetMutablePtr</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="118" refid="MRMeshAttributesToUpdate_8h_1ac0b157b21f10547df57fc44528f0bc87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1ac0b157b21f10547df57fc44528f0bc87" kindref="member">MR_MeshAttributesToUpdate_OffsetMutablePtr</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="124" refid="MRMeshAttributesToUpdate_8h_1a11dd2bb19e3682c547bc3b37fb3bfd2c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a11dd2bb19e3682c547bc3b37fb3bfd2c" kindref="member">MR_MeshAttributesToUpdate_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="124" refid="MRMeshAttributesToUpdate_8h_1a11dd2bb19e3682c547bc3b37fb3bfd2c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a11dd2bb19e3682c547bc3b37fb3bfd2c" kindref="member">MR_MeshAttributesToUpdate_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="125"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" kindref="member">MR_MeshAttributesToUpdate_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127" refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a18489c02ce4b1a21ac653d8a35f44e1f" kindref="member">MR_MeshAttributesToUpdate_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRMeshAttributesToUpdate_8h_1a1a1e303a886d5efb59fdca9ef6bea6f0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a1a1e303a886d5efb59fdca9ef6bea6f0" kindref="member">MR_MeshAttributesToUpdate_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130" refid="MRMeshAttributesToUpdate_8h_1a1a1e303a886d5efb59fdca9ef6bea6f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a1a1e303a886d5efb59fdca9ef6bea6f0" kindref="member">MR_MeshAttributesToUpdate_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRMeshAttributesToUpdate_8h_1a47188d85c78eefc3547e2b3f71b101e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a47188d85c78eefc3547e2b3f71b101e0" kindref="member">MR_MeshAttributesToUpdate_AssignFromAnother</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="138" refid="MRMeshAttributesToUpdate_8h_1a47188d85c78eefc3547e2b3f71b101e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*<ref refid="MRMeshAttributesToUpdate_8h_1a47188d85c78eefc3547e2b3f71b101e0" kindref="member">MR_MeshAttributesToUpdate_AssignFromAnother</ref>(<ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="141"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshAttributesToUpdate.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshAttributesToUpdate.h"/>
   </compounddef>
 </doxygen>

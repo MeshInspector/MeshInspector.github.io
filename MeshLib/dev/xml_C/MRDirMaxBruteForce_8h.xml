@@ -3,7 +3,7 @@
   <compounddef id="MRDirMaxBruteForce_8h" kind="file" language="C++">
     <compoundname>MRDirMaxBruteForce.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRDirMaxBruteForce.h</label>
@@ -20,22 +20,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -47,16 +58,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR::MinMaxArg&lt;float, MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="12" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="12" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" bodystart="12" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_VertCoords *points, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</name>
@@ -79,10 +90,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="28" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="28" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="28" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="28" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</definition>
         <argsstring>(const MR_Vector2f *dir, const MR_VertCoords2 *points, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</name>
@@ -105,10 +116,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="35" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="35" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="35" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="35" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_PointCloud *cloud, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</name>
@@ -131,10 +142,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="42" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="42" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="42" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="42" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_Polyline3 *polyline)</argsstring>
         <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</name>
@@ -153,10 +164,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="48" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="48" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="48" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</definition>
         <argsstring>(const MR_Vector2f *dir, const MR_Polyline2 *polyline)</argsstring>
         <name>MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</name>
@@ -175,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="54" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="54" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="54" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_MeshPart *mp)</argsstring>
         <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</name>
@@ -197,10 +208,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="60" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="60" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="60" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="60" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
         <definition>MRC_API MR_VertId MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_MeshVertPart *mp)</argsstring>
         <name>MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</name>
@@ -219,10 +230,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="66" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="66" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="66" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="66" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_VertCoords *points, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</name>
@@ -245,10 +256,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="74" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="74" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="74" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="74" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</definition>
         <argsstring>(const MR_Vector2f *dir, const MR_VertCoords2 *points, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</name>
@@ -271,10 +282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="82" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="82" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="82" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="82" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_PointCloud *cloud, const MR_VertBitSet *region)</argsstring>
         <name>MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</name>
@@ -297,10 +308,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="90" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="90" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_Polyline3 *polyline)</argsstring>
         <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</name>
@@ -319,10 +330,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="97" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="97" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="97" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="97" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</definition>
         <argsstring>(const MR_Vector2f *dir, const MR_Polyline2 *polyline)</argsstring>
         <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</name>
@@ -341,10 +352,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="104" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="104" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="104" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="104" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_MeshPart *mp)</argsstring>
         <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</name>
@@ -363,10 +374,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="111" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="111" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="111" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="111" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref> *</type>
         <definition>MRC_API MR_MinMaxArg_float_MR_VertId * MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</definition>
         <argsstring>(const MR_Vector3f *dir, const MR_MeshVertPart *mp)</argsstring>
         <name>MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</name>
@@ -385,7 +396,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" line="118" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h" declline="118" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" line="118" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h" declline="118" declcolumn="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -396,7 +407,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -415,38 +426,38 @@
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="28" refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a0e473319d9baec41494847a7ffa4b10c" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="35" refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aade9d855d88b9cfe618a8fc5b0a5cf93" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42" refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="42" refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aa4d8a492596afad45e21b9a9a54adb0f" kindref="member">MR_findDirMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="48" refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1aab8edf2867f650886a6f67fc3dd820cb" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="54" refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a9198aa6b2c495f70e74aba326fdeb0d7" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="60" refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a62970c4a679da81e3fa97f24daeaca1f" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="66" refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a8dcd5381876b749046b4bfd60b4d767c" kindref="member">MR_findDirMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="74" refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a66f17a8aa0b2e55f66ee2fbaea673859" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_VertCoords</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="82" refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5ef6c262f6f4f73a18919a31c6c4b3d2" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1ae385080e7b7a68ff32f8d03ae2d70a7a" kindref="member">MR_VertCoords2</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
+<codeline lineno="90" refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a5fcf323791a7b348906a0051e95e50ee" kindref="member">MR_findDirMinMaxBruteForce_3_const_MR_Vector3f_ref_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="97" refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a6cda86cd830ccd00eea6443059a4eed3" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="104" refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ac4c1cd37a1a7c580eca77b355a54a371" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector2f_ref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="111" refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1a8b40b7640da6ee9dbff7b5bbd8469c36" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="118" refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMaxBruteForce_8h_1a17053ed9ad2431bc5c202e9135ddb2c6" kindref="member">MR_MinMaxArg_float_MR_VertId</ref><sp/>*<ref refid="MRDirMaxBruteForce_8h_1ad249213eb36ebcfade3d0970df57aa00" kindref="member">MR_findDirMinMaxBruteForce_2_const_MR_Vector3f_ref_MR_MeshVertPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*mp);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDirMaxBruteForce.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDirMaxBruteForce.h"/>
   </compounddef>
 </doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolyline2Collide_8h" kind="file" language="C++">
     <compoundname>MRPolyline2Collide.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stdbool.h</label>
@@ -29,10 +30,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores two objects: <computeroutput>MR::UndirectedEdgeBitSet</computeroutput> and <computeroutput>MR::UndirectedEdgeBitSet</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="14" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="14" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" prot="public" static="no">
         <type>struct <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref></type>
@@ -42,10 +44,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::EdgePointPair&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="15" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="15" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" prot="public" static="no">
         <type>struct <ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref></type>
@@ -55,15 +58,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::UndirectedEdgeUndirectedEdge&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="16" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="16" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" bodystart="16" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolyline2Collide_8h_1a20ba9ec87092f11fb5f302b24d29a21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_findCollidingEdgePairs</definition>
         <argsstring>(const MR_Polyline2 *a, const MR_Polyline2 *b, const MR_AffineXf2f *rigidB2A, const bool *firstIntersectionOnly)</argsstring>
         <name>MR_findCollidingEdgePairs</name>
@@ -100,7 +104,7 @@
 <parametername>firstIntersectionOnly</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <computeroutput>MR::findCollidingEdgePairs</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_EdgePointPair_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <computeroutput>MR::findCollidingEdgePairs</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" kindref="member">MR_std_vector_MR_EdgePointPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -108,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="30" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="30" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="30" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="30" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1a8f549f2cd1d36d5c738a6b7da7651d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_UndirectedEdgeUndirectedEdge * MR_findCollidingEdges</definition>
         <argsstring>(const MR_Polyline2 *a, const MR_Polyline2 *b, const MR_AffineXf2f *rigidB2A, const bool *firstIntersectionOnly)</argsstring>
         <name>MR_findCollidingEdges</name>
@@ -148,7 +152,7 @@
 <parametername>firstIntersectionOnly</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <computeroutput>MR::findCollidingEdges</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if true then the function returns at most one pair of intersecting edges and returns faster Generated from function <computeroutput>MR::findCollidingEdges</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UndirectedEdgeUndirectedEdge_8h_1a1b491e36dd03e2e6e391ab3f8be5dfdb" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -156,10 +160,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="43" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="43" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="43" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="43" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1ae2ed7ef488e4e9c7494a8ab1fc992195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolyline2Collide_8h_1a60f9673a333a0f76aee9330f73231f88" kindref="member">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a60f9673a333a0f76aee9330f73231f88" kindref="member">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</ref> *</type>
         <definition>MRC_API MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet * MR_findCollidingEdgesBitsets</definition>
         <argsstring>(const MR_Polyline2 *a, const MR_Polyline2 *b, const MR_AffineXf2f *rigidB2A)</argsstring>
         <name>MR_findCollidingEdgesBitsets</name>
@@ -184,7 +188,7 @@
 <parametername>rigidB2A</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <computeroutput>MR::findCollidingEdgesBitsets</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>rigid transformation from B-polyline space to A polyline space, nullptr considered as identity transformation Generated from function <computeroutput>MR::findCollidingEdgesBitsets</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__UndirectedEdgeBitSet__MR__UndirectedEdgeBitSet_8h_1a47c4b734351b10d7bb5c09f5d87d8274" kindref="member">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -192,10 +196,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="54" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="54" declcolumn="69"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="54" column="69" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="54" declcolumn="69"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1ae065af9a1f90f06f5624c49e4369ac31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_EdgePointPair * MR_findSelfCollidingEdgePairs</definition>
         <argsstring>(const MR_Polyline2 *polyline)</argsstring>
         <name>MR_findSelfCollidingEdgePairs</name>
@@ -206,14 +210,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds all pairs of colliding edges from 2d polyline Generated from function <computeroutput>MR::findSelfCollidingEdgePairs</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_EdgePointPair_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds all pairs of colliding edges from 2d polyline Generated from function <computeroutput>MR::findSelfCollidingEdgePairs</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgePointPair_8h_1a9f76c34e8453c3cec4a07a698ba02db2" kindref="member">MR_std_vector_MR_EdgePointPair_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="60" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="60" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="60" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="60" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1a3b83250ae6df33ae67aa9f220ff9eb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_UndirectedEdgeUndirectedEdge * MR_findSelfCollidingEdges</definition>
         <argsstring>(const MR_Polyline2 *polyline)</argsstring>
         <name>MR_findSelfCollidingEdges</name>
@@ -224,14 +228,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds all pairs of colliding edges from 2d polyline Generated from function <computeroutput>MR::findSelfCollidingEdges</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds all pairs of colliding edges from 2d polyline Generated from function <computeroutput>MR::findSelfCollidingEdges</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UndirectedEdgeUndirectedEdge_8h_1a1b491e36dd03e2e6e391ab3f8be5dfdb" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="66" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="66" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="66" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="66" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1ad39ab97f133d6631f771ad3cda2c0b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeBitSet * MR_findSelfCollidingEdgesBS</definition>
         <argsstring>(const MR_Polyline2 *polyline)</argsstring>
         <name>MR_findSelfCollidingEdgesBS</name>
@@ -246,10 +250,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="72" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="72" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="72" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="72" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPolyline2Collide_8h_1a55873a96b499d2ba198c3f5062425466" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isInside_MR_Polyline2</definition>
         <argsstring>(const MR_Polyline2 *a, const MR_Polyline2 *b, const MR_AffineXf2f *rigidB2A)</argsstring>
         <name>MR_isInside_MR_Polyline2</name>
@@ -282,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h" declline="82" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" line="82" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h" declline="82" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -292,7 +296,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -308,24 +312,24 @@
 <codeline lineno="16" refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref><sp/><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_UndirectedEdgeUndirectedEdge.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPolyline2Collide_8h_1a20ba9ec87092f11fb5f302b24d29a21c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a20ba9ec87092f11fb5f302b24d29a21c" kindref="member">MR_findCollidingEdgePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
+<codeline lineno="30" refid="MRPolyline2Collide_8h_1a20ba9ec87092f11fb5f302b24d29a21c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a20ba9ec87092f11fb5f302b24d29a21c" kindref="member">MR_findCollidingEdgePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRPolyline2Collide_8h_1a8f549f2cd1d36d5c738a6b7da7651d4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a8f549f2cd1d36d5c738a6b7da7651d4b" kindref="member">MR_findCollidingEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
+<codeline lineno="43" refid="MRPolyline2Collide_8h_1a8f549f2cd1d36d5c738a6b7da7651d4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a8f549f2cd1d36d5c738a6b7da7651d4b" kindref="member">MR_findCollidingEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRPolyline2Collide_8h_1ae2ed7ef488e4e9c7494a8ab1fc992195" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolyline2Collide_8h_1a60f9673a333a0f76aee9330f73231f88" kindref="member">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ae2ed7ef488e4e9c7494a8ab1fc992195" kindref="member">MR_findCollidingEdgesBitsets</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="54" refid="MRPolyline2Collide_8h_1ae2ed7ef488e4e9c7494a8ab1fc992195" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a60f9673a333a0f76aee9330f73231f88" kindref="member">MR_std_pair_MR_UndirectedEdgeBitSet_MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ae2ed7ef488e4e9c7494a8ab1fc992195" kindref="member">MR_findCollidingEdgesBitsets</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPolyline2Collide_8h_1ae065af9a1f90f06f5624c49e4369ac31" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ae065af9a1f90f06f5624c49e4369ac31" kindref="member">MR_findSelfCollidingEdgePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="60" refid="MRPolyline2Collide_8h_1ae065af9a1f90f06f5624c49e4369ac31" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a16dbe8a297e2f481482a3bd2ece49784" kindref="member">MR_std_vector_MR_EdgePointPair</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ae065af9a1f90f06f5624c49e4369ac31" kindref="member">MR_findSelfCollidingEdgePairs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRPolyline2Collide_8h_1a3b83250ae6df33ae67aa9f220ff9eb7c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a3b83250ae6df33ae67aa9f220ff9eb7c" kindref="member">MR_findSelfCollidingEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="66" refid="MRPolyline2Collide_8h_1a3b83250ae6df33ae67aa9f220ff9eb7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolyline2Collide_8h_1a8ba1668c6e6178919f5be18a2d94cbe2" kindref="member">MR_std_vector_MR_UndirectedEdgeUndirectedEdge</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1a3b83250ae6df33ae67aa9f220ff9eb7c" kindref="member">MR_findSelfCollidingEdges</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRPolyline2Collide_8h_1ad39ab97f133d6631f771ad3cda2c0b04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ad39ab97f133d6631f771ad3cda2c0b04" kindref="member">MR_findSelfCollidingEdgesBS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
+<codeline lineno="72" refid="MRPolyline2Collide_8h_1ad39ab97f133d6631f771ad3cda2c0b04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolyline2Collide_8h_1ad39ab97f133d6631f771ad3cda2c0b04" kindref="member">MR_findSelfCollidingEdgesBS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="82" refid="MRPolyline2Collide_8h_1a55873a96b499d2ba198c3f5062425466" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a55873a96b499d2ba198c3f5062425466" kindref="member">MR_isInside_MR_Polyline2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="82" refid="MRPolyline2Collide_8h_1a55873a96b499d2ba198c3f5062425466" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPolyline2Collide_8h_1a55873a96b499d2ba198c3f5062425466" kindref="member">MR_isInside_MR_Polyline2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf2f" kindref="compound">MR_AffineXf2f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolyline2Collide.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolyline2Collide.h"/>
   </compounddef>
 </doxygen>

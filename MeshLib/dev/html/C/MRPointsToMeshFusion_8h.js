@@ -1,9 +1,6 @@
 var MRPointsToMeshFusion_8h =
 [
     [ "MR_PointsToMeshParameters", "MRPointsToMeshFusion_8h.html#ad87c5191463fedf3c7383ddbcb57f085", null ],
-    [ "MR_std_function_bool_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref", "MRPointsToMeshFusion_8h.html#aeeeb6c5bdb7d63d48e26ab2edd8116ab", null ],
-    [ "MR_std_function_expected_MR_SimpleVolumeMinMax_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref", "MRPointsToMeshFusion_8h.html#a4ef68edfc3c352c52516512b5c094a04", null ],
-    [ "MR_std_function_expected_void_std_string_from_const_MR_PointCloud_ref_const_MR_PointsToDistanceVolumeParams_ref_std_function_expected_void_std_string_func_from_const_MR_SimpleVolumeMinMax_ref_int_int", "MRPointsToMeshFusion_8h.html#af0700ba8b4cc1879efcb8b2d8e5e8166", null ],
     [ "MR_pointsToMeshFusion", "MRPointsToMeshFusion_8h.html#abd4eb307824b69a55471aee7577fee54", null ],
     [ "MR_PointsToMeshParameters_AssignFromAnother", "MRPointsToMeshFusion_8h.html#add793906d9d533ce958c7abde23211a8", null ],
     [ "MR_PointsToMeshParameters_ConstructFrom", "MRPointsToMeshFusion_8h.html#aac106060658669cc7b6d96ca9a3b89cc", null ],

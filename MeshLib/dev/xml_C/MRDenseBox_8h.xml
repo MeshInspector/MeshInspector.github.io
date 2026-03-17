@@ -3,7 +3,7 @@
   <compounddef id="MRDenseBox_8h" kind="file" language="C++">
     <compoundname>MRDenseBox.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -56,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" prot="public" static="no">
         <type>struct <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref></type>
@@ -67,16 +78,16 @@
         </briefdescription>
         <detaileddescription>
 <para>Structure to hold and work with dense box</para>
-<para>Scalar operations that are not provided in this struct can be called via <computeroutput>box()</computeroutput> For example <computeroutput>box().size()</computeroutput>, <computeroutput>box().diagonal()</computeroutput> or <computeroutput>box().volume()</computeroutput> Non const operations are not allowed for dense box because it can spoil density Generated from class <computeroutput>MR::DenseBox</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Scalar operations that are not provided in this struct can be called via <computeroutput>box()</computeroutput> For example <computeroutput>box().size()</computeroutput>, <computeroutput>box().diagonal()</computeroutput> or <computeroutput>box().volume()</computeroutput> Non const operations are not allowed for dense box because it can spoil density Generated from class <computeroutput>MR::DenseBox</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="29" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" bodystart="29" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="29" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRDenseBox_8h_1a0a8fb1b1a6ae347090eedf3f4b82a1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_ConstructFromAnother</definition>
         <argsstring>(const MR_DenseBox *_other)</argsstring>
         <name>MR_DenseBox_ConstructFromAnother</name>
@@ -91,10 +102,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="35" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="35" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1af68fc517c1bb93f270ecdaec5e43ca18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API const MR_DenseBox * MR_DenseBox_OffsetPtr</definition>
         <argsstring>(const MR_DenseBox *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DenseBox_OffsetPtr</name>
@@ -113,10 +124,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="39" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="39" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="39" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="39" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1aae03e319a52f918d6f4c5ba3418d0359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_OffsetMutablePtr</definition>
         <argsstring>(MR_DenseBox *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DenseBox_OffsetMutablePtr</name>
@@ -135,10 +146,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="43" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="43" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a4eda671a22ed4c607437f2c642e33f51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_Construct_2_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *points, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_DenseBox_Construct_2_std_vector_MR_Vector3f</name>
@@ -157,10 +168,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="52" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="52" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="52" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="52" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a3b1590429e30debe71a5e5ff6c7b6cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_Construct_3</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *points, const MR_std_vector_float *weights, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_DenseBox_Construct_3</name>
@@ -183,10 +194,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="63" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="63" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="63" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="63" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a06f6a54b4f505d8bdb0ecb7f57a6e5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_Construct_2_MR_MeshPart</definition>
         <argsstring>(const MR_MeshPart *meshPart, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_DenseBox_Construct_2_MR_MeshPart</name>
@@ -205,10 +216,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="72" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="72" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="72" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="72" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a3ec38dd2c288b37950383c8c5f1a0f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_Construct_2_MR_PointCloud</definition>
         <argsstring>(const MR_PointCloud *points, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_DenseBox_Construct_2_MR_PointCloud</name>
@@ -227,10 +238,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="81" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="81" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1aa1000040986ac875bf56205678779499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_Construct_2_MR_Polyline3</definition>
         <argsstring>(const MR_Polyline3 *line, const MR_AffineXf3f *xf)</argsstring>
         <name>MR_DenseBox_Construct_2_MR_Polyline3</name>
@@ -249,10 +260,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="90" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="90" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1adbc1846ea7a4ae82cd6e6609137b5205" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DenseBox_Destroy</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_Destroy</name>
@@ -267,10 +278,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="93" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="93" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="93" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1afbbb4319d47ed53ceea1cf04f564f68c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DenseBox_DestroyArray</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_DestroyArray</name>
@@ -285,10 +296,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="96" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1ac9d33fd8fb7910cbaef717b9f2122317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref> *</type>
         <definition>MRC_API MR_DenseBox * MR_DenseBox_AssignFromAnother</definition>
         <argsstring>(MR_DenseBox *_this, const MR_DenseBox *_other)</argsstring>
         <name>MR_DenseBox_AssignFromAnother</name>
@@ -307,10 +318,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="104" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="104" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="104" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1ad6ee4f2b74328c1de15115aa7dca0eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
         <definition>MRC_API MR_Vector3f MR_DenseBox_center</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_center</name>
@@ -325,10 +336,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="109" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="109" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="109" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="109" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a9fe82cf805636c5685a271c1a3cfd3b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
         <definition>MRC_API MR_Vector3f MR_DenseBox_corner</definition>
         <argsstring>(const MR_DenseBox *_this, const MR_Vector3b *index)</argsstring>
         <name>MR_DenseBox_corner</name>
@@ -347,10 +358,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="116" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="116" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="116" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="116" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1aab8c46d37e231e46f506fc9d73888f40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_DenseBox_contains</definition>
         <argsstring>(const MR_DenseBox *_this, const MR_Vector3f *pt)</argsstring>
         <name>MR_DenseBox_contains</name>
@@ -369,10 +380,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a830166abdaed7fef3a1439d0b8e4b785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
         <definition>MRC_API const MR_Box3f * MR_DenseBox_box</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_box</name>
@@ -387,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="128" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="128" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="128" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="128" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a29c942b7c818516423f002176860eb01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API const MR_AffineXf3f * MR_DenseBox_basisXf</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_basisXf</name>
@@ -405,10 +416,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="134" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="134" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="134" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="134" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRDenseBox_8h_1a85f83f6270cc2ae1d2544f16f08e0128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
         <definition>MRC_API const MR_AffineXf3f * MR_DenseBox_basisXfInv</definition>
         <argsstring>(const MR_DenseBox *_this)</argsstring>
         <name>MR_DenseBox_basisXfInv</name>
@@ -423,7 +434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h" declline="140" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h" declline="140" declcolumn="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -434,7 +445,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -455,44 +466,44 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29" refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref>;</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRDenseBox_8h_1a0a8fb1b1a6ae347090eedf3f4b82a1a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a0a8fb1b1a6ae347090eedf3f4b82a1a2" kindref="member">MR_DenseBox_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="35" refid="MRDenseBox_8h_1a0a8fb1b1a6ae347090eedf3f4b82a1a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a0a8fb1b1a6ae347090eedf3f4b82a1a2" kindref="member">MR_DenseBox_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRDenseBox_8h_1af68fc517c1bb93f270ecdaec5e43ca18" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1af68fc517c1bb93f270ecdaec5e43ca18" kindref="member">MR_DenseBox_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="39" refid="MRDenseBox_8h_1af68fc517c1bb93f270ecdaec5e43ca18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1af68fc517c1bb93f270ecdaec5e43ca18" kindref="member">MR_DenseBox_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRDenseBox_8h_1aae03e319a52f918d6f4c5ba3418d0359" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1aae03e319a52f918d6f4c5ba3418d0359" kindref="member">MR_DenseBox_OffsetMutablePtr</ref>(<ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="43" refid="MRDenseBox_8h_1aae03e319a52f918d6f4c5ba3418d0359" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1aae03e319a52f918d6f4c5ba3418d0359" kindref="member">MR_DenseBox_OffsetMutablePtr</ref>(<ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRDenseBox_8h_1a4eda671a22ed4c607437f2c642e33f51" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a4eda671a22ed4c607437f2c642e33f51" kindref="member">MR_DenseBox_Construct_2_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="52" refid="MRDenseBox_8h_1a4eda671a22ed4c607437f2c642e33f51" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a4eda671a22ed4c607437f2c642e33f51" kindref="member">MR_DenseBox_Construct_2_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRDenseBox_8h_1a3b1590429e30debe71a5e5ff6c7b6cf1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a3b1590429e30debe71a5e5ff6c7b6cf1" kindref="member">MR_DenseBox_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*weights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="63" refid="MRDenseBox_8h_1a3b1590429e30debe71a5e5ff6c7b6cf1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a3b1590429e30debe71a5e5ff6c7b6cf1" kindref="member">MR_DenseBox_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*weights,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRDenseBox_8h_1a06f6a54b4f505d8bdb0ecb7f57a6e5c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a06f6a54b4f505d8bdb0ecb7f57a6e5c8" kindref="member">MR_DenseBox_Construct_2_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="72" refid="MRDenseBox_8h_1a06f6a54b4f505d8bdb0ecb7f57a6e5c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a06f6a54b4f505d8bdb0ecb7f57a6e5c8" kindref="member">MR_DenseBox_Construct_2_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*meshPart,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRDenseBox_8h_1a3ec38dd2c288b37950383c8c5f1a0f3e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a3ec38dd2c288b37950383c8c5f1a0f3e" kindref="member">MR_DenseBox_Construct_2_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="81" refid="MRDenseBox_8h_1a3ec38dd2c288b37950383c8c5f1a0f3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1a3ec38dd2c288b37950383c8c5f1a0f3e" kindref="member">MR_DenseBox_Construct_2_MR_PointCloud</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRDenseBox_8h_1aa1000040986ac875bf56205678779499" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1aa1000040986ac875bf56205678779499" kindref="member">MR_DenseBox_Construct_2_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="90" refid="MRDenseBox_8h_1aa1000040986ac875bf56205678779499" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1aa1000040986ac875bf56205678779499" kindref="member">MR_DenseBox_Construct_2_MR_Polyline3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRDenseBox_8h_1adbc1846ea7a4ae82cd6e6609137b5205" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1adbc1846ea7a4ae82cd6e6609137b5205" kindref="member">MR_DenseBox_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93" refid="MRDenseBox_8h_1adbc1846ea7a4ae82cd6e6609137b5205" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1adbc1846ea7a4ae82cd6e6609137b5205" kindref="member">MR_DenseBox_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRDenseBox_8h_1afbbb4319d47ed53ceea1cf04f564f68c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1afbbb4319d47ed53ceea1cf04f564f68c" kindref="member">MR_DenseBox_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRDenseBox_8h_1afbbb4319d47ed53ceea1cf04f564f68c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1afbbb4319d47ed53ceea1cf04f564f68c" kindref="member">MR_DenseBox_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRDenseBox_8h_1ac9d33fd8fb7910cbaef717b9f2122317" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1ac9d33fd8fb7910cbaef717b9f2122317" kindref="member">MR_DenseBox_AssignFromAnother</ref>(<ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="104" refid="MRDenseBox_8h_1ac9d33fd8fb7910cbaef717b9f2122317" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*<ref refid="MRDenseBox_8h_1ac9d33fd8fb7910cbaef717b9f2122317" kindref="member">MR_DenseBox_AssignFromAnother</ref>(<ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRDenseBox_8h_1ad6ee4f2b74328c1de15115aa7dca0eb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRDenseBox_8h_1ad6ee4f2b74328c1de15115aa7dca0eb5" kindref="member">MR_DenseBox_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109" refid="MRDenseBox_8h_1ad6ee4f2b74328c1de15115aa7dca0eb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRDenseBox_8h_1ad6ee4f2b74328c1de15115aa7dca0eb5" kindref="member">MR_DenseBox_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRDenseBox_8h_1a9fe82cf805636c5685a271c1a3cfd3b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRDenseBox_8h_1a9fe82cf805636c5685a271c1a3cfd3b5" kindref="member">MR_DenseBox_corner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3b" kindref="compound">MR_Vector3b</ref><sp/>*index);</highlight></codeline>
+<codeline lineno="116" refid="MRDenseBox_8h_1a9fe82cf805636c5685a271c1a3cfd3b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRDenseBox_8h_1a9fe82cf805636c5685a271c1a3cfd3b5" kindref="member">MR_DenseBox_corner</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3b" kindref="compound">MR_Vector3b</ref><sp/>*index);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRDenseBox_8h_1aab8c46d37e231e46f506fc9d73888f40" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1aab8c46d37e231e46f506fc9d73888f40" kindref="member">MR_DenseBox_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pt);</highlight></codeline>
+<codeline lineno="122" refid="MRDenseBox_8h_1aab8c46d37e231e46f506fc9d73888f40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1aab8c46d37e231e46f506fc9d73888f40" kindref="member">MR_DenseBox_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*pt);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRDenseBox_8h_1a830166abdaed7fef3a1439d0b8e4b785" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a830166abdaed7fef3a1439d0b8e4b785" kindref="member">MR_DenseBox_box</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128" refid="MRDenseBox_8h_1a830166abdaed7fef3a1439d0b8e4b785" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a830166abdaed7fef3a1439d0b8e4b785" kindref="member">MR_DenseBox_box</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="134" refid="MRDenseBox_8h_1a29c942b7c818516423f002176860eb01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a29c942b7c818516423f002176860eb01" kindref="member">MR_DenseBox_basisXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134" refid="MRDenseBox_8h_1a29c942b7c818516423f002176860eb01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a29c942b7c818516423f002176860eb01" kindref="member">MR_DenseBox_basisXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRDenseBox_8h_1a85f83f6270cc2ae1d2544f16f08e0128" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a85f83f6270cc2ae1d2544f16f08e0128" kindref="member">MR_DenseBox_basisXfInv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRDenseBox_8h_1a85f83f6270cc2ae1d2544f16f08e0128" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*<ref refid="MRDenseBox_8h_1a85f83f6270cc2ae1d2544f16f08e0128" kindref="member">MR_DenseBox_basisXfInv</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDenseBox_8h_1ae7778a16236736a19339c616bdf70a01" kindref="member">MR_DenseBox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDenseBox.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRDenseBox.h"/>
   </compounddef>
 </doxygen>

@@ -3,7 +3,7 @@
   <compounddef id="MRMovementBuildBody_8h" kind="file" language="C++">
     <compoundname>MRMovementBuildBody.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="2">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -53,16 +64,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::MovementBuildBodyParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::MovementBuildBodyParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="21" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="21" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_MovementBuildBodyParams_Get_allowRotation</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_allowRotation</name>
@@ -77,10 +88,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="30" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="30" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="30" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="30" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_allowRotation</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, bool value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_allowRotation</name>
@@ -99,10 +110,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="38" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="38" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_MovementBuildBodyParams_GetMutable_allowRotation</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_allowRotation</name>
@@ -117,10 +128,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="47" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_center</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_center</name>
@@ -135,10 +146,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="55" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="55" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="55" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="55" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_center</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_center</name>
@@ -157,10 +168,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="64" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="64" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_center</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_center</name>
@@ -175,10 +186,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="72" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="72" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="72" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="72" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_bodyNormal</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_bodyNormal</name>
@@ -193,10 +204,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="80" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="80" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="80" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="80" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_bodyNormal</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_bodyNormal</name>
@@ -215,10 +226,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="89" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="89" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_bodyNormal</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_bodyNormal</name>
@@ -233,10 +244,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="97" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="97" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="97" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="97" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_Get_bodyUpDir</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_bodyUpDir</name>
@@ -251,10 +262,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="105" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="105" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="105" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="105" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_bodyUpDir</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_Vector3f *value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_bodyUpDir</name>
@@ -273,10 +284,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="114" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="114" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_optional_MR_Vector3f * MR_MovementBuildBodyParams_GetMutable_bodyUpDir</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_bodyUpDir</name>
@@ -291,10 +302,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="122" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="122" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="122" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="122" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *const *</type>
         <definition>MRC_API const MR_std_vector_std_vector_MR_Vector3f *const  * MR_MovementBuildBodyParams_Get_trajectoryNormals</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_trajectoryNormals</name>
@@ -309,10 +320,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="130" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="130" declcolumn="58"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="130" column="58" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="130" declcolumn="58"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_trajectoryNormals</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_std_vector_std_vector_MR_Vector3f *value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_trajectoryNormals</name>
@@ -331,10 +342,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="138" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="138" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> **</type>
         <definition>MRC_API const MR_std_vector_std_vector_MR_Vector3f ** MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</name>
@@ -349,10 +360,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="146" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="146" declcolumn="52"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="146" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="146" declcolumn="52"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
         <definition>MRC_API const MR_AffineXf3f *const  * MR_MovementBuildBodyParams_Get_b2tXf</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_b2tXf</name>
@@ -367,10 +378,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="153" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="153" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="153" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="153" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_b2tXf</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_AffineXf3f *value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_b2tXf</name>
@@ -389,10 +400,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
         <definition>MRC_API const MR_AffineXf3f ** MR_MovementBuildBodyParams_GetMutable_b2tXf</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_b2tXf</name>
@@ -407,10 +418,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="167" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="167" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="167" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="167" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_MovementBuildBodyParams_Get_startMeshFromBody</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Get_startMeshFromBody</name>
@@ -425,10 +436,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="174" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="174" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="174" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="174" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Set_startMeshFromBody</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, bool value)</argsstring>
         <name>MR_MovementBuildBodyParams_Set_startMeshFromBody</name>
@@ -447,10 +458,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="180" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="180" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</name>
@@ -465,10 +476,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="187" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="187" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MovementBuildBodyParams_DefaultConstruct</name>
@@ -482,10 +493,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="191" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="191" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="191" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="191" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MovementBuildBodyParams_DefaultConstructArray</name>
@@ -500,10 +511,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="196" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="196" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="196" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="196" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_ConstructFrom</definition>
         <argsstring>(bool allowRotation, const MR_Vector3f *center, const MR_Vector3f *bodyNormal, const MR_Vector3f *bodyUpDir, const MR_std_vector_std_vector_MR_Vector3f *trajectoryNormals, const MR_AffineXf3f *b2tXf, bool startMeshFromBody)</argsstring>
         <name>MR_MovementBuildBodyParams_ConstructFrom</name>
@@ -542,10 +553,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="209" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="209" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API const MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_OffsetPtr</definition>
         <argsstring>(const MR_MovementBuildBodyParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MovementBuildBodyParams_OffsetPtr</name>
@@ -564,10 +575,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="213" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="213" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="213" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="213" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_OffsetMutablePtr</definition>
         <argsstring>(MR_MovementBuildBodyParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MovementBuildBodyParams_OffsetMutablePtr</name>
@@ -586,10 +597,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="217" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="217" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="217" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="217" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_ConstructFromAnother</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_other)</argsstring>
         <name>MR_MovementBuildBodyParams_ConstructFromAnother</name>
@@ -604,10 +615,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="223" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="223" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="223" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="223" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_Destroy</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_Destroy</name>
@@ -622,10 +633,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="226" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="226" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MovementBuildBodyParams_DestroyArray</definition>
         <argsstring>(const MR_MovementBuildBodyParams *_this)</argsstring>
         <name>MR_MovementBuildBodyParams_DestroyArray</name>
@@ -640,10 +651,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="229" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="229" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref> *</type>
         <definition>MRC_API MR_MovementBuildBodyParams * MR_MovementBuildBodyParams_AssignFromAnother</definition>
         <argsstring>(MR_MovementBuildBodyParams *_this, const MR_MovementBuildBodyParams *_other)</argsstring>
         <name>MR_MovementBuildBodyParams_AssignFromAnother</name>
@@ -662,10 +673,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="237" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="237" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="237" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="237" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API MR_Mesh * MR_makeMovementBuildBody</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *body, const MR_std_vector_std_vector_MR_Vector3f *trajectory, const MR_MovementBuildBodyParams *params)</argsstring>
         <name>MR_makeMovementBuildBody</name>
@@ -688,7 +699,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" line="247" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h" declline="247" declcolumn="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" line="247" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h" declline="247" declcolumn="17"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -699,7 +710,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -716,72 +727,72 @@
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" kindref="member">MR_MovementBuildBodyParams_Get_allowRotation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a4e85ed2c6ce184544231ff5deb416ef8" kindref="member">MR_MovementBuildBodyParams_Get_allowRotation</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" kindref="member">MR_MovementBuildBodyParams_Set_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="38" refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aa7768150fdf0ee27f6dfce8a65541795" kindref="member">MR_MovementBuildBodyParams_Set_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" kindref="member">MR_MovementBuildBodyParams_GetMutable_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a984974d82555e7f85bb7105171100fa0" kindref="member">MR_MovementBuildBodyParams_GetMutable_allowRotation</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55" refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" kindref="member">MR_MovementBuildBodyParams_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55" refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6326bf565e4741adeaaa905c14f13365" kindref="member">MR_MovementBuildBodyParams_Get_center</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" kindref="member">MR_MovementBuildBodyParams_Set_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="64" refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a81fedbe80f61ad55a7e36ef75ded1391" kindref="member">MR_MovementBuildBodyParams_Set_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72" refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" kindref="member">MR_MovementBuildBodyParams_GetMutable_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72" refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74a1e92f1287aab76e072eef765aa82b" kindref="member">MR_MovementBuildBodyParams_GetMutable_center</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="73"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" kindref="member">MR_MovementBuildBodyParams_Get_bodyNormal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80" refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1afc11c8bf1d9371aca6db294bd73cb167" kindref="member">MR_MovementBuildBodyParams_Get_bodyNormal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" kindref="member">MR_MovementBuildBodyParams_Set_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="89" refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a353bbbeb969675d39611aebc306f4b89" kindref="member">MR_MovementBuildBodyParams_Set_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="97" refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a108bf6eacd1befbe137796fdf06a4407" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyNormal</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105" refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" kindref="member">MR_MovementBuildBodyParams_Get_bodyUpDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="105" refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a781a577a47f1c855100a93caf8b55cee" kindref="member">MR_MovementBuildBodyParams_Get_bodyUpDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
-<codeline lineno="114" refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" kindref="member">MR_MovementBuildBodyParams_Set_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="114" refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a9ccf79d6de27e3aa9ce58aa2ed0ee7f2" kindref="member">MR_MovementBuildBodyParams_Set_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122" refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a5c7e91d11b038315c0503df15b512997" kindref="member">MR_std_optional_MR_Vector3f</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a74524d04269973f6d464b99537b24bfc" kindref="member">MR_MovementBuildBodyParams_GetMutable_bodyUpDir</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="130" refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" kindref="member">MR_MovementBuildBodyParams_Get_trajectoryNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130" refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a34d9259c1af845dbbf035423ab612eba" kindref="member">MR_MovementBuildBodyParams_Get_trajectoryNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="131"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" kindref="member">MR_MovementBuildBodyParams_Set_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="138" refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1afa2939952b9a9391d41b20229205e9ff" kindref="member">MR_MovementBuildBodyParams_Set_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" kindref="member">MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146" refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a9b03d003a3817154b1987a730e764178" kindref="member">MR_MovementBuildBodyParams_GetMutable_trajectoryNormals</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" kindref="member">MR_MovementBuildBodyParams_Get_b2tXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a87618c8e5e84f98210c716b06f97e17d" kindref="member">MR_MovementBuildBodyParams_Get_b2tXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" kindref="member">MR_MovementBuildBodyParams_Set_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="160" refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0d2ad4439fb12166d0b0c2d4da13bc76" kindref="member">MR_MovementBuildBodyParams_Set_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" kindref="member">MR_MovementBuildBodyParams_GetMutable_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167" refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRMovementBuildBody_8h_1a4b86a1dc41d28b4df2f278031bdd8e1b" kindref="member">MR_MovementBuildBodyParams_GetMutable_b2tXf</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" kindref="member">MR_MovementBuildBodyParams_Get_startMeshFromBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174" refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1a6d481224e59ee9b1f3d8f056bd7a6fd6" kindref="member">MR_MovementBuildBodyParams_Get_startMeshFromBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" kindref="member">MR_MovementBuildBodyParams_Set_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="180" refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a3b47632ac113f00ed936d34c23edd4c4" kindref="member">MR_MovementBuildBodyParams_Set_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" kindref="member">MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="187" refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMovementBuildBody_8h_1ae510aeeca84e239eb81738b4faa3a3bd" kindref="member">MR_MovementBuildBodyParams_GetMutable_startMeshFromBody</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="191" refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" kindref="member">MR_MovementBuildBodyParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="191" refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1ad662f0a27665299f5215e12b199829af" kindref="member">MR_MovementBuildBodyParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="192"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" kindref="member">MR_MovementBuildBodyParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="196" refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a68beee92d0431d9d036afbea5e991e25" kindref="member">MR_MovementBuildBodyParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="209" refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" kindref="member">MR_MovementBuildBodyParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowRotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*center,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyNormal,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyUpDir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectoryNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*b2tXf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>startMeshFromBody);</highlight></codeline>
+<codeline lineno="209" refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a779242db15b766fadfdde87e7450088e" kindref="member">MR_MovementBuildBodyParams_ConstructFrom</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowRotation,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*center,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyNormal,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*bodyUpDir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectoryNormals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*b2tXf,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>startMeshFromBody);</highlight></codeline>
 <codeline lineno="210"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" kindref="member">MR_MovementBuildBodyParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="213" refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a82c9fbb4f6096e052635a2f4862bce81" kindref="member">MR_MovementBuildBodyParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" kindref="member">MR_MovementBuildBodyParams_OffsetMutablePtr</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="217" refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a16ff06766a35c7c90480ec797bd88390" kindref="member">MR_MovementBuildBodyParams_OffsetMutablePtr</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" kindref="member">MR_MovementBuildBodyParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="223" refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a6bca662c5e647d8c9a6914f78500565f" kindref="member">MR_MovementBuildBodyParams_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226" refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1aed062124fe36110596a38f9b6662598a" kindref="member">MR_MovementBuildBodyParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" kindref="member">MR_MovementBuildBodyParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229" refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a0e2292b0fa29af8e6d218b9064bcc85e" kindref="member">MR_MovementBuildBodyParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" kindref="member">MR_MovementBuildBodyParams_AssignFromAnother</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="237" refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a665a6082c4a080d2bc82bb6f9a8898fa" kindref="member">MR_MovementBuildBodyParams_AssignFromAnother</ref>(<ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" kindref="member">MR_makeMovementBuildBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*body,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectory,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="247" refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMovementBuildBody_8h_1a20045f48aabd261707d7e4b679d1601c" kindref="member">MR_makeMovementBuildBody</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*body,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*trajectory,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMovementBuildBody_8h_1a5375b087a5cfb0fe16c5886caedd5172" kindref="member">MR_MovementBuildBodyParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="250"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMovementBuildBody.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMovementBuildBody.h"/>
   </compounddef>
 </doxygen>

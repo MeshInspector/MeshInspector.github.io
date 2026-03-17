@@ -1,6 +1,5 @@
 var MRTetrisNesting_8h =
 [
-    [ "MR_expected_MR_Vector_MR_AffineXf3f_MR_ObjId_std_string", "MRTetrisNesting_8h.html#aef42a50c6c47e790ccfdc266949db2bb", null ],
     [ "MR_Nesting_TetrisDensifyOptions", "MRTetrisNesting_8h.html#a4e4a34e2a763e8eae789ffcbe9274456", null ],
     [ "MR_Nesting_TetrisDensifyParams", "MRTetrisNesting_8h.html#ac7f0ce1d53c3b93e1182e5bb5a391df4", null ],
     [ "MR_Nesting_TetrisDensifyOptions_AssignFromAnother", "MRTetrisNesting_8h.html#ae26d9774272cf91bca1688986ef6194c", null ],

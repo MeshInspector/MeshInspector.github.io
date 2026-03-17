@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="structMR__std__array__MR__VertId__2" kind="struct" language="C++" prot="public">
+    <compoundname>MR_std_array_MR_VertId_2</compoundname>
+    <includes refid="std__array__MR__VertId__2_8h" local="no">std_array_MR_VertId_2.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__std__array__MR__VertId__2_1a96bd717037aed39b9cbe0dc8b4a2c510" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MR_VertId MR_std_array_MR_VertId_2::elems[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>elems</name>
+        <qualifiedname>MR_std_array_MR_VertId_2::elems</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_VertId_2.h" line="13" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_VertId_2.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A fixed-size array of <computeroutput>MR::VertId</computeroutput> of size 2. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR_VertId</label>
+        <link refid="structMR__VertId"/>
+      </node>
+      <node id="1">
+        <label>MR_std_array_MR_VertId_2</label>
+        <link refid="structMR__std__array__MR__VertId__2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>elems</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_VertId_2.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_array_MR_VertId_2.h" bodystart="12" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structMR__std__array__MR__VertId__2_1a96bd717037aed39b9cbe0dc8b4a2c510" prot="public" virt="non-virtual"><scope>MR_std_array_MR_VertId_2</scope><name>elems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

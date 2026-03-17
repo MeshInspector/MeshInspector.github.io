@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRStep_8h" kind="file" language="C++">
     <compoundname>MRStep.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -18,6 +18,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stdbool.h</label>
@@ -35,16 +36,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>STEP-specific mesh load parameters Generated from class <computeroutput>MR::MeshLoad::StepLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>STEP-specific mesh load parameters Generated from class <computeroutput>MR::MeshLoad::StepLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="21" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="21" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" bodystart="21" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_MeshLoad_StepLoadSettings_Get_angularDeflection</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Get_angularDeflection</name>
@@ -59,10 +60,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="28" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="28" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="28" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="28" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshLoad_StepLoadSettings_Set_angularDeflection</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this, double value)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Set_angularDeflection</name>
@@ -81,10 +82,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="34" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="34" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="34" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</name>
@@ -99,10 +100,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="41" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="41" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="41" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="41" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1acc2c2e69b0c60f595b3e3b2f769503ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
         <definition>MRC_API const double * MR_MeshLoad_StepLoadSettings_Get_linearDeflection</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Get_linearDeflection</name>
@@ -117,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="48" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="48" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="48" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="48" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a6bac305667e1689248a1c25865761da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshLoad_StepLoadSettings_Set_linearDeflection</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this, double value)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Set_linearDeflection</name>
@@ -139,10 +140,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a760fd54e5a3499949a2b9b3fa79a58c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
         <definition>MRC_API double * MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection</name>
@@ -157,10 +158,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="61" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="61" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="61" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="61" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a8f2bd131c692902d71a81b66974a9011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_MeshLoad_StepLoadSettings_Get_relative</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Get_relative</name>
@@ -175,10 +176,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="68" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="68" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1aed876a0bc6ade2c102c0584fe442f28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshLoad_StepLoadSettings_Set_relative</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this, bool value)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Set_relative</name>
@@ -197,10 +198,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a5fb0b54ca9df08b87aca202875574efd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_MeshLoad_StepLoadSettings_GetMutable_relative</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_GetMutable_relative</name>
@@ -215,10 +216,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_DefaultConstruct</name>
@@ -232,10 +233,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="85" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="85" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="85" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="85" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_DefaultConstructArray</name>
@@ -250,10 +251,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="90" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="90" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="90" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a01af270075f92ca319a88e275f24a793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_ConstructFrom</definition>
         <argsstring>(double angularDeflection, double linearDeflection, bool relative)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_ConstructFrom</name>
@@ -276,10 +277,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="95" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="95" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="95" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="95" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a895994da323c9f103fa9e43193be480c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API const MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_OffsetPtr</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_OffsetPtr</name>
@@ -298,10 +299,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="99" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="99" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="99" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="99" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</name>
@@ -320,10 +321,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="103" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="103" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="103" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="103" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_other)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_ConstructFromAnother</name>
@@ -338,10 +339,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="109" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="109" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="109" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="109" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshLoad_StepLoadSettings_Destroy</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_Destroy</name>
@@ -356,10 +357,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="112" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="112" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1ae4789a595b27bdb3aab2a9be6cc78fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshLoad_StepLoadSettings_DestroyArray</definition>
         <argsstring>(const MR_MeshLoad_StepLoadSettings *_this)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_DestroyArray</name>
@@ -374,10 +375,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="115" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="115" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a6d6de11976fcf8020912c8c681cdd620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref> *</type>
         <definition>MRC_API MR_MeshLoad_StepLoadSettings * MR_MeshLoad_StepLoadSettings_AssignFromAnother</definition>
         <argsstring>(MR_MeshLoad_StepLoadSettings *_this, const MR_MeshLoad_StepLoadSettings *_other)</argsstring>
         <name>MR_MeshLoad_StepLoadSettings_AssignFromAnother</name>
@@ -396,10 +397,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="123" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="123" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="123" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="123" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1af81ad6f62d90cb8372f80a92e12c8248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromStep_std_filesystem_path</definition>
         <argsstring>(const char *path, const char *path_end, const MR_MeshLoadSettings *settings, const MR_MeshLoad_StepLoadSettings *stepSettings)</argsstring>
         <name>MR_MeshLoad_fromStep_std_filesystem_path</name>
@@ -422,14 +423,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>load mesh data from STEP file using OpenCASCADE Generated from function <computeroutput>MR::MeshLoad::fromStep</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>load mesh data from STEP file using OpenCASCADE Generated from function <computeroutput>MR::MeshLoad::fromStep</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="133" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="133" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="133" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="133" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1ad07903b1ed1758ca83303fa00c73c01c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_MeshLoad_fromStep_std_istream</definition>
         <argsstring>(MR_std_istream *in, const MR_MeshLoadSettings *settings, const MR_MeshLoad_StepLoadSettings *stepSettings)</argsstring>
         <name>MR_MeshLoad_fromStep_std_istream</name>
@@ -448,14 +449,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshLoad::fromStep</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshLoad::fromStep</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Mesh__std__string_8h_1adf45ed943c3005d85a9baaa15feb26f1" kindref="member">MR_expected_MR_Mesh_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="142" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="142" declcolumn="40"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="142" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="142" declcolumn="40"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1aa42e74b79641f1632ee7a4fc9ef28a0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_shared_ptr_MR_Object_std_string * MR_MeshLoad_fromSceneStepFile_std_filesystem_path</definition>
         <argsstring>(const char *path, const char *path_end, const MR_MeshLoadSettings *settings, const MR_MeshLoad_StepLoadSettings *stepSettings)</argsstring>
         <name>MR_MeshLoad_fromSceneStepFile_std_filesystem_path</name>
@@ -478,14 +479,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>load scene from STEP file using OpenCASCADE Generated from function <computeroutput>MR::MeshLoad::fromSceneStepFile</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>load scene from STEP file using OpenCASCADE Generated from function <computeroutput>MR::MeshLoad::fromSceneStepFile</computeroutput>. Parameter <computeroutput>path</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__shared__ptr__MR__Object__std__string_8h_1aa6d36c9531bbb7edfe2002eda12d472a" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="152" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="152" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="152" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="152" declcolumn="57"/>
       </memberdef>
       <memberdef kind="function" id="MRStep_8h_1a29e642052042fb06fe0bd7b6d7bc39e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_shared_ptr_MR_Object_std_string * MR_MeshLoad_fromSceneStepFile_std_istream</definition>
         <argsstring>(MR_std_istream *in, const MR_MeshLoadSettings *settings, const MR_MeshLoad_StepLoadSettings *stepSettings)</argsstring>
         <name>MR_MeshLoad_fromSceneStepFile_std_istream</name>
@@ -504,11 +505,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::MeshLoad::fromSceneStepFile</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::MeshLoad::fromSceneStepFile</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>stepSettings</computeroutput> is a single object. Parameter <computeroutput>stepSettings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__shared__ptr__MR__Object__std__string_8h_1aa6d36c9531bbb7edfe2002eda12d472a" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" line="161" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h" declline="161" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" line="161" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h" declline="161" declcolumn="57"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -518,7 +519,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -535,54 +536,54 @@
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="21" refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref>;</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" kindref="member">MR_MeshLoad_StepLoadSettings_Get_angularDeflection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28" refid="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a69e4f444cdb1efde0e2786bb78243949" kindref="member">MR_MeshLoad_StepLoadSettings_Get_angularDeflection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" kindref="member">MR_MeshLoad_StepLoadSettings_Set_angularDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="34" refid="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1ac727522ce67d6c6bfe92f70856e56f06" kindref="member">MR_MeshLoad_StepLoadSettings_Set_angularDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41" refid="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1ac2d56670cca34e49b9fd855dffbe24d8" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_angularDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRStep_8h_1acc2c2e69b0c60f595b3e3b2f769503ae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1acc2c2e69b0c60f595b3e3b2f769503ae" kindref="member">MR_MeshLoad_StepLoadSettings_Get_linearDeflection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRStep_8h_1acc2c2e69b0c60f595b3e3b2f769503ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1acc2c2e69b0c60f595b3e3b2f769503ae" kindref="member">MR_MeshLoad_StepLoadSettings_Get_linearDeflection</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRStep_8h_1a6bac305667e1689248a1c25865761da1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1a6bac305667e1689248a1c25865761da1" kindref="member">MR_MeshLoad_StepLoadSettings_Set_linearDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="54" refid="MRStep_8h_1a6bac305667e1689248a1c25865761da1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1a6bac305667e1689248a1c25865761da1" kindref="member">MR_MeshLoad_StepLoadSettings_Set_linearDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRStep_8h_1a760fd54e5a3499949a2b9b3fa79a58c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a760fd54e5a3499949a2b9b3fa79a58c3" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61" refid="MRStep_8h_1a760fd54e5a3499949a2b9b3fa79a58c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a760fd54e5a3499949a2b9b3fa79a58c3" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_linearDeflection</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRStep_8h_1a8f2bd131c692902d71a81b66974a9011" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a8f2bd131c692902d71a81b66974a9011" kindref="member">MR_MeshLoad_StepLoadSettings_Get_relative</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68" refid="MRStep_8h_1a8f2bd131c692902d71a81b66974a9011" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a8f2bd131c692902d71a81b66974a9011" kindref="member">MR_MeshLoad_StepLoadSettings_Get_relative</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRStep_8h_1aed876a0bc6ade2c102c0584fe442f28d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1aed876a0bc6ade2c102c0584fe442f28d" kindref="member">MR_MeshLoad_StepLoadSettings_Set_relative</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74" refid="MRStep_8h_1aed876a0bc6ade2c102c0584fe442f28d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1aed876a0bc6ade2c102c0584fe442f28d" kindref="member">MR_MeshLoad_StepLoadSettings_Set_relative</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRStep_8h_1a5fb0b54ca9df08b87aca202875574efd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a5fb0b54ca9df08b87aca202875574efd" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_relative</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRStep_8h_1a5fb0b54ca9df08b87aca202875574efd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRStep_8h_1a5fb0b54ca9df08b87aca202875574efd" kindref="member">MR_MeshLoad_StepLoadSettings_GetMutable_relative</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" kindref="member">MR_MeshLoad_StepLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85" refid="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a44ab227c5ea60609df575f9a2190b66c" kindref="member">MR_MeshLoad_StepLoadSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" kindref="member">MR_MeshLoad_StepLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="90" refid="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a9022f96a576b969eedd74a68d6b07f00" kindref="member">MR_MeshLoad_StepLoadSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRStep_8h_1a01af270075f92ca319a88e275f24a793" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a01af270075f92ca319a88e275f24a793" kindref="member">MR_MeshLoad_StepLoadSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>angularDeflection,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>linearDeflection,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>relative);</highlight></codeline>
+<codeline lineno="95" refid="MRStep_8h_1a01af270075f92ca319a88e275f24a793" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a01af270075f92ca319a88e275f24a793" kindref="member">MR_MeshLoad_StepLoadSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>angularDeflection,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>linearDeflection,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>relative);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="99" refid="MRStep_8h_1a895994da323c9f103fa9e43193be480c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a895994da323c9f103fa9e43193be480c" kindref="member">MR_MeshLoad_StepLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="99" refid="MRStep_8h_1a895994da323c9f103fa9e43193be480c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a895994da323c9f103fa9e43193be480c" kindref="member">MR_MeshLoad_StepLoadSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" kindref="member">MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="103" refid="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a233005ba4bcaa0ad831b66f97425f270" kindref="member">MR_MeshLoad_StepLoadSettings_OffsetMutablePtr</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" kindref="member">MR_MeshLoad_StepLoadSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="109" refid="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1ac70c990a35c19e2c002eab1c66f388c3" kindref="member">MR_MeshLoad_StepLoadSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112" refid="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" kindref="member">MR_MeshLoad_StepLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="112" refid="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1aa870a078a2cb0e58f7c320de2e0e247c" kindref="member">MR_MeshLoad_StepLoadSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRStep_8h_1ae4789a595b27bdb3aab2a9be6cc78fea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1ae4789a595b27bdb3aab2a9be6cc78fea" kindref="member">MR_MeshLoad_StepLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115" refid="MRStep_8h_1ae4789a595b27bdb3aab2a9be6cc78fea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1ae4789a595b27bdb3aab2a9be6cc78fea" kindref="member">MR_MeshLoad_StepLoadSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRStep_8h_1a6d6de11976fcf8020912c8c681cdd620" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a6d6de11976fcf8020912c8c681cdd620" kindref="member">MR_MeshLoad_StepLoadSettings_AssignFromAnother</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="123" refid="MRStep_8h_1a6d6de11976fcf8020912c8c681cdd620" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*<ref refid="MRStep_8h_1a6d6de11976fcf8020912c8c681cdd620" kindref="member">MR_MeshLoad_StepLoadSettings_AssignFromAnother</ref>(<ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRStep_8h_1af81ad6f62d90cb8372f80a92e12c8248" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRStep_8h_1af81ad6f62d90cb8372f80a92e12c8248" kindref="member">MR_MeshLoad_fromStep_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
+<codeline lineno="133" refid="MRStep_8h_1af81ad6f62d90cb8372f80a92e12c8248" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRStep_8h_1af81ad6f62d90cb8372f80a92e12c8248" kindref="member">MR_MeshLoad_fromStep_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRStep_8h_1ad07903b1ed1758ca83303fa00c73c01c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRStep_8h_1ad07903b1ed1758ca83303fa00c73c01c" kindref="member">MR_MeshLoad_fromStep_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
+<codeline lineno="142" refid="MRStep_8h_1ad07903b1ed1758ca83303fa00c73c01c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRStep_8h_1ad07903b1ed1758ca83303fa00c73c01c" kindref="member">MR_MeshLoad_fromStep_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRStep_8h_1aa42e74b79641f1632ee7a4fc9ef28a0c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/>*<ref refid="MRStep_8h_1aa42e74b79641f1632ee7a4fc9ef28a0c" kindref="member">MR_MeshLoad_fromSceneStepFile_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
+<codeline lineno="152" refid="MRStep_8h_1aa42e74b79641f1632ee7a4fc9ef28a0c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/>*<ref refid="MRStep_8h_1aa42e74b79641f1632ee7a4fc9ef28a0c" kindref="member">MR_MeshLoad_fromSceneStepFile_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRStep_8h_1a29e642052042fb06fe0bd7b6d7bc39e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/>*<ref refid="MRStep_8h_1a29e642052042fb06fe0bd7b6d7bc39e5" kindref="member">MR_MeshLoad_fromSceneStepFile_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
+<codeline lineno="161" refid="MRStep_8h_1a29e642052042fb06fe0bd7b6d7bc39e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRGltf_8h_1a8376c5a9f4fe1df0fd35390100143238" kindref="member">MR_expected_std_shared_ptr_MR_Object_std_string</ref><sp/>*<ref refid="MRStep_8h_1a29e642052042fb06fe0bd7b6d7bc39e5" kindref="member">MR_MeshLoad_fromSceneStepFile_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a616a0b042e712074c2ed4013f47fa0af" kindref="member">MR_MeshLoadSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRStep_8h_1acc87a50ccb0fce6322dd9a0b5696aa4c" kindref="member">MR_MeshLoad_StepLoadSettings</ref><sp/>*stepSettings);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="164"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRStep.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRStep.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,1613 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__AABBTreePoints__Node_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_AABBTreePoints_Node.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_AABBTreePoints_Node.h</label>
+        <link refid="std__vector__MR__AABBTreePoints__Node_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a0807feb46c771832e48316fc1e26e114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a206c4ff1d821d7dba7a8594ed74a7489" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="30" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="30" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1aed56d94959ee574f9e36b079a480d637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aed863f1beb08f184436abc2640c09f86" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0c2d97825dcf3c22a4b168ea3e0dc2d6" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1af70768935e599f55412088ba09f41170" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="35" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="35" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a4c32c0059dc6db4038df32e7e11ca5b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_AABBTreePoints_Node *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a206c4ff1d821d7dba7a8594ed74a7489" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="41" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="41" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a48173a6ef84309cc3e029684404775a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, MR_PassBy other_pass_by, MR_std_vector_MR_AABBTreePoints_Node *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a206c4ff1d821d7dba7a8594ed74a7489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1aed863f1beb08f184436abc2640c09f86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1af70768935e599f55412088ba09f41170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="57" column="52" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="57" declcolumn="52"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a0c2d97825dcf3c22a4b168ea3e0dc2d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="61" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="61" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a548c20c1910babaa1fca77253a1b9d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AABBTreePoints_Node_size</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_size</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1acf7343dd0c3f61b99bb261968fa907b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AABBTreePoints_Node_empty</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_empty</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ae72f965ea1d1b5721a2c4c3f4f5f60c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_resize</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_resize</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a0f7daf958349ec08de4ccaef9d177ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t new_size, const MR_AABBTreePoints_Node *value)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a96c49099e6ed539adb7f9e1a2425e0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_clear</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_clear</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1abae4c1b236b60e52366f9973c841b00d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_AABBTreePoints_Node_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_capacity</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1abaf6769ebdb41b11b381b019e44dbdcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_reserve</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_reserve</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ae79782f39cf712d843592408949c6a14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ab6cc10b27f6b844c3d87fe1dd3a14280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API const MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_at</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_at</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="101" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="101" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a209da59ed06c646f9412e4ff35325e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_at_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="107" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="107" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a5a0bf74b4f044e74eeb69aac9c42b140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API const MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_front</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_front</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="112" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="112" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a91a0ef7a86454e82058ac74175e8dba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_front_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="117" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="117" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a443a054472e71b02944b3ef6b832dde2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API const MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_back</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_back</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="122" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="122" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a5cc9a9e44628a380e5d9c07e2413c5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_back_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="127" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="127" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a289e779a3ffe3d472933f82ef45f2d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_push_back</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_AABBTreePoints_Node *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_push_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a780109197990746a993e5fbb76078db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_pop_back</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a777bfbd38b2b0af8aa0714eb1e5a1c59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_insert</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t position, const MR_AABBTreePoints_Node *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_insert</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a83d43eed619fdeb8a21e5fcd1d34f5c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_erase</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_erase</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a0456cf01d4487cd937cb61e50ef08967" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *position, const MR_AABBTreePoints_Node *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1acb5148fc0456f7f7d65c1b9e9adef816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a7abc78e64b764b631cc0fa7332766f78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *position, const MR_AABBTreePoints_Node *new_elem)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a704094bdac9f2fba341f384cbf4a9799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a47dd23ca19c24ea48ac9f72c31bff511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="177" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="177" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1af69efd80b2bd9193e9f0b59e1ff53cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AABBTreePoints_Node_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_is_begin</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ad7011ab94f727a40f5398f108a23362b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_begin_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="188" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="188" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1afd4df426a6191ee90ff144ca0d625fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AABBTreePoints_Node_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a07f6dc52f330996d1b61f6c83a9b4486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_end</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="199" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="199" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a138724747a8391c7d663d68a3fb34413" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AABBTreePoints_Node_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_is_end</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a160f71912013c7dc1bc426fd0f3219b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_end_mut</name>
+        <param>
+          <type><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="210" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="210" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a1cd153db1943ecf6973b3fb8001435ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_AABBTreePoints_Node_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a6306577400fd2644e37f025da9e70844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Node_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_to_index</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a7cddbaf621c53cb17dfbb626425d9170" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_AABBTreePoints_Node_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1aedd62e7adbd4f53efb47e19840050730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="229" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="229" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ac42675f79da4d1fc6dac81ccb179adf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a2252163f25017779e0ef2cf2e5aed6d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a98cdcfc9ddbcfa7b28767ba29805f488" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1abc3cbcf5c8b780fbdbec47064cd075ae" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="234" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="234" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ab00d4105de78d9377025a3d9b4f27496" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="241" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="241" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a00e21a459463c66cf26fe244bea829a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a2252163f25017779e0ef2cf2e5aed6d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1abc3cbcf5c8b780fbdbec47064cd075ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="258" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="258" declcolumn="67"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a98cdcfc9ddbcfa7b28767ba29805f488" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="262" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="262" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a34f4365eaf6f48b56488374ab5aff095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_const_iterator * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="267" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="267" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1aa159000dfc9458fb5e79c47434e5be40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="271" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="271" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a33c1bdb90c6bd2936e524e84a4e9a9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a4f118d4eb8fc910c2785ea1b0c042db1" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a9bdd0e175b6158de8b991aa4275ea9dd" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a1a870f3f2fded726bc78d17c13b1e9f3" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="276" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="276" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1aae0a1882dc94495a6cf669240515114b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="283" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="283" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ae1d178eab1972df5f0343bc7cd08e194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_iterator *_this, const MR_std_vector_MR_AABBTreePoints_Node_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a4f118d4eb8fc910c2785ea1b0c042db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a1a870f3f2fded726bc78d17c13b1e9f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="300" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="300" declcolumn="61"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a9bdd0e175b6158de8b991aa4275ea9dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_AABBTreePoints_Node_iterator * MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="304" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="304" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a641396a9bf2fce4a936b8e6e9dba1c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API const MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="310" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="310" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a1129c692914d486817b9278e7aaf9ad7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ad7e0ff4aee1b4e9a6a4abd05b8a20beb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a20d4bc20975e615a1989b031b948a046" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a14d9d722523045c7c0dbf20d8ef88c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *a, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a3182667e5b032f9f3e8876615d0ed8f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *a, const MR_std_vector_MR_AABBTreePoints_Node_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a3e339232da27c4ab6d68020adbecc85b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref> *</type>
+        <definition>MRC_API MR_AABBTreePoints_Node * MR_std_vector_MR_AABBTreePoints_Node_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="338" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="338" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a656186aa8e38c0ba703674320a74b576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a0df737c344372bba94ce5b156eb9c712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a05836b8399886bdb4cfef126e5022cf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_AABBTreePoints_Node_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_AABBTreePoints_Node_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_AABBTreePoints_Node_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1ae4259d1adef172df29a7e13351f216c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_AABBTreePoints_Node_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *a, const MR_std_vector_MR_AABBTreePoints_Node_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_AABBTreePoints_Node_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__AABBTreePoints__Node_8h_1a65f7d1c038a6a63b841bfaa06d3f42a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_AABBTreePoints_Node_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_AABBTreePoints_Node_iterator *a, const MR_std_vector_MR_AABBTreePoints_Node_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_AABBTreePoints_Node_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAABBTreePoints.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__AABBTreePoints__Node_8h_1a0807feb46c771832e48316fc1e26e114" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0807feb46c771832e48316fc1e26e114" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__AABBTreePoints__Node_8h_1aed56d94959ee574f9e36b079a480d637" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aed56d94959ee574f9e36b079a480d637" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__AABBTreePoints__Node_8h_1a4c32c0059dc6db4038df32e7e11ca5b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a4c32c0059dc6db4038df32e7e11ca5b4" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__AABBTreePoints__Node_8h_1a48173a6ef84309cc3e029684404775a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a48173a6ef84309cc3e029684404775a2" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_AssignFromAnother</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__AABBTreePoints__Node_8h_1a206c4ff1d821d7dba7a8594ed74a7489" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a206c4ff1d821d7dba7a8594ed74a7489" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__AABBTreePoints__Node_8h_1aed863f1beb08f184436abc2640c09f86" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aed863f1beb08f184436abc2640c09f86" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__AABBTreePoints__Node_8h_1af70768935e599f55412088ba09f41170" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1af70768935e599f55412088ba09f41170" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__AABBTreePoints__Node_8h_1a0c2d97825dcf3c22a4b168ea3e0dc2d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0c2d97825dcf3c22a4b168ea3e0dc2d6" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__AABBTreePoints__Node_8h_1a548c20c1910babaa1fca77253a1b9d0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a548c20c1910babaa1fca77253a1b9d0b" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__AABBTreePoints__Node_8h_1acf7343dd0c3f61b99bb261968fa907b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1acf7343dd0c3f61b99bb261968fa907b6" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__AABBTreePoints__Node_8h_1ae72f965ea1d1b5721a2c4c3f4f5f60c2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae72f965ea1d1b5721a2c4c3f4f5f60c2" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_resize</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__AABBTreePoints__Node_8h_1a0f7daf958349ec08de4ccaef9d177ca1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0f7daf958349ec08de4ccaef9d177ca1" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_resize_with_default_value</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__AABBTreePoints__Node_8h_1a96c49099e6ed539adb7f9e1a2425e0bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a96c49099e6ed539adb7f9e1a2425e0bb" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_clear</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__AABBTreePoints__Node_8h_1abae4c1b236b60e52366f9973c841b00d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1abae4c1b236b60e52366f9973c841b00d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__AABBTreePoints__Node_8h_1abaf6769ebdb41b11b381b019e44dbdcb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1abaf6769ebdb41b11b381b019e44dbdcb" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_reserve</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__AABBTreePoints__Node_8h_1ae79782f39cf712d843592408949c6a14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae79782f39cf712d843592408949c6a14" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_shrink_to_fit</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__AABBTreePoints__Node_8h_1ab6cc10b27f6b844c3d87fe1dd3a14280" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ab6cc10b27f6b844c3d87fe1dd3a14280" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__AABBTreePoints__Node_8h_1a209da59ed06c646f9412e4ff35325e8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a209da59ed06c646f9412e4ff35325e8f" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_at_mut</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__AABBTreePoints__Node_8h_1a5a0bf74b4f044e74eeb69aac9c42b140" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a5a0bf74b4f044e74eeb69aac9c42b140" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__AABBTreePoints__Node_8h_1a91a0ef7a86454e82058ac74175e8dba8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a91a0ef7a86454e82058ac74175e8dba8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_front_mut</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__AABBTreePoints__Node_8h_1a443a054472e71b02944b3ef6b832dde2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a443a054472e71b02944b3ef6b832dde2" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__AABBTreePoints__Node_8h_1a5cc9a9e44628a380e5d9c07e2413c5bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a5cc9a9e44628a380e5d9c07e2413c5bb" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_back_mut</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__AABBTreePoints__Node_8h_1a289e779a3ffe3d472933f82ef45f2d1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a289e779a3ffe3d472933f82ef45f2d1c" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_push_back</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__AABBTreePoints__Node_8h_1a780109197990746a993e5fbb76078db0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a780109197990746a993e5fbb76078db0" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_pop_back</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__AABBTreePoints__Node_8h_1a777bfbd38b2b0af8aa0714eb1e5a1c59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a777bfbd38b2b0af8aa0714eb1e5a1c59" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_insert</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__AABBTreePoints__Node_8h_1a83d43eed619fdeb8a21e5fcd1d34f5c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a83d43eed619fdeb8a21e5fcd1d34f5c7" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_erase</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__AABBTreePoints__Node_8h_1a0456cf01d4487cd937cb61e50ef08967" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0456cf01d4487cd937cb61e50ef08967" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_insert_at_mutable_iter</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__AABBTreePoints__Node_8h_1acb5148fc0456f7f7d65c1b9e9adef816" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1acb5148fc0456f7f7d65c1b9e9adef816" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_erase_at_mutable_iter</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__AABBTreePoints__Node_8h_1a7abc78e64b764b631cc0fa7332766f78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a7abc78e64b764b631cc0fa7332766f78" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_insert_at_iter</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__AABBTreePoints__Node_8h_1a704094bdac9f2fba341f384cbf4a9799" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a704094bdac9f2fba341f384cbf4a9799" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_erase_at_iter</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__AABBTreePoints__Node_8h_1a47dd23ca19c24ea48ac9f72c31bff511" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a47dd23ca19c24ea48ac9f72c31bff511" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__AABBTreePoints__Node_8h_1af69efd80b2bd9193e9f0b59e1ff53cfb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1af69efd80b2bd9193e9f0b59e1ff53cfb" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__AABBTreePoints__Node_8h_1ad7011ab94f727a40f5398f108a23362b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ad7011ab94f727a40f5398f108a23362b" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_begin_mut</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__AABBTreePoints__Node_8h_1afd4df426a6191ee90ff144ca0d625fb5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1afd4df426a6191ee90ff144ca0d625fb5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__AABBTreePoints__Node_8h_1a07f6dc52f330996d1b61f6c83a9b4486" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a07f6dc52f330996d1b61f6c83a9b4486" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__AABBTreePoints__Node_8h_1a138724747a8391c7d663d68a3fb34413" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a138724747a8391c7d663d68a3fb34413" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__AABBTreePoints__Node_8h_1a160f71912013c7dc1bc426fd0f3219b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a160f71912013c7dc1bc426fd0f3219b0" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_end_mut</ref>(<ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__AABBTreePoints__Node_8h_1a1cd153db1943ecf6973b3fb8001435ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a1cd153db1943ecf6973b3fb8001435ac" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__AABBTreePoints__Node_8h_1a6306577400fd2644e37f025da9e70844" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a6306577400fd2644e37f025da9e70844" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__AABBTreePoints__Node_8h_1a7cddbaf621c53cb17dfbb626425d9170" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a7cddbaf621c53cb17dfbb626425d9170" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1af19b9ebdffbc43050206cd40814569a5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__AABBTreePoints__Node_8h_1aedd62e7adbd4f53efb47e19840050730" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aedd62e7adbd4f53efb47e19840050730" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__AABBTreePoints__Node_8h_1ac42675f79da4d1fc6dac81ccb179adf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ac42675f79da4d1fc6dac81ccb179adf9" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__AABBTreePoints__Node_8h_1ab00d4105de78d9377025a3d9b4f27496" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ab00d4105de78d9377025a3d9b4f27496" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__AABBTreePoints__Node_8h_1a00e21a459463c66cf26fe244bea829a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a00e21a459463c66cf26fe244bea829a8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a35cf8e033f0e0cc23d65ea8b4bb27393" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__AABBTreePoints__Node_8h_1a2252163f25017779e0ef2cf2e5aed6d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a2252163f25017779e0ef2cf2e5aed6d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__AABBTreePoints__Node_8h_1abc3cbcf5c8b780fbdbec47064cd075ae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1abc3cbcf5c8b780fbdbec47064cd075ae" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__AABBTreePoints__Node_8h_1a98cdcfc9ddbcfa7b28767ba29805f488" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a98cdcfc9ddbcfa7b28767ba29805f488" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__AABBTreePoints__Node_8h_1a34f4365eaf6f48b56488374ab5aff095" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a34f4365eaf6f48b56488374ab5aff095" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__AABBTreePoints__Node_8h_1aa159000dfc9458fb5e79c47434e5be40" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aa159000dfc9458fb5e79c47434e5be40" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__AABBTreePoints__Node_8h_1a33c1bdb90c6bd2936e524e84a4e9a9f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a33c1bdb90c6bd2936e524e84a4e9a9f6" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__AABBTreePoints__Node_8h_1aae0a1882dc94495a6cf669240515114b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1aae0a1882dc94495a6cf669240515114b" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__AABBTreePoints__Node_8h_1ae1d178eab1972df5f0343bc7cd08e194" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae1d178eab1972df5f0343bc7cd08e194" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae32f030e8f0c58803e6d58582a07e701" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__AABBTreePoints__Node_8h_1a4f118d4eb8fc910c2785ea1b0c042db1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a4f118d4eb8fc910c2785ea1b0c042db1" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__AABBTreePoints__Node_8h_1a1a870f3f2fded726bc78d17c13b1e9f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a1a870f3f2fded726bc78d17c13b1e9f3" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__AABBTreePoints__Node_8h_1a9bdd0e175b6158de8b991aa4275ea9dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a9bdd0e175b6158de8b991aa4275ea9dd" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__AABBTreePoints__Node_8h_1a641396a9bf2fce4a936b8e6e9dba1c69" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a641396a9bf2fce4a936b8e6e9dba1c69" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__AABBTreePoints__Node_8h_1a1129c692914d486817b9278e7aaf9ad7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a1129c692914d486817b9278e7aaf9ad7" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__AABBTreePoints__Node_8h_1ad7e0ff4aee1b4e9a6a4abd05b8a20beb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ad7e0ff4aee1b4e9a6a4abd05b8a20beb" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__AABBTreePoints__Node_8h_1a20d4bc20975e615a1989b031b948a046" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a20d4bc20975e615a1989b031b948a046" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__AABBTreePoints__Node_8h_1a14d9d722523045c7c0dbf20d8ef88c98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a14d9d722523045c7c0dbf20d8ef88c98" kindref="member">MR_sub_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__AABBTreePoints__Node_8h_1a3182667e5b032f9f3e8876615d0ed8f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a3182667e5b032f9f3e8876615d0ed8f7" kindref="member">MR_equal_MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a1f49f7cf898db1ccf583e47e95afb21d" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__AABBTreePoints__Node_8h_1a3e339232da27c4ab6d68020adbecc85b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePoints_8h_1aed23cf43b6fbab4bac207419ea0d1d7a" kindref="member">MR_AABBTreePoints_Node</ref><sp/>*<ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a3e339232da27c4ab6d68020adbecc85b" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__AABBTreePoints__Node_8h_1a656186aa8e38c0ba703674320a74b576" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a656186aa8e38c0ba703674320a74b576" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_incr</ref>(<ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__AABBTreePoints__Node_8h_1a0df737c344372bba94ce5b156eb9c712" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a0df737c344372bba94ce5b156eb9c712" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_decr</ref>(<ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__AABBTreePoints__Node_8h_1a05836b8399886bdb4cfef126e5022cf5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a05836b8399886bdb4cfef126e5022cf5" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__AABBTreePoints__Node_8h_1ae4259d1adef172df29a7e13351f216c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1ae4259d1adef172df29a7e13351f216c8" kindref="member">MR_sub_MR_std_vector_MR_AABBTreePoints_Node_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__AABBTreePoints__Node_8h_1a65f7d1c038a6a63b841bfaa06d3f42a5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__AABBTreePoints__Node_8h_1a65f7d1c038a6a63b841bfaa06d3f42a5" kindref="member">MR_equal_MR_std_vector_MR_AABBTreePoints_Node_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a0eb3161d6b658b908f836867b13553d8" kindref="member">MR_std_vector_MR_AABBTreePoints_Node_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_AABBTreePoints_Node.h"/>
+  </compounddef>
+</doxygen>

@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRCloudPartMapping_8h" kind="file" language="C++">
     <compoundname>MRCloudPartMapping.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -29,16 +30,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::CloudPartMapping</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::CloudPartMapping</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="17" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="17" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
         <definition>MRC_API MR_VertMap *const  * MR_CloudPartMapping_Get_src2tgtVerts</definition>
         <argsstring>(const MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_Get_src2tgtVerts</name>
@@ -53,10 +54,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="24" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="24" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="24" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="24" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_CloudPartMapping_Set_src2tgtVerts</definition>
         <argsstring>(MR_CloudPartMapping *_this, MR_VertMap *value)</argsstring>
         <name>MR_CloudPartMapping_Set_src2tgtVerts</name>
@@ -75,10 +76,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="31" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="31" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="31" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="31" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
         <definition>MRC_API MR_VertMap ** MR_CloudPartMapping_GetMutable_src2tgtVerts</definition>
         <argsstring>(MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_GetMutable_src2tgtVerts</name>
@@ -93,10 +94,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="38" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="38" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="38" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="38" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
         <definition>MRC_API MR_VertMap *const  * MR_CloudPartMapping_Get_tgt2srcVerts</definition>
         <argsstring>(const MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_Get_tgt2srcVerts</name>
@@ -111,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="45" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="45" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="45" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="45" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_CloudPartMapping_Set_tgt2srcVerts</definition>
         <argsstring>(MR_CloudPartMapping *_this, MR_VertMap *value)</argsstring>
         <name>MR_CloudPartMapping_Set_tgt2srcVerts</name>
@@ -133,10 +134,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="52" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="52" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="52" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
         <definition>MRC_API MR_VertMap ** MR_CloudPartMapping_GetMutable_tgt2srcVerts</definition>
         <argsstring>(MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_GetMutable_tgt2srcVerts</name>
@@ -151,10 +152,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="59" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="59" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="59" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_CloudPartMapping_DefaultConstruct</name>
@@ -168,10 +169,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="63" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="63" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="63" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="63" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a99612ba94d3df9c931703bb029ee9dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_CloudPartMapping_DefaultConstructArray</name>
@@ -186,10 +187,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="68" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="68" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="68" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="68" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a149e38231341929491f6342587c53234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_ConstructFrom</definition>
         <argsstring>(MR_VertMap *src2tgtVerts, MR_VertMap *tgt2srcVerts)</argsstring>
         <name>MR_CloudPartMapping_ConstructFrom</name>
@@ -208,10 +209,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="75" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="75" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="75" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="75" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a566b03db023f218c86100c174c692eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API const MR_CloudPartMapping * MR_CloudPartMapping_OffsetPtr</definition>
         <argsstring>(const MR_CloudPartMapping *ptr, ptrdiff_t i)</argsstring>
         <name>MR_CloudPartMapping_OffsetPtr</name>
@@ -230,10 +231,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="79" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="79" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="79" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="79" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a42b9dd612e2c03774f1a5311634fb210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_OffsetMutablePtr</definition>
         <argsstring>(MR_CloudPartMapping *ptr, ptrdiff_t i)</argsstring>
         <name>MR_CloudPartMapping_OffsetMutablePtr</name>
@@ -252,10 +253,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="83" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="83" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="83" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="83" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1afea363b39c7bd1d770323a893de06bf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_ConstructFromAnother</definition>
         <argsstring>(const MR_CloudPartMapping *_other)</argsstring>
         <name>MR_CloudPartMapping_ConstructFromAnother</name>
@@ -270,10 +271,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="89" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="89" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="89" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="89" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a9acc2596fa81b26c5274c935ebde595c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_CloudPartMapping_Destroy</definition>
         <argsstring>(const MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_Destroy</name>
@@ -288,10 +289,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a4038ab3f0789fdc178297cf7f88badd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_CloudPartMapping_DestroyArray</definition>
         <argsstring>(const MR_CloudPartMapping *_this)</argsstring>
         <name>MR_CloudPartMapping_DestroyArray</name>
@@ -306,10 +307,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRCloudPartMapping_8h_1a2e6542ae0a1174eb415fd721bf459ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref> *</type>
         <definition>MRC_API MR_CloudPartMapping * MR_CloudPartMapping_AssignFromAnother</definition>
         <argsstring>(MR_CloudPartMapping *_this, const MR_CloudPartMapping *_other)</argsstring>
         <name>MR_CloudPartMapping_AssignFromAnother</name>
@@ -328,7 +329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" line="103" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h" declline="103" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" line="103" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h" declline="103" declcolumn="29"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -338,7 +339,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -353,45 +354,45 @@
 <codeline lineno="17" refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref>;</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" kindref="member">MR_CloudPartMapping_Get_src2tgtVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="24" refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a91187b54f56384bf6ff7e614ba30cd20" kindref="member">MR_CloudPartMapping_Get_src2tgtVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="31" refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" kindref="member">MR_CloudPartMapping_Set_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="31" refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1afa487af50e518241eda6e0243f9397ef" kindref="member">MR_CloudPartMapping_Set_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from.id<sp/>-&gt;<sp/>this.id,<sp/>efficient<sp/>when<sp/>full<sp/>cloud<sp/>without<sp/>many<sp/>invalid<sp/>points<sp/>is<sp/>added<sp/>into<sp/>another<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" kindref="member">MR_CloudPartMapping_GetMutable_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab2f94722b167d15a641233080fd5d1d1" kindref="member">MR_CloudPartMapping_GetMutable_src2tgtVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" kindref="member">MR_CloudPartMapping_Get_tgt2srcVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45" refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRCloudPartMapping_8h_1a6da777bcc6d272d43462c38b0c2c0a30" kindref="member">MR_CloudPartMapping_Get_tgt2srcVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52" refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" kindref="member">MR_CloudPartMapping_Set_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="52" refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1adc748cfaf3d9cff47a781fcae9599ca9" kindref="member">MR_CloudPartMapping_Set_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>this.id<sp/>-&gt;<sp/>from.id,<sp/>efficient<sp/>when<sp/>any<sp/>cloud<sp/>or<sp/>its<sp/>part<sp/>is<sp/>added<sp/>into<sp/>empty<sp/>cloud</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" kindref="member">MR_CloudPartMapping_GetMutable_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59" refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRCloudPartMapping_8h_1ab6fa6b384fd6ef0ed6ad2a0fd3816577" kindref="member">MR_CloudPartMapping_GetMutable_tgt2srcVerts</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" kindref="member">MR_CloudPartMapping_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63" refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1ac350375addfc6814b92d818a20a7d959" kindref="member">MR_CloudPartMapping_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRCloudPartMapping_8h_1a99612ba94d3df9c931703bb029ee9dba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a99612ba94d3df9c931703bb029ee9dba" kindref="member">MR_CloudPartMapping_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="68" refid="MRCloudPartMapping_8h_1a99612ba94d3df9c931703bb029ee9dba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a99612ba94d3df9c931703bb029ee9dba" kindref="member">MR_CloudPartMapping_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRCloudPartMapping_8h_1a149e38231341929491f6342587c53234" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a149e38231341929491f6342587c53234" kindref="member">MR_CloudPartMapping_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*src2tgtVerts,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*tgt2srcVerts);</highlight></codeline>
+<codeline lineno="75" refid="MRCloudPartMapping_8h_1a149e38231341929491f6342587c53234" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a149e38231341929491f6342587c53234" kindref="member">MR_CloudPartMapping_ConstructFrom</ref>(<ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*src2tgtVerts,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*tgt2srcVerts);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRCloudPartMapping_8h_1a566b03db023f218c86100c174c692eee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a566b03db023f218c86100c174c692eee" kindref="member">MR_CloudPartMapping_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="79" refid="MRCloudPartMapping_8h_1a566b03db023f218c86100c174c692eee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a566b03db023f218c86100c174c692eee" kindref="member">MR_CloudPartMapping_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRCloudPartMapping_8h_1a42b9dd612e2c03774f1a5311634fb210" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a42b9dd612e2c03774f1a5311634fb210" kindref="member">MR_CloudPartMapping_OffsetMutablePtr</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="83" refid="MRCloudPartMapping_8h_1a42b9dd612e2c03774f1a5311634fb210" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a42b9dd612e2c03774f1a5311634fb210" kindref="member">MR_CloudPartMapping_OffsetMutablePtr</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRCloudPartMapping_8h_1afea363b39c7bd1d770323a893de06bf3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1afea363b39c7bd1d770323a893de06bf3" kindref="member">MR_CloudPartMapping_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89" refid="MRCloudPartMapping_8h_1afea363b39c7bd1d770323a893de06bf3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1afea363b39c7bd1d770323a893de06bf3" kindref="member">MR_CloudPartMapping_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRCloudPartMapping_8h_1a9acc2596fa81b26c5274c935ebde595c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1a9acc2596fa81b26c5274c935ebde595c" kindref="member">MR_CloudPartMapping_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRCloudPartMapping_8h_1a9acc2596fa81b26c5274c935ebde595c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1a9acc2596fa81b26c5274c935ebde595c" kindref="member">MR_CloudPartMapping_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRCloudPartMapping_8h_1a4038ab3f0789fdc178297cf7f88badd1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1a4038ab3f0789fdc178297cf7f88badd1" kindref="member">MR_CloudPartMapping_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MRCloudPartMapping_8h_1a4038ab3f0789fdc178297cf7f88badd1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1a4038ab3f0789fdc178297cf7f88badd1" kindref="member">MR_CloudPartMapping_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRCloudPartMapping_8h_1a2e6542ae0a1174eb415fd721bf459ffc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a2e6542ae0a1174eb415fd721bf459ffc" kindref="member">MR_CloudPartMapping_AssignFromAnother</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="103" refid="MRCloudPartMapping_8h_1a2e6542ae0a1174eb415fd721bf459ffc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*<ref refid="MRCloudPartMapping_8h_1a2e6542ae0a1174eb415fd721bf459ffc" kindref="member">MR_CloudPartMapping_AssignFromAnother</ref>(<ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCloudPartMapping_8h_1aaab4a354143c42cc0fd161d1c270cdf5" kindref="member">MR_CloudPartMapping</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRCloudPartMapping.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRCloudPartMapping.h"/>
   </compounddef>
 </doxygen>

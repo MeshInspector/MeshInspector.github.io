@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__ObjectComparableWithReference_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_ObjectComparableWithReference.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_ObjectComparableWithReference.h</label>
+        <link refid="std__shared__ptr__MR__ObjectComparableWithReference_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_ObjectComparableWithReference MR_std_shared_ptr_MR_ObjectComparableWithReference</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::ObjectComparableWithReference</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="20" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a65368c3727f2dd0900b8db84dae3d317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="24" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="24" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1acc81f5ceda216ed4c8acaf7c2c8509f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa2945333e5821388c03284a227ef16bc" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1adfb0e42c99c347cc02d8a7856af3bc3e" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a5383c88101fc760db9efed86715bb7d7" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="29" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="29" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a63e6277ead3046874bf6eea266f5a799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectComparableWithReference *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="35" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="35" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1ad6346324caa5ce1cf6f3107b425c7d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_ObjectComparableWithReference *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa2945333e5821388c03284a227ef16bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a5383c88101fc760db9efed86715bb7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="51" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="51" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1adfb0e42c99c347cc02d8a7856af3bc3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="55" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="55" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aafc9f40f0f1c474adacee7360b6aaa80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="60" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="60" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a560ff772b6a6c3b8509f1532a5576640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_ObjectComparableWithReference_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a1ca7912180bd0f9b148c78c0765c5d5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_ObjectComparableWithReference_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aafc9f40f0f1c474adacee7360b6aaa80" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a6221e2bb3b42b020c88e213ffcb2c6fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7faa1da8284341197cea31d9594aad1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_Construct</definition>
+        <argsstring>(MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_Construct</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectComparableWithReference_8h_1a43ab77009ac794e47b455c291f564dc4" kindref="member">MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="80" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="80" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a09a292c2e5bdc22d5fa2fa680ada3116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *_this, MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRObjectComparableWithReference_8h_1a43ab77009ac794e47b455c291f564dc4" kindref="member">MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a01fc8f6e1a2f2e0485657704f830fb1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructNonOwning</definition>
+        <argsstring>(MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="92" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="92" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa8b31f10fa2b7d4b7fc7035948701657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *_this, MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a430e6a7dae51650e5e66a79e8e16dbc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_ObjectComparableWithReference * MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="105" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="105" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a369cc35ca551e5485943a7bd1ca3df66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_ObjectComparableWithReference *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_ObjectComparableWithReference *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a047349d56fb34bf355b1f4371efc1380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_ObjectComparableWithReference_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="117" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="117" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa5a1c288cde558ab8f6b37f8fd54a52a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_ObjectComparableWithReference *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h" declline="122" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRObjectComparableWithReference.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a65368c3727f2dd0900b8db84dae3d317" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a65368c3727f2dd0900b8db84dae3d317" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1acc81f5ceda216ed4c8acaf7c2c8509f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1acc81f5ceda216ed4c8acaf7c2c8509f6" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a63e6277ead3046874bf6eea266f5a799" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a63e6277ead3046874bf6eea266f5a799" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1ad6346324caa5ce1cf6f3107b425c7d16" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1ad6346324caa5ce1cf6f3107b425c7d16" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1af59f3eb42acaf0937ce5459f89b88f81" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa2945333e5821388c03284a227ef16bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa2945333e5821388c03284a227ef16bc" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a5383c88101fc760db9efed86715bb7d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a5383c88101fc760db9efed86715bb7d7" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1adfb0e42c99c347cc02d8a7856af3bc3e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1adfb0e42c99c347cc02d8a7856af3bc3e" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aafc9f40f0f1c474adacee7360b6aaa80" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aafc9f40f0f1c474adacee7360b6aaa80" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a560ff772b6a6c3b8509f1532a5576640" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a560ff772b6a6c3b8509f1532a5576640" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a1ca7912180bd0f9b148c78c0765c5d5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a1ca7912180bd0f9b148c78c0765c5d5c" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a6221e2bb3b42b020c88e213ffcb2c6fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a6221e2bb3b42b020c88e213ffcb2c6fc" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_reset</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7faa1da8284341197cea31d9594aad1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7faa1da8284341197cea31d9594aad1c" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Construct</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a09a292c2e5bdc22d5fa2fa680ada3116" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a09a292c2e5bdc22d5fa2fa680ada3116" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_Assign</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a01fc8f6e1a2f2e0485657704f830fb1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a01fc8f6e1a2f2e0485657704f830fb1f" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructNonOwning</ref>(<ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa8b31f10fa2b7d4b7fc7035948701657" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa8b31f10fa2b7d4b7fc7035948701657" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a430e6a7dae51650e5e66a79e8e16dbc9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a430e6a7dae51650e5e66a79e8e16dbc9" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a369cc35ca551e5485943a7bd1ca3df66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a369cc35ca551e5485943a7bd1ca3df66" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRDistanceMeasurementObject_8h_1aac0f72690d55f7690795efb3b57df7cf" kindref="member">MR_ObjectComparableWithReference</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a047349d56fb34bf355b1f4371efc1380" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a047349d56fb34bf355b1f4371efc1380" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa5a1c288cde558ab8f6b37f8fd54a52a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1aa5a1c288cde558ab8f6b37f8fd54a52a" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__ObjectComparableWithReference_8h_1a7a1fb490b2fa14aaed7f9dffedd513ca" kindref="member">MR_std_shared_ptr_MR_ObjectComparableWithReference</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_ObjectComparableWithReference.h"/>
+  </compounddef>
+</doxygen>

@@ -3,8 +3,8 @@
   <compounddef id="MRPointsToDistanceVolume_8h" kind="file" language="C++">
     <compoundname>MRPointsToDistanceVolume.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -15,10 +15,24 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="1">
         <label>MRPointsToDistanceVolume.h</label>
@@ -29,74 +43,29 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="4">
-        <label>MRCMisc/exports.h</label>
-      </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
       </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
-    <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_SimpleVolume_std_string MR_expected_MR_SimpleVolume_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_SimpleVolume_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="20" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_VertColors_std_string MR_expected_MR_VertColors_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_VertColors_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="21" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" bodystart="21" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" prot="public" static="no">
-        <type>struct <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref></type>
-        <definition>typedef struct MR_PointsToDistanceVolumeParams MR_PointsToDistanceVolumeParams</definition>
-        <argsstring></argsstring>
-        <name>MR_PointsToDistanceVolumeParams</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para>Generated from class <computeroutput>MR::PointsToDistanceVolumeParams</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::DistanceVolumeParams</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="30" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" bodystart="30" bodyend="-1"/>
-      </memberdef>
-    </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1aacc54cfcedae41375f0e32b43ae783af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToDistanceVolumeParams_Get_sigma</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_sigma</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -106,15 +75,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="38" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="38" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="38" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="38" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a3df388de74a30b56dbf69a5acae793f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_sigma</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, float value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_sigma</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -128,15 +97,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="45" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="45" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a5e30be49bcdd6256e9c24b02540be45b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToDistanceVolumeParams_GetMutable_sigma</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_sigma</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -146,15 +115,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="53" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="53" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="53" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="53" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ae716ab1ae7db859dc03d3ad565ce6a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToDistanceVolumeParams_Get_minWeight</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_minWeight</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -164,15 +133,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="60" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="60" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="60" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1abddfefcba6877b819e4db2c1db2f901f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_minWeight</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, float value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_minWeight</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -186,15 +155,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="66" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="66" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a6e724f5a82032e2aeb1d0df71c949779" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToDistanceVolumeParams_GetMutable_minWeight</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_minWeight</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -204,15 +173,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="73" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="73" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="73" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="73" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a7cd9b6bffc032642a90856f9ea0c41a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PointsToDistanceVolumeParams_Get_invSigmaModifier</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_invSigmaModifier</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -222,15 +191,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="81" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="81" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="81" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ac0694c7b3d25ebc1f3e64715edf35a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_invSigmaModifier</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, float value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_invSigmaModifier</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -244,15 +213,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="88" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="88" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1aea55c70eb62f5d91d432a361fcfb6752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -262,15 +231,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="96" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="96" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="96" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="96" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1af04a80befe81c8788a73be80ba3fa732" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -280,15 +249,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="104" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="104" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="104" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="104" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1adae64568705ac7abf4cded4fdcc2d0a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, bool value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -302,15 +271,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="111" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="111" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a27ca12ed8129d386135931471d70a75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -320,15 +289,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="119" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="119" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a34d2b69b546284ee48850e57ac8db7f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *const *</type>
         <definition>MRC_API const MR_VertCoords *const  * MR_PointsToDistanceVolumeParams_Get_ptNormals</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_ptNormals</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -338,15 +307,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="126" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="126" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="126" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="126" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ae6616320b7c9b95e7c461e528b4d57ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_ptNormals</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, const MR_VertCoords *value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_ptNormals</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -360,15 +329,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="133" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="133" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ae4f3b7313b366099c22eee54743fcc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> **</type>
         <definition>MRC_API const MR_VertCoords ** MR_PointsToDistanceVolumeParams_GetMutable_ptNormals</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_ptNormals</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -378,15 +347,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="140" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="140" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="140" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a65cd9fa1b27349cb1286dcaa2f52fac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_PointsToDistanceVolumeParams_Get_origin</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_origin</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -396,15 +365,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="147" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="147" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="147" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="147" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a7d1ab7f5bfb586c0446c09b1f7d87acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_origin</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, MR_Vector3f value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_origin</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -418,15 +387,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="154" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="154" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a028a81e3f8d42340e6c8b3d5fcdcae32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_PointsToDistanceVolumeParams_GetMutable_origin</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_origin</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -436,15 +405,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="161" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="161" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="161" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="161" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a0bb7edc00d142fdfc6f83dbd3b049ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_PointsToDistanceVolumeParams_Get_cb</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_cb</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -454,19 +423,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="168" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="168" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="168" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="168" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a5eb56938f5ffe38c92658e79dc53fb2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_cb</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_cb</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -480,15 +449,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="175" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="175" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="175" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ac2ea87602ab13202bf366fa28881a40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_PointsToDistanceVolumeParams_GetMutable_cb</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_cb</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -498,15 +467,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="182" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="182" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="182" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="182" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ac314545b1246858981e88f6f079feb64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API const MR_Vector3f * MR_PointsToDistanceVolumeParams_Get_voxelSize</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_voxelSize</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -516,15 +485,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="189" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="189" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="189" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="189" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1aaba22fbd6b4583dd97dc00dd2eb79849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_voxelSize</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, MR_Vector3f value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_voxelSize</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -538,15 +507,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="196" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="196" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="196" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a8ed23560f9dda18660625e52a0ab9931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_Vector3f * MR_PointsToDistanceVolumeParams_GetMutable_voxelSize</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_voxelSize</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -556,15 +525,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="203" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="203" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="203" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="203" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1aacfe75e9a73596187f44d4bda4cf0955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
         <definition>MRC_API const MR_Vector3i * MR_PointsToDistanceVolumeParams_Get_dimensions</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Get_dimensions</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -574,15 +543,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="210" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="210" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="210" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="210" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a9748d27bf4eab67a0c6cd365cc26b90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Set_dimensions</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, MR_Vector3i value)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Set_dimensions</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
@@ -596,15 +565,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="217" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="217" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="217" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a61d9dd2b5e45df1f5b1928da0fec55aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
         <definition>MRC_API MR_Vector3i * MR_PointsToDistanceVolumeParams_GetMutable_dimensions</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_GetMutable_dimensions</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
@@ -614,10 +583,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="224" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="224" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="224" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="224" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a477b3e43003087c7541df2dfb59e653d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_DefaultConstruct</name>
@@ -631,10 +600,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="228" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="228" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="228" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="228" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a84a30257616fe3930705ecb0b64042a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_DefaultConstructArray</name>
@@ -649,15 +618,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="233" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="233" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="233" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="233" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ae90a31c665f670086d501092fcc6f29a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API const MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_OffsetPtr</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_OffsetPtr</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -671,15 +640,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="237" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="237" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="237" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="237" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a91fa264c6a33a72770f53651af2b3737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_OffsetMutablePtr</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_OffsetMutablePtr</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>ptr</declname>
         </param>
         <param>
@@ -693,15 +662,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="241" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="241" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="241" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="241" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a25a67ef52f8bd92bbbc1aaaf37aa7275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
         <definition>MRC_API const MR_DistanceVolumeParams * MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *object)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -711,15 +680,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="246" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="246" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="246" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="246" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1afa557db0e8bd14e1c871f1c1a586e95b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_DistanceVolumeParams * MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *object)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>object</declname>
         </param>
         <briefdescription>
@@ -729,10 +698,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="250" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="250" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="250" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="250" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ad2fe3cf0739f7904543156f296f80d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API const MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_StaticDowncastFrom_MR_DistanceVolumeParams</definition>
         <argsstring>(const MR_DistanceVolumeParams *object)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_StaticDowncastFrom_MR_DistanceVolumeParams</name>
@@ -747,10 +716,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="256" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="256" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="256" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="256" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1aec8877c6f7c35affbdf2336f739e618e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_MutableStaticDowncastFrom_MR_DistanceVolumeParams</definition>
         <argsstring>(MR_DistanceVolumeParams *object)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_MutableStaticDowncastFrom_MR_DistanceVolumeParams</name>
@@ -765,19 +734,19 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="261" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="261" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="261" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="261" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a506d8a6c5982a4220b2177e8cef75922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PointsToDistanceVolumeParams *_other)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -787,59 +756,59 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="266" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="266" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="266" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="266" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a6dbe98ad8547f97d4f71099cb47ddfd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_Destroy</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_Destroy</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="269" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="269" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a967540bfe32121d21979ead68da0a04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PointsToDistanceVolumeParams_DestroyArray</definition>
         <argsstring>(const MR_PointsToDistanceVolumeParams *_this)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_DestroyArray</name>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <briefdescription>
-<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref></computeroutput>. Does nothing if the pointer is null. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="272" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="272" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="272" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="272" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1ac34d465bc8caeba001d1f45edba60805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
         <definition>MRC_API MR_PointsToDistanceVolumeParams * MR_PointsToDistanceVolumeParams_AssignFromAnother</definition>
         <argsstring>(MR_PointsToDistanceVolumeParams *_this, MR_PassBy _other_pass_by, MR_PointsToDistanceVolumeParams *_other)</argsstring>
         <name>MR_PointsToDistanceVolumeParams_AssignFromAnother</name>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
-          <type><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>_other</declname>
         </param>
         <briefdescription>
@@ -849,10 +818,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="279" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="279" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="279" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="279" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a0362d48493d5a4f5eeb5cfe725f9a090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__SimpleVolume__std__string_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_SimpleVolume_std_string * MR_pointsToDistanceVolume</definition>
         <argsstring>(const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params)</argsstring>
         <name>MR_pointsToDistanceVolume</name>
@@ -861,20 +830,20 @@
           <declname>cloud</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>makes SimpleVolume filled with signed distances to points with normals Generated from function <computeroutput>MR::pointsToDistanceVolume</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_SimpleVolume_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>makes SimpleVolume filled with signed distances to points with normals Generated from function <computeroutput>MR::pointsToDistanceVolume</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__SimpleVolume__std__string_8h_1a6870c869bb8d9778b6731a7c405b89ff" kindref="member">MR_expected_MR_SimpleVolume_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="286" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="286" declcolumn="48"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="286" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="286" declcolumn="48"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a756f633a49755a8bd4b1a79f7a80b896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *</type>
         <definition>MRC_API MR_FunctionVolume * MR_pointsToDistanceFunctionVolume</definition>
         <argsstring>(const MR_PointCloud *cloud, const MR_PointsToDistanceVolumeParams *params)</argsstring>
         <name>MR_pointsToDistanceFunctionVolume</name>
@@ -883,7 +852,7 @@
           <declname>cloud</declname>
         </param>
         <param>
-          <type>const <ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
+          <type>const <ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref> *</type>
           <declname>params</declname>
         </param>
         <briefdescription>
@@ -893,10 +862,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="293" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="293" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="293" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="293" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRPointsToDistanceVolume_8h_1a88ee201c428c624e871945c67afb2f43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__VertColors__std__string_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_VertColors_std_string * MR_calcAvgColors</definition>
         <argsstring>(const MR_PointCloud *cloud, const MR_VertColors *colors, const MR_VertCoords *tgtPoints, const MR_VertBitSet *tgtVerts, float sigma, const MR_std_function_bool_from_float *cb)</argsstring>
         <name>MR_calcAvgColors</name>
@@ -972,7 +941,7 @@
 <parametername>cb</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>progress callback computes the colors in valid target points by averaging the colors from the point cloud Generated from function <computeroutput>MR::calcAvgColors</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>colors</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_VertColors_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>progress callback computes the colors in valid target points by averaging the colors from the point cloud Generated from function <computeroutput>MR::calcAvgColors</computeroutput>. Parameter <computeroutput>cloud</computeroutput> can not be null. It is a single object. Parameter <computeroutput>colors</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tgtVerts</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__VertColors__std__string_8h_1aa2db9d4a1a59465c4cf147920378e5e6" kindref="member">MR_expected_MR_VertColors_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -980,7 +949,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" line="311" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h" declline="311" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" line="311" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h" declline="311" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -991,8 +960,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1002,106 +971,106 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRDistanceVolumeParams.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPointCloud.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VertColors_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__SimpleVolume__std__string_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_SimpleVolume_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__VertColors__std__string_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref><sp/><ref refid="expected__MR__VertColors__std__string_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_VertColors_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRPointsToDistanceVolume_8h_1aacc54cfcedae41375f0e32b43ae783af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aacc54cfcedae41375f0e32b43ae783af" kindref="member">MR_PointsToDistanceVolumeParams_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRPointsToDistanceVolume_8h_1aacc54cfcedae41375f0e32b43ae783af" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aacc54cfcedae41375f0e32b43ae783af" kindref="member">MR_PointsToDistanceVolumeParams_Get_sigma</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45" refid="MRPointsToDistanceVolume_8h_1a3df388de74a30b56dbf69a5acae793f4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a3df388de74a30b56dbf69a5acae793f4" kindref="member">MR_PointsToDistanceVolumeParams_Set_sigma</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="45" refid="MRPointsToDistanceVolume_8h_1a3df388de74a30b56dbf69a5acae793f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a3df388de74a30b56dbf69a5acae793f4" kindref="member">MR_PointsToDistanceVolumeParams_Set_sigma</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPointsToDistanceVolume_8h_1a5e30be49bcdd6256e9c24b02540be45b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a5e30be49bcdd6256e9c24b02540be45b" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_sigma</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="MRPointsToDistanceVolume_8h_1a5e30be49bcdd6256e9c24b02540be45b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a5e30be49bcdd6256e9c24b02540be45b" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_sigma</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPointsToDistanceVolume_8h_1ae716ab1ae7db859dc03d3ad565ce6a3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ae716ab1ae7db859dc03d3ad565ce6a3a" kindref="member">MR_PointsToDistanceVolumeParams_Get_minWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="MRPointsToDistanceVolume_8h_1ae716ab1ae7db859dc03d3ad565ce6a3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ae716ab1ae7db859dc03d3ad565ce6a3a" kindref="member">MR_PointsToDistanceVolumeParams_Get_minWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRPointsToDistanceVolume_8h_1abddfefcba6877b819e4db2c1db2f901f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1abddfefcba6877b819e4db2c1db2f901f" kindref="member">MR_PointsToDistanceVolumeParams_Set_minWeight</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="66" refid="MRPointsToDistanceVolume_8h_1abddfefcba6877b819e4db2c1db2f901f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1abddfefcba6877b819e4db2c1db2f901f" kindref="member">MR_PointsToDistanceVolumeParams_Set_minWeight</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRPointsToDistanceVolume_8h_1a6e724f5a82032e2aeb1d0df71c949779" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a6e724f5a82032e2aeb1d0df71c949779" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_minWeight</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73" refid="MRPointsToDistanceVolume_8h_1a6e724f5a82032e2aeb1d0df71c949779" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a6e724f5a82032e2aeb1d0df71c949779" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_minWeight</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRPointsToDistanceVolume_8h_1a7cd9b6bffc032642a90856f9ea0c41a9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a7cd9b6bffc032642a90856f9ea0c41a9" kindref="member">MR_PointsToDistanceVolumeParams_Get_invSigmaModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRPointsToDistanceVolume_8h_1a7cd9b6bffc032642a90856f9ea0c41a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a7cd9b6bffc032642a90856f9ea0c41a9" kindref="member">MR_PointsToDistanceVolumeParams_Get_invSigmaModifier</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRPointsToDistanceVolume_8h_1ac0694c7b3d25ebc1f3e64715edf35a98" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1ac0694c7b3d25ebc1f3e64715edf35a98" kindref="member">MR_PointsToDistanceVolumeParams_Set_invSigmaModifier</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="88" refid="MRPointsToDistanceVolume_8h_1ac0694c7b3d25ebc1f3e64715edf35a98" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1ac0694c7b3d25ebc1f3e64715edf35a98" kindref="member">MR_PointsToDistanceVolumeParams_Set_invSigmaModifier</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRPointsToDistanceVolume_8h_1aea55c70eb62f5d91d432a361fcfb6752" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aea55c70eb62f5d91d432a361fcfb6752" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96" refid="MRPointsToDistanceVolume_8h_1aea55c70eb62f5d91d432a361fcfb6752" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aea55c70eb62f5d91d432a361fcfb6752" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_invSigmaModifier</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRPointsToDistanceVolume_8h_1af04a80befe81c8788a73be80ba3fa732" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1af04a80befe81c8788a73be80ba3fa732" kindref="member">MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRPointsToDistanceVolume_8h_1af04a80befe81c8788a73be80ba3fa732" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1af04a80befe81c8788a73be80ba3fa732" kindref="member">MR_PointsToDistanceVolumeParams_Get_sqrtAngleWeight</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRPointsToDistanceVolume_8h_1adae64568705ac7abf4cded4fdcc2d0a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1adae64568705ac7abf4cded4fdcc2d0a4" kindref="member">MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="111" refid="MRPointsToDistanceVolume_8h_1adae64568705ac7abf4cded4fdcc2d0a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1adae64568705ac7abf4cded4fdcc2d0a4" kindref="member">MR_PointsToDistanceVolumeParams_Set_sqrtAngleWeight</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRPointsToDistanceVolume_8h_1a27ca12ed8129d386135931471d70a75a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a27ca12ed8129d386135931471d70a75a" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119" refid="MRPointsToDistanceVolume_8h_1a27ca12ed8129d386135931471d70a75a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a27ca12ed8129d386135931471d70a75a" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_sqrtAngleWeight</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRPointsToDistanceVolume_8h_1a34d2b69b546284ee48850e57ac8db7f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a34d2b69b546284ee48850e57ac8db7f8" kindref="member">MR_PointsToDistanceVolumeParams_Get_ptNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126" refid="MRPointsToDistanceVolume_8h_1a34d2b69b546284ee48850e57ac8db7f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a34d2b69b546284ee48850e57ac8db7f8" kindref="member">MR_PointsToDistanceVolumeParams_Get_ptNormals</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRPointsToDistanceVolume_8h_1ae6616320b7c9b95e7c461e528b4d57ce" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1ae6616320b7c9b95e7c461e528b4d57ce" kindref="member">MR_PointsToDistanceVolumeParams_Set_ptNormals</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="133" refid="MRPointsToDistanceVolume_8h_1ae6616320b7c9b95e7c461e528b4d57ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1ae6616320b7c9b95e7c461e528b4d57ce" kindref="member">MR_PointsToDistanceVolumeParams_Set_ptNormals</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MRPointsToDistanceVolume_8h_1ae4f3b7313b366099c22eee54743fcc87" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRPointsToDistanceVolume_8h_1ae4f3b7313b366099c22eee54743fcc87" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_ptNormals</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140" refid="MRPointsToDistanceVolume_8h_1ae4f3b7313b366099c22eee54743fcc87" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>**<ref refid="MRPointsToDistanceVolume_8h_1ae4f3b7313b366099c22eee54743fcc87" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_ptNormals</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147" refid="MRPointsToDistanceVolume_8h_1a65cd9fa1b27349cb1286dcaa2f52fac4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a65cd9fa1b27349cb1286dcaa2f52fac4" kindref="member">MR_PointsToDistanceVolumeParams_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="147" refid="MRPointsToDistanceVolume_8h_1a65cd9fa1b27349cb1286dcaa2f52fac4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a65cd9fa1b27349cb1286dcaa2f52fac4" kindref="member">MR_PointsToDistanceVolumeParams_Get_origin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRPointsToDistanceVolume_8h_1a7d1ab7f5bfb586c0446c09b1f7d87acd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a7d1ab7f5bfb586c0446c09b1f7d87acd" kindref="member">MR_PointsToDistanceVolumeParams_Set_origin</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="154" refid="MRPointsToDistanceVolume_8h_1a7d1ab7f5bfb586c0446c09b1f7d87acd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a7d1ab7f5bfb586c0446c09b1f7d87acd" kindref="member">MR_PointsToDistanceVolumeParams_Set_origin</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
-<codeline lineno="161" refid="MRPointsToDistanceVolume_8h_1a028a81e3f8d42340e6c8b3d5fcdcae32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a028a81e3f8d42340e6c8b3d5fcdcae32" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_origin</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161" refid="MRPointsToDistanceVolume_8h_1a028a81e3f8d42340e6c8b3d5fcdcae32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a028a81e3f8d42340e6c8b3d5fcdcae32" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_origin</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRPointsToDistanceVolume_8h_1a0bb7edc00d142fdfc6f83dbd3b049ace" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a0bb7edc00d142fdfc6f83dbd3b049ace" kindref="member">MR_PointsToDistanceVolumeParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168" refid="MRPointsToDistanceVolume_8h_1a0bb7edc00d142fdfc6f83dbd3b049ace" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a0bb7edc00d142fdfc6f83dbd3b049ace" kindref="member">MR_PointsToDistanceVolumeParams_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175" refid="MRPointsToDistanceVolume_8h_1a5eb56938f5ffe38c92658e79dc53fb2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a5eb56938f5ffe38c92658e79dc53fb2d" kindref="member">MR_PointsToDistanceVolumeParams_Set_cb</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="175" refid="MRPointsToDistanceVolume_8h_1a5eb56938f5ffe38c92658e79dc53fb2d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a5eb56938f5ffe38c92658e79dc53fb2d" kindref="member">MR_PointsToDistanceVolumeParams_Set_cb</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="176"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182" refid="MRPointsToDistanceVolume_8h_1ac2ea87602ab13202bf366fa28881a40c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac2ea87602ab13202bf366fa28881a40c" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_cb</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="182" refid="MRPointsToDistanceVolume_8h_1ac2ea87602ab13202bf366fa28881a40c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac2ea87602ab13202bf366fa28881a40c" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_cb</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"></highlight></codeline>
-<codeline lineno="189" refid="MRPointsToDistanceVolume_8h_1ac314545b1246858981e88f6f079feb64" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac314545b1246858981e88f6f079feb64" kindref="member">MR_PointsToDistanceVolumeParams_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189" refid="MRPointsToDistanceVolume_8h_1ac314545b1246858981e88f6f079feb64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac314545b1246858981e88f6f079feb64" kindref="member">MR_PointsToDistanceVolumeParams_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRPointsToDistanceVolume_8h_1aaba22fbd6b4583dd97dc00dd2eb79849" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1aaba22fbd6b4583dd97dc00dd2eb79849" kindref="member">MR_PointsToDistanceVolumeParams_Set_voxelSize</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="196" refid="MRPointsToDistanceVolume_8h_1aaba22fbd6b4583dd97dc00dd2eb79849" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1aaba22fbd6b4583dd97dc00dd2eb79849" kindref="member">MR_PointsToDistanceVolumeParams_Set_voxelSize</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRPointsToDistanceVolume_8h_1a8ed23560f9dda18660625e52a0ab9931" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a8ed23560f9dda18660625e52a0ab9931" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_voxelSize</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203" refid="MRPointsToDistanceVolume_8h_1a8ed23560f9dda18660625e52a0ab9931" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a8ed23560f9dda18660625e52a0ab9931" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_voxelSize</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="210" refid="MRPointsToDistanceVolume_8h_1aacfe75e9a73596187f44d4bda4cf0955" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aacfe75e9a73596187f44d4bda4cf0955" kindref="member">MR_PointsToDistanceVolumeParams_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210" refid="MRPointsToDistanceVolume_8h_1aacfe75e9a73596187f44d4bda4cf0955" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aacfe75e9a73596187f44d4bda4cf0955" kindref="member">MR_PointsToDistanceVolumeParams_Get_dimensions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="211"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRPointsToDistanceVolume_8h_1a9748d27bf4eab67a0c6cd365cc26b90f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a9748d27bf4eab67a0c6cd365cc26b90f" kindref="member">MR_PointsToDistanceVolumeParams_Set_dimensions</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="217" refid="MRPointsToDistanceVolume_8h_1a9748d27bf4eab67a0c6cd365cc26b90f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a9748d27bf4eab67a0c6cd365cc26b90f" kindref="member">MR_PointsToDistanceVolumeParams_Set_dimensions</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>value);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="MRPointsToDistanceVolume_8h_1a61d9dd2b5e45df1f5b1928da0fec55aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a61d9dd2b5e45df1f5b1928da0fec55aa" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_dimensions</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224" refid="MRPointsToDistanceVolume_8h_1a61d9dd2b5e45df1f5b1928da0fec55aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a61d9dd2b5e45df1f5b1928da0fec55aa" kindref="member">MR_PointsToDistanceVolumeParams_GetMutable_dimensions</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRPointsToDistanceVolume_8h_1a477b3e43003087c7541df2dfb59e653d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a477b3e43003087c7541df2dfb59e653d" kindref="member">MR_PointsToDistanceVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="228" refid="MRPointsToDistanceVolume_8h_1a477b3e43003087c7541df2dfb59e653d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a477b3e43003087c7541df2dfb59e653d" kindref="member">MR_PointsToDistanceVolumeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="233" refid="MRPointsToDistanceVolume_8h_1a84a30257616fe3930705ecb0b64042a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a84a30257616fe3930705ecb0b64042a2" kindref="member">MR_PointsToDistanceVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="233" refid="MRPointsToDistanceVolume_8h_1a84a30257616fe3930705ecb0b64042a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a84a30257616fe3930705ecb0b64042a2" kindref="member">MR_PointsToDistanceVolumeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"></highlight></codeline>
-<codeline lineno="237" refid="MRPointsToDistanceVolume_8h_1ae90a31c665f670086d501092fcc6f29a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ae90a31c665f670086d501092fcc6f29a" kindref="member">MR_PointsToDistanceVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="237" refid="MRPointsToDistanceVolume_8h_1ae90a31c665f670086d501092fcc6f29a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ae90a31c665f670086d501092fcc6f29a" kindref="member">MR_PointsToDistanceVolumeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="238"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241" refid="MRPointsToDistanceVolume_8h_1a91fa264c6a33a72770f53651af2b3737" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a91fa264c6a33a72770f53651af2b3737" kindref="member">MR_PointsToDistanceVolumeParams_OffsetMutablePtr</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="241" refid="MRPointsToDistanceVolume_8h_1a91fa264c6a33a72770f53651af2b3737" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a91fa264c6a33a72770f53651af2b3737" kindref="member">MR_PointsToDistanceVolumeParams_OffsetMutablePtr</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="246" refid="MRPointsToDistanceVolume_8h_1a25a67ef52f8bd92bbbc1aaaf37aa7275" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a25a67ef52f8bd92bbbc1aaaf37aa7275" kindref="member">MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="246" refid="MRPointsToDistanceVolume_8h_1a25a67ef52f8bd92bbbc1aaaf37aa7275" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a25a67ef52f8bd92bbbc1aaaf37aa7275" kindref="member">MR_PointsToDistanceVolumeParams_UpcastTo_MR_DistanceVolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="247"><highlight class="normal"></highlight></codeline>
-<codeline lineno="250" refid="MRPointsToDistanceVolume_8h_1afa557db0e8bd14e1c871f1c1a586e95b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1afa557db0e8bd14e1c871f1c1a586e95b" kindref="member">MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="250" refid="MRPointsToDistanceVolume_8h_1afa557db0e8bd14e1c871f1c1a586e95b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1afa557db0e8bd14e1c871f1c1a586e95b" kindref="member">MR_PointsToDistanceVolumeParams_MutableUpcastTo_MR_DistanceVolumeParams</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight></codeline>
-<codeline lineno="256" refid="MRPointsToDistanceVolume_8h_1ad2fe3cf0739f7904543156f296f80d8c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ad2fe3cf0739f7904543156f296f80d8c" kindref="member">MR_PointsToDistanceVolumeParams_StaticDowncastFrom_MR_DistanceVolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="256" refid="MRPointsToDistanceVolume_8h_1ad2fe3cf0739f7904543156f296f80d8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ad2fe3cf0739f7904543156f296f80d8c" kindref="member">MR_PointsToDistanceVolumeParams_StaticDowncastFrom_MR_DistanceVolumeParams</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight></codeline>
-<codeline lineno="261" refid="MRPointsToDistanceVolume_8h_1aec8877c6f7c35affbdf2336f739e618e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aec8877c6f7c35affbdf2336f739e618e" kindref="member">MR_PointsToDistanceVolumeParams_MutableStaticDowncastFrom_MR_DistanceVolumeParams</ref>(<ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261" refid="MRPointsToDistanceVolume_8h_1aec8877c6f7c35affbdf2336f739e618e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1aec8877c6f7c35affbdf2336f739e618e" kindref="member">MR_PointsToDistanceVolumeParams_MutableStaticDowncastFrom_MR_DistanceVolumeParams</ref>(<ref refid="MRDistanceVolumeParams_8h_1af9c1f01ab3534b48d6b02a0b6c78143e" kindref="member">MR_DistanceVolumeParams</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="262"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266" refid="MRPointsToDistanceVolume_8h_1a506d8a6c5982a4220b2177e8cef75922" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a506d8a6c5982a4220b2177e8cef75922" kindref="member">MR_PointsToDistanceVolumeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="266" refid="MRPointsToDistanceVolume_8h_1a506d8a6c5982a4220b2177e8cef75922" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a506d8a6c5982a4220b2177e8cef75922" kindref="member">MR_PointsToDistanceVolumeParams_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="269" refid="MRPointsToDistanceVolume_8h_1a6dbe98ad8547f97d4f71099cb47ddfd4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a6dbe98ad8547f97d4f71099cb47ddfd4" kindref="member">MR_PointsToDistanceVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="269" refid="MRPointsToDistanceVolume_8h_1a6dbe98ad8547f97d4f71099cb47ddfd4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a6dbe98ad8547f97d4f71099cb47ddfd4" kindref="member">MR_PointsToDistanceVolumeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="272" refid="MRPointsToDistanceVolume_8h_1a967540bfe32121d21979ead68da0a04f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a967540bfe32121d21979ead68da0a04f" kindref="member">MR_PointsToDistanceVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="272" refid="MRPointsToDistanceVolume_8h_1a967540bfe32121d21979ead68da0a04f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a967540bfe32121d21979ead68da0a04f" kindref="member">MR_PointsToDistanceVolumeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="273"><highlight class="normal"></highlight></codeline>
-<codeline lineno="279" refid="MRPointsToDistanceVolume_8h_1ac34d465bc8caeba001d1f45edba60805" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac34d465bc8caeba001d1f45edba60805" kindref="member">MR_PointsToDistanceVolumeParams_AssignFromAnother</ref>(<ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="279" refid="MRPointsToDistanceVolume_8h_1ac34d465bc8caeba001d1f45edba60805" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1ac34d465bc8caeba001d1f45edba60805" kindref="member">MR_PointsToDistanceVolumeParams_AssignFromAnother</ref>(<ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="286" refid="MRPointsToDistanceVolume_8h_1a0362d48493d5a4f5eeb5cfe725f9a090" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a0362d48493d5a4f5eeb5cfe725f9a090" kindref="member">MR_pointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="286" refid="MRPointsToDistanceVolume_8h_1a0362d48493d5a4f5eeb5cfe725f9a090" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__SimpleVolume__std__string_8h_1a1fc8e13b15f164149cdebe00fc8c33b8" kindref="member">MR_expected_MR_SimpleVolume_std_string</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a0362d48493d5a4f5eeb5cfe725f9a090" kindref="member">MR_pointsToDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"></highlight></codeline>
-<codeline lineno="293" refid="MRPointsToDistanceVolume_8h_1a756f633a49755a8bd4b1a79f7a80b896" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillingSurface_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a756f633a49755a8bd4b1a79f7a80b896" kindref="member">MR_pointsToDistanceFunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToDistanceVolume_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="293" refid="MRPointsToDistanceVolume_8h_1a756f633a49755a8bd4b1a79f7a80b896" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a756f633a49755a8bd4b1a79f7a80b896" kindref="member">MR_pointsToDistanceFunctionVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__bool__from__const__MR__PointCloud__ref__const__MR__PointsToDistanceVolumeParams__ref_8h_1a62f44af92ecc2488d2abf67bc90c6804" kindref="member">MR_PointsToDistanceVolumeParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="294"><highlight class="normal"></highlight></codeline>
-<codeline lineno="311" refid="MRPointsToDistanceVolume_8h_1a88ee201c428c624e871945c67afb2f43" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToDistanceVolume_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a88ee201c428c624e871945c67afb2f43" kindref="member">MR_calcAvgColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*tgtVerts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="311" refid="MRPointsToDistanceVolume_8h_1a88ee201c428c624e871945c67afb2f43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__VertColors__std__string_8h_1a401c27a5a8649aadc2ab876a153c54d6" kindref="member">MR_expected_MR_VertColors_std_string</ref><sp/>*<ref refid="MRPointsToDistanceVolume_8h_1a88ee201c428c624e871945c67afb2f43" kindref="member">MR_calcAvgColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*colors,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*tgtPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*tgtVerts,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>sigma,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
 <codeline lineno="312"><highlight class="normal"></highlight></codeline>
 <codeline lineno="313"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="314"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="315"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRPointsToDistanceVolume.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRPointsToDistanceVolume.h"/>
   </compounddef>
 </doxygen>

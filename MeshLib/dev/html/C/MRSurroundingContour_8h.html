@@ -143,8 +143,8 @@ $(function(){initNavTree('MRSurroundingContour_8h.html','',''); });
   <div class="headertitle"><div class="title">MRSurroundingContour.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRSurroundingContour_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -154,9 +154,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2ef2c9c14a49078491db47fa69889168" id="r_a2ef2c9c14a49078491db47fa69889168"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ef2c9c14a49078491db47fa69889168">MR_surroundingContour_std_vector_MR_EdgeId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, MR_PassBy includeEdges_pass_by, <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *includeEdges, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *edgeMetric, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir)</td></tr>
+<tr class="memitem:a2ef2c9c14a49078491db47fa69889168" id="r_a2ef2c9c14a49078491db47fa69889168"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ef2c9c14a49078491db47fa69889168">MR_surroundingContour_std_vector_MR_EdgeId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> includeEdges_pass_by, <a class="el" href="MRContoursStitch_8h.html#aa2cb99914308eb7429fd11738cf79483">MR_std_vector_MR_EdgeId</a> *includeEdges, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *edgeMetric, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir)</td></tr>
 <tr class="memdesc:a2ef2c9c14a49078491db47fa69889168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges.  <br /></td></tr>
-<tr class="memitem:a176f781042cc87d7e262a11a2cf63365" id="r_a176f781042cc87d7e262a11a2cf63365"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a176f781042cc87d7e262a11a2cf63365">MR_surroundingContour_std_vector_MR_VertId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, MR_PassBy keyVertices_pass_by, <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> *keyVertices, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *edgeMetric, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir)</td></tr>
+<tr class="memitem:a176f781042cc87d7e262a11a2cf63365" id="r_a176f781042cc87d7e262a11a2cf63365"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a176f781042cc87d7e262a11a2cf63365">MR_surroundingContour_std_vector_MR_VertId</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> keyVertices_pass_by, <a class="el" href="MREdgePaths_8h.html#a954949e1753f6a2063d09e91b23d252d">MR_std_vector_MR_VertId</a> *keyVertices, const <a class="el" href="MREdgeMetric_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687">MR_std_function_float_from_MR_EdgeId</a> *edgeMetric, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *dir)</td></tr>
 <tr class="memdesc:a176f781042cc87d7e262a11a2cf63365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric. The algorithm assumes that input vertices can be projected on the plane orthogonal to given direction, then the center point of all input vertices is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input vertices.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
@@ -171,6 +171,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Stores either a <span class="tt">std::vector&lt;MR::EdgeId&gt;</span> that represents success or a <span class="tt">std::string</span> that represents an error. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -182,14 +183,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> * MR_surroundingContour_std_vector_MR_EdgeId </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> * MR_surroundingContour_std_vector_MR_EdgeId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>includeEdges_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>includeEdges_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -214,7 +215,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">includeEdges</td><td>contain all edges in arbitrary order that must be present in the returned loop, probably with reversed direction (should have at least 2 elements) </td></tr>
     <tr><td class="paramname">edgeMetric</td><td>returned loop will minimize the sum of this metric </td></tr>
-    <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction's tip Generated from function <span class="tt">MR::surroundingContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">edgeMetric</span> can not be null. It is a single object. Parameter <span class="tt">dir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction's tip Generated from function <span class="tt">MR::surroundingContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">edgeMetric</span> can not be null. It is a single object. Parameter <span class="tt">dir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__MR__EdgeId__std__string_8h.html#acc2c8c58bde7da4696e5ce41d7be5946" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgeId_std_string....">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -228,14 +229,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> * MR_surroundingContour_std_vector_MR_VertId </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a113b2c998614f463539fb118dd416dd0">MR_expected_std_vector_MR_EdgeId_std_string</a> * MR_surroundingContour_std_vector_MR_VertId </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>keyVertices_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>keyVertices_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -260,7 +261,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">keyVertices</td><td>contain all vertices in arbitrary order that returned loop must pass (should have at least 2 elements) </td></tr>
     <tr><td class="paramname">edgeMetric</td><td>returned loop will minimize the sum of this metric </td></tr>
-    <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction's tip Generated from function <span class="tt">MR::surroundingContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">edgeMetric</span> can not be null. It is a single object. Parameter <span class="tt">dir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</span> to free it when you're done using it. </td></tr>
+    <tr><td class="paramname">dir</td><td>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction's tip Generated from function <span class="tt">MR::surroundingContour</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">edgeMetric</span> can not be null. It is a single object. Parameter <span class="tt">dir</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__std__vector__MR__EdgeId__std__string_8h.html#acc2c8c58bde7da4696e5ce41d7be5946" title="Destroys a heap-allocated instance of MR_expected_std_vector_MR_EdgeId_std_string....">MR_expected_std_vector_MR_EdgeId_std_string_Destroy()</a></span> to free it when you're done using it. </td></tr>
   </table>
   </dd>
 </dl>
@@ -274,7 +275,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRSurroundingContour_8h.html">MRSurroundingContour.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRSurroundingContour_8h.html">MRSurroundingContour.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

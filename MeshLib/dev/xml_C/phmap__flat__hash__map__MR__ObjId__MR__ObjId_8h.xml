@@ -1,0 +1,1206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h" kind="file" language="C++">
+    <compoundname>phmap_flat_hash_map_MR_ObjId_MR_ObjId.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>phmap_flat_hash_map_MR_ObjId_MR_ObjId.h</label>
+        <link refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" prot="public" static="no">
+        <type>struct <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref></type>
+        <definition>typedef struct MR_std_pair_const_MR_ObjId_MR_ObjId MR_std_pair_const_MR_ObjId_MR_ObjId</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_const_MR_ObjId_MR_ObjId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores two objects: <computeroutput>const MR::ObjId</computeroutput> and <computeroutput>const MR::ObjId</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="14" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" prot="public" static="no">
+        <type>struct <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref></type>
+        <definition>typedef struct MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="23" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" prot="public" static="no">
+        <type>struct <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref></type>
+        <definition>typedef struct MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="27" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae5322d2201bf18c1839ad1663b0e6426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02e99cc59dce3b0aa62127d8e2a42b85" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="31" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="31" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab3f5a8c9bb7030507db184993a8fa8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02a5bee303eff160c13aeac73df71415" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a1c0bfed5f5b770a67868e47d3507123b" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a49b3b4d097bdf4600e0d2929e71c70c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="36" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="36" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a34eb388f536086600d65bc191f96ef79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02e99cc59dce3b0aa62127d8e2a42b85" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="42" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="42" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02048908f1f8afa7386e8277f1bf7e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_AssignFromAnother</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, MR_PassBy other_pass_by, MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02e99cc59dce3b0aa62127d8e2a42b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_Destroy</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="51" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02a5bee303eff160c13aeac73df71415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DestroyArray</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="54" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a49b3b4d097bdf4600e0d2929e71c70c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetPtr</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="58" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="58" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a1c0bfed5f5b770a67868e47d3507123b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetMutablePtr</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="62" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="62" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acd5b6a5cb09f02102b45a2b77f91243a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_size</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_size</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="66" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="66" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a380ffba7d4fe159d6a48cdf30ad32243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_empty</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_empty</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aef6c072bdacc90422e0d0ef7be41181d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_clear</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_clear</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="75" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa6b0d0f513d4339e8ca25906eedab726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_or_construct_elem</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_ObjId *key)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_or_construct_elem</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the element with the specific key. If it doesn&apos;t exist, creates it first. Acts like map&apos;s <computeroutput>operator[]</computeroutput> in C++. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="82" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="82" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a75161b0df17e3d0b417435fe1ad2f812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_contains</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_ObjId *key)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_contains</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the contain contains this key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae4ebed60de3bba5cd596666a45e77463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_ObjId *key)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="94" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="94" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a8322967732e8772cbb9629ae97c200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_mut</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_ObjId *key)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_mut</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="101" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="101" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a2db3238d4a05cdb4a0daece673e5bf21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="107" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="107" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1abaf8b585b6f2f9ef90455f1c03b54c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *iter)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6944d6bf1601f458e0cade88f371a32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin_mut</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin_mut</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="118" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="118" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a30aee789e4feeea9e6b6de85f58e7cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin_mut</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *iter)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="123" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a3739cbbe510b351f8ce09b40d1a0ac1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="129" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="129" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a147abd0e46bc88d05b198dae4ac55a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *iter)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="134" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="134" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1affc500da7cf3aba7b28613f08be7712f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end_mut</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end_mut</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="140" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="140" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9a7bcbc877f6fefa4435f352cf9df0e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end_mut</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *iter)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="145" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a653258ab94bc6bf633e28ff7606708e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="149" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="149" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa61291c8520eb73e859727855ba3e0e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6e36313b5261eff3d1d8028138bffb93" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae2cd15d7a305eb477541271ac35ee1aa" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a29edd087a3f4b3d75d87998fec0eee11" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="154" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="154" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a69ac2541726e6e2dd05792b2a1e06781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="161" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="161" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adc531dc0b02b0247ff823e437870d727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6e36313b5261eff3d1d8028138bffb93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="174" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a29edd087a3f4b3d75d87998fec0eee11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="178" column="71" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="178" declcolumn="71"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae2cd15d7a305eb477541271ac35ee1aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="182" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="182" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11d0ab853a5464d13cd86a854212efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *iter)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="187" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="187" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a54750c9420268060c792ac7f3b03e9f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="191" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="191" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aab0227206cc580c5f1edd92d45c67f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aad5771b1d3fe361af968412b4301bc6d" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a921fae0180e22fad8a46dcfbcc35da24" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac3810a82b4acc1d78bf50f81cb99e41b" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="196" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="196" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acfd5df931a8808a9b377143e42db6920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="203" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="203" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9b576d15e62395cb9f61fb90d2af9eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *other)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="210" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="210" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="213" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="213" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aad5771b1d3fe361af968412b4301bc6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DestroyArray</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="216" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac3810a82b4acc1d78bf50f81cb99e41b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="220" column="65" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="220" declcolumn="65"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a921fae0180e22fad8a46dcfbcc35da24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+        <definition>MRC_API MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="224" column="59" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="224" declcolumn="59"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a542bd176d1715b082c8db92e8bf8c63a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_std_pair_const_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="230" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="230" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a7750239a36a9fbbdcaa03bc0fe413a3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_key</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_key</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator, returning the key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="236" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="236" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac0261eb06be7e23288ca90e7f7c9005d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_value</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_value</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator, returning the mapped value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="242" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="242" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab159c8e18870fbc062cdc5565bb9b349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_incr</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_incr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="246" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="246" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac4c837bb4dd203fde7dcb96e222615d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *a, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aeec916bed0b040c613da1d66feecbcb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_std_pair_const_MR_ObjId_MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="257" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="257" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a67d75e51dd6b16c2b2ba4feea3491785" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API const MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_key</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_key</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator, returning the key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="263" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="263" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a48ea2ebd79d9cdbd372980068fc3fc65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref> *</type>
+        <definition>MRC_API MR_ObjId * MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_value</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_value</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator, returning the mapped value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="269" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="269" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0d1cc61914c2b2b61c59f075d7a7cafc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_incr</definition>
+        <argsstring>(MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *_this)</argsstring>
+        <name>MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_incr</name>
+        <param>
+          <type><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="273" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="273" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adb8406fcdd21d5d975b15b21d56eccf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</definition>
+        <argsstring>(const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *a, const MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator *b)</argsstring>
+        <name>MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</name>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" line="278" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h" declline="278" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_const_MR_ObjId_MR_ObjId.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae5322d2201bf18c1839ad1663b0e6426" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae5322d2201bf18c1839ad1663b0e6426" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab3f5a8c9bb7030507db184993a8fa8e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab3f5a8c9bb7030507db184993a8fa8e8" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a34eb388f536086600d65bc191f96ef79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a34eb388f536086600d65bc191f96ef79" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02048908f1f8afa7386e8277f1bf7e8e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02048908f1f8afa7386e8277f1bf7e8e" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_AssignFromAnother</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02e99cc59dce3b0aa62127d8e2a42b85" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02e99cc59dce3b0aa62127d8e2a42b85" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02a5bee303eff160c13aeac73df71415" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a02a5bee303eff160c13aeac73df71415" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a49b3b4d097bdf4600e0d2929e71c70c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a49b3b4d097bdf4600e0d2929e71c70c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a1c0bfed5f5b770a67868e47d3507123b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a1c0bfed5f5b770a67868e47d3507123b" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_OffsetMutablePtr</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acd5b6a5cb09f02102b45a2b77f91243a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acd5b6a5cb09f02102b45a2b77f91243a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a380ffba7d4fe159d6a48cdf30ad32243" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a380ffba7d4fe159d6a48cdf30ad32243" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aef6c072bdacc90422e0d0ef7be41181d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aef6c072bdacc90422e0d0ef7be41181d" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_clear</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa6b0d0f513d4339e8ca25906eedab726" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa6b0d0f513d4339e8ca25906eedab726" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_or_construct_elem</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a75161b0df17e3d0b417435fe1ad2f812" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a75161b0df17e3d0b417435fe1ad2f812" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae4ebed60de3bba5cd596666a45e77463" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae4ebed60de3bba5cd596666a45e77463" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a8322967732e8772cbb9629ae97c200" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a8322967732e8772cbb9629ae97c200" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_find_mut</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a2db3238d4a05cdb4a0daece673e5bf21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a2db3238d4a05cdb4a0daece673e5bf21" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1abaf8b585b6f2f9ef90455f1c03b54c32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1abaf8b585b6f2f9ef90455f1c03b54c32" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6944d6bf1601f458e0cade88f371a32a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6944d6bf1601f458e0cade88f371a32a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_begin_mut</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a30aee789e4feeea9e6b6de85f58e7cbc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a30aee789e4feeea9e6b6de85f58e7cbc" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a3739cbbe510b351f8ce09b40d1a0ac1b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a3739cbbe510b351f8ce09b40d1a0ac1b" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a147abd0e46bc88d05b198dae4ac55a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0a147abd0e46bc88d05b198dae4ac55a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1affc500da7cf3aba7b28613f08be7712f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1affc500da7cf3aba7b28613f08be7712f" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_end_mut</ref>(<ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9a7bcbc877f6fefa4435f352cf9df0e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9a7bcbc877f6fefa4435f352cf9df0e6" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa9a94f072b9929fb781d697ab4f4b5c9" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a653258ab94bc6bf633e28ff7606708e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a653258ab94bc6bf633e28ff7606708e4" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa61291c8520eb73e859727855ba3e0e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aa61291c8520eb73e859727855ba3e0e6" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a69ac2541726e6e2dd05792b2a1e06781" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a69ac2541726e6e2dd05792b2a1e06781" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adc531dc0b02b0247ff823e437870d727" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adc531dc0b02b0247ff823e437870d727" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_AssignFromAnother</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae499bf39bd94d1b4c056925045a5c66a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6e36313b5261eff3d1d8028138bffb93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a6e36313b5261eff3d1d8028138bffb93" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a29edd087a3f4b3d75d87998fec0eee11" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a29edd087a3f4b3d75d87998fec0eee11" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae2cd15d7a305eb477541271ac35ee1aa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae2cd15d7a305eb477541271ac35ee1aa" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11d0ab853a5464d13cd86a854212efb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11d0ab853a5464d13cd86a854212efb" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a54750c9420268060c792ac7f3b03e9f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a54750c9420268060c792ac7f3b03e9f0" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aab0227206cc580c5f1edd92d45c67f5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aab0227206cc580c5f1edd92d45c67f5e" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acfd5df931a8808a9b377143e42db6920" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1acfd5df931a8808a9b377143e42db6920" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9b576d15e62395cb9f61fb90d2af9eff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a9b576d15e62395cb9f61fb90d2af9eff" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_AssignFromAnother</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac781d34701183b8b274678bd2f0bd09c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aad5771b1d3fe361af968412b4301bc6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aad5771b1d3fe361af968412b4301bc6d" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac3810a82b4acc1d78bf50f81cb99e41b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac3810a82b4acc1d78bf50f81cb99e41b" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a921fae0180e22fad8a46dcfbcc35da24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a921fae0180e22fad8a46dcfbcc35da24" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_OffsetMutablePtr</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a542bd176d1715b082c8db92e8bf8c63a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a542bd176d1715b082c8db92e8bf8c63a" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a7750239a36a9fbbdcaa03bc0fe413a3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a7750239a36a9fbbdcaa03bc0fe413a3c" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac0261eb06be7e23288ca90e7f7c9005d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac0261eb06be7e23288ca90e7f7c9005d" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_deref_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab159c8e18870fbc062cdc5565bb9b349" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ab159c8e18870fbc062cdc5565bb9b349" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator_incr</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac4c837bb4dd203fde7dcb96e222615d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ac4c837bb4dd203fde7dcb96e222615d9" kindref="member">MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a962b92968aa84f2ed467d1ff501df161" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="257" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aeec916bed0b040c613da1d66feecbcb8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a036e596ca990474c30401890e34ba949" kindref="member">MR_std_pair_const_MR_ObjId_MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1aeec916bed0b040c613da1d66feecbcb8" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a67d75e51dd6b16c2b2ba4feea3491785" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a67d75e51dd6b16c2b2ba4feea3491785" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_key</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a48ea2ebd79d9cdbd372980068fc3fc65" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__ObjId" kindref="compound">MR_ObjId</ref><sp/>*<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a48ea2ebd79d9cdbd372980068fc3fc65" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_deref_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0d1cc61914c2b2b61c59f075d7a7cafc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1a0d1cc61914c2b2b61c59f075d7a7cafc" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator_incr</ref>(<ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adb8406fcdd21d5d975b15b21d56eccf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1adb8406fcdd21d5d975b15b21d56eccf9" kindref="member">MR_equal_MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="phmap__flat__hash__map__MR__ObjId__MR__ObjId_8h_1ae11a4845e61dac1128533ad20d00bbb2" kindref="member">MR_phmap_flat_hash_map_MR_ObjId_MR_ObjId_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/phmap_flat_hash_map_MR_ObjId_MR_ObjId.h"/>
+  </compounddef>
+</doxygen>

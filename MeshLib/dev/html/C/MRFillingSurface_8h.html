@@ -145,8 +145,8 @@ $(function(){initNavTree('MRFillingSurface_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -154,7 +154,6 @@ $(function(){initNavTree('MRFillingSurface_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ab294732b2988d23c13fd8799dc19a43a" id="r_ab294732b2988d23c13fd8799dc19a43a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a></td></tr>
 <tr class="memitem:a202556565dc01b05e3826d14a7135a6d" id="r_a202556565dc01b05e3826d14a7135a6d"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a202556565dc01b05e3826d14a7135a6d">MR_FillingSurface_TPMS_Type</a></td></tr>
 <tr class="memdesc:a202556565dc01b05e3826d14a7135a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported types of TPMS (Triply Periodic Minimal Surfaces)  <br /></td></tr>
 <tr class="memitem:a0b9839dfde3aa393d5c20e25f9d6b30e" id="r_a0b9839dfde3aa393d5c20e25f9d6b30e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a></td></tr>
@@ -186,101 +185,101 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a00b95cb47bacc009284c13060c372ceb" id="r_a00b95cb47bacc009284c13060c372ceb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00b95cb47bacc009284c13060c372ceb">MR_FillingSurface_TPMS_getTypeNames</a> (void)</td></tr>
-<tr class="memitem:a95f29c775317c32c74717785cc7df606" id="r_a95f29c775317c32c74717785cc7df606"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f29c775317c32c74717785cc7df606">MR_FillingSurface_TPMS_getTypeTooltips</a> (void)</td></tr>
-<tr class="memitem:a21f1bd13d0549c8a829fd2738a175463" id="r_a21f1bd13d0549c8a829fd2738a175463"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f1bd13d0549c8a829fd2738a175463">MR_FillingSurface_TPMS_isThick</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type)</td></tr>
-<tr class="memitem:a442cdce500ed577026d6f859de3c2d0c" id="r_a442cdce500ed577026d6f859de3c2d0c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442cdce500ed577026d6f859de3c2d0c">MR_FillingSurface_TPMS_VolumeParams_Get_type</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:a7bd2fb6859b66c2a41ce953b35d36b39" id="r_a7bd2fb6859b66c2a41ce953b35d36b39"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd2fb6859b66c2a41ce953b35d36b39">MR_FillingSurface_TPMS_VolumeParams_Set_type</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> value)</td></tr>
-<tr class="memitem:abc7935fb6d0b2687fbb7204a8f2f28f8" id="r_abc7935fb6d0b2687fbb7204a8f2f28f8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7935fb6d0b2687fbb7204a8f2f28f8">MR_FillingSurface_TPMS_VolumeParams_GetMutable_type</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:a1f67af5720af702dfad736f769b81ad8" id="r_a1f67af5720af702dfad736f769b81ad8"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f67af5720af702dfad736f769b81ad8">MR_FillingSurface_TPMS_VolumeParams_Get_frequency</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:a2d0624bed129e38ccf15f3a59f0b5bd7" id="r_a2d0624bed129e38ccf15f3a59f0b5bd7"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d0624bed129e38ccf15f3a59f0b5bd7">MR_FillingSurface_TPMS_VolumeParams_Set_frequency</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, float value)</td></tr>
-<tr class="memitem:aa819bc142f821c631b9e2db9f705249e" id="r_aa819bc142f821c631b9e2db9f705249e"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa819bc142f821c631b9e2db9f705249e">MR_FillingSurface_TPMS_VolumeParams_GetMutable_frequency</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:a20a4a8b69fcb2cb91e702dbfe734045e" id="r_a20a4a8b69fcb2cb91e702dbfe734045e"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20a4a8b69fcb2cb91e702dbfe734045e">MR_FillingSurface_TPMS_VolumeParams_Get_resolution</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:a8b8a9abdac6ad74f3df4dab95e138381" id="r_a8b8a9abdac6ad74f3df4dab95e138381"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8a9abdac6ad74f3df4dab95e138381">MR_FillingSurface_TPMS_VolumeParams_Set_resolution</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, float value)</td></tr>
-<tr class="memitem:ad76b7c637ae8f5e2bc2cb956789dfa64" id="r_ad76b7c637ae8f5e2bc2cb956789dfa64"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad76b7c637ae8f5e2bc2cb956789dfa64">MR_FillingSurface_TPMS_VolumeParams_GetMutable_resolution</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
-<tr class="memitem:aee7275c2f6d96e47aa5572b1fd76e88b" id="r_aee7275c2f6d96e47aa5572b1fd76e88b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7275c2f6d96e47aa5572b1fd76e88b">MR_FillingSurface_TPMS_VolumeParams_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a92b03c22efbbfdf537cd7dac1752d311" id="r_a92b03c22efbbfdf537cd7dac1752d311"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b03c22efbbfdf537cd7dac1752d311">MR_FillingSurface_TPMS_VolumeParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a02739cb19e5690559c0562cc4f42f203" id="r_a02739cb19e5690559c0562cc4f42f203"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02739cb19e5690559c0562cc4f42f203">MR_FillingSurface_TPMS_VolumeParams_ConstructFrom</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float frequency, float resolution)</td></tr>
-<tr class="memitem:ac2b293ba8cc28402d704f5ef049b3e8f" id="r_ac2b293ba8cc28402d704f5ef049b3e8f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b293ba8cc28402d704f5ef049b3e8f">MR_FillingSurface_TPMS_VolumeParams_OffsetPtr</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:aa2eb24dd623e80286a15c16925ca4776" id="r_aa2eb24dd623e80286a15c16925ca4776"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2eb24dd623e80286a15c16925ca4776">MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:afcca9d6f641c03d17961b44225477ef0" id="r_afcca9d6f641c03d17961b44225477ef0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcca9d6f641c03d17961b44225477ef0">MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_other)</td></tr>
-<tr class="memitem:a2ad10b975cd76c36de04f97f6f10587d" id="r_a2ad10b975cd76c36de04f97f6f10587d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ad10b975cd76c36de04f97f6f10587d">MR_FillingSurface_TPMS_VolumeParams_Destroy</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a00b95cb47bacc009284c13060c372ceb" id="r_a00b95cb47bacc009284c13060c372ceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00b95cb47bacc009284c13060c372ceb">MR_FillingSurface_TPMS_getTypeNames</a> (void)</td></tr>
+<tr class="memitem:a95f29c775317c32c74717785cc7df606" id="r_a95f29c775317c32c74717785cc7df606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95f29c775317c32c74717785cc7df606">MR_FillingSurface_TPMS_getTypeTooltips</a> (void)</td></tr>
+<tr class="memitem:a21f1bd13d0549c8a829fd2738a175463" id="r_a21f1bd13d0549c8a829fd2738a175463"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21f1bd13d0549c8a829fd2738a175463">MR_FillingSurface_TPMS_isThick</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type)</td></tr>
+<tr class="memitem:a442cdce500ed577026d6f859de3c2d0c" id="r_a442cdce500ed577026d6f859de3c2d0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a442cdce500ed577026d6f859de3c2d0c">MR_FillingSurface_TPMS_VolumeParams_Get_type</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a7bd2fb6859b66c2a41ce953b35d36b39" id="r_a7bd2fb6859b66c2a41ce953b35d36b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd2fb6859b66c2a41ce953b35d36b39">MR_FillingSurface_TPMS_VolumeParams_Set_type</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> value)</td></tr>
+<tr class="memitem:abc7935fb6d0b2687fbb7204a8f2f28f8" id="r_abc7935fb6d0b2687fbb7204a8f2f28f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abc7935fb6d0b2687fbb7204a8f2f28f8">MR_FillingSurface_TPMS_VolumeParams_GetMutable_type</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a1f67af5720af702dfad736f769b81ad8" id="r_a1f67af5720af702dfad736f769b81ad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f67af5720af702dfad736f769b81ad8">MR_FillingSurface_TPMS_VolumeParams_Get_frequency</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a2d0624bed129e38ccf15f3a59f0b5bd7" id="r_a2d0624bed129e38ccf15f3a59f0b5bd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d0624bed129e38ccf15f3a59f0b5bd7">MR_FillingSurface_TPMS_VolumeParams_Set_frequency</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, float value)</td></tr>
+<tr class="memitem:aa819bc142f821c631b9e2db9f705249e" id="r_aa819bc142f821c631b9e2db9f705249e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa819bc142f821c631b9e2db9f705249e">MR_FillingSurface_TPMS_VolumeParams_GetMutable_frequency</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a20a4a8b69fcb2cb91e702dbfe734045e" id="r_a20a4a8b69fcb2cb91e702dbfe734045e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20a4a8b69fcb2cb91e702dbfe734045e">MR_FillingSurface_TPMS_VolumeParams_Get_resolution</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a8b8a9abdac6ad74f3df4dab95e138381" id="r_a8b8a9abdac6ad74f3df4dab95e138381"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8b8a9abdac6ad74f3df4dab95e138381">MR_FillingSurface_TPMS_VolumeParams_Set_resolution</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, float value)</td></tr>
+<tr class="memitem:ad76b7c637ae8f5e2bc2cb956789dfa64" id="r_ad76b7c637ae8f5e2bc2cb956789dfa64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad76b7c637ae8f5e2bc2cb956789dfa64">MR_FillingSurface_TPMS_VolumeParams_GetMutable_resolution</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:aee7275c2f6d96e47aa5572b1fd76e88b" id="r_aee7275c2f6d96e47aa5572b1fd76e88b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee7275c2f6d96e47aa5572b1fd76e88b">MR_FillingSurface_TPMS_VolumeParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a92b03c22efbbfdf537cd7dac1752d311" id="r_a92b03c22efbbfdf537cd7dac1752d311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92b03c22efbbfdf537cd7dac1752d311">MR_FillingSurface_TPMS_VolumeParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a02739cb19e5690559c0562cc4f42f203" id="r_a02739cb19e5690559c0562cc4f42f203"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02739cb19e5690559c0562cc4f42f203">MR_FillingSurface_TPMS_VolumeParams_ConstructFrom</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float frequency, float resolution)</td></tr>
+<tr class="memitem:ac2b293ba8cc28402d704f5ef049b3e8f" id="r_ac2b293ba8cc28402d704f5ef049b3e8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2b293ba8cc28402d704f5ef049b3e8f">MR_FillingSurface_TPMS_VolumeParams_OffsetPtr</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:aa2eb24dd623e80286a15c16925ca4776" id="r_aa2eb24dd623e80286a15c16925ca4776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2eb24dd623e80286a15c16925ca4776">MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:afcca9d6f641c03d17961b44225477ef0" id="r_afcca9d6f641c03d17961b44225477ef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcca9d6f641c03d17961b44225477ef0">MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_other)</td></tr>
+<tr class="memitem:a2ad10b975cd76c36de04f97f6f10587d" id="r_a2ad10b975cd76c36de04f97f6f10587d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ad10b975cd76c36de04f97f6f10587d">MR_FillingSurface_TPMS_VolumeParams_Destroy</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
 <tr class="memdesc:a2ad10b975cd76c36de04f97f6f10587d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a33dc99f7bc7f56f07172f167e5eec325" id="r_a33dc99f7bc7f56f07172f167e5eec325"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33dc99f7bc7f56f07172f167e5eec325">MR_FillingSurface_TPMS_VolumeParams_DestroyArray</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
+<tr class="memitem:a33dc99f7bc7f56f07172f167e5eec325" id="r_a33dc99f7bc7f56f07172f167e5eec325"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33dc99f7bc7f56f07172f167e5eec325">MR_FillingSurface_TPMS_VolumeParams_DestroyArray</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this)</td></tr>
 <tr class="memdesc:a33dc99f7bc7f56f07172f167e5eec325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a4ca9e21ca5d9b8b552a10d050ef7bea0" id="r_a4ca9e21ca5d9b8b552a10d050ef7bea0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca9e21ca5d9b8b552a10d050ef7bea0">MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_other)</td></tr>
-<tr class="memitem:a464a608a3a30129c4b2a93238de05cce" id="r_a464a608a3a30129c4b2a93238de05cce"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464a608a3a30129c4b2a93238de05cce">MR_FillingSurface_TPMS_MeshParams_Get_iso</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:ae591ff97e80fbcca0bb7110d9fbe18cd" id="r_ae591ff97e80fbcca0bb7110d9fbe18cd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae591ff97e80fbcca0bb7110d9fbe18cd">MR_FillingSurface_TPMS_MeshParams_Set_iso</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
-<tr class="memitem:af598d4008d03acbe282ce6da80d92f3b" id="r_af598d4008d03acbe282ce6da80d92f3b"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af598d4008d03acbe282ce6da80d92f3b">MR_FillingSurface_TPMS_MeshParams_GetMutable_iso</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:a98f57491e4c3a3575c41c65c607d7224" id="r_a98f57491e4c3a3575c41c65c607d7224"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f57491e4c3a3575c41c65c607d7224">MR_FillingSurface_TPMS_MeshParams_Get_decimate</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:ad82cd598e11d14ce59ac1f542d4acb20" id="r_ad82cd598e11d14ce59ac1f542d4acb20"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82cd598e11d14ce59ac1f542d4acb20">MR_FillingSurface_TPMS_MeshParams_Set_decimate</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, bool value)</td></tr>
-<tr class="memitem:a74785a5efb3835c64c922f5aa3eaabe3" id="r_a74785a5efb3835c64c922f5aa3eaabe3"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74785a5efb3835c64c922f5aa3eaabe3">MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:ac1df4844a81dbd2ba84b8f0003f76818" id="r_ac1df4844a81dbd2ba84b8f0003f76818"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1df4844a81dbd2ba84b8f0003f76818">MR_FillingSurface_TPMS_MeshParams_Get_type</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:af6d25f56f305f564a8ca847df7265df9" id="r_af6d25f56f305f564a8ca847df7265df9"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d25f56f305f564a8ca847df7265df9">MR_FillingSurface_TPMS_MeshParams_Set_type</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> value)</td></tr>
-<tr class="memitem:a1b5919b5c402c7d6a96fff4673973f97" id="r_a1b5919b5c402c7d6a96fff4673973f97"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5919b5c402c7d6a96fff4673973f97">MR_FillingSurface_TPMS_MeshParams_GetMutable_type</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:ab80281f33030b57cbe8c4b839756aad9" id="r_ab80281f33030b57cbe8c4b839756aad9"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80281f33030b57cbe8c4b839756aad9">MR_FillingSurface_TPMS_MeshParams_Get_frequency</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:a1e83a88c556c42de69eec50fc7f12c21" id="r_a1e83a88c556c42de69eec50fc7f12c21"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e83a88c556c42de69eec50fc7f12c21">MR_FillingSurface_TPMS_MeshParams_Set_frequency</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
-<tr class="memitem:a16e2f3115b0a67f0d2099530e0fe683a" id="r_a16e2f3115b0a67f0d2099530e0fe683a"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e2f3115b0a67f0d2099530e0fe683a">MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:a9b2c9def75563d9f9ce9f738ff02891d" id="r_a9b2c9def75563d9f9ce9f738ff02891d"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b2c9def75563d9f9ce9f738ff02891d">MR_FillingSurface_TPMS_MeshParams_Get_resolution</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:a1a07987b5ee23f9dd195ff9ddd54e444" id="r_a1a07987b5ee23f9dd195ff9ddd54e444"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a07987b5ee23f9dd195ff9ddd54e444">MR_FillingSurface_TPMS_MeshParams_Set_resolution</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
-<tr class="memitem:a2f8a1369dc3f6ff593933705223ac856" id="r_a2f8a1369dc3f6ff593933705223ac856"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8a1369dc3f6ff593933705223ac856">MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
-<tr class="memitem:a882c76abc85ab92ac4006e6b4eaf22e8" id="r_a882c76abc85ab92ac4006e6b4eaf22e8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882c76abc85ab92ac4006e6b4eaf22e8">MR_FillingSurface_TPMS_MeshParams_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a93919181a70b89b7b7423d863735d11b" id="r_a93919181a70b89b7b7423d863735d11b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93919181a70b89b7b7423d863735d11b">MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a0bf051c8973386a4329f7298ec422d6e" id="r_a0bf051c8973386a4329f7298ec422d6e"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf051c8973386a4329f7298ec422d6e">MR_FillingSurface_TPMS_MeshParams_OffsetPtr</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:abcd1ec728c4e45df0c1eb96a28b7ef75" id="r_abcd1ec728c4e45df0c1eb96a28b7ef75"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd1ec728c4e45df0c1eb96a28b7ef75">MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a597f62ae2f2eabba13cf69f10a89b6be" id="r_a597f62ae2f2eabba13cf69f10a89b6be"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597f62ae2f2eabba13cf69f10a89b6be">MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *object)</td></tr>
-<tr class="memitem:a9a838d5d504d1d2d62a0fd1cbe648743" id="r_a9a838d5d504d1d2d62a0fd1cbe648743"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a838d5d504d1d2d62a0fd1cbe648743">MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *object)</td></tr>
-<tr class="memitem:ac77b1586b12f8b375ca18227641c0742" id="r_ac77b1586b12f8b375ca18227641c0742"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77b1586b12f8b375ca18227641c0742">MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *object)</td></tr>
-<tr class="memitem:a6e57dbba78cd555799975eae2e2455eb" id="r_a6e57dbba78cd555799975eae2e2455eb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e57dbba78cd555799975eae2e2455eb">MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *object)</td></tr>
-<tr class="memitem:abdb226055edaaae7e240669c99e1e7cc" id="r_abdb226055edaaae7e240669c99e1e7cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdb226055edaaae7e240669c99e1e7cc">MR_FillingSurface_TPMS_MeshParams_ConstructFromAnother</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_other)</td></tr>
-<tr class="memitem:aca3559d386f2d784acc46612d2b7a4dc" id="r_aca3559d386f2d784acc46612d2b7a4dc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca3559d386f2d784acc46612d2b7a4dc">MR_FillingSurface_TPMS_MeshParams_Destroy</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a4ca9e21ca5d9b8b552a10d050ef7bea0" id="r_a4ca9e21ca5d9b8b552a10d050ef7bea0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ca9e21ca5d9b8b552a10d050ef7bea0">MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_this, const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *_other)</td></tr>
+<tr class="memitem:a464a608a3a30129c4b2a93238de05cce" id="r_a464a608a3a30129c4b2a93238de05cce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a464a608a3a30129c4b2a93238de05cce">MR_FillingSurface_TPMS_MeshParams_Get_iso</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:ae591ff97e80fbcca0bb7110d9fbe18cd" id="r_ae591ff97e80fbcca0bb7110d9fbe18cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae591ff97e80fbcca0bb7110d9fbe18cd">MR_FillingSurface_TPMS_MeshParams_Set_iso</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
+<tr class="memitem:af598d4008d03acbe282ce6da80d92f3b" id="r_af598d4008d03acbe282ce6da80d92f3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af598d4008d03acbe282ce6da80d92f3b">MR_FillingSurface_TPMS_MeshParams_GetMutable_iso</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a98f57491e4c3a3575c41c65c607d7224" id="r_a98f57491e4c3a3575c41c65c607d7224"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98f57491e4c3a3575c41c65c607d7224">MR_FillingSurface_TPMS_MeshParams_Get_decimate</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:ad82cd598e11d14ce59ac1f542d4acb20" id="r_ad82cd598e11d14ce59ac1f542d4acb20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad82cd598e11d14ce59ac1f542d4acb20">MR_FillingSurface_TPMS_MeshParams_Set_decimate</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, bool value)</td></tr>
+<tr class="memitem:a74785a5efb3835c64c922f5aa3eaabe3" id="r_a74785a5efb3835c64c922f5aa3eaabe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74785a5efb3835c64c922f5aa3eaabe3">MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:ac1df4844a81dbd2ba84b8f0003f76818" id="r_ac1df4844a81dbd2ba84b8f0003f76818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1df4844a81dbd2ba84b8f0003f76818">MR_FillingSurface_TPMS_MeshParams_Get_type</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:af6d25f56f305f564a8ca847df7265df9" id="r_af6d25f56f305f564a8ca847df7265df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6d25f56f305f564a8ca847df7265df9">MR_FillingSurface_TPMS_MeshParams_Set_type</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> value)</td></tr>
+<tr class="memitem:a1b5919b5c402c7d6a96fff4673973f97" id="r_a1b5919b5c402c7d6a96fff4673973f97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5919b5c402c7d6a96fff4673973f97">MR_FillingSurface_TPMS_MeshParams_GetMutable_type</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:ab80281f33030b57cbe8c4b839756aad9" id="r_ab80281f33030b57cbe8c4b839756aad9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80281f33030b57cbe8c4b839756aad9">MR_FillingSurface_TPMS_MeshParams_Get_frequency</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a1e83a88c556c42de69eec50fc7f12c21" id="r_a1e83a88c556c42de69eec50fc7f12c21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e83a88c556c42de69eec50fc7f12c21">MR_FillingSurface_TPMS_MeshParams_Set_frequency</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a16e2f3115b0a67f0d2099530e0fe683a" id="r_a16e2f3115b0a67f0d2099530e0fe683a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e2f3115b0a67f0d2099530e0fe683a">MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a9b2c9def75563d9f9ce9f738ff02891d" id="r_a9b2c9def75563d9f9ce9f738ff02891d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b2c9def75563d9f9ce9f738ff02891d">MR_FillingSurface_TPMS_MeshParams_Get_resolution</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a1a07987b5ee23f9dd195ff9ddd54e444" id="r_a1a07987b5ee23f9dd195ff9ddd54e444"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a07987b5ee23f9dd195ff9ddd54e444">MR_FillingSurface_TPMS_MeshParams_Set_resolution</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, float value)</td></tr>
+<tr class="memitem:a2f8a1369dc3f6ff593933705223ac856" id="r_a2f8a1369dc3f6ff593933705223ac856"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8a1369dc3f6ff593933705223ac856">MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a882c76abc85ab92ac4006e6b4eaf22e8" id="r_a882c76abc85ab92ac4006e6b4eaf22e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a882c76abc85ab92ac4006e6b4eaf22e8">MR_FillingSurface_TPMS_MeshParams_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a93919181a70b89b7b7423d863735d11b" id="r_a93919181a70b89b7b7423d863735d11b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93919181a70b89b7b7423d863735d11b">MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a0bf051c8973386a4329f7298ec422d6e" id="r_a0bf051c8973386a4329f7298ec422d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf051c8973386a4329f7298ec422d6e">MR_FillingSurface_TPMS_MeshParams_OffsetPtr</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:abcd1ec728c4e45df0c1eb96a28b7ef75" id="r_abcd1ec728c4e45df0c1eb96a28b7ef75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abcd1ec728c4e45df0c1eb96a28b7ef75">MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a597f62ae2f2eabba13cf69f10a89b6be" id="r_a597f62ae2f2eabba13cf69f10a89b6be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a597f62ae2f2eabba13cf69f10a89b6be">MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *object)</td></tr>
+<tr class="memitem:a9a838d5d504d1d2d62a0fd1cbe648743" id="r_a9a838d5d504d1d2d62a0fd1cbe648743"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a838d5d504d1d2d62a0fd1cbe648743">MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *object)</td></tr>
+<tr class="memitem:ac77b1586b12f8b375ca18227641c0742" id="r_ac77b1586b12f8b375ca18227641c0742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac77b1586b12f8b375ca18227641c0742">MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</a> (const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *object)</td></tr>
+<tr class="memitem:a6e57dbba78cd555799975eae2e2455eb" id="r_a6e57dbba78cd555799975eae2e2455eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e57dbba78cd555799975eae2e2455eb">MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams</a> (<a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *object)</td></tr>
+<tr class="memitem:abdb226055edaaae7e240669c99e1e7cc" id="r_abdb226055edaaae7e240669c99e1e7cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abdb226055edaaae7e240669c99e1e7cc">MR_FillingSurface_TPMS_MeshParams_ConstructFromAnother</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_other)</td></tr>
+<tr class="memitem:aca3559d386f2d784acc46612d2b7a4dc" id="r_aca3559d386f2d784acc46612d2b7a4dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca3559d386f2d784acc46612d2b7a4dc">MR_FillingSurface_TPMS_MeshParams_Destroy</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
 <tr class="memdesc:aca3559d386f2d784acc46612d2b7a4dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a8bcf273f857b47704a67ebcae198c4a8" id="r_a8bcf273f857b47704a67ebcae198c4a8"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcf273f857b47704a67ebcae198c4a8">MR_FillingSurface_TPMS_MeshParams_DestroyArray</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
+<tr class="memitem:a8bcf273f857b47704a67ebcae198c4a8" id="r_a8bcf273f857b47704a67ebcae198c4a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8bcf273f857b47704a67ebcae198c4a8">MR_FillingSurface_TPMS_MeshParams_DestroyArray</a> (const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this)</td></tr>
 <tr class="memdesc:a8bcf273f857b47704a67ebcae198c4a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:ad4dda4d68013ddeee03b524d6df2b9ed" id="r_ad4dda4d68013ddeee03b524d6df2b9ed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4dda4d68013ddeee03b524d6df2b9ed">MR_FillingSurface_TPMS_MeshParams_AssignFromAnother</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_other)</td></tr>
-<tr class="memitem:a08e7cc4717855d3d1e8a034c861c8fe5" id="r_a08e7cc4717855d3d1e8a034c861c8fe5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e7cc4717855d3d1e8a034c861c8fe5">MR_FillingSurface_TPMS_buildVolume</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *params)</td></tr>
-<tr class="memitem:a435f0baf33617e2a591d4a8b1fefc063" id="r_a435f0baf33617e2a591d4a8b1fefc063"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435f0baf33617e2a591d4a8b1fefc063">MR_FillingSurface_TPMS_build</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *params, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:a728d27f1573d58a9d01d107858957879" id="r_a728d27f1573d58a9d01d107858957879"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728d27f1573d58a9d01d107858957879">MR_FillingSurface_TPMS_fill</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *params, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:af6e0bad2db1e3f7658b44cd4c15649d0" id="r_af6e0bad2db1e3f7658b44cd4c15649d0"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e0bad2db1e3f7658b44cd4c15649d0">MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float frequency, float resolution)</td></tr>
-<tr class="memitem:a09052069aa568b5464e2e4f6e463881c" id="r_a09052069aa568b5464e2e4f6e463881c"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09052069aa568b5464e2e4f6e463881c">MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Vector3f</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, float frequency, float resolution)</td></tr>
-<tr class="memitem:a08ab128e0b20760615fc5179d7938b08" id="r_a08ab128e0b20760615fc5179d7938b08"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ab128e0b20760615fc5179d7938b08">MR_FillingSurface_TPMS_estimateIso</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float targetDensity)</td></tr>
-<tr class="memitem:a7ff10477bfbeae78e77e7e1d2769b4f4" id="r_a7ff10477bfbeae78e77e7e1d2769b4f4"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff10477bfbeae78e77e7e1d2769b4f4">MR_FillingSurface_TPMS_estimateDensity</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float targetIso)</td></tr>
-<tr class="memitem:ad6a36e2b15fb4499c01beacadc9671cd" id="r_ad6a36e2b15fb4499c01beacadc9671cd"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a36e2b15fb4499c01beacadc9671cd">MR_FillingSurface_TPMS_getMinimalResolution</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float iso)</td></tr>
-<tr class="memitem:ad8a1540c9e0dddc2a603a0914854bc4f" id="r_ad8a1540c9e0dddc2a603a0914854bc4f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a1540c9e0dddc2a603a0914854bc4f">MR_FillingSurface_CellularSurface_Params_Get_type</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a7f792a026a57a9f5db9e8d88691f48bc" id="r_a7f792a026a57a9f5db9e8d88691f48bc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f792a026a57a9f5db9e8d88691f48bc">MR_FillingSurface_CellularSurface_Params_Set_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> value)</td></tr>
-<tr class="memitem:a83ea67a23028050539ec4db1a77d81e5" id="r_a83ea67a23028050539ec4db1a77d81e5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ea67a23028050539ec4db1a77d81e5">MR_FillingSurface_CellularSurface_Params_GetMutable_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:ab7b2ffe0cd2025b2ebfcdb41f39e1f52" id="r_ab7b2ffe0cd2025b2ebfcdb41f39e1f52"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b2ffe0cd2025b2ebfcdb41f39e1f52">MR_FillingSurface_CellularSurface_Params_Get_period</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a06bd6b3534033b0b34d630006c6e0e5d" id="r_a06bd6b3534033b0b34d630006c6e0e5d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bd6b3534033b0b34d630006c6e0e5d">MR_FillingSurface_CellularSurface_Params_Set_period</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
-<tr class="memitem:aa185c3fcb23fc58e555cd214dad3936b" id="r_aa185c3fcb23fc58e555cd214dad3936b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa185c3fcb23fc58e555cd214dad3936b">MR_FillingSurface_CellularSurface_Params_GetMutable_period</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a34cbf337bf4736ac9f55f37e8b5c54f6" id="r_a34cbf337bf4736ac9f55f37e8b5c54f6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cbf337bf4736ac9f55f37e8b5c54f6">MR_FillingSurface_CellularSurface_Params_Get_width</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a21bf8122558c918b02b76d3a09bdf0c4" id="r_a21bf8122558c918b02b76d3a09bdf0c4"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21bf8122558c918b02b76d3a09bdf0c4">MR_FillingSurface_CellularSurface_Params_Set_width</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
-<tr class="memitem:ad2db3443d742006811695c939bd61ca6" id="r_ad2db3443d742006811695c939bd61ca6"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2db3443d742006811695c939bd61ca6">MR_FillingSurface_CellularSurface_Params_GetMutable_width</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:ad58a041ac6e471824069bf1e76ae724e" id="r_ad58a041ac6e471824069bf1e76ae724e"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58a041ac6e471824069bf1e76ae724e">MR_FillingSurface_CellularSurface_Params_Get_r</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a7ed50d7d475ac960816a398a7b662c8c" id="r_a7ed50d7d475ac960816a398a7b662c8c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed50d7d475ac960816a398a7b662c8c">MR_FillingSurface_CellularSurface_Params_Set_r</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, float value)</td></tr>
-<tr class="memitem:a88cca5c3d0c5528d2c391ad814ffe4d0" id="r_a88cca5c3d0c5528d2c391ad814ffe4d0"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cca5c3d0c5528d2c391ad814ffe4d0">MR_FillingSurface_CellularSurface_Params_GetMutable_r</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a8db3f61b298627bd1f08498ce9b162ee" id="r_a8db3f61b298627bd1f08498ce9b162ee"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db3f61b298627bd1f08498ce9b162ee">MR_FillingSurface_CellularSurface_Params_Get_highRes</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a84f72e3ac4f622b7138a49c816025eb2" id="r_a84f72e3ac4f622b7138a49c816025eb2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f72e3ac4f622b7138a49c816025eb2">MR_FillingSurface_CellularSurface_Params_Set_highRes</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, bool value)</td></tr>
-<tr class="memitem:a50f216c4aa37f5e6bf73d75754c06d61" id="r_a50f216c4aa37f5e6bf73d75754c06d61"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f216c4aa37f5e6bf73d75754c06d61">MR_FillingSurface_CellularSurface_Params_GetMutable_highRes</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a509e02891f539ddf09cd6248e94959f0" id="r_a509e02891f539ddf09cd6248e94959f0"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509e02891f539ddf09cd6248e94959f0">MR_FillingSurface_CellularSurface_Params_Get_preserveTips</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a1e63ac3f7d8caabe6a23c885ef8271ed" id="r_a1e63ac3f7d8caabe6a23c885ef8271ed"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e63ac3f7d8caabe6a23c885ef8271ed">MR_FillingSurface_CellularSurface_Params_Set_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, bool value)</td></tr>
-<tr class="memitem:a62eaef0d668ec5ed35ca4d0862a0acee" id="r_a62eaef0d668ec5ed35ca4d0862a0acee"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62eaef0d668ec5ed35ca4d0862a0acee">MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
-<tr class="memitem:a00fcff38e70b54a9bded4d26a755443a" id="r_a00fcff38e70b54a9bded4d26a755443a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00fcff38e70b54a9bded4d26a755443a">MR_FillingSurface_CellularSurface_Params_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a0d2a0629cfcd8058585979290c2dc8ba" id="r_a0d2a0629cfcd8058585979290c2dc8ba"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2a0629cfcd8058585979290c2dc8ba">MR_FillingSurface_CellularSurface_Params_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a0ac55f93e8457b9fdeaf1b9462ad3865" id="r_a0ac55f93e8457b9fdeaf1b9462ad3865"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac55f93e8457b9fdeaf1b9462ad3865">MR_FillingSurface_CellularSurface_Params_ConstructFrom</a> (<a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> type, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> period, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> width, float r, bool highRes, bool preserveTips)</td></tr>
-<tr class="memitem:ade071df38a00c5e497e0829a01ad33f0" id="r_ade071df38a00c5e497e0829a01ad33f0"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade071df38a00c5e497e0829a01ad33f0">MR_FillingSurface_CellularSurface_Params_OffsetPtr</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a43123cf261af54cf29f52dc0595d6580" id="r_a43123cf261af54cf29f52dc0595d6580"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43123cf261af54cf29f52dc0595d6580">MR_FillingSurface_CellularSurface_Params_OffsetMutablePtr</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a454a32b9441a0d141216d85b924b205f" id="r_a454a32b9441a0d141216d85b924b205f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454a32b9441a0d141216d85b924b205f">MR_FillingSurface_CellularSurface_Params_ConstructFromAnother</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_other)</td></tr>
-<tr class="memitem:a18d8807677b383f6c1abec41319dc16d" id="r_a18d8807677b383f6c1abec41319dc16d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18d8807677b383f6c1abec41319dc16d">MR_FillingSurface_CellularSurface_Params_Destroy</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:ad4dda4d68013ddeee03b524d6df2b9ed" id="r_ad4dda4d68013ddeee03b524d6df2b9ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4dda4d68013ddeee03b524d6df2b9ed">MR_FillingSurface_TPMS_MeshParams_AssignFromAnother</a> (<a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_this, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *_other)</td></tr>
+<tr class="memitem:a08e7cc4717855d3d1e8a034c861c8fe5" id="r_a08e7cc4717855d3d1e8a034c861c8fe5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__FunctionVolume__std__string_8h.html#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08e7cc4717855d3d1e8a034c861c8fe5">MR_FillingSurface_TPMS_buildVolume</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *params)</td></tr>
+<tr class="memitem:a435f0baf33617e2a591d4a8b1fefc063" id="r_a435f0baf33617e2a591d4a8b1fefc063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a435f0baf33617e2a591d4a8b1fefc063">MR_FillingSurface_TPMS_build</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a728d27f1573d58a9d01d107858957879" id="r_a728d27f1573d58a9d01d107858957879"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a728d27f1573d58a9d01d107858957879">MR_FillingSurface_TPMS_fill</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *params, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:af6e0bad2db1e3f7658b44cd4c15649d0" id="r_af6e0bad2db1e3f7658b44cd4c15649d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e0bad2db1e3f7658b44cd4c15649d0">MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Mesh</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, float frequency, float resolution)</td></tr>
+<tr class="memitem:a09052069aa568b5464e2e4f6e463881c" id="r_a09052069aa568b5464e2e4f6e463881c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09052069aa568b5464e2e4f6e463881c">MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Vector3f</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, float frequency, float resolution)</td></tr>
+<tr class="memitem:a08ab128e0b20760615fc5179d7938b08" id="r_a08ab128e0b20760615fc5179d7938b08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08ab128e0b20760615fc5179d7938b08">MR_FillingSurface_TPMS_estimateIso</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float targetDensity)</td></tr>
+<tr class="memitem:a7ff10477bfbeae78e77e7e1d2769b4f4" id="r_a7ff10477bfbeae78e77e7e1d2769b4f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ff10477bfbeae78e77e7e1d2769b4f4">MR_FillingSurface_TPMS_estimateDensity</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float targetIso)</td></tr>
+<tr class="memitem:ad6a36e2b15fb4499c01beacadc9671cd" id="r_ad6a36e2b15fb4499c01beacadc9671cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6a36e2b15fb4499c01beacadc9671cd">MR_FillingSurface_TPMS_getMinimalResolution</a> (<a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> type, float iso)</td></tr>
+<tr class="memitem:ad8a1540c9e0dddc2a603a0914854bc4f" id="r_ad8a1540c9e0dddc2a603a0914854bc4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a1540c9e0dddc2a603a0914854bc4f">MR_FillingSurface_CellularSurface_Params_Get_type</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a7f792a026a57a9f5db9e8d88691f48bc" id="r_a7f792a026a57a9f5db9e8d88691f48bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f792a026a57a9f5db9e8d88691f48bc">MR_FillingSurface_CellularSurface_Params_Set_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> value)</td></tr>
+<tr class="memitem:a83ea67a23028050539ec4db1a77d81e5" id="r_a83ea67a23028050539ec4db1a77d81e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83ea67a23028050539ec4db1a77d81e5">MR_FillingSurface_CellularSurface_Params_GetMutable_type</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:ab7b2ffe0cd2025b2ebfcdb41f39e1f52" id="r_ab7b2ffe0cd2025b2ebfcdb41f39e1f52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7b2ffe0cd2025b2ebfcdb41f39e1f52">MR_FillingSurface_CellularSurface_Params_Get_period</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a06bd6b3534033b0b34d630006c6e0e5d" id="r_a06bd6b3534033b0b34d630006c6e0e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06bd6b3534033b0b34d630006c6e0e5d">MR_FillingSurface_CellularSurface_Params_Set_period</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="memitem:aa185c3fcb23fc58e555cd214dad3936b" id="r_aa185c3fcb23fc58e555cd214dad3936b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa185c3fcb23fc58e555cd214dad3936b">MR_FillingSurface_CellularSurface_Params_GetMutable_period</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a34cbf337bf4736ac9f55f37e8b5c54f6" id="r_a34cbf337bf4736ac9f55f37e8b5c54f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a34cbf337bf4736ac9f55f37e8b5c54f6">MR_FillingSurface_CellularSurface_Params_Get_width</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a21bf8122558c918b02b76d3a09bdf0c4" id="r_a21bf8122558c918b02b76d3a09bdf0c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21bf8122558c918b02b76d3a09bdf0c4">MR_FillingSurface_CellularSurface_Params_Set_width</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="memitem:ad2db3443d742006811695c939bd61ca6" id="r_ad2db3443d742006811695c939bd61ca6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2db3443d742006811695c939bd61ca6">MR_FillingSurface_CellularSurface_Params_GetMutable_width</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:ad58a041ac6e471824069bf1e76ae724e" id="r_ad58a041ac6e471824069bf1e76ae724e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58a041ac6e471824069bf1e76ae724e">MR_FillingSurface_CellularSurface_Params_Get_r</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a7ed50d7d475ac960816a398a7b662c8c" id="r_a7ed50d7d475ac960816a398a7b662c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ed50d7d475ac960816a398a7b662c8c">MR_FillingSurface_CellularSurface_Params_Set_r</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, float value)</td></tr>
+<tr class="memitem:a88cca5c3d0c5528d2c391ad814ffe4d0" id="r_a88cca5c3d0c5528d2c391ad814ffe4d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88cca5c3d0c5528d2c391ad814ffe4d0">MR_FillingSurface_CellularSurface_Params_GetMutable_r</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a8db3f61b298627bd1f08498ce9b162ee" id="r_a8db3f61b298627bd1f08498ce9b162ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8db3f61b298627bd1f08498ce9b162ee">MR_FillingSurface_CellularSurface_Params_Get_highRes</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a84f72e3ac4f622b7138a49c816025eb2" id="r_a84f72e3ac4f622b7138a49c816025eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84f72e3ac4f622b7138a49c816025eb2">MR_FillingSurface_CellularSurface_Params_Set_highRes</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, bool value)</td></tr>
+<tr class="memitem:a50f216c4aa37f5e6bf73d75754c06d61" id="r_a50f216c4aa37f5e6bf73d75754c06d61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50f216c4aa37f5e6bf73d75754c06d61">MR_FillingSurface_CellularSurface_Params_GetMutable_highRes</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a509e02891f539ddf09cd6248e94959f0" id="r_a509e02891f539ddf09cd6248e94959f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a509e02891f539ddf09cd6248e94959f0">MR_FillingSurface_CellularSurface_Params_Get_preserveTips</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a1e63ac3f7d8caabe6a23c885ef8271ed" id="r_a1e63ac3f7d8caabe6a23c885ef8271ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e63ac3f7d8caabe6a23c885ef8271ed">MR_FillingSurface_CellularSurface_Params_Set_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, bool value)</td></tr>
+<tr class="memitem:a62eaef0d668ec5ed35ca4d0862a0acee" id="r_a62eaef0d668ec5ed35ca4d0862a0acee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62eaef0d668ec5ed35ca4d0862a0acee">MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a00fcff38e70b54a9bded4d26a755443a" id="r_a00fcff38e70b54a9bded4d26a755443a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00fcff38e70b54a9bded4d26a755443a">MR_FillingSurface_CellularSurface_Params_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a0d2a0629cfcd8058585979290c2dc8ba" id="r_a0d2a0629cfcd8058585979290c2dc8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d2a0629cfcd8058585979290c2dc8ba">MR_FillingSurface_CellularSurface_Params_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a0ac55f93e8457b9fdeaf1b9462ad3865" id="r_a0ac55f93e8457b9fdeaf1b9462ad3865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac55f93e8457b9fdeaf1b9462ad3865">MR_FillingSurface_CellularSurface_Params_ConstructFrom</a> (<a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> type, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> period, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> width, float r, bool highRes, bool preserveTips)</td></tr>
+<tr class="memitem:ade071df38a00c5e497e0829a01ad33f0" id="r_ade071df38a00c5e497e0829a01ad33f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade071df38a00c5e497e0829a01ad33f0">MR_FillingSurface_CellularSurface_Params_OffsetPtr</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a43123cf261af54cf29f52dc0595d6580" id="r_a43123cf261af54cf29f52dc0595d6580"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a43123cf261af54cf29f52dc0595d6580">MR_FillingSurface_CellularSurface_Params_OffsetMutablePtr</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a454a32b9441a0d141216d85b924b205f" id="r_a454a32b9441a0d141216d85b924b205f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a454a32b9441a0d141216d85b924b205f">MR_FillingSurface_CellularSurface_Params_ConstructFromAnother</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_other)</td></tr>
+<tr class="memitem:a18d8807677b383f6c1abec41319dc16d" id="r_a18d8807677b383f6c1abec41319dc16d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18d8807677b383f6c1abec41319dc16d">MR_FillingSurface_CellularSurface_Params_Destroy</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
 <tr class="memdesc:a18d8807677b383f6c1abec41319dc16d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a2ce1b0b2beb6a513a032bad25d6fc3f0" id="r_a2ce1b0b2beb6a513a032bad25d6fc3f0"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce1b0b2beb6a513a032bad25d6fc3f0">MR_FillingSurface_CellularSurface_Params_DestroyArray</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
+<tr class="memitem:a2ce1b0b2beb6a513a032bad25d6fc3f0" id="r_a2ce1b0b2beb6a513a032bad25d6fc3f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ce1b0b2beb6a513a032bad25d6fc3f0">MR_FillingSurface_CellularSurface_Params_DestroyArray</a> (const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this)</td></tr>
 <tr class="memdesc:a2ce1b0b2beb6a513a032bad25d6fc3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a72e4a1338c27c7e0b96fb4c6eeaa3fbd" id="r_a72e4a1338c27c7e0b96fb4c6eeaa3fbd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e4a1338c27c7e0b96fb4c6eeaa3fbd">MR_FillingSurface_CellularSurface_Params_AssignFromAnother</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_other)</td></tr>
-<tr class="memitem:a56b54db3935ac145cafa0bba535cda5b" id="r_a56b54db3935ac145cafa0bba535cda5b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b54db3935ac145cafa0bba535cda5b">MR_FillingSurface_CellularSurface_getTypeNames</a> (void)</td></tr>
-<tr class="memitem:a74cbe9dee59edafa78c82b85d7d686e0" id="r_a74cbe9dee59edafa78c82b85d7d686e0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cbe9dee59edafa78c82b85d7d686e0">MR_FillingSurface_CellularSurface_build</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:aa2ece742bacdcd504602b12c03b079da" id="r_aa2ece742bacdcd504602b12c03b079da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2ece742bacdcd504602b12c03b079da">MR_FillingSurface_CellularSurface_fill</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:aebc03d57a68bb8a78e4a76de2d396165" id="r_aebc03d57a68bb8a78e4a76de2d396165"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc03d57a68bb8a78e4a76de2d396165">MR_FillingSurface_CellularSurface_estimateDensity</a> (float period, float width, float r)</td></tr>
-<tr class="memitem:aec461310ebfc9d811a423eaff3d0e1ff" id="r_aec461310ebfc9d811a423eaff3d0e1ff"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a55e42a260ef15081eb6a47c600bd1f4b">MR_std_optional_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec461310ebfc9d811a423eaff3d0e1ff">MR_FillingSurface_CellularSurface_estimateWidth</a> (float period, float r, float targetDensity)</td></tr>
-<tr class="memitem:a011ad3e3f99f2d1766ee4d3f52ef8c99" id="r_a011ad3e3f99f2d1766ee4d3f52ef8c99"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011ad3e3f99f2d1766ee4d3f52ef8c99">MR_FillingSurface_getKindNames</a> (void)</td></tr>
+<tr class="memitem:a72e4a1338c27c7e0b96fb4c6eeaa3fbd" id="r_a72e4a1338c27c7e0b96fb4c6eeaa3fbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72e4a1338c27c7e0b96fb4c6eeaa3fbd">MR_FillingSurface_CellularSurface_Params_AssignFromAnother</a> (<a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_this, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *_other)</td></tr>
+<tr class="memitem:a56b54db3935ac145cafa0bba535cda5b" id="r_a56b54db3935ac145cafa0bba535cda5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a56b54db3935ac145cafa0bba535cda5b">MR_FillingSurface_CellularSurface_getTypeNames</a> (void)</td></tr>
+<tr class="memitem:a74cbe9dee59edafa78c82b85d7d686e0" id="r_a74cbe9dee59edafa78c82b85d7d686e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74cbe9dee59edafa78c82b85d7d686e0">MR_FillingSurface_CellularSurface_build</a> (const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *size, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:aa2ece742bacdcd504602b12c03b079da" id="r_aa2ece742bacdcd504602b12c03b079da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2ece742bacdcd504602b12c03b079da">MR_FillingSurface_CellularSurface_fill</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *params, const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:aebc03d57a68bb8a78e4a76de2d396165" id="r_aebc03d57a68bb8a78e4a76de2d396165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebc03d57a68bb8a78e4a76de2d396165">MR_FillingSurface_CellularSurface_estimateDensity</a> (float period, float width, float r)</td></tr>
+<tr class="memitem:aec461310ebfc9d811a423eaff3d0e1ff" id="r_aec461310ebfc9d811a423eaff3d0e1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFitPolynomial_8h.html#a55e42a260ef15081eb6a47c600bd1f4b">MR_std_optional_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec461310ebfc9d811a423eaff3d0e1ff">MR_FillingSurface_CellularSurface_estimateWidth</a> (float period, float r, float targetDensity)</td></tr>
+<tr class="memitem:a011ad3e3f99f2d1766ee4d3f52ef8c99" id="r_a011ad3e3f99f2d1766ee4d3f52ef8c99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a011ad3e3f99f2d1766ee4d3f52ef8c99">MR_FillingSurface_getKindNames</a> (void)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ae4efb998aa5d6c2ddd6698e7648180d6" name="ae4efb998aa5d6c2ddd6698e7648180d6"></a>
@@ -294,7 +293,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::FillingSurface::CellularSurface::Params</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::FillingSurface::CellularSurface::Params</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -339,7 +338,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::FillingSurface::TPMS::MeshParams</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::FillingSurface::TPMS::VolumeParams</span> Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::FillingSurface::TPMS::MeshParams</span>. Base classes: Direct: (non-virtual) <span class="tt">MR::FillingSurface::TPMS::VolumeParams</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -370,22 +369,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::FillingSurface::TPMS::VolumeParams</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::FillingSurface::TPMS::MeshParams</span> Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="ab294732b2988d23c13fd8799dc19a43a" name="ab294732b2988d23c13fd8799dc19a43a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab294732b2988d23c13fd8799dc19a43a">&#9670;&#160;</a></span>MR_FunctionVolume</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> <a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>represents a box in 3D space subdivided on voxels stored in T Generated from class <span class="tt">MR::FunctionVolume</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::FillingSurface::TPMS::VolumeParams</span>. Derived classes: Direct: (non-virtual) <span class="tt">MR::FillingSurface::TPMS::MeshParams</span> Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -459,7 +443,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_CellularSurface_build </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_CellularSurface_build </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -475,7 +459,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Build a cellular surface of size <code class="param">size</code> Generated from function <span class="tt">MR::FillingSurface::CellularSurface::build</span>. Parameter <span class="tt">size</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Build a cellular surface of size <code class="param">size</code> Generated from function <span class="tt">MR::FillingSurface::CellularSurface::build</span>. Parameter <span class="tt">size</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -486,7 +470,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_FillingSurface_CellularSurface_estimateDensity </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_FillingSurface_CellularSurface_estimateDensity </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>period</em></span>, </td>
         </tr>
@@ -513,7 +497,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRBestFitPolynomial_8h.html#a55e42a260ef15081eb6a47c600bd1f4b">MR_std_optional_float</a> * MR_FillingSurface_CellularSurface_estimateWidth </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRBestFitPolynomial_8h.html#a55e42a260ef15081eb6a47c600bd1f4b">MR_std_optional_float</a> * MR_FillingSurface_CellularSurface_estimateWidth </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>period</em></span>, </td>
         </tr>
@@ -529,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Estimate the width that is needed to attain the <code class="param">targetDensity</code>. Inverse of estimateDensity. </p><dl class="section note"><dt>Note</dt><dd>The width is not unique in general, no guarantees are made about which value among possible will be returned. Generated from function <span class="tt">MR::FillingSurface::CellularSurface::estimateWidth</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_optional_float_Destroy()</span> to free it when you're done using it. </dd></dl>
+<p>Estimate the width that is needed to attain the <code class="param">targetDensity</code>. Inverse of estimateDensity. </p><dl class="section note"><dt>Note</dt><dd>The width is not unique in general, no guarantees are made about which value among possible will be returned. Generated from function <span class="tt">MR::FillingSurface::CellularSurface::estimateWidth</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__optional__float_8h.html#a5d420413d3a6e2cfe102648fbce38a49" title="Destroys a heap-allocated instance of MR_std_optional_float. Does nothing if the pointer is null.">MR_std_optional_float_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -540,7 +524,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_CellularSurface_fill </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_CellularSurface_fill </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -556,7 +540,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Fill given mesh with a cellular surface Generated from function <span class="tt">MR::FillingSurface::CellularSurface::fill</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Fill given mesh with a cellular surface Generated from function <span class="tt">MR::FillingSurface::CellularSurface::fill</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -567,14 +551,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_CellularSurface_getTypeNames </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_CellularSurface_getTypeNames </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the names for each type of filling Generated from function <span class="tt">MR::FillingSurface::CellularSurface::getTypeNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Returns the names for each type of filling Generated from function <span class="tt">MR::FillingSurface::CellularSurface::getTypeNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -585,7 +569,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -607,7 +591,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -649,7 +633,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -667,7 +651,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -685,7 +669,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -703,7 +687,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -722,7 +706,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -741,7 +725,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_FillingSurface_CellularSurface_Params_Get_highRes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_FillingSurface_CellularSurface_Params_Get_highRes </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -759,7 +743,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_Get_period </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_Get_period </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -777,7 +761,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_FillingSurface_CellularSurface_Params_Get_preserveTips </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_FillingSurface_CellularSurface_Params_Get_preserveTips </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -795,7 +779,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_CellularSurface_Params_Get_r </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_CellularSurface_Params_Get_r </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -813,7 +797,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_Get_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -831,7 +815,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_Get_width </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_Get_width </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -849,7 +833,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_FillingSurface_CellularSurface_Params_GetMutable_highRes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_FillingSurface_CellularSurface_Params_GetMutable_highRes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -867,7 +851,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_period </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_period </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -885,7 +869,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_FillingSurface_CellularSurface_Params_GetMutable_preserveTips </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -903,7 +887,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_CellularSurface_Params_GetMutable_r </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_CellularSurface_Params_GetMutable_r </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -920,7 +904,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac41072412d2c5ced81a92bfed16d194c">MR_FillingSurface_CellularSurface_Type</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -938,7 +922,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_width </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_FillingSurface_CellularSurface_Params_GetMutable_width </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -956,7 +940,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -978,7 +962,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> * MR_FillingSurface_CellularSurface_Params_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1000,7 +984,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_highRes </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_highRes </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1022,7 +1006,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_period </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_period </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1044,7 +1028,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_preserveTips </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_preserveTips </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1066,7 +1050,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_r </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_r </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1088,7 +1072,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1110,7 +1094,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_CellularSurface_Params_Set_width </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_CellularSurface_Params_Set_width </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae4efb998aa5d6c2ddd6698e7648180d6">MR_FillingSurface_CellularSurface_Params</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1132,14 +1116,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_getKindNames </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_getKindNames </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from function <span class="tt">MR::FillingSurface::getKindNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Generated from function <span class="tt">MR::FillingSurface::getKindNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1150,7 +1134,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_TPMS_build </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_TPMS_build </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -1162,7 +1146,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1171,7 +1155,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs TPMS level-set and then convert it to mesh Generated from function <span class="tt">MR::FillingSurface::TPMS::build</span>. Parameter <span class="tt">size</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Constructs TPMS level-set and then convert it to mesh Generated from function <span class="tt">MR::FillingSurface::TPMS::build</span>. Parameter <span class="tt">size</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1182,7 +1166,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> * MR_FillingSurface_TPMS_buildVolume </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__FunctionVolume__std__string_8h.html#ab294732b2988d23c13fd8799dc19a43a">MR_FunctionVolume</a> * MR_FillingSurface_TPMS_buildVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -1210,7 +1194,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_FillingSurface_TPMS_estimateDensity </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_FillingSurface_TPMS_estimateDensity </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -1238,7 +1222,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_FillingSurface_TPMS_estimateIso </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_FillingSurface_TPMS_estimateIso </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -1266,7 +1250,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_TPMS_fill </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_FillingSurface_TPMS_fill </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1278,7 +1262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1287,7 +1271,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs TPMS-filling for the given <code class="param">mesh</code> Generated from function <span class="tt">MR::FillingSurface::TPMS::fill</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Constructs TPMS-filling for the given <code class="param">mesh</code> Generated from function <span class="tt">MR::FillingSurface::TPMS::fill</span>. Parameter <span class="tt">mesh</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Parameter <span class="tt">cb</span> has a default argument: <span class="tt">{}</span>, pass <span class="tt">MR_PassBy_DefaultArgument</span> and a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1298,7 +1282,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_FillingSurface_TPMS_getMinimalResolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_FillingSurface_TPMS_getMinimalResolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -1320,7 +1304,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_uint64_t MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Mesh </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Mesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1347,7 +1331,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_uint64_t MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Vector3f </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_FillingSurface_TPMS_getNumberOfVoxels_MR_Vector3f </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
         </tr>
@@ -1374,14 +1358,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_TPMS_getTypeNames </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_TPMS_getTypeNames </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the names for each type of filling Generated from function <span class="tt">MR::FillingSurface::TPMS::getTypeNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Returns the names for each type of filling Generated from function <span class="tt">MR::FillingSurface::TPMS::getTypeNames</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1392,14 +1376,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_TPMS_getTypeTooltips </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRNesting3mfExport_8h.html#ab26d333cd7549e6f3f49cc80e3ba5900">MR_std_vector_std_string</a> * MR_FillingSurface_TPMS_getTypeTooltips </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the tooltips for each type of filling Generated from function <span class="tt">MR::FillingSurface::TPMS::getTypeTooltips</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_std_vector_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Returns the tooltips for each type of filling Generated from function <span class="tt">MR::FillingSurface::TPMS::getTypeTooltips</span>. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="std__vector__std__string_8h.html#ac5f612487a5f49656b4f4ceae0bdd6c9" title="Destroys a heap-allocated instance of MR_std_vector_std_string. Does nothing if the pointer is null.">MR_std_vector_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1410,7 +1394,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_FillingSurface_TPMS_isThick </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_FillingSurface_TPMS_isThick </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
@@ -1428,7 +1412,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1450,7 +1434,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -1468,7 +1452,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1486,7 +1470,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1504,7 +1488,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1523,7 +1507,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1542,7 +1526,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_FillingSurface_TPMS_MeshParams_Get_decimate </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_FillingSurface_TPMS_MeshParams_Get_decimate </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1560,7 +1544,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_TPMS_MeshParams_Get_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_TPMS_MeshParams_Get_frequency </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1578,7 +1562,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_TPMS_MeshParams_Get_iso </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_TPMS_MeshParams_Get_iso </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1596,7 +1580,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_TPMS_MeshParams_Get_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_TPMS_MeshParams_Get_resolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1614,7 +1598,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_MeshParams_Get_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_MeshParams_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1632,7 +1616,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_FillingSurface_TPMS_MeshParams_GetMutable_decimate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1650,7 +1634,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_TPMS_MeshParams_GetMutable_frequency </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1668,7 +1652,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_TPMS_MeshParams_GetMutable_iso </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_TPMS_MeshParams_GetMutable_iso </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1686,7 +1670,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_TPMS_MeshParams_GetMutable_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1704,7 +1688,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_MeshParams_GetMutable_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_MeshParams_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1722,7 +1706,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_MutableStaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1740,7 +1724,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_MeshParams_MutableUpcastTo_MR_FillingSurface_TPMS_VolumeParams </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1758,7 +1742,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1780,7 +1764,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1802,7 +1786,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Set_decimate </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Set_decimate </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1824,7 +1808,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Set_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Set_frequency </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1846,7 +1830,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Set_iso </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Set_iso </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1868,7 +1852,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Set_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Set_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1890,7 +1874,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_MeshParams_Set_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_MeshParams_Set_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1912,7 +1896,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> * MR_FillingSurface_TPMS_MeshParams_StaticDowncastFrom_MR_FillingSurface_TPMS_VolumeParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1930,7 +1914,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_MeshParams_UpcastTo_MR_FillingSurface_TPMS_VolumeParams </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ac5722023b66951c9f1f6164dca48cecf">MR_FillingSurface_TPMS_MeshParams</a> *</td>          <td class="paramname"><span class="paramname"><em>object</em></span></td><td>)</td>
           <td></td>
@@ -1948,7 +1932,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1970,7 +1954,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
         </tr>
@@ -1997,7 +1981,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -2015,7 +1999,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -2033,7 +2017,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -2051,7 +2035,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_VolumeParams_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_VolumeParams_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2070,7 +2054,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_VolumeParams_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_VolumeParams_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2089,7 +2073,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_TPMS_VolumeParams_Get_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_TPMS_VolumeParams_Get_frequency </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2107,7 +2091,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_FillingSurface_TPMS_VolumeParams_Get_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_FillingSurface_TPMS_VolumeParams_Get_resolution </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2125,7 +2109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_VolumeParams_Get_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_VolumeParams_Get_type </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2143,7 +2127,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_TPMS_VolumeParams_GetMutable_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_TPMS_VolumeParams_GetMutable_frequency </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2161,7 +2145,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_FillingSurface_TPMS_VolumeParams_GetMutable_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_FillingSurface_TPMS_VolumeParams_GetMutable_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2179,7 +2163,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_VolumeParams_GetMutable_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae86ae655ee24778c5d70b3d523794514">MR_FillingSurface_TPMS_Type</a> * MR_FillingSurface_TPMS_VolumeParams_GetMutable_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -2197,7 +2181,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2219,7 +2203,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> * MR_FillingSurface_TPMS_VolumeParams_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -2241,7 +2225,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_VolumeParams_Set_frequency </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_VolumeParams_Set_frequency </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2263,7 +2247,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_VolumeParams_Set_resolution </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_VolumeParams_Set_resolution </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2285,7 +2269,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_FillingSurface_TPMS_VolumeParams_Set_type </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_FillingSurface_TPMS_VolumeParams_Set_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0b9839dfde3aa393d5c20e25f9d6b30e">MR_FillingSurface_TPMS_VolumeParams</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2307,7 +2291,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a href="MRFillingSurface_8h.html">MRFillingSurface.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_0a2b2b3c4a45c3f535d8cb570d2e647d.html">MRCVoxels</a></li><li class="navelem"><a href="MRFillingSurface_8h.html">MRFillingSurface.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

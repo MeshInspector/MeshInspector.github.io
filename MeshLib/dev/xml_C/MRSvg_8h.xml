@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSvg_8h" kind="file" language="C++">
     <compoundname>MRSvg.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRSvg.h</label>
@@ -15,9 +15,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -29,11 +43,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>setting for polyline loading from external format, and locations of optional output data Generated from class <computeroutput>MR::LinesLoadSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+<para>setting for polyline loading from external format, and locations of optional output data Generated from class <computeroutput>MR::LinesLoadSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). optional load artifact: per-vertex color map Returns a pointer to a member variable of class <computeroutput>MR::LinesLoadSettings</computeroutput> named <computeroutput>colors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" line="10" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" bodystart="10" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" line="10" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" prot="public" static="no">
         <type>struct <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref></type>
@@ -43,15 +57,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>MR::Polyline3</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" line="11" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" line="11" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" bodystart="11" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSvg_8h_1a37ba251f0f6e81e240d3a65fa812fd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Polyline3_std_string * MR_LinesLoad_fromSvg_2_std_filesystem_path</definition>
         <argsstring>(const char *file, const char *file_end, const MR_LinesLoadSettings *settings)</argsstring>
         <name>MR_LinesLoad_fromSvg_2_std_filesystem_path</name>
@@ -70,14 +85,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>loads shapes (polylines, paths, etc.) from file in .SVG format Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Polyline3_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>loads shapes (polylines, paths, etc.) from file in .SVG format Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>file</computeroutput> is a UTF-8 encoded filesystem path. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Polyline3__std__string_8h_1abba35365cb666886d3cf1914c73b2568" kindref="member">MR_expected_MR_Polyline3_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" line="21" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" declline="21" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" line="21" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" declline="21" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSvg_8h_1a75b5bf71f2a7f7b84824af46e2cd4e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Polyline3_std_string * MR_LinesLoad_fromSvg_2_std_istream</definition>
         <argsstring>(MR_std_istream *in, const MR_LinesLoadSettings *settings)</argsstring>
         <name>MR_LinesLoad_fromSvg_2_std_istream</name>
@@ -92,14 +107,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Polyline3_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>in</computeroutput> can not be null. It is a single object. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Polyline3__std__string_8h_1abba35365cb666886d3cf1914c73b2568" kindref="member">MR_expected_MR_Polyline3_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" line="28" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" declline="28" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" line="28" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" declline="28" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRSvg_8h_1a5037ee7ac2b7be7dec0f57e2378e53cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Polyline3_std_string * MR_LinesLoad_fromSvg_3</definition>
         <argsstring>(const char *data, MR_uint64_t size, const MR_LinesLoadSettings *settings)</argsstring>
         <name>MR_LinesLoad_fromSvg_3</name>
@@ -108,7 +123,7 @@
           <declname>data</declname>
         </param>
         <param>
-          <type>MR_uint64_t</type>
+          <type><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref></type>
           <declname>size</declname>
         </param>
         <param>
@@ -118,11 +133,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Polyline3_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::LinesLoad::fromSvg</computeroutput>. Parameter <computeroutput>settings</computeroutput> is a single object. Parameter <computeroutput>settings</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Polyline3__std__string_8h_1abba35365cb666886d3cf1914c73b2568" kindref="member">MR_expected_MR_Polyline3_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" line="34" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h" declline="34" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" line="34" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h" declline="34" declcolumn="45"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -132,8 +147,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -144,16 +159,16 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/><ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/iostream.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21" refid="MRSvg_8h_1a37ba251f0f6e81e240d3a65fa812fd9c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a37ba251f0f6e81e240d3a65fa812fd9c" kindref="member">MR_LinesLoad_fromSvg_2_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="21" refid="MRSvg_8h_1a37ba251f0f6e81e240d3a65fa812fd9c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a37ba251f0f6e81e240d3a65fa812fd9c" kindref="member">MR_LinesLoad_fromSvg_2_std_filesystem_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRSvg_8h_1a75b5bf71f2a7f7b84824af46e2cd4e66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a75b5bf71f2a7f7b84824af46e2cd4e66" kindref="member">MR_LinesLoad_fromSvg_2_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="28" refid="MRSvg_8h_1a75b5bf71f2a7f7b84824af46e2cd4e66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a75b5bf71f2a7f7b84824af46e2cd4e66" kindref="member">MR_LinesLoad_fromSvg_2_std_istream</ref>(<ref refid="MRCtm_8h_1aef22a11476e76208a3f9a5cf2eba4c98" kindref="member">MR_std_istream</ref><sp/>*in,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34" refid="MRSvg_8h_1a5037ee7ac2b7be7dec0f57e2378e53cc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a5037ee7ac2b7be7dec0f57e2378e53cc" kindref="member">MR_LinesLoad_fromSvg_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/>MR_uint64_t<sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="34" refid="MRSvg_8h_1a5037ee7ac2b7be7dec0f57e2378e53cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSvg_8h_1af91e6181653b78efd8dfe626e27a9575" kindref="member">MR_expected_MR_Polyline3_std_string</ref><sp/>*<ref refid="MRSvg_8h_1a5037ee7ac2b7be7dec0f57e2378e53cc" kindref="member">MR_LinesLoad_fromSvg_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*data,<sp/><ref refid="common_8h_1aefc0b2fe2e376b1b34a189af81dc8a49" kindref="member">MR_uint64_t</ref><sp/>size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSvg_8h_1af6111911cb00c2c2881d290dd9eef469" kindref="member">MR_LinesLoadSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCIOExtras/MRSvg.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCIOExtras/MRSvg.h"/>
   </compounddef>
 </doxygen>

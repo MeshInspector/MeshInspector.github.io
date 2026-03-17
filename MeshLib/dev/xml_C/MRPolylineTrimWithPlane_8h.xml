@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineTrimWithPlane_8h" kind="file" language="C++">
     <compoundname>MRPolylineTrimWithPlane.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -41,10 +52,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::EdgeSegment&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="20" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="20" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" prot="public" static="no">
         <type>struct <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref></type>
@@ -54,16 +66,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::DividePolylineParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::DividePolylineParameters</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="25" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" bodystart="25" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="25" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" bodystart="25" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1ad369b1bf598fc0097928b66922abdd32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *</type>
         <definition>MRC_API MR_UndirectedEdgeBitSet * MR_subdivideWithPlane_4</definition>
         <argsstring>(MR_Polyline3 *polyline, const MR_Plane3f *plane, MR_EdgeBitSet *newPositiveEdges, MR_PassBy onEdgeSplitCallback_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *onEdgeSplitCallback)</argsstring>
         <name>MR_subdivideWithPlane_4</name>
@@ -80,7 +92,7 @@
           <declname>newPositiveEdges</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>onEdgeSplitCallback_pass_by</declname>
         </param>
         <param>
@@ -129,10 +141,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="39" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="39" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="39" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="39" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a832c7d56d0cfbf0825c77b2dd0da6941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
         <definition>MRC_API const MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float * MR_DividePolylineParameters_Get_onEdgeSplitCallback</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_onEdgeSplitCallback</name>
@@ -147,10 +159,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="46" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="46" declcolumn="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="46" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="46" declcolumn="67"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a6d41648e26ee3e66d4821eab93f33d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_onEdgeSplitCallback</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_onEdgeSplitCallback</name>
@@ -159,7 +171,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -173,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a0a2e81364eae4d2b783d2a26efe6e3c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float * MR_DividePolylineParameters_GetMutable_onEdgeSplitCallback</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_onEdgeSplitCallback</name>
@@ -191,10 +203,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="60" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="60" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="60" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="60" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1abd843340f3f6d58f980567108f31ad9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_DividePolylineParameters_Get_closeLineAfterCut</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_closeLineAfterCut</name>
@@ -209,10 +221,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="68" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="68" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="68" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a7778a53700dd962fa4651c194815f236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_closeLineAfterCut</definition>
         <argsstring>(MR_DividePolylineParameters *_this, bool value)</argsstring>
         <name>MR_DividePolylineParameters_Set_closeLineAfterCut</name>
@@ -231,10 +243,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="75" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="75" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a86d5c9580806e786cfff978639b191d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_DividePolylineParameters_GetMutable_closeLineAfterCut</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_closeLineAfterCut</name>
@@ -249,10 +261,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="83" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="83" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1adde83964da85ed0d76ca37cb3f3def4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
         <definition>MRC_API MR_VertMap *const  * MR_DividePolylineParameters_Get_outVmap</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_outVmap</name>
@@ -267,10 +279,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="90" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="90" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="90" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="90" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1af1b8d2458aab0eb624bd6af76cacabd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_outVmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_VertMap *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_outVmap</name>
@@ -289,10 +301,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="97" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="97" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="97" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a7236ff4332a0a525fc7febf8a2a51449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
         <definition>MRC_API MR_VertMap ** MR_DividePolylineParameters_GetMutable_outVmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_outVmap</name>
@@ -307,10 +319,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="104" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="104" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="104" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="104" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1aa8a7efbb0e61141bc6d435e0d9ccb4bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> *const *</type>
         <definition>MRC_API MR_EdgeMap *const  * MR_DividePolylineParameters_Get_outEmap</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_outEmap</name>
@@ -325,10 +337,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="111" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="111" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="111" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="111" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1ae7a8f577054272d91d8cbe2023ef753b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_outEmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_EdgeMap *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_outEmap</name>
@@ -347,10 +359,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="118" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a231f9dcb70349b5dc537b2817f0001d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> **</type>
         <definition>MRC_API MR_EdgeMap ** MR_DividePolylineParameters_GetMutable_outEmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_outEmap</name>
@@ -365,10 +377,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="125" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="125" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="125" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="125" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a00506ce22994756b6843ec8f5a1e8d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *const *</type>
         <definition>MRC_API MR_Polyline3 *const  * MR_DividePolylineParameters_Get_otherPart</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_otherPart</name>
@@ -383,10 +395,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="132" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="132" declcolumn="28"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="132" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="132" declcolumn="28"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a153ad3e7e30f5a0bb2ec79e18a7aa275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_otherPart</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_Polyline3 *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_otherPart</name>
@@ -405,10 +417,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="139" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a522d9fe00219be0c6c02ec2078803074" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> **</type>
         <definition>MRC_API MR_Polyline3 ** MR_DividePolylineParameters_GetMutable_otherPart</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_otherPart</name>
@@ -423,10 +435,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="146" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="146" declcolumn="22"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="146" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="146" declcolumn="22"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a4962617b821c0e418c66f4f9e733763b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
         <definition>MRC_API MR_VertMap *const  * MR_DividePolylineParameters_Get_otherOutVmap</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_otherOutVmap</name>
@@ -441,10 +453,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="153" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="153" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="153" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="153" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a7a3e178d74f18bc37f1ed2a9d831bb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_otherOutVmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_VertMap *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_otherOutVmap</name>
@@ -463,10 +475,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a994bc4f9ce793505c8e8b02177ae4d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
         <definition>MRC_API MR_VertMap ** MR_DividePolylineParameters_GetMutable_otherOutVmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_otherOutVmap</name>
@@ -481,10 +493,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="167" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="167" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="167" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="167" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a9534e1878d18f64ef0e0c7b0594ae503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> *const *</type>
         <definition>MRC_API MR_EdgeMap *const  * MR_DividePolylineParameters_Get_otherOutEmap</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Get_otherOutEmap</name>
@@ -499,10 +511,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="174" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="174" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="174" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="174" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a9f25923cac63712ff900faacf6da9f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Set_otherOutEmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_EdgeMap *value)</argsstring>
         <name>MR_DividePolylineParameters_Set_otherOutEmap</name>
@@ -521,10 +533,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="181" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="181" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="181" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a78be57502859beda9defa990e3087df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref> **</type>
         <definition>MRC_API MR_EdgeMap ** MR_DividePolylineParameters_GetMutable_otherOutEmap</definition>
         <argsstring>(MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_GetMutable_otherOutEmap</name>
@@ -539,10 +551,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="188" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="188" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="188" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="188" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a576829bcfcf1219af7689e3b4d758f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_DividePolylineParameters_DefaultConstruct</name>
@@ -556,10 +568,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="192" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="192" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="192" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="192" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1adce8284f154377bb6ea4edf62dd4b152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_DividePolylineParameters_DefaultConstructArray</name>
@@ -574,15 +586,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="197" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="197" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="197" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="197" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a4b64df0f19c198ee692733fe1d3358fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_ConstructFrom</definition>
         <argsstring>(MR_PassBy onEdgeSplitCallback_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float *onEdgeSplitCallback, bool closeLineAfterCut, MR_VertMap *outVmap, MR_EdgeMap *outEmap, MR_Polyline3 *otherPart, MR_VertMap *otherOutVmap, MR_EdgeMap *otherOutEmap)</argsstring>
         <name>MR_DividePolylineParameters_ConstructFrom</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>onEdgeSplitCallback_pass_by</declname>
         </param>
         <param>
@@ -620,10 +632,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="208" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="208" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="208" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="208" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1af7aedc86df00f27f173143113a01935f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API const MR_DividePolylineParameters * MR_DividePolylineParameters_OffsetPtr</definition>
         <argsstring>(const MR_DividePolylineParameters *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DividePolylineParameters_OffsetPtr</name>
@@ -642,10 +654,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="212" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="212" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="212" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="212" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a3238584ddea48befb11741ba93677c20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_OffsetMutablePtr</definition>
         <argsstring>(MR_DividePolylineParameters *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DividePolylineParameters_OffsetMutablePtr</name>
@@ -664,15 +676,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="216" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="216" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="216" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="216" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a4cebcbd980512b6c47ddd7a7dd544ce2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_DividePolylineParameters *_other)</argsstring>
         <name>MR_DividePolylineParameters_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -686,10 +698,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="221" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="221" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="221" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="221" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_Destroy</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_Destroy</name>
@@ -704,10 +716,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="224" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="224" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a6f78489592a49de44b734d5d1a48ba22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DividePolylineParameters_DestroyArray</definition>
         <argsstring>(const MR_DividePolylineParameters *_this)</argsstring>
         <name>MR_DividePolylineParameters_DestroyArray</name>
@@ -722,10 +734,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="227" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="227" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="227" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="227" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1ac7d52d2291e16a56277a8e98cbd23018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref> *</type>
         <definition>MRC_API MR_DividePolylineParameters * MR_DividePolylineParameters_AssignFromAnother</definition>
         <argsstring>(MR_DividePolylineParameters *_this, MR_PassBy _other_pass_by, MR_DividePolylineParameters *_other)</argsstring>
         <name>MR_DividePolylineParameters_AssignFromAnother</name>
@@ -734,7 +746,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -748,10 +760,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="234" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="234" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="234" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="234" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1ae5226e356be4f9cd6c751c9d641fbebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_trimWithPlane_MR_Polyline3</definition>
         <argsstring>(MR_Polyline3 *polyline, const MR_Plane3f *plane, const MR_DividePolylineParameters *params)</argsstring>
         <name>MR_trimWithPlane_MR_Polyline3</name>
@@ -799,10 +811,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="245" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="245" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="245" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineTrimWithPlane_8h_1a5fac020a199f221f0090d2f53ba3bb70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_EdgeSegment * MR_extractSectionsFromPolyline</definition>
         <argsstring>(const MR_Polyline3 *polyline, const MR_Plane3f *plane, float eps, MR_UndirectedEdgeBitSet *positiveEdges)</argsstring>
         <name>MR_extractSectionsFromPolyline</name>
@@ -865,7 +877,7 @@
 <parametername>positiveEdges</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Edges in a positive half-space relative to the plane or on the plane itself (only adds bits to the existing ones) Generated from function <computeroutput>MR::extractSectionsFromPolyline</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>positiveEdges</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_EdgeSegment_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Edges in a positive half-space relative to the plane or on the plane itself (only adds bits to the existing ones) Generated from function <computeroutput>MR::extractSectionsFromPolyline</computeroutput>. Parameter <computeroutput>polyline</computeroutput> can not be null. It is a single object. Parameter <computeroutput>plane</computeroutput> can not be null. It is a single object. Parameter <computeroutput>positiveEdges</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__EdgeSegment_8h_1a3f0f894a51c71b0ce572b4b70cafc6f4" kindref="member">MR_std_vector_MR_EdgeSegment_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -873,7 +885,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" line="259" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h" declline="259" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" line="259" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h" declline="259" declcolumn="38"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -883,8 +895,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -905,76 +917,76 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25" refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref>;</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39" refid="MRPolylineTrimWithPlane_8h_1ad369b1bf598fc0097928b66922abdd32" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1ad369b1bf598fc0097928b66922abdd32" kindref="member">MR_subdivideWithPlane_4</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref><sp/>*newPositiveEdges,<sp/>MR_PassBy<sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback);</highlight></codeline>
+<codeline lineno="39" refid="MRPolylineTrimWithPlane_8h_1ad369b1bf598fc0097928b66922abdd32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1ad369b1bf598fc0097928b66922abdd32" kindref="member">MR_subdivideWithPlane_4</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/><ref refid="MRBitSet_8h_1a0ab67259585b94fe4f3e06c70ba102f3" kindref="member">MR_EdgeBitSet</ref><sp/>*newPositiveEdges,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback);</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46" refid="MRPolylineTrimWithPlane_8h_1a832c7d56d0cfbf0825c77b2dd0da6941" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a832c7d56d0cfbf0825c77b2dd0da6941" kindref="member">MR_DividePolylineParameters_Get_onEdgeSplitCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46" refid="MRPolylineTrimWithPlane_8h_1a832c7d56d0cfbf0825c77b2dd0da6941" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a832c7d56d0cfbf0825c77b2dd0da6941" kindref="member">MR_DividePolylineParameters_Get_onEdgeSplitCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPolylineTrimWithPlane_8h_1a6d41648e26ee3e66d4821eab93f33d93" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a6d41648e26ee3e66d4821eab93f33d93" kindref="member">MR_DividePolylineParameters_Set_onEdgeSplitCallback</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="53" refid="MRPolylineTrimWithPlane_8h_1a6d41648e26ee3e66d4821eab93f33d93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a6d41648e26ee3e66d4821eab93f33d93" kindref="member">MR_DividePolylineParameters_Set_onEdgeSplitCallback</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60" refid="MRPolylineTrimWithPlane_8h_1a0a2e81364eae4d2b783d2a26efe6e3c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a0a2e81364eae4d2b783d2a26efe6e3c6" kindref="member">MR_DividePolylineParameters_GetMutable_onEdgeSplitCallback</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60" refid="MRPolylineTrimWithPlane_8h_1a0a2e81364eae4d2b783d2a26efe6e3c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a0a2e81364eae4d2b783d2a26efe6e3c6" kindref="member">MR_DividePolylineParameters_GetMutable_onEdgeSplitCallback</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRPolylineTrimWithPlane_8h_1abd843340f3f6d58f980567108f31ad9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1abd843340f3f6d58f980567108f31ad9e" kindref="member">MR_DividePolylineParameters_Get_closeLineAfterCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68" refid="MRPolylineTrimWithPlane_8h_1abd843340f3f6d58f980567108f31ad9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1abd843340f3f6d58f980567108f31ad9e" kindref="member">MR_DividePolylineParameters_Get_closeLineAfterCut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="75" refid="MRPolylineTrimWithPlane_8h_1a7778a53700dd962fa4651c194815f236" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a7778a53700dd962fa4651c194815f236" kindref="member">MR_DividePolylineParameters_Set_closeLineAfterCut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="75" refid="MRPolylineTrimWithPlane_8h_1a7778a53700dd962fa4651c194815f236" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a7778a53700dd962fa4651c194815f236" kindref="member">MR_DividePolylineParameters_Set_closeLineAfterCut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRPolylineTrimWithPlane_8h_1a86d5c9580806e786cfff978639b191d5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a86d5c9580806e786cfff978639b191d5" kindref="member">MR_DividePolylineParameters_GetMutable_closeLineAfterCut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83" refid="MRPolylineTrimWithPlane_8h_1a86d5c9580806e786cfff978639b191d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a86d5c9580806e786cfff978639b191d5" kindref="member">MR_DividePolylineParameters_GetMutable_closeLineAfterCut</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRPolylineTrimWithPlane_8h_1adde83964da85ed0d76ca37cb3f3def4b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1adde83964da85ed0d76ca37cb3f3def4b" kindref="member">MR_DividePolylineParameters_Get_outVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90" refid="MRPolylineTrimWithPlane_8h_1adde83964da85ed0d76ca37cb3f3def4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1adde83964da85ed0d76ca37cb3f3def4b" kindref="member">MR_DividePolylineParameters_Get_outVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRPolylineTrimWithPlane_8h_1af1b8d2458aab0eb624bd6af76cacabd3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1af1b8d2458aab0eb624bd6af76cacabd3" kindref="member">MR_DividePolylineParameters_Set_outVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="97" refid="MRPolylineTrimWithPlane_8h_1af1b8d2458aab0eb624bd6af76cacabd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1af1b8d2458aab0eb624bd6af76cacabd3" kindref="member">MR_DividePolylineParameters_Set_outVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRPolylineTrimWithPlane_8h_1a7236ff4332a0a525fc7febf8a2a51449" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a7236ff4332a0a525fc7febf8a2a51449" kindref="member">MR_DividePolylineParameters_GetMutable_outVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRPolylineTrimWithPlane_8h_1a7236ff4332a0a525fc7febf8a2a51449" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a7236ff4332a0a525fc7febf8a2a51449" kindref="member">MR_DividePolylineParameters_GetMutable_outVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRPolylineTrimWithPlane_8h_1aa8a7efbb0e61141bc6d435e0d9ccb4bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1aa8a7efbb0e61141bc6d435e0d9ccb4bb" kindref="member">MR_DividePolylineParameters_Get_outEmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111" refid="MRPolylineTrimWithPlane_8h_1aa8a7efbb0e61141bc6d435e0d9ccb4bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1aa8a7efbb0e61141bc6d435e0d9ccb4bb" kindref="member">MR_DividePolylineParameters_Get_outEmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRPolylineTrimWithPlane_8h_1ae7a8f577054272d91d8cbe2023ef753b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1ae7a8f577054272d91d8cbe2023ef753b" kindref="member">MR_DividePolylineParameters_Set_outEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="118" refid="MRPolylineTrimWithPlane_8h_1ae7a8f577054272d91d8cbe2023ef753b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1ae7a8f577054272d91d8cbe2023ef753b" kindref="member">MR_DividePolylineParameters_Set_outEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRPolylineTrimWithPlane_8h_1a231f9dcb70349b5dc537b2817f0001d9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a231f9dcb70349b5dc537b2817f0001d9" kindref="member">MR_DividePolylineParameters_GetMutable_outEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125" refid="MRPolylineTrimWithPlane_8h_1a231f9dcb70349b5dc537b2817f0001d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a231f9dcb70349b5dc537b2817f0001d9" kindref="member">MR_DividePolylineParameters_GetMutable_outEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRPolylineTrimWithPlane_8h_1a00506ce22994756b6843ec8f5a1e8d6e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a00506ce22994756b6843ec8f5a1e8d6e" kindref="member">MR_DividePolylineParameters_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132" refid="MRPolylineTrimWithPlane_8h_1a00506ce22994756b6843ec8f5a1e8d6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a00506ce22994756b6843ec8f5a1e8d6e" kindref="member">MR_DividePolylineParameters_Get_otherPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRPolylineTrimWithPlane_8h_1a153ad3e7e30f5a0bb2ec79e18a7aa275" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a153ad3e7e30f5a0bb2ec79e18a7aa275" kindref="member">MR_DividePolylineParameters_Set_otherPart</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="139" refid="MRPolylineTrimWithPlane_8h_1a153ad3e7e30f5a0bb2ec79e18a7aa275" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a153ad3e7e30f5a0bb2ec79e18a7aa275" kindref="member">MR_DividePolylineParameters_Set_otherPart</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRPolylineTrimWithPlane_8h_1a522d9fe00219be0c6c02ec2078803074" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a522d9fe00219be0c6c02ec2078803074" kindref="member">MR_DividePolylineParameters_GetMutable_otherPart</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146" refid="MRPolylineTrimWithPlane_8h_1a522d9fe00219be0c6c02ec2078803074" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a522d9fe00219be0c6c02ec2078803074" kindref="member">MR_DividePolylineParameters_GetMutable_otherPart</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRPolylineTrimWithPlane_8h_1a4962617b821c0e418c66f4f9e733763b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4962617b821c0e418c66f4f9e733763b" kindref="member">MR_DividePolylineParameters_Get_otherOutVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRPolylineTrimWithPlane_8h_1a4962617b821c0e418c66f4f9e733763b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4962617b821c0e418c66f4f9e733763b" kindref="member">MR_DividePolylineParameters_Get_otherOutVmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRPolylineTrimWithPlane_8h_1a7a3e178d74f18bc37f1ed2a9d831bb00" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a7a3e178d74f18bc37f1ed2a9d831bb00" kindref="member">MR_DividePolylineParameters_Set_otherOutVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="160" refid="MRPolylineTrimWithPlane_8h_1a7a3e178d74f18bc37f1ed2a9d831bb00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a7a3e178d74f18bc37f1ed2a9d831bb00" kindref="member">MR_DividePolylineParameters_Set_otherOutVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRPolylineTrimWithPlane_8h_1a994bc4f9ce793505c8e8b02177ae4d63" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a994bc4f9ce793505c8e8b02177ae4d63" kindref="member">MR_DividePolylineParameters_GetMutable_otherOutVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167" refid="MRPolylineTrimWithPlane_8h_1a994bc4f9ce793505c8e8b02177ae4d63" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a994bc4f9ce793505c8e8b02177ae4d63" kindref="member">MR_DividePolylineParameters_GetMutable_otherOutVmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="174" refid="MRPolylineTrimWithPlane_8h_1a9534e1878d18f64ef0e0c7b0594ae503" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a9534e1878d18f64ef0e0c7b0594ae503" kindref="member">MR_DividePolylineParameters_Get_otherOutEmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174" refid="MRPolylineTrimWithPlane_8h_1a9534e1878d18f64ef0e0c7b0594ae503" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a9534e1878d18f64ef0e0c7b0594ae503" kindref="member">MR_DividePolylineParameters_Get_otherOutEmap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
-<codeline lineno="181" refid="MRPolylineTrimWithPlane_8h_1a9f25923cac63712ff900faacf6da9f5c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a9f25923cac63712ff900faacf6da9f5c" kindref="member">MR_DividePolylineParameters_Set_otherOutEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="181" refid="MRPolylineTrimWithPlane_8h_1a9f25923cac63712ff900faacf6da9f5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a9f25923cac63712ff900faacf6da9f5c" kindref="member">MR_DividePolylineParameters_Set_otherOutEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRPolylineTrimWithPlane_8h_1a78be57502859beda9defa990e3087df7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a78be57502859beda9defa990e3087df7" kindref="member">MR_DividePolylineParameters_GetMutable_otherOutEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188" refid="MRPolylineTrimWithPlane_8h_1a78be57502859beda9defa990e3087df7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>**<ref refid="MRPolylineTrimWithPlane_8h_1a78be57502859beda9defa990e3087df7" kindref="member">MR_DividePolylineParameters_GetMutable_otherOutEmap</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRPolylineTrimWithPlane_8h_1a576829bcfcf1219af7689e3b4d758f71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a576829bcfcf1219af7689e3b4d758f71" kindref="member">MR_DividePolylineParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="192" refid="MRPolylineTrimWithPlane_8h_1a576829bcfcf1219af7689e3b4d758f71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a576829bcfcf1219af7689e3b4d758f71" kindref="member">MR_DividePolylineParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="197" refid="MRPolylineTrimWithPlane_8h_1adce8284f154377bb6ea4edf62dd4b152" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1adce8284f154377bb6ea4edf62dd4b152" kindref="member">MR_DividePolylineParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="197" refid="MRPolylineTrimWithPlane_8h_1adce8284f154377bb6ea4edf62dd4b152" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1adce8284f154377bb6ea4edf62dd4b152" kindref="member">MR_DividePolylineParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRPolylineTrimWithPlane_8h_1a4b64df0f19c198ee692733fe1d3358fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4b64df0f19c198ee692733fe1d3358fc" kindref="member">MR_DividePolylineParameters_ConstructFrom</ref>(MR_PassBy<sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closeLineAfterCut,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*outVmap,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*outEmap,<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*otherPart,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*otherOutVmap,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*otherOutEmap);</highlight></codeline>
+<codeline lineno="208" refid="MRPolylineTrimWithPlane_8h_1a4b64df0f19c198ee692733fe1d3358fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4b64df0f19c198ee692733fe1d3358fc" kindref="member">MR_DividePolylineParameters_ConstructFrom</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onEdgeSplitCallback_pass_by,<sp/><ref refid="MRMeshTrimWithPlane_8h_1a617f57058bc560d18faf7e059ea0f4e3" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId_float</ref><sp/>*onEdgeSplitCallback,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closeLineAfterCut,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*outVmap,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*outEmap,<sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*otherPart,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*otherOutVmap,<sp/><ref refid="MRBitSet_8h_1acf89b8158bff9cb2bf3196841138345f" kindref="member">MR_EdgeMap</ref><sp/>*otherOutEmap);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRPolylineTrimWithPlane_8h_1af7aedc86df00f27f173143113a01935f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1af7aedc86df00f27f173143113a01935f" kindref="member">MR_DividePolylineParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="212" refid="MRPolylineTrimWithPlane_8h_1af7aedc86df00f27f173143113a01935f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1af7aedc86df00f27f173143113a01935f" kindref="member">MR_DividePolylineParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRPolylineTrimWithPlane_8h_1a3238584ddea48befb11741ba93677c20" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a3238584ddea48befb11741ba93677c20" kindref="member">MR_DividePolylineParameters_OffsetMutablePtr</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="216" refid="MRPolylineTrimWithPlane_8h_1a3238584ddea48befb11741ba93677c20" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a3238584ddea48befb11741ba93677c20" kindref="member">MR_DividePolylineParameters_OffsetMutablePtr</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRPolylineTrimWithPlane_8h_1a4cebcbd980512b6c47ddd7a7dd544ce2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4cebcbd980512b6c47ddd7a7dd544ce2" kindref="member">MR_DividePolylineParameters_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="221" refid="MRPolylineTrimWithPlane_8h_1a4cebcbd980512b6c47ddd7a7dd544ce2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a4cebcbd980512b6c47ddd7a7dd544ce2" kindref="member">MR_DividePolylineParameters_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="224" refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" kindref="member">MR_DividePolylineParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224" refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a85bb3849b86cf276a5593910dc0bcac7" kindref="member">MR_DividePolylineParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"></highlight></codeline>
-<codeline lineno="227" refid="MRPolylineTrimWithPlane_8h_1a6f78489592a49de44b734d5d1a48ba22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a6f78489592a49de44b734d5d1a48ba22" kindref="member">MR_DividePolylineParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="227" refid="MRPolylineTrimWithPlane_8h_1a6f78489592a49de44b734d5d1a48ba22" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a6f78489592a49de44b734d5d1a48ba22" kindref="member">MR_DividePolylineParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="228"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRPolylineTrimWithPlane_8h_1ac7d52d2291e16a56277a8e98cbd23018" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1ac7d52d2291e16a56277a8e98cbd23018" kindref="member">MR_DividePolylineParameters_AssignFromAnother</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="234" refid="MRPolylineTrimWithPlane_8h_1ac7d52d2291e16a56277a8e98cbd23018" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1ac7d52d2291e16a56277a8e98cbd23018" kindref="member">MR_DividePolylineParameters_AssignFromAnother</ref>(<ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="245" refid="MRPolylineTrimWithPlane_8h_1ae5226e356be4f9cd6c751c9d641fbebd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1ae5226e356be4f9cd6c751c9d641fbebd" kindref="member">MR_trimWithPlane_MR_Polyline3</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="245" refid="MRPolylineTrimWithPlane_8h_1ae5226e356be4f9cd6c751c9d641fbebd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1ae5226e356be4f9cd6c751c9d641fbebd" kindref="member">MR_trimWithPlane_MR_Polyline3</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineTrimWithPlane_8h_1a22e6670341a6bdb7bd5511b9a1b6688a" kindref="member">MR_DividePolylineParameters</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="246"><highlight class="normal"></highlight></codeline>
-<codeline lineno="259" refid="MRPolylineTrimWithPlane_8h_1a5fac020a199f221f0090d2f53ba3bb70" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a5fac020a199f221f0090d2f53ba3bb70" kindref="member">MR_extractSectionsFromPolyline</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*positiveEdges);</highlight></codeline>
+<codeline lineno="259" refid="MRPolylineTrimWithPlane_8h_1a5fac020a199f221f0090d2f53ba3bb70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineTrimWithPlane_8h_1afb3511282eb9035483db67576efb0f01" kindref="member">MR_std_vector_MR_EdgeSegment</ref><sp/>*<ref refid="MRPolylineTrimWithPlane_8h_1a5fac020a199f221f0090d2f53ba3bb70" kindref="member">MR_extractSectionsFromPolyline</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aa7548d3448b3b7da1ea96433fe902e9a" kindref="member">MR_Plane3f</ref><sp/>*plane,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eps,<sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*positiveEdges);</highlight></codeline>
 <codeline lineno="260"><highlight class="normal"></highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="262"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="263"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineTrimWithPlane.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineTrimWithPlane.h"/>
   </compounddef>
 </doxygen>

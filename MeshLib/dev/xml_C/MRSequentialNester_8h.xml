@@ -2,10 +2,24 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSequentialNester_8h" kind="file" language="C++">
     <compoundname>MRSequentialNester.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
       <node id="1">
         <label>MRSequentialNester.h</label>
         <link refid="MRSequentialNester_8h"/>
@@ -16,43 +30,14 @@
         <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
-      <node id="3">
-        <label>MRCMisc/exports.h</label>
-      </node>
       <node id="4">
         <label>stddef.h</label>
       </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
     </incdepgraph>
     <sectiondef kind="typedef">
-      <memberdef kind="typedef" id="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" prot="public" static="no">
-        <type>struct <ref refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref></type>
-        <definition>typedef struct MR_expected_MR_Nesting_NestingResult_std_string MR_expected_MR_Nesting_NestingResult_std_string</definition>
-        <argsstring></argsstring>
-        <name>MR_expected_MR_Nesting_NestingResult_std_string</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="16" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" bodystart="16" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="typedef" id="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" prot="public" static="no">
-        <type>struct <ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref></type>
-        <definition>typedef struct MR_std_vector_MR_OutEdge MR_std_vector_MR_OutEdge</definition>
-        <argsstring></argsstring>
-        <name>MR_std_vector_MR_OutEdge</name>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="18" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" bodystart="18" bodyend="-1"/>
-      </memberdef>
       <memberdef kind="typedef" id="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" prot="public" static="no">
         <type>struct <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref></type>
         <definition>typedef struct MR_Nesting_SequentialNester MR_Nesting_SequentialNester</definition>
@@ -61,21 +46,21 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>class to add meshes to nest sequentially Generated from class <computeroutput>MR::Nesting::SequentialNester</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>class to add meshes to nest sequentially Generated from class <computeroutput>MR::Nesting::SequentialNester</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="24" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="24" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" bodystart="24" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSequentialNester_8h_1a85dfb89d630de9dd4bdbe8281c60d4bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
         <definition>MRC_API MR_Nesting_SequentialNester * MR_Nesting_SequentialNester_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_Nesting_SequentialNester *_other)</argsstring>
         <name>MR_Nesting_SequentialNester_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -89,10 +74,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="29" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="29" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="29" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="29" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a81b935d1b0290ca657af3cbd5433daa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
         <definition>MRC_API const MR_Nesting_SequentialNester * MR_Nesting_SequentialNester_OffsetPtr</definition>
         <argsstring>(const MR_Nesting_SequentialNester *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Nesting_SequentialNester_OffsetPtr</name>
@@ -111,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="33" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="33" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="33" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="33" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1ab833e013f1ff50c464db7c7396d56219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
         <definition>MRC_API MR_Nesting_SequentialNester * MR_Nesting_SequentialNester_OffsetMutablePtr</definition>
         <argsstring>(MR_Nesting_SequentialNester *ptr, ptrdiff_t i)</argsstring>
         <name>MR_Nesting_SequentialNester_OffsetMutablePtr</name>
@@ -133,10 +118,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="37" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="37" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="37" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="37" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a3dd3703e69ca959cb826ff5abf248f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
         <definition>MRC_API MR_Nesting_SequentialNester * MR_Nesting_SequentialNester_Construct</definition>
         <argsstring>(const MR_Nesting_NestingBaseParams *params, float voxelSize)</argsstring>
         <name>MR_Nesting_SequentialNester_Construct</name>
@@ -155,10 +140,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="44" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="44" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="44" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="44" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a069e897f3854b09cf15e133f35da4f3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_SequentialNester_Destroy</definition>
         <argsstring>(const MR_Nesting_SequentialNester *_this)</argsstring>
         <name>MR_Nesting_SequentialNester_Destroy</name>
@@ -173,10 +158,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="47" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a79935791f3e4102d5c4d8ce97f5ce548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_Nesting_SequentialNester_DestroyArray</definition>
         <argsstring>(const MR_Nesting_SequentialNester *_this)</argsstring>
         <name>MR_Nesting_SequentialNester_DestroyArray</name>
@@ -191,10 +176,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a91e5697b406d6abbef5c695c8e70d00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref> *</type>
         <definition>MRC_API MR_Nesting_SequentialNester * MR_Nesting_SequentialNester_AssignFromAnother</definition>
         <argsstring>(MR_Nesting_SequentialNester *_this, MR_PassBy _other_pass_by, MR_Nesting_SequentialNester *_other)</argsstring>
         <name>MR_Nesting_SequentialNester_AssignFromAnother</name>
@@ -203,7 +188,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -217,10 +202,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="57" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="57" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="57" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="57" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a93988ca15fd1a1dd22adbdd9631b3f71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__Nesting__NestingResult__std__string_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Nesting_NestingResult_std_string * MR_Nesting_SequentialNester_nestMesh</definition>
         <argsstring>(MR_Nesting_SequentialNester *_this, const MR_Nesting_MeshXf *meshXf, const MR_Nesting_BoxNestingOptions *options, const MR_std_vector_MR_OutEdge *densificationSequence)</argsstring>
         <name>MR_Nesting_SequentialNester_nestMesh</name>
@@ -237,20 +222,20 @@
           <declname>options</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+          <type>const <ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
           <declname>densificationSequence</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>tries to add single mesh to the nest returns true if mesh is nested, false otherwise (can be canceled) Generated from method <computeroutput>MR::Nesting::SequentialNester::nestMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>densificationSequence</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Nesting_NestingResult_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>tries to add single mesh to the nest returns true if mesh is nested, false otherwise (can be canceled) Generated from method <computeroutput>MR::Nesting::SequentialNester::nestMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshXf</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>densificationSequence</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Nesting__NestingResult__std__string_8h_1a18c44c291e83613327627a85d993d319" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="67" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="67" declcolumn="57"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="67" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="67" declcolumn="57"/>
       </memberdef>
       <memberdef kind="function" id="MRSequentialNester_8h_1a94248b22efefbc86fc172701450e9756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string * MR_Nesting_SequentialNester_nestMeshes</definition>
         <argsstring>(MR_Nesting_SequentialNester *_this, const MR_Vector_MR_Nesting_MeshXf_MR_ObjId *meshes, const MR_Nesting_BoxNestingOptions *options, const MR_std_vector_MR_OutEdge *densificationSequence)</argsstring>
         <name>MR_Nesting_SequentialNester_nestMeshes</name>
@@ -267,17 +252,17 @@
           <declname>options</declname>
         </param>
         <param>
-          <type>const <ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
+          <type>const <ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref> *</type>
           <declname>densificationSequence</declname>
         </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>tries to add multiple mesh to the nest returns bitset of nested meshes (can be canceled) Generated from method <computeroutput>MR::Nesting::SequentialNester::nestMeshes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshes</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>densificationSequence</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>tries to add multiple mesh to the nest returns bitset of nested meshes (can be canceled) Generated from method <computeroutput>MR::Nesting::SequentialNester::nestMeshes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>meshes</computeroutput> can not be null. It is a single object. Parameter <computeroutput>options</computeroutput> can not be null. It is a single object. Parameter <computeroutput>densificationSequence</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__Vector__MR__Nesting__NestingResult__MR__ObjId__std__string_8h_1adace9b1fd11fd630291a5dd56c259006" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" line="77" column="76" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h" declline="77" declcolumn="76"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" line="77" column="76" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h" declline="77" declcolumn="76"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -287,8 +272,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -300,35 +285,35 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNestingStructures.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRNestingStructures.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref><sp/><ref refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Nesting_NestingResult_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__Nesting__NestingResult__std__string_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref><sp/><ref refid="expected__MR__Nesting__NestingResult__std__string_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Nesting_NestingResult_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref><sp/><ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="18" refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_OutEdge.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/><ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_OutEdge.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24" refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRSequentialNester_8h_1a85dfb89d630de9dd4bdbe8281c60d4bc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a85dfb89d630de9dd4bdbe8281c60d4bc" kindref="member">MR_Nesting_SequentialNester_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="29" refid="MRSequentialNester_8h_1a85dfb89d630de9dd4bdbe8281c60d4bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a85dfb89d630de9dd4bdbe8281c60d4bc" kindref="member">MR_Nesting_SequentialNester_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRSequentialNester_8h_1a81b935d1b0290ca657af3cbd5433daa1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a81b935d1b0290ca657af3cbd5433daa1" kindref="member">MR_Nesting_SequentialNester_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="33" refid="MRSequentialNester_8h_1a81b935d1b0290ca657af3cbd5433daa1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a81b935d1b0290ca657af3cbd5433daa1" kindref="member">MR_Nesting_SequentialNester_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRSequentialNester_8h_1ab833e013f1ff50c464db7c7396d56219" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1ab833e013f1ff50c464db7c7396d56219" kindref="member">MR_Nesting_SequentialNester_OffsetMutablePtr</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="37" refid="MRSequentialNester_8h_1ab833e013f1ff50c464db7c7396d56219" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1ab833e013f1ff50c464db7c7396d56219" kindref="member">MR_Nesting_SequentialNester_OffsetMutablePtr</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRSequentialNester_8h_1a3dd3703e69ca959cb826ff5abf248f75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a3dd3703e69ca959cb826ff5abf248f75" kindref="member">MR_Nesting_SequentialNester_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize);</highlight></codeline>
+<codeline lineno="44" refid="MRSequentialNester_8h_1a3dd3703e69ca959cb826ff5abf248f75" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a3dd3703e69ca959cb826ff5abf248f75" kindref="member">MR_Nesting_SequentialNester_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a01a5f7a8548d013798066b53ac95d7bb" kindref="member">MR_Nesting_NestingBaseParams</ref><sp/>*params,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRSequentialNester_8h_1a069e897f3854b09cf15e133f35da4f3d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1a069e897f3854b09cf15e133f35da4f3d" kindref="member">MR_Nesting_SequentialNester_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRSequentialNester_8h_1a069e897f3854b09cf15e133f35da4f3d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1a069e897f3854b09cf15e133f35da4f3d" kindref="member">MR_Nesting_SequentialNester_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRSequentialNester_8h_1a79935791f3e4102d5c4d8ce97f5ce548" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1a79935791f3e4102d5c4d8ce97f5ce548" kindref="member">MR_Nesting_SequentialNester_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRSequentialNester_8h_1a79935791f3e4102d5c4d8ce97f5ce548" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1a79935791f3e4102d5c4d8ce97f5ce548" kindref="member">MR_Nesting_SequentialNester_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57" refid="MRSequentialNester_8h_1a91e5697b406d6abbef5c695c8e70d00a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a91e5697b406d6abbef5c695c8e70d00a" kindref="member">MR_Nesting_SequentialNester_AssignFromAnother</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="57" refid="MRSequentialNester_8h_1a91e5697b406d6abbef5c695c8e70d00a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*<ref refid="MRSequentialNester_8h_1a91e5697b406d6abbef5c695c8e70d00a" kindref="member">MR_Nesting_SequentialNester_AssignFromAnother</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRSequentialNester_8h_1a93988ca15fd1a1dd22adbdd9631b3f71" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSequentialNester_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref><sp/>*<ref refid="MRSequentialNester_8h_1a93988ca15fd1a1dd22adbdd9631b3f71" kindref="member">MR_Nesting_SequentialNester_nestMesh</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*meshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a93035b6a90f74702bbaaa0ecad0053a7" kindref="member">MR_Nesting_BoxNestingOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*densificationSequence);</highlight></codeline>
+<codeline lineno="67" refid="MRSequentialNester_8h_1a93988ca15fd1a1dd22adbdd9631b3f71" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__Nesting__NestingResult__std__string_8h_1a7af52d2f25dd7325a836e12f4b78c76c" kindref="member">MR_expected_MR_Nesting_NestingResult_std_string</ref><sp/>*<ref refid="MRSequentialNester_8h_1a93988ca15fd1a1dd22adbdd9631b3f71" kindref="member">MR_Nesting_SequentialNester_nestMesh</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNestingStructures_8h_1ac738734a10fba05e5521878c2f4f5521" kindref="member">MR_Nesting_MeshXf</ref><sp/>*meshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a93035b6a90f74702bbaaa0ecad0053a7" kindref="member">MR_Nesting_BoxNestingOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*densificationSequence);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRSequentialNester_8h_1a94248b22efefbc86fc172701450e9756" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref><sp/>*<ref refid="MRSequentialNester_8h_1a94248b22efefbc86fc172701450e9756" kindref="member">MR_Nesting_SequentialNester_nestMeshes</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a93035b6a90f74702bbaaa0ecad0053a7" kindref="member">MR_Nesting_BoxNestingOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSequentialNester_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*densificationSequence);</highlight></codeline>
+<codeline lineno="77" refid="MRSequentialNester_8h_1a94248b22efefbc86fc172701450e9756" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBoxNesting_8h_1a472a9318c0e7d5411354597b4286690d" kindref="member">MR_expected_MR_Vector_MR_Nesting_NestingResult_MR_ObjId_std_string</ref><sp/>*<ref refid="MRSequentialNester_8h_1a94248b22efefbc86fc172701450e9756" kindref="member">MR_Nesting_SequentialNester_nestMeshes</ref>(<ref refid="MRSequentialNester_8h_1af291d21bb0863baa7cced145cec21dc2" kindref="member">MR_Nesting_SequentialNester</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRNesting3mfExport_8h_1ad9d1a459f1892b048ab0561ba2797264" kindref="member">MR_Vector_MR_Nesting_MeshXf_MR_ObjId</ref><sp/>*meshes,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBoxNesting_8h_1a93035b6a90f74702bbaaa0ecad0053a7" kindref="member">MR_Nesting_BoxNestingOptions</ref><sp/>*options,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__OutEdge_8h_1ab1c89c354fd202a217135e0ccc83e457" kindref="member">MR_std_vector_MR_OutEdge</ref><sp/>*densificationSequence);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSequentialNester.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCVoxels/MRSequentialNester.h"/>
   </compounddef>
 </doxygen>

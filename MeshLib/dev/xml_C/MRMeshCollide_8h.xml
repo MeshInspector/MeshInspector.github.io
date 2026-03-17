@@ -3,8 +3,8 @@
   <compounddef id="MRMeshCollide_8h" kind="file" language="C++">
     <compoundname>MRMeshCollide.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
       <node id="2">
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -28,20 +28,31 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -67,7 +78,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Face2RegionMap</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Face2RegionMap</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -75,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="14" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" prot="public" static="no">
         <type>struct <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref></type>
@@ -85,10 +96,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>bool</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="18" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="18" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" prot="public" static="no">
         <type>struct <ref refid="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string</ref></type>
@@ -98,10 +110,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores either a <computeroutput>std::vector&lt;MR::FaceFace&gt;</computeroutput> that represents success or a <computeroutput>std::string</computeroutput> that represents an error. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="19" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="19" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" prot="public" static="no">
         <type>struct <ref refid="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</ref></type>
@@ -111,10 +124,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Stores two objects: <computeroutput>MR::FaceBitSet</computeroutput> and <computeroutput>MR::FaceBitSet</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="21" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="21" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" prot="public" static="no">
         <type>struct <ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref></type>
@@ -124,15 +138,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::FaceFace&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshCollide_8h_1ab422b73d45c4fe9bf3b79eb5a9cb00b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_FaceFace * MR_findCollidingTriangles</definition>
         <argsstring>(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A, const bool *firstIntersectionOnly)</argsstring>
         <name>MR_findCollidingTriangles</name>
@@ -169,7 +184,7 @@
 <parametername>firstIntersectionOnly</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>if true then the function returns at most one pair of intersecting triangles and returns faster Generated from function <computeroutput>MR::findCollidingTriangles</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_FaceFace_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>if true then the function returns at most one pair of intersecting triangles and returns faster Generated from function <computeroutput>MR::findCollidingTriangles</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>firstIntersectionOnly</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceFace_8h_1aed26ad7d280dba85c8eba72b49291d6b" kindref="member">MR_std_vector_MR_FaceFace_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -177,10 +192,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="36" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="36" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="36" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="36" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1aa7b06d1e1a64adfa8b6b48ea296e99b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</ref> *</type>
         <definition>MRC_API MR_std_pair_MR_FaceBitSet_MR_FaceBitSet * MR_findCollidingTriangleBitsets</definition>
         <argsstring>(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</argsstring>
         <name>MR_findCollidingTriangleBitsets</name>
@@ -199,14 +214,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the same as findCollidingTriangles, but returns one bite set per mesh with colliding triangles Generated from function <computeroutput>MR::findCollidingTriangleBitsets</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>the same as findCollidingTriangles, but returns one bite set per mesh with colliding triangles Generated from function <computeroutput>MR::findCollidingTriangleBitsets</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>rigidB2A</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__pair__MR__FaceBitSet__MR__FaceBitSet_8h_1a76e68f9a277e8991bf428e110313ebad" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="44" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="44" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="44" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="44" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1aefa424ca584afedf141f855fcd9fa230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref> *</type>
         <definition>MRC_API MR_expected_bool_std_string * MR_findSelfCollidingTriangles_5</definition>
         <argsstring>(const MR_MeshPart *mp, MR_std_vector_MR_FaceFace *outCollidingPairs, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb, const MR_Face2RegionMap *regionMap, const bool *touchIsIntersection)</argsstring>
         <name>MR_findSelfCollidingTriangles_5</name>
@@ -219,7 +234,7 @@
           <declname>outCollidingPairs</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -237,14 +252,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds all pairs (or the fact of any self-collision) of colliding triangles from one mesh or a region Generated from function <computeroutput>MR::findSelfCollidingTriangles</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_bool_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds all pairs (or the fact of any self-collision) of colliding triangles from one mesh or a region Generated from function <computeroutput>MR::findSelfCollidingTriangles</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__bool__std__string_8h_1a9bfad18d370ecc2d788eaf115e5d4770" kindref="member">MR_expected_bool_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="53" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="53" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="53" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="53" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1a8b90515fa812a00dd5d452f203d71f93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string</ref> *</type>
         <definition>MRC_API MR_expected_std_vector_MR_FaceFace_std_string * MR_findSelfCollidingTriangles_4</definition>
         <argsstring>(const MR_MeshPart *mp, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb, const MR_Face2RegionMap *regionMap, const bool *touchIsIntersection)</argsstring>
         <name>MR_findSelfCollidingTriangles_4</name>
@@ -253,7 +268,7 @@
           <declname>mp</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -271,14 +286,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>finds all pairs of colliding triangles from one mesh or a region Generated from function <computeroutput>MR::findSelfCollidingTriangles</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_std_vector_MR_FaceFace_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>finds all pairs of colliding triangles from one mesh or a region Generated from function <computeroutput>MR::findSelfCollidingTriangles</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__MR__FaceFace__std__string_8h_1a27813681d05a3295929e623a5e489287" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="62" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="62" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="62" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="62" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1a1bd4cde4068f4ce4618340a485a2c489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref> *</type>
         <definition>MRC_API MR_expected_MR_FaceBitSet_std_string * MR_findSelfCollidingTrianglesBS</definition>
         <argsstring>(const MR_MeshPart *mp, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb, const MR_Face2RegionMap *regionMap, const bool *touchIsIntersection)</argsstring>
         <name>MR_findSelfCollidingTrianglesBS</name>
@@ -287,7 +302,7 @@
           <declname>mp</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>cb_pass_by</declname>
         </param>
         <param>
@@ -305,14 +320,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>the same findSelfCollidingTriangles but returns the union of all self-intersecting faces Generated from function <computeroutput>MR::findSelfCollidingTrianglesBS</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_FaceBitSet_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>the same findSelfCollidingTriangles but returns the union of all self-intersecting faces Generated from function <computeroutput>MR::findSelfCollidingTrianglesBS</computeroutput>. Parameter <computeroutput>mp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>cb</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and a null pointer to use it. Parameter <computeroutput>regionMap</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>touchIsIntersection</computeroutput> has a default argument: <computeroutput>false</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__MR__FaceBitSet__std__string_8h_1a49f25f78be01bd3b7e077cd474bb21d5" kindref="member">MR_expected_MR_FaceBitSet_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="71" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="71" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="71" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="71" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1a9766f52c9e9744a6666ce071a457546c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isInside_MR_MeshPart</definition>
         <argsstring>(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</argsstring>
         <name>MR_isInside_MR_MeshPart</name>
@@ -345,10 +360,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="81" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="81" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1a2c1aab7670608e4f81e3be519d7f0c4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isNonIntersectingInside_3</definition>
         <argsstring>(const MR_MeshPart *a, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</argsstring>
         <name>MR_isNonIntersectingInside_3</name>
@@ -381,10 +396,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_isNonIntersectingInside_4</definition>
         <argsstring>(const MR_Mesh *a, MR_FaceId partFace, const MR_MeshPart *b, const MR_AffineXf3f *rigidB2A)</argsstring>
         <name>MR_isNonIntersectingInside_4</name>
@@ -421,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h" declline="103" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h" declline="103" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -432,8 +447,8 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
@@ -453,26 +468,26 @@
 <codeline lineno="22" refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref><sp/><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_FaceFace.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRMeshCollide_8h_1ab422b73d45c4fe9bf3b79eb5a9cb00b3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref><sp/>*<ref refid="MRMeshCollide_8h_1ab422b73d45c4fe9bf3b79eb5a9cb00b3" kindref="member">MR_findCollidingTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
+<codeline lineno="36" refid="MRMeshCollide_8h_1ab422b73d45c4fe9bf3b79eb5a9cb00b3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref><sp/>*<ref refid="MRMeshCollide_8h_1ab422b73d45c4fe9bf3b79eb5a9cb00b3" kindref="member">MR_findCollidingTriangles</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*firstIntersectionOnly);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshCollide_8h_1aa7b06d1e1a64adfa8b6b48ea296e99b6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshCollide_8h_1aa7b06d1e1a64adfa8b6b48ea296e99b6" kindref="member">MR_findCollidingTriangleBitsets</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshCollide_8h_1aa7b06d1e1a64adfa8b6b48ea296e99b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a8ceedec9dcad3f944edabd2d4d228de7" kindref="member">MR_std_pair_MR_FaceBitSet_MR_FaceBitSet</ref><sp/>*<ref refid="MRMeshCollide_8h_1aa7b06d1e1a64adfa8b6b48ea296e99b6" kindref="member">MR_findCollidingTriangleBitsets</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRMeshCollide_8h_1aefa424ca584afedf141f855fcd9fa230" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1aefa424ca584afedf141f855fcd9fa230" kindref="member">MR_findSelfCollidingTriangles_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref><sp/>*outCollidingPairs,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
+<codeline lineno="53" refid="MRMeshCollide_8h_1aefa424ca584afedf141f855fcd9fa230" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1a74aaa8804e7ff506aeb3bda836914375" kindref="member">MR_expected_bool_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1aefa424ca584afedf141f855fcd9fa230" kindref="member">MR_findSelfCollidingTriangles_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="MRMeshCollide_8h_1a43987a7ef95446878c91e59b0ef55b11" kindref="member">MR_std_vector_MR_FaceFace</ref><sp/>*outCollidingPairs,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMeshCollide_8h_1a8b90515fa812a00dd5d452f203d71f93" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1a8b90515fa812a00dd5d452f203d71f93" kindref="member">MR_findSelfCollidingTriangles_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
+<codeline lineno="62" refid="MRMeshCollide_8h_1a8b90515fa812a00dd5d452f203d71f93" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshCollide_8h_1aba9a9797e256d419b82e9ab4886546fd" kindref="member">MR_expected_std_vector_MR_FaceFace_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1a8b90515fa812a00dd5d452f203d71f93" kindref="member">MR_findSelfCollidingTriangles_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRMeshCollide_8h_1a1bd4cde4068f4ce4618340a485a2c489" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1a1bd4cde4068f4ce4618340a485a2c489" kindref="member">MR_findSelfCollidingTrianglesBS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
+<codeline lineno="71" refid="MRMeshCollide_8h_1a1bd4cde4068f4ce4618340a485a2c489" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContoursCut_8h_1a6aeecd4fac2aea90513510421de3f37b" kindref="member">MR_expected_MR_FaceBitSet_std_string</ref><sp/>*<ref refid="MRMeshCollide_8h_1a1bd4cde4068f4ce4618340a485a2c489" kindref="member">MR_findSelfCollidingTrianglesBS</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*mp,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a241ebc5168b85254384f769ec1b1268e" kindref="member">MR_Face2RegionMap</ref><sp/>*regionMap,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*touchIsIntersection);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRMeshCollide_8h_1a9766f52c9e9744a6666ce071a457546c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a9766f52c9e9744a6666ce071a457546c" kindref="member">MR_isInside_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="81" refid="MRMeshCollide_8h_1a9766f52c9e9744a6666ce071a457546c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a9766f52c9e9744a6666ce071a457546c" kindref="member">MR_isInside_MR_MeshPart</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRMeshCollide_8h_1a2c1aab7670608e4f81e3be519d7f0c4f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a2c1aab7670608e4f81e3be519d7f0c4f" kindref="member">MR_isNonIntersectingInside_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="92" refid="MRMeshCollide_8h_1a2c1aab7670608e4f81e3be519d7f0c4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1a2c1aab7670608e4f81e3be519d7f0c4f" kindref="member">MR_isNonIntersectingInside_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" kindref="member">MR_isNonIntersectingInside_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>partFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
+<codeline lineno="103" refid="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshCollide_8h_1aaf362c364519ae7b7d3f396c11f1c244" kindref="member">MR_isNonIntersectingInside_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>partFace,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*rigidB2A);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="106"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshCollide.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshCollide.h"/>
   </compounddef>
 </doxygen>

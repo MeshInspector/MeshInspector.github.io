@@ -1,0 +1,1703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__double_8h" kind="file" language="C++">
+    <compoundname>std_vector_double.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_double.h</label>
+        <link refid="std__vector__double_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__double_8h_1ad93c02b9fb68ead516dfc6790870e9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API MR_std_vector_double * MR_std_vector_double_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_double_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" kindref="member">MR_std_vector_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="28" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="28" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1ab6ecac939e4a491c785588520b061abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API MR_std_vector_double * MR_std_vector_double_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_double_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__double_8h_1a0d8d23f5fe81a5e9a4b12644a4b5d1e0" kindref="member">MR_std_vector_double_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__double_8h_1a4a1ce2b67b26f24cc4e1f1ec24238f5d" kindref="member">MR_std_vector_double_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__double_8h_1a20aeadf22c77e842d2fb3d1974f9dda0" kindref="member">MR_std_vector_double_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="33" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="33" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a6f3dbaaec4ea0a8250db7103fc202dd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API MR_std_vector_double * MR_std_vector_double_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_double *other)</argsstring>
+        <name>MR_std_vector_double_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" kindref="member">MR_std_vector_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="39" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="39" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a294db7a11eed39d7d0d4aea0387cdd21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_double *_this, MR_PassBy other_pass_by, MR_std_vector_double *other)</argsstring>
+        <name>MR_std_vector_double_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="45" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="45" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_Destroy</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_Destroy</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="48" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="48" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a0d8d23f5fe81a5e9a4b12644a4b5d1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="51" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="51" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a20aeadf22c77e842d2fb3d1974f9dda0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API const MR_std_vector_double * MR_std_vector_double_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="55" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="55" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a4a1ce2b67b26f24cc4e1f1ec24238f5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API MR_std_vector_double * MR_std_vector_double_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="59" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="59" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aa47acad3b7e87842836637da07ccd2fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+        <definition>MRC_API MR_std_vector_double * MR_std_vector_double_ConstructFromRange</definition>
+        <argsstring>(const double *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_double_ConstructFromRange</name>
+        <param>
+          <type>const double *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct from a range of elements. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" kindref="member">MR_std_vector_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="63" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="63" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aaa9d4ed0f8e95d05ea35c13c6de6fc0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_AssignFromRange</definition>
+        <argsstring>(MR_std_vector_double *_this, const double *ptr, size_t size)</argsstring>
+        <name>MR_std_vector_double_AssignFromRange</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign from a range of elements, overwriting previous contents. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a9264cb91e9771c2f4a1dbd89f4f795fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_double_size</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_size</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="71" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="71" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a0d11202b028a97c654a61bf7987917ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_double_empty</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_empty</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="75" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="75" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1ad1dcff5626d9d7e3c3bdda1f905491bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_resize</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_double_resize</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a81ffefeed74823fb71a3ec1be9aa2c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t new_size, double value)</argsstring>
+        <name>MR_std_vector_double_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a259490d7be5c58c394cf32980e359309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_clear</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_clear</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="88" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="88" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a717800741fadfaad31b3e66e94de7774" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_double_capacity</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_capacity</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="92" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="92" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a73f796ca2251fc32be16100492f80d82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_reserve</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_double_reserve</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="96" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a7125b05789685bd1d15eea41753e6dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="100" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a191f4eba11166139a86ad5368b6cd7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
+        <definition>MRC_API const double * MR_std_vector_double_at</definition>
+        <argsstring>(const MR_std_vector_double *_this, size_t i)</argsstring>
+        <name>MR_std_vector_double_at</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="106" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="106" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a777d005b1b175a3f07475ecc87950459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
+        <definition>MRC_API double * MR_std_vector_double_at_mut</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t i)</argsstring>
+        <name>MR_std_vector_double_at_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="112" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="112" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a03f0e5b5ebc818b3de612ee648a4ff7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
+        <definition>MRC_API const double * MR_std_vector_double_front</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_front</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="117" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="117" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a5be1270971d9f11d5f2cc40538c5e476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
+        <definition>MRC_API double * MR_std_vector_double_front_mut</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_front_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="122" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="122" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a723092f8d5c1ce9b5b1b31038bd791b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
+        <definition>MRC_API const double * MR_std_vector_double_back</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_back</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="127" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="127" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a9d8c92dc545509a49c72391d2bd2880e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
+        <definition>MRC_API double * MR_std_vector_double_back_mut</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_back_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="132" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="132" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a0a34cc988ffc8936b93fa1678822306d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
+        <definition>MRC_API const double * MR_std_vector_double_data</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_data</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="137" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="137" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a44aec82bd0a2353192df271d7d93e1e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
+        <definition>MRC_API double * MR_std_vector_double_data_mut</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_data_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to the continuous storage that holds all elements, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="142" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="142" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a9c77f975189e0623a4bead1d5a67068e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_push_back</definition>
+        <argsstring>(MR_std_vector_double *_this, double new_elem)</argsstring>
+        <name>MR_std_vector_double_push_back</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="146" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="146" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a2ed0f93e541bdab834a40ae3f5aa4914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_pop_back</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_pop_back</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a479c69df4c4741d07583f5007e365f5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_insert</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t position, double new_elem)</argsstring>
+        <name>MR_std_vector_double_insert</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1afd66e5869cdb3b03d07bf913e85c3f59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_erase</definition>
+        <argsstring>(MR_std_vector_double *_this, size_t position)</argsstring>
+        <name>MR_std_vector_double_erase</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a8512067cacb4706ff6cbe776a6897f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_double *_this, const MR_std_vector_double_iterator *position, double new_elem)</argsstring>
+        <name>MR_std_vector_double_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="163" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a34bfb7c2d1e00da72cf42f4ecdbe9da6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_double *_this, const MR_std_vector_double_iterator *position)</argsstring>
+        <name>MR_std_vector_double_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="168" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="168" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a89595f2e1f83e3298b1dac476c51b5d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_double *_this, const MR_std_vector_double_const_iterator *position, double new_elem)</argsstring>
+        <name>MR_std_vector_double_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="173" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a6dd175315bce366ff71ab5020256e8e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_double *_this, const MR_std_vector_double_const_iterator *position)</argsstring>
+        <name>MR_std_vector_double_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a67009be0ab55f6d76fdbf187fe3bbb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_begin</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_begin</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="184" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="184" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a3d85abfb62ddba2474a99080bfc7d6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_double_is_begin</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_is_begin</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1af8b4c52d6ec94aa5a8027e1f50e056db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_begin_mut</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_begin_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" kindref="member">MR_std_vector_double_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="195" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="195" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aab8954fb7ac8ac29cbebfcf1a8b0fdde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_double_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aace801bfd7f0e3d3e7694a7c7f25b7f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_end</definition>
+        <argsstring>(const MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_end</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="206" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="206" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a8edce84c977b755a39662c6aa9519bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_double_is_end</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_is_end</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1ad1f66e6659980e86887f59f4302edbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_end_mut</definition>
+        <argsstring>(MR_std_vector_double *_this)</argsstring>
+        <name>MR_std_vector_double_end_mut</name>
+        <param>
+          <type><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" kindref="member">MR_std_vector_double_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="217" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="217" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a30352704ab8c94af42f5c868b17a565d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_double_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="222" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="222" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1afdf15af45e20f5f46c9be6964eacdf32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_double_to_index</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_to_index</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="227" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="227" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1ad7c43624f057db80fa3ed066414ec735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_double_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_double *_this, const MR_std_vector_double_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="232" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="232" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a7d8372e3d4133c820f8302f21d2b4d7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_double_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="236" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="236" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a4aba29d9efe19a6aa354ff87b4a1394d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_double_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__double_8h_1a0c55728750fc201968b4cebc7d9287cf" kindref="member">MR_std_vector_double_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__double_8h_1ae1c82af7c67d7ea4048259fd18dce1fc" kindref="member">MR_std_vector_double_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__double_8h_1a5bd7474ff0c89652ab736575b7100c8f" kindref="member">MR_std_vector_double_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="241" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="241" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a1154ff464423e4e3300edc00e516af96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *other)</argsstring>
+        <name>MR_std_vector_double_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="248" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="248" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a9154a11837b45e5365aa708d6567e131" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_double_const_iterator *_this, const MR_std_vector_double_const_iterator *other)</argsstring>
+        <name>MR_std_vector_double_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="255" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="255" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="258" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="258" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a0c55728750fc201968b4cebc7d9287cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="261" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="261" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a5bd7474ff0c89652ab736575b7100c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="265" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="265" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1ae1c82af7c67d7ea4048259fd18dce1fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_double_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="269" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="269" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1adec26b759f4df271eb4a9ff31fd5d285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_const_iterator * MR_std_vector_double_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_double_iterator *iter)</argsstring>
+        <name>MR_std_vector_double_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="274" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="274" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a8d9549c4d1d2ab61f408bddcbe8a3c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_double_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" kindref="member">MR_std_vector_double_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="278" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="278" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a7e7885e9e5ea96a7a36f4b95ac2546ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_double_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__double_8h_1adeb450c8b4e2ed8cde62d50204c2761f" kindref="member">MR_std_vector_double_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__double_8h_1af4597ae814f62b4ab145036bd7cd4613" kindref="member">MR_std_vector_double_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__double_8h_1aa101845c938680e87019039ae3c851b2" kindref="member">MR_std_vector_double_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="283" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="283" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1abcbad06e0c973f625eda41a961a94f01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_double_iterator *other)</argsstring>
+        <name>MR_std_vector_double_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" kindref="member">MR_std_vector_double_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="290" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="290" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aba72e0a5177b35e8fbf3e3c9ec566e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_double_iterator *_this, const MR_std_vector_double_iterator *other)</argsstring>
+        <name>MR_std_vector_double_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="297" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="297" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_double_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="300" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="300" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1adeb450c8b4e2ed8cde62d50204c2761f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_double_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="303" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aa101845c938680e87019039ae3c851b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_double_iterator * MR_std_vector_double_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_double_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="307" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="307" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1af4597ae814f62b4ab145036bd7cd4613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_double_iterator * MR_std_vector_double_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_double_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_double_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="311" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="311" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1af4c1ef874a7f98f1f59e9acfa9f823c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const double *</type>
+        <definition>MRC_API const double * MR_std_vector_double_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="317" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="317" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1abc383c8be4c2eef3ab0bcb9272e596fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_double_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_const_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="321" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="321" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a20c71808eba0c4aef98981d042d984e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_double_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_const_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="325" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="325" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a259432509a0c80e791d02f62515b9230" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_double_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_double_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="329" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="329" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a95a0a03274a3f00ada956fe036f860ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_double_const_iterator</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *a, const MR_std_vector_double_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_double_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="334" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="334" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1aba34c9ab147283e3aa7c5a6c3414efa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_double_const_iterator</definition>
+        <argsstring>(const MR_std_vector_double_const_iterator *a, const MR_std_vector_double_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_double_const_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="339" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="339" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a46b4c482638e8a7028606233943cf6d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double *</type>
+        <definition>MRC_API double * MR_std_vector_double_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_double_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_iterator_deref</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="345" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="345" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1af841be4505a7de50ab527e6e6c6752db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_incr</definition>
+        <argsstring>(MR_std_vector_double_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_iterator_incr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="349" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="349" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a4366181efe7e76d38111d0cbaa1a4938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_decr</definition>
+        <argsstring>(MR_std_vector_double_iterator *_this)</argsstring>
+        <name>MR_std_vector_double_iterator_decr</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="353" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="353" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a7a8318f0e6260ebb02724e0cbb0e798e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_double_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_double_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_double_iterator_add_assign</name>
+        <param>
+          <type><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="357" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="357" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1a11928f99632448140eb8583be01c09b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_double_iterator</definition>
+        <argsstring>(const MR_std_vector_double_iterator *a, const MR_std_vector_double_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_double_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="362" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="362" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__double_8h_1af6b9ec61917886658d61d109bcae338d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_double_iterator</definition>
+        <argsstring>(const MR_std_vector_double_iterator *a, const MR_std_vector_double_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_double_iterator</name>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" line="367" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h" declline="367" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="std__vector__double_8h_1ad93c02b9fb68ead516dfc6790870e9b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1ad93c02b9fb68ead516dfc6790870e9b4" kindref="member">MR_std_vector_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="std__vector__double_8h_1ab6ecac939e4a491c785588520b061abb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1ab6ecac939e4a491c785588520b061abb" kindref="member">MR_std_vector_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="std__vector__double_8h_1a6f3dbaaec4ea0a8250db7103fc202dd5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1a6f3dbaaec4ea0a8250db7103fc202dd5" kindref="member">MR_std_vector_double_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="std__vector__double_8h_1a294db7a11eed39d7d0d4aea0387cdd21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a294db7a11eed39d7d0d4aea0387cdd21" kindref="member">MR_std_vector_double_AssignFromAnother</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a67570f134a063115815c13b0ba0372cd" kindref="member">MR_std_vector_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__vector__double_8h_1a0d8d23f5fe81a5e9a4b12644a4b5d1e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a0d8d23f5fe81a5e9a4b12644a4b5d1e0" kindref="member">MR_std_vector_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__vector__double_8h_1a20aeadf22c77e842d2fb3d1974f9dda0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1a20aeadf22c77e842d2fb3d1974f9dda0" kindref="member">MR_std_vector_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__vector__double_8h_1a4a1ce2b67b26f24cc4e1f1ec24238f5d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1a4a1ce2b67b26f24cc4e1f1ec24238f5d" kindref="member">MR_std_vector_double_OffsetMutablePtr</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__vector__double_8h_1aa47acad3b7e87842836637da07ccd2fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*<ref refid="std__vector__double_8h_1aa47acad3b7e87842836637da07ccd2fc" kindref="member">MR_std_vector_double_ConstructFromRange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="std__vector__double_8h_1aaa9d4ed0f8e95d05ea35c13c6de6fc0f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1aaa9d4ed0f8e95d05ea35c13c6de6fc0f" kindref="member">MR_std_vector_double_AssignFromRange</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="std__vector__double_8h_1a9264cb91e9771c2f4a1dbd89f4f795fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a9264cb91e9771c2f4a1dbd89f4f795fe" kindref="member">MR_std_vector_double_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="std__vector__double_8h_1a0d11202b028a97c654a61bf7987917ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a0d11202b028a97c654a61bf7987917ec" kindref="member">MR_std_vector_double_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="std__vector__double_8h_1ad1dcff5626d9d7e3c3bdda1f905491bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1ad1dcff5626d9d7e3c3bdda1f905491bb" kindref="member">MR_std_vector_double_resize</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__double_8h_1a81ffefeed74823fb71a3ec1be9aa2c4b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a81ffefeed74823fb71a3ec1be9aa2c4b" kindref="member">MR_std_vector_double_resize_with_default_value</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="std__vector__double_8h_1a259490d7be5c58c394cf32980e359309" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a259490d7be5c58c394cf32980e359309" kindref="member">MR_std_vector_double_clear</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__vector__double_8h_1a717800741fadfaad31b3e66e94de7774" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a717800741fadfaad31b3e66e94de7774" kindref="member">MR_std_vector_double_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="std__vector__double_8h_1a73f796ca2251fc32be16100492f80d82" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a73f796ca2251fc32be16100492f80d82" kindref="member">MR_std_vector_double_reserve</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="std__vector__double_8h_1a7125b05789685bd1d15eea41753e6dce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a7125b05789685bd1d15eea41753e6dce" kindref="member">MR_std_vector_double_shrink_to_fit</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="std__vector__double_8h_1a191f4eba11166139a86ad5368b6cd7f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a191f4eba11166139a86ad5368b6cd7f3" kindref="member">MR_std_vector_double_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__double_8h_1a777d005b1b175a3f07475ecc87950459" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a777d005b1b175a3f07475ecc87950459" kindref="member">MR_std_vector_double_at_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__double_8h_1a03f0e5b5ebc818b3de612ee648a4ff7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a03f0e5b5ebc818b3de612ee648a4ff7e" kindref="member">MR_std_vector_double_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__double_8h_1a5be1270971d9f11d5f2cc40538c5e476" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a5be1270971d9f11d5f2cc40538c5e476" kindref="member">MR_std_vector_double_front_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__double_8h_1a723092f8d5c1ce9b5b1b31038bd791b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a723092f8d5c1ce9b5b1b31038bd791b6" kindref="member">MR_std_vector_double_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="std__vector__double_8h_1a9d8c92dc545509a49c72391d2bd2880e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a9d8c92dc545509a49c72391d2bd2880e" kindref="member">MR_std_vector_double_back_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__double_8h_1a0a34cc988ffc8936b93fa1678822306d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a0a34cc988ffc8936b93fa1678822306d" kindref="member">MR_std_vector_double_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="std__vector__double_8h_1a44aec82bd0a2353192df271d7d93e1e7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a44aec82bd0a2353192df271d7d93e1e7" kindref="member">MR_std_vector_double_data_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="std__vector__double_8h_1a9c77f975189e0623a4bead1d5a67068e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a9c77f975189e0623a4bead1d5a67068e" kindref="member">MR_std_vector_double_push_back</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>new_elem);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__vector__double_8h_1a2ed0f93e541bdab834a40ae3f5aa4914" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a2ed0f93e541bdab834a40ae3f5aa4914" kindref="member">MR_std_vector_double_pop_back</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__double_8h_1a479c69df4c4741d07583f5007e365f5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a479c69df4c4741d07583f5007e365f5e" kindref="member">MR_std_vector_double_insert</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="std__vector__double_8h_1afd66e5869cdb3b03d07bf913e85c3f59" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1afd66e5869cdb3b03d07bf913e85c3f59" kindref="member">MR_std_vector_double_erase</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="std__vector__double_8h_1a8512067cacb4706ff6cbe776a6897f05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a8512067cacb4706ff6cbe776a6897f05" kindref="member">MR_std_vector_double_insert_at_mutable_iter</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>new_elem);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="std__vector__double_8h_1a34bfb7c2d1e00da72cf42f4ecdbe9da6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a34bfb7c2d1e00da72cf42f4ecdbe9da6" kindref="member">MR_std_vector_double_erase_at_mutable_iter</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__double_8h_1a89595f2e1f83e3298b1dac476c51b5d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a89595f2e1f83e3298b1dac476c51b5d5" kindref="member">MR_std_vector_double_insert_at_iter</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>new_elem);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__double_8h_1a6dd175315bce366ff71ab5020256e8e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a6dd175315bce366ff71ab5020256e8e0" kindref="member">MR_std_vector_double_erase_at_iter</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__double_8h_1a67009be0ab55f6d76fdbf187fe3bbb48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a67009be0ab55f6d76fdbf187fe3bbb48" kindref="member">MR_std_vector_double_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__double_8h_1a3d85abfb62ddba2474a99080bfc7d6ee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a3d85abfb62ddba2474a99080bfc7d6ee" kindref="member">MR_std_vector_double_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__double_8h_1af8b4c52d6ec94aa5a8027e1f50e056db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1af8b4c52d6ec94aa5a8027e1f50e056db" kindref="member">MR_std_vector_double_begin_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__double_8h_1aab8954fb7ac8ac29cbebfcf1a8b0fdde" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1aab8954fb7ac8ac29cbebfcf1a8b0fdde" kindref="member">MR_std_vector_double_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__double_8h_1aace801bfd7f0e3d3e7694a7c7f25b7f4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1aace801bfd7f0e3d3e7694a7c7f25b7f4" kindref="member">MR_std_vector_double_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__double_8h_1a8edce84c977b755a39662c6aa9519bef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a8edce84c977b755a39662c6aa9519bef" kindref="member">MR_std_vector_double_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="std__vector__double_8h_1ad1f66e6659980e86887f59f4302edbd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1ad1f66e6659980e86887f59f4302edbd7" kindref="member">MR_std_vector_double_end_mut</ref>(<ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="std__vector__double_8h_1a30352704ab8c94af42f5c868b17a565d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a30352704ab8c94af42f5c868b17a565d" kindref="member">MR_std_vector_double_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="std__vector__double_8h_1afdf15af45e20f5f46c9be6964eacdf32" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__double_8h_1afdf15af45e20f5f46c9be6964eacdf32" kindref="member">MR_std_vector_double_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232" refid="std__vector__double_8h_1ad7c43624f057db80fa3ed066414ec735" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__double_8h_1ad7c43624f057db80fa3ed066414ec735" kindref="member">MR_std_vector_double_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitPolynomial_8h_1af3cab7fcc7212d67f935a899fd3118ec" kindref="member">MR_std_vector_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="std__vector__double_8h_1a7d8372e3d4133c820f8302f21d2b4d7f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a7d8372e3d4133c820f8302f21d2b4d7f" kindref="member">MR_std_vector_double_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__double_8h_1a4aba29d9efe19a6aa354ff87b4a1394d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a4aba29d9efe19a6aa354ff87b4a1394d" kindref="member">MR_std_vector_double_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__double_8h_1a1154ff464423e4e3300edc00e516af96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a1154ff464423e4e3300edc00e516af96" kindref="member">MR_std_vector_double_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="std__vector__double_8h_1a9154a11837b45e5365aa708d6567e131" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a9154a11837b45e5365aa708d6567e131" kindref="member">MR_std_vector_double_const_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a5de9b718a6dff5033a34a0c4bb48c4e0" kindref="member">MR_std_vector_double_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="std__vector__double_8h_1a0c55728750fc201968b4cebc7d9287cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a0c55728750fc201968b4cebc7d9287cf" kindref="member">MR_std_vector_double_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="std__vector__double_8h_1a5bd7474ff0c89652ab736575b7100c8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a5bd7474ff0c89652ab736575b7100c8f" kindref="member">MR_std_vector_double_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="std__vector__double_8h_1ae1c82af7c67d7ea4048259fd18dce1fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1ae1c82af7c67d7ea4048259fd18dce1fc" kindref="member">MR_std_vector_double_const_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="std__vector__double_8h_1adec26b759f4df271eb4a9ff31fd5d285" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1adec26b759f4df271eb4a9ff31fd5d285" kindref="member">MR_std_vector_double_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="std__vector__double_8h_1a8d9549c4d1d2ab61f408bddcbe8a3c43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a8d9549c4d1d2ab61f408bddcbe8a3c43" kindref="member">MR_std_vector_double_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__double_8h_1a7e7885e9e5ea96a7a36f4b95ac2546ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1a7e7885e9e5ea96a7a36f4b95ac2546ce" kindref="member">MR_std_vector_double_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__double_8h_1abcbad06e0c973f625eda41a961a94f01" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1abcbad06e0c973f625eda41a961a94f01" kindref="member">MR_std_vector_double_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="std__vector__double_8h_1aba72e0a5177b35e8fbf3e3c9ec566e6b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1aba72e0a5177b35e8fbf3e3c9ec566e6b" kindref="member">MR_std_vector_double_iterator_AssignFromAnother</ref>(<ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a9bd33d1070630a2683391c1a981299a9" kindref="member">MR_std_vector_double_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="std__vector__double_8h_1adeb450c8b4e2ed8cde62d50204c2761f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1adeb450c8b4e2ed8cde62d50204c2761f" kindref="member">MR_std_vector_double_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="std__vector__double_8h_1aa101845c938680e87019039ae3c851b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1aa101845c938680e87019039ae3c851b2" kindref="member">MR_std_vector_double_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="std__vector__double_8h_1af4597ae814f62b4ab145036bd7cd4613" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*<ref refid="std__vector__double_8h_1af4597ae814f62b4ab145036bd7cd4613" kindref="member">MR_std_vector_double_iterator_OffsetMutablePtr</ref>(<ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="std__vector__double_8h_1af4c1ef874a7f98f1f59e9acfa9f823c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1af4c1ef874a7f98f1f59e9acfa9f823c3" kindref="member">MR_std_vector_double_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="std__vector__double_8h_1abc383c8be4c2eef3ab0bcb9272e596fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1abc383c8be4c2eef3ab0bcb9272e596fa" kindref="member">MR_std_vector_double_const_iterator_incr</ref>(<ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325" refid="std__vector__double_8h_1a20c71808eba0c4aef98981d042d984e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a20c71808eba0c4aef98981d042d984e3" kindref="member">MR_std_vector_double_const_iterator_decr</ref>(<ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="std__vector__double_8h_1a259432509a0c80e791d02f62515b9230" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a259432509a0c80e791d02f62515b9230" kindref="member">MR_std_vector_double_const_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__double_8h_1a95a0a03274a3f00ada956fe036f860ac" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__double_8h_1a95a0a03274a3f00ada956fe036f860ac" kindref="member">MR_sub_MR_std_vector_double_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="std__vector__double_8h_1aba34c9ab147283e3aa7c5a6c3414efa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1aba34c9ab147283e3aa7c5a6c3414efa5" kindref="member">MR_equal_MR_std_vector_double_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a2642c947295466f8e4cd6abb33373880" kindref="member">MR_std_vector_double_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="std__vector__double_8h_1a46b4c482638e8a7028606233943cf6d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="std__vector__double_8h_1a46b4c482638e8a7028606233943cf6d6" kindref="member">MR_std_vector_double_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349" refid="std__vector__double_8h_1af841be4505a7de50ab527e6e6c6752db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1af841be4505a7de50ab527e6e6c6752db" kindref="member">MR_std_vector_double_iterator_incr</ref>(<ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="std__vector__double_8h_1a4366181efe7e76d38111d0cbaa1a4938" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a4366181efe7e76d38111d0cbaa1a4938" kindref="member">MR_std_vector_double_iterator_decr</ref>(<ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357" refid="std__vector__double_8h_1a7a8318f0e6260ebb02724e0cbb0e798e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1a7a8318f0e6260ebb02724e0cbb0e798e" kindref="member">MR_std_vector_double_iterator_add_assign</ref>(<ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="std__vector__double_8h_1a11928f99632448140eb8583be01c09b2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__double_8h_1a11928f99632448140eb8583be01c09b2" kindref="member">MR_sub_MR_std_vector_double_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="std__vector__double_8h_1af6b9ec61917886658d61d109bcae338d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__double_8h_1af6b9ec61917886658d61d109bcae338d" kindref="member">MR_equal_MR_std_vector_double_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRVector_8h_1a817d04a756c15d407410c49254848681" kindref="member">MR_std_vector_double_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_double.h"/>
+  </compounddef>
+</doxygen>

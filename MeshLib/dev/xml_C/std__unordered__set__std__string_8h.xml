@@ -1,0 +1,740 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__unordered__set__std__string_8h" kind="file" language="C++">
+    <compoundname>std_unordered_set_std_string.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_unordered_set_std_string.h</label>
+        <link refid="std__unordered__set__std__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" prot="public" static="no">
+        <type>struct <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref></type>
+        <definition>typedef struct MR_std_unordered_set_std_string_const_iterator MR_std_unordered_set_std_string_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="22" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1ad36dac0882bf15b55bc75215b300b199" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string * MR_std_unordered_set_std_string_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_unordered_set_std_string_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1a0862c417cc09283c56ed033bbb3c705d" kindref="member">MR_std_unordered_set_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="26" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="26" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a1d82f75489636e6f2ce0088cdd19fe6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string * MR_std_unordered_set_std_string_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_unordered_set_std_string_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__unordered__set__std__string_8h_1a0c52284bc9328d1a6621674e00ec92bc" kindref="member">MR_std_unordered_set_std_string_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__unordered__set__std__string_8h_1ae688e1c4aa33bda1d53c5ecca79318e4" kindref="member">MR_std_unordered_set_std_string_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__unordered__set__std__string_8h_1a296bd7c7dd5618706790ae110dc1ecf5" kindref="member">MR_std_unordered_set_std_string_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="31" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="31" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a3e9aee36227a428ede40321e37e275c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string * MR_std_unordered_set_std_string_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_unordered_set_std_string *other)</argsstring>
+        <name>MR_std_unordered_set_std_string_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1a0862c417cc09283c56ed033bbb3c705d" kindref="member">MR_std_unordered_set_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="37" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="37" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a6bafba2544bca5f38b269e58be25ae13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_AssignFromAnother</definition>
+        <argsstring>(MR_std_unordered_set_std_string *_this, MR_PassBy other_pass_by, MR_std_unordered_set_std_string *other)</argsstring>
+        <name>MR_std_unordered_set_std_string_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a0862c417cc09283c56ed033bbb3c705d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_Destroy</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_Destroy</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a0c52284bc9328d1a6621674e00ec92bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_DestroyArray</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a296bd7c7dd5618706790ae110dc1ecf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_unordered_set_std_string * MR_std_unordered_set_std_string_OffsetPtr</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_unordered_set_std_string_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="53" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="53" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1ae688e1c4aa33bda1d53c5ecca79318e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string * MR_std_unordered_set_std_string_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_unordered_set_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_unordered_set_std_string_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="57" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="57" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1ab11d17732f8b446c6cab2bef078446e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_unordered_set_std_string_size</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_size</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="61" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="61" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a17cb95af4a1ad32bc8f86fe5f5c2d0eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_unordered_set_std_string_empty</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_empty</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a14d6a10c5f193b3e42e5bada1c668263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_clear</definition>
+        <argsstring>(MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_clear</name>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="70" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="70" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1af0dbb6b204164bf9e6dc247c18493f68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_unordered_set_std_string_contains</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_unordered_set_std_string_contains</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the contain contains this key. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. If <computeroutput>key_end</computeroutput> is null, then <computeroutput>key</computeroutput> is assumed to be null-terminated. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="76" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="76" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a1285739dcb2597c9ce2629d5634ce111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_find</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this, const char *key, const char *key_end)</argsstring>
+        <name>MR_std_unordered_set_std_string_find</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>key_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Finds the element by key, or returns the end iterator if no such key. Returns a read-only iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>key</computeroutput> can not be null. If <computeroutput>key_end</computeroutput> is null, then <computeroutput>key</computeroutput> is assumed to be null-terminated. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="84" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="84" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a3a3745a10088f464f8cb596a1edfe129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_insert</definition>
+        <argsstring>(MR_std_unordered_set_std_string *_this, const char *new_elem, const char *new_elem_end)</argsstring>
+        <name>MR_std_unordered_set_std_string_insert</name>
+        <param>
+          <type><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>new_elem</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>new_elem_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. If <computeroutput>new_elem_end</computeroutput> is null, then <computeroutput>new_elem</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a0d20142ce5c14087fb8f34f58f2192e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_begin</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_begin</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="97" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="97" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1ab225036482b11b13e406597c3a85daca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_unordered_set_std_string_is_begin</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this, const MR_std_unordered_set_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_unordered_set_std_string_is_begin</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a1e5dce1e4f7650eab67be11cfb67a7a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_end</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_end</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="108" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="108" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a1612b7a8f0783acc61bb03a1f076ec8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_unordered_set_std_string_is_end</definition>
+        <argsstring>(const MR_std_unordered_set_std_string *_this, const MR_std_unordered_set_std_string_const_iterator *iter)</argsstring>
+        <name>MR_std_unordered_set_std_string_is_end</name>
+        <param>
+          <type>const <ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="113" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="113" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1af1242d03afb9d8050886b3e50c4bef00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="117" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="117" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a0b8a53b52c7c12df9add6c370201d202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__unordered__set__std__string_8h_1aabc4b8d245528069efbcb35d995132d0" kindref="member">MR_std_unordered_set_std_string_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__unordered__set__std__string_8h_1aa83e0ad9b486163b3ee03457db1e4733" kindref="member">MR_std_unordered_set_std_string_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__unordered__set__std__string_8h_1a250d13d757e62004e7547e4941c436b0" kindref="member">MR_std_unordered_set_std_string_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="122" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="122" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a1f15f67db2d7e58dd1072b2b88c1805b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="129" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="129" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a9055bd730201d30616c4bb2dafd47072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_unordered_set_std_string_const_iterator *_this, const MR_std_unordered_set_std_string_const_iterator *other)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="136" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="136" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1aabc4b8d245528069efbcb35d995132d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="142" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a250d13d757e62004e7547e4941c436b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="146" column="62" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="146" declcolumn="62"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1aa83e0ad9b486163b3ee03457db1e4733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_unordered_set_std_string_const_iterator * MR_std_unordered_set_std_string_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_unordered_set_std_string_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="150" column="56" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="150" declcolumn="56"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a3ba3928767e13c5cf8fd065f36a1f1fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_std_unordered_set_std_string_const_iterator_deref</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="156" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="156" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a78d1159dc72982c5da5ccd089ce27fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_unordered_set_std_string_const_iterator_incr</definition>
+        <argsstring>(MR_std_unordered_set_std_string_const_iterator *_this)</argsstring>
+        <name>MR_std_unordered_set_std_string_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="160" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__unordered__set__std__string_8h_1a9f7554e1defc3ca32cb20b998f20faa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_unordered_set_std_string_const_iterator</definition>
+        <argsstring>(const MR_std_unordered_set_std_string_const_iterator *a, const MR_std_unordered_set_std_string_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_unordered_set_std_string_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" line="165" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h" declline="165" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__unordered__set__std__string_8h_1ad36dac0882bf15b55bc75215b300b199" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1ad36dac0882bf15b55bc75215b300b199" kindref="member">MR_std_unordered_set_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="std__unordered__set__std__string_8h_1a1d82f75489636e6f2ce0088cdd19fe6e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a1d82f75489636e6f2ce0088cdd19fe6e" kindref="member">MR_std_unordered_set_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="std__unordered__set__std__string_8h_1a3e9aee36227a428ede40321e37e275c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a3e9aee36227a428ede40321e37e275c5" kindref="member">MR_std_unordered_set_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="std__unordered__set__std__string_8h_1a6bafba2544bca5f38b269e58be25ae13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a6bafba2544bca5f38b269e58be25ae13" kindref="member">MR_std_unordered_set_std_string_AssignFromAnother</ref>(<ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="std__unordered__set__std__string_8h_1a0862c417cc09283c56ed033bbb3c705d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0862c417cc09283c56ed033bbb3c705d" kindref="member">MR_std_unordered_set_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="std__unordered__set__std__string_8h_1a0c52284bc9328d1a6621674e00ec92bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0c52284bc9328d1a6621674e00ec92bc" kindref="member">MR_std_unordered_set_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__unordered__set__std__string_8h_1a296bd7c7dd5618706790ae110dc1ecf5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a296bd7c7dd5618706790ae110dc1ecf5" kindref="member">MR_std_unordered_set_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__unordered__set__std__string_8h_1ae688e1c4aa33bda1d53c5ecca79318e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1ae688e1c4aa33bda1d53c5ecca79318e4" kindref="member">MR_std_unordered_set_std_string_OffsetMutablePtr</ref>(<ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__unordered__set__std__string_8h_1ab11d17732f8b446c6cab2bef078446e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1ab11d17732f8b446c6cab2bef078446e1" kindref="member">MR_std_unordered_set_std_string_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__unordered__set__std__string_8h_1a17cb95af4a1ad32bc8f86fe5f5c2d0eb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a17cb95af4a1ad32bc8f86fe5f5c2d0eb" kindref="member">MR_std_unordered_set_std_string_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__unordered__set__std__string_8h_1a14d6a10c5f193b3e42e5bada1c668263" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a14d6a10c5f193b3e42e5bada1c668263" kindref="member">MR_std_unordered_set_std_string_clear</ref>(<ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="std__unordered__set__std__string_8h_1af0dbb6b204164bf9e6dc247c18493f68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1af0dbb6b204164bf9e6dc247c18493f68" kindref="member">MR_std_unordered_set_std_string_contains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__unordered__set__std__string_8h_1a1285739dcb2597c9ce2629d5634ce111" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a1285739dcb2597c9ce2629d5634ce111" kindref="member">MR_std_unordered_set_std_string_find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key_end);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__unordered__set__std__string_8h_1a3a3745a10088f464f8cb596a1edfe129" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a3a3745a10088f464f8cb596a1edfe129" kindref="member">MR_std_unordered_set_std_string_insert</ref>(<ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*new_elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*new_elem_end);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="std__unordered__set__std__string_8h_1a0d20142ce5c14087fb8f34f58f2192e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a0d20142ce5c14087fb8f34f58f2192e1" kindref="member">MR_std_unordered_set_std_string_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="std__unordered__set__std__string_8h_1ab225036482b11b13e406597c3a85daca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1ab225036482b11b13e406597c3a85daca" kindref="member">MR_std_unordered_set_std_string_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__unordered__set__std__string_8h_1a1e5dce1e4f7650eab67be11cfb67a7a2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a1e5dce1e4f7650eab67be11cfb67a7a2" kindref="member">MR_std_unordered_set_std_string_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__unordered__set__std__string_8h_1a1612b7a8f0783acc61bb03a1f076ec8d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a1612b7a8f0783acc61bb03a1f076ec8d" kindref="member">MR_std_unordered_set_std_string_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatureHelpers_8h_1aaa57d1ba166411d1c6f286286739d905" kindref="member">MR_std_unordered_set_std_string</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__unordered__set__std__string_8h_1af1242d03afb9d8050886b3e50c4bef00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1af1242d03afb9d8050886b3e50c4bef00" kindref="member">MR_std_unordered_set_std_string_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__unordered__set__std__string_8h_1a0b8a53b52c7c12df9add6c370201d202" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a0b8a53b52c7c12df9add6c370201d202" kindref="member">MR_std_unordered_set_std_string_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__unordered__set__std__string_8h_1a1f15f67db2d7e58dd1072b2b88c1805b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a1f15f67db2d7e58dd1072b2b88c1805b" kindref="member">MR_std_unordered_set_std_string_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="std__unordered__set__std__string_8h_1a9055bd730201d30616c4bb2dafd47072" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a9055bd730201d30616c4bb2dafd47072" kindref="member">MR_std_unordered_set_std_string_const_iterator_AssignFromAnother</ref>(<ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1ac06f0a376d344f4885edce8032d0b652" kindref="member">MR_std_unordered_set_std_string_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="std__unordered__set__std__string_8h_1aabc4b8d245528069efbcb35d995132d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1aabc4b8d245528069efbcb35d995132d0" kindref="member">MR_std_unordered_set_std_string_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="std__unordered__set__std__string_8h_1a250d13d757e62004e7547e4941c436b0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a250d13d757e62004e7547e4941c436b0" kindref="member">MR_std_unordered_set_std_string_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__unordered__set__std__string_8h_1aa83e0ad9b486163b3ee03457db1e4733" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1aa83e0ad9b486163b3ee03457db1e4733" kindref="member">MR_std_unordered_set_std_string_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="std__unordered__set__std__string_8h_1a3ba3928767e13c5cf8fd065f36a1f1fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="std__unordered__set__std__string_8h_1a3ba3928767e13c5cf8fd065f36a1f1fe" kindref="member">MR_std_unordered_set_std_string_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="std__unordered__set__std__string_8h_1a78d1159dc72982c5da5ccd089ce27fbe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a78d1159dc72982c5da5ccd089ce27fbe" kindref="member">MR_std_unordered_set_std_string_const_iterator_incr</ref>(<ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="std__unordered__set__std__string_8h_1a9f7554e1defc3ca32cb20b998f20faa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a9f7554e1defc3ca32cb20b998f20faa5" kindref="member">MR_equal_MR_std_unordered_set_std_string_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__unordered__set__std__string_8h_1a0245bbf9aaead8e1d68585bc71268452" kindref="member">MR_std_unordered_set_std_string_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_unordered_set_std_string.h"/>
+  </compounddef>
+</doxygen>

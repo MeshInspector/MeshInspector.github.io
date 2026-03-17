@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRImproveSampling_8h" kind="file" language="C++">
     <compoundname>MRImproveSampling.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -55,7 +66,7 @@
 <parametername>I</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;int, MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput>MR::Vector&lt;int, MR::VertId&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -63,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="14" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="14" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="14" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" prot="public" static="no">
         <type>struct <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref></type>
@@ -73,16 +84,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::ImproveSamplingSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::ImproveSamplingSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="23" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
         <definition>MRC_API const int * MR_ImproveSamplingSettings_Get_numIters</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_numIters</name>
@@ -97,10 +108,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="30" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="30" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="30" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="30" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_numIters</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, int value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_numIters</name>
@@ -119,10 +130,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="36" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
         <definition>MRC_API int * MR_ImproveSamplingSettings_GetMutable_numIters</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_numIters</name>
@@ -137,10 +148,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="43" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="43" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="43" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="43" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
         <definition>MRC_API const int * MR_ImproveSamplingSettings_Get_minPointsInSample</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_minPointsInSample</name>
@@ -155,10 +166,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="51" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="51" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="51" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="51" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_minPointsInSample</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, int value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_minPointsInSample</name>
@@ -177,10 +188,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="58" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="58" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
         <definition>MRC_API int * MR_ImproveSamplingSettings_GetMutable_minPointsInSample</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_minPointsInSample</name>
@@ -195,10 +206,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="66" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="66" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="66" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="66" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *const *</type>
         <definition>MRC_API MR_VertMap *const  * MR_ImproveSamplingSettings_Get_pt2sm</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_pt2sm</name>
@@ -213,10 +224,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="73" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="73" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="73" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="73" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_pt2sm</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_VertMap *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_pt2sm</name>
@@ -235,10 +246,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="80" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="80" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> **</type>
         <definition>MRC_API MR_VertMap ** MR_ImproveSamplingSettings_GetMutable_pt2sm</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_pt2sm</name>
@@ -253,10 +264,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="87" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="87" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="87" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="87" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> *const *</type>
         <definition>MRC_API MR_PointCloud *const  * MR_ImproveSamplingSettings_Get_cloudOfSamples</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_cloudOfSamples</name>
@@ -271,10 +282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="94" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="94" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_cloudOfSamples</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_PointCloud *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_cloudOfSamples</name>
@@ -293,10 +304,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="101" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref> **</type>
         <definition>MRC_API MR_PointCloud ** MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</name>
@@ -311,10 +322,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="108" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="108" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> *const *</type>
         <definition>MRC_API MR_Vector_int_MR_VertId *const  * MR_ImproveSamplingSettings_Get_ptsInSm</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_ptsInSm</name>
@@ -329,10 +340,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="115" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="115" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="115" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="115" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_ptsInSm</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_Vector_int_MR_VertId *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_ptsInSm</name>
@@ -351,10 +362,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="122" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="122" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref> **</type>
         <definition>MRC_API MR_Vector_int_MR_VertId ** MR_ImproveSamplingSettings_GetMutable_ptsInSm</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_ptsInSm</name>
@@ -369,10 +380,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="129" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="129" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="129" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="129" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
         <definition>MRC_API const MR_VertColors *const  * MR_ImproveSamplingSettings_Get_ptColors</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_ptColors</name>
@@ -387,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="136" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="136" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="136" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="136" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_ptColors</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, const MR_VertColors *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_ptColors</name>
@@ -409,10 +420,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="143" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="143" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
         <definition>MRC_API const MR_VertColors ** MR_ImproveSamplingSettings_GetMutable_ptColors</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_ptColors</name>
@@ -427,10 +438,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="150" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="150" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="150" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="150" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> *const *</type>
         <definition>MRC_API MR_VertColors *const  * MR_ImproveSamplingSettings_Get_smColors</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_smColors</name>
@@ -445,10 +456,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="157" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="157" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="157" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="157" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_smColors</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_VertColors *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_smColors</name>
@@ -467,10 +478,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="164" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="164" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="164" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref> **</type>
         <definition>MRC_API MR_VertColors ** MR_ImproveSamplingSettings_GetMutable_smColors</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_smColors</name>
@@ -485,10 +496,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="171" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="171" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="171" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="171" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_ImproveSamplingSettings_Get_progress</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Get_progress</name>
@@ -503,10 +514,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="178" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="178" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="178" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="178" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Set_progress</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_ImproveSamplingSettings_Set_progress</name>
@@ -515,7 +526,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -529,10 +540,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="185" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="185" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_ImproveSamplingSettings_GetMutable_progress</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_GetMutable_progress</name>
@@ -547,10 +558,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="192" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="192" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="192" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="192" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_ImproveSamplingSettings_DefaultConstruct</name>
@@ -564,10 +575,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="196" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="196" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="196" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="196" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_ImproveSamplingSettings_DefaultConstructArray</name>
@@ -582,10 +593,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="201" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="201" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="201" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="201" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_ConstructFrom</definition>
         <argsstring>(int numIters, int minPointsInSample, MR_VertMap *pt2sm, MR_PointCloud *cloudOfSamples, MR_Vector_int_MR_VertId *ptsInSm, const MR_VertColors *ptColors, MR_VertColors *smColors, MR_PassBy progress_pass_by, MR_std_function_bool_from_float *progress)</argsstring>
         <name>MR_ImproveSamplingSettings_ConstructFrom</name>
@@ -618,7 +629,7 @@
           <declname>smColors</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progress_pass_by</declname>
         </param>
         <param>
@@ -632,10 +643,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="212" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="212" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="212" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="212" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API const MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_OffsetPtr</definition>
         <argsstring>(const MR_ImproveSamplingSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ImproveSamplingSettings_OffsetPtr</name>
@@ -654,10 +665,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="216" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="216" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="216" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="216" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_ImproveSamplingSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ImproveSamplingSettings_OffsetMutablePtr</name>
@@ -676,15 +687,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="220" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="220" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="220" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="220" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ImproveSamplingSettings *_other)</argsstring>
         <name>MR_ImproveSamplingSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -698,10 +709,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="225" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="225" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="225" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="225" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_Destroy</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_Destroy</name>
@@ -716,10 +727,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="228" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="228" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="228" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ImproveSamplingSettings_DestroyArray</definition>
         <argsstring>(const MR_ImproveSamplingSettings *_this)</argsstring>
         <name>MR_ImproveSamplingSettings_DestroyArray</name>
@@ -734,10 +745,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="231" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="231" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref> *</type>
         <definition>MRC_API MR_ImproveSamplingSettings * MR_ImproveSamplingSettings_AssignFromAnother</definition>
         <argsstring>(MR_ImproveSamplingSettings *_this, MR_PassBy _other_pass_by, MR_ImproveSamplingSettings *_other)</argsstring>
         <name>MR_ImproveSamplingSettings_AssignFromAnother</name>
@@ -746,7 +757,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -760,10 +771,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="238" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="238" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="238" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="238" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_improveSampling</definition>
         <argsstring>(const MR_PointCloud *cloud, MR_VertBitSet *samples, const MR_ImproveSamplingSettings *settings)</argsstring>
         <name>MR_improveSampling</name>
@@ -805,7 +816,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h" declline="247" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h" declline="247" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -815,8 +826,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -835,78 +846,78 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" kindref="member">MR_ImproveSamplingSettings_Get_numIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1b7c59ddecf85d8f2e587cfc5b7f2874" kindref="member">MR_ImproveSamplingSettings_Get_numIters</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" kindref="member">MR_ImproveSamplingSettings_Set_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="36" refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a78912411e56f4413cdb706b7a81d24fc" kindref="member">MR_ImproveSamplingSettings_Set_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" kindref="member">MR_ImproveSamplingSettings_GetMutable_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43" refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a910b88f210acc42c8a0d4a54f50edd54" kindref="member">MR_ImproveSamplingSettings_GetMutable_numIters</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" kindref="member">MR_ImproveSamplingSettings_Get_minPointsInSample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a038b960e62c92ea7b36dd0be1862dc70" kindref="member">MR_ImproveSamplingSettings_Get_minPointsInSample</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" kindref="member">MR_ImproveSamplingSettings_Set_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="58" refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ac5b93698b491eb0c30f447d31606b2b8" kindref="member">MR_ImproveSamplingSettings_Set_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" kindref="member">MR_ImproveSamplingSettings_GetMutable_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66" refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a13a3ea6db0fb55262058e4c8284e20bb" kindref="member">MR_ImproveSamplingSettings_GetMutable_minPointsInSample</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" kindref="member">MR_ImproveSamplingSettings_Get_pt2sm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73" refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a305e487a617ddc79f713dd258b8d4062" kindref="member">MR_ImproveSamplingSettings_Get_pt2sm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" kindref="member">MR_ImproveSamplingSettings_Set_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="80" refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a761a1e877434d70f7b39e19fc24a7075" kindref="member">MR_ImproveSamplingSettings_Set_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" kindref="member">MR_ImproveSamplingSettings_GetMutable_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>**<ref refid="MRImproveSampling_8h_1a406260c14adaf8cc514aa35f7a8bef66" kindref="member">MR_ImproveSamplingSettings_GetMutable_pt2sm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" kindref="member">MR_ImproveSamplingSettings_Get_cloudOfSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94" refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a1f1cccf05759fdb003cdcdd0399da8c5" kindref="member">MR_ImproveSamplingSettings_Get_cloudOfSamples</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" kindref="member">MR_ImproveSamplingSettings_Set_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="101" refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a000a6708513be83be75412362114a4c5" kindref="member">MR_ImproveSamplingSettings_Set_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>**<ref refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" kindref="member">MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108" refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>**<ref refid="MRImproveSampling_8h_1aeab9f39bdf22c062ff3f20fb322c098f" kindref="member">MR_ImproveSamplingSettings_GetMutable_cloudOfSamples</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" kindref="member">MR_ImproveSamplingSettings_Get_ptsInSm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115" refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a092acfae526e5e02b7aaf2e2da4552d8" kindref="member">MR_ImproveSamplingSettings_Get_ptsInSm</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="116"><highlight class="normal"></highlight></codeline>
-<codeline lineno="122" refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" kindref="member">MR_ImproveSamplingSettings_Set_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="122" refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a2b0d45b46c77f008854cb9e93cbef35b" kindref="member">MR_ImproveSamplingSettings_Set_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight></codeline>
-<codeline lineno="129" refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>**<ref refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129" refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>**<ref refid="MRImproveSampling_8h_1ade4203219108b1d79e6b2c5a43a00f2a" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptsInSm</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight></codeline>
-<codeline lineno="136" refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" kindref="member">MR_ImproveSamplingSettings_Get_ptColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136" refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1a6b7a42cb9031313c3350a621bd5e56c6" kindref="member">MR_ImproveSamplingSettings_Get_ptColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" kindref="member">MR_ImproveSamplingSettings_Set_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="143" refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a169c1bd3748d6c8701454e5f12d528b1" kindref="member">MR_ImproveSamplingSettings_Set_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="150" refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150" refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a3acfe6f16669e33ce458f7bd6d7c4101" kindref="member">MR_ImproveSamplingSettings_GetMutable_ptColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157" refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" kindref="member">MR_ImproveSamplingSettings_Get_smColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157" refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRImproveSampling_8h_1ad9a491aa5e1295379d228bd743113d2b" kindref="member">MR_ImproveSamplingSettings_Get_smColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight></codeline>
-<codeline lineno="164" refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" kindref="member">MR_ImproveSamplingSettings_Set_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="164" refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1af807d5aebbd7f4f7a998aa2a95c455d9" kindref="member">MR_ImproveSamplingSettings_Set_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="165"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" kindref="member">MR_ImproveSamplingSettings_GetMutable_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171" refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>**<ref refid="MRImproveSampling_8h_1a51d924c13bf37450563f6ae0885b6242" kindref="member">MR_ImproveSamplingSettings_GetMutable_smColors</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" kindref="member">MR_ImproveSamplingSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178" refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1aa7a8dcf805380ac8065aade6034df09b" kindref="member">MR_ImproveSamplingSettings_Get_progress</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="185" refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" kindref="member">MR_ImproveSamplingSettings_Set_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="185" refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a687b3422dd91b1859b03f5f4815b907f" kindref="member">MR_ImproveSamplingSettings_Set_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" kindref="member">MR_ImproveSamplingSettings_GetMutable_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192" refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRImproveSampling_8h_1a7e5f739447ec0b93ed232f11845f4fd2" kindref="member">MR_ImproveSamplingSettings_GetMutable_progress</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196" refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" kindref="member">MR_ImproveSamplingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="196" refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a33c4a5d62553d26118d1755ef7c2913c" kindref="member">MR_ImproveSamplingSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" kindref="member">MR_ImproveSamplingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="201" refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a2eac9a400ba6ce64ae87fe85740dbe05" kindref="member">MR_ImproveSamplingSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" kindref="member">MR_ImproveSamplingSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numIters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minPointsInSample,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*pt2sm,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloudOfSamples,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*ptsInSm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*ptColors,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*smColors,<sp/>MR_PassBy<sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
+<codeline lineno="212" refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a066e6f292b375452a50919869b5120ba" kindref="member">MR_ImproveSamplingSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numIters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minPointsInSample,<sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*pt2sm,<sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloudOfSamples,<sp/><ref refid="MRImproveSampling_8h_1a38b2b530cc7e8ec49d6441a0d1d309ce" kindref="member">MR_Vector_int_MR_VertId</ref><sp/>*ptsInSm,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*ptColors,<sp/><ref refid="MRCtm_8h_1a20dc7d636220f61a60c7ae92b8caa768" kindref="member">MR_VertColors</ref><sp/>*smColors,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progress_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progress);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="216" refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" kindref="member">MR_ImproveSamplingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="216" refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a1b3612fe164aa3b4af2821f319d7d168" kindref="member">MR_ImproveSamplingSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="220" refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" kindref="member">MR_ImproveSamplingSettings_OffsetMutablePtr</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="220" refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1ac6bb9de608102ba8fde204e4302392f7" kindref="member">MR_ImproveSamplingSettings_OffsetMutablePtr</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="221"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" kindref="member">MR_ImproveSamplingSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="225" refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1aae698efc066002c03a5444e9c6d36dd3" kindref="member">MR_ImproveSamplingSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="228" refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a1858356f3ef4d8fc94de81cf6b361a0d" kindref="member">MR_ImproveSamplingSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231" refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" kindref="member">MR_ImproveSamplingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231" refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1a4ad89dc14697d9bfe28229f52f7f5bde" kindref="member">MR_ImproveSamplingSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238" refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" kindref="member">MR_ImproveSamplingSettings_AssignFromAnother</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="238" refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*<ref refid="MRImproveSampling_8h_1a106b8e3df0f486f557e7f58f9d656715" kindref="member">MR_ImproveSamplingSettings_AssignFromAnother</ref>(<ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="239"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" kindref="member">MR_improveSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="247" refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1acfc77a8ae9440a54e0cf3ae4ee77077d" kindref="member">MR_improveSampling</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1aa319738c95f0bbde075b7ef777cf2665" kindref="member">MR_PointCloud</ref><sp/>*cloud,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*samples,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRImproveSampling_8h_1ade64fb100891a04fc6c88eb7da26ca9e" kindref="member">MR_ImproveSamplingSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
 <codeline lineno="249"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="250"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRImproveSampling.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRImproveSampling.h"/>
   </compounddef>
 </doxygen>

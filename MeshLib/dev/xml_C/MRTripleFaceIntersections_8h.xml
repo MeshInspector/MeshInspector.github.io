@@ -3,7 +3,7 @@
   <compounddef id="MRTripleFaceIntersections_8h" kind="file" language="C++">
     <compoundname>MRTripleFaceIntersections.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="2">
@@ -13,9 +13,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -25,20 +25,31 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
       </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -50,10 +61,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::FaceFaceFace&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="13" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="13" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" prot="public" static="no">
         <type>struct <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref></type>
@@ -63,16 +75,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>a triple of faces Generated from class <computeroutput>MR::FaceFaceFace</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>a triple of faces Generated from class <computeroutput>MR::FaceFaceFace</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="20" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="20" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" bodystart="20" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a4839e8fedbd5eeaa3cd836ab35eda681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_FaceId * MR_FaceFaceFace_Get_aFace</definition>
         <argsstring>(const MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_Get_aFace</name>
@@ -87,10 +99,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="26" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="26" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="26" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="26" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a446d74c4b129294cc2c39435fbd9ccd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFaceFace_Set_aFace</definition>
         <argsstring>(MR_FaceFaceFace *_this, MR_FaceId value)</argsstring>
         <name>MR_FaceFaceFace_Set_aFace</name>
@@ -109,10 +121,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="32" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="32" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="32" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a798362089d0501c6329d6b9722930fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API MR_FaceId * MR_FaceFaceFace_GetMutable_aFace</definition>
         <argsstring>(MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_GetMutable_aFace</name>
@@ -127,10 +139,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="38" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="38" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="38" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="38" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a9106a7bf787ea59867d0b118bed5aac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_FaceId * MR_FaceFaceFace_Get_bFace</definition>
         <argsstring>(const MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_Get_bFace</name>
@@ -145,10 +157,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="44" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="44" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="44" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="44" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a294097b36abd848d38acec8f67751783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFaceFace_Set_bFace</definition>
         <argsstring>(MR_FaceFaceFace *_this, MR_FaceId value)</argsstring>
         <name>MR_FaceFaceFace_Set_bFace</name>
@@ -167,10 +179,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="50" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="50" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a5a6691270f528928ef37144a99745626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API MR_FaceId * MR_FaceFaceFace_GetMutable_bFace</definition>
         <argsstring>(MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_GetMutable_bFace</name>
@@ -185,10 +197,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="56" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="56" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="56" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="56" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1ae1731ae1bf2680e66a33544c32e56091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API const MR_FaceId * MR_FaceFaceFace_Get_cFace</definition>
         <argsstring>(const MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_Get_cFace</name>
@@ -203,10 +215,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="62" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="62" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="62" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="62" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a7e5a88eedd9ef3b6fd3441100a36f8ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFaceFace_Set_cFace</definition>
         <argsstring>(MR_FaceFaceFace *_this, MR_FaceId value)</argsstring>
         <name>MR_FaceFaceFace_Set_cFace</name>
@@ -225,10 +237,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="68" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="68" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="68" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a8b8c7208d9e1a5c65912977a7995c9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
         <definition>MRC_API MR_FaceId * MR_FaceFaceFace_GetMutable_cFace</definition>
         <argsstring>(MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_GetMutable_cFace</name>
@@ -243,10 +255,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="74" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="74" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="74" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="74" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1ab701fdf4a6dcc8a901142674dbbfbc04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_FaceFaceFace_DefaultConstruct</name>
@@ -260,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="78" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="78" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="78" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="78" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a026627a71b424c176b4622cc763d4227" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_FaceFaceFace_DefaultConstructArray</name>
@@ -278,10 +290,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="83" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="83" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="83" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="83" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a88495b969429a239c8e204531710ffe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API const MR_FaceFaceFace * MR_FaceFaceFace_OffsetPtr</definition>
         <argsstring>(const MR_FaceFaceFace *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FaceFaceFace_OffsetPtr</name>
@@ -300,10 +312,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="87" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="87" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="87" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="87" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1aa31bf7a51d259e8d37f9b1ffc113763a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_OffsetMutablePtr</definition>
         <argsstring>(MR_FaceFaceFace *ptr, ptrdiff_t i)</argsstring>
         <name>MR_FaceFaceFace_OffsetMutablePtr</name>
@@ -322,10 +334,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="91" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="91" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="91" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="91" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a51806312db211445662f611906cd12f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_ConstructFromAnother</definition>
         <argsstring>(const MR_FaceFaceFace *_other)</argsstring>
         <name>MR_FaceFaceFace_ConstructFromAnother</name>
@@ -340,10 +352,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="97" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="97" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="97" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="97" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a01c0cfaa26a42d8b4ff6a2919408080b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_Construct</definition>
         <argsstring>(MR_FaceId a, MR_FaceId b, MR_FaceId c)</argsstring>
         <name>MR_FaceFaceFace_Construct</name>
@@ -366,10 +378,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="104" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="104" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="104" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="104" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a8b579aa1ea8ed3b38d4244d32d0f664c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFaceFace_Destroy</definition>
         <argsstring>(const MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_Destroy</name>
@@ -384,10 +396,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="107" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="107" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a48e643e4de18fab4ed90550e3c6e10cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_FaceFaceFace_DestroyArray</definition>
         <argsstring>(const MR_FaceFaceFace *_this)</argsstring>
         <name>MR_FaceFaceFace_DestroyArray</name>
@@ -402,10 +414,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="110" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="110" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a7f2191cf88a47a18b81c157cf3c7bbbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_FaceFaceFace * MR_FaceFaceFace_AssignFromAnother</definition>
         <argsstring>(MR_FaceFaceFace *_this, const MR_FaceFaceFace *_other)</argsstring>
         <name>MR_FaceFaceFace_AssignFromAnother</name>
@@ -424,10 +436,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="118" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="118" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="118" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="118" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRTripleFaceIntersections_8h_1a3f5e2c24852ad4a69469fe12e4e058f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRTripleFaceIntersections_8h_1abd79e78e95147ae5cbfc323abad5c758" kindref="member">MR_std_vector_MR_FaceFaceFace</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRTripleFaceIntersections_8h_1abd79e78e95147ae5cbfc323abad5c758" kindref="member">MR_std_vector_MR_FaceFaceFace</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_FaceFaceFace * MR_findTripleFaceIntersections</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_std_vector_std_vector_MR_VarEdgeTri *selfContours)</argsstring>
         <name>MR_findTripleFaceIntersections</name>
@@ -442,11 +454,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>given all self-intersection contours on a mesh, finds all intersecting triangle triples (every two triangles from a triple intersect); please note that not all such triples will have a common point Generated from function <computeroutput>MR::findTripleFaceIntersections</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>selfContours</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_FaceFaceFace_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>given all self-intersection contours on a mesh, finds all intersecting triangle triples (every two triangles from a triple intersect); please note that not all such triples will have a common point Generated from function <computeroutput>MR::findTripleFaceIntersections</computeroutput>. Parameter <computeroutput>topology</computeroutput> can not be null. It is a single object. Parameter <computeroutput>selfContours</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__FaceFaceFace_8h_1a268a0d3894b621c0825b61e9ffe03097" kindref="member">MR_std_vector_MR_FaceFaceFace_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" line="126" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h" declline="126" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" line="126" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h" declline="126" declcolumn="39"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -457,7 +469,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -472,48 +484,48 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20" refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="MRTripleFaceIntersections_8h_1a4839e8fedbd5eeaa3cd836ab35eda681" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a4839e8fedbd5eeaa3cd836ab35eda681" kindref="member">MR_FaceFaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="26" refid="MRTripleFaceIntersections_8h_1a4839e8fedbd5eeaa3cd836ab35eda681" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a4839e8fedbd5eeaa3cd836ab35eda681" kindref="member">MR_FaceFaceFace_Get_aFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRTripleFaceIntersections_8h_1a446d74c4b129294cc2c39435fbd9ccd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a446d74c4b129294cc2c39435fbd9ccd7" kindref="member">MR_FaceFaceFace_Set_aFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="32" refid="MRTripleFaceIntersections_8h_1a446d74c4b129294cc2c39435fbd9ccd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a446d74c4b129294cc2c39435fbd9ccd7" kindref="member">MR_FaceFaceFace_Set_aFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38" refid="MRTripleFaceIntersections_8h_1a798362089d0501c6329d6b9722930fa5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a798362089d0501c6329d6b9722930fa5" kindref="member">MR_FaceFaceFace_GetMutable_aFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="38" refid="MRTripleFaceIntersections_8h_1a798362089d0501c6329d6b9722930fa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a798362089d0501c6329d6b9722930fa5" kindref="member">MR_FaceFaceFace_GetMutable_aFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRTripleFaceIntersections_8h_1a9106a7bf787ea59867d0b118bed5aac4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a9106a7bf787ea59867d0b118bed5aac4" kindref="member">MR_FaceFaceFace_Get_bFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRTripleFaceIntersections_8h_1a9106a7bf787ea59867d0b118bed5aac4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a9106a7bf787ea59867d0b118bed5aac4" kindref="member">MR_FaceFaceFace_Get_bFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRTripleFaceIntersections_8h_1a294097b36abd848d38acec8f67751783" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a294097b36abd848d38acec8f67751783" kindref="member">MR_FaceFaceFace_Set_bFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="50" refid="MRTripleFaceIntersections_8h_1a294097b36abd848d38acec8f67751783" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a294097b36abd848d38acec8f67751783" kindref="member">MR_FaceFaceFace_Set_bFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRTripleFaceIntersections_8h_1a5a6691270f528928ef37144a99745626" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a5a6691270f528928ef37144a99745626" kindref="member">MR_FaceFaceFace_GetMutable_bFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRTripleFaceIntersections_8h_1a5a6691270f528928ef37144a99745626" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a5a6691270f528928ef37144a99745626" kindref="member">MR_FaceFaceFace_GetMutable_bFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRTripleFaceIntersections_8h_1ae1731ae1bf2680e66a33544c32e56091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1ae1731ae1bf2680e66a33544c32e56091" kindref="member">MR_FaceFaceFace_Get_cFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="62" refid="MRTripleFaceIntersections_8h_1ae1731ae1bf2680e66a33544c32e56091" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1ae1731ae1bf2680e66a33544c32e56091" kindref="member">MR_FaceFaceFace_Get_cFace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRTripleFaceIntersections_8h_1a7e5a88eedd9ef3b6fd3441100a36f8ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a7e5a88eedd9ef3b6fd3441100a36f8ed" kindref="member">MR_FaceFaceFace_Set_cFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="68" refid="MRTripleFaceIntersections_8h_1a7e5a88eedd9ef3b6fd3441100a36f8ed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a7e5a88eedd9ef3b6fd3441100a36f8ed" kindref="member">MR_FaceFaceFace_Set_cFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRTripleFaceIntersections_8h_1a8b8c7208d9e1a5c65912977a7995c9c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a8b8c7208d9e1a5c65912977a7995c9c3" kindref="member">MR_FaceFaceFace_GetMutable_cFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRTripleFaceIntersections_8h_1a8b8c7208d9e1a5c65912977a7995c9c3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a8b8c7208d9e1a5c65912977a7995c9c3" kindref="member">MR_FaceFaceFace_GetMutable_cFace</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRTripleFaceIntersections_8h_1ab701fdf4a6dcc8a901142674dbbfbc04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1ab701fdf4a6dcc8a901142674dbbfbc04" kindref="member">MR_FaceFaceFace_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78" refid="MRTripleFaceIntersections_8h_1ab701fdf4a6dcc8a901142674dbbfbc04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1ab701fdf4a6dcc8a901142674dbbfbc04" kindref="member">MR_FaceFaceFace_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRTripleFaceIntersections_8h_1a026627a71b424c176b4622cc763d4227" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a026627a71b424c176b4622cc763d4227" kindref="member">MR_FaceFaceFace_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="83" refid="MRTripleFaceIntersections_8h_1a026627a71b424c176b4622cc763d4227" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a026627a71b424c176b4622cc763d4227" kindref="member">MR_FaceFaceFace_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRTripleFaceIntersections_8h_1a88495b969429a239c8e204531710ffe5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a88495b969429a239c8e204531710ffe5" kindref="member">MR_FaceFaceFace_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="87" refid="MRTripleFaceIntersections_8h_1a88495b969429a239c8e204531710ffe5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a88495b969429a239c8e204531710ffe5" kindref="member">MR_FaceFaceFace_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="91" refid="MRTripleFaceIntersections_8h_1aa31bf7a51d259e8d37f9b1ffc113763a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1aa31bf7a51d259e8d37f9b1ffc113763a" kindref="member">MR_FaceFaceFace_OffsetMutablePtr</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="91" refid="MRTripleFaceIntersections_8h_1aa31bf7a51d259e8d37f9b1ffc113763a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1aa31bf7a51d259e8d37f9b1ffc113763a" kindref="member">MR_FaceFaceFace_OffsetMutablePtr</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97" refid="MRTripleFaceIntersections_8h_1a51806312db211445662f611906cd12f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a51806312db211445662f611906cd12f0" kindref="member">MR_FaceFaceFace_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="97" refid="MRTripleFaceIntersections_8h_1a51806312db211445662f611906cd12f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a51806312db211445662f611906cd12f0" kindref="member">MR_FaceFaceFace_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="98"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRTripleFaceIntersections_8h_1a01c0cfaa26a42d8b4ff6a2919408080b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a01c0cfaa26a42d8b4ff6a2919408080b" kindref="member">MR_FaceFaceFace_Construct</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>b,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>c);</highlight></codeline>
+<codeline lineno="104" refid="MRTripleFaceIntersections_8h_1a01c0cfaa26a42d8b4ff6a2919408080b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a01c0cfaa26a42d8b4ff6a2919408080b" kindref="member">MR_FaceFaceFace_Construct</ref>(<ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>b,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>c);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="107" refid="MRTripleFaceIntersections_8h_1a8b579aa1ea8ed3b38d4244d32d0f664c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a8b579aa1ea8ed3b38d4244d32d0f664c" kindref="member">MR_FaceFaceFace_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107" refid="MRTripleFaceIntersections_8h_1a8b579aa1ea8ed3b38d4244d32d0f664c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a8b579aa1ea8ed3b38d4244d32d0f664c" kindref="member">MR_FaceFaceFace_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="110" refid="MRTripleFaceIntersections_8h_1a48e643e4de18fab4ed90550e3c6e10cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a48e643e4de18fab4ed90550e3c6e10cf" kindref="member">MR_FaceFaceFace_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110" refid="MRTripleFaceIntersections_8h_1a48e643e4de18fab4ed90550e3c6e10cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a48e643e4de18fab4ed90550e3c6e10cf" kindref="member">MR_FaceFaceFace_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRTripleFaceIntersections_8h_1a7f2191cf88a47a18b81c157cf3c7bbbc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a7f2191cf88a47a18b81c157cf3c7bbbc" kindref="member">MR_FaceFaceFace_AssignFromAnother</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="118" refid="MRTripleFaceIntersections_8h_1a7f2191cf88a47a18b81c157cf3c7bbbc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a7f2191cf88a47a18b81c157cf3c7bbbc" kindref="member">MR_FaceFaceFace_AssignFromAnother</ref>(<ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTripleFaceIntersections_8h_1a740ce925862132ce11f530430d5dda94" kindref="member">MR_FaceFaceFace</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="126" refid="MRTripleFaceIntersections_8h_1a3f5e2c24852ad4a69469fe12e4e058f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTripleFaceIntersections_8h_1abd79e78e95147ae5cbfc323abad5c758" kindref="member">MR_std_vector_MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a3f5e2c24852ad4a69469fe12e4e058f6" kindref="member">MR_findTripleFaceIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref><sp/>*selfContours);</highlight></codeline>
+<codeline lineno="126" refid="MRTripleFaceIntersections_8h_1a3f5e2c24852ad4a69469fe12e4e058f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRTripleFaceIntersections_8h_1abd79e78e95147ae5cbfc323abad5c758" kindref="member">MR_std_vector_MR_FaceFaceFace</ref><sp/>*<ref refid="MRTripleFaceIntersections_8h_1a3f5e2c24852ad4a69469fe12e4e058f6" kindref="member">MR_findTripleFaceIntersections</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionContour_8h_1ab48ef760c2671fd11ca83216d1b17ff8" kindref="member">MR_std_vector_std_vector_MR_VarEdgeTri</ref><sp/>*selfContours);</highlight></codeline>
 <codeline lineno="127"><highlight class="normal"></highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="129"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTripleFaceIntersections.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRTripleFaceIntersections.h"/>
   </compounddef>
 </doxygen>

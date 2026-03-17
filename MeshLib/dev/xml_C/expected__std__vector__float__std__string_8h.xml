@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="expected__std__vector__float__std__string_8h" kind="file" language="C++">
+    <compoundname>expected_std_vector_float_std_string.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>expected_std_vector_float_std_string.h</label>
+        <link refid="expected__std__vector__float__std__string_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1ad592d2f005be0189249fde1ec7fa2693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_float_std_string * MR_expected_std_vector_float_std_string_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__float__std__string_8h_1aca4f5b01f0bcfa2cf8e2dcb9cc329f48" kindref="member">MR_expected_std_vector_float_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="23" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="23" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a4aa9c176fb68aef23a94be99bd27d45f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_float_std_string * MR_expected_std_vector_float_std_string_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="expected__std__vector__float__std__string_8h_1a1ead7b575951064b69cd0976e0506582" kindref="member">MR_expected_std_vector_float_std_string_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="expected__std__vector__float__std__string_8h_1a3c4dafe74d3c8e4be290c177a6325995" kindref="member">MR_expected_std_vector_float_std_string_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="expected__std__vector__float__std__string_8h_1a4aa04c4daffc16ff926cefa1420e84e5" kindref="member">MR_expected_std_vector_float_std_string_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="28" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="28" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a44b1e9148fd4af1c190fd8598d4a7e5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_float_std_string * MR_expected_std_vector_float_std_string_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_expected_std_vector_float_std_string *other)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__std__vector__float__std__string_8h_1aca4f5b01f0bcfa2cf8e2dcb9cc329f48" kindref="member">MR_expected_std_vector_float_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="34" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="34" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1af363cabd1b0d29a2bcb00a96c66d0e21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_float_std_string_AssignFromAnother</definition>
+        <argsstring>(MR_expected_std_vector_float_std_string *_this, MR_PassBy other_pass_by, MR_expected_std_vector_float_std_string *other)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="40" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="40" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1aca4f5b01f0bcfa2cf8e2dcb9cc329f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_float_std_string_Destroy</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_Destroy</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="43" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="43" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a1ead7b575951064b69cd0976e0506582" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_expected_std_vector_float_std_string_DestroyArray</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a4aa04c4daffc16ff926cefa1420e84e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+        <definition>MRC_API const MR_expected_std_vector_float_std_string * MR_expected_std_vector_float_std_string_OffsetPtr</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="50" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="50" declcolumn="55"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a3c4dafe74d3c8e4be290c177a6325995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_std_vector_float_std_string * MR_expected_std_vector_float_std_string_OffsetMutablePtr</definition>
+        <argsstring>(MR_expected_std_vector_float_std_string *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="54" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="54" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1af91d8c2b389e444955b7ce36d418124e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_expected_std_vector_float_std_string_success</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_success</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance represents success, or false if it represents an error. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a4b5e5de36e34956dc34938a4b91df95d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
+        <definition>MRC_API const MR_std_vector_float * MR_expected_std_vector_float_std_string_value</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_value</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>std::vector&lt;float&gt;</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="63" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="63" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a34cfd9d440d4d7072efaa6c31fb57110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API const MR_std_string * MR_expected_std_vector_float_std_string_error</definition>
+        <argsstring>(const MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_error</name>
+        <param>
+          <type>const <ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>std::string</computeroutput>. Otherwise null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="68" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="68" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a9f9a69c94a50a527b3da6a12ed449f35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
+        <definition>MRC_API MR_std_vector_float * MR_expected_std_vector_float_std_string_value_mut</definition>
+        <argsstring>(MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_value_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents success, returns the stored <computeroutput>std::vector&lt;float&gt;</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="73" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="73" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="expected__std__vector__float__std__string_8h_1a49ac0cd2fac8418c2ab4fdf2a9cd6492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_expected_std_vector_float_std_string_error_mut</definition>
+        <argsstring>(MR_expected_std_vector_float_std_string *_this)</argsstring>
+        <name>MR_expected_std_vector_float_std_string_error_mut</name>
+        <param>
+          <type><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this instance represents an error, returns the stored <computeroutput>std::string</computeroutput>. Otherwise null. This version returns a mutable pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" line="78" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h" declline="78" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="expected__std__vector__float__std__string_8h_1ad592d2f005be0189249fde1ec7fa2693" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1ad592d2f005be0189249fde1ec7fa2693" kindref="member">MR_expected_std_vector_float_std_string_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="expected__std__vector__float__std__string_8h_1a4aa9c176fb68aef23a94be99bd27d45f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a4aa9c176fb68aef23a94be99bd27d45f" kindref="member">MR_expected_std_vector_float_std_string_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="expected__std__vector__float__std__string_8h_1a44b1e9148fd4af1c190fd8598d4a7e5e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a44b1e9148fd4af1c190fd8598d4a7e5e" kindref="member">MR_expected_std_vector_float_std_string_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="expected__std__vector__float__std__string_8h_1af363cabd1b0d29a2bcb00a96c66d0e21" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__float__std__string_8h_1af363cabd1b0d29a2bcb00a96c66d0e21" kindref="member">MR_expected_std_vector_float_std_string_AssignFromAnother</ref>(<ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="expected__std__vector__float__std__string_8h_1aca4f5b01f0bcfa2cf8e2dcb9cc329f48" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__float__std__string_8h_1aca4f5b01f0bcfa2cf8e2dcb9cc329f48" kindref="member">MR_expected_std_vector_float_std_string_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="expected__std__vector__float__std__string_8h_1a1ead7b575951064b69cd0976e0506582" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__float__std__string_8h_1a1ead7b575951064b69cd0976e0506582" kindref="member">MR_expected_std_vector_float_std_string_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="expected__std__vector__float__std__string_8h_1a4aa04c4daffc16ff926cefa1420e84e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a4aa04c4daffc16ff926cefa1420e84e5" kindref="member">MR_expected_std_vector_float_std_string_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="expected__std__vector__float__std__string_8h_1a3c4dafe74d3c8e4be290c177a6325995" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a3c4dafe74d3c8e4be290c177a6325995" kindref="member">MR_expected_std_vector_float_std_string_OffsetMutablePtr</ref>(<ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="expected__std__vector__float__std__string_8h_1af91d8c2b389e444955b7ce36d418124e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="expected__std__vector__float__std__string_8h_1af91d8c2b389e444955b7ce36d418124e" kindref="member">MR_expected_std_vector_float_std_string_success</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="expected__std__vector__float__std__string_8h_1a4b5e5de36e34956dc34938a4b91df95d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a4b5e5de36e34956dc34938a4b91df95d" kindref="member">MR_expected_std_vector_float_std_string_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="expected__std__vector__float__std__string_8h_1a34cfd9d440d4d7072efaa6c31fb57110" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a34cfd9d440d4d7072efaa6c31fb57110" kindref="member">MR_expected_std_vector_float_std_string_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="expected__std__vector__float__std__string_8h_1a9f9a69c94a50a527b3da6a12ed449f35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a9f9a69c94a50a527b3da6a12ed449f35" kindref="member">MR_expected_std_vector_float_std_string_value_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="expected__std__vector__float__std__string_8h_1a49ac0cd2fac8418c2ab4fdf2a9cd6492" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="expected__std__vector__float__std__string_8h_1a49ac0cd2fac8418c2ab4fdf2a9cd6492" kindref="member">MR_expected_std_vector_float_std_string_error_mut</ref>(<ref refid="MRAlignContoursToMesh_8h_1a7c38e65b39b36a9f0520a4a3337ee5fc" kindref="member">MR_expected_std_vector_float_std_string</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/expected_std_vector_float_std_string.h"/>
+  </compounddef>
+</doxygen>

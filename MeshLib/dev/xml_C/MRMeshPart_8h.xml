@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshPart_8h" kind="file" language="C++">
     <compoundname>MRMeshPart.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -22,7 +23,7 @@
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshPart_8h_1a97165ade8c6cbd300d588512e70c0ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API const MR_Mesh * MR_MeshPart_Get_mesh</definition>
         <argsstring>(const MR_MeshPart *_this)</argsstring>
         <name>MR_MeshPart_Get_mesh</name>
@@ -37,10 +38,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="30" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="30" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1aa022ab2e06a7f0cb70c417e2efe1fe5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
         <definition>MRC_API const MR_FaceBitSet *const  * MR_MeshPart_Get_region</definition>
         <argsstring>(const MR_MeshPart *_this)</argsstring>
         <name>MR_MeshPart_Get_region</name>
@@ -55,10 +56,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="37" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="37" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="37" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="37" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1aeb37d8629b96c89f5b7c8053507c3bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshPart_Set_region</definition>
         <argsstring>(MR_MeshPart *_this, const MR_FaceBitSet *value)</argsstring>
         <name>MR_MeshPart_Set_region</name>
@@ -77,10 +78,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="44" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a454a1d5f56480906224c896043679eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
         <definition>MRC_API const MR_FaceBitSet ** MR_MeshPart_GetMutable_region</definition>
         <argsstring>(MR_MeshPart *_this)</argsstring>
         <name>MR_MeshPart_GetMutable_region</name>
@@ -95,10 +96,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="51" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="51" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="51" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="51" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1aa0018b1bab29339eaf0494734778ccff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
         <definition>MRC_API MR_MeshPart * MR_MeshPart_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshPart *other)</argsstring>
         <name>MR_MeshPart_ConstructFromAnother</name>
@@ -113,10 +114,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="58" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="58" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="58" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="58" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a925afbb18aed3f73ec729d04081fb49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
         <definition>MRC_API const MR_MeshPart * MR_MeshPart_OffsetPtr</definition>
         <argsstring>(const MR_MeshPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshPart_OffsetPtr</name>
@@ -135,10 +136,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="62" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="62" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="62" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="62" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a134d2e0a64567d194922b43a5f37b1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
         <definition>MRC_API MR_MeshPart * MR_MeshPart_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshPart_OffsetMutablePtr</name>
@@ -157,10 +158,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="66" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="66" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1aeeedbba2bfc476ada96fa53559390476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
         <definition>MRC_API MR_MeshPart * MR_MeshPart_Construct</definition>
         <argsstring>(const MR_Mesh *m, const MR_FaceBitSet *bs)</argsstring>
         <name>MR_MeshPart_Construct</name>
@@ -179,10 +180,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="74" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="74" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="74" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1aa166b642217494c14ed7f285e1b0fe56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshPart_Destroy</definition>
         <argsstring>(const MR_MeshPart *_this)</argsstring>
         <name>MR_MeshPart_Destroy</name>
@@ -197,10 +198,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="77" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="77" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="77" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a5177f6044da27d1bf47248eba52934d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshPart_DestroyArray</definition>
         <argsstring>(const MR_MeshPart *_this)</argsstring>
         <name>MR_MeshPart_DestroyArray</name>
@@ -215,10 +216,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="80" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="80" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="80" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a228ddeb0e82c00eccc5d7cd63e992309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
         <definition>MRC_API MR_MeshPart * MR_MeshPart_AssignFromAnother</definition>
         <argsstring>(MR_MeshPart *_this, const MR_MeshPart *other)</argsstring>
         <name>MR_MeshPart_AssignFromAnother</name>
@@ -237,10 +238,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="89" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="89" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a85781fed92a95ef125c8c9531c64abf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
         <definition>MRC_API const MR_Mesh * MR_MeshVertPart_Get_mesh</definition>
         <argsstring>(const MR_MeshVertPart *_this)</argsstring>
         <name>MR_MeshVertPart_Get_mesh</name>
@@ -255,10 +256,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="95" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="95" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="95" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="95" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a2aa07d3da75c3c5bff365e2b04c00a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API const MR_VertBitSet *const  * MR_MeshVertPart_Get_region</definition>
         <argsstring>(const MR_MeshVertPart *_this)</argsstring>
         <name>MR_MeshVertPart_Get_region</name>
@@ -273,10 +274,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="102" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="102" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a740e63ed770e17ca25ed0f217d07511d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVertPart_Set_region</definition>
         <argsstring>(MR_MeshVertPart *_this, const MR_VertBitSet *value)</argsstring>
         <name>MR_MeshVertPart_Set_region</name>
@@ -295,10 +296,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="109" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="109" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="109" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1ab0b089bde23042ffd9bb952c61aa9e3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API const MR_VertBitSet ** MR_MeshVertPart_GetMutable_region</definition>
         <argsstring>(MR_MeshVertPart *_this)</argsstring>
         <name>MR_MeshVertPart_GetMutable_region</name>
@@ -313,10 +314,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="116" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="116" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="116" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="116" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a799ca31a291f96039aa38b83bb90ca9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
         <definition>MRC_API MR_MeshVertPart * MR_MeshVertPart_ConstructFromAnother</definition>
         <argsstring>(const MR_MeshVertPart *other)</argsstring>
         <name>MR_MeshVertPart_ConstructFromAnother</name>
@@ -331,10 +332,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="123" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="123" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="123" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="123" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a740c3a18a1d9a5bbd135bd5a6085c37e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
         <definition>MRC_API const MR_MeshVertPart * MR_MeshVertPart_OffsetPtr</definition>
         <argsstring>(const MR_MeshVertPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshVertPart_OffsetPtr</name>
@@ -353,10 +354,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="127" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="127" declcolumn="31"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="127" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="127" declcolumn="31"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1ac96b4f0366e8a09475b21955c8d24a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
         <definition>MRC_API MR_MeshVertPart * MR_MeshVertPart_OffsetMutablePtr</definition>
         <argsstring>(MR_MeshVertPart *ptr, ptrdiff_t i)</argsstring>
         <name>MR_MeshVertPart_OffsetMutablePtr</name>
@@ -375,10 +376,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="131" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="131" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="131" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="131" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a8010c5aa592ebc81170f3132ee1de125" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
         <definition>MRC_API MR_MeshVertPart * MR_MeshVertPart_Construct</definition>
         <argsstring>(const MR_Mesh *m, const MR_VertBitSet *bs)</argsstring>
         <name>MR_MeshVertPart_Construct</name>
@@ -397,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="139" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="139" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="139" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="139" declcolumn="25"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a7ed1ad1845486dbac6f804b06f75a9f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVertPart_Destroy</definition>
         <argsstring>(const MR_MeshVertPart *_this)</argsstring>
         <name>MR_MeshVertPart_Destroy</name>
@@ -415,10 +416,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="142" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="142" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a1a174a49304b3493f924d93be4443d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_MeshVertPart_DestroyArray</definition>
         <argsstring>(const MR_MeshVertPart *_this)</argsstring>
         <name>MR_MeshVertPart_DestroyArray</name>
@@ -433,10 +434,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="145" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshPart_8h_1a6fdfeb5364f2f5f0458ff23f1d261e35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref> *</type>
         <definition>MRC_API MR_MeshVertPart * MR_MeshVertPart_AssignFromAnother</definition>
         <argsstring>(MR_MeshVertPart *_this, const MR_MeshVertPart *other)</argsstring>
         <name>MR_MeshVertPart_AssignFromAnother</name>
@@ -455,7 +456,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" line="154" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h" declline="154" declcolumn="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" line="154" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h" declline="154" declcolumn="25"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -465,7 +466,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -482,62 +483,62 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref>;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRMeshPart_8h_1a97165ade8c6cbd300d588512e70c0ebd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshPart_8h_1a97165ade8c6cbd300d588512e70c0ebd" kindref="member">MR_MeshPart_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRMeshPart_8h_1a97165ade8c6cbd300d588512e70c0ebd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshPart_8h_1a97165ade8c6cbd300d588512e70c0ebd" kindref="member">MR_MeshPart_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRMeshPart_8h_1aa022ab2e06a7f0cb70c417e2efe1fe5c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshPart_8h_1aa022ab2e06a7f0cb70c417e2efe1fe5c" kindref="member">MR_MeshPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="37" refid="MRMeshPart_8h_1aa022ab2e06a7f0cb70c417e2efe1fe5c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshPart_8h_1aa022ab2e06a7f0cb70c417e2efe1fe5c" kindref="member">MR_MeshPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRMeshPart_8h_1aeb37d8629b96c89f5b7c8053507c3bf9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1aeb37d8629b96c89f5b7c8053507c3bf9" kindref="member">MR_MeshPart_Set_region</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="44" refid="MRMeshPart_8h_1aeb37d8629b96c89f5b7c8053507c3bf9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1aeb37d8629b96c89f5b7c8053507c3bf9" kindref="member">MR_MeshPart_Set_region</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="51" refid="MRMeshPart_8h_1a454a1d5f56480906224c896043679eb3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshPart_8h_1a454a1d5f56480906224c896043679eb3" kindref="member">MR_MeshPart_GetMutable_region</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51" refid="MRMeshPart_8h_1a454a1d5f56480906224c896043679eb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshPart_8h_1a454a1d5f56480906224c896043679eb3" kindref="member">MR_MeshPart_GetMutable_region</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>this<sp/>assignable.<sp/>A<sp/>better<sp/>idea<sp/>would<sp/>be<sp/>to<sp/>rewrite<sp/>the<sp/>class<sp/>to<sp/>not<sp/>use<sp/>references,<sp/>but<sp/>doing<sp/>this<sp/>instead<sp/>preserves<sp/>API<sp/>compatibility.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="58" refid="MRMeshPart_8h_1aa0018b1bab29339eaf0494734778ccff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1aa0018b1bab29339eaf0494734778ccff" kindref="member">MR_MeshPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="58" refid="MRMeshPart_8h_1aa0018b1bab29339eaf0494734778ccff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1aa0018b1bab29339eaf0494734778ccff" kindref="member">MR_MeshPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRMeshPart_8h_1a925afbb18aed3f73ec729d04081fb49d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a925afbb18aed3f73ec729d04081fb49d" kindref="member">MR_MeshPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62" refid="MRMeshPart_8h_1a925afbb18aed3f73ec729d04081fb49d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a925afbb18aed3f73ec729d04081fb49d" kindref="member">MR_MeshPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="66" refid="MRMeshPart_8h_1a134d2e0a64567d194922b43a5f37b1e0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a134d2e0a64567d194922b43a5f37b1e0" kindref="member">MR_MeshPart_OffsetMutablePtr</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="66" refid="MRMeshPart_8h_1a134d2e0a64567d194922b43a5f37b1e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a134d2e0a64567d194922b43a5f37b1e0" kindref="member">MR_MeshPart_OffsetMutablePtr</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshPart_8h_1aeeedbba2bfc476ada96fa53559390476" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1aeeedbba2bfc476ada96fa53559390476" kindref="member">MR_MeshPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*bs);</highlight></codeline>
+<codeline lineno="74" refid="MRMeshPart_8h_1aeeedbba2bfc476ada96fa53559390476" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1aeeedbba2bfc476ada96fa53559390476" kindref="member">MR_MeshPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*bs);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77" refid="MRMeshPart_8h_1aa166b642217494c14ed7f285e1b0fe56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1aa166b642217494c14ed7f285e1b0fe56" kindref="member">MR_MeshPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="77" refid="MRMeshPart_8h_1aa166b642217494c14ed7f285e1b0fe56" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1aa166b642217494c14ed7f285e1b0fe56" kindref="member">MR_MeshPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRMeshPart_8h_1a5177f6044da27d1bf47248eba52934d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a5177f6044da27d1bf47248eba52934d0" kindref="member">MR_MeshPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80" refid="MRMeshPart_8h_1a5177f6044da27d1bf47248eba52934d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a5177f6044da27d1bf47248eba52934d0" kindref="member">MR_MeshPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRMeshPart_8h_1a228ddeb0e82c00eccc5d7cd63e992309" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a228ddeb0e82c00eccc5d7cd63e992309" kindref="member">MR_MeshPart_AssignFromAnother</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="89" refid="MRMeshPart_8h_1a228ddeb0e82c00eccc5d7cd63e992309" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a228ddeb0e82c00eccc5d7cd63e992309" kindref="member">MR_MeshPart_AssignFromAnother</ref>(<ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRMeshPart_8h_1a85781fed92a95ef125c8c9531c64abf6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshPart_8h_1a85781fed92a95ef125c8c9531c64abf6" kindref="member">MR_MeshVertPart_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MRMeshPart_8h_1a85781fed92a95ef125c8c9531c64abf6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*<ref refid="MRMeshPart_8h_1a85781fed92a95ef125c8c9531c64abf6" kindref="member">MR_MeshVertPart_Get_mesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRMeshPart_8h_1a2aa07d3da75c3c5bff365e2b04c00a68" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshPart_8h_1a2aa07d3da75c3c5bff365e2b04c00a68" kindref="member">MR_MeshVertPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="102" refid="MRMeshPart_8h_1a2aa07d3da75c3c5bff365e2b04c00a68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshPart_8h_1a2aa07d3da75c3c5bff365e2b04c00a68" kindref="member">MR_MeshVertPart_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="109" refid="MRMeshPart_8h_1a740e63ed770e17ca25ed0f217d07511d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a740e63ed770e17ca25ed0f217d07511d" kindref="member">MR_MeshVertPart_Set_region</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="109" refid="MRMeshPart_8h_1a740e63ed770e17ca25ed0f217d07511d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a740e63ed770e17ca25ed0f217d07511d" kindref="member">MR_MeshVertPart_Set_region</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight><highlight class="comment">//<sp/>nullptr<sp/>here<sp/>means<sp/>whole<sp/>mesh</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRMeshPart_8h_1ab0b089bde23042ffd9bb952c61aa9e3a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshPart_8h_1ab0b089bde23042ffd9bb952c61aa9e3a" kindref="member">MR_MeshVertPart_GetMutable_region</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116" refid="MRMeshPart_8h_1ab0b089bde23042ffd9bb952c61aa9e3a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshPart_8h_1ab0b089bde23042ffd9bb952c61aa9e3a" kindref="member">MR_MeshVertPart_GetMutable_region</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Make<sp/>this<sp/>assignable.<sp/>A<sp/>better<sp/>idea<sp/>would<sp/>be<sp/>to<sp/>rewrite<sp/>the<sp/>class<sp/>to<sp/>not<sp/>use<sp/>references,<sp/>but<sp/>doing<sp/>this<sp/>instead<sp/>preserves<sp/>API<sp/>compatibility.</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRMeshPart_8h_1a799ca31a291f96039aa38b83bb90ca9d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a799ca31a291f96039aa38b83bb90ca9d" kindref="member">MR_MeshVertPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="123" refid="MRMeshPart_8h_1a799ca31a291f96039aa38b83bb90ca9d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a799ca31a291f96039aa38b83bb90ca9d" kindref="member">MR_MeshVertPart_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="127" refid="MRMeshPart_8h_1a740c3a18a1d9a5bbd135bd5a6085c37e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a740c3a18a1d9a5bbd135bd5a6085c37e" kindref="member">MR_MeshVertPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="127" refid="MRMeshPart_8h_1a740c3a18a1d9a5bbd135bd5a6085c37e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a740c3a18a1d9a5bbd135bd5a6085c37e" kindref="member">MR_MeshVertPart_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRMeshPart_8h_1ac96b4f0366e8a09475b21955c8d24a4f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1ac96b4f0366e8a09475b21955c8d24a4f" kindref="member">MR_MeshVertPart_OffsetMutablePtr</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="131" refid="MRMeshPart_8h_1ac96b4f0366e8a09475b21955c8d24a4f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1ac96b4f0366e8a09475b21955c8d24a4f" kindref="member">MR_MeshVertPart_OffsetMutablePtr</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRMeshPart_8h_1a8010c5aa592ebc81170f3132ee1de125" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a8010c5aa592ebc81170f3132ee1de125" kindref="member">MR_MeshVertPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*bs);</highlight></codeline>
+<codeline lineno="139" refid="MRMeshPart_8h_1a8010c5aa592ebc81170f3132ee1de125" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a8010c5aa592ebc81170f3132ee1de125" kindref="member">MR_MeshVertPart_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*m,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*bs);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142" refid="MRMeshPart_8h_1a7ed1ad1845486dbac6f804b06f75a9f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a7ed1ad1845486dbac6f804b06f75a9f1" kindref="member">MR_MeshVertPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142" refid="MRMeshPart_8h_1a7ed1ad1845486dbac6f804b06f75a9f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a7ed1ad1845486dbac6f804b06f75a9f1" kindref="member">MR_MeshVertPart_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRMeshPart_8h_1a1a174a49304b3493f924d93be4443d7e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a1a174a49304b3493f924d93be4443d7e" kindref="member">MR_MeshVertPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="145" refid="MRMeshPart_8h_1a1a174a49304b3493f924d93be4443d7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshPart_8h_1a1a174a49304b3493f924d93be4443d7e" kindref="member">MR_MeshVertPart_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="154" refid="MRMeshPart_8h_1a6fdfeb5364f2f5f0458ff23f1d261e35" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a6fdfeb5364f2f5f0458ff23f1d261e35" kindref="member">MR_MeshVertPart_AssignFromAnother</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="154" refid="MRMeshPart_8h_1a6fdfeb5364f2f5f0458ff23f1d261e35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*<ref refid="MRMeshPart_8h_1a6fdfeb5364f2f5f0458ff23f1d261e35" kindref="member">MR_MeshVertPart_AssignFromAnother</ref>(<ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDirMax_8h_1a1278957cdc2df07940e90426e9a58809" kindref="member">MR_MeshVertPart</ref><sp/>*other);</highlight></codeline>
 <codeline lineno="155"><highlight class="normal"></highlight></codeline>
 <codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="157"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshPart.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshPart.h"/>
   </compounddef>
 </doxygen>

@@ -3,7 +3,7 @@
   <compounddef id="MRContour_8h" kind="file" language="C++">
     <compoundname>MRContour.h</compoundname>
     <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRContour.h</label>
@@ -20,22 +20,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -47,10 +58,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::Vector2d&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="10" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="10" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="10" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" prot="public" static="no">
         <type>struct <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref></type>
@@ -60,10 +72,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::Vector2f&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="11" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="11" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" prot="public" static="no">
         <type>struct <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref></type>
@@ -73,10 +86,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;MR::Vector3d&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="12" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="12" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" prot="public" static="no">
         <type>struct <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref></type>
@@ -86,10 +100,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="16" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" prot="public" static="no">
         <type>struct <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref></type>
@@ -99,15 +114,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para>Generated from C++ container <computeroutput>std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="17" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="17" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" bodystart="17" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRContour_8h_1a8780a0ec01d860faae462a69b98b1696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *contour)</argsstring>
         <name>MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</name>
@@ -131,10 +147,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="24" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="24" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="24" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="24" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a8e21fab93a593f7ce26d3febcb0c7fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *contour)</argsstring>
         <name>MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</name>
@@ -158,10 +174,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="30" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="30" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="30" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="30" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1aeafa317753000656a3984c5372691b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
         <definition>MRC_API MR_Vector3f MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *contour)</argsstring>
         <name>MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</name>
@@ -185,10 +201,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="37" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="37" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="37" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="37" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ac724e0880ee930d6135b777d8f488ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
         <definition>MRC_API MR_Vector3d MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *contour)</argsstring>
         <name>MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</name>
@@ -212,10 +228,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="44" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="44" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1adf22f8e0c01ae7431153659eb518058a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_calcLength_MR_Vector2f_float</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *contour)</argsstring>
         <name>MR_calcLength_MR_Vector2f_float</name>
@@ -239,10 +255,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="50" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="50" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="50" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="50" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a4c745739e600bc97f0898cdb43580ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_calcLength_MR_Vector2d_double</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *contour)</argsstring>
         <name>MR_calcLength_MR_Vector2d_double</name>
@@ -266,10 +282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="56" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="56" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="56" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="56" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a1dc15b6d770ba7f8de23c90b226a47e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float</type>
         <definition>MRC_API float MR_calcLength_MR_Vector3f_float</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *contour)</argsstring>
         <name>MR_calcLength_MR_Vector3f_float</name>
@@ -293,10 +309,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="62" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="62" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="62" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="62" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1aaf4fe12924808bf401accfd06976f762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API double</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> double</type>
         <definition>MRC_API double MR_calcLength_MR_Vector3d_double</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *contour)</argsstring>
         <name>MR_calcLength_MR_Vector3d_double</name>
@@ -320,10 +336,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="68" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="68" declcolumn="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="68" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="68" declcolumn="16"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a84e22c8b9bb38e13693602be1e2f72f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2f * MR_convertContourTo2f_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContourTo2f_std_vector_MR_Vector2f</name>
@@ -334,14 +350,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2f_8h_1aeab3bfadb986f1cf0210b5857e6fd125" kindref="member">MR_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="73" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="73" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="73" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="73" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a1aa567137a7c5e7968b54d0ffc18710f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2f * MR_convertContourTo2f_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContourTo2f_std_vector_MR_Vector2d</name>
@@ -352,14 +368,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2f_8h_1aeab3bfadb986f1cf0210b5857e6fd125" kindref="member">MR_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="78" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="78" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="78" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="78" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ae1e727866e4a31b30928af7271dac2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2f * MR_convertContourTo2f_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContourTo2f_std_vector_MR_Vector3f</name>
@@ -370,14 +386,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2f_8h_1aeab3bfadb986f1cf0210b5857e6fd125" kindref="member">MR_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="83" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="83" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="83" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="83" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ab818cafc1b8fef11ea55a479bdca2a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2f * MR_convertContourTo2f_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContourTo2f_std_vector_MR_Vector3d</name>
@@ -388,14 +404,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2f&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2f_8h_1aeab3bfadb986f1cf0210b5857e6fd125" kindref="member">MR_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="88" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="88" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="88" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="88" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a8145ec4bed0298a2808adafe10b33493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f * MR_convertContourTo3f_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContourTo3f_std_vector_MR_Vector2f</name>
@@ -406,14 +422,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3f_8h_1abab6d7c953a1806ebeb1b7e736c18d49" kindref="member">MR_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="93" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="93" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="93" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="93" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a5778e00a3a556624861e6855c3e62f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f * MR_convertContourTo3f_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContourTo3f_std_vector_MR_Vector2d</name>
@@ -424,14 +440,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3f_8h_1abab6d7c953a1806ebeb1b7e736c18d49" kindref="member">MR_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="98" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="98" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="98" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="98" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a477ead64d4e21c3917260c0dc172ebe7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f * MR_convertContourTo3f_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContourTo3f_std_vector_MR_Vector3f</name>
@@ -442,14 +458,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3f_8h_1abab6d7c953a1806ebeb1b7e736c18d49" kindref="member">MR_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="103" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="103" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="103" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="103" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a87b2bcd87bfc86e8d5194b09fbf216b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3f * MR_convertContourTo3f_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContourTo3f_std_vector_MR_Vector3d</name>
@@ -460,14 +476,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3f&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3f_8h_1abab6d7c953a1806ebeb1b7e736c18d49" kindref="member">MR_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="108" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="108" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="108" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="108" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1aa10d0bc71ba2207f2f55e1c318e1dee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2d * MR_convertContourTo2d_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContourTo2d_std_vector_MR_Vector2f</name>
@@ -478,14 +494,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2d_8h_1a11d228098cc92d1fcda361552c9f153b" kindref="member">MR_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="113" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="113" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="113" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="113" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1afc14bc48b9d7dd4af220a9c468ebc7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2d * MR_convertContourTo2d_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContourTo2d_std_vector_MR_Vector2d</name>
@@ -496,14 +512,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2d_8h_1a11d228098cc92d1fcda361552c9f153b" kindref="member">MR_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="118" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="118" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="118" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="118" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a5a20977dcc623ac6777d353b525f79fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2d * MR_convertContourTo2d_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContourTo2d_std_vector_MR_Vector3f</name>
@@ -514,14 +530,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2d_8h_1a11d228098cc92d1fcda361552c9f153b" kindref="member">MR_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="123" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="123" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="123" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="123" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a9f25da57fb28cc5c790dc697ae20a375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector2d * MR_convertContourTo2d_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContourTo2d_std_vector_MR_Vector3d</name>
@@ -532,14 +548,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo2d&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector2d_8h_1a11d228098cc92d1fcda361552c9f153b" kindref="member">MR_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="128" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="128" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="128" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="128" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a837eb9fce0b9ea816c00c83978c8b40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3d * MR_convertContourTo3d_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContourTo3d_std_vector_MR_Vector2f</name>
@@ -550,14 +566,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector2f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3d_8h_1a51557ca2a2436a6c26cce589d6792444" kindref="member">MR_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="133" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="133" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="133" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="133" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a213b78791855f2fee4b8b81f46833bf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3d * MR_convertContourTo3d_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContourTo3d_std_vector_MR_Vector2d</name>
@@ -568,14 +584,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector2d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3d_8h_1a51557ca2a2436a6c26cce589d6792444" kindref="member">MR_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="138" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="138" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="138" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a34dd89b82403217a0743ce43283afe77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3d * MR_convertContourTo3d_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContourTo3d_std_vector_MR_Vector3f</name>
@@ -586,14 +602,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector3f&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3d_8h_1a51557ca2a2436a6c26cce589d6792444" kindref="member">MR_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="143" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="143" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="143" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ab4f2a13cbcf1da9a9e0ae11d79091028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_MR_Vector3d * MR_convertContourTo3d_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContourTo3d_std_vector_MR_Vector3d</name>
@@ -604,14 +620,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContourTo3d&lt;std::vector&lt;MR::Vector3d&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__Vector3d_8h_1a51557ca2a2436a6c26cce589d6792444" kindref="member">MR_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="148" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="148" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="148" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="148" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1aa95e3e23cfbf3867cd27772866d876f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</name>
@@ -622,14 +638,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2f_8h_1a163951b7acd39b66fcea579eb89c2c6a" kindref="member">MR_std_vector_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="153" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="153" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="153" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="153" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ae0567bd1878b61399a5194758ad80730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</name>
@@ -640,14 +656,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2f_8h_1a163951b7acd39b66fcea579eb89c2c6a" kindref="member">MR_std_vector_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="158" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="158" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="158" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="158" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a4dec4402ac3423415a48c20f93773329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</name>
@@ -658,14 +674,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2f_8h_1a163951b7acd39b66fcea579eb89c2c6a" kindref="member">MR_std_vector_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="163" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="163" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="163" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="163" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1aee446244f4f001325d55241197ab0e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2f * MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</name>
@@ -676,14 +692,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2f&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2f_8h_1a163951b7acd39b66fcea579eb89c2c6a" kindref="member">MR_std_vector_std_vector_MR_Vector2f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="168" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="168" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="168" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="168" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a9230b0b900dcca27b6f135223efdf2a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3f * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</name>
@@ -694,14 +710,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3f_8h_1a08f11bac5424cae534d0a451b6f8568a" kindref="member">MR_std_vector_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="173" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="173" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="173" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="173" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a56aeb003692e32ce14a37ece02b427c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3f * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</name>
@@ -712,14 +728,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3f_8h_1a08f11bac5424cae534d0a451b6f8568a" kindref="member">MR_std_vector_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="178" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="178" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="178" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="178" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a421acf46d54d10c4a5fd56139286840f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3f * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</name>
@@ -730,14 +746,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3f_8h_1a08f11bac5424cae534d0a451b6f8568a" kindref="member">MR_std_vector_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="183" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="183" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="183" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="183" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a04ce595f348969d882282fda6631bb33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3f * MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</name>
@@ -748,14 +764,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3f_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3f&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3f_8h_1a08f11bac5424cae534d0a451b6f8568a" kindref="member">MR_std_vector_std_vector_MR_Vector3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="188" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="188" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="188" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="188" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a8aae2fe2257076be097fa7c40098f769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2d * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</name>
@@ -766,14 +782,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2d_8h_1affefded3025e08b6c6788173108d6bc2" kindref="member">MR_std_vector_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="193" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="193" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="193" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="193" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a982ce4003fbda8de1762c6ba5adb9eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2d * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</name>
@@ -784,14 +800,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2d_8h_1affefded3025e08b6c6788173108d6bc2" kindref="member">MR_std_vector_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="198" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="198" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="198" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="198" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a634edbc720bbe0ce929505de0e8949d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2d * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</name>
@@ -802,14 +818,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2d_8h_1affefded3025e08b6c6788173108d6bc2" kindref="member">MR_std_vector_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="203" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="203" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="203" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="203" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a254d57fce9801f1cec4ceeda4db1dc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector2d * MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</name>
@@ -820,14 +836,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector2d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo2d&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector2d_8h_1affefded3025e08b6c6788173108d6bc2" kindref="member">MR_std_vector_std_vector_MR_Vector2d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="208" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="208" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="208" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="208" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a78ded3bd32cac36dd3082868536eba8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3d * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2f *from)</argsstring>
         <name>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</name>
@@ -838,14 +854,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector2f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3d_8h_1a27eeb83312e1ca81c5182912f2e4852d" kindref="member">MR_std_vector_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="213" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="213" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="213" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="213" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ac6d92981461f22b26bf74ab71d95410d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3d * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector2d *from)</argsstring>
         <name>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</name>
@@ -856,14 +872,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector2d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3d_8h_1a27eeb83312e1ca81c5182912f2e4852d" kindref="member">MR_std_vector_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="218" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="218" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="218" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="218" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1a45d08517bc5a458071fb1ebcf4f516ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3d * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3f *from)</argsstring>
         <name>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</name>
@@ -874,14 +890,14 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector3f&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3d_8h_1a27eeb83312e1ca81c5182912f2e4852d" kindref="member">MR_std_vector_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="223" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="223" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="223" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="223" declcolumn="46"/>
       </memberdef>
       <memberdef kind="function" id="MRContour_8h_1ac7ee6a613dba0fb8f4e1e92f3f3247c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref> *</type>
         <definition>MRC_API MR_std_vector_std_vector_MR_Vector3d * MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</definition>
         <argsstring>(const MR_std_vector_std_vector_MR_Vector3d *from)</argsstring>
         <name>MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</name>
@@ -892,11 +908,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_vector_std_vector_MR_Vector3d_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Generated from function <computeroutput>MR::convertContoursTo3d&lt;std::vector&lt;std::vector&lt;MR::Vector3d&gt;&gt;&gt;</computeroutput>. Parameter <computeroutput>from</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__std__vector__MR__Vector3d_8h_1a27eeb83312e1ca81c5182912f2e4852d" kindref="member">MR_std_vector_std_vector_MR_Vector3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" line="228" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h" declline="228" declcolumn="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" line="228" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h" declline="228" declcolumn="46"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -907,7 +923,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -923,90 +939,90 @@
 <codeline lineno="17" refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRContour_8h_1a8780a0ec01d860faae462a69b98b1696" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a8780a0ec01d860faae462a69b98b1696" kindref="member">MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="24" refid="MRContour_8h_1a8780a0ec01d860faae462a69b98b1696" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a8780a0ec01d860faae462a69b98b1696" kindref="member">MR_calcOrientedArea_float_float_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRContour_8h_1a8e21fab93a593f7ce26d3febcb0c7fd7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a8e21fab93a593f7ce26d3febcb0c7fd7" kindref="member">MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="30" refid="MRContour_8h_1a8e21fab93a593f7ce26d3febcb0c7fd7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a8e21fab93a593f7ce26d3febcb0c7fd7" kindref="member">MR_calcOrientedArea_double_double_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRContour_8h_1aeafa317753000656a3984c5372691b35" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1aeafa317753000656a3984c5372691b35" kindref="member">MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="37" refid="MRContour_8h_1aeafa317753000656a3984c5372691b35" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="MRContour_8h_1aeafa317753000656a3984c5372691b35" kindref="member">MR_calcOrientedArea_float_float_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRContour_8h_1ac724e0880ee930d6135b777d8f488ebc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRContour_8h_1ac724e0880ee930d6135b777d8f488ebc" kindref="member">MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="44" refid="MRContour_8h_1ac724e0880ee930d6135b777d8f488ebc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="MRContour_8h_1ac724e0880ee930d6135b777d8f488ebc" kindref="member">MR_calcOrientedArea_double_double_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRContour_8h_1adf22f8e0c01ae7431153659eb518058a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1adf22f8e0c01ae7431153659eb518058a" kindref="member">MR_calcLength_MR_Vector2f_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="50" refid="MRContour_8h_1adf22f8e0c01ae7431153659eb518058a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1adf22f8e0c01ae7431153659eb518058a" kindref="member">MR_calcLength_MR_Vector2f_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRContour_8h_1a4c745739e600bc97f0898cdb43580ece" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a4c745739e600bc97f0898cdb43580ece" kindref="member">MR_calcLength_MR_Vector2d_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="56" refid="MRContour_8h_1a4c745739e600bc97f0898cdb43580ece" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a4c745739e600bc97f0898cdb43580ece" kindref="member">MR_calcLength_MR_Vector2d_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62" refid="MRContour_8h_1a1dc15b6d770ba7f8de23c90b226a47e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a1dc15b6d770ba7f8de23c90b226a47e5" kindref="member">MR_calcLength_MR_Vector3f_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="62" refid="MRContour_8h_1a1dc15b6d770ba7f8de23c90b226a47e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a1dc15b6d770ba7f8de23c90b226a47e5" kindref="member">MR_calcLength_MR_Vector3f_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRContour_8h_1aaf4fe12924808bf401accfd06976f762" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aaf4fe12924808bf401accfd06976f762" kindref="member">MR_calcLength_MR_Vector3d_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*contour);</highlight></codeline>
+<codeline lineno="68" refid="MRContour_8h_1aaf4fe12924808bf401accfd06976f762" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aaf4fe12924808bf401accfd06976f762" kindref="member">MR_calcLength_MR_Vector3d_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*contour);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73" refid="MRContour_8h_1a84e22c8b9bb38e13693602be1e2f72f8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a84e22c8b9bb38e13693602be1e2f72f8" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="73" refid="MRContour_8h_1a84e22c8b9bb38e13693602be1e2f72f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a84e22c8b9bb38e13693602be1e2f72f8" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRContour_8h_1a1aa567137a7c5e7968b54d0ffc18710f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a1aa567137a7c5e7968b54d0ffc18710f" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="78" refid="MRContour_8h_1a1aa567137a7c5e7968b54d0ffc18710f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a1aa567137a7c5e7968b54d0ffc18710f" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83" refid="MRContour_8h_1ae1e727866e4a31b30928af7271dac2e4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ae1e727866e4a31b30928af7271dac2e4" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="83" refid="MRContour_8h_1ae1e727866e4a31b30928af7271dac2e4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ae1e727866e4a31b30928af7271dac2e4" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight></codeline>
-<codeline lineno="88" refid="MRContour_8h_1ab818cafc1b8fef11ea55a479bdca2a55" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ab818cafc1b8fef11ea55a479bdca2a55" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="88" refid="MRContour_8h_1ab818cafc1b8fef11ea55a479bdca2a55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ab818cafc1b8fef11ea55a479bdca2a55" kindref="member">MR_convertContourTo2f_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93" refid="MRContour_8h_1a8145ec4bed0298a2808adafe10b33493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a8145ec4bed0298a2808adafe10b33493" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="93" refid="MRContour_8h_1a8145ec4bed0298a2808adafe10b33493" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a8145ec4bed0298a2808adafe10b33493" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight></codeline>
-<codeline lineno="98" refid="MRContour_8h_1a5778e00a3a556624861e6855c3e62f66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a5778e00a3a556624861e6855c3e62f66" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="98" refid="MRContour_8h_1a5778e00a3a556624861e6855c3e62f66" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a5778e00a3a556624861e6855c3e62f66" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="99"><highlight class="normal"></highlight></codeline>
-<codeline lineno="103" refid="MRContour_8h_1a477ead64d4e21c3917260c0dc172ebe7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a477ead64d4e21c3917260c0dc172ebe7" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="103" refid="MRContour_8h_1a477ead64d4e21c3917260c0dc172ebe7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a477ead64d4e21c3917260c0dc172ebe7" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRContour_8h_1a87b2bcd87bfc86e8d5194b09fbf216b5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a87b2bcd87bfc86e8d5194b09fbf216b5" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="108" refid="MRContour_8h_1a87b2bcd87bfc86e8d5194b09fbf216b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a87b2bcd87bfc86e8d5194b09fbf216b5" kindref="member">MR_convertContourTo3f_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MRContour_8h_1aa10d0bc71ba2207f2f55e1c318e1dee7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1aa10d0bc71ba2207f2f55e1c318e1dee7" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="113" refid="MRContour_8h_1aa10d0bc71ba2207f2f55e1c318e1dee7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1aa10d0bc71ba2207f2f55e1c318e1dee7" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRContour_8h_1afc14bc48b9d7dd4af220a9c468ebc7c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1afc14bc48b9d7dd4af220a9c468ebc7c8" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="118" refid="MRContour_8h_1afc14bc48b9d7dd4af220a9c468ebc7c8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1afc14bc48b9d7dd4af220a9c468ebc7c8" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRContour_8h_1a5a20977dcc623ac6777d353b525f79fc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a5a20977dcc623ac6777d353b525f79fc" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="123" refid="MRContour_8h_1a5a20977dcc623ac6777d353b525f79fc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a5a20977dcc623ac6777d353b525f79fc" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="128" refid="MRContour_8h_1a9f25da57fb28cc5c790dc697ae20a375" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a9f25da57fb28cc5c790dc697ae20a375" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="128" refid="MRContour_8h_1a9f25da57fb28cc5c790dc697ae20a375" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a9f25da57fb28cc5c790dc697ae20a375" kindref="member">MR_convertContourTo2d_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133" refid="MRContour_8h_1a837eb9fce0b9ea816c00c83978c8b40c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a837eb9fce0b9ea816c00c83978c8b40c" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="133" refid="MRContour_8h_1a837eb9fce0b9ea816c00c83978c8b40c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a837eb9fce0b9ea816c00c83978c8b40c" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af3ae972f4acf6dd1ffc9c11061641f3f" kindref="member">MR_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRContour_8h_1a213b78791855f2fee4b8b81f46833bf7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a213b78791855f2fee4b8b81f46833bf7" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="138" refid="MRContour_8h_1a213b78791855f2fee4b8b81f46833bf7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a213b78791855f2fee4b8b81f46833bf7" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1af7de7b4db973d11bf60ee592f1fff70e" kindref="member">MR_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="143" refid="MRContour_8h_1a34dd89b82403217a0743ce43283afe77" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a34dd89b82403217a0743ce43283afe77" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="143" refid="MRContour_8h_1a34dd89b82403217a0743ce43283afe77" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a34dd89b82403217a0743ce43283afe77" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148" refid="MRContour_8h_1ab4f2a13cbcf1da9a9e0ae11d79091028" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ab4f2a13cbcf1da9a9e0ae11d79091028" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="148" refid="MRContour_8h_1ab4f2a13cbcf1da9a9e0ae11d79091028" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ab4f2a13cbcf1da9a9e0ae11d79091028" kindref="member">MR_convertContourTo3d_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a5d89d0b00a747b263e81d4999e8ed90b" kindref="member">MR_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRContour_8h_1aa95e3e23cfbf3867cd27772866d876f3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1aa95e3e23cfbf3867cd27772866d876f3" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="153" refid="MRContour_8h_1aa95e3e23cfbf3867cd27772866d876f3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1aa95e3e23cfbf3867cd27772866d876f3" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158" refid="MRContour_8h_1ae0567bd1878b61399a5194758ad80730" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ae0567bd1878b61399a5194758ad80730" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="158" refid="MRContour_8h_1ae0567bd1878b61399a5194758ad80730" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1ae0567bd1878b61399a5194758ad80730" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"></highlight></codeline>
-<codeline lineno="163" refid="MRContour_8h_1a4dec4402ac3423415a48c20f93773329" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a4dec4402ac3423415a48c20f93773329" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="163" refid="MRContour_8h_1a4dec4402ac3423415a48c20f93773329" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1a4dec4402ac3423415a48c20f93773329" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="164"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168" refid="MRContour_8h_1aee446244f4f001325d55241197ab0e9e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1aee446244f4f001325d55241197ab0e9e" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="168" refid="MRContour_8h_1aee446244f4f001325d55241197ab0e9e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*<ref refid="MRContour_8h_1aee446244f4f001325d55241197ab0e9e" kindref="member">MR_convertContoursTo2f_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="169"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRContour_8h_1a9230b0b900dcca27b6f135223efdf2a6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a9230b0b900dcca27b6f135223efdf2a6" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="173" refid="MRContour_8h_1a9230b0b900dcca27b6f135223efdf2a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a9230b0b900dcca27b6f135223efdf2a6" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="178" refid="MRContour_8h_1a56aeb003692e32ce14a37ece02b427c1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a56aeb003692e32ce14a37ece02b427c1" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="178" refid="MRContour_8h_1a56aeb003692e32ce14a37ece02b427c1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a56aeb003692e32ce14a37ece02b427c1" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="183" refid="MRContour_8h_1a421acf46d54d10c4a5fd56139286840f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a421acf46d54d10c4a5fd56139286840f" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="183" refid="MRContour_8h_1a421acf46d54d10c4a5fd56139286840f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a421acf46d54d10c4a5fd56139286840f" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRContour_8h_1a04ce595f348969d882282fda6631bb33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a04ce595f348969d882282fda6631bb33" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="188" refid="MRContour_8h_1a04ce595f348969d882282fda6631bb33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*<ref refid="MRContour_8h_1a04ce595f348969d882282fda6631bb33" kindref="member">MR_convertContoursTo3f_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193" refid="MRContour_8h_1a8aae2fe2257076be097fa7c40098f769" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a8aae2fe2257076be097fa7c40098f769" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="193" refid="MRContour_8h_1a8aae2fe2257076be097fa7c40098f769" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a8aae2fe2257076be097fa7c40098f769" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRContour_8h_1a982ce4003fbda8de1762c6ba5adb9eee" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a982ce4003fbda8de1762c6ba5adb9eee" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="198" refid="MRContour_8h_1a982ce4003fbda8de1762c6ba5adb9eee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a982ce4003fbda8de1762c6ba5adb9eee" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRContour_8h_1a634edbc720bbe0ce929505de0e8949d7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a634edbc720bbe0ce929505de0e8949d7" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="203" refid="MRContour_8h_1a634edbc720bbe0ce929505de0e8949d7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a634edbc720bbe0ce929505de0e8949d7" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="208" refid="MRContour_8h_1a254d57fce9801f1cec4ceeda4db1dc70" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a254d57fce9801f1cec4ceeda4db1dc70" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="208" refid="MRContour_8h_1a254d57fce9801f1cec4ceeda4db1dc70" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*<ref refid="MRContour_8h_1a254d57fce9801f1cec4ceeda4db1dc70" kindref="member">MR_convertContoursTo2d_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRContour_8h_1a78ded3bd32cac36dd3082868536eba8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a78ded3bd32cac36dd3082868536eba8b" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="213" refid="MRContour_8h_1a78ded3bd32cac36dd3082868536eba8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a78ded3bd32cac36dd3082868536eba8b" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a603c36c96311a8cb693f3e5500963e17" kindref="member">MR_std_vector_std_vector_MR_Vector2f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="218" refid="MRContour_8h_1ac6d92981461f22b26bf74ab71d95410d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ac6d92981461f22b26bf74ab71d95410d" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="218" refid="MRContour_8h_1ac6d92981461f22b26bf74ab71d95410d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ac6d92981461f22b26bf74ab71d95410d" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1a8e55692f157422c7881b4d55c583d9df" kindref="member">MR_std_vector_std_vector_MR_Vector2d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="219"><highlight class="normal"></highlight></codeline>
-<codeline lineno="223" refid="MRContour_8h_1a45d08517bc5a458071fb1ebcf4f516ca" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a45d08517bc5a458071fb1ebcf4f516ca" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="223" refid="MRContour_8h_1a45d08517bc5a458071fb1ebcf4f516ca" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1a45d08517bc5a458071fb1ebcf4f516ca" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1a79b88ecd897f6c27c8428cecc4a91f30" kindref="member">MR_std_vector_std_vector_MR_Vector3f</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="228" refid="MRContour_8h_1ac7ee6a613dba0fb8f4e1e92f3f3247c0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ac7ee6a613dba0fb8f4e1e92f3f3247c0" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
+<codeline lineno="228" refid="MRContour_8h_1ac7ee6a613dba0fb8f4e1e92f3f3247c0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*<ref refid="MRContour_8h_1ac7ee6a613dba0fb8f4e1e92f3f3247c0" kindref="member">MR_convertContoursTo3d_std_vector_std_vector_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRContour_8h_1aa0c7c77418cae72106564e939421bb39" kindref="member">MR_std_vector_std_vector_MR_Vector3d</ref><sp/>*from);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"></highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="231"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="232"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRContour.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRContour.h"/>
   </compounddef>
 </doxygen>

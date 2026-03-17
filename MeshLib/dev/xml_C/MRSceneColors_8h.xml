@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRSceneColors_8h" kind="file" language="C++">
     <compoundname>MRSceneColors.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -15,6 +15,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stddef.h</label>
@@ -326,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" bodystart="15" bodyend="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" bodystart="15" bodyend="55"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -341,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="55" column="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="55" column="21"/>
       </memberdef>
       <memberdef kind="typedef" id="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" prot="public" static="no">
         <type>struct <ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref></type>
@@ -355,12 +356,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="59" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" bodystart="59" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="59" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" bodystart="59" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="structMR__Color" kindref="compound">MR_Color</ref> *</type>
         <definition>MRC_API const MR_Color * MR_SceneColors_get</definition>
         <argsstring>(MR_SceneColors_Type type)</argsstring>
         <name>MR_SceneColors_get</name>
@@ -375,10 +376,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="63" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" declline="63" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="63" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" declline="63" declcolumn="24"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneColors_8h_1a1f8169c6101c9d9b3dfa6c872cbc3433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_SceneColors_set</definition>
         <argsstring>(MR_SceneColors_Type type, const MR_Color *color)</argsstring>
         <name>MR_SceneColors_set</name>
@@ -397,10 +398,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" declline="67" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" declline="67" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneColors_8h_1af0c0b06a67cb665e645bbbd647303a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const char *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
         <definition>MRC_API const char * MR_SceneColors_getName</definition>
         <argsstring>(MR_SceneColors_Type type)</argsstring>
         <name>MR_SceneColors_getName</name>
@@ -415,10 +416,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="70" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" declline="70" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="70" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" declline="70" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneColors_8h_1af758cfba6c2d8c416635b61e24d02587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref> *</type>
         <definition>MRC_API const MR_SceneColors * MR_SceneColors_OffsetPtr</definition>
         <argsstring>(const MR_SceneColors *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SceneColors_OffsetPtr</name>
@@ -437,10 +438,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="74" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" declline="74" declcolumn="30"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="74" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" declline="74" declcolumn="30"/>
       </memberdef>
       <memberdef kind="function" id="MRSceneColors_8h_1a1189954950ac6295817f413becbbb49e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref> *</type>
         <definition>MRC_API MR_SceneColors * MR_SceneColors_OffsetMutablePtr</definition>
         <argsstring>(MR_SceneColors *ptr, ptrdiff_t i)</argsstring>
         <name>MR_SceneColors_OffsetMutablePtr</name>
@@ -459,7 +460,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" line="78" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h" declline="78" declcolumn="24"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" line="78" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h" declline="78" declcolumn="24"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -469,7 +470,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -525,20 +526,20 @@
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59" refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref>;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" kindref="member">MR_SceneColors_get</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="63" refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*<ref refid="MRSceneColors_8h_1abd39f578f643bc642549d00d6d83ff94" kindref="member">MR_SceneColors_get</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="67" refid="MRSceneColors_8h_1a1f8169c6101c9d9b3dfa6c872cbc3433" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f8169c6101c9d9b3dfa6c872cbc3433" kindref="member">MR_SceneColors_set</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*color);</highlight></codeline>
+<codeline lineno="67" refid="MRSceneColors_8h_1a1f8169c6101c9d9b3dfa6c872cbc3433" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f8169c6101c9d9b3dfa6c872cbc3433" kindref="member">MR_SceneColors_set</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Color" kindref="compound">MR_Color</ref><sp/>*color);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70" refid="MRSceneColors_8h_1af0c0b06a67cb665e645bbbd647303a90" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSceneColors_8h_1af0c0b06a67cb665e645bbbd647303a90" kindref="member">MR_SceneColors_getName</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="70" refid="MRSceneColors_8h_1af0c0b06a67cb665e645bbbd647303a90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MRSceneColors_8h_1af0c0b06a67cb665e645bbbd647303a90" kindref="member">MR_SceneColors_getName</ref>(<ref refid="MRSceneColors_8h_1ac9cef54f15d866a97c8c76928c763bab" kindref="member">MR_SceneColors_Type</ref><sp/>type);</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRSceneColors_8h_1af758cfba6c2d8c416635b61e24d02587" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*<ref refid="MRSceneColors_8h_1af758cfba6c2d8c416635b61e24d02587" kindref="member">MR_SceneColors_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="74" refid="MRSceneColors_8h_1af758cfba6c2d8c416635b61e24d02587" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*<ref refid="MRSceneColors_8h_1af758cfba6c2d8c416635b61e24d02587" kindref="member">MR_SceneColors_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="78" refid="MRSceneColors_8h_1a1189954950ac6295817f413becbbb49e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*<ref refid="MRSceneColors_8h_1a1189954950ac6295817f413becbbb49e" kindref="member">MR_SceneColors_OffsetMutablePtr</ref>(<ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="78" refid="MRSceneColors_8h_1a1189954950ac6295817f413becbbb49e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*<ref refid="MRSceneColors_8h_1a1189954950ac6295817f413becbbb49e" kindref="member">MR_SceneColors_OffsetMutablePtr</ref>(<ref refid="MRSceneColors_8h_1a1f7968a2e645c273edd6641747ac0e4b" kindref="member">MR_SceneColors</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="81"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSceneColors.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRSceneColors.h"/>
   </compounddef>
 </doxygen>

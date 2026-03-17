@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRBestFitQuadric_8h" kind="file" language="C++">
     <compoundname>MRBestFitQuadric.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,12 +18,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -38,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="12" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" prot="public" static="no">
         <type>struct <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref></type>
@@ -49,16 +60,16 @@
         </briefdescription>
         <detaileddescription>
 <para>Accumulate points and make best quadric approximation</para>
-<para><formula id="1">$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $</formula> Generated from class <computeroutput>MR::QuadricApprox</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para><formula id="1">$ a*x^2 + b*x*y + c*y^2 + d*x + e*y + f = z $</formula> Generated from class <computeroutput>MR::QuadricApprox</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="19" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" bodystart="19" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API MR_QuadricApprox * MR_QuadricApprox_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_QuadricApprox_DefaultConstruct</name>
@@ -72,10 +83,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="23" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="23" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="23" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="23" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a69845df81d05fcf491a912e366c5b9d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API MR_QuadricApprox * MR_QuadricApprox_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_QuadricApprox_DefaultConstructArray</name>
@@ -90,10 +101,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="28" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="28" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="28" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="28" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1ad4867de0c28d59d69bf1bc3a8e0a4c2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API const MR_QuadricApprox * MR_QuadricApprox_OffsetPtr</definition>
         <argsstring>(const MR_QuadricApprox *ptr, ptrdiff_t i)</argsstring>
         <name>MR_QuadricApprox_OffsetPtr</name>
@@ -112,10 +123,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="32" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="32" declcolumn="32"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="32" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="32" declcolumn="32"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a5d42d0aadb494d724a68d30f89f3ec99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API MR_QuadricApprox * MR_QuadricApprox_OffsetMutablePtr</definition>
         <argsstring>(MR_QuadricApprox *ptr, ptrdiff_t i)</argsstring>
         <name>MR_QuadricApprox_OffsetMutablePtr</name>
@@ -134,15 +145,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="36" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="36" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="36" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="36" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a2b343ccd33c8b7fe2ad771c2c9ea2725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API MR_QuadricApprox * MR_QuadricApprox_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_QuadricApprox *_other)</argsstring>
         <name>MR_QuadricApprox_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -156,10 +167,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="41" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="41" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="41" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="41" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a694e3bf3555f12ef2f66b42e61a684a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_QuadricApprox_Destroy</definition>
         <argsstring>(const MR_QuadricApprox *_this)</argsstring>
         <name>MR_QuadricApprox_Destroy</name>
@@ -174,10 +185,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="44" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="44" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a04328cebcf951661defa16698825d9a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_QuadricApprox_DestroyArray</definition>
         <argsstring>(const MR_QuadricApprox *_this)</argsstring>
         <name>MR_QuadricApprox_DestroyArray</name>
@@ -192,10 +203,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="47" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="47" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a78de4a15da5851f46b13d93e7ada04f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref> *</type>
         <definition>MRC_API MR_QuadricApprox * MR_QuadricApprox_AssignFromAnother</definition>
         <argsstring>(MR_QuadricApprox *_this, MR_PassBy _other_pass_by, MR_QuadricApprox *_other)</argsstring>
         <name>MR_QuadricApprox_AssignFromAnother</name>
@@ -204,7 +215,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -218,10 +229,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="54" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="54" declcolumn="26"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="54" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="54" declcolumn="26"/>
       </memberdef>
       <memberdef kind="function" id="MRBestFitQuadric_8h_1a8a50785af0e458592d1912c8a405f6e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_QuadricApprox_addPoint</definition>
         <argsstring>(MR_QuadricApprox *_this, const MR_Vector3d *point, const double *weight)</argsstring>
         <name>MR_QuadricApprox_addPoint</name>
@@ -244,7 +255,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h" declline="61" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h" declline="61" declcolumn="14"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -254,8 +265,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -268,28 +279,28 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23" refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" kindref="member">MR_QuadricApprox_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23" refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1abc78a92635b3c4032f97f976a35b451a" kindref="member">MR_QuadricApprox_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRBestFitQuadric_8h_1a69845df81d05fcf491a912e366c5b9d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a69845df81d05fcf491a912e366c5b9d6" kindref="member">MR_QuadricApprox_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="28" refid="MRBestFitQuadric_8h_1a69845df81d05fcf491a912e366c5b9d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a69845df81d05fcf491a912e366c5b9d6" kindref="member">MR_QuadricApprox_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRBestFitQuadric_8h_1ad4867de0c28d59d69bf1bc3a8e0a4c2f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1ad4867de0c28d59d69bf1bc3a8e0a4c2f" kindref="member">MR_QuadricApprox_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="32" refid="MRBestFitQuadric_8h_1ad4867de0c28d59d69bf1bc3a8e0a4c2f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1ad4867de0c28d59d69bf1bc3a8e0a4c2f" kindref="member">MR_QuadricApprox_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRBestFitQuadric_8h_1a5d42d0aadb494d724a68d30f89f3ec99" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a5d42d0aadb494d724a68d30f89f3ec99" kindref="member">MR_QuadricApprox_OffsetMutablePtr</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="36" refid="MRBestFitQuadric_8h_1a5d42d0aadb494d724a68d30f89f3ec99" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a5d42d0aadb494d724a68d30f89f3ec99" kindref="member">MR_QuadricApprox_OffsetMutablePtr</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRBestFitQuadric_8h_1a2b343ccd33c8b7fe2ad771c2c9ea2725" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a2b343ccd33c8b7fe2ad771c2c9ea2725" kindref="member">MR_QuadricApprox_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="41" refid="MRBestFitQuadric_8h_1a2b343ccd33c8b7fe2ad771c2c9ea2725" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a2b343ccd33c8b7fe2ad771c2c9ea2725" kindref="member">MR_QuadricApprox_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44" refid="MRBestFitQuadric_8h_1a694e3bf3555f12ef2f66b42e61a684a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a694e3bf3555f12ef2f66b42e61a684a4" kindref="member">MR_QuadricApprox_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44" refid="MRBestFitQuadric_8h_1a694e3bf3555f12ef2f66b42e61a684a4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a694e3bf3555f12ef2f66b42e61a684a4" kindref="member">MR_QuadricApprox_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRBestFitQuadric_8h_1a04328cebcf951661defa16698825d9a8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a04328cebcf951661defa16698825d9a8" kindref="member">MR_QuadricApprox_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRBestFitQuadric_8h_1a04328cebcf951661defa16698825d9a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a04328cebcf951661defa16698825d9a8" kindref="member">MR_QuadricApprox_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRBestFitQuadric_8h_1a78de4a15da5851f46b13d93e7ada04f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a78de4a15da5851f46b13d93e7ada04f7" kindref="member">MR_QuadricApprox_AssignFromAnother</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="54" refid="MRBestFitQuadric_8h_1a78de4a15da5851f46b13d93e7ada04f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*<ref refid="MRBestFitQuadric_8h_1a78de4a15da5851f46b13d93e7ada04f7" kindref="member">MR_QuadricApprox_AssignFromAnother</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRBestFitQuadric_8h_1a8a50785af0e458592d1912c8a405f6e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a8a50785af0e458592d1912c8a405f6e5" kindref="member">MR_QuadricApprox_addPoint</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*weight);</highlight></codeline>
+<codeline lineno="61" refid="MRBestFitQuadric_8h_1a8a50785af0e458592d1912c8a405f6e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRBestFitQuadric_8h_1a8a50785af0e458592d1912c8a405f6e5" kindref="member">MR_QuadricApprox_addPoint</ref>(<ref refid="MRBestFitQuadric_8h_1a62a89902bc47423cae1ac80aa2e32e7c" kindref="member">MR_QuadricApprox</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*point,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*weight);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBestFitQuadric.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRBestFitQuadric.h"/>
   </compounddef>
 </doxygen>

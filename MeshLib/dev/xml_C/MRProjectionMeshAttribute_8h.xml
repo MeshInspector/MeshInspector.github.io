@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRProjectionMeshAttribute_8h" kind="file" language="C++">
     <compoundname>MRProjectionMeshAttribute.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
       <node id="1">
@@ -18,12 +18,23 @@
       </node>
       <node id="2">
         <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
       </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -35,16 +46,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>this structure contains transformation for projection from one mesh to another and progress callback Generated from class <computeroutput>MR::ProjectAttributeParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>this structure contains transformation for projection from one mesh to another and progress callback Generated from class <computeroutput>MR::ProjectAttributeParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" bodystart="22" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1aa5945a19dc3e94ac750bfabecae6baad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref> *</type>
         <definition>MRC_API const MR_MeshProjectionTransforms * MR_ProjectAttributeParams_Get_xfs</definition>
         <argsstring>(const MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_Get_xfs</name>
@@ -59,10 +70,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="28" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="28" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="28" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="28" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a333be2a9ff438359c64a7c4ed53996db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ProjectAttributeParams_Set_xfs</definition>
         <argsstring>(MR_ProjectAttributeParams *_this, const MR_MeshProjectionTransforms *value)</argsstring>
         <name>MR_ProjectAttributeParams_Set_xfs</name>
@@ -81,10 +92,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="35" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="35" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="35" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1ace4aab5b2803de7a32cced754e96055b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref> *</type>
         <definition>MRC_API MR_MeshProjectionTransforms * MR_ProjectAttributeParams_GetMutable_xfs</definition>
         <argsstring>(MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_GetMutable_xfs</name>
@@ -99,10 +110,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="41" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="41" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="41" declcolumn="37"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1abda7459a81454acb75b856891d534a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_ProjectAttributeParams_Get_progressCb</definition>
         <argsstring>(const MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_Get_progressCb</name>
@@ -117,10 +128,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="47" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="47" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="47" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="47" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a04d29b424d991a83ad4358969c619cdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ProjectAttributeParams_Set_progressCb</definition>
         <argsstring>(MR_ProjectAttributeParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_ProjectAttributeParams_Set_progressCb</name>
@@ -129,7 +140,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -143,10 +154,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1aa774a3b8ad5199a03520c74e4d7ebe78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_ProjectAttributeParams_GetMutable_progressCb</definition>
         <argsstring>(MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_GetMutable_progressCb</name>
@@ -161,10 +172,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="59" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="59" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="59" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="59" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a630a6c97484aebe0356fce5eebff3b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_ProjectAttributeParams_DefaultConstruct</name>
@@ -178,10 +189,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="63" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="63" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="63" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="63" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1aaa022b9300356e074c3593edd00deeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_ProjectAttributeParams_DefaultConstructArray</name>
@@ -196,10 +207,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="68" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="68" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="68" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="68" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a0b88abe4bfa6a87e0e1ba41732506616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_ConstructFrom</definition>
         <argsstring>(const MR_MeshProjectionTransforms *xfs, MR_PassBy progressCb_pass_by, MR_std_function_bool_from_float *progressCb)</argsstring>
         <name>MR_ProjectAttributeParams_ConstructFrom</name>
@@ -208,7 +219,7 @@
           <declname>xfs</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progressCb_pass_by</declname>
         </param>
         <param>
@@ -222,10 +233,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="76" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="76" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="76" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="76" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a453fe3694c51e04248e8393bc4c3a1b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API const MR_ProjectAttributeParams * MR_ProjectAttributeParams_OffsetPtr</definition>
         <argsstring>(const MR_ProjectAttributeParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ProjectAttributeParams_OffsetPtr</name>
@@ -244,10 +255,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="80" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="80" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="80" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="80" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1aec9ae2f99520f9a360804d0d4552f86b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_OffsetMutablePtr</definition>
         <argsstring>(MR_ProjectAttributeParams *ptr, ptrdiff_t i)</argsstring>
         <name>MR_ProjectAttributeParams_OffsetMutablePtr</name>
@@ -266,15 +277,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="84" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="84" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="84" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="84" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a68fc90a9e06a744cde8f101ac3ed0c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_ProjectAttributeParams *_other)</argsstring>
         <name>MR_ProjectAttributeParams_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -288,10 +299,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="89" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="89" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="89" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="89" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a277feee4f641335bf26340a6ad5fb8cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ProjectAttributeParams_Destroy</definition>
         <argsstring>(const MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_Destroy</name>
@@ -306,10 +317,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="92" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="92" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="92" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a8ad9225c359a1e9ccb57c9ffffb3d874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_ProjectAttributeParams_DestroyArray</definition>
         <argsstring>(const MR_ProjectAttributeParams *_this)</argsstring>
         <name>MR_ProjectAttributeParams_DestroyArray</name>
@@ -324,10 +335,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="95" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="95" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1a497c1e420007ba21c897aee00e14dac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref> *</type>
         <definition>MRC_API MR_ProjectAttributeParams * MR_ProjectAttributeParams_AssignFromAnother</definition>
         <argsstring>(MR_ProjectAttributeParams *_this, MR_PassBy _other_pass_by, MR_ProjectAttributeParams *_other)</argsstring>
         <name>MR_ProjectAttributeParams_AssignFromAnother</name>
@@ -336,7 +347,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -350,10 +361,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="102" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="102" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="102" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRProjectionMeshAttribute_8h_1ae2e5d48da76dc128b3e81c5fd9bfc7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
         <definition>MRC_API MR_expected_void_std_string * MR_projectObjectMeshData</definition>
         <argsstring>(const MR_ObjectMeshData *oldMeshData, MR_ObjectMeshData *newMeshData, const MR_FaceBitSet *region, const MR_ProjectAttributeParams *params)</argsstring>
         <name>MR_projectObjectMeshData</name>
@@ -412,11 +423,11 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-Generated from function <computeroutput>MR::projectObjectMeshData</computeroutput>. Parameter <computeroutput>oldMeshData</computeroutput> can not be null. It is a single object. Parameter <computeroutput>newMeshData</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+Generated from function <computeroutput>MR::projectObjectMeshData</computeroutput>. Parameter <computeroutput>oldMeshData</computeroutput> can not be null. It is a single object. Parameter <computeroutput>newMeshData</computeroutput> can not be null. It is a single object. Parameter <computeroutput>region</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="expected__void__std__string_8h_1a9638e07d2c5281b4bf574c618ab6f2e9" kindref="member">MR_expected_void_std_string_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" line="119" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h" declline="119" declcolumn="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" line="119" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h" declline="119" declcolumn="37"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -426,8 +437,8 @@ Generated from function <computeroutput>MR::projectObjectMeshData</computeroutpu
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
@@ -444,42 +455,42 @@ Generated from function <computeroutput>MR::projectObjectMeshData</computeroutpu
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="22" refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref>;</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="MRProjectionMeshAttribute_8h_1aa5945a19dc3e94ac750bfabecae6baad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aa5945a19dc3e94ac750bfabecae6baad" kindref="member">MR_ProjectAttributeParams_Get_xfs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="28" refid="MRProjectionMeshAttribute_8h_1aa5945a19dc3e94ac750bfabecae6baad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aa5945a19dc3e94ac750bfabecae6baad" kindref="member">MR_ProjectAttributeParams_Get_xfs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35" refid="MRProjectionMeshAttribute_8h_1a333be2a9ff438359c64a7c4ed53996db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a333be2a9ff438359c64a7c4ed53996db" kindref="member">MR_ProjectAttributeParams_Set_xfs</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="35" refid="MRProjectionMeshAttribute_8h_1a333be2a9ff438359c64a7c4ed53996db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a333be2a9ff438359c64a7c4ed53996db" kindref="member">MR_ProjectAttributeParams_Set_xfs</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41" refid="MRProjectionMeshAttribute_8h_1ace4aab5b2803de7a32cced754e96055b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1ace4aab5b2803de7a32cced754e96055b" kindref="member">MR_ProjectAttributeParams_GetMutable_xfs</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41" refid="MRProjectionMeshAttribute_8h_1ace4aab5b2803de7a32cced754e96055b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1ace4aab5b2803de7a32cced754e96055b" kindref="member">MR_ProjectAttributeParams_GetMutable_xfs</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47" refid="MRProjectionMeshAttribute_8h_1abda7459a81454acb75b856891d534a1e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1abda7459a81454acb75b856891d534a1e" kindref="member">MR_ProjectAttributeParams_Get_progressCb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47" refid="MRProjectionMeshAttribute_8h_1abda7459a81454acb75b856891d534a1e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1abda7459a81454acb75b856891d534a1e" kindref="member">MR_ProjectAttributeParams_Get_progressCb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRProjectionMeshAttribute_8h_1a04d29b424d991a83ad4358969c619cdc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a04d29b424d991a83ad4358969c619cdc" kindref="member">MR_ProjectAttributeParams_Set_progressCb</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="53" refid="MRProjectionMeshAttribute_8h_1a04d29b424d991a83ad4358969c619cdc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a04d29b424d991a83ad4358969c619cdc" kindref="member">MR_ProjectAttributeParams_Set_progressCb</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="59" refid="MRProjectionMeshAttribute_8h_1aa774a3b8ad5199a03520c74e4d7ebe78" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aa774a3b8ad5199a03520c74e4d7ebe78" kindref="member">MR_ProjectAttributeParams_GetMutable_progressCb</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59" refid="MRProjectionMeshAttribute_8h_1aa774a3b8ad5199a03520c74e4d7ebe78" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aa774a3b8ad5199a03520c74e4d7ebe78" kindref="member">MR_ProjectAttributeParams_GetMutable_progressCb</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRProjectionMeshAttribute_8h_1a630a6c97484aebe0356fce5eebff3b72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a630a6c97484aebe0356fce5eebff3b72" kindref="member">MR_ProjectAttributeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63" refid="MRProjectionMeshAttribute_8h_1a630a6c97484aebe0356fce5eebff3b72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a630a6c97484aebe0356fce5eebff3b72" kindref="member">MR_ProjectAttributeParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRProjectionMeshAttribute_8h_1aaa022b9300356e074c3593edd00deeff" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aaa022b9300356e074c3593edd00deeff" kindref="member">MR_ProjectAttributeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="68" refid="MRProjectionMeshAttribute_8h_1aaa022b9300356e074c3593edd00deeff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aaa022b9300356e074c3593edd00deeff" kindref="member">MR_ProjectAttributeParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="76" refid="MRProjectionMeshAttribute_8h_1a0b88abe4bfa6a87e0e1ba41732506616" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a0b88abe4bfa6a87e0e1ba41732506616" kindref="member">MR_ProjectAttributeParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*xfs,<sp/>MR_PassBy<sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
+<codeline lineno="76" refid="MRProjectionMeshAttribute_8h_1a0b88abe4bfa6a87e0e1ba41732506616" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a0b88abe4bfa6a87e0e1ba41732506616" kindref="member">MR_ProjectAttributeParams_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshProject_8h_1aedf9429d1c6a607da0d6891b231f843e" kindref="member">MR_MeshProjectionTransforms</ref><sp/>*xfs,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progressCb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCb);</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80" refid="MRProjectionMeshAttribute_8h_1a453fe3694c51e04248e8393bc4c3a1b4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a453fe3694c51e04248e8393bc4c3a1b4" kindref="member">MR_ProjectAttributeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80" refid="MRProjectionMeshAttribute_8h_1a453fe3694c51e04248e8393bc4c3a1b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a453fe3694c51e04248e8393bc4c3a1b4" kindref="member">MR_ProjectAttributeParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="84" refid="MRProjectionMeshAttribute_8h_1aec9ae2f99520f9a360804d0d4552f86b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aec9ae2f99520f9a360804d0d4552f86b" kindref="member">MR_ProjectAttributeParams_OffsetMutablePtr</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="84" refid="MRProjectionMeshAttribute_8h_1aec9ae2f99520f9a360804d0d4552f86b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1aec9ae2f99520f9a360804d0d4552f86b" kindref="member">MR_ProjectAttributeParams_OffsetMutablePtr</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRProjectionMeshAttribute_8h_1a68fc90a9e06a744cde8f101ac3ed0c6a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a68fc90a9e06a744cde8f101ac3ed0c6a" kindref="member">MR_ProjectAttributeParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89" refid="MRProjectionMeshAttribute_8h_1a68fc90a9e06a744cde8f101ac3ed0c6a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a68fc90a9e06a744cde8f101ac3ed0c6a" kindref="member">MR_ProjectAttributeParams_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="92" refid="MRProjectionMeshAttribute_8h_1a277feee4f641335bf26340a6ad5fb8cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a277feee4f641335bf26340a6ad5fb8cd" kindref="member">MR_ProjectAttributeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92" refid="MRProjectionMeshAttribute_8h_1a277feee4f641335bf26340a6ad5fb8cd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a277feee4f641335bf26340a6ad5fb8cd" kindref="member">MR_ProjectAttributeParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight></codeline>
-<codeline lineno="95" refid="MRProjectionMeshAttribute_8h_1a8ad9225c359a1e9ccb57c9ffffb3d874" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a8ad9225c359a1e9ccb57c9ffffb3d874" kindref="member">MR_ProjectAttributeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="95" refid="MRProjectionMeshAttribute_8h_1a8ad9225c359a1e9ccb57c9ffffb3d874" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1a8ad9225c359a1e9ccb57c9ffffb3d874" kindref="member">MR_ProjectAttributeParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="102" refid="MRProjectionMeshAttribute_8h_1a497c1e420007ba21c897aee00e14dac8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a497c1e420007ba21c897aee00e14dac8" kindref="member">MR_ProjectAttributeParams_AssignFromAnother</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="102" refid="MRProjectionMeshAttribute_8h_1a497c1e420007ba21c897aee00e14dac8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1a497c1e420007ba21c897aee00e14dac8" kindref="member">MR_ProjectAttributeParams_AssignFromAnother</ref>(<ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119" refid="MRProjectionMeshAttribute_8h_1ae2e5d48da76dc128b3e81c5fd9bfc7a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1ae2e5d48da76dc128b3e81c5fd9bfc7a7" kindref="member">MR_projectObjectMeshData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*oldMeshData,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newMeshData,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="119" refid="MRProjectionMeshAttribute_8h_1ae2e5d48da76dc128b3e81c5fd9bfc7a7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRProjectionMeshAttribute_8h_1ae2e5d48da76dc128b3e81c5fd9bfc7a7" kindref="member">MR_projectObjectMeshData</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*oldMeshData,<sp/><ref refid="MRChangeMeshDataAction_8h_1a6ee8e1ef0afd5da11563b6ecbb94f63e" kindref="member">MR_ObjectMeshData</ref><sp/>*newMeshData,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRProjectionMeshAttribute_8h_1adabae5946a19b520cce97819279afb69" kindref="member">MR_ProjectAttributeParams</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="122"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRProjectionMeshAttribute.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRProjectionMeshAttribute.h"/>
   </compounddef>
 </doxygen>

@@ -1,0 +1,1643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__RigidXf3d_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_RigidXf3d.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_RigidXf3d.h</label>
+        <link refid="std__vector__MR__RigidXf3d_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_RigidXf3d_const_iterator MR_std_vector_MR_RigidXf3d_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="22" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_RigidXf3d_iterator MR_std_vector_MR_RigidXf3d_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="26" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a531cf6da8613f86afe274ac87f82c0d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" kindref="member">MR_std_vector_MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="30" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="30" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ab3a497d848b55c5c6e7a1f2ceb5e64c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1ad463ed2ade590865645b58cdf7c64c47" kindref="member">MR_std_vector_MR_RigidXf3d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a40d064d9f2bb2df3860f2f6df9c33e1c" kindref="member">MR_std_vector_MR_RigidXf3d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1abe316b1a06adb5f23a31f0e3db088d34" kindref="member">MR_std_vector_MR_RigidXf3d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="35" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="35" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a9165d8541a72ce05813e33c2bfe5ba96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_RigidXf3d *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" kindref="member">MR_std_vector_MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="41" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="41" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a14b9d32158db11c0061f2afb4aae0c38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, MR_PassBy other_pass_by, MR_std_vector_MR_RigidXf3d *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ad463ed2ade590865645b58cdf7c64c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1abe316b1a06adb5f23a31f0e3db088d34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="57" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="57" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a40d064d9f2bb2df3860f2f6df9c33e1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="61" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="61" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a3d87a80534cc2456df53dd4c8ca3389e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_RigidXf3d_size</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_size</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ae0cee060bdb61d80edd2cd461fb01b7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_RigidXf3d_empty</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_empty</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a247c7798bb7581486ba4fab8eda9b007" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_resize</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t new_size)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_resize</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are zeroed. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="73" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="73" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a68c0b29fa5fb9eee3b423729a89b6bb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t new_size, const MR_RigidXf3d *value)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a0a9e82fcb52e150dff0ef30d6f8d58ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_clear</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_clear</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aede04d003d467e080dff85c60488c457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_RigidXf3d_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_capacity</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="87" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="87" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aa2c8cc316256737441821479b0eb827e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_reserve</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_reserve</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a52cf3094de61fefd5f9530c1e95d34b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1af6f6fadddb377c85a215a50734297545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_at</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_at</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="101" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="101" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1acfbe11c812c94fff9dd0ad0403686a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_at_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="107" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="107" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a29aabdc2d37c593aebf46c18f02c99b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_front</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_front</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="112" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="112" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ac0499ed3685dab5e841673430153ea02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_front_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="117" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="117" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aa691ff2bdbc305a932c72cef0e360a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_back</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_back</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="122" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="122" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a114f909d995f50f208fdd372c55ed553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_back_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="127" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="127" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ab0ac4749d2b2636486ef3f2e14bab9fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_push_back</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, const MR_RigidXf3d *new_elem)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_push_back</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a6d3c4d4f54367d7b8337998fe3ff3f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_pop_back</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="137" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="137" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a16b0c9a7368d7d4b55a69c9fc312f0ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_insert</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t position, const MR_RigidXf3d *new_elem)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_insert</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a005ac94d1f90e6b43da56254030b6b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_erase</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_erase</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="147" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="147" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a94e7f12b26a637d06d2cb5ad0651967b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_iterator *position, const MR_RigidXf3d *new_elem)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="154" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="154" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a68f39d977489579b31592009330285e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="159" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="159" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a63c713ea192103ea5eba861db3c5adad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *position, const MR_RigidXf3d *new_elem)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a1ff4731cb0e9b061257ba92321d736bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="171" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="171" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1acce343a55ffadde6b3ebc37946b450dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_begin</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_begin</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="177" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="177" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a8957344ed9b8493c2c5a0d58a780e0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_RigidXf3d_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_is_begin</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a6a1927cf89a53ea8492141d94b967c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_begin_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="188" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="188" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a39612290452030e3631215933a2da4ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_RigidXf3d_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="193" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="193" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ae49b5e99ac5fd60d561265fa3311c09a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_end</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_end</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="199" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="199" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a1363b74408bfeb18579ecb25dccff0d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_RigidXf3d_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_is_end</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="204" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a7212de0ea62e3a20a3f2682a72162c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_end_mut</name>
+        <param>
+          <type><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="210" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="210" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a9e2065dd44e34634a4f47fc2dd9f63b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_RigidXf3d_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="215" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="215" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1adaa75c4e9e952d2c01baad48643b050f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_RigidXf3d_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_to_index</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="220" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="220" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a2c23fbad51aa67ee4897893239d78e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_RigidXf3d_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d *_this, const MR_std_vector_MR_RigidXf3d_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="225" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="225" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ab84463a3cb023208a582e52e73719d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="229" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="229" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a53fcb7991b86b13e520e93d54ddcb874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1ac1ce918b648aa394bb7dec417d9cb69a" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a03a39b396eff2e87483c7e667831cac8" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a3721386694b3394d659d376f4adf82e0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="234" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="234" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aa7d6995721062f0c6a7c70f050b27a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="241" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="241" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a340c44769da7f6363e1f6529f34f35fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_const_iterator *_this, const MR_std_vector_MR_RigidXf3d_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="248" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="248" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="251" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="251" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ac1ce918b648aa394bb7dec417d9cb69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="254" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="254" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a3721386694b3394d659d376f4adf82e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="258" column="57" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="258" declcolumn="57"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a03a39b396eff2e87483c7e667831cac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="262" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="262" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a4fbf256d377caa9d06dbf7ad616bbaba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_const_iterator * MR_std_vector_MR_RigidXf3d_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="267" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="267" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1af2f6db61941f32ef324072b89a70f917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="271" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="271" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ac1a74226864345be0f30a2691bd8a255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a0a94af6a4bdbf513a0a952ae4f5d1a24" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a0de2b53f5e1aaa7a4174d357b0326005" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1aac08065de752235b02f95e36f0637e24" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="276" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="276" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a0153b937e669ebabe9db28bafa44e412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="283" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="283" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ab6cde019d4b25ff1a500b2b2b63dbcfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_iterator *_this, const MR_std_vector_MR_RigidXf3d_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="293" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="293" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a0a94af6a4bdbf513a0a952ae4f5d1a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="296" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="296" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aac08065de752235b02f95e36f0637e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="300" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="300" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a0de2b53f5e1aaa7a4174d357b0326005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_RigidXf3d_iterator * MR_std_vector_MR_RigidXf3d_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="304" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="304" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a3d0056052c424cbdba029f5613528dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="310" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="310" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a6d4411750b10b56be1ea4b166ecc0dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a1b98caa15c8404b8a5efb4f4d4b6bcd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1ae1e6677a9cc2dce683eb718c7ed324cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="322" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="322" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1af18cb2b2d9eb606b2d3da4ff4fde90ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_RigidXf3d_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *a, const MR_std_vector_MR_RigidXf3d_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_RigidXf3d_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="327" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="327" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aead8366abc22f665e4a6fa2fd9272952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_RigidXf3d_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_const_iterator *a, const MR_std_vector_MR_RigidXf3d_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_RigidXf3d_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="332" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="332" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a3c5b25cfb64b03cd3ee7f38cbcc0c69a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_std_vector_MR_RigidXf3d_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="338" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="338" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a6a7b76c94882d4a6c10c08ce10d7fe52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a9f93593b539b0881499fc3addc3918a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1aa001167733e3ce66c7f63501baf23936" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_RigidXf3d_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_RigidXf3d_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_RigidXf3d_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="350" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="350" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a021a7744d2b254a87566d2fb91f5052b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_RigidXf3d_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *a, const MR_std_vector_MR_RigidXf3d_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_RigidXf3d_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="355" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="355" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__RigidXf3d_8h_1a0a4243d24ed89f7d94f48178492a40e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_RigidXf3d_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_RigidXf3d_iterator *a, const MR_std_vector_MR_RigidXf3d_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_RigidXf3d_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" line="360" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h" declline="360" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRigidXf3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__RigidXf3d_8h_1a531cf6da8613f86afe274ac87f82c0d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a531cf6da8613f86afe274ac87f82c0d9" kindref="member">MR_std_vector_MR_RigidXf3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__RigidXf3d_8h_1ab3a497d848b55c5c6e7a1f2ceb5e64c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1ab3a497d848b55c5c6e7a1f2ceb5e64c9" kindref="member">MR_std_vector_MR_RigidXf3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__RigidXf3d_8h_1a9165d8541a72ce05813e33c2bfe5ba96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a9165d8541a72ce05813e33c2bfe5ba96" kindref="member">MR_std_vector_MR_RigidXf3d_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__RigidXf3d_8h_1a14b9d32158db11c0061f2afb4aae0c38" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a14b9d32158db11c0061f2afb4aae0c38" kindref="member">MR_std_vector_MR_RigidXf3d_AssignFromAnother</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a467285b994abb2754c0a2a79cd65a963" kindref="member">MR_std_vector_MR_RigidXf3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__RigidXf3d_8h_1ad463ed2ade590865645b58cdf7c64c47" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ad463ed2ade590865645b58cdf7c64c47" kindref="member">MR_std_vector_MR_RigidXf3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__RigidXf3d_8h_1abe316b1a06adb5f23a31f0e3db088d34" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1abe316b1a06adb5f23a31f0e3db088d34" kindref="member">MR_std_vector_MR_RigidXf3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__RigidXf3d_8h_1a40d064d9f2bb2df3860f2f6df9c33e1c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a40d064d9f2bb2df3860f2f6df9c33e1c" kindref="member">MR_std_vector_MR_RigidXf3d_OffsetMutablePtr</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__RigidXf3d_8h_1a3d87a80534cc2456df53dd4c8ca3389e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a3d87a80534cc2456df53dd4c8ca3389e" kindref="member">MR_std_vector_MR_RigidXf3d_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__RigidXf3d_8h_1ae0cee060bdb61d80edd2cd461fb01b7e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ae0cee060bdb61d80edd2cd461fb01b7e" kindref="member">MR_std_vector_MR_RigidXf3d_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="std__vector__MR__RigidXf3d_8h_1a247c7798bb7581486ba4fab8eda9b007" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a247c7798bb7581486ba4fab8eda9b007" kindref="member">MR_std_vector_MR_RigidXf3d_resize</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="std__vector__MR__RigidXf3d_8h_1a68c0b29fa5fb9eee3b423729a89b6bb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a68c0b29fa5fb9eee3b423729a89b6bb1" kindref="member">MR_std_vector_MR_RigidXf3d_resize_with_default_value</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__RigidXf3d_8h_1a0a9e82fcb52e150dff0ef30d6f8d58ea" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a0a9e82fcb52e150dff0ef30d6f8d58ea" kindref="member">MR_std_vector_MR_RigidXf3d_clear</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__RigidXf3d_8h_1aede04d003d467e080dff85c60488c457" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1aede04d003d467e080dff85c60488c457" kindref="member">MR_std_vector_MR_RigidXf3d_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__RigidXf3d_8h_1aa2c8cc316256737441821479b0eb827e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1aa2c8cc316256737441821479b0eb827e" kindref="member">MR_std_vector_MR_RigidXf3d_reserve</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="std__vector__MR__RigidXf3d_8h_1a52cf3094de61fefd5f9530c1e95d34b6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a52cf3094de61fefd5f9530c1e95d34b6" kindref="member">MR_std_vector_MR_RigidXf3d_shrink_to_fit</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="std__vector__MR__RigidXf3d_8h_1af6f6fadddb377c85a215a50734297545" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1af6f6fadddb377c85a215a50734297545" kindref="member">MR_std_vector_MR_RigidXf3d_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="std__vector__MR__RigidXf3d_8h_1acfbe11c812c94fff9dd0ad0403686a7a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1acfbe11c812c94fff9dd0ad0403686a7a" kindref="member">MR_std_vector_MR_RigidXf3d_at_mut</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__vector__MR__RigidXf3d_8h_1a29aabdc2d37c593aebf46c18f02c99b4" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a29aabdc2d37c593aebf46c18f02c99b4" kindref="member">MR_std_vector_MR_RigidXf3d_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__vector__MR__RigidXf3d_8h_1ac0499ed3685dab5e841673430153ea02" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1ac0499ed3685dab5e841673430153ea02" kindref="member">MR_std_vector_MR_RigidXf3d_front_mut</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__vector__MR__RigidXf3d_8h_1aa691ff2bdbc305a932c72cef0e360a7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1aa691ff2bdbc305a932c72cef0e360a7b" kindref="member">MR_std_vector_MR_RigidXf3d_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="std__vector__MR__RigidXf3d_8h_1a114f909d995f50f208fdd372c55ed553" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a114f909d995f50f208fdd372c55ed553" kindref="member">MR_std_vector_MR_RigidXf3d_back_mut</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__RigidXf3d_8h_1ab0ac4749d2b2636486ef3f2e14bab9fa" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ab0ac4749d2b2636486ef3f2e14bab9fa" kindref="member">MR_std_vector_MR_RigidXf3d_push_back</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="std__vector__MR__RigidXf3d_8h_1a6d3c4d4f54367d7b8337998fe3ff3f0b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a6d3c4d4f54367d7b8337998fe3ff3f0b" kindref="member">MR_std_vector_MR_RigidXf3d_pop_back</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__RigidXf3d_8h_1a16b0c9a7368d7d4b55a69c9fc312f0ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a16b0c9a7368d7d4b55a69c9fc312f0ec" kindref="member">MR_std_vector_MR_RigidXf3d_insert</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147" refid="std__vector__MR__RigidXf3d_8h_1a005ac94d1f90e6b43da56254030b6b12" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a005ac94d1f90e6b43da56254030b6b12" kindref="member">MR_std_vector_MR_RigidXf3d_erase</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="std__vector__MR__RigidXf3d_8h_1a94e7f12b26a637d06d2cb5ad0651967b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a94e7f12b26a637d06d2cb5ad0651967b" kindref="member">MR_std_vector_MR_RigidXf3d_insert_at_mutable_iter</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="std__vector__MR__RigidXf3d_8h_1a68f39d977489579b31592009330285e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a68f39d977489579b31592009330285e1" kindref="member">MR_std_vector_MR_RigidXf3d_erase_at_mutable_iter</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="std__vector__MR__RigidXf3d_8h_1a63c713ea192103ea5eba861db3c5adad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a63c713ea192103ea5eba861db3c5adad" kindref="member">MR_std_vector_MR_RigidXf3d_insert_at_iter</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="std__vector__MR__RigidXf3d_8h_1a1ff4731cb0e9b061257ba92321d736bc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a1ff4731cb0e9b061257ba92321d736bc" kindref="member">MR_std_vector_MR_RigidXf3d_erase_at_iter</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="std__vector__MR__RigidXf3d_8h_1acce343a55ffadde6b3ebc37946b450dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1acce343a55ffadde6b3ebc37946b450dc" kindref="member">MR_std_vector_MR_RigidXf3d_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="std__vector__MR__RigidXf3d_8h_1a8957344ed9b8493c2c5a0d58a780e0d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8957344ed9b8493c2c5a0d58a780e0d3" kindref="member">MR_std_vector_MR_RigidXf3d_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="std__vector__MR__RigidXf3d_8h_1a6a1927cf89a53ea8492141d94b967c9a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a6a1927cf89a53ea8492141d94b967c9a" kindref="member">MR_std_vector_MR_RigidXf3d_begin_mut</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="std__vector__MR__RigidXf3d_8h_1a39612290452030e3631215933a2da4ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a39612290452030e3631215933a2da4ce" kindref="member">MR_std_vector_MR_RigidXf3d_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="std__vector__MR__RigidXf3d_8h_1ae49b5e99ac5fd60d561265fa3311c09a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1ae49b5e99ac5fd60d561265fa3311c09a" kindref="member">MR_std_vector_MR_RigidXf3d_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204" refid="std__vector__MR__RigidXf3d_8h_1a1363b74408bfeb18579ecb25dccff0d5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a1363b74408bfeb18579ecb25dccff0d5" kindref="member">MR_std_vector_MR_RigidXf3d_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210" refid="std__vector__MR__RigidXf3d_8h_1a7212de0ea62e3a20a3f2682a72162c7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a7212de0ea62e3a20a3f2682a72162c7c" kindref="member">MR_std_vector_MR_RigidXf3d_end_mut</ref>(<ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="std__vector__MR__RigidXf3d_8h_1a9e2065dd44e34634a4f47fc2dd9f63b8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a9e2065dd44e34634a4f47fc2dd9f63b8" kindref="member">MR_std_vector_MR_RigidXf3d_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="std__vector__MR__RigidXf3d_8h_1adaa75c4e9e952d2c01baad48643b050f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__RigidXf3d_8h_1adaa75c4e9e952d2c01baad48643b050f" kindref="member">MR_std_vector_MR_RigidXf3d_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__RigidXf3d_8h_1a2c23fbad51aa67ee4897893239d78e2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a2c23fbad51aa67ee4897893239d78e2b" kindref="member">MR_std_vector_MR_RigidXf3d_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMultiwayAligningTransform_8h_1aa90e81181c24311564e915e4fadc9b8a" kindref="member">MR_std_vector_MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="std__vector__MR__RigidXf3d_8h_1ab84463a3cb023208a582e52e73719d61" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1ab84463a3cb023208a582e52e73719d61" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="std__vector__MR__RigidXf3d_8h_1a53fcb7991b86b13e520e93d54ddcb874" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a53fcb7991b86b13e520e93d54ddcb874" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="std__vector__MR__RigidXf3d_8h_1aa7d6995721062f0c6a7c70f050b27a68" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1aa7d6995721062f0c6a7c70f050b27a68" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="std__vector__MR__RigidXf3d_8h_1a340c44769da7f6363e1f6529f34f35fe" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a340c44769da7f6363e1f6529f34f35fe" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1aaaa8ce71ef6d33e62843a5462c8876d0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__RigidXf3d_8h_1ac1ce918b648aa394bb7dec417d9cb69a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ac1ce918b648aa394bb7dec417d9cb69a" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__RigidXf3d_8h_1a3721386694b3394d659d376f4adf82e0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a3721386694b3394d659d376f4adf82e0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="std__vector__MR__RigidXf3d_8h_1a03a39b396eff2e87483c7e667831cac8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a03a39b396eff2e87483c7e667831cac8" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__RigidXf3d_8h_1a4fbf256d377caa9d06dbf7ad616bbaba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a4fbf256d377caa9d06dbf7ad616bbaba" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="std__vector__MR__RigidXf3d_8h_1af2f6db61941f32ef324072b89a70f917" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1af2f6db61941f32ef324072b89a70f917" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="std__vector__MR__RigidXf3d_8h_1ac1a74226864345be0f30a2691bd8a255" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1ac1a74226864345be0f30a2691bd8a255" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="std__vector__MR__RigidXf3d_8h_1a0153b937e669ebabe9db28bafa44e412" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a0153b937e669ebabe9db28bafa44e412" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="std__vector__MR__RigidXf3d_8h_1ab6cde019d4b25ff1a500b2b2b63dbcfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ab6cde019d4b25ff1a500b2b2b63dbcfd" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1afba1a98994c10889aece93eedcb5760b" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__RigidXf3d_8h_1a0a94af6a4bdbf513a0a952ae4f5d1a24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a0a94af6a4bdbf513a0a952ae4f5d1a24" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__RigidXf3d_8h_1aac08065de752235b02f95e36f0637e24" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1aac08065de752235b02f95e36f0637e24" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="std__vector__MR__RigidXf3d_8h_1a0de2b53f5e1aaa7a4174d357b0326005" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a0de2b53f5e1aaa7a4174d357b0326005" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__RigidXf3d_8h_1a3d0056052c424cbdba029f5613528dc0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a3d0056052c424cbdba029f5613528dc0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__RigidXf3d_8h_1a6d4411750b10b56be1ea4b166ecc0dda" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a6d4411750b10b56be1ea4b166ecc0dda" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_incr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__RigidXf3d_8h_1a1b98caa15c8404b8a5efb4f4d4b6bcd0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a1b98caa15c8404b8a5efb4f4d4b6bcd0" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_decr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="std__vector__MR__RigidXf3d_8h_1ae1e6677a9cc2dce683eb718c7ed324cc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1ae1e6677a9cc2dce683eb718c7ed324cc" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="std__vector__MR__RigidXf3d_8h_1af18cb2b2d9eb606b2d3da4ff4fde90ab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__RigidXf3d_8h_1af18cb2b2d9eb606b2d3da4ff4fde90ab" kindref="member">MR_sub_MR_std_vector_MR_RigidXf3d_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="std__vector__MR__RigidXf3d_8h_1aead8366abc22f665e4a6fa2fd9272952" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1aead8366abc22f665e4a6fa2fd9272952" kindref="member">MR_equal_MR_std_vector_MR_RigidXf3d_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a24d02e3b1975085d7f02937cab44aa6b" kindref="member">MR_std_vector_MR_RigidXf3d_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__RigidXf3d_8h_1a3c5b25cfb64b03cd3ee7f38cbcc0c69a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="std__vector__MR__RigidXf3d_8h_1a3c5b25cfb64b03cd3ee7f38cbcc0c69a" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__RigidXf3d_8h_1a6a7b76c94882d4a6c10c08ce10d7fe52" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a6a7b76c94882d4a6c10c08ce10d7fe52" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_incr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__RigidXf3d_8h_1a9f93593b539b0881499fc3addc3918a8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a9f93593b539b0881499fc3addc3918a8" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_decr</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="std__vector__MR__RigidXf3d_8h_1aa001167733e3ce66c7f63501baf23936" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1aa001167733e3ce66c7f63501baf23936" kindref="member">MR_std_vector_MR_RigidXf3d_iterator_add_assign</ref>(<ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355" refid="std__vector__MR__RigidXf3d_8h_1a021a7744d2b254a87566d2fb91f5052b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a021a7744d2b254a87566d2fb91f5052b" kindref="member">MR_sub_MR_std_vector_MR_RigidXf3d_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="std__vector__MR__RigidXf3d_8h_1a0a4243d24ed89f7d94f48178492a40e2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a0a4243d24ed89f7d94f48178492a40e2" kindref="member">MR_equal_MR_std_vector_MR_RigidXf3d_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__RigidXf3d_8h_1a8f922b0c885d76ffac8bd0b2c796bbb0" kindref="member">MR_std_vector_MR_RigidXf3d_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_RigidXf3d.h"/>
+  </compounddef>
+</doxygen>

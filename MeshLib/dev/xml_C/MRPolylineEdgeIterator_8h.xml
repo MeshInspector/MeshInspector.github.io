@@ -3,7 +3,7 @@
   <compounddef id="MRPolylineEdgeIterator_8h" kind="file" language="C++">
     <compoundname>MRPolylineEdgeIterator.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -26,27 +26,38 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_DefaultConstruct</name>
@@ -60,10 +71,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="24" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="24" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="24" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="24" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a3e73f5be2d51933f6226037e9a7e3307" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_DefaultConstructArray</name>
@@ -78,10 +89,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="29" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="29" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="29" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="29" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a9cc644edf21c91a0ca0d7b1080bbd9a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API const MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_OffsetPtr</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_OffsetPtr</name>
@@ -100,10 +111,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="33" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="33" declcolumn="49"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="33" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="33" declcolumn="49"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1ac7883323dd85f5c7a0f77710eed1b8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</definition>
         <argsstring>(MR_PolylineUndirectedEdgeIterator *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</name>
@@ -122,10 +133,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="37" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="37" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="37" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="37" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</name>
@@ -140,10 +151,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="43" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="43" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="43" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="43" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_Construct</definition>
         <argsstring>(const MR_PolylineTopology *topology)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_Construct</name>
@@ -158,10 +169,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="50" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="50" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="50" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="50" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineUndirectedEdgeIterator_Destroy</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_Destroy</name>
@@ -176,10 +187,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="53" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="53" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a82f8183c570258c8f5f8fafda4916fed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineUndirectedEdgeIterator_DestroyArray</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_DestroyArray</name>
@@ -194,10 +205,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a6af435bc62b265c4da455d6be120ee04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_PolylineUndirectedEdgeIterator_AssignFromAnother</definition>
         <argsstring>(MR_PolylineUndirectedEdgeIterator *_this, const MR_PolylineUndirectedEdgeIterator *_other)</argsstring>
         <name>MR_PolylineUndirectedEdgeIterator_AssignFromAnother</name>
@@ -216,10 +227,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="64" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="64" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="64" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="64" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1aed725035194c5e1d6bc898b3f77c7c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_PolylineUndirectedEdgeIterator * MR_incr_MR_PolylineUndirectedEdgeIterator</definition>
         <argsstring>(MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
         <name>MR_incr_MR_PolylineUndirectedEdgeIterator</name>
@@ -234,10 +245,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="69" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="69" declcolumn="43"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="69" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="69" declcolumn="43"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1ad043ad5943c348babe884f32649f03f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
         <definition>MRC_API MR_UndirectedEdgeId MR_deref_MR_PolylineUndirectedEdgeIterator</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *_this)</argsstring>
         <name>MR_deref_MR_PolylineUndirectedEdgeIterator</name>
@@ -252,10 +263,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="74" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="74" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="74" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="74" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1af44606218cedf357d3aa650285959d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_not_equal_MR_PolylineUndirectedEdgeIterator</definition>
         <argsstring>(const MR_PolylineUndirectedEdgeIterator *a, const MR_PolylineUndirectedEdgeIterator *b)</argsstring>
         <name>MR_not_equal_MR_PolylineUndirectedEdgeIterator</name>
@@ -274,10 +285,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="85" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="85" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineEdgeIterator_8h_1a2082792bcfb4ae5dd35235c34a0f1e3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref> *</type>
         <definition>MRC_API MR_IteratorRange_MR_PolylineUndirectedEdgeIterator * MR_undirectedEdges_MR_PolylineTopology</definition>
         <argsstring>(const MR_PolylineTopology *topology)</argsstring>
         <name>MR_undirectedEdges_MR_PolylineTopology</name>
@@ -292,7 +303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" line="90" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h" declline="90" declcolumn="60"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" line="90" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h" declline="90" declcolumn="60"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -303,7 +314,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -318,39 +329,39 @@
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref>;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" kindref="member">MR_PolylineUndirectedEdgeIterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24" refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a224cdacee8ba75237f2e48679026eff1" kindref="member">MR_PolylineUndirectedEdgeIterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="MRPolylineEdgeIterator_8h_1a3e73f5be2d51933f6226037e9a7e3307" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a3e73f5be2d51933f6226037e9a7e3307" kindref="member">MR_PolylineUndirectedEdgeIterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="29" refid="MRPolylineEdgeIterator_8h_1a3e73f5be2d51933f6226037e9a7e3307" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a3e73f5be2d51933f6226037e9a7e3307" kindref="member">MR_PolylineUndirectedEdgeIterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33" refid="MRPolylineEdgeIterator_8h_1a9cc644edf21c91a0ca0d7b1080bbd9a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a9cc644edf21c91a0ca0d7b1080bbd9a0" kindref="member">MR_PolylineUndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="33" refid="MRPolylineEdgeIterator_8h_1a9cc644edf21c91a0ca0d7b1080bbd9a0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a9cc644edf21c91a0ca0d7b1080bbd9a0" kindref="member">MR_PolylineUndirectedEdgeIterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37" refid="MRPolylineEdgeIterator_8h_1ac7883323dd85f5c7a0f77710eed1b8f8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1ac7883323dd85f5c7a0f77710eed1b8f8" kindref="member">MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="37" refid="MRPolylineEdgeIterator_8h_1ac7883323dd85f5c7a0f77710eed1b8f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1ac7883323dd85f5c7a0f77710eed1b8f8" kindref="member">MR_PolylineUndirectedEdgeIterator_OffsetMutablePtr</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" kindref="member">MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="43" refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a655d85f7473fdbd2878424413805f9f7" kindref="member">MR_PolylineUndirectedEdgeIterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/>creates<sp/>begin<sp/>iterator</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" kindref="member">MR_PolylineUndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="50" refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a027016a799144c2a73aa5f28e78361be" kindref="member">MR_PolylineUndirectedEdgeIterator_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53" refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53" refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1a117e1f4c59b8ee8d1abf08afb6446ce7" kindref="member">MR_PolylineUndirectedEdgeIterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRPolylineEdgeIterator_8h_1a82f8183c570258c8f5f8fafda4916fed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1a82f8183c570258c8f5f8fafda4916fed" kindref="member">MR_PolylineUndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56" refid="MRPolylineEdgeIterator_8h_1a82f8183c570258c8f5f8fafda4916fed" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1a82f8183c570258c8f5f8fafda4916fed" kindref="member">MR_PolylineUndirectedEdgeIterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="64" refid="MRPolylineEdgeIterator_8h_1a6af435bc62b265c4da455d6be120ee04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a6af435bc62b265c4da455d6be120ee04" kindref="member">MR_PolylineUndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="64" refid="MRPolylineEdgeIterator_8h_1a6af435bc62b265c4da455d6be120ee04" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a6af435bc62b265c4da455d6be120ee04" kindref="member">MR_PolylineUndirectedEdgeIterator_AssignFromAnother</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69" refid="MRPolylineEdgeIterator_8h_1aed725035194c5e1d6bc898b3f77c7c18" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1aed725035194c5e1d6bc898b3f77c7c18" kindref="member">MR_incr_MR_PolylineUndirectedEdgeIterator</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69" refid="MRPolylineEdgeIterator_8h_1aed725035194c5e1d6bc898b3f77c7c18" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1aed725035194c5e1d6bc898b3f77c7c18" kindref="member">MR_incr_MR_PolylineUndirectedEdgeIterator</ref>(<ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRPolylineEdgeIterator_8h_1ad043ad5943c348babe884f32649f03f0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRPolylineEdgeIterator_8h_1ad043ad5943c348babe884f32649f03f0" kindref="member">MR_deref_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74" refid="MRPolylineEdgeIterator_8h_1ad043ad5943c348babe884f32649f03f0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRPolylineEdgeIterator_8h_1ad043ad5943c348babe884f32649f03f0" kindref="member">MR_deref_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="80"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_equal_MR_PolylineUndirectedEdgeIterator(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>MR_equal_MR_PolylineUndirectedEdgeIterator(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"></highlight></codeline>
-<codeline lineno="85" refid="MRPolylineEdgeIterator_8h_1af44606218cedf357d3aa650285959d6d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1af44606218cedf357d3aa650285959d6d" kindref="member">MR_not_equal_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="85" refid="MRPolylineEdgeIterator_8h_1af44606218cedf357d3aa650285959d6d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRPolylineEdgeIterator_8h_1af44606218cedf357d3aa650285959d6d" kindref="member">MR_not_equal_MR_PolylineUndirectedEdgeIterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIteratorRange_8h_1ae6e065050c61472b2891c5a5007dc426" kindref="member">MR_PolylineUndirectedEdgeIterator</ref><sp/>*b);</highlight></codeline>
 <codeline lineno="86"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90" refid="MRPolylineEdgeIterator_8h_1a2082792bcfb4ae5dd35235c34a0f1e3c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a2082792bcfb4ae5dd35235c34a0f1e3c" kindref="member">MR_undirectedEdges_MR_PolylineTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
+<codeline lineno="90" refid="MRPolylineEdgeIterator_8h_1a2082792bcfb4ae5dd35235c34a0f1e3c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRIteratorRange_8h_1a210c323dfaa0990243a9ea8357bf584f" kindref="member">MR_IteratorRange_MR_PolylineUndirectedEdgeIterator</ref><sp/>*<ref refid="MRPolylineEdgeIterator_8h_1a2082792bcfb4ae5dd35235c34a0f1e3c" kindref="member">MR_undirectedEdges_MR_PolylineTopology</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREdgePoint_8h_1a02d1fe1568aa3e29e692594602ba76bd" kindref="member">MR_PolylineTopology</ref><sp/>*topology);</highlight></codeline>
 <codeline lineno="91"><highlight class="normal"></highlight></codeline>
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="93"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineEdgeIterator.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineEdgeIterator.h"/>
   </compounddef>
 </doxygen>

@@ -145,8 +145,8 @@ $(function(){initNavTree('MRTriDist_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRVector3_8h_source.html">MRCMesh/MRVector3.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -154,7 +154,7 @@ $(function(){initNavTree('MRTriDist_8h.html','',''); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ace0987ea77140eca8dd5c1d9e279129c" id="r_ace0987ea77140eca8dd5c1d9e279129c"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a></td></tr>
+<tr class="memitem:ace0987ea77140eca8dd5c1d9e279129c" id="r_ace0987ea77140eca8dd5c1d9e279129c"><td class="memItemLeft" align="right" valign="top">typedef struct MR_std_array_MR_Vector3d_3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a></td></tr>
 <tr class="memitem:ae9c40a1aeb5944471bdd0069f3cd0580" id="r_ae9c40a1aeb5944471bdd0069f3cd0580"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a></td></tr>
 <tr class="memitem:abd40009ace399a46f36148ebf4a80630" id="r_abd40009ace399a46f36148ebf4a80630"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a></td></tr>
 <tr class="memitem:a523fc5197b62dc5030370d9bb1455c29" id="r_a523fc5197b62dc5030370d9bb1455c29"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a></td></tr>
@@ -163,100 +163,100 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a15de9c8aeb9235d490a69c0450e30c1a" id="r_a15de9c8aeb9235d490a69c0450e30c1a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de">MR_UpLimitCheck_GreaterOrEqual</a> = 0
-, <a class="el" href="#a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0">MR_UpLimitCheck_Greater</a> = 1
+<tr class="memitem:ac35d724b0dd0189bb7eb2ff3adc07e0d" id="r_ac35d724b0dd0189bb7eb2ff3adc07e0d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="#ac35d724b0dd0189bb7eb2ff3adc07e0dadf2e755067fca1ded95fdeb3ddccc3de">MR_UpLimitCheck_GreaterOrEqual</a> = 0
+, <a class="el" href="#ac35d724b0dd0189bb7eb2ff3adc07e0dab370af5bd41f90f12b7710866f65a3e0">MR_UpLimitCheck_Greater</a> = 1
  }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a45f194e9c79c1c88e5d2f8d6990c2239" id="r_a45f194e9c79c1c88e5d2f8d6990c2239"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f194e9c79c1c88e5d2f8d6990c2239">MR_TriTriDistanceResult_float_Get_a</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:a3e2a65a1e69b638a0264bf1541d5746c" id="r_a3e2a65a1e69b638a0264bf1541d5746c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2a65a1e69b638a0264bf1541d5746c">MR_TriTriDistanceResult_float_Set_a</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
-<tr class="memitem:afd6d06b10127708c8fcf14f05845c8a2" id="r_afd6d06b10127708c8fcf14f05845c8a2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6d06b10127708c8fcf14f05845c8a2">MR_TriTriDistanceResult_float_GetMutable_a</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:aeab213c0999fa251beeb4f1c9458cb82" id="r_aeab213c0999fa251beeb4f1c9458cb82"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab213c0999fa251beeb4f1c9458cb82">MR_TriTriDistanceResult_float_Get_b</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:a762ad74a3745a30d3a07c7f1d1091a92" id="r_a762ad74a3745a30d3a07c7f1d1091a92"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a762ad74a3745a30d3a07c7f1d1091a92">MR_TriTriDistanceResult_float_Set_b</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
-<tr class="memitem:a8434f5f9e395dd4d0a5feb956b6642b5" id="r_a8434f5f9e395dd4d0a5feb956b6642b5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8434f5f9e395dd4d0a5feb956b6642b5">MR_TriTriDistanceResult_float_GetMutable_b</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:a72607076fa6140935e88ddd9e8d0033d" id="r_a72607076fa6140935e88ddd9e8d0033d"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72607076fa6140935e88ddd9e8d0033d">MR_TriTriDistanceResult_float_Get_distSq</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:a519fa9fe11c658bb68e75d40d02fdd67" id="r_a519fa9fe11c658bb68e75d40d02fdd67"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a519fa9fe11c658bb68e75d40d02fdd67">MR_TriTriDistanceResult_float_Set_distSq</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, float value)</td></tr>
-<tr class="memitem:a4e7f5db9e728e1b7941afd5c93945a01" id="r_a4e7f5db9e728e1b7941afd5c93945a01"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7f5db9e728e1b7941afd5c93945a01">MR_TriTriDistanceResult_float_GetMutable_distSq</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:af8d2bd188d4b62c5ba3a70050c34696e" id="r_af8d2bd188d4b62c5ba3a70050c34696e"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8d2bd188d4b62c5ba3a70050c34696e">MR_TriTriDistanceResult_float_Get_overlap</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:ad756a635b42eb3a024740115fc48512c" id="r_ad756a635b42eb3a024740115fc48512c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad756a635b42eb3a024740115fc48512c">MR_TriTriDistanceResult_float_Set_overlap</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, bool value)</td></tr>
-<tr class="memitem:a677aab0e5f8ab49d7e0d4e03d12c52d5" id="r_a677aab0e5f8ab49d7e0d4e03d12c52d5"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677aab0e5f8ab49d7e0d4e03d12c52d5">MR_TriTriDistanceResult_float_GetMutable_overlap</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
-<tr class="memitem:a9b28d0187ace8467fb8b82a3de6eac82" id="r_a9b28d0187ace8467fb8b82a3de6eac82"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b28d0187ace8467fb8b82a3de6eac82">MR_TriTriDistanceResult_float_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:aa48bcc37b4776de62505cac64ec83b83" id="r_aa48bcc37b4776de62505cac64ec83b83"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa48bcc37b4776de62505cac64ec83b83">MR_TriTriDistanceResult_float_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a668c03b1c29128b7499812fb0f44bae3" id="r_a668c03b1c29128b7499812fb0f44bae3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668c03b1c29128b7499812fb0f44bae3">MR_TriTriDistanceResult_float_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> a, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> b, float distSq, bool overlap)</td></tr>
-<tr class="memitem:a35996e4cf69bba6201b82ad9dccd0fb3" id="r_a35996e4cf69bba6201b82ad9dccd0fb3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35996e4cf69bba6201b82ad9dccd0fb3">MR_TriTriDistanceResult_float_OffsetPtr</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:ac862a2cec9ca3abe064daffbdfdc7fcc" id="r_ac862a2cec9ca3abe064daffbdfdc7fcc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac862a2cec9ca3abe064daffbdfdc7fcc">MR_TriTriDistanceResult_float_OffsetMutablePtr</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:ab3e66fd7b2373449cf16fb2e4fb299da" id="r_ab3e66fd7b2373449cf16fb2e4fb299da"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e66fd7b2373449cf16fb2e4fb299da">MR_TriTriDistanceResult_float_ConstructFromAnother</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_other)</td></tr>
-<tr class="memitem:ac4e695a46966583d085a69f546e55d60" id="r_ac4e695a46966583d085a69f546e55d60"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4e695a46966583d085a69f546e55d60">MR_TriTriDistanceResult_float_Destroy</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a45f194e9c79c1c88e5d2f8d6990c2239" id="r_a45f194e9c79c1c88e5d2f8d6990c2239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45f194e9c79c1c88e5d2f8d6990c2239">MR_TriTriDistanceResult_float_Get_a</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a3e2a65a1e69b638a0264bf1541d5746c" id="r_a3e2a65a1e69b638a0264bf1541d5746c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e2a65a1e69b638a0264bf1541d5746c">MR_TriTriDistanceResult_float_Set_a</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="memitem:afd6d06b10127708c8fcf14f05845c8a2" id="r_afd6d06b10127708c8fcf14f05845c8a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd6d06b10127708c8fcf14f05845c8a2">MR_TriTriDistanceResult_float_GetMutable_a</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:aeab213c0999fa251beeb4f1c9458cb82" id="r_aeab213c0999fa251beeb4f1c9458cb82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeab213c0999fa251beeb4f1c9458cb82">MR_TriTriDistanceResult_float_Get_b</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a762ad74a3745a30d3a07c7f1d1091a92" id="r_a762ad74a3745a30d3a07c7f1d1091a92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a762ad74a3745a30d3a07c7f1d1091a92">MR_TriTriDistanceResult_float_Set_b</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> value)</td></tr>
+<tr class="memitem:a8434f5f9e395dd4d0a5feb956b6642b5" id="r_a8434f5f9e395dd4d0a5feb956b6642b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8434f5f9e395dd4d0a5feb956b6642b5">MR_TriTriDistanceResult_float_GetMutable_b</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a72607076fa6140935e88ddd9e8d0033d" id="r_a72607076fa6140935e88ddd9e8d0033d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72607076fa6140935e88ddd9e8d0033d">MR_TriTriDistanceResult_float_Get_distSq</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a519fa9fe11c658bb68e75d40d02fdd67" id="r_a519fa9fe11c658bb68e75d40d02fdd67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a519fa9fe11c658bb68e75d40d02fdd67">MR_TriTriDistanceResult_float_Set_distSq</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, float value)</td></tr>
+<tr class="memitem:a4e7f5db9e728e1b7941afd5c93945a01" id="r_a4e7f5db9e728e1b7941afd5c93945a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4e7f5db9e728e1b7941afd5c93945a01">MR_TriTriDistanceResult_float_GetMutable_distSq</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:af8d2bd188d4b62c5ba3a70050c34696e" id="r_af8d2bd188d4b62c5ba3a70050c34696e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af8d2bd188d4b62c5ba3a70050c34696e">MR_TriTriDistanceResult_float_Get_overlap</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:ad756a635b42eb3a024740115fc48512c" id="r_ad756a635b42eb3a024740115fc48512c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad756a635b42eb3a024740115fc48512c">MR_TriTriDistanceResult_float_Set_overlap</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, bool value)</td></tr>
+<tr class="memitem:a677aab0e5f8ab49d7e0d4e03d12c52d5" id="r_a677aab0e5f8ab49d7e0d4e03d12c52d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a677aab0e5f8ab49d7e0d4e03d12c52d5">MR_TriTriDistanceResult_float_GetMutable_overlap</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a9b28d0187ace8467fb8b82a3de6eac82" id="r_a9b28d0187ace8467fb8b82a3de6eac82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9b28d0187ace8467fb8b82a3de6eac82">MR_TriTriDistanceResult_float_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:aa48bcc37b4776de62505cac64ec83b83" id="r_aa48bcc37b4776de62505cac64ec83b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa48bcc37b4776de62505cac64ec83b83">MR_TriTriDistanceResult_float_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a668c03b1c29128b7499812fb0f44bae3" id="r_a668c03b1c29128b7499812fb0f44bae3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a668c03b1c29128b7499812fb0f44bae3">MR_TriTriDistanceResult_float_ConstructFrom</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> a, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> b, float distSq, bool overlap)</td></tr>
+<tr class="memitem:a35996e4cf69bba6201b82ad9dccd0fb3" id="r_a35996e4cf69bba6201b82ad9dccd0fb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35996e4cf69bba6201b82ad9dccd0fb3">MR_TriTriDistanceResult_float_OffsetPtr</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ac862a2cec9ca3abe064daffbdfdc7fcc" id="r_ac862a2cec9ca3abe064daffbdfdc7fcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac862a2cec9ca3abe064daffbdfdc7fcc">MR_TriTriDistanceResult_float_OffsetMutablePtr</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ab3e66fd7b2373449cf16fb2e4fb299da" id="r_ab3e66fd7b2373449cf16fb2e4fb299da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3e66fd7b2373449cf16fb2e4fb299da">MR_TriTriDistanceResult_float_ConstructFromAnother</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_other)</td></tr>
+<tr class="memitem:ac4e695a46966583d085a69f546e55d60" id="r_ac4e695a46966583d085a69f546e55d60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4e695a46966583d085a69f546e55d60">MR_TriTriDistanceResult_float_Destroy</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
 <tr class="memdesc:ac4e695a46966583d085a69f546e55d60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a9adfa33cce896a5823b176d0815fda6d" id="r_a9adfa33cce896a5823b176d0815fda6d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9adfa33cce896a5823b176d0815fda6d">MR_TriTriDistanceResult_float_DestroyArray</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
+<tr class="memitem:a9adfa33cce896a5823b176d0815fda6d" id="r_a9adfa33cce896a5823b176d0815fda6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9adfa33cce896a5823b176d0815fda6d">MR_TriTriDistanceResult_float_DestroyArray</a> (const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this)</td></tr>
 <tr class="memdesc:a9adfa33cce896a5823b176d0815fda6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:afceaf70f569ecd1ebfbaec2f4ba6596c" id="r_afceaf70f569ecd1ebfbaec2f4ba6596c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afceaf70f569ecd1ebfbaec2f4ba6596c">MR_TriTriDistanceResult_float_AssignFromAnother</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_other)</td></tr>
-<tr class="memitem:a79c2dee0f65eb31c850a77180313dee6" id="r_a79c2dee0f65eb31c850a77180313dee6"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79c2dee0f65eb31c850a77180313dee6">MR_TriTriDistanceResult_double_Get_a</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a19d13697ddfcc1ea7155845a0a4b75df" id="r_a19d13697ddfcc1ea7155845a0a4b75df"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d13697ddfcc1ea7155845a0a4b75df">MR_TriTriDistanceResult_double_Set_a</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
-<tr class="memitem:a8d7e9be7685adf840f8aa806898d1a1e" id="r_a8d7e9be7685adf840f8aa806898d1a1e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d7e9be7685adf840f8aa806898d1a1e">MR_TriTriDistanceResult_double_GetMutable_a</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a7f01c2ac45593bd79ce94d74c2277896" id="r_a7f01c2ac45593bd79ce94d74c2277896"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f01c2ac45593bd79ce94d74c2277896">MR_TriTriDistanceResult_double_Get_b</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a632c9dda4c477f12b3a29d4948a07320" id="r_a632c9dda4c477f12b3a29d4948a07320"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a632c9dda4c477f12b3a29d4948a07320">MR_TriTriDistanceResult_double_Set_b</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
-<tr class="memitem:a59717927245f4ae84e4c2be7d69768f1" id="r_a59717927245f4ae84e4c2be7d69768f1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59717927245f4ae84e4c2be7d69768f1">MR_TriTriDistanceResult_double_GetMutable_b</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:aa3b1e7f7543ff193d5ddb1ecc5dc2568" id="r_aa3b1e7f7543ff193d5ddb1ecc5dc2568"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b1e7f7543ff193d5ddb1ecc5dc2568">MR_TriTriDistanceResult_double_Get_distSq</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a6b232960d676aca46391e2574577ddb5" id="r_a6b232960d676aca46391e2574577ddb5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b232960d676aca46391e2574577ddb5">MR_TriTriDistanceResult_double_Set_distSq</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, double value)</td></tr>
-<tr class="memitem:adf9faf2734a7fff062f2ff6a84c7438d" id="r_adf9faf2734a7fff062f2ff6a84c7438d"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9faf2734a7fff062f2ff6a84c7438d">MR_TriTriDistanceResult_double_GetMutable_distSq</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a89ea3b9ba6eba35063465a7b971d6bc5" id="r_a89ea3b9ba6eba35063465a7b971d6bc5"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ea3b9ba6eba35063465a7b971d6bc5">MR_TriTriDistanceResult_double_Get_overlap</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a1c82340d7989fbe0f52501322e1c24a2" id="r_a1c82340d7989fbe0f52501322e1c24a2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c82340d7989fbe0f52501322e1c24a2">MR_TriTriDistanceResult_double_Set_overlap</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, bool value)</td></tr>
-<tr class="memitem:ad4cd15999f01055299cb6e7f543e14c4" id="r_ad4cd15999f01055299cb6e7f543e14c4"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cd15999f01055299cb6e7f543e14c4">MR_TriTriDistanceResult_double_GetMutable_overlap</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
-<tr class="memitem:a76154d8763e1699a599b78dbe8dbc60d" id="r_a76154d8763e1699a599b78dbe8dbc60d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76154d8763e1699a599b78dbe8dbc60d">MR_TriTriDistanceResult_double_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a3e10511311cc4a3cc077796a74b05c18" id="r_a3e10511311cc4a3cc077796a74b05c18"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e10511311cc4a3cc077796a74b05c18">MR_TriTriDistanceResult_double_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a09c33198a70e6b858d8f1f27fdb9fcd8" id="r_a09c33198a70e6b858d8f1f27fdb9fcd8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c33198a70e6b858d8f1f27fdb9fcd8">MR_TriTriDistanceResult_double_ConstructFrom</a> (<a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> a, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> b, double distSq, bool overlap)</td></tr>
-<tr class="memitem:a70fff9993f1b2d43b9b05d3a7dab2cee" id="r_a70fff9993f1b2d43b9b05d3a7dab2cee"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70fff9993f1b2d43b9b05d3a7dab2cee">MR_TriTriDistanceResult_double_OffsetPtr</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:ae89e7cbae03da44aea1e77778a1c4fed" id="r_ae89e7cbae03da44aea1e77778a1c4fed"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae89e7cbae03da44aea1e77778a1c4fed">MR_TriTriDistanceResult_double_OffsetMutablePtr</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a91b3c48df87258e880fd9084fa46bbf7" id="r_a91b3c48df87258e880fd9084fa46bbf7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91b3c48df87258e880fd9084fa46bbf7">MR_TriTriDistanceResult_double_ConstructFromAnother</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_other)</td></tr>
-<tr class="memitem:a30f7fb82e0314dcd6c2f51154cc3b63f" id="r_a30f7fb82e0314dcd6c2f51154cc3b63f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f7fb82e0314dcd6c2f51154cc3b63f">MR_TriTriDistanceResult_double_Destroy</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:afceaf70f569ecd1ebfbaec2f4ba6596c" id="r_afceaf70f569ecd1ebfbaec2f4ba6596c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afceaf70f569ecd1ebfbaec2f4ba6596c">MR_TriTriDistanceResult_float_AssignFromAnother</a> (<a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_this, const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *_other)</td></tr>
+<tr class="memitem:a79c2dee0f65eb31c850a77180313dee6" id="r_a79c2dee0f65eb31c850a77180313dee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79c2dee0f65eb31c850a77180313dee6">MR_TriTriDistanceResult_double_Get_a</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a19d13697ddfcc1ea7155845a0a4b75df" id="r_a19d13697ddfcc1ea7155845a0a4b75df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19d13697ddfcc1ea7155845a0a4b75df">MR_TriTriDistanceResult_double_Set_a</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
+<tr class="memitem:a8d7e9be7685adf840f8aa806898d1a1e" id="r_a8d7e9be7685adf840f8aa806898d1a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d7e9be7685adf840f8aa806898d1a1e">MR_TriTriDistanceResult_double_GetMutable_a</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a7f01c2ac45593bd79ce94d74c2277896" id="r_a7f01c2ac45593bd79ce94d74c2277896"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f01c2ac45593bd79ce94d74c2277896">MR_TriTriDistanceResult_double_Get_b</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a632c9dda4c477f12b3a29d4948a07320" id="r_a632c9dda4c477f12b3a29d4948a07320"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a632c9dda4c477f12b3a29d4948a07320">MR_TriTriDistanceResult_double_Set_b</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> value)</td></tr>
+<tr class="memitem:a59717927245f4ae84e4c2be7d69768f1" id="r_a59717927245f4ae84e4c2be7d69768f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59717927245f4ae84e4c2be7d69768f1">MR_TriTriDistanceResult_double_GetMutable_b</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:aa3b1e7f7543ff193d5ddb1ecc5dc2568" id="r_aa3b1e7f7543ff193d5ddb1ecc5dc2568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3b1e7f7543ff193d5ddb1ecc5dc2568">MR_TriTriDistanceResult_double_Get_distSq</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a6b232960d676aca46391e2574577ddb5" id="r_a6b232960d676aca46391e2574577ddb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b232960d676aca46391e2574577ddb5">MR_TriTriDistanceResult_double_Set_distSq</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, double value)</td></tr>
+<tr class="memitem:adf9faf2734a7fff062f2ff6a84c7438d" id="r_adf9faf2734a7fff062f2ff6a84c7438d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf9faf2734a7fff062f2ff6a84c7438d">MR_TriTriDistanceResult_double_GetMutable_distSq</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a89ea3b9ba6eba35063465a7b971d6bc5" id="r_a89ea3b9ba6eba35063465a7b971d6bc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ea3b9ba6eba35063465a7b971d6bc5">MR_TriTriDistanceResult_double_Get_overlap</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a1c82340d7989fbe0f52501322e1c24a2" id="r_a1c82340d7989fbe0f52501322e1c24a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c82340d7989fbe0f52501322e1c24a2">MR_TriTriDistanceResult_double_Set_overlap</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, bool value)</td></tr>
+<tr class="memitem:ad4cd15999f01055299cb6e7f543e14c4" id="r_ad4cd15999f01055299cb6e7f543e14c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4cd15999f01055299cb6e7f543e14c4">MR_TriTriDistanceResult_double_GetMutable_overlap</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a76154d8763e1699a599b78dbe8dbc60d" id="r_a76154d8763e1699a599b78dbe8dbc60d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76154d8763e1699a599b78dbe8dbc60d">MR_TriTriDistanceResult_double_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a3e10511311cc4a3cc077796a74b05c18" id="r_a3e10511311cc4a3cc077796a74b05c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e10511311cc4a3cc077796a74b05c18">MR_TriTriDistanceResult_double_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a09c33198a70e6b858d8f1f27fdb9fcd8" id="r_a09c33198a70e6b858d8f1f27fdb9fcd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a09c33198a70e6b858d8f1f27fdb9fcd8">MR_TriTriDistanceResult_double_ConstructFrom</a> (<a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> a, <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> b, double distSq, bool overlap)</td></tr>
+<tr class="memitem:a70fff9993f1b2d43b9b05d3a7dab2cee" id="r_a70fff9993f1b2d43b9b05d3a7dab2cee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70fff9993f1b2d43b9b05d3a7dab2cee">MR_TriTriDistanceResult_double_OffsetPtr</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:ae89e7cbae03da44aea1e77778a1c4fed" id="r_ae89e7cbae03da44aea1e77778a1c4fed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae89e7cbae03da44aea1e77778a1c4fed">MR_TriTriDistanceResult_double_OffsetMutablePtr</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a91b3c48df87258e880fd9084fa46bbf7" id="r_a91b3c48df87258e880fd9084fa46bbf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91b3c48df87258e880fd9084fa46bbf7">MR_TriTriDistanceResult_double_ConstructFromAnother</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_other)</td></tr>
+<tr class="memitem:a30f7fb82e0314dcd6c2f51154cc3b63f" id="r_a30f7fb82e0314dcd6c2f51154cc3b63f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f7fb82e0314dcd6c2f51154cc3b63f">MR_TriTriDistanceResult_double_Destroy</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
 <tr class="memdesc:a30f7fb82e0314dcd6c2f51154cc3b63f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a805b729ae2bb3cd97d001515b7bf22bb" id="r_a805b729ae2bb3cd97d001515b7bf22bb"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a805b729ae2bb3cd97d001515b7bf22bb">MR_TriTriDistanceResult_double_DestroyArray</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
+<tr class="memitem:a805b729ae2bb3cd97d001515b7bf22bb" id="r_a805b729ae2bb3cd97d001515b7bf22bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a805b729ae2bb3cd97d001515b7bf22bb">MR_TriTriDistanceResult_double_DestroyArray</a> (const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this)</td></tr>
 <tr class="memdesc:a805b729ae2bb3cd97d001515b7bf22bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a7d5dcfc4bc147febaf0176615ce602c5" id="r_a7d5dcfc4bc147febaf0176615ce602c5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5dcfc4bc147febaf0176615ce602c5">MR_TriTriDistanceResult_double_AssignFromAnother</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_other)</td></tr>
-<tr class="memitem:a96b178ec72f18b82f4297bcc6fcd1038" id="r_a96b178ec72f18b82f4297bcc6fcd1038"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b178ec72f18b82f4297bcc6fcd1038">MR_TriTriDistanceParams_float_Get_upDistLimitSq</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
-<tr class="memitem:a2cbea8e6b3983b434588e73e9ac9c73f" id="r_a2cbea8e6b3983b434588e73e9ac9c73f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cbea8e6b3983b434588e73e9ac9c73f">MR_TriTriDistanceParams_float_Set_upDistLimitSq</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, float value)</td></tr>
-<tr class="memitem:ae23c096e2250790164b79c0d5278f711" id="r_ae23c096e2250790164b79c0d5278f711"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae23c096e2250790164b79c0d5278f711">MR_TriTriDistanceParams_float_GetMutable_upDistLimitSq</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
-<tr class="memitem:a3e167b1ca1cfca7c8e0aafcae7fb2170" id="r_a3e167b1ca1cfca7c8e0aafcae7fb2170"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e167b1ca1cfca7c8e0aafcae7fb2170">MR_TriTriDistanceParams_float_Get_upLimitCheck</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
-<tr class="memitem:ab657741b89af861373f14f1fd6cd2f37" id="r_ab657741b89af861373f14f1fd6cd2f37"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab657741b89af861373f14f1fd6cd2f37">MR_TriTriDistanceParams_float_Set_upLimitCheck</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> value)</td></tr>
-<tr class="memitem:a55eeac9950db11471ccdc49f106c00a8" id="r_a55eeac9950db11471ccdc49f106c00a8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55eeac9950db11471ccdc49f106c00a8">MR_TriTriDistanceParams_float_GetMutable_upLimitCheck</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
-<tr class="memitem:af966555282314e2ed4ee2f4df1a87666" id="r_af966555282314e2ed4ee2f4df1a87666"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af966555282314e2ed4ee2f4df1a87666">MR_TriTriDistanceParams_float_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:a47ec49bf460d0018a8a0767196932e3e" id="r_a47ec49bf460d0018a8a0767196932e3e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ec49bf460d0018a8a0767196932e3e">MR_TriTriDistanceParams_float_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a13ecb6506702c2da0db635beb26ee492" id="r_a13ecb6506702c2da0db635beb26ee492"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ecb6506702c2da0db635beb26ee492">MR_TriTriDistanceParams_float_ConstructFrom</a> (float upDistLimitSq, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> upLimitCheck)</td></tr>
-<tr class="memitem:ab5afa75b84356e36111fb610f2e5630f" id="r_ab5afa75b84356e36111fb610f2e5630f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5afa75b84356e36111fb610f2e5630f">MR_TriTriDistanceParams_float_OffsetPtr</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a11140b399ac560546c5d2c7165fc90d8" id="r_a11140b399ac560546c5d2c7165fc90d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11140b399ac560546c5d2c7165fc90d8">MR_TriTriDistanceParams_float_OffsetMutablePtr</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a3d711fb0df8b8c605cd535f598564316" id="r_a3d711fb0df8b8c605cd535f598564316"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d711fb0df8b8c605cd535f598564316">MR_TriTriDistanceParams_float_ConstructFromAnother</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_other)</td></tr>
-<tr class="memitem:a13f859250be4d59b2412abd82799c9cd" id="r_a13f859250be4d59b2412abd82799c9cd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13f859250be4d59b2412abd82799c9cd">MR_TriTriDistanceParams_float_Destroy</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:a7d5dcfc4bc147febaf0176615ce602c5" id="r_a7d5dcfc4bc147febaf0176615ce602c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7d5dcfc4bc147febaf0176615ce602c5">MR_TriTriDistanceResult_double_AssignFromAnother</a> (<a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_this, const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *_other)</td></tr>
+<tr class="memitem:a96b178ec72f18b82f4297bcc6fcd1038" id="r_a96b178ec72f18b82f4297bcc6fcd1038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a96b178ec72f18b82f4297bcc6fcd1038">MR_TriTriDistanceParams_float_Get_upDistLimitSq</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:a2cbea8e6b3983b434588e73e9ac9c73f" id="r_a2cbea8e6b3983b434588e73e9ac9c73f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2cbea8e6b3983b434588e73e9ac9c73f">MR_TriTriDistanceParams_float_Set_upDistLimitSq</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, float value)</td></tr>
+<tr class="memitem:ae23c096e2250790164b79c0d5278f711" id="r_ae23c096e2250790164b79c0d5278f711"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae23c096e2250790164b79c0d5278f711">MR_TriTriDistanceParams_float_GetMutable_upDistLimitSq</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:a3e167b1ca1cfca7c8e0aafcae7fb2170" id="r_a3e167b1ca1cfca7c8e0aafcae7fb2170"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e167b1ca1cfca7c8e0aafcae7fb2170">MR_TriTriDistanceParams_float_Get_upLimitCheck</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:ab657741b89af861373f14f1fd6cd2f37" id="r_ab657741b89af861373f14f1fd6cd2f37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab657741b89af861373f14f1fd6cd2f37">MR_TriTriDistanceParams_float_Set_upLimitCheck</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> value)</td></tr>
+<tr class="memitem:a55eeac9950db11471ccdc49f106c00a8" id="r_a55eeac9950db11471ccdc49f106c00a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a55eeac9950db11471ccdc49f106c00a8">MR_TriTriDistanceParams_float_GetMutable_upLimitCheck</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:af966555282314e2ed4ee2f4df1a87666" id="r_af966555282314e2ed4ee2f4df1a87666"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af966555282314e2ed4ee2f4df1a87666">MR_TriTriDistanceParams_float_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:a47ec49bf460d0018a8a0767196932e3e" id="r_a47ec49bf460d0018a8a0767196932e3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a47ec49bf460d0018a8a0767196932e3e">MR_TriTriDistanceParams_float_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a13ecb6506702c2da0db635beb26ee492" id="r_a13ecb6506702c2da0db635beb26ee492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13ecb6506702c2da0db635beb26ee492">MR_TriTriDistanceParams_float_ConstructFrom</a> (float upDistLimitSq, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> upLimitCheck)</td></tr>
+<tr class="memitem:ab5afa75b84356e36111fb610f2e5630f" id="r_ab5afa75b84356e36111fb610f2e5630f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab5afa75b84356e36111fb610f2e5630f">MR_TriTriDistanceParams_float_OffsetPtr</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a11140b399ac560546c5d2c7165fc90d8" id="r_a11140b399ac560546c5d2c7165fc90d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11140b399ac560546c5d2c7165fc90d8">MR_TriTriDistanceParams_float_OffsetMutablePtr</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a3d711fb0df8b8c605cd535f598564316" id="r_a3d711fb0df8b8c605cd535f598564316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d711fb0df8b8c605cd535f598564316">MR_TriTriDistanceParams_float_ConstructFromAnother</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_other)</td></tr>
+<tr class="memitem:a13f859250be4d59b2412abd82799c9cd" id="r_a13f859250be4d59b2412abd82799c9cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13f859250be4d59b2412abd82799c9cd">MR_TriTriDistanceParams_float_Destroy</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
 <tr class="memdesc:a13f859250be4d59b2412abd82799c9cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a245ab980a44af55b57460ade6ed096c2" id="r_a245ab980a44af55b57460ade6ed096c2"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a245ab980a44af55b57460ade6ed096c2">MR_TriTriDistanceParams_float_DestroyArray</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:a245ab980a44af55b57460ade6ed096c2" id="r_a245ab980a44af55b57460ade6ed096c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a245ab980a44af55b57460ade6ed096c2">MR_TriTriDistanceParams_float_DestroyArray</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
 <tr class="memdesc:a245ab980a44af55b57460ade6ed096c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a436388c405dea97b3bf46e6ab4630c3a" id="r_a436388c405dea97b3bf46e6ab4630c3a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a436388c405dea97b3bf46e6ab4630c3a">MR_TriTriDistanceParams_float_AssignFromAnother</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_other)</td></tr>
-<tr class="memitem:aff8074c7074ad22b54924ae612bf7e09" id="r_aff8074c7074ad22b54924ae612bf7e09"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff8074c7074ad22b54924ae612bf7e09">MR_TriTriDistanceParams_float_canExitEarlier_0</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
-<tr class="memitem:a2ec96f12d94d6c49266125980b0127d5" id="r_a2ec96f12d94d6c49266125980b0127d5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec96f12d94d6c49266125980b0127d5">MR_TriTriDistanceParams_float_canExitEarlier_1</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, float distSqLowerBound)</td></tr>
-<tr class="memitem:aee3a6d33fa019dbed407c4c4bf0343de" id="r_aee3a6d33fa019dbed407c4c4bf0343de"><td class="memItemLeft" align="right" valign="top">MRC_API const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3a6d33fa019dbed407c4c4bf0343de">MR_TriTriDistanceParams_double_Get_upDistLimitSq</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
-<tr class="memitem:a706bd93803ad9c31621a0a443ed22c2f" id="r_a706bd93803ad9c31621a0a443ed22c2f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706bd93803ad9c31621a0a443ed22c2f">MR_TriTriDistanceParams_double_Set_upDistLimitSq</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, double value)</td></tr>
-<tr class="memitem:a1b5a6494b10d5695261ccf70661a7f29" id="r_a1b5a6494b10d5695261ccf70661a7f29"><td class="memItemLeft" align="right" valign="top">MRC_API double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5a6494b10d5695261ccf70661a7f29">MR_TriTriDistanceParams_double_GetMutable_upDistLimitSq</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
-<tr class="memitem:a66797800aedd6c3fab1b95e2771d5f3c" id="r_a66797800aedd6c3fab1b95e2771d5f3c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66797800aedd6c3fab1b95e2771d5f3c">MR_TriTriDistanceParams_double_Get_upLimitCheck</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
-<tr class="memitem:a1f327e399ad66f6b9559cb1aed75c3cf" id="r_a1f327e399ad66f6b9559cb1aed75c3cf"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f327e399ad66f6b9559cb1aed75c3cf">MR_TriTriDistanceParams_double_Set_upLimitCheck</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> value)</td></tr>
-<tr class="memitem:a363bb866a2e211dd8faaa01fff47fd1e" id="r_a363bb866a2e211dd8faaa01fff47fd1e"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363bb866a2e211dd8faaa01fff47fd1e">MR_TriTriDistanceParams_double_GetMutable_upLimitCheck</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
-<tr class="memitem:a03cfa14f48fa39cebb8d4400a69851cd" id="r_a03cfa14f48fa39cebb8d4400a69851cd"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03cfa14f48fa39cebb8d4400a69851cd">MR_TriTriDistanceParams_double_DefaultConstruct</a> (void)</td></tr>
-<tr class="memitem:af4a420083aca6a4790c6d8606ca0e2d0" id="r_af4a420083aca6a4790c6d8606ca0e2d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a420083aca6a4790c6d8606ca0e2d0">MR_TriTriDistanceParams_double_DefaultConstructArray</a> (size_t num_elems)</td></tr>
-<tr class="memitem:a9d6efae978c9d38cc81c4d87a2e607b0" id="r_a9d6efae978c9d38cc81c4d87a2e607b0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6efae978c9d38cc81c4d87a2e607b0">MR_TriTriDistanceParams_double_ConstructFrom</a> (double upDistLimitSq, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> upLimitCheck)</td></tr>
-<tr class="memitem:aa0cd3473bc2fc3a0c7258c4a2846372d" id="r_aa0cd3473bc2fc3a0c7258c4a2846372d"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0cd3473bc2fc3a0c7258c4a2846372d">MR_TriTriDistanceParams_double_OffsetPtr</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a67294db91053f4496b4250e5f88c3538" id="r_a67294db91053f4496b4250e5f88c3538"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67294db91053f4496b4250e5f88c3538">MR_TriTriDistanceParams_double_OffsetMutablePtr</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a426eb110443a2273d3cbc819cb0ddd0a" id="r_a426eb110443a2273d3cbc819cb0ddd0a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426eb110443a2273d3cbc819cb0ddd0a">MR_TriTriDistanceParams_double_ConstructFromAnother</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_other)</td></tr>
-<tr class="memitem:a0dcbb1fc09dffbc57a6b80864cb5cdbe" id="r_a0dcbb1fc09dffbc57a6b80864cb5cdbe"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dcbb1fc09dffbc57a6b80864cb5cdbe">MR_TriTriDistanceParams_double_Destroy</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a436388c405dea97b3bf46e6ab4630c3a" id="r_a436388c405dea97b3bf46e6ab4630c3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a436388c405dea97b3bf46e6ab4630c3a">MR_TriTriDistanceParams_float_AssignFromAnother</a> (<a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_other)</td></tr>
+<tr class="memitem:aff8074c7074ad22b54924ae612bf7e09" id="r_aff8074c7074ad22b54924ae612bf7e09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff8074c7074ad22b54924ae612bf7e09">MR_TriTriDistanceParams_float_canExitEarlier_0</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this)</td></tr>
+<tr class="memitem:a2ec96f12d94d6c49266125980b0127d5" id="r_a2ec96f12d94d6c49266125980b0127d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec96f12d94d6c49266125980b0127d5">MR_TriTriDistanceParams_float_canExitEarlier_1</a> (const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *_this, float distSqLowerBound)</td></tr>
+<tr class="memitem:aee3a6d33fa019dbed407c4c4bf0343de" id="r_aee3a6d33fa019dbed407c4c4bf0343de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aee3a6d33fa019dbed407c4c4bf0343de">MR_TriTriDistanceParams_double_Get_upDistLimitSq</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a706bd93803ad9c31621a0a443ed22c2f" id="r_a706bd93803ad9c31621a0a443ed22c2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a706bd93803ad9c31621a0a443ed22c2f">MR_TriTriDistanceParams_double_Set_upDistLimitSq</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, double value)</td></tr>
+<tr class="memitem:a1b5a6494b10d5695261ccf70661a7f29" id="r_a1b5a6494b10d5695261ccf70661a7f29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b5a6494b10d5695261ccf70661a7f29">MR_TriTriDistanceParams_double_GetMutable_upDistLimitSq</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a66797800aedd6c3fab1b95e2771d5f3c" id="r_a66797800aedd6c3fab1b95e2771d5f3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66797800aedd6c3fab1b95e2771d5f3c">MR_TriTriDistanceParams_double_Get_upLimitCheck</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a1f327e399ad66f6b9559cb1aed75c3cf" id="r_a1f327e399ad66f6b9559cb1aed75c3cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f327e399ad66f6b9559cb1aed75c3cf">MR_TriTriDistanceParams_double_Set_upLimitCheck</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> value)</td></tr>
+<tr class="memitem:a363bb866a2e211dd8faaa01fff47fd1e" id="r_a363bb866a2e211dd8faaa01fff47fd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a363bb866a2e211dd8faaa01fff47fd1e">MR_TriTriDistanceParams_double_GetMutable_upLimitCheck</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a03cfa14f48fa39cebb8d4400a69851cd" id="r_a03cfa14f48fa39cebb8d4400a69851cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03cfa14f48fa39cebb8d4400a69851cd">MR_TriTriDistanceParams_double_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:af4a420083aca6a4790c6d8606ca0e2d0" id="r_af4a420083aca6a4790c6d8606ca0e2d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4a420083aca6a4790c6d8606ca0e2d0">MR_TriTriDistanceParams_double_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:a9d6efae978c9d38cc81c4d87a2e607b0" id="r_a9d6efae978c9d38cc81c4d87a2e607b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d6efae978c9d38cc81c4d87a2e607b0">MR_TriTriDistanceParams_double_ConstructFrom</a> (double upDistLimitSq, <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> upLimitCheck)</td></tr>
+<tr class="memitem:aa0cd3473bc2fc3a0c7258c4a2846372d" id="r_aa0cd3473bc2fc3a0c7258c4a2846372d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa0cd3473bc2fc3a0c7258c4a2846372d">MR_TriTriDistanceParams_double_OffsetPtr</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a67294db91053f4496b4250e5f88c3538" id="r_a67294db91053f4496b4250e5f88c3538"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67294db91053f4496b4250e5f88c3538">MR_TriTriDistanceParams_double_OffsetMutablePtr</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a426eb110443a2273d3cbc819cb0ddd0a" id="r_a426eb110443a2273d3cbc819cb0ddd0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a426eb110443a2273d3cbc819cb0ddd0a">MR_TriTriDistanceParams_double_ConstructFromAnother</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_other)</td></tr>
+<tr class="memitem:a0dcbb1fc09dffbc57a6b80864cb5cdbe" id="r_a0dcbb1fc09dffbc57a6b80864cb5cdbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dcbb1fc09dffbc57a6b80864cb5cdbe">MR_TriTriDistanceParams_double_Destroy</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
 <tr class="memdesc:a0dcbb1fc09dffbc57a6b80864cb5cdbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a4cf9f278d0b726ce85596f4305a03bfc" id="r_a4cf9f278d0b726ce85596f4305a03bfc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf9f278d0b726ce85596f4305a03bfc">MR_TriTriDistanceParams_double_DestroyArray</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:a4cf9f278d0b726ce85596f4305a03bfc" id="r_a4cf9f278d0b726ce85596f4305a03bfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cf9f278d0b726ce85596f4305a03bfc">MR_TriTriDistanceParams_double_DestroyArray</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
 <tr class="memdesc:a4cf9f278d0b726ce85596f4305a03bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a318adfcf519333cfe970df5f16c48a8a" id="r_a318adfcf519333cfe970df5f16c48a8a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318adfcf519333cfe970df5f16c48a8a">MR_TriTriDistanceParams_double_AssignFromAnother</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_other)</td></tr>
-<tr class="memitem:a0bb0d6f58f658a5d11f6ae8cf3f872a5" id="r_a0bb0d6f58f658a5d11f6ae8cf3f872a5"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb0d6f58f658a5d11f6ae8cf3f872a5">MR_TriTriDistanceParams_double_canExitEarlier_0</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
-<tr class="memitem:ae94a4d715f73844a2c17f5e23060c10c" id="r_ae94a4d715f73844a2c17f5e23060c10c"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94a4d715f73844a2c17f5e23060c10c">MR_TriTriDistanceParams_double_canExitEarlier_1</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, double distSqLowerBound)</td></tr>
-<tr class="memitem:a8205f4aba6d1fdd24671072a477378cc" id="r_a8205f4aba6d1fdd24671072a477378cc"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8205f4aba6d1fdd24671072a477378cc">MR_findTriTriDistance_std_array_MR_Vector3f_3</a> (const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *a, const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *b, const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *params)</td></tr>
-<tr class="memitem:aafabef6227eeef4bbc25017ed22a902b" id="r_aafabef6227eeef4bbc25017ed22a902b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafabef6227eeef4bbc25017ed22a902b">MR_findTriTriDistance_std_array_MR_Vector3d_3</a> (const <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a> *a, const <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a> *b, const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *params)</td></tr>
-<tr class="memitem:a5244a905413d414f3de0190fa119e3c0" id="r_a5244a905413d414f3de0190fa119e3c0"><td class="memItemLeft" align="right" valign="top">MRC_API float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5244a905413d414f3de0190fa119e3c0">MR_triDist</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *p, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *q, const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *s, const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *t)</td></tr>
-<tr class="memitem:aea74db1d5d50b61bd996e02c99695a10" id="r_aea74db1d5d50b61bd996e02c99695a10"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea74db1d5d50b61bd996e02c99695a10">MR_segPoints</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *VEC, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *X, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *Y, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *P, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *A, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *Q, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *B)</td></tr>
+<tr class="memitem:a318adfcf519333cfe970df5f16c48a8a" id="r_a318adfcf519333cfe970df5f16c48a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a318adfcf519333cfe970df5f16c48a8a">MR_TriTriDistanceParams_double_AssignFromAnother</a> (<a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_other)</td></tr>
+<tr class="memitem:a0bb0d6f58f658a5d11f6ae8cf3f872a5" id="r_a0bb0d6f58f658a5d11f6ae8cf3f872a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bb0d6f58f658a5d11f6ae8cf3f872a5">MR_TriTriDistanceParams_double_canExitEarlier_0</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this)</td></tr>
+<tr class="memitem:ae94a4d715f73844a2c17f5e23060c10c" id="r_ae94a4d715f73844a2c17f5e23060c10c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae94a4d715f73844a2c17f5e23060c10c">MR_TriTriDistanceParams_double_canExitEarlier_1</a> (const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *_this, double distSqLowerBound)</td></tr>
+<tr class="memitem:a8205f4aba6d1fdd24671072a477378cc" id="r_a8205f4aba6d1fdd24671072a477378cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8205f4aba6d1fdd24671072a477378cc">MR_findTriTriDistance_std_array_MR_Vector3f_3</a> (const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *a, const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *b, const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *params)</td></tr>
+<tr class="memitem:aafabef6227eeef4bbc25017ed22a902b" id="r_aafabef6227eeef4bbc25017ed22a902b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafabef6227eeef4bbc25017ed22a902b">MR_findTriTriDistance_std_array_MR_Vector3d_3</a> (const <a class="el" href="structMR__std__array__MR__Vector3d__3.html">MR_std_array_MR_Vector3d_3</a> *a, const <a class="el" href="structMR__std__array__MR__Vector3d__3.html">MR_std_array_MR_Vector3d_3</a> *b, const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *params)</td></tr>
+<tr class="memitem:a5244a905413d414f3de0190fa119e3c0" id="r_a5244a905413d414f3de0190fa119e3c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5244a905413d414f3de0190fa119e3c0">MR_triDist</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *p, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *q, const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *s, const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *t)</td></tr>
+<tr class="memitem:aea74db1d5d50b61bd996e02c99695a10" id="r_aea74db1d5d50b61bd996e02c99695a10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea74db1d5d50b61bd996e02c99695a10">MR_segPoints</a> (<a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *VEC, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *X, <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *Y, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *P, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *A, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *Q, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *B)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ace0987ea77140eca8dd5c1d9e279129c" name="ace0987ea77140eca8dd5c1d9e279129c"></a>
@@ -266,7 +266,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a> <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a></td>
+          <td class="memname">typedef struct MR_std_array_MR_Vector3d_3 MR_std_array_MR_Vector3d_3</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::TriTriDistanceParams&lt;double&gt;</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::TriTriDistanceParams&lt;double&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -299,7 +299,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::TriTriDistanceParams&lt;float&gt;</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::TriTriDistanceParams&lt;float&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -314,7 +314,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::TriTriDistanceResult&lt;double&gt;</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::TriTriDistanceResult&lt;double&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -329,7 +329,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <span class="tt">MR::TriTriDistanceResult&lt;float&gt;</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
+<p>Generated from class <span class="tt">MR::TriTriDistanceResult&lt;float&gt;</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_DefaultConstruct</span>, <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -348,8 +348,8 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a15de9c8aeb9235d490a69c0450e30c1a" name="a15de9c8aeb9235d490a69c0450e30c1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15de9c8aeb9235d490a69c0450e30c1a">&#9670;&#160;</a></span>anonymous enum</h2>
+<a id="ac35d724b0dd0189bb7eb2ff3adc07e0d" name="ac35d724b0dd0189bb7eb2ff3adc07e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35d724b0dd0189bb7eb2ff3adc07e0d">&#9670;&#160;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,10 +360,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de" name="a15de9c8aeb9235d490a69c0450e30c1aadf2e755067fca1ded95fdeb3ddccc3de"></a>MR_UpLimitCheck_GreaterOrEqual&#160;</td><td class="fielddoc"><p>findTriTriDistance exits earlier if (distSqLowerBound &gt;= upDistLimitSq) </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac35d724b0dd0189bb7eb2ff3adc07e0dadf2e755067fca1ded95fdeb3ddccc3de" name="ac35d724b0dd0189bb7eb2ff3adc07e0dadf2e755067fca1ded95fdeb3ddccc3de"></a>MR_UpLimitCheck_GreaterOrEqual&#160;</td><td class="fielddoc"><p>findTriTriDistance exits earlier if (distSqLowerBound &gt;= upDistLimitSq) </p>
 <p>findTriTriDistance exits earlier if (distSqLowerBound &gt; upDistLimitSq) </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0" name="a15de9c8aeb9235d490a69c0450e30c1aab370af5bd41f90f12b7710866f65a3e0"></a>MR_UpLimitCheck_Greater&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac35d724b0dd0189bb7eb2ff3adc07e0dab370af5bd41f90f12b7710866f65a3e0" name="ac35d724b0dd0189bb7eb2ff3adc07e0dab370af5bd41f90f12b7710866f65a3e0"></a>MR_UpLimitCheck_Greater&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -376,14 +376,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_findTriTriDistance_std_array_MR_Vector3d_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_findTriTriDistance_std_array_MR_Vector3d_3 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3d__3.html">MR_std_array_MR_Vector3d_3</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="#ace0987ea77140eca8dd5c1d9e279129c">MR_std_array_MR_Vector3d_3</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3d__3.html">MR_std_array_MR_Vector3d_3</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -403,14 +403,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_findTriTriDistance_std_array_MR_Vector3f_3 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_findTriTriDistance_std_array_MR_Vector3f_3 </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -430,7 +430,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_segPoints </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_segPoints </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>VEC</em></span>, </td>
         </tr>
@@ -477,7 +477,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float MR_triDist </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float MR_triDist </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
         </tr>
@@ -489,12 +489,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>s</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="MRMeshDistance_8h.html#aaa28ccd81fc18dfe14395ff51c90b31e">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR__std__array__MR__Vector3f__3.html">MR_std_array_MR_Vector3f_3</a> *</td>          <td class="paramname"><span class="paramname"><em>t</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -509,7 +509,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -531,7 +531,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_TriTriDistanceParams_double_canExitEarlier_0 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TriTriDistanceParams_double_canExitEarlier_0 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -549,7 +549,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_TriTriDistanceParams_double_canExitEarlier_1 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TriTriDistanceParams_double_canExitEarlier_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -571,7 +571,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>upDistLimitSq</em></span>, </td>
         </tr>
@@ -593,7 +593,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -611,7 +611,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -629,7 +629,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -647,7 +647,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_double_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_double_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -666,7 +666,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_double_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_double_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -685,7 +685,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const double * MR_TriTriDistanceParams_double_Get_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_TriTriDistanceParams_double_Get_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -703,7 +703,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_double_Get_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_double_Get_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -721,7 +721,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double * MR_TriTriDistanceParams_double_GetMutable_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_TriTriDistanceParams_double_GetMutable_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -739,7 +739,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_double_GetMutable_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_double_GetMutable_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -757,7 +757,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -779,7 +779,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> * MR_TriTriDistanceParams_double_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -801,7 +801,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_double_Set_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_double_Set_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -823,7 +823,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_double_Set_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_double_Set_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a0a0b6bc344cdd46da1d427c013bd9e86">MR_TriTriDistanceParams_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -845,7 +845,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -867,7 +867,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_TriTriDistanceParams_float_canExitEarlier_0 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TriTriDistanceParams_float_canExitEarlier_0 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -885,7 +885,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool MR_TriTriDistanceParams_float_canExitEarlier_1 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_TriTriDistanceParams_float_canExitEarlier_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -907,7 +907,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>upDistLimitSq</em></span>, </td>
         </tr>
@@ -929,7 +929,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -947,7 +947,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -965,7 +965,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -983,7 +983,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_float_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_float_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1002,7 +1002,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_float_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_float_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1021,7 +1021,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_TriTriDistanceParams_float_Get_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_TriTriDistanceParams_float_Get_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1039,7 +1039,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_float_Get_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_float_Get_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1057,7 +1057,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_TriTriDistanceParams_float_GetMutable_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_TriTriDistanceParams_float_GetMutable_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1075,7 +1075,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_float_GetMutable_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a523fc5197b62dc5030370d9bb1455c29">MR_UpLimitCheck</a> * MR_TriTriDistanceParams_float_GetMutable_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1093,7 +1093,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1115,7 +1115,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> * MR_TriTriDistanceParams_float_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1137,7 +1137,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_float_Set_upDistLimitSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_float_Set_upDistLimitSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1159,7 +1159,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceParams_float_Set_upLimitCheck </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceParams_float_Set_upLimitCheck </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae094c14d639c9cc0419f5cc37fb025c9">MR_TriTriDistanceParams_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1181,7 +1181,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1203,7 +1203,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Vector3d.html">MR_Vector3d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1235,7 +1235,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -1253,7 +1253,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1271,7 +1271,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1289,7 +1289,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1308,7 +1308,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1327,7 +1327,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_Get_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_Get_a </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1345,7 +1345,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_Get_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_Get_b </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1363,7 +1363,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const double * MR_TriTriDistanceResult_double_Get_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const double * MR_TriTriDistanceResult_double_Get_distSq </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1381,7 +1381,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_TriTriDistanceResult_double_Get_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_TriTriDistanceResult_double_Get_overlap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1399,7 +1399,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_GetMutable_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_GetMutable_a </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1417,7 +1417,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_GetMutable_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3d.html">MR_Vector3d</a> * MR_TriTriDistanceResult_double_GetMutable_b </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1435,7 +1435,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API double * MR_TriTriDistanceResult_double_GetMutable_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> double * MR_TriTriDistanceResult_double_GetMutable_distSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1453,7 +1453,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_TriTriDistanceResult_double_GetMutable_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_TriTriDistanceResult_double_GetMutable_overlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1471,7 +1471,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1493,7 +1493,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> * MR_TriTriDistanceResult_double_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1515,7 +1515,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_Set_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_Set_a </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1537,7 +1537,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_Set_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_Set_b </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1559,7 +1559,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_Set_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_Set_distSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1581,7 +1581,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_double_Set_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_double_Set_overlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#abd40009ace399a46f36148ebf4a80630">MR_TriTriDistanceResult_double</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1603,7 +1603,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_AssignFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1625,7 +1625,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structMR__Vector3f.html">MR_Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
         </tr>
@@ -1657,7 +1657,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_ConstructFromAnother </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
           <td></td>
@@ -1675,7 +1675,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_DefaultConstruct </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -1693,7 +1693,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_DefaultConstructArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -1711,7 +1711,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1730,7 +1730,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1749,7 +1749,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_Get_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_Get_a </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1767,7 +1767,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_Get_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_Get_b </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1785,7 +1785,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_TriTriDistanceResult_float_Get_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_TriTriDistanceResult_float_Get_distSq </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1803,7 +1803,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const bool * MR_TriTriDistanceResult_float_Get_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_TriTriDistanceResult_float_Get_overlap </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1821,7 +1821,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_GetMutable_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_GetMutable_a </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1839,7 +1839,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_GetMutable_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> * MR_TriTriDistanceResult_float_GetMutable_b </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1857,7 +1857,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_TriTriDistanceResult_float_GetMutable_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_TriTriDistanceResult_float_GetMutable_distSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1875,7 +1875,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API bool * MR_TriTriDistanceResult_float_GetMutable_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_TriTriDistanceResult_float_GetMutable_overlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -1893,7 +1893,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1915,7 +1915,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> * MR_TriTriDistanceResult_float_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1937,7 +1937,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_Set_a </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_Set_a </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1959,7 +1959,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_Set_b </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_Set_b </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1981,7 +1981,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_Set_distSq </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_Set_distSq </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2003,7 +2003,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_TriTriDistanceResult_float_Set_overlap </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_TriTriDistanceResult_float_Set_overlap </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae9c40a1aeb5944471bdd0069f3cd0580">MR_TriTriDistanceResult_float</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -2025,7 +2025,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRTriDist_8h.html">MRTriDist.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRTriDist_8h.html">MRTriDist.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

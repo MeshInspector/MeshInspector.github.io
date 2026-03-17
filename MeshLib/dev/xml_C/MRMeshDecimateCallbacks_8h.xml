@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRMeshDecimateCallbacks_8h" kind="file" language="C++">
     <compoundname>MRMeshDecimateCallbacks.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <incdepgraph>
       <node id="1">
         <label>MRMeshDecimateCallbacks.h</label>
@@ -12,11 +12,12 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshDecimateCallbacks_8h_1aa158734c19917699ae7d07031d2a1d8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref * MR_meshPreCollapseVertAttribute</definition>
         <argsstring>(const MR_Mesh *mesh, const MR_MeshAttributesToUpdate *params)</argsstring>
         <name>MR_meshPreCollapseVertAttribute</name>
@@ -31,11 +32,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example MeshAttributesToUpdate meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, DecimateSettings{ .preCollapse = preCollapse } ); Generated from function <computeroutput>MR::meshPreCollapseVertAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+<para>Please use this callback when you decimate a mesh with associated data with each vertex recalculate texture coordinates and mesh vertex colors for vertices moved during decimation usage example MeshAttributesToUpdate meshParams; auto uvCoords = obj-&gt;getUVCoords(); auto colorMap = obj-&gt;getVertsColorMap(); if ( needUpdateUV ) meshParams.uvCoords = &amp;uvCoords; if ( needUpdateColorMap ) meshParams.colorMap = &amp;colorMap; auto preCollapse = meshPreCollapseVertAttribute( mesh, meshParams ); decimateMesh( mesh, DecimateSettings{ .preCollapse = preCollapse } ); Generated from function <computeroutput>MR::meshPreCollapseVertAttribute</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__bool__from__MR__EdgeId__const__MR__Vector3f__ref_8h_1a6116c6a8dd5302fe103f81bfbfa75aea" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDecimateCallbacks.h" line="32" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDecimateCallbacks.h" declline="32" declcolumn="67"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDecimateCallbacks.h" line="32" column="67" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDecimateCallbacks.h" declline="32" declcolumn="67"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -45,7 +46,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -56,12 +57,12 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref><sp/><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32" refid="MRMeshDecimateCallbacks_8h_1aa158734c19917699ae7d07031d2a1d8f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref><sp/>*<ref refid="MRMeshDecimateCallbacks_8h_1aa158734c19917699ae7d07031d2a1d8f" kindref="member">MR_meshPreCollapseVertAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="32" refid="MRMeshDecimateCallbacks_8h_1aa158734c19917699ae7d07031d2a1d8f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDecimate_8h_1ab21e9d887739d4c46e4480f89c5565d3" kindref="member">MR_std_function_bool_from_MR_EdgeId_const_MR_Vector3f_ref</ref><sp/>*<ref refid="MRMeshDecimateCallbacks_8h_1aa158734c19917699ae7d07031d2a1d8f" kindref="member">MR_meshPreCollapseVertAttribute</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshAttributesToUpdate_8h_1a3234fa00173b082d381b15e1ded995e0" kindref="member">MR_MeshAttributesToUpdate</ref><sp/>*params);</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDecimateCallbacks.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDecimateCallbacks.h"/>
   </compounddef>
 </doxygen>

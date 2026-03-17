@@ -3,7 +3,7 @@
   <compounddef id="MRMeshDelone_8h" kind="file" language="C++">
     <compoundname>MRMeshDelone.h</compoundname>
     <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,9 +14,9 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="5" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="6" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -26,22 +26,33 @@
         </childnode>
         <childnode refid="4" relation="include">
         </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="3">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="4">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="5">
+      <node id="7">
         <label>stdbool.h</label>
       </node>
-      <node id="6">
+      <node id="5">
         <label>stddef.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="enum">
@@ -81,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" bodystart="30" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" bodystart="30" bodyend="37"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -93,11 +104,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::DeloneSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::DeloneSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="27" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" bodystart="27" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="27" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshDelone_8h_1a25812984958f89a4d14d48a2bcf46824" prot="public" static="no">
         <type>enum <ref refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833ae" kindref="member">MR_FlipEdge</ref></type>
@@ -110,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="37" column="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="37" column="13"/>
       </memberdef>
       <memberdef kind="typedef" id="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" prot="public" static="no">
         <type>struct <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref></type>
@@ -120,16 +131,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::IntrinsicDeloneSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="41" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" bodystart="41" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="41" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" bodystart="41" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_DeloneSettings_Get_maxDeviationAfterFlip</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_maxDeviationAfterFlip</name>
@@ -144,10 +155,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="48" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="48" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="48" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_maxDeviationAfterFlip</definition>
         <argsstring>(MR_DeloneSettings *_this, float value)</argsstring>
         <name>MR_DeloneSettings_Set_maxDeviationAfterFlip</name>
@@ -166,10 +177,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="54" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="54" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="54" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</name>
@@ -184,10 +195,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="61" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="61" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="61" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="61" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ae127a56234f1d5ace79ed89e1edc1213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_DeloneSettings_Get_maxAngleChange</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_maxAngleChange</name>
@@ -202,10 +213,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="68" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="68" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="68" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1abc1b5de54764bc2f3c7bc0dd2849e781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_maxAngleChange</definition>
         <argsstring>(MR_DeloneSettings *_this, float value)</argsstring>
         <name>MR_DeloneSettings_Set_maxAngleChange</name>
@@ -224,10 +235,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="74" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="74" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aac9fdbe15963eb9129d6f7d3ef659693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DeloneSettings_GetMutable_maxAngleChange</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_maxAngleChange</name>
@@ -242,10 +253,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="81" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="81" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="81" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="81" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a8ea1733701dae0e18991b6209f052331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_DeloneSettings_Get_criticalTriAspectRatio</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_criticalTriAspectRatio</name>
@@ -260,10 +271,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="89" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="89" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ab1aeafabf9df748b73596ca811fd3dad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_criticalTriAspectRatio</definition>
         <argsstring>(MR_DeloneSettings *_this, float value)</argsstring>
         <name>MR_DeloneSettings_Set_criticalTriAspectRatio</name>
@@ -282,10 +293,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="96" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="96" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="96" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a0c3a1b9eeb3c90caa7962fb9fe3084f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_DeloneSettings_GetMutable_criticalTriAspectRatio</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_criticalTriAspectRatio</name>
@@ -300,10 +311,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="104" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="104" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="104" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="104" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a839af4d511dbb884136ba81026c452bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
         <definition>MRC_API const MR_FaceBitSet *const  * MR_DeloneSettings_Get_region</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_region</name>
@@ -318,10 +329,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="111" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="111" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="111" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="111" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ade829c2465f76d4257a846227f0b5150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_region</definition>
         <argsstring>(MR_DeloneSettings *_this, const MR_FaceBitSet *value)</argsstring>
         <name>MR_DeloneSettings_Set_region</name>
@@ -340,10 +351,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="118" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="118" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a3f56b4c692737a03abed98caae52df7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
         <definition>MRC_API const MR_FaceBitSet ** MR_DeloneSettings_GetMutable_region</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_region</name>
@@ -358,10 +369,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="125" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="125" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="125" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="125" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a2c320703fba8834f7d109ad18b4b453c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
         <definition>MRC_API const MR_UndirectedEdgeBitSet *const  * MR_DeloneSettings_Get_notFlippable</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_notFlippable</name>
@@ -376,10 +387,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="132" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="132" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="132" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="132" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aaa7695527b8ba4cc74968005b9786838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_notFlippable</definition>
         <argsstring>(MR_DeloneSettings *_this, const MR_UndirectedEdgeBitSet *value)</argsstring>
         <name>MR_DeloneSettings_Set_notFlippable</name>
@@ -398,10 +409,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="139" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="139" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a604f3ec24fa8c741ef09eac2050a557f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
         <definition>MRC_API const MR_UndirectedEdgeBitSet ** MR_DeloneSettings_GetMutable_notFlippable</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_notFlippable</name>
@@ -416,10 +427,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="146" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="146" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="146" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="146" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API const MR_VertBitSet *const  * MR_DeloneSettings_Get_vertRegion</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Get_vertRegion</name>
@@ -434,10 +445,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="153" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="153" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="153" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="153" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Set_vertRegion</definition>
         <argsstring>(MR_DeloneSettings *_this, const MR_VertBitSet *value)</argsstring>
         <name>MR_DeloneSettings_Set_vertRegion</name>
@@ -456,10 +467,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="160" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="160" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API const MR_VertBitSet ** MR_DeloneSettings_GetMutable_vertRegion</definition>
         <argsstring>(MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_GetMutable_vertRegion</name>
@@ -474,10 +485,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="167" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="167" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="167" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="167" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_DeloneSettings_DefaultConstruct</name>
@@ -491,10 +502,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="171" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="171" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="171" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="171" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_DeloneSettings_DefaultConstructArray</name>
@@ -509,10 +520,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="176" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="176" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="176" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="176" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_ConstructFrom</definition>
         <argsstring>(float maxDeviationAfterFlip, float maxAngleChange, float criticalTriAspectRatio, const MR_FaceBitSet *region, const MR_UndirectedEdgeBitSet *notFlippable, const MR_VertBitSet *vertRegion)</argsstring>
         <name>MR_DeloneSettings_ConstructFrom</name>
@@ -547,10 +558,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="184" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="184" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="184" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="184" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API const MR_DeloneSettings * MR_DeloneSettings_OffsetPtr</definition>
         <argsstring>(const MR_DeloneSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DeloneSettings_OffsetPtr</name>
@@ -569,10 +580,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="188" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="188" declcolumn="33"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="188" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="188" declcolumn="33"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_DeloneSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_DeloneSettings_OffsetMutablePtr</name>
@@ -591,10 +602,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="192" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="192" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="192" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="192" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_ConstructFromAnother</definition>
         <argsstring>(const MR_DeloneSettings *_other)</argsstring>
         <name>MR_DeloneSettings_ConstructFromAnother</name>
@@ -609,10 +620,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="198" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="198" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="198" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="198" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_Destroy</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_Destroy</name>
@@ -627,10 +638,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="201" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="201" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="201" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="201" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a9703d2cf13492cfb66d30bf5098738f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_DeloneSettings_DestroyArray</definition>
         <argsstring>(const MR_DeloneSettings *_this)</argsstring>
         <name>MR_DeloneSettings_DestroyArray</name>
@@ -645,10 +656,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="204" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="204" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="204" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ab564028f6412901fa79ba471c1cbab2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref> *</type>
         <definition>MRC_API MR_DeloneSettings * MR_DeloneSettings_AssignFromAnother</definition>
         <argsstring>(MR_DeloneSettings *_this, const MR_DeloneSettings *_other)</argsstring>
         <name>MR_DeloneSettings_AssignFromAnother</name>
@@ -667,10 +678,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="212" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="212" declcolumn="27"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="212" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="212" declcolumn="27"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a0a7383636af3a845c54d33e4be2659e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_checkDeloneQuadrangle_MR_Vector3d</definition>
         <argsstring>(const MR_Vector3d *a, const MR_Vector3d *b, const MR_Vector3d *c, const MR_Vector3d *d, const double *maxAngleChange)</argsstring>
         <name>MR_checkDeloneQuadrangle_MR_Vector3d</name>
@@ -701,10 +712,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="225" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="225" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ae81682aadf8efb9f4682ead4feeea3c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_checkDeloneQuadrangle_MR_Vector3f</definition>
         <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c, const MR_Vector3f *d, const float *maxAngleChange)</argsstring>
         <name>MR_checkDeloneQuadrangle_MR_Vector3f</name>
@@ -735,10 +746,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="234" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="234" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a52e89c63c068bd558c0deb5033702550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833ae" kindref="member">MR_FlipEdge</ref></type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833ae" kindref="member">MR_FlipEdge</ref></type>
         <definition>MRC_API MR_FlipEdge MR_canFlipEdge</definition>
         <argsstring>(const MR_MeshTopology *topology, MR_EdgeId edge, const MR_FaceBitSet *region, const MR_UndirectedEdgeBitSet *notFlippable, const MR_VertBitSet *vertRegion)</argsstring>
         <name>MR_canFlipEdge</name>
@@ -769,10 +780,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="242" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="242" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="242" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="242" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aedb3c70e96f530c248f54a982b493f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_checkDeloneQuadrangleInMesh_4</definition>
         <argsstring>(const MR_Mesh *mesh, MR_EdgeId edge, const MR_DeloneSettings *settings, float *deviationSqAfterFlip)</argsstring>
         <name>MR_checkDeloneQuadrangleInMesh_4</name>
@@ -801,10 +812,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="252" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="252" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a09c3cb2e0a8a2c690a9de093a96ff904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_checkDeloneQuadrangleInMesh_5</definition>
         <argsstring>(const MR_MeshTopology *topology, const MR_VertCoords *points, MR_EdgeId edge, const MR_DeloneSettings *settings, float *deviationSqAfterFlip)</argsstring>
         <name>MR_checkDeloneQuadrangleInMesh_5</name>
@@ -835,10 +846,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="260" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="260" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="260" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a56b3455ba58ec578dcc0dbf02b37cc36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
         <definition>MRC_API bool MR_bestQuadrangleDiagonal</definition>
         <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c, const MR_Vector3f *d)</argsstring>
         <name>MR_bestQuadrangleDiagonal</name>
@@ -865,10 +876,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="270" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="270" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="270" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a5a9d358438c3b49d42e9a34cd7803763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_makeDeloneOriginRing_3</definition>
         <argsstring>(MR_Mesh *mesh, MR_EdgeId e, const MR_DeloneSettings *settings)</argsstring>
         <name>MR_makeDeloneOriginRing_3</name>
@@ -891,10 +902,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="277" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="277" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="277" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a9d9f2d1395cee882c3f7ec9498c4534c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_makeDeloneOriginRing_4</definition>
         <argsstring>(MR_MeshTopology *topology, const MR_VertCoords *points, MR_EdgeId e, const MR_DeloneSettings *settings)</argsstring>
         <name>MR_makeDeloneOriginRing_4</name>
@@ -921,10 +932,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="284" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="284" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a5b4f4f38bedbf5f199612e3fd28d22b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_makeDeloneEdgeFlips_4_MR_Mesh</definition>
         <argsstring>(MR_Mesh *mesh, const MR_DeloneSettings *settings, const int *numIters, const MR_std_function_bool_from_float *progressCallback)</argsstring>
         <name>MR_makeDeloneEdgeFlips_4_MR_Mesh</name>
@@ -970,10 +981,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="298" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="298" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="298" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="298" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a711ce4d63c5b526cc1518d13681f6354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_makeDeloneEdgeFlips_5</definition>
         <argsstring>(MR_MeshTopology *topology, const MR_VertCoords *points, const MR_DeloneSettings *settings, const int *numIters, const MR_std_function_bool_from_float *progressCallback)</argsstring>
         <name>MR_makeDeloneEdgeFlips_5</name>
@@ -1004,10 +1015,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="308" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="308" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="308" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="308" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a0f2644f74dd771ba017fe270ad6d2fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_IntrinsicDeloneSettings_Get_threshold</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Get_threshold</name>
@@ -1022,10 +1033,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="316" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="316" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="316" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="316" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ad1c29dabf0325c9525755fd4fc730e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_Set_threshold</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this, float value)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Set_threshold</name>
@@ -1044,10 +1055,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="323" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="323" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="323" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="323" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ad001a87b87df55c0c51f0e0db48385c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_IntrinsicDeloneSettings_GetMutable_threshold</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_GetMutable_threshold</name>
@@ -1062,10 +1073,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="331" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="331" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="331" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="331" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1afef5a2cbbc86874bf77b744d60f3ddfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
         <definition>MRC_API const MR_FaceBitSet *const  * MR_IntrinsicDeloneSettings_Get_region</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Get_region</name>
@@ -1080,10 +1091,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="338" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="338" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="338" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="338" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a2ae45a9138bed0cad9194bb2eb16ba23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_Set_region</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this, const MR_FaceBitSet *value)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Set_region</name>
@@ -1102,10 +1113,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="345" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="345" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ac83084455cb8849875b00ddc7ea79cd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
         <definition>MRC_API const MR_FaceBitSet ** MR_IntrinsicDeloneSettings_GetMutable_region</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_GetMutable_region</name>
@@ -1120,10 +1131,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="352" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="352" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="352" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="352" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a5bd34fe8a02f2d90c6dffada4c0d14f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> *const *</type>
         <definition>MRC_API const MR_UndirectedEdgeBitSet *const  * MR_IntrinsicDeloneSettings_Get_notFlippable</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Get_notFlippable</name>
@@ -1138,10 +1149,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="359" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="359" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="359" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="359" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aa4540ac1ef3b4c15ef8f140f8a155147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_Set_notFlippable</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this, const MR_UndirectedEdgeBitSet *value)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Set_notFlippable</name>
@@ -1160,10 +1171,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="366" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="366" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="366" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="366" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a46054ecb1403b8b6d83f3120d2bb840e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref> **</type>
         <definition>MRC_API const MR_UndirectedEdgeBitSet ** MR_IntrinsicDeloneSettings_GetMutable_notFlippable</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_GetMutable_notFlippable</name>
@@ -1178,10 +1189,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="373" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="373" declcolumn="39"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="373" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="373" declcolumn="39"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1afb81b5128a8abc1d4249e78136944397" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API const MR_VertBitSet *const  * MR_IntrinsicDeloneSettings_Get_vertRegion</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Get_vertRegion</name>
@@ -1196,10 +1207,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="380" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="380" declcolumn="35"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="380" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="380" declcolumn="35"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1af7545cdc1b5adc57805b7b56abe86035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_Set_vertRegion</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this, const MR_VertBitSet *value)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Set_vertRegion</name>
@@ -1218,10 +1229,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="387" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="387" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="387" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="387" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1af42a22231113c5e4ba59cca77b4026f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API const MR_VertBitSet ** MR_IntrinsicDeloneSettings_GetMutable_vertRegion</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_GetMutable_vertRegion</name>
@@ -1236,10 +1247,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="394" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="394" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="394" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="394" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a9d0b353e8c63191bd2225033ab76ed96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_IntrinsicDeloneSettings_DefaultConstruct</name>
@@ -1253,10 +1264,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="398" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="398" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="398" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="398" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a6c980280fb3eecb0984d79e8e599cb97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_IntrinsicDeloneSettings_DefaultConstructArray</name>
@@ -1271,10 +1282,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="403" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="403" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="403" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="403" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1abe9b61e2dadbaa40423a9ffa70ada412" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_ConstructFrom</definition>
         <argsstring>(float threshold, const MR_FaceBitSet *region, const MR_UndirectedEdgeBitSet *notFlippable, const MR_VertBitSet *vertRegion)</argsstring>
         <name>MR_IntrinsicDeloneSettings_ConstructFrom</name>
@@ -1301,10 +1312,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="411" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="411" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="411" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="411" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ac3e3e0e7fce328053abe2836d1a3d7db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API const MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_OffsetPtr</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IntrinsicDeloneSettings_OffsetPtr</name>
@@ -1323,10 +1334,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="415" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="415" declcolumn="42"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="415" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="415" declcolumn="42"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a30242d1f59c4d1eb4e65b12346538c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_IntrinsicDeloneSettings_OffsetMutablePtr</name>
@@ -1345,10 +1356,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="419" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="419" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="419" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="419" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ad520441b803946ec3ec4eba0d4e456e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_ConstructFromAnother</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_other)</argsstring>
         <name>MR_IntrinsicDeloneSettings_ConstructFromAnother</name>
@@ -1363,10 +1374,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="425" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="425" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="425" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="425" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_Destroy</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_Destroy</name>
@@ -1381,10 +1392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="428" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="428" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="428" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="428" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1aacfdba2cef2152ecab8226af64779f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_IntrinsicDeloneSettings_DestroyArray</definition>
         <argsstring>(const MR_IntrinsicDeloneSettings *_this)</argsstring>
         <name>MR_IntrinsicDeloneSettings_DestroyArray</name>
@@ -1399,10 +1410,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="431" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="431" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="431" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="431" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1a13c05491f439fda60d9a41e34bed8503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref> *</type>
         <definition>MRC_API MR_IntrinsicDeloneSettings * MR_IntrinsicDeloneSettings_AssignFromAnother</definition>
         <argsstring>(MR_IntrinsicDeloneSettings *_this, const MR_IntrinsicDeloneSettings *_other)</argsstring>
         <name>MR_IntrinsicDeloneSettings_AssignFromAnother</name>
@@ -1421,10 +1432,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="439" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="439" declcolumn="36"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="439" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="439" declcolumn="36"/>
       </memberdef>
       <memberdef kind="function" id="MRMeshDelone_8h_1ace6519aee91ccff2891b2668e29ebbb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</definition>
         <argsstring>(MR_EdgeLengthMesh *mesh, const MR_IntrinsicDeloneSettings *settings, const int *numIters, const MR_std_function_bool_from_float *progressCallback)</argsstring>
         <name>MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</name>
@@ -1470,7 +1481,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" line="454" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h" declline="454" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" line="454" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h" declline="454" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -1481,7 +1492,7 @@
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -1513,128 +1524,128 @@
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref>;</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="48" refid="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" kindref="member">MR_DeloneSettings_Get_maxDeviationAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48" refid="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ab382ccf9bff4ad95abc83be82b86bcab" kindref="member">MR_DeloneSettings_Get_maxDeviationAfterFlip</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54" refid="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" kindref="member">MR_DeloneSettings_Set_maxDeviationAfterFlip</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="54" refid="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a3d5a9ef28ddad840f8bfa35847bdf6e9" kindref="member">MR_DeloneSettings_Set_maxDeviationAfterFlip</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61" refid="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" kindref="member">MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61" refid="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ac28f3dc4732210e59b0f1f2028bf45b5" kindref="member">MR_DeloneSettings_GetMutable_maxDeviationAfterFlip</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"></highlight></codeline>
-<codeline lineno="68" refid="MRMeshDelone_8h_1ae127a56234f1d5ace79ed89e1edc1213" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ae127a56234f1d5ace79ed89e1edc1213" kindref="member">MR_DeloneSettings_Get_maxAngleChange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68" refid="MRMeshDelone_8h_1ae127a56234f1d5ace79ed89e1edc1213" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ae127a56234f1d5ace79ed89e1edc1213" kindref="member">MR_DeloneSettings_Get_maxAngleChange</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="74" refid="MRMeshDelone_8h_1abc1b5de54764bc2f3c7bc0dd2849e781" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1abc1b5de54764bc2f3c7bc0dd2849e781" kindref="member">MR_DeloneSettings_Set_maxAngleChange</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="74" refid="MRMeshDelone_8h_1abc1b5de54764bc2f3c7bc0dd2849e781" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1abc1b5de54764bc2f3c7bc0dd2849e781" kindref="member">MR_DeloneSettings_Set_maxAngleChange</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
-<codeline lineno="81" refid="MRMeshDelone_8h_1aac9fdbe15963eb9129d6f7d3ef659693" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1aac9fdbe15963eb9129d6f7d3ef659693" kindref="member">MR_DeloneSettings_GetMutable_maxAngleChange</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81" refid="MRMeshDelone_8h_1aac9fdbe15963eb9129d6f7d3ef659693" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1aac9fdbe15963eb9129d6f7d3ef659693" kindref="member">MR_DeloneSettings_GetMutable_maxAngleChange</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="89" refid="MRMeshDelone_8h_1a8ea1733701dae0e18991b6209f052331" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a8ea1733701dae0e18991b6209f052331" kindref="member">MR_DeloneSettings_Get_criticalTriAspectRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="89" refid="MRMeshDelone_8h_1a8ea1733701dae0e18991b6209f052331" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a8ea1733701dae0e18991b6209f052331" kindref="member">MR_DeloneSettings_Get_criticalTriAspectRatio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight></codeline>
-<codeline lineno="96" refid="MRMeshDelone_8h_1ab1aeafabf9df748b73596ca811fd3dad" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ab1aeafabf9df748b73596ca811fd3dad" kindref="member">MR_DeloneSettings_Set_criticalTriAspectRatio</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="96" refid="MRMeshDelone_8h_1ab1aeafabf9df748b73596ca811fd3dad" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ab1aeafabf9df748b73596ca811fd3dad" kindref="member">MR_DeloneSettings_Set_criticalTriAspectRatio</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="97"><highlight class="normal"></highlight></codeline>
-<codeline lineno="104" refid="MRMeshDelone_8h_1a0c3a1b9eeb3c90caa7962fb9fe3084f1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a0c3a1b9eeb3c90caa7962fb9fe3084f1" kindref="member">MR_DeloneSettings_GetMutable_criticalTriAspectRatio</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104" refid="MRMeshDelone_8h_1a0c3a1b9eeb3c90caa7962fb9fe3084f1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a0c3a1b9eeb3c90caa7962fb9fe3084f1" kindref="member">MR_DeloneSettings_GetMutable_criticalTriAspectRatio</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MRMeshDelone_8h_1a839af4d511dbb884136ba81026c452bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a839af4d511dbb884136ba81026c452bf" kindref="member">MR_DeloneSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111" refid="MRMeshDelone_8h_1a839af4d511dbb884136ba81026c452bf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a839af4d511dbb884136ba81026c452bf" kindref="member">MR_DeloneSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"></highlight></codeline>
-<codeline lineno="118" refid="MRMeshDelone_8h_1ade829c2465f76d4257a846227f0b5150" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ade829c2465f76d4257a846227f0b5150" kindref="member">MR_DeloneSettings_Set_region</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="118" refid="MRMeshDelone_8h_1ade829c2465f76d4257a846227f0b5150" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ade829c2465f76d4257a846227f0b5150" kindref="member">MR_DeloneSettings_Set_region</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
-<codeline lineno="125" refid="MRMeshDelone_8h_1a3f56b4c692737a03abed98caae52df7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a3f56b4c692737a03abed98caae52df7c" kindref="member">MR_DeloneSettings_GetMutable_region</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125" refid="MRMeshDelone_8h_1a3f56b4c692737a03abed98caae52df7c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a3f56b4c692737a03abed98caae52df7c" kindref="member">MR_DeloneSettings_GetMutable_region</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"></highlight></codeline>
-<codeline lineno="132" refid="MRMeshDelone_8h_1a2c320703fba8834f7d109ad18b4b453c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a2c320703fba8834f7d109ad18b4b453c" kindref="member">MR_DeloneSettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="132" refid="MRMeshDelone_8h_1a2c320703fba8834f7d109ad18b4b453c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a2c320703fba8834f7d109ad18b4b453c" kindref="member">MR_DeloneSettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="133"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139" refid="MRMeshDelone_8h_1aaa7695527b8ba4cc74968005b9786838" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aaa7695527b8ba4cc74968005b9786838" kindref="member">MR_DeloneSettings_Set_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="139" refid="MRMeshDelone_8h_1aaa7695527b8ba4cc74968005b9786838" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aaa7695527b8ba4cc74968005b9786838" kindref="member">MR_DeloneSettings_Set_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
-<codeline lineno="146" refid="MRMeshDelone_8h_1a604f3ec24fa8c741ef09eac2050a557f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a604f3ec24fa8c741ef09eac2050a557f" kindref="member">MR_DeloneSettings_GetMutable_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146" refid="MRMeshDelone_8h_1a604f3ec24fa8c741ef09eac2050a557f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a604f3ec24fa8c741ef09eac2050a557f" kindref="member">MR_DeloneSettings_GetMutable_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="147"><highlight class="normal"></highlight></codeline>
-<codeline lineno="153" refid="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" kindref="member">MR_DeloneSettings_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="153" refid="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a1c7887a0da25c488b74ac6d02d337441" kindref="member">MR_DeloneSettings_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="154"><highlight class="normal"></highlight></codeline>
-<codeline lineno="160" refid="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" kindref="member">MR_DeloneSettings_Set_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="160" refid="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ae9a3775cc08b8778c301be0e67730fbf" kindref="member">MR_DeloneSettings_Set_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167" refid="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" kindref="member">MR_DeloneSettings_GetMutable_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="167" refid="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1ab8de94203cd043809fdc16f8e77028e8" kindref="member">MR_DeloneSettings_GetMutable_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"></highlight></codeline>
-<codeline lineno="171" refid="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" kindref="member">MR_DeloneSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171" refid="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1af98987e5b4a51a7bf0b05b242a777913" kindref="member">MR_DeloneSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="176" refid="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" kindref="member">MR_DeloneSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="176" refid="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a1b868f66091b09e9dc54bf1b4b04a57d" kindref="member">MR_DeloneSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184" refid="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" kindref="member">MR_DeloneSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDeviationAfterFlip,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChange,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>criticalTriAspectRatio,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
+<codeline lineno="184" refid="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a5dd1ad27b8b59bfb5f4d00e014926c58" kindref="member">MR_DeloneSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDeviationAfterFlip,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxAngleChange,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>criticalTriAspectRatio,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="188" refid="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" kindref="member">MR_DeloneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="188" refid="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a61efef6e1a53733eea701508fb204558" kindref="member">MR_DeloneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192" refid="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" kindref="member">MR_DeloneSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="192" refid="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a7df3bccd2f24c3ce3bfb7b2d91f946c6" kindref="member">MR_DeloneSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" kindref="member">MR_DeloneSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="198" refid="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1abfe3294a46a323f38385904a11e36af9" kindref="member">MR_DeloneSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="201" refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" kindref="member">MR_DeloneSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201" refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aaf8d2e088923a375f48ef0b680171365" kindref="member">MR_DeloneSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="202"><highlight class="normal"></highlight></codeline>
-<codeline lineno="204" refid="MRMeshDelone_8h_1a9703d2cf13492cfb66d30bf5098738f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a9703d2cf13492cfb66d30bf5098738f6" kindref="member">MR_DeloneSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="204" refid="MRMeshDelone_8h_1a9703d2cf13492cfb66d30bf5098738f6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a9703d2cf13492cfb66d30bf5098738f6" kindref="member">MR_DeloneSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212" refid="MRMeshDelone_8h_1ab564028f6412901fa79ba471c1cbab2b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ab564028f6412901fa79ba471c1cbab2b" kindref="member">MR_DeloneSettings_AssignFromAnother</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="212" refid="MRMeshDelone_8h_1ab564028f6412901fa79ba471c1cbab2b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ab564028f6412901fa79ba471c1cbab2b" kindref="member">MR_DeloneSettings_AssignFromAnother</ref>(<ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"></highlight></codeline>
-<codeline lineno="225" refid="MRMeshDelone_8h_1a0a7383636af3a845c54d33e4be2659e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a0a7383636af3a845c54d33e4be2659e9" kindref="member">MR_checkDeloneQuadrangle_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*maxAngleChange);</highlight></codeline>
+<codeline lineno="225" refid="MRMeshDelone_8h_1a0a7383636af3a845c54d33e4be2659e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a0a7383636af3a845c54d33e4be2659e9" kindref="member">MR_checkDeloneQuadrangle_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*maxAngleChange);</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="234" refid="MRMeshDelone_8h_1ae81682aadf8efb9f4682ead4feeea3c5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ae81682aadf8efb9f4682ead4feeea3c5" kindref="member">MR_checkDeloneQuadrangle_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxAngleChange);</highlight></codeline>
+<codeline lineno="234" refid="MRMeshDelone_8h_1ae81682aadf8efb9f4682ead4feeea3c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ae81682aadf8efb9f4682ead4feeea3c5" kindref="member">MR_checkDeloneQuadrangle_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*maxAngleChange);</highlight></codeline>
 <codeline lineno="235"><highlight class="normal"></highlight></codeline>
-<codeline lineno="242" refid="MRMeshDelone_8h_1a52e89c63c068bd558c0deb5033702550" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833ae" kindref="member">MR_FlipEdge</ref><sp/><ref refid="MRMeshDelone_8h_1a52e89c63c068bd558c0deb5033702550" kindref="member">MR_canFlipEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
+<codeline lineno="242" refid="MRMeshDelone_8h_1a52e89c63c068bd558c0deb5033702550" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1aa76435b4ee48431a19de6d633c8833ae" kindref="member">MR_FlipEdge</ref><sp/><ref refid="MRMeshDelone_8h_1a52e89c63c068bd558c0deb5033702550" kindref="member">MR_canFlipEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight></codeline>
-<codeline lineno="252" refid="MRMeshDelone_8h_1aedb3c70e96f530c248f54a982b493f8a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aedb3c70e96f530c248f54a982b493f8a" kindref="member">MR_checkDeloneQuadrangleInMesh_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*deviationSqAfterFlip);</highlight></codeline>
+<codeline lineno="252" refid="MRMeshDelone_8h_1aedb3c70e96f530c248f54a982b493f8a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aedb3c70e96f530c248f54a982b493f8a" kindref="member">MR_checkDeloneQuadrangleInMesh_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*deviationSqAfterFlip);</highlight></codeline>
 <codeline lineno="253"><highlight class="normal"></highlight></codeline>
-<codeline lineno="260" refid="MRMeshDelone_8h_1a09c3cb2e0a8a2c690a9de093a96ff904" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a09c3cb2e0a8a2c690a9de093a96ff904" kindref="member">MR_checkDeloneQuadrangleInMesh_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*deviationSqAfterFlip);</highlight></codeline>
+<codeline lineno="260" refid="MRMeshDelone_8h_1a09c3cb2e0a8a2c690a9de093a96ff904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a09c3cb2e0a8a2c690a9de093a96ff904" kindref="member">MR_checkDeloneQuadrangleInMesh_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>edge,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*deviationSqAfterFlip);</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="270" refid="MRMeshDelone_8h_1a56b3455ba58ec578dcc0dbf02b37cc36" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a56b3455ba58ec578dcc0dbf02b37cc36" kindref="member">MR_bestQuadrangleDiagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d);</highlight></codeline>
+<codeline lineno="270" refid="MRMeshDelone_8h_1a56b3455ba58ec578dcc0dbf02b37cc36" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a56b3455ba58ec578dcc0dbf02b37cc36" kindref="member">MR_bestQuadrangleDiagonal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*d);</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"></highlight></codeline>
-<codeline lineno="277" refid="MRMeshDelone_8h_1a5a9d358438c3b49d42e9a34cd7803763" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a5a9d358438c3b49d42e9a34cd7803763" kindref="member">MR_makeDeloneOriginRing_3</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="277" refid="MRMeshDelone_8h_1a5a9d358438c3b49d42e9a34cd7803763" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a5a9d358438c3b49d42e9a34cd7803763" kindref="member">MR_makeDeloneOriginRing_3</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"></highlight></codeline>
-<codeline lineno="284" refid="MRMeshDelone_8h_1a9d9f2d1395cee882c3f7ec9498c4534c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a9d9f2d1395cee882c3f7ec9498c4534c" kindref="member">MR_makeDeloneOriginRing_4</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="284" refid="MRMeshDelone_8h_1a9d9f2d1395cee882c3f7ec9498c4534c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a9d9f2d1395cee882c3f7ec9498c4534c" kindref="member">MR_makeDeloneOriginRing_4</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/><ref refid="structMR__EdgeId" kindref="compound">MR_EdgeId</ref><sp/>e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="285"><highlight class="normal"></highlight></codeline>
-<codeline lineno="298" refid="MRMeshDelone_8h_1a5b4f4f38bedbf5f199612e3fd28d22b7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a5b4f4f38bedbf5f199612e3fd28d22b7" kindref="member">MR_makeDeloneEdgeFlips_4_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="298" refid="MRMeshDelone_8h_1a5b4f4f38bedbf5f199612e3fd28d22b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a5b4f4f38bedbf5f199612e3fd28d22b7" kindref="member">MR_makeDeloneEdgeFlips_4_MR_Mesh</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
 <codeline lineno="299"><highlight class="normal"></highlight></codeline>
-<codeline lineno="308" refid="MRMeshDelone_8h_1a711ce4d63c5b526cc1518d13681f6354" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a711ce4d63c5b526cc1518d13681f6354" kindref="member">MR_makeDeloneEdgeFlips_5</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="308" refid="MRMeshDelone_8h_1a711ce4d63c5b526cc1518d13681f6354" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a711ce4d63c5b526cc1518d13681f6354" kindref="member">MR_makeDeloneEdgeFlips_5</ref>(<ref refid="MR2DContoursTriangulation_8h_1ad396cf7d4433c5ba7924776f5b379c9b" kindref="member">MR_MeshTopology</ref><sp/>*topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af90f4b39ad520e70053fc29ba9bb57c7" kindref="member">MR_DeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
 <codeline lineno="309"><highlight class="normal"></highlight></codeline>
-<codeline lineno="316" refid="MRMeshDelone_8h_1a0f2644f74dd771ba017fe270ad6d2fbf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a0f2644f74dd771ba017fe270ad6d2fbf" kindref="member">MR_IntrinsicDeloneSettings_Get_threshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="316" refid="MRMeshDelone_8h_1a0f2644f74dd771ba017fe270ad6d2fbf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a0f2644f74dd771ba017fe270ad6d2fbf" kindref="member">MR_IntrinsicDeloneSettings_Get_threshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="323" refid="MRMeshDelone_8h_1ad1c29dabf0325c9525755fd4fc730e3f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ad1c29dabf0325c9525755fd4fc730e3f" kindref="member">MR_IntrinsicDeloneSettings_Set_threshold</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="323" refid="MRMeshDelone_8h_1ad1c29dabf0325c9525755fd4fc730e3f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ad1c29dabf0325c9525755fd4fc730e3f" kindref="member">MR_IntrinsicDeloneSettings_Set_threshold</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"></highlight></codeline>
-<codeline lineno="331" refid="MRMeshDelone_8h_1ad001a87b87df55c0c51f0e0db48385c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ad001a87b87df55c0c51f0e0db48385c9" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_threshold</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="331" refid="MRMeshDelone_8h_1ad001a87b87df55c0c51f0e0db48385c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1ad001a87b87df55c0c51f0e0db48385c9" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_threshold</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="332"><highlight class="normal"></highlight></codeline>
-<codeline lineno="338" refid="MRMeshDelone_8h_1afef5a2cbbc86874bf77b744d60f3ddfd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1afef5a2cbbc86874bf77b744d60f3ddfd" kindref="member">MR_IntrinsicDeloneSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="338" refid="MRMeshDelone_8h_1afef5a2cbbc86874bf77b744d60f3ddfd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1afef5a2cbbc86874bf77b744d60f3ddfd" kindref="member">MR_IntrinsicDeloneSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="339"><highlight class="normal"></highlight></codeline>
-<codeline lineno="345" refid="MRMeshDelone_8h_1a2ae45a9138bed0cad9194bb2eb16ba23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a2ae45a9138bed0cad9194bb2eb16ba23" kindref="member">MR_IntrinsicDeloneSettings_Set_region</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="345" refid="MRMeshDelone_8h_1a2ae45a9138bed0cad9194bb2eb16ba23" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a2ae45a9138bed0cad9194bb2eb16ba23" kindref="member">MR_IntrinsicDeloneSettings_Set_region</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="346"><highlight class="normal"></highlight></codeline>
-<codeline lineno="352" refid="MRMeshDelone_8h_1ac83084455cb8849875b00ddc7ea79cd2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1ac83084455cb8849875b00ddc7ea79cd2" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_region</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352" refid="MRMeshDelone_8h_1ac83084455cb8849875b00ddc7ea79cd2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1ac83084455cb8849875b00ddc7ea79cd2" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_region</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="353"><highlight class="normal"></highlight></codeline>
-<codeline lineno="359" refid="MRMeshDelone_8h_1a5bd34fe8a02f2d90c6dffada4c0d14f8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a5bd34fe8a02f2d90c6dffada4c0d14f8" kindref="member">MR_IntrinsicDeloneSettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="359" refid="MRMeshDelone_8h_1a5bd34fe8a02f2d90c6dffada4c0d14f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1a5bd34fe8a02f2d90c6dffada4c0d14f8" kindref="member">MR_IntrinsicDeloneSettings_Get_notFlippable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="360"><highlight class="normal"></highlight></codeline>
-<codeline lineno="366" refid="MRMeshDelone_8h_1aa4540ac1ef3b4c15ef8f140f8a155147" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aa4540ac1ef3b4c15ef8f140f8a155147" kindref="member">MR_IntrinsicDeloneSettings_Set_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="366" refid="MRMeshDelone_8h_1aa4540ac1ef3b4c15ef8f140f8a155147" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aa4540ac1ef3b4c15ef8f140f8a155147" kindref="member">MR_IntrinsicDeloneSettings_Set_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="367"><highlight class="normal"></highlight></codeline>
-<codeline lineno="373" refid="MRMeshDelone_8h_1a46054ecb1403b8b6d83f3120d2bb840e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a46054ecb1403b8b6d83f3120d2bb840e" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="373" refid="MRMeshDelone_8h_1a46054ecb1403b8b6d83f3120d2bb840e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1a46054ecb1403b8b6d83f3120d2bb840e" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_notFlippable</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="374"><highlight class="normal"></highlight></codeline>
-<codeline lineno="380" refid="MRMeshDelone_8h_1afb81b5128a8abc1d4249e78136944397" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1afb81b5128a8abc1d4249e78136944397" kindref="member">MR_IntrinsicDeloneSettings_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="380" refid="MRMeshDelone_8h_1afb81b5128a8abc1d4249e78136944397" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshDelone_8h_1afb81b5128a8abc1d4249e78136944397" kindref="member">MR_IntrinsicDeloneSettings_Get_vertRegion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="381"><highlight class="normal"></highlight></codeline>
-<codeline lineno="387" refid="MRMeshDelone_8h_1af7545cdc1b5adc57805b7b56abe86035" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af7545cdc1b5adc57805b7b56abe86035" kindref="member">MR_IntrinsicDeloneSettings_Set_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="387" refid="MRMeshDelone_8h_1af7545cdc1b5adc57805b7b56abe86035" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1af7545cdc1b5adc57805b7b56abe86035" kindref="member">MR_IntrinsicDeloneSettings_Set_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="388"><highlight class="normal"></highlight></codeline>
-<codeline lineno="394" refid="MRMeshDelone_8h_1af42a22231113c5e4ba59cca77b4026f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1af42a22231113c5e4ba59cca77b4026f7" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="394" refid="MRMeshDelone_8h_1af42a22231113c5e4ba59cca77b4026f7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRMeshDelone_8h_1af42a22231113c5e4ba59cca77b4026f7" kindref="member">MR_IntrinsicDeloneSettings_GetMutable_vertRegion</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="395"><highlight class="normal"></highlight></codeline>
-<codeline lineno="398" refid="MRMeshDelone_8h_1a9d0b353e8c63191bd2225033ab76ed96" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a9d0b353e8c63191bd2225033ab76ed96" kindref="member">MR_IntrinsicDeloneSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="398" refid="MRMeshDelone_8h_1a9d0b353e8c63191bd2225033ab76ed96" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a9d0b353e8c63191bd2225033ab76ed96" kindref="member">MR_IntrinsicDeloneSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="399"><highlight class="normal"></highlight></codeline>
-<codeline lineno="403" refid="MRMeshDelone_8h_1a6c980280fb3eecb0984d79e8e599cb97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a6c980280fb3eecb0984d79e8e599cb97" kindref="member">MR_IntrinsicDeloneSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="403" refid="MRMeshDelone_8h_1a6c980280fb3eecb0984d79e8e599cb97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a6c980280fb3eecb0984d79e8e599cb97" kindref="member">MR_IntrinsicDeloneSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="404"><highlight class="normal"></highlight></codeline>
-<codeline lineno="411" refid="MRMeshDelone_8h_1abe9b61e2dadbaa40423a9ffa70ada412" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1abe9b61e2dadbaa40423a9ffa70ada412" kindref="member">MR_IntrinsicDeloneSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
+<codeline lineno="411" refid="MRMeshDelone_8h_1abe9b61e2dadbaa40423a9ffa70ada412" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1abe9b61e2dadbaa40423a9ffa70ada412" kindref="member">MR_IntrinsicDeloneSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>threshold,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreeBase_8h_1ac7f59a6736b29701d7e619412b6e2890" kindref="member">MR_UndirectedEdgeBitSet</ref><sp/>*notFlippable,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*vertRegion);</highlight></codeline>
 <codeline lineno="412"><highlight class="normal"></highlight></codeline>
-<codeline lineno="415" refid="MRMeshDelone_8h_1ac3e3e0e7fce328053abe2836d1a3d7db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ac3e3e0e7fce328053abe2836d1a3d7db" kindref="member">MR_IntrinsicDeloneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="415" refid="MRMeshDelone_8h_1ac3e3e0e7fce328053abe2836d1a3d7db" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ac3e3e0e7fce328053abe2836d1a3d7db" kindref="member">MR_IntrinsicDeloneSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="416"><highlight class="normal"></highlight></codeline>
-<codeline lineno="419" refid="MRMeshDelone_8h_1a30242d1f59c4d1eb4e65b12346538c8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a30242d1f59c4d1eb4e65b12346538c8b" kindref="member">MR_IntrinsicDeloneSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="419" refid="MRMeshDelone_8h_1a30242d1f59c4d1eb4e65b12346538c8b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a30242d1f59c4d1eb4e65b12346538c8b" kindref="member">MR_IntrinsicDeloneSettings_OffsetMutablePtr</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="420"><highlight class="normal"></highlight></codeline>
-<codeline lineno="425" refid="MRMeshDelone_8h_1ad520441b803946ec3ec4eba0d4e456e3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ad520441b803946ec3ec4eba0d4e456e3" kindref="member">MR_IntrinsicDeloneSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="425" refid="MRMeshDelone_8h_1ad520441b803946ec3ec4eba0d4e456e3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1ad520441b803946ec3ec4eba0d4e456e3" kindref="member">MR_IntrinsicDeloneSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="426"><highlight class="normal"></highlight></codeline>
-<codeline lineno="428" refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" kindref="member">MR_IntrinsicDeloneSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="428" refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a670c171347186de94e026c8cbabd09cf" kindref="member">MR_IntrinsicDeloneSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="429"><highlight class="normal"></highlight></codeline>
-<codeline lineno="431" refid="MRMeshDelone_8h_1aacfdba2cef2152ecab8226af64779f7b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aacfdba2cef2152ecab8226af64779f7b" kindref="member">MR_IntrinsicDeloneSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="431" refid="MRMeshDelone_8h_1aacfdba2cef2152ecab8226af64779f7b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1aacfdba2cef2152ecab8226af64779f7b" kindref="member">MR_IntrinsicDeloneSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="432"><highlight class="normal"></highlight></codeline>
-<codeline lineno="439" refid="MRMeshDelone_8h_1a13c05491f439fda60d9a41e34bed8503" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a13c05491f439fda60d9a41e34bed8503" kindref="member">MR_IntrinsicDeloneSettings_AssignFromAnother</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="439" refid="MRMeshDelone_8h_1a13c05491f439fda60d9a41e34bed8503" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*<ref refid="MRMeshDelone_8h_1a13c05491f439fda60d9a41e34bed8503" kindref="member">MR_IntrinsicDeloneSettings_AssignFromAnother</ref>(<ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="440"><highlight class="normal"></highlight></codeline>
-<codeline lineno="454" refid="MRMeshDelone_8h_1ace6519aee91ccff2891b2668e29ebbb1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ace6519aee91ccff2891b2668e29ebbb1" kindref="member">MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="454" refid="MRMeshDelone_8h_1ace6519aee91ccff2891b2668e29ebbb1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1ace6519aee91ccff2891b2668e29ebbb1" kindref="member">MR_makeDeloneEdgeFlips_4_MR_EdgeLengthMesh</ref>(<ref refid="MREdgeLengthMesh_8h_1a21d0c9081671ec94a88f3883cd8e36f2" kindref="member">MR_EdgeLengthMesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshDelone_8h_1a41a41039ee70031a05a4562044cce3ca" kindref="member">MR_IntrinsicDeloneSettings</ref><sp/>*settings,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*numIters,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
 <codeline lineno="455"><highlight class="normal"></highlight></codeline>
 <codeline lineno="456"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="457"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="458"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshDelone.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRMeshDelone.h"/>
   </compounddef>
 </doxygen>

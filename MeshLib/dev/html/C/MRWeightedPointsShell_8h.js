@@ -1,12 +1,8 @@
 var MRWeightedPointsShell_8h =
 [
-    [ "MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref", "MRWeightedPointsShell_8h.html#a41cfc684740dccc7dea95f25c807b6ce", null ],
-    [ "MR_std_vector_MR_WeightedShell_ParametersRegions_Region", "MRWeightedPointsShell_8h.html#abf73071fe06d383693ea376448200cf3", null ],
-    [ "MR_WeightedShell_DistanceVolumeCreationParams", "MRWeightedPointsShell_8h.html#a5f1122828e3202acc9af2a2202dd11af", null ],
     [ "MR_WeightedShell_ParametersBase", "MRWeightedPointsShell_8h.html#a8f659b402e47ecefb533ee63744559cb", null ],
     [ "MR_WeightedShell_ParametersMetric", "MRWeightedPointsShell_8h.html#a71beb2b6696f0402ac0c9f1bbf95a461", null ],
     [ "MR_WeightedShell_ParametersRegions", "MRWeightedPointsShell_8h.html#afa48f38f4c78e4a5bbb2fd060782d0d9", null ],
-    [ "MR_WeightedShell_ParametersRegions_Region", "MRWeightedPointsShell_8h.html#a0c8fa266835b87106cadd3fa5cede1b1", null ],
     [ "MR_WeightedShell_calculateShellWeightsFromRegions", "MRWeightedPointsShell_8h.html#a0be8bd61f076e04b4a0bca4c5271778a", null ],
     [ "MR_WeightedShell_DistanceVolumeCreationParams_AssignFromAnother", "MRWeightedPointsShell_8h.html#ab6a5dc3fc3f52af32c7013c80b489e16", null ],
     [ "MR_WeightedShell_DistanceVolumeCreationParams_ConstructFrom", "MRWeightedPointsShell_8h.html#a9d55e1486db07d8496c402e6bf9029ab", null ],

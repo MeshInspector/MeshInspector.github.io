@@ -1,8 +1,6 @@
 var MRSequentialNester_8h =
 [
-    [ "MR_expected_MR_Nesting_NestingResult_std_string", "MRSequentialNester_8h.html#a7af52d2f25dd7325a836e12f4b78c76c", null ],
     [ "MR_Nesting_SequentialNester", "MRSequentialNester_8h.html#af291d21bb0863baa7cced145cec21dc2", null ],
-    [ "MR_std_vector_MR_OutEdge", "MRSequentialNester_8h.html#ab1c89c354fd202a217135e0ccc83e457", null ],
     [ "MR_Nesting_SequentialNester_AssignFromAnother", "MRSequentialNester_8h.html#a91e5697b406d6abbef5c695c8e70d00a", null ],
     [ "MR_Nesting_SequentialNester_Construct", "MRSequentialNester_8h.html#a3dd3703e69ca959cb826ff5abf248f75", null ],
     [ "MR_Nesting_SequentialNester_ConstructFromAnother", "MRSequentialNester_8h.html#a85dfb89d630de9dd4bdbe8281c60d4bc", null ],

@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h" kind="file" language="C++">
+    <compoundname>std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h</label>
+        <link refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" prot="public" static="no">
+        <type>struct <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref></type>
+        <definition>typedef struct MR_WeightedShell_DistanceVolumeCreationParams MR_WeightedShell_DistanceVolumeCreationParams</definition>
+        <argsstring></argsstring>
+        <name>MR_WeightedShell_DistanceVolumeCreationParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::WeightedShell::DistanceVolumeCreationParams</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="15" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" prot="public" static="no">
+        <type>struct <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref></type>
+        <definition>typedef struct MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Stores a functor of type: <computeroutput>MR::FunctionVolume(const MR::Mesh &amp;, const MR::WeightedShell::DistanceVolumeCreationParams &amp;)</computeroutput>. Possibly stateful. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="20" column="127" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ab2d5b42ab1bd19ec4fd910f90d755874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="24" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="24" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a99b60bb4e3da509f4907a222b3006d57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a68e88529eefd701f64bcede9806739e6" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a4f6386a4ba264633ca048611ff20b8ef" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a355b3034df2d2722d29c10ba6f850a6f" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="29" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="29" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a98b22052932a608af272c8f4697da44e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *other)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="35" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="35" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a7964fdff1abab46629005632625faf64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignFromAnother</definition>
+        <argsstring>(MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this, MR_PassBy other_pass_by, MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *other)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy</definition>
+        <argsstring>(const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy</name>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a68e88529eefd701f64bcede9806739e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DestroyArray</definition>
+        <argsstring>(const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a355b3034df2d2722d29c10ba6f850a6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetPtr</definition>
+        <argsstring>(const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="51" column="128" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="51" declcolumn="128"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a4f6386a4ba264633ca048611ff20b8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="55" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="55" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a28563c725a4dd20c66579e0805474221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_has_value</definition>
+        <argsstring>(const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_has_value</name>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if this instance stores a callable, as opposed to being null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a13bd1367fe9cffaad2cb94b5aabc584f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_reset</definition>
+        <argsstring>(MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_reset</name>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destroys the stored callable, making this instance null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="63" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="63" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a16dc89b29ee2a798acd0ff5369df2cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *</type>
+        <definition>MRC_API MR_FunctionVolume * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_call</definition>
+        <argsstring>(const MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this, const MR_Mesh *_1, const MR_WeightedShell_DistanceVolumeCreationParams *_2)</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_call</name>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref> *</type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calls the stored callable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_1</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_2</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVoxelsVolume_8h_1a148acc6ef9eec38ed406af2b65314405" kindref="member">MR_FunctionVolume_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="70" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="70" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1abfb48458107881c5b58b7cd7b92db9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructStateless</definition>
+        <argsstring>(MR_FunctionVolume *(*func)(MR_PassBy *_return_pass_by, const MR_Mesh *_1, const MR_WeightedShell_DistanceVolumeCreationParams *_2))</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructStateless</name>
+        <param>
+          <type><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *(*)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref> *_return_pass_by, const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref> *_2)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a stateless function. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_return_pass_by</computeroutput> is an output parameter. It will never be null, and initially points to a zeroed variable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="77" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="77" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a6522c8f7201770dea465b6de1ed5b12d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Assign</definition>
+        <argsstring>(MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this, MR_FunctionVolume *(*func)(MR_PassBy *_return_pass_by, const MR_Mesh *_1, const MR_WeightedShell_DistanceVolumeCreationParams *_2))</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Assign</name>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *(*)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref> *_return_pass_by, const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref> *_2)</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a stateless function. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_return_pass_by</computeroutput> is an output parameter. It will never be null, and initially points to a zeroed variable. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="84" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="84" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a3b4728e5653151d9666050d350fb65a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref * MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructEx</definition>
+        <argsstring>(MR_FunctionVolume *(*func)(MR_PassBy *_return_pass_by, const MR_Mesh *_1, const MR_WeightedShell_DistanceVolumeCreationParams *_2, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructEx</name>
+        <param>
+          <type><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *(*)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref> *_return_pass_by, const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref> *_2, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Construct a function with additional state. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_return_pass_by</computeroutput> is an output parameter. It will never be null, and initially points to a zeroed variable. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="118" column="122" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="118" declcolumn="122"/>
+      </memberdef>
+      <memberdef kind="function" id="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ad87abd8349ca077e33bbdb3e2d7688e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignEx</definition>
+        <argsstring>(MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref *_this, MR_FunctionVolume *(*func)(MR_PassBy *_return_pass_by, const MR_Mesh *_1, const MR_WeightedShell_DistanceVolumeCreationParams *_2, void *_userdata, void **_cleanup_value), void *userdata, void(*postcall_callback)(void *_userdata, void *_cleanup_value), void(*userdata_callback)(void **_this_userdata, void *_other_userdata))</argsstring>
+        <name>MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignEx</name>
+        <param>
+          <type><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref> *(*)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref> *_return_pass_by, const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *_1, const <ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref> *_2, void *_userdata, void **_cleanup_value)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>userdata</declname>
+        </param>
+        <param>
+          <type>void(*)(void *_userdata, void *_cleanup_value)</type>
+          <declname>postcall_callback</declname>
+        </param>
+        <param>
+          <type>void(*)(void **_this_userdata, void *_other_userdata)</type>
+          <declname>userdata_callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assign a function with additional state. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>userdata</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. Callback parameter <computeroutput>_1</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_2</computeroutput> will never be null. It is non-owning, do NOT destroy it. Callback parameter <computeroutput>_return_pass_by</computeroutput> is an output parameter. It will never be null, and initially points to a zeroed variable. Parameter <computeroutput>userdata</computeroutput> is propagated to <computeroutput>func</computeroutput>. Parameter <computeroutput>postcall_callback</computeroutput> can be null. If specified, it will always be called right after <computeroutput>func</computeroutput>, after constructing the underlying C++ return value. If null, then <computeroutput>func</computeroutput> will always receive null <computeroutput>_cleanup_value</computeroutput>. If specified, then <computeroutput>_cleanup_value</computeroutput> will not be null. <computeroutput>func</computeroutput> can write to <computeroutput>*_cleanup_value</computeroutput>, and that value will be forwarded to the <computeroutput>postcall_callback</computeroutput> call. Writing null has no special effect, <computeroutput>postcall_callback</computeroutput> will be called regardless. <computeroutput>*_cleanup_value</computeroutput> is null by default. The intent is to handle cases where in C++ the callback returns by value, but the corresponding C callback returns a pointer, which makes implementing the callback difficult, as you would need to either leak the pointer, or it would dangle. With this callback, you can leak the pointer from <computeroutput>func</computeroutput>, and then clean it up in <computeroutput>postcall_callback</computeroutput>. Another way to handle this is by using <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput>,but it is less flexible than the callback, since it forces an extra move in some cases. This might make no sense to C users, but it helps when wrapping C bindings in another language. If you&apos;re using <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput>, then in C you&apos;d expect your pointer to outlive the callback, so all is good. But when wrapping C in a managed language where objects are shared references, you might not know if the object you&apos;re returning is the last reference or not, so you&apos;d have to either copy/move it into a temporary, which you would then <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> (which adds an extra move), or introduce a null state to your objects to <computeroutput>MR_PassBy_MoveAndDestroy</computeroutput> the original pointer (having the null state might be undesirable). And attempting to use <computeroutput>MR_PassBy_Copy</computeroutput> or <computeroutput>MR_PassBy_Move</computeroutput> could dangle your pointer, if the returned object in your language is a local or temporary, and is the last reference to the underlying C/C++ object. What <computeroutput>postcall_callback</computeroutput> allows you to do is to preserve a reference to the returned object in your language, so that it lives long enough for the contents to be copied into the returned C++ object. Parameter <computeroutput>userdata_callback</computeroutput> can be null. Pass null if you don&apos;t need custom behavior when destroying and/or copying the functor. The <computeroutput>_this_userdata</computeroutput> parameter will never be null. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is null, the functor is being destroyed. Perform any cleanup if needed. If <computeroutput>*_this_userdata</computeroutput> is null and <computeroutput>_other_userdata</computeroutput> is non-null, a copy of the functor is being constructed. Perform copying if needed and write the new userdata to <computeroutput>*_this_userdata</computeroutput>. If <computeroutput>*_this_userdata</computeroutput> is non-null and <computeroutput>_other_userdata</computeroutput> is non-null, the functor is being assigned. The simplest option is to destroy <computeroutput>*_this_userdata</computeroutput> first, and then behave as if it was null. Both <computeroutput>*_this_userdata</computeroutput> and <computeroutput>_other_userdata</computeroutput> will never be null at the same time. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" line="152" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h" declline="152" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRVoxelsVolume.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCVoxels/MRWeightedPointsShell.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ab2d5b42ab1bd19ec4fd910f90d755874" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ab2d5b42ab1bd19ec4fd910f90d755874" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a99b60bb4e3da509f4907a222b3006d57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a99b60bb4e3da509f4907a222b3006d57" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a98b22052932a608af272c8f4697da44e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a98b22052932a608af272c8f4697da44e" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a7964fdff1abab46629005632625faf64" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a7964fdff1abab46629005632625faf64" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignFromAnother</ref>(<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a2c6fe56ef2fcb872f38251d675c41295" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a68e88529eefd701f64bcede9806739e6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a68e88529eefd701f64bcede9806739e6" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a355b3034df2d2722d29c10ba6f850a6f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a355b3034df2d2722d29c10ba6f850a6f" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a4f6386a4ba264633ca048611ff20b8ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a4f6386a4ba264633ca048611ff20b8ef" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_OffsetMutablePtr</ref>(<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a28563c725a4dd20c66579e0805474221" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a28563c725a4dd20c66579e0805474221" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a13bd1367fe9cffaad2cb94b5aabc584f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a13bd1367fe9cffaad2cb94b5aabc584f" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_reset</ref>(<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a16dc89b29ee2a798acd0ff5369df2cba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a16dc89b29ee2a798acd0ff5369df2cba" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_call</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_2);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1abfb48458107881c5b58b7cd7b92db9f8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1abfb48458107881c5b58b7cd7b92db9f8" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructStateless</ref>(<ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*(*func)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>*_return_pass_by,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_2));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a6522c8f7201770dea465b6de1ed5b12d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a6522c8f7201770dea465b6de1ed5b12d" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_Assign</ref>(<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this,<sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*(*func)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>*_return_pass_by,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_2));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a3b4728e5653151d9666050d350fb65a6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a3b4728e5653151d9666050d350fb65a6" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_ConstructEx</ref>(<ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*(*func)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>*_return_pass_by,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_2,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ad87abd8349ca077e33bbdb3e2d7688e5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1ad87abd8349ca077e33bbdb3e2d7688e5" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref_AssignEx</ref>(<ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a41cfc684740dccc7dea95f25c807b6ce" kindref="member">MR_std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeCreationParams_ref</ref><sp/>*_this,<sp/><ref refid="expected__MR__FunctionVolume__std__string_8h_1ab294732b2988d23c13fd8799dc19a43a" kindref="member">MR_FunctionVolume</ref><sp/>*(*func)(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>*_return_pass_by,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*_1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__function__MR__FunctionVolume__from__const__MR__Mesh__ref__const__MR__WeightedShell__DistanceVolumeC____fd48_8h_1a5f1122828e3202acc9af2a2202dd11af" kindref="member">MR_WeightedShell_DistanceVolumeCreationParams</ref><sp/>*_2,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*postcall_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_cleanup_value),<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(*userdata_callback)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**_this_userdata,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_other_userdata));</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_function_MR_FunctionVolume_from_const_MR_Mesh_ref_const_MR_WeightedShell_DistanceVolumeC__fd48.h"/>
+  </compounddef>
+</doxygen>

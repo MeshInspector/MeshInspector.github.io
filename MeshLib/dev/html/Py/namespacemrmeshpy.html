@@ -14553,7 +14553,10 @@ the bits in (edges) for tracked path edges are reset
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">fill region located to the left from given edges
+<pre class="fragment">returns the region located to the left from the given edges;
+if the contour(s) are not separating and there is a tunnel connecting left and right side of the contour(s),
+then all faces from contour's connected components are returned;
+please use \\ref fillContourLeftByGraphCut for not-separating contours instead
 </pre> 
 </div>
 </div>

@@ -1,0 +1,1619 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__vector__MR__UnorientedTriangle_8h" kind="file" language="C++">
+    <compoundname>std_vector_MR_UnorientedTriangle.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_vector_MR_UnorientedTriangle.h</label>
+        <link refid="std__vector__MR__UnorientedTriangle_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_UnorientedTriangle_const_iterator MR_std_vector_MR_UnorientedTriangle_const_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read-only iterator for <computeroutput><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="22" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" prot="public" static="no">
+        <type>struct <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref></type>
+        <definition>typedef struct MR_std_vector_MR_UnorientedTriangle_iterator MR_std_vector_MR_UnorientedTriangle_iterator</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mutable iterator for <computeroutput><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref></computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="26" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a11ba696f66e306da5f97dc7a0f144aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a710f9e6597c4453e50cbf05dbeda0cdd" kindref="member">MR_std_vector_MR_UnorientedTriangle_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="30" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="30" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aab65a99eae448652d53dcec2482c9083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a8f6189155b4d4fbfb36d0db101389dc3" kindref="member">MR_std_vector_MR_UnorientedTriangle_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a1fc2e2c61ea316bc59f04a99d462c599" kindref="member">MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a20c85c89ce61fa1d3a4343fe8d00f978" kindref="member">MR_std_vector_MR_UnorientedTriangle_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="35" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="35" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aefd54e614fbbe3d72d1bcbd99c856f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_vector_MR_UnorientedTriangle *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a710f9e6597c4453e50cbf05dbeda0cdd" kindref="member">MR_std_vector_MR_UnorientedTriangle_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="41" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="41" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ac51f5356003efb07b5f8dbec297bc740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, MR_PassBy other_pass_by, MR_std_vector_MR_UnorientedTriangle *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a710f9e6597c4453e50cbf05dbeda0cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_Destroy</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="50" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="50" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a8f6189155b4d4fbfb36d0db101389dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="53" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="53" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a20c85c89ce61fa1d3a4343fe8d00f978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="57" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="57" declcolumn="51"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a1fc2e2c61ea316bc59f04a99d462c599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="61" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="61" declcolumn="45"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ab72c13836a7f423ddb8e23c080c99f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_UnorientedTriangle_size</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_size</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="65" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="65" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a3ffdcbea09c59a4e8faa2ed6491844de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_UnorientedTriangle_empty</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_empty</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if the size is zero. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a9d62fb18472ce28d321816d9b4b46de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_resize_with_default_value</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, size_t new_size, const MR_UnorientedTriangle *value)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_resize_with_default_value</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_size</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resizes the container. The new elements if any are set to the specified value. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ac2ce2faaa80e0ea1451eaa0bf51ecec5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_clear</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_clear</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes all elements from the container. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="79" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aa66bcd597cb560eac1cd2a34801ea083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> size_t</type>
+        <definition>MRC_API size_t MR_std_vector_MR_UnorientedTriangle_capacity</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_capacity</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The memory capacity, measued in the number of elements. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="83" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="83" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1affb0aef03ac72eaa4976e6bf2a5ae9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_reserve</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, size_t new_capacity)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_reserve</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>new_capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reserves memory for a certain number of elements. Never shrinks the memory. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ad421c9344e6c4d058371f9f4cf4175fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_shrink_to_fit</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_shrink_to_fit</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Shrinks the capacity to match the size. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="91" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="91" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1afc493e470b66603a75e049a36d371a94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API const MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_at</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_at</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="97" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="97" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a68b01110971e034211b7e117bd7f5ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_at_mut</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, size_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_at_mut</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The element at a specific index, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="103" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="103" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a1514aaaed7edbe6c3111656d9f909ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API const MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_front</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_front</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="108" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="108" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a15ff8aaa336b0afcb50c298e675aadcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_front_mut</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_front_mut</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The first element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="113" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="113" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a77dbc15808197af255cbba62dcf018dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API const MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_back</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_back</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, read-only. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="118" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="118" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a36482b0b2d8180c8939d478ce5cd99d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_back_mut</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_back_mut</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The last element or null if empty, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="123" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="123" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a5f6cf9e7f1dc08a97c27a3ed3394e9ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_push_back</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, const MR_UnorientedTriangle *new_elem)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_push_back</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element at the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a94d54ddf037e112e30c87e7573549d14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_pop_back</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_pop_back</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes one element from the end. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="133" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="133" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a2485583794a11fa392640601eb214c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_insert</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, size_t position, const MR_UnorientedTriangle *new_elem)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_insert</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="139" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="139" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ada6be04dc09f3121570a2e9bc764445b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_erase</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, size_t position)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_erase</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aac0cd232d0c6c891fca67b5342b3f82f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_insert_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *position, const MR_UnorientedTriangle *new_elem)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_insert_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aca6ed5763c0fe1a699f7999d3240ce30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_erase_at_mutable_iter</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_erase_at_mutable_iter</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="155" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="155" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aed8a7a155ebd4221fa7dc1d32ce3b118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_insert_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *position, const MR_UnorientedTriangle *new_elem)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_insert_at_iter</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+          <declname>new_elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Inserts a new element right before the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. Parameter <computeroutput>new_elem</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>new_elem</computeroutput> might be preserved in this object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="162" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="162" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a61cbb10edf611813da4a4c0e197b592f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_erase_at_iter</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *position)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_erase_at_iter</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Erases the element at the specified position. This version takes the position in form of a const iterator, that&apos;s the only difference. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>position</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="167" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="167" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a5fcff385600aff648ac1d990807b6d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_begin</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_begin</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="173" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="173" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aaee4404fe5dac7ad7959fa8dcdbe0150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_UnorientedTriangle_is_begin</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_is_begin</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="178" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="178" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a00961c5319a1a526d2fedd38a665efba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_begin_mut</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_begin_mut</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The begin iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="184" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="184" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a12e87a44a51cb32aefe41b42ff6a6904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_UnorientedTriangle_is_begin_mut</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_is_begin_mut</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the begin iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="189" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="189" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aea43e1a9cd9c7ac95f40db12dc411214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_end</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_end</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, const. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="195" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="195" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a538acbb333fcc6d9c6c525a370ea36c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_UnorientedTriangle_is_end</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_is_end</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a const iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a89a35f45e8383eda91eafe9a3cdd3c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_end_mut</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_end_mut</name>
+        <param>
+          <type><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The end iterator, mutable. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="206" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="206" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a6a09d72aca994d6f559c7dec37b1e764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_vector_MR_UnorientedTriangle_is_end_mut</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_is_end_mut</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Tests whether a mutable iterator is the end iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="211" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="211" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a55d274360c611b59d9b8f9ff576d9126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_to_index</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_to_index</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a const iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="216" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="216" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aa10f9d4b161f6c181081f68efaa8185a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_std_vector_MR_UnorientedTriangle_to_index_mut</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_to_index_mut</name>
+        <param>
+          <type>const <ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convert a mutable iterator to an index. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="221" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="221" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a633a0c2d2ecead283ff543677cfec010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="225" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="225" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a662bcd7de9a6bfe1ee2f6bba3619bfb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a6d01b9d06c484a89318069c8eb084fd8" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ab84f06b5fca741e82fc9a89dfff77198" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a35adea2a53a6bdfba64b1a0706dd819a" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="230" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="230" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a7ee066843ac11c00f15dddc38510d8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="237" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="237" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1acb74c168286440813600e1f52d554a33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_const_iterator *_this, const MR_std_vector_MR_UnorientedTriangle_const_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="244" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="244" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="247" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="247" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a6d01b9d06c484a89318069c8eb084fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="250" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="250" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a35adea2a53a6bdfba64b1a0706dd819a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="254" column="66" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="254" declcolumn="66"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ab84f06b5fca741e82fc9a89dfff77198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_const_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="258" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="258" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a4afc3e9527ae454cb0303c27fa23a258" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_const_iterator * MR_std_vector_MR_UnorientedTriangle_const_iterator_from_mutable</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *iter)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_from_mutable</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>iter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Makes a const iterator from a mutable one. Parameter <computeroutput>iter</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="263" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="263" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1adf7e06083013f9f5e9fbb433845b5112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="267" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="267" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aeb6a3fecea3fcc7c18ef3bf7e63c86ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a1acc3d888676182c78e13aa088fcf400" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aba247cf21ef5093bd5806fa5ede150c5" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1a1ae4d32c945051a88985989d387a3b39" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="272" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="272" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1af5123aafdf46b5ea371c1b1d06552eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="279" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="279" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1add8e3277941710175c8af91fa3c7f961" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_iterator *_this, const MR_std_vector_MR_UnorientedTriangle_iterator *other)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="286" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="286" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_Destroy</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_Destroy</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="289" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="289" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a1acc3d888676182c78e13aa088fcf400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="292" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="292" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a1ae4d32c945051a88985989d387a3b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API const MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="296" column="60" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="296" declcolumn="60"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1aba247cf21ef5093bd5806fa5ede150c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+        <definition>MRC_API MR_std_vector_MR_UnorientedTriangle_iterator * MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_iterator *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="300" column="54" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="300" declcolumn="54"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a701b6770fdf1b8d6c0cdcad330b68b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API const MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_const_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="306" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="306" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a281e8640da3ace5cf0d79119343bdcab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="310" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="310" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a8d45436f5ecf2eaf6b769e7731dfe61c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_const_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a const iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="314" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="314" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ac76868059025ac12321f3e1c8bb19039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_const_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_const_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_const_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a const iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="318" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="318" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a777e3293fc16b61679bf686545df6c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_UnorientedTriangle_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *a, const MR_std_vector_MR_UnorientedTriangle_const_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_UnorientedTriangle_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two const iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="323" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="323" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a9ab12284d1c4f6d45b2a7d22f623115a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_UnorientedTriangle_const_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_const_iterator *a, const MR_std_vector_MR_UnorientedTriangle_const_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_UnorientedTriangle_const_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two const iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="328" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="328" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a9c820ef00212a7c026922ce70c96d34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref> *</type>
+        <definition>MRC_API MR_UnorientedTriangle * MR_std_vector_MR_UnorientedTriangle_iterator_deref</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_deref</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dereferences a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to things referred to by this object (if any) might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="334" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="334" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ae350dfc36d0a113d9dfd5bd447d7a5e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_incr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_incr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="338" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="338" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1ab0395a55cb5bb211c358873f1e9ced41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_decr</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_iterator *_this)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_decr</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements a mutable iterator. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a7f325168e7ac81778ea04ca91e35b97d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_vector_MR_UnorientedTriangle_iterator_add_assign</definition>
+        <argsstring>(MR_std_vector_MR_UnorientedTriangle_iterator *_this, ptrdiff_t delta)</argsstring>
+        <name>MR_std_vector_MR_UnorientedTriangle_iterator_add_assign</name>
+        <param>
+          <type><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>delta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments or decrements a mutable iterator by the specific amount. Completes in constant time. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="346" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="346" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1a1c111c06039bb9ab1bad21748a463a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> ptrdiff_t</type>
+        <definition>MRC_API ptrdiff_t MR_sub_MR_std_vector_MR_UnorientedTriangle_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *a, const MR_std_vector_MR_UnorientedTriangle_iterator *b)</argsstring>
+        <name>MR_sub_MR_std_vector_MR_UnorientedTriangle_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the signed difference between two mutable iterators. Completes in constant time. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="351" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="351" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="std__vector__MR__UnorientedTriangle_8h_1adb1785941a51326e93cb2a6ddec0f45b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_equal_MR_std_vector_MR_UnorientedTriangle_iterator</definition>
+        <argsstring>(const MR_std_vector_MR_UnorientedTriangle_iterator *a, const MR_std_vector_MR_UnorientedTriangle_iterator *b)</argsstring>
+        <name>MR_equal_MR_std_vector_MR_UnorientedTriangle_iterator</name>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compares two mutable iterators for equality. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" line="356" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h" declline="356" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRUnorientedTriangle.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="std__vector__MR__UnorientedTriangle_8h_1a11ba696f66e306da5f97dc7a0f144aa5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a11ba696f66e306da5f97dc7a0f144aa5" kindref="member">MR_std_vector_MR_UnorientedTriangle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__vector__MR__UnorientedTriangle_8h_1aab65a99eae448652d53dcec2482c9083" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1aab65a99eae448652d53dcec2482c9083" kindref="member">MR_std_vector_MR_UnorientedTriangle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__vector__MR__UnorientedTriangle_8h_1aefd54e614fbbe3d72d1bcbd99c856f29" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1aefd54e614fbbe3d72d1bcbd99c856f29" kindref="member">MR_std_vector_MR_UnorientedTriangle_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__vector__MR__UnorientedTriangle_8h_1ac51f5356003efb07b5f8dbec297bc740" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ac51f5356003efb07b5f8dbec297bc740" kindref="member">MR_std_vector_MR_UnorientedTriangle_AssignFromAnother</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="std__vector__MR__UnorientedTriangle_8h_1a710f9e6597c4453e50cbf05dbeda0cdd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a710f9e6597c4453e50cbf05dbeda0cdd" kindref="member">MR_std_vector_MR_UnorientedTriangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="std__vector__MR__UnorientedTriangle_8h_1a8f6189155b4d4fbfb36d0db101389dc3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a8f6189155b4d4fbfb36d0db101389dc3" kindref="member">MR_std_vector_MR_UnorientedTriangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="std__vector__MR__UnorientedTriangle_8h_1a20c85c89ce61fa1d3a4343fe8d00f978" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a20c85c89ce61fa1d3a4343fe8d00f978" kindref="member">MR_std_vector_MR_UnorientedTriangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="std__vector__MR__UnorientedTriangle_8h_1a1fc2e2c61ea316bc59f04a99d462c599" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a1fc2e2c61ea316bc59f04a99d462c599" kindref="member">MR_std_vector_MR_UnorientedTriangle_OffsetMutablePtr</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="std__vector__MR__UnorientedTriangle_8h_1ab72c13836a7f423ddb8e23c080c99f57" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ab72c13836a7f423ddb8e23c080c99f57" kindref="member">MR_std_vector_MR_UnorientedTriangle_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="std__vector__MR__UnorientedTriangle_8h_1a3ffdcbea09c59a4e8faa2ed6491844de" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a3ffdcbea09c59a4e8faa2ed6491844de" kindref="member">MR_std_vector_MR_UnorientedTriangle_empty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__vector__MR__UnorientedTriangle_8h_1a9d62fb18472ce28d321816d9b4b46de2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a9d62fb18472ce28d321816d9b4b46de2" kindref="member">MR_std_vector_MR_UnorientedTriangle_resize_with_default_value</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="std__vector__MR__UnorientedTriangle_8h_1ac2ce2faaa80e0ea1451eaa0bf51ecec5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ac2ce2faaa80e0ea1451eaa0bf51ecec5" kindref="member">MR_std_vector_MR_UnorientedTriangle_clear</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="std__vector__MR__UnorientedTriangle_8h_1aa66bcd597cb560eac1cd2a34801ea083" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aa66bcd597cb560eac1cd2a34801ea083" kindref="member">MR_std_vector_MR_UnorientedTriangle_capacity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="std__vector__MR__UnorientedTriangle_8h_1affb0aef03ac72eaa4976e6bf2a5ae9e1" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1affb0aef03ac72eaa4976e6bf2a5ae9e1" kindref="member">MR_std_vector_MR_UnorientedTriangle_reserve</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_capacity);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="std__vector__MR__UnorientedTriangle_8h_1ad421c9344e6c4d058371f9f4cf4175fb" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad421c9344e6c4d058371f9f4cf4175fb" kindref="member">MR_std_vector_MR_UnorientedTriangle_shrink_to_fit</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="std__vector__MR__UnorientedTriangle_8h_1afc493e470b66603a75e049a36d371a94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1afc493e470b66603a75e049a36d371a94" kindref="member">MR_std_vector_MR_UnorientedTriangle_at</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="std__vector__MR__UnorientedTriangle_8h_1a68b01110971e034211b7e117bd7f5ad6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a68b01110971e034211b7e117bd7f5ad6" kindref="member">MR_std_vector_MR_UnorientedTriangle_at_mut</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="std__vector__MR__UnorientedTriangle_8h_1a1514aaaed7edbe6c3111656d9f909ea9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a1514aaaed7edbe6c3111656d9f909ea9" kindref="member">MR_std_vector_MR_UnorientedTriangle_front</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="std__vector__MR__UnorientedTriangle_8h_1a15ff8aaa336b0afcb50c298e675aadcc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a15ff8aaa336b0afcb50c298e675aadcc" kindref="member">MR_std_vector_MR_UnorientedTriangle_front_mut</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="std__vector__MR__UnorientedTriangle_8h_1a77dbc15808197af255cbba62dcf018dc" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a77dbc15808197af255cbba62dcf018dc" kindref="member">MR_std_vector_MR_UnorientedTriangle_back</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="std__vector__MR__UnorientedTriangle_8h_1a36482b0b2d8180c8939d478ce5cd99d3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a36482b0b2d8180c8939d478ce5cd99d3" kindref="member">MR_std_vector_MR_UnorientedTriangle_back_mut</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="std__vector__MR__UnorientedTriangle_8h_1a5f6cf9e7f1dc08a97c27a3ed3394e9ce" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a5f6cf9e7f1dc08a97c27a3ed3394e9ce" kindref="member">MR_std_vector_MR_UnorientedTriangle_push_back</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="std__vector__MR__UnorientedTriangle_8h_1a94d54ddf037e112e30c87e7573549d14" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a94d54ddf037e112e30c87e7573549d14" kindref="member">MR_std_vector_MR_UnorientedTriangle_pop_back</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="std__vector__MR__UnorientedTriangle_8h_1a2485583794a11fa392640601eb214c13" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a2485583794a11fa392640601eb214c13" kindref="member">MR_std_vector_MR_UnorientedTriangle_insert</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="std__vector__MR__UnorientedTriangle_8h_1ada6be04dc09f3121570a2e9bc764445b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ada6be04dc09f3121570a2e9bc764445b" kindref="member">MR_std_vector_MR_UnorientedTriangle_erase</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="std__vector__MR__UnorientedTriangle_8h_1aac0cd232d0c6c891fca67b5342b3f82f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aac0cd232d0c6c891fca67b5342b3f82f" kindref="member">MR_std_vector_MR_UnorientedTriangle_insert_at_mutable_iter</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155" refid="std__vector__MR__UnorientedTriangle_8h_1aca6ed5763c0fe1a699f7999d3240ce30" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aca6ed5763c0fe1a699f7999d3240ce30" kindref="member">MR_std_vector_MR_UnorientedTriangle_erase_at_mutable_iter</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="std__vector__MR__UnorientedTriangle_8h_1aed8a7a155ebd4221fa7dc1d32ce3b118" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aed8a7a155ebd4221fa7dc1d32ce3b118" kindref="member">MR_std_vector_MR_UnorientedTriangle_insert_at_iter</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*position,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*new_elem);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="std__vector__MR__UnorientedTriangle_8h_1a61cbb10edf611813da4a4c0e197b592f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a61cbb10edf611813da4a4c0e197b592f" kindref="member">MR_std_vector_MR_UnorientedTriangle_erase_at_iter</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*position);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="std__vector__MR__UnorientedTriangle_8h_1a5fcff385600aff648ac1d990807b6d00" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a5fcff385600aff648ac1d990807b6d00" kindref="member">MR_std_vector_MR_UnorientedTriangle_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="std__vector__MR__UnorientedTriangle_8h_1aaee4404fe5dac7ad7959fa8dcdbe0150" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaee4404fe5dac7ad7959fa8dcdbe0150" kindref="member">MR_std_vector_MR_UnorientedTriangle_is_begin</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="std__vector__MR__UnorientedTriangle_8h_1a00961c5319a1a526d2fedd38a665efba" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a00961c5319a1a526d2fedd38a665efba" kindref="member">MR_std_vector_MR_UnorientedTriangle_begin_mut</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="std__vector__MR__UnorientedTriangle_8h_1a12e87a44a51cb32aefe41b42ff6a6904" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a12e87a44a51cb32aefe41b42ff6a6904" kindref="member">MR_std_vector_MR_UnorientedTriangle_is_begin_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="std__vector__MR__UnorientedTriangle_8h_1aea43e1a9cd9c7ac95f40db12dc411214" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1aea43e1a9cd9c7ac95f40db12dc411214" kindref="member">MR_std_vector_MR_UnorientedTriangle_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="std__vector__MR__UnorientedTriangle_8h_1a538acbb333fcc6d9c6c525a370ea36c7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a538acbb333fcc6d9c6c525a370ea36c7" kindref="member">MR_std_vector_MR_UnorientedTriangle_is_end</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="std__vector__MR__UnorientedTriangle_8h_1a89a35f45e8383eda91eafe9a3cdd3c0e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a89a35f45e8383eda91eafe9a3cdd3c0e" kindref="member">MR_std_vector_MR_UnorientedTriangle_end_mut</ref>(<ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211" refid="std__vector__MR__UnorientedTriangle_8h_1a6a09d72aca994d6f559c7dec37b1e764" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a6a09d72aca994d6f559c7dec37b1e764" kindref="member">MR_std_vector_MR_UnorientedTriangle_is_end_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="std__vector__MR__UnorientedTriangle_8h_1a55d274360c611b59d9b8f9ff576d9126" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a55d274360c611b59d9b8f9ff576d9126" kindref="member">MR_std_vector_MR_UnorientedTriangle_to_index</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="std__vector__MR__UnorientedTriangle_8h_1aa10f9d4b161f6c181081f68efaa8185a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aa10f9d4b161f6c181081f68efaa8185a" kindref="member">MR_std_vector_MR_UnorientedTriangle_to_index_mut</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRLocalTriangulations_8h_1a728f3170bb6a26bea6a2e4df3bfc0153" kindref="member">MR_std_vector_MR_UnorientedTriangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="std__vector__MR__UnorientedTriangle_8h_1a633a0c2d2ecead283ff543677cfec010" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a633a0c2d2ecead283ff543677cfec010" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="std__vector__MR__UnorientedTriangle_8h_1a662bcd7de9a6bfe1ee2f6bba3619bfb3" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a662bcd7de9a6bfe1ee2f6bba3619bfb3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="std__vector__MR__UnorientedTriangle_8h_1a7ee066843ac11c00f15dddc38510d8b7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a7ee066843ac11c00f15dddc38510d8b7" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="std__vector__MR__UnorientedTriangle_8h_1acb74c168286440813600e1f52d554a33" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1acb74c168286440813600e1f52d554a33" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ad8ccdc811b538a737d397719521c59ec" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="std__vector__MR__UnorientedTriangle_8h_1a6d01b9d06c484a89318069c8eb084fd8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a6d01b9d06c484a89318069c8eb084fd8" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="std__vector__MR__UnorientedTriangle_8h_1a35adea2a53a6bdfba64b1a0706dd819a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a35adea2a53a6bdfba64b1a0706dd819a" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="std__vector__MR__UnorientedTriangle_8h_1ab84f06b5fca741e82fc9a89dfff77198" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1ab84f06b5fca741e82fc9a89dfff77198" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="std__vector__MR__UnorientedTriangle_8h_1a4afc3e9527ae454cb0303c27fa23a258" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a4afc3e9527ae454cb0303c27fa23a258" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_from_mutable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*iter);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="std__vector__MR__UnorientedTriangle_8h_1adf7e06083013f9f5e9fbb433845b5112" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1adf7e06083013f9f5e9fbb433845b5112" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272" refid="std__vector__MR__UnorientedTriangle_8h_1aeb6a3fecea3fcc7c18ef3bf7e63c86ef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1aeb6a3fecea3fcc7c18ef3bf7e63c86ef" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="std__vector__MR__UnorientedTriangle_8h_1af5123aafdf46b5ea371c1b1d06552eee" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1af5123aafdf46b5ea371c1b1d06552eee" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286" refid="std__vector__MR__UnorientedTriangle_8h_1add8e3277941710175c8af91fa3c7f961" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1add8e3277941710175c8af91fa3c7f961" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_AssignFromAnother</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aec42a3f19dcbceba24034b9c7b785f79" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="std__vector__MR__UnorientedTriangle_8h_1a1acc3d888676182c78e13aa088fcf400" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a1acc3d888676182c78e13aa088fcf400" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296" refid="std__vector__MR__UnorientedTriangle_8h_1a1ae4d32c945051a88985989d387a3b39" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a1ae4d32c945051a88985989d387a3b39" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300" refid="std__vector__MR__UnorientedTriangle_8h_1aba247cf21ef5093bd5806fa5ede150c5" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1aba247cf21ef5093bd5806fa5ede150c5" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_OffsetMutablePtr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="std__vector__MR__UnorientedTriangle_8h_1a701b6770fdf1b8d6c0cdcad330b68b43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a701b6770fdf1b8d6c0cdcad330b68b43" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="std__vector__MR__UnorientedTriangle_8h_1a281e8640da3ace5cf0d79119343bdcab" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a281e8640da3ace5cf0d79119343bdcab" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_incr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="std__vector__MR__UnorientedTriangle_8h_1a8d45436f5ecf2eaf6b769e7731dfe61c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a8d45436f5ecf2eaf6b769e7731dfe61c" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_decr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318" refid="std__vector__MR__UnorientedTriangle_8h_1ac76868059025ac12321f3e1c8bb19039" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ac76868059025ac12321f3e1c8bb19039" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator_add_assign</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="std__vector__MR__UnorientedTriangle_8h_1a777e3293fc16b61679bf686545df6c55" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a777e3293fc16b61679bf686545df6c55" kindref="member">MR_sub_MR_std_vector_MR_UnorientedTriangle_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="std__vector__MR__UnorientedTriangle_8h_1a9ab12284d1c4f6d45b2a7d22f623115a" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a9ab12284d1c4f6d45b2a7d22f623115a" kindref="member">MR_equal_MR_std_vector_MR_UnorientedTriangle_const_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a70ca29c456e34317ed2e07f5333ee9b3" kindref="member">MR_std_vector_MR_UnorientedTriangle_const_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="std__vector__MR__UnorientedTriangle_8h_1a9c820ef00212a7c026922ce70c96d34f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRUnorientedTriangle_8h_1a64d49e7ba2575275fe304bab6f095f9d" kindref="member">MR_UnorientedTriangle</ref><sp/>*<ref refid="std__vector__MR__UnorientedTriangle_8h_1a9c820ef00212a7c026922ce70c96d34f" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_deref</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="std__vector__MR__UnorientedTriangle_8h_1ae350dfc36d0a113d9dfd5bd447d7a5e9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ae350dfc36d0a113d9dfd5bd447d7a5e9" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_incr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="std__vector__MR__UnorientedTriangle_8h_1ab0395a55cb5bb211c358873f1e9ced41" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1ab0395a55cb5bb211c358873f1e9ced41" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_decr</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="std__vector__MR__UnorientedTriangle_8h_1a7f325168e7ac81778ea04ca91e35b97d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a7f325168e7ac81778ea04ca91e35b97d" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator_add_assign</ref>(<ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*_this,<sp/>ptrdiff_t<sp/>delta);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="std__vector__MR__UnorientedTriangle_8h_1a1c111c06039bb9ab1bad21748a463a37" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/>ptrdiff_t<sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1a1c111c06039bb9ab1bad21748a463a37" kindref="member">MR_sub_MR_std_vector_MR_UnorientedTriangle_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="std__vector__MR__UnorientedTriangle_8h_1adb1785941a51326e93cb2a6ddec0f45b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1adb1785941a51326e93cb2a6ddec0f45b" kindref="member">MR_equal_MR_std_vector_MR_UnorientedTriangle_iterator</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__vector__MR__UnorientedTriangle_8h_1aaef77876fb43588afd954bbfe0a8e561" kindref="member">MR_std_vector_MR_UnorientedTriangle_iterator</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_vector_MR_UnorientedTriangle.h"/>
+  </compounddef>
+</doxygen>

@@ -142,14 +142,14 @@ $(function(){initNavTree('MRImageSave_8h.html','',''); });
   <div class="headertitle"><div class="title">MRImageSave.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 </div>
 <p><a href="MRImageSave_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a70f16f9174cc1b42e72062e25eefada0" id="r_a70f16f9174cc1b42e72062e25eefada0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f16f9174cc1b42e72062e25eefada0">MR_ImageSave_toBmp</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
-<tr class="memitem:ab81d6933bb34392512750f3465d2ff67" id="r_ab81d6933bb34392512750f3465d2ff67"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81d6933bb34392512750f3465d2ff67">MR_ImageSave_toAnySupportedFormat</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
+<tr class="memitem:a70f16f9174cc1b42e72062e25eefada0" id="r_a70f16f9174cc1b42e72062e25eefada0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70f16f9174cc1b42e72062e25eefada0">MR_ImageSave_toBmp</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
+<tr class="memitem:ab81d6933bb34392512750f3465d2ff67" id="r_ab81d6933bb34392512750f3465d2ff67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab81d6933bb34392512750f3465d2ff67">MR_ImageSave_toAnySupportedFormat</a> (const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *image, const char *path, const char *path_end)</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ab81d6933bb34392512750f3465d2ff67" name="ab81d6933bb34392512750f3465d2ff67"></a>
@@ -159,7 +159,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toAnySupportedFormat </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toAnySupportedFormat </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
         </tr>
@@ -176,7 +176,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>detects the format from file extension and save image to it <br  />
- Generated from function <span class="tt">MR::ImageSave::toAnySupportedFormat</span>. Parameter <span class="tt">image</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_void_std_string_Destroy()</span> to free it when you're done using it. </p>
+ Generated from function <span class="tt">MR::ImageSave::toAnySupportedFormat</span>. Parameter <span class="tt">image</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -187,7 +187,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toBmp </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_ImageSave_toBmp </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRJpeg_8h.html#a5e2943bfe5a7ecddf6b533bccae5f9c0">MR_Image</a> *</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
         </tr>
@@ -203,7 +203,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>saves in .bmp format Generated from function <span class="tt">MR::ImageSave::toBmp</span>. Parameter <span class="tt">image</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_void_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>saves in .bmp format Generated from function <span class="tt">MR::ImageSave::toBmp</span>. Parameter <span class="tt">image</span> can not be null. It is a single object. Parameter <span class="tt">path</span> is a UTF-8 encoded filesystem path. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -214,7 +214,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_cb83f9b98dc6f67356ff76bcc17f4f67.html">MRCMesh</a></li><li class="navelem"><a href="MRImageSave_8h.html">MRImageSave.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_48a1ec47db35593d9d3f02b5df3192b0.html">MRCMesh</a></li><li class="navelem"><a href="MRImageSave_8h.html">MRImageSave.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

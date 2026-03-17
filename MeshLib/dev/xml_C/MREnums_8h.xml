@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MREnums_8h" kind="file" language="C++">
     <compoundname>MREnums.h</compoundname>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includedby refid="MRAddVisualPropertiesMixin_8h" local="no">MRAddVisualPropertiesMixin.h</includedby>
     <includedby refid="MRAngleMeasurementObject_8h" local="no">MRAngleMeasurementObject.h</includedby>
@@ -44,6 +44,11 @@
     <includedby refid="MRSphereObject_8h" local="no">MRSphereObject.h</includedby>
     <includedby refid="MRSurfacePath_8h" local="no">MRSurfacePath.h</includedby>
     <includedby refid="MRVisualObject_8h" local="no">MRVisualObject.h</includedby>
+    <includedby refid="std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h" local="no">std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref.h</includedby>
+    <includedby refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h" local="no">std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref.h</includedby>
+    <includedby refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h" local="no">std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref.h</includedby>
+    <includedby refid="std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h" local="no">std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref.h</includedby>
+    <includedby refid="std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h" local="no">std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR__d070.h</includedby>
     <incdepgraph>
       <node id="1">
         <label>MREnums.h</label>
@@ -55,6 +60,7 @@
       </node>
       <node id="2">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
       <node id="3">
         <label>stdbool.h</label>
@@ -176,6 +182,16 @@
         </childnode>
         <childnode refid="25" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
       </node>
       <node id="10">
         <label>MRExtractIsolines.h</label>
@@ -286,10 +302,36 @@
       <node id="41">
         <label>MRSurfacePath.h</label>
         <link refid="MRSurfacePath_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
       </node>
       <node id="25">
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
+      </node>
+      <node id="42">
+        <label>expected_std_vector_MR_EdgePoint_MR_PathError.h</label>
+        <link refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h"/>
+      </node>
+      <node id="43">
+        <label>std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref.h</label>
+        <link refid="std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h"/>
+      </node>
+      <node id="44">
+        <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref.h</label>
+        <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h"/>
+      </node>
+      <node id="45">
+        <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref.h</label>
+        <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h"/>
+      </node>
+      <node id="46">
+        <label>std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref.h</label>
+        <link refid="std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h"/>
+      </node>
+      <node id="47">
+        <label>std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR__d070.h</label>
+        <link refid="std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h"/>
       </node>
       <node id="20">
         <label>MRObjectLabel.h</label>
@@ -309,10 +351,10 @@
       </node>
     </invincdepgraph>
     <sectiondef kind="enum">
-      <memberdef kind="enum" id="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bd" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdaf2e85448074fd5cd227223e4bef0af0d" prot="public">
+        <enumvalue id="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1af2e85448074fd5cd227223e4bef0af0d" prot="public">
           <name>MR_FilterType_Linear</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -320,7 +362,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdac9fc3284d5063990341c3a045c4708fe" prot="public">
+        <enumvalue id="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1ac9fc3284d5063990341c3a045c4708fe" prot="public">
           <name>MR_FilterType_Discrete</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -334,12 +376,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="14" bodyend="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="14" bodyend="17"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7aaec34a00375773264424bebbf92cd63c" prot="public">
+        <enumvalue id="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311aaec34a00375773264424bebbf92cd63c" prot="public">
           <name>MR_WrapType_Repeat</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -347,7 +389,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7ad47e831db88b6f7412bafbbb81ed4137" prot="public">
+        <enumvalue id="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311ad47e831db88b6f7412bafbbb81ed4137" prot="public">
           <name>MR_WrapType_Mirror</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -355,7 +397,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7a657e1b5dae6f94fafa84212ab04d127c" prot="public">
+        <enumvalue id="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311a657e1b5dae6f94fafa84212ab04d127c" prot="public">
           <name>MR_WrapType_Clamp</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -369,12 +411,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="21" bodyend="25"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="21" bodyend="25"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ab83a84e173e113145e735b68b3aca3ca" prot="public">
+        <enumvalue id="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ab83a84e173e113145e735b68b3aca3ca" prot="public">
           <name>MR_Reorder_None</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -384,7 +426,7 @@
 <para>the order is determined by lexicographical sorting by coordinates (optimal for uniform sampling) </para>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ae57060a5c07c73d04c28dc5e7329487f" prot="public">
+        <enumvalue id="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ae57060a5c07c73d04c28dc5e7329487f" prot="public">
           <name>MR_Reorder_Lexicographically</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -393,7 +435,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ac22ee16766c241b3f83ade6a565bb1d1" prot="public">
+        <enumvalue id="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ac22ee16766c241b3f83ade6a565bb1d1" prot="public">
           <name>MR_Reorder_AABBTree</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -407,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="30" bodyend="37"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="30" bodyend="37"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" prot="public" static="no" strong="no">
         <type></type>
@@ -437,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="41" bodyend="46"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="41" bodyend="46"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" prot="public" static="no" strong="no">
         <type></type>
@@ -467,7 +509,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="50" bodyend="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="50" bodyend="55"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1acb93b9836cfc63b8a860cd876cbade18" prot="public" static="no" strong="no">
         <type></type>
@@ -496,12 +538,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="58" bodyend="63"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="58" bodyend="63"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a36d700ebf29352ed53877325228f40e2" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4a8c0d78f87009289352f7cc7a81650651" prot="public">
+        <enumvalue id="MREnums_8h_1a36d700ebf29352ed53877325228f40e2a8c0d78f87009289352f7cc7a81650651" prot="public">
           <name>MR_Processing_Continue</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -509,7 +551,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4ad272346f566a093bb3b6a9a1500f8f52" prot="public">
+        <enumvalue id="MREnums_8h_1a36d700ebf29352ed53877325228f40e2ad272346f566a093bb3b6a9a1500f8f52" prot="public">
           <name>MR_Processing_Stop</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -523,7 +565,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="67" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="68" bodyend="71"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="67" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" prot="public" static="no" strong="no">
         <type></type>
@@ -559,7 +601,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="75" bodyend="79"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="74" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="75" bodyend="79"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1ae3aefa13a6ad289eab7812593f65ae74" prot="public" static="no" strong="no">
         <type></type>
@@ -597,7 +639,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="82" bodyend="89"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="82" bodyend="89"/>
       </memberdef>
       <memberdef kind="enum" id="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" prot="public" static="no" strong="no">
         <type></type>
@@ -656,12 +698,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="94" bodyend="105"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="94" bodyend="105"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1a63ce13843846afeea3573470ed5d998c" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a8f82ef6bda1cad08753188f00472492f" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca0703bb8756f61e6addcc371a855e66b2" prot="public">
+        <enumvalue id="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa0703bb8756f61e6addcc371a855e66b2" prot="public">
           <name>MR_UseAABBTree_No</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -669,7 +711,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a63ce13843846afeea3573470ed5d998cacb380bedb55f21d8e74632152493da81" prot="public">
+        <enumvalue id="MREnums_8h_1a8f82ef6bda1cad08753188f00472492facb380bedb55f21d8e74632152493da81" prot="public">
           <name>MR_UseAABBTree_Yes</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -677,7 +719,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca470f286556954a9a5691becfcf37b2a2" prot="public">
+        <enumvalue id="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa470f286556954a9a5691becfcf37b2a2" prot="public">
           <name>MR_UseAABBTree_YesIfAlreadyConstructed</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -691,12 +733,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="109" bodyend="116"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="109" bodyend="116"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376b" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba5abc54377290264badfbdf482f9a1c03" prot="public">
+        <enumvalue id="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a5abc54377290264badfbdf482f9a1c03" prot="public">
           <name>MR_GeodesicPathApprox_DijkstraBiDir</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -705,7 +747,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba9c3ad3fdbafe64555aef26791a7558df" prot="public">
+        <enumvalue id="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a9c3ad3fdbafe64555aef26791a7558df" prot="public">
           <name>MR_GeodesicPathApprox_DijkstraAStar</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -714,7 +756,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376bae19688f05c2c07bb26c795ab9b3a50df" prot="public">
+        <enumvalue id="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0ae19688f05c2c07bb26c795ab9b3a50df" prot="public">
           <name>MR_GeodesicPathApprox_FastMarching</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -729,12 +771,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="121" bodyend="128"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="121" bodyend="128"/>
       </memberdef>
-      <memberdef kind="enum" id="MREnums_8h_1a59435c08120bbef718dadf03c7769510" prot="public" static="no" strong="no">
+      <memberdef kind="enum" id="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01" prot="public" static="no" strong="no">
         <type></type>
         <name></name>
-        <enumvalue id="MREnums_8h_1a59435c08120bbef718dadf03c7769510af7342816c38d12eb5010372f2f19dbe2" prot="public">
+        <enumvalue id="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01af7342816c38d12eb5010372f2f19dbe2" prot="public">
           <name>MR_Turn_Leftmost</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -742,7 +784,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="MREnums_8h_1a59435c08120bbef718dadf03c7769510acfb19519f16c5f354410f57754d66e2c" prot="public">
+        <enumvalue id="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01acfb19519f16c5f354410f57754d66e2c" prot="public">
           <name>MR_Turn_Rightmost</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -756,7 +798,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="133" bodyend="136"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="133" bodyend="136"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="typedef">
@@ -771,7 +813,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="12" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1a00a6c4c76bf7fcbc91c8b9e401c8fa01" prot="public" static="no">
         <type>char</type>
@@ -784,7 +826,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="19" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="19" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1a7869edbba7e774adc1c184741e30f492" prot="public" static="no">
         <type>char</type>
@@ -798,7 +840,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="28" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1a647d855259963a8a9399e34b49c5c6de" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref></type>
@@ -812,7 +854,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="46" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="46" column="15"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1a7beea1a411c7b0c6342e68d2ad76f98d" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1a9a47d4f1ed7f02b8923ccde473d7ab50" kindref="member">MR_EdgeWeights</ref></type>
@@ -826,7 +868,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="55" column="16"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="55" column="16"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1ae7edb655a25d3bc6dd3415d5cfbda767" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1acb93b9836cfc63b8a860cd876cbade18" kindref="member">MR_RememberShape</ref></type>
@@ -839,7 +881,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="63" column="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="63" column="18"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1ae27ea8c7570f040835b33a0df5f6be04" prot="public" static="no">
         <type>bool</type>
@@ -853,7 +895,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="66" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="66" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="66" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1ae07e1336427a647b041b525ba1b2e725" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref></type>
@@ -867,7 +909,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="79" column="18"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="79" column="18"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1adec1219ece1c9c68f233e4ab1056cd02" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1ae3aefa13a6ad289eab7812593f65ae74" kindref="member">MR_OffsetMode</ref></type>
@@ -880,7 +922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="89" column="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="89" column="15"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1aa3e17d7f4bb150c98eb10595d2f34b4e" prot="public" static="no">
         <type>enum <ref refid="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" kindref="member">MR_ColoringType</ref></type>
@@ -896,7 +938,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="105" column="17"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="105" column="17"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1aa1d2c713a5636fa77f6767aec61a0be5" prot="public" static="no">
         <type>char</type>
@@ -909,7 +951,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="107" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="107" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="107" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="107" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1af177c0b5e857af7a97397d447e3535b5" prot="public" static="no">
         <type>char</type>
@@ -923,7 +965,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="119" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="119" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="119" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="119" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="MREnums_8h_1aa9a1b49c0f81a0c79c304b9458276549" prot="public" static="no">
         <type>bool</type>
@@ -937,12 +979,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="131" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" bodystart="131" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="131" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" bodystart="131" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MREnums_8h_1acfee7417484e1556a3b3e21d5d290e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const char *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const char *</type>
         <definition>MRC_API const char * MR_asString_MR_ColoringType</definition>
         <argsstring>(MR_ColoringType ct)</argsstring>
         <name>MR_asString_MR_ColoringType</name>
@@ -957,7 +999,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" line="140" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h" declline="140" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" line="140" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h" declline="140" declcolumn="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -967,7 +1009,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
@@ -979,24 +1021,24 @@
 <codeline lineno="12" refid="MREnums_8h_1ad40ec431ff5ffd94858933622543ddd9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ad40ec431ff5ffd94858933622543ddd9" kindref="member">MR_FilterType</ref>;</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_FilterType</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15" refid="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdaf2e85448074fd5cd227223e4bef0af0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdaf2e85448074fd5cd227223e4bef0af0d" kindref="member">MR_FilterType_Linear</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="16" refid="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdac9fc3284d5063990341c3a045c4708fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1aea69ee37ad4d52f866c45de0f00be6bdac9fc3284d5063990341c3a045c4708fe" kindref="member">MR_FilterType_Discrete</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="15" refid="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1af2e85448074fd5cd227223e4bef0af0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1af2e85448074fd5cd227223e4bef0af0d" kindref="member">MR_FilterType_Linear</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="16" refid="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1ac9fc3284d5063990341c3a045c4708fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a822cc57b8ab3b3d4cff8501ed47828c1ac9fc3284d5063990341c3a045c4708fe" kindref="member">MR_FilterType_Discrete</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19" refid="MREnums_8h_1a00a6c4c76bf7fcbc91c8b9e401c8fa01" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a00a6c4c76bf7fcbc91c8b9e401c8fa01" kindref="member">MR_WrapType</ref>;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_WrapType</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22" refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7aaec34a00375773264424bebbf92cd63c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7aaec34a00375773264424bebbf92cd63c" kindref="member">MR_WrapType_Repeat</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="23" refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7ad47e831db88b6f7412bafbbb81ed4137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7ad47e831db88b6f7412bafbbb81ed4137" kindref="member">MR_WrapType_Mirror</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="24" refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7a657e1b5dae6f94fafa84212ab04d127c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a17ab24713d0f82b20ac8f6c6afcb9fa7a657e1b5dae6f94fafa84212ab04d127c" kindref="member">MR_WrapType_Clamp</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="22" refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311aaec34a00375773264424bebbf92cd63c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311aaec34a00375773264424bebbf92cd63c" kindref="member">MR_WrapType_Repeat</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="23" refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311ad47e831db88b6f7412bafbbb81ed4137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311ad47e831db88b6f7412bafbbb81ed4137" kindref="member">MR_WrapType_Mirror</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="24" refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311a657e1b5dae6f94fafa84212ab04d127c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a31392ecc4ac86c1ee5ba2c4acd12b311a657e1b5dae6f94fafa84212ab04d127c" kindref="member">MR_WrapType_Clamp</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="28" refid="MREnums_8h_1a7869edbba7e774adc1c184741e30f492" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7869edbba7e774adc1c184741e30f492" kindref="member">MR_Reorder</ref>;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_Reorder</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="32" refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ab83a84e173e113145e735b68b3aca3ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ab83a84e173e113145e735b68b3aca3ca" kindref="member">MR_Reorder_None</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="34" refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ae57060a5c07c73d04c28dc5e7329487f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ae57060a5c07c73d04c28dc5e7329487f" kindref="member">MR_Reorder_Lexicographically</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="36" refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ac22ee16766c241b3f83ade6a565bb1d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1ac672ec7f049e9de6ae0c486c7bd2ff62ac22ee16766c241b3f83ade6a565bb1d1" kindref="member">MR_Reorder_AABBTree</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="32" refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ab83a84e173e113145e735b68b3aca3ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ab83a84e173e113145e735b68b3aca3ca" kindref="member">MR_Reorder_None</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="34" refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ae57060a5c07c73d04c28dc5e7329487f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ae57060a5c07c73d04c28dc5e7329487f" kindref="member">MR_Reorder_Lexicographically</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="36" refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ac22ee16766c241b3f83ade6a565bb1d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a00cd24b0f4ae71eace9d8d2cc315ab60ac22ee16766c241b3f83ade6a565bb1d1" kindref="member">MR_Reorder_AABBTree</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="37"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
 <codeline lineno="40" refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae6b0258254d005d6b726579dd8ae29b3" kindref="member">MR_VertexMass</ref></highlight></codeline>
@@ -1020,8 +1062,8 @@
 <codeline lineno="66" refid="MREnums_8h_1ae27ea8c7570f040835b33a0df5f6be04" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1ae27ea8c7570f040835b33a0df5f6be04" kindref="member">MR_Processing</ref>;</highlight></codeline>
 <codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_Processing</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="69" refid="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4a8c0d78f87009289352f7cc7a81650651" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4a8c0d78f87009289352f7cc7a81650651" kindref="member">MR_Processing_Continue</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="70" refid="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4ad272346f566a093bb3b6a9a1500f8f52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a481d5e47b4284146a7e048728dfd7bb4ad272346f566a093bb3b6a9a1500f8f52" kindref="member">MR_Processing_Stop</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="69" refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2a8c0d78f87009289352f7cc7a81650651" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2a8c0d78f87009289352f7cc7a81650651" kindref="member">MR_Processing_Continue</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="70" refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2ad272346f566a093bb3b6a9a1500f8f52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a36d700ebf29352ed53877325228f40e2ad272346f566a093bb3b6a9a1500f8f52" kindref="member">MR_Processing_Stop</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="71"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
 <codeline lineno="74" refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1a7e870a89eaf0714e711833b123b397b3" kindref="member">MR_OrientNormals</ref></highlight></codeline>
@@ -1051,34 +1093,34 @@
 <codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_UseAABBTree</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="109"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>not<sp/>be<sp/>used,<sp/>even<sp/>if<sp/>it<sp/>is<sp/>available</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="111" refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca0703bb8756f61e6addcc371a855e66b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca0703bb8756f61e6addcc371a855e66b2" kindref="member">MR_UseAABBTree_No</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="111" refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa0703bb8756f61e6addcc371a855e66b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa0703bb8756f61e6addcc371a855e66b2" kindref="member">MR_UseAABBTree_No</ref><sp/>=<sp/>0,</highlight></codeline>
 <codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>be<sp/>used<sp/>even<sp/>if<sp/>it<sp/>has<sp/>to<sp/>be<sp/>constructed</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="113" refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998cacb380bedb55f21d8e74632152493da81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998cacb380bedb55f21d8e74632152493da81" kindref="member">MR_UseAABBTree_Yes</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="113" refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492facb380bedb55f21d8e74632152493da81" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492facb380bedb55f21d8e74632152493da81" kindref="member">MR_UseAABBTree_Yes</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AABB-tree<sp/>of<sp/>the<sp/>mesh<sp/>will<sp/>be<sp/>used<sp/>if<sp/>it<sp/>was<sp/>previously<sp/>constructed<sp/>and<sp/>available,<sp/>and<sp/>will<sp/>not<sp/>be<sp/>used<sp/>otherwise</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="115" refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca470f286556954a9a5691becfcf37b2a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a63ce13843846afeea3573470ed5d998ca470f286556954a9a5691becfcf37b2a2" kindref="member">MR_UseAABBTree_YesIfAlreadyConstructed</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="115" refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa470f286556954a9a5691becfcf37b2a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a8f82ef6bda1cad08753188f00472492fa470f286556954a9a5691becfcf37b2a2" kindref="member">MR_UseAABBTree_YesIfAlreadyConstructed</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="116"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
 <codeline lineno="119" refid="MREnums_8h_1af177c0b5e857af7a97397d447e3535b5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1af177c0b5e857af7a97397d447e3535b5" kindref="member">MR_GeodesicPathApprox</ref>;</highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_GeodesicPathApprox</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="121"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="123" refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba5abc54377290264badfbdf482f9a1c03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba5abc54377290264badfbdf482f9a1c03" kindref="member">MR_GeodesicPathApprox_DijkstraBiDir</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="125" refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba9c3ad3fdbafe64555aef26791a7558df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376ba9c3ad3fdbafe64555aef26791a7558df" kindref="member">MR_GeodesicPathApprox_DijkstraAStar</ref><sp/>=<sp/>1,</highlight></codeline>
-<codeline lineno="127" refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376bae19688f05c2c07bb26c795ab9b3a50df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a0f04791d40dbcf8d3ce811ef18fb376bae19688f05c2c07bb26c795ab9b3a50df" kindref="member">MR_GeodesicPathApprox_FastMarching</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="123" refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a5abc54377290264badfbdf482f9a1c03" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a5abc54377290264badfbdf482f9a1c03" kindref="member">MR_GeodesicPathApprox_DijkstraBiDir</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="125" refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a9c3ad3fdbafe64555aef26791a7558df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0a9c3ad3fdbafe64555aef26791a7558df" kindref="member">MR_GeodesicPathApprox_DijkstraAStar</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="127" refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0ae19688f05c2c07bb26c795ab9b3a50df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a21dae5e18c030672fd6ff32ffd928fa0ae19688f05c2c07bb26c795ab9b3a50df" kindref="member">MR_GeodesicPathApprox_FastMarching</ref><sp/>=<sp/>2,</highlight></codeline>
 <codeline lineno="128"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="129"><highlight class="normal"></highlight></codeline>
 <codeline lineno="131" refid="MREnums_8h_1aa9a1b49c0f81a0c79c304b9458276549" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MREnums_8h_1aa9a1b49c0f81a0c79c304b9458276549" kindref="member">MR_Turn</ref>;</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_Turn</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="133"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="134" refid="MREnums_8h_1a59435c08120bbef718dadf03c7769510af7342816c38d12eb5010372f2f19dbe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a59435c08120bbef718dadf03c7769510af7342816c38d12eb5010372f2f19dbe2" kindref="member">MR_Turn_Leftmost</ref><sp/>=<sp/>0,</highlight></codeline>
-<codeline lineno="135" refid="MREnums_8h_1a59435c08120bbef718dadf03c7769510acfb19519f16c5f354410f57754d66e2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a59435c08120bbef718dadf03c7769510acfb19519f16c5f354410f57754d66e2c" kindref="member">MR_Turn_Rightmost</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="134" refid="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01af7342816c38d12eb5010372f2f19dbe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01af7342816c38d12eb5010372f2f19dbe2" kindref="member">MR_Turn_Leftmost</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="135" refid="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01acfb19519f16c5f354410f57754d66e2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MREnums_8h_1a299e92d94b91b1ac5a8aac525d567a01acfb19519f16c5f354410f57754d66e2c" kindref="member">MR_Turn_Rightmost</ref><sp/>=<sp/>1,</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="140" refid="MREnums_8h_1acfee7417484e1556a3b3e21d5d290e26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MREnums_8h_1acfee7417484e1556a3b3e21d5d290e26" kindref="member">MR_asString_MR_ColoringType</ref>(<ref refid="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" kindref="member">MR_ColoringType</ref><sp/>ct);</highlight></codeline>
+<codeline lineno="140" refid="MREnums_8h_1acfee7417484e1556a3b3e21d5d290e26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="MREnums_8h_1acfee7417484e1556a3b3e21d5d290e26" kindref="member">MR_asString_MR_ColoringType</ref>(<ref refid="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" kindref="member">MR_ColoringType</ref><sp/>ct);</highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MREnums.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MREnums.h"/>
   </compounddef>
 </doxygen>

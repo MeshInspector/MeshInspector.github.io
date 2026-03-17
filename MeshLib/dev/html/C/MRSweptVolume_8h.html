@@ -144,60 +144,59 @@ $(function(){initNavTree('MRSweptVolume_8h.html','',''); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRBox_8h_source.html">MRCMesh/MRBox.h</a>&gt;</code><br />
-<code>#include &lt;MRCMisc/common.h&gt;</code><br />
-<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="include_2MRCMisc_2exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRSweptVolume_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:afd3cfb5cb6fb29f4132e291d2f5ec78a" id="r_afd3cfb5cb6fb29f4132e291d2f5ec78a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a></td></tr>
 <tr class="memitem:ae366d65098a22096322a7b20b18485a3" id="r_ae366d65098a22096322a7b20b18485a3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a></td></tr>
 <tr class="memitem:aff42432999e160e7f7f45b5f2160caf7" id="r_aff42432999e160e7f7f45b5f2160caf7"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0bf426c293ef97f9b96d232e439c8fda" id="r_a0bf426c293ef97f9b96d232e439c8fda"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf426c293ef97f9b96d232e439c8fda">MR_computeWorkArea</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *tool)</td></tr>
-<tr class="memitem:acdee4ff61b6249ad7ae236fc9d671330" id="r_acdee4ff61b6249ad7ae236fc9d671330"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="structMR__Box3i.html">MR_Box3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdee4ff61b6249ad7ae236fc9d671330">MR_computeGridBox</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *workArea, float voxelSize)</td></tr>
-<tr class="memitem:a6920804c7be27db11a702fe3fb8ed905" id="r_a6920804c7be27db11a702fe3fb8ed905"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6920804c7be27db11a702fe3fb8ed905">MR_ComputeSweptVolumeParameters_Get_path</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:a3ba8edcc29c800b55d49ae33e9d4c6a1" id="r_a3ba8edcc29c800b55d49ae33e9d4c6a1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ba8edcc29c800b55d49ae33e9d4c6a1">MR_ComputeSweptVolumeParameters_Get_toolMesh</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:ac6a3f4de6173eb2f4d0499795437b244" id="r_ac6a3f4de6173eb2f4d0499795437b244"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a3f4de6173eb2f4d0499795437b244">MR_ComputeSweptVolumeParameters_GetMutable_toolMesh</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:aa393632c6761d3bb3935b586eb99722f" id="r_aa393632c6761d3bb3935b586eb99722f"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa393632c6761d3bb3935b586eb99722f">MR_ComputeSweptVolumeParameters_Get_toolSpec</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:a64ca5d281b91d26d5ecf6887e387a189" id="r_a64ca5d281b91d26d5ecf6887e387a189"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ca5d281b91d26d5ecf6887e387a189">MR_ComputeSweptVolumeParameters_Set_toolSpec</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *value)</td></tr>
-<tr class="memitem:afec37d18957eabab10b302f5e4b52141" id="r_afec37d18957eabab10b302f5e4b52141"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec37d18957eabab10b302f5e4b52141">MR_ComputeSweptVolumeParameters_GetMutable_toolSpec</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:ab9b7fce5d5bc468aeb5280602a4042fc" id="r_ab9b7fce5d5bc468aeb5280602a4042fc"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b7fce5d5bc468aeb5280602a4042fc">MR_ComputeSweptVolumeParameters_Get_voxelSize</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a0bf426c293ef97f9b96d232e439c8fda" id="r_a0bf426c293ef97f9b96d232e439c8fda"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0bf426c293ef97f9b96d232e439c8fda">MR_computeWorkArea</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *tool)</td></tr>
+<tr class="memitem:acdee4ff61b6249ad7ae236fc9d671330" id="r_acdee4ff61b6249ad7ae236fc9d671330"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i.html">MR_Box3i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acdee4ff61b6249ad7ae236fc9d671330">MR_computeGridBox</a> (const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *workArea, float voxelSize)</td></tr>
+<tr class="memitem:a6920804c7be27db11a702fe3fb8ed905" id="r_a6920804c7be27db11a702fe3fb8ed905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6920804c7be27db11a702fe3fb8ed905">MR_ComputeSweptVolumeParameters_Get_path</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a3ba8edcc29c800b55d49ae33e9d4c6a1" id="r_a3ba8edcc29c800b55d49ae33e9d4c6a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ba8edcc29c800b55d49ae33e9d4c6a1">MR_ComputeSweptVolumeParameters_Get_toolMesh</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:ac6a3f4de6173eb2f4d0499795437b244" id="r_ac6a3f4de6173eb2f4d0499795437b244"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a3f4de6173eb2f4d0499795437b244">MR_ComputeSweptVolumeParameters_GetMutable_toolMesh</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:aa393632c6761d3bb3935b586eb99722f" id="r_aa393632c6761d3bb3935b586eb99722f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa393632c6761d3bb3935b586eb99722f">MR_ComputeSweptVolumeParameters_Get_toolSpec</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a64ca5d281b91d26d5ecf6887e387a189" id="r_a64ca5d281b91d26d5ecf6887e387a189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64ca5d281b91d26d5ecf6887e387a189">MR_ComputeSweptVolumeParameters_Set_toolSpec</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *value)</td></tr>
+<tr class="memitem:afec37d18957eabab10b302f5e4b52141" id="r_afec37d18957eabab10b302f5e4b52141"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afec37d18957eabab10b302f5e4b52141">MR_ComputeSweptVolumeParameters_GetMutable_toolSpec</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:ab9b7fce5d5bc468aeb5280602a4042fc" id="r_ab9b7fce5d5bc468aeb5280602a4042fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9b7fce5d5bc468aeb5280602a4042fc">MR_ComputeSweptVolumeParameters_Get_voxelSize</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
 <tr class="memdesc:ab9b7fce5d5bc468aeb5280602a4042fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">voxel size for internal voxel volumes  <br /></td></tr>
-<tr class="memitem:a4878f5f6edc27cea32dac85ec1cbc766" id="r_a4878f5f6edc27cea32dac85ec1cbc766"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4878f5f6edc27cea32dac85ec1cbc766">MR_ComputeSweptVolumeParameters_Set_voxelSize</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, float value)</td></tr>
+<tr class="memitem:a4878f5f6edc27cea32dac85ec1cbc766" id="r_a4878f5f6edc27cea32dac85ec1cbc766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4878f5f6edc27cea32dac85ec1cbc766">MR_ComputeSweptVolumeParameters_Set_voxelSize</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, float value)</td></tr>
 <tr class="memdesc:a4878f5f6edc27cea32dac85ec1cbc766"><td class="mdescLeft">&#160;</td><td class="mdescRight">voxel size for internal voxel volumes  <br /></td></tr>
-<tr class="memitem:aba7a21b4f1b9122b7deb723174a72308" id="r_aba7a21b4f1b9122b7deb723174a72308"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7a21b4f1b9122b7deb723174a72308">MR_ComputeSweptVolumeParameters_GetMutable_voxelSize</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:aba7a21b4f1b9122b7deb723174a72308" id="r_aba7a21b4f1b9122b7deb723174a72308"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7a21b4f1b9122b7deb723174a72308">MR_ComputeSweptVolumeParameters_GetMutable_voxelSize</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
 <tr class="memdesc:aba7a21b4f1b9122b7deb723174a72308"><td class="mdescLeft">&#160;</td><td class="mdescRight">voxel size for internal voxel volumes  <br /></td></tr>
-<tr class="memitem:adc6c7d7b89b4bee4029475d52e352d95" id="r_adc6c7d7b89b4bee4029475d52e352d95"><td class="memItemLeft" align="right" valign="top">MRC_API const MR_uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc6c7d7b89b4bee4029475d52e352d95">MR_ComputeSweptVolumeParameters_Get_memoryLimit</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:aa55c8766f56358cdf0b96fd0694385e5" id="r_aa55c8766f56358cdf0b96fd0694385e5"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa55c8766f56358cdf0b96fd0694385e5">MR_ComputeSweptVolumeParameters_Set_memoryLimit</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, MR_uint64_t value)</td></tr>
-<tr class="memitem:a4082a76f422e4aa36192c9805abca631" id="r_a4082a76f422e4aa36192c9805abca631"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4082a76f422e4aa36192c9805abca631">MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:a46d62557d9ef43899e253bbae15849f3" id="r_a46d62557d9ef43899e253bbae15849f3"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46d62557d9ef43899e253bbae15849f3">MR_ComputeSweptVolumeParameters_Get_cb</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:a10c1a229714bf62a06be1e3306236633" id="r_a10c1a229714bf62a06be1e3306236633"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c1a229714bf62a06be1e3306236633">MR_ComputeSweptVolumeParameters_Set_cb</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
-<tr class="memitem:af3f58f07d17b3c1c82dac1a8f57fa3d5" id="r_af3f58f07d17b3c1c82dac1a8f57fa3d5"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f58f07d17b3c1c82dac1a8f57fa3d5">MR_ComputeSweptVolumeParameters_GetMutable_cb</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
-<tr class="memitem:a0fedff5b1524275c33a8e16ba97c4689" id="r_a0fedff5b1524275c33a8e16ba97c4689"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fedff5b1524275c33a8e16ba97c4689">MR_ComputeSweptVolumeParameters_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_other)</td></tr>
-<tr class="memitem:aebcf76f489edd3b91dd86660da2e23df" id="r_aebcf76f489edd3b91dd86660da2e23df"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebcf76f489edd3b91dd86660da2e23df">MR_ComputeSweptVolumeParameters_ConstructFrom</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *path, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *toolMesh, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *toolSpec, float voxelSize, MR_uint64_t memoryLimit, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
-<tr class="memitem:ae1bcbed8a13eba4c523041d2d011ddba" id="r_ae1bcbed8a13eba4c523041d2d011ddba"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1bcbed8a13eba4c523041d2d011ddba">MR_ComputeSweptVolumeParameters_OffsetPtr</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a3e1d327f35e75d0c49d41393a54ee2bb" id="r_a3e1d327f35e75d0c49d41393a54ee2bb"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e1d327f35e75d0c49d41393a54ee2bb">MR_ComputeSweptVolumeParameters_OffsetMutablePtr</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:addce2c4e8b59ae5220c23f75834e8b2d" id="r_addce2c4e8b59ae5220c23f75834e8b2d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addce2c4e8b59ae5220c23f75834e8b2d">MR_ComputeSweptVolumeParameters_Destroy</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:adc6c7d7b89b4bee4029475d52e352d95" id="r_adc6c7d7b89b4bee4029475d52e352d95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc6c7d7b89b4bee4029475d52e352d95">MR_ComputeSweptVolumeParameters_Get_memoryLimit</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:aa55c8766f56358cdf0b96fd0694385e5" id="r_aa55c8766f56358cdf0b96fd0694385e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa55c8766f56358cdf0b96fd0694385e5">MR_ComputeSweptVolumeParameters_Set_memoryLimit</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> value)</td></tr>
+<tr class="memitem:a4082a76f422e4aa36192c9805abca631" id="r_a4082a76f422e4aa36192c9805abca631"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4082a76f422e4aa36192c9805abca631">MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a46d62557d9ef43899e253bbae15849f3" id="r_a46d62557d9ef43899e253bbae15849f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46d62557d9ef43899e253bbae15849f3">MR_ComputeSweptVolumeParameters_Get_cb</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a10c1a229714bf62a06be1e3306236633" id="r_a10c1a229714bf62a06be1e3306236633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c1a229714bf62a06be1e3306236633">MR_ComputeSweptVolumeParameters_Set_cb</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:af3f58f07d17b3c1c82dac1a8f57fa3d5" id="r_af3f58f07d17b3c1c82dac1a8f57fa3d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f58f07d17b3c1c82dac1a8f57fa3d5">MR_ComputeSweptVolumeParameters_GetMutable_cb</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a0fedff5b1524275c33a8e16ba97c4689" id="r_a0fedff5b1524275c33a8e16ba97c4689"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fedff5b1524275c33a8e16ba97c4689">MR_ComputeSweptVolumeParameters_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_other)</td></tr>
+<tr class="memitem:aebcf76f489edd3b91dd86660da2e23df" id="r_aebcf76f489edd3b91dd86660da2e23df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aebcf76f489edd3b91dd86660da2e23df">MR_ComputeSweptVolumeParameters_ConstructFrom</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *path, const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> *toolMesh, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *toolSpec, float voxelSize, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> memoryLimit, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:ae1bcbed8a13eba4c523041d2d011ddba" id="r_ae1bcbed8a13eba4c523041d2d011ddba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1bcbed8a13eba4c523041d2d011ddba">MR_ComputeSweptVolumeParameters_OffsetPtr</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a3e1d327f35e75d0c49d41393a54ee2bb" id="r_a3e1d327f35e75d0c49d41393a54ee2bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e1d327f35e75d0c49d41393a54ee2bb">MR_ComputeSweptVolumeParameters_OffsetMutablePtr</a> (<a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:addce2c4e8b59ae5220c23f75834e8b2d" id="r_addce2c4e8b59ae5220c23f75834e8b2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addce2c4e8b59ae5220c23f75834e8b2d">MR_ComputeSweptVolumeParameters_Destroy</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
 <tr class="memdesc:addce2c4e8b59ae5220c23f75834e8b2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a7b47614ca6e183fcc44d948a1db6875a" id="r_a7b47614ca6e183fcc44d948a1db6875a"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b47614ca6e183fcc44d948a1db6875a">MR_ComputeSweptVolumeParameters_DestroyArray</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
+<tr class="memitem:a7b47614ca6e183fcc44d948a1db6875a" id="r_a7b47614ca6e183fcc44d948a1db6875a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b47614ca6e183fcc44d948a1db6875a">MR_ComputeSweptVolumeParameters_DestroyArray</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *_this)</td></tr>
 <tr class="memdesc:a7b47614ca6e183fcc44d948a1db6875a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a12dc478e9164163cceba0a5d5c972d16" id="r_a12dc478e9164163cceba0a5d5c972d16"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12dc478e9164163cceba0a5d5c972d16">MR_computeSweptVolumeWithMeshMovement</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
-<tr class="memitem:a25ba9dfdf305100acf48fab4bf5b665c" id="r_a25ba9dfdf305100acf48fab4bf5b665c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ba9dfdf305100acf48fab4bf5b665c">MR_computeSweptVolumeWithDistanceVolume</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
-<tr class="memitem:ab514042fe1a1eef6256390c716a35606" id="r_ab514042fe1a1eef6256390c716a35606"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab514042fe1a1eef6256390c716a35606">MR_IComputeToolDistance_Destroy</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this)</td></tr>
+<tr class="memitem:a12dc478e9164163cceba0a5d5c972d16" id="r_a12dc478e9164163cceba0a5d5c972d16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12dc478e9164163cceba0a5d5c972d16">MR_computeSweptVolumeWithMeshMovement</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
+<tr class="memitem:a25ba9dfdf305100acf48fab4bf5b665c" id="r_a25ba9dfdf305100acf48fab4bf5b665c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a25ba9dfdf305100acf48fab4bf5b665c">MR_computeSweptVolumeWithDistanceVolume</a> (const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
+<tr class="memitem:ab514042fe1a1eef6256390c716a35606" id="r_ab514042fe1a1eef6256390c716a35606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab514042fe1a1eef6256390c716a35606">MR_IComputeToolDistance_Destroy</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this)</td></tr>
 <tr class="memdesc:ab514042fe1a1eef6256390c716a35606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <span class="tt"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a79a44c28caf773ec0c9aa799736513bc" id="r_a79a44c28caf773ec0c9aa799736513bc"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79a44c28caf773ec0c9aa799736513bc">MR_IComputeToolDistance_DestroyArray</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this)</td></tr>
+<tr class="memitem:a79a44c28caf773ec0c9aa799736513bc" id="r_a79a44c28caf773ec0c9aa799736513bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79a44c28caf773ec0c9aa799736513bc">MR_IComputeToolDistance_DestroyArray</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this)</td></tr>
 <tr class="memdesc:a79a44c28caf773ec0c9aa799736513bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <span class="tt"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a></span>. Does nothing if the pointer is null.  <br /></td></tr>
-<tr class="memitem:a6130167cef708b4bfb5616a5131ce527" id="r_a6130167cef708b4bfb5616a5131ce527"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6130167cef708b4bfb5616a5131ce527">MR_IComputeToolDistance_prepare_MR_EndMillTool</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *toolSpec)</td></tr>
-<tr class="memitem:a8338904035c10ce7dd659df28e5f4df3" id="r_a8338904035c10ce7dd659df28e5f4df3"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8338904035c10ce7dd659df28e5f4df3">MR_IComputeToolDistance_prepare_MR_Polyline2</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *toolProfile)</td></tr>
-<tr class="memitem:a1665f84626f30cf9f57e77b47736c959" id="r_a1665f84626f30cf9f57e77b47736c959"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1665f84626f30cf9f57e77b47736c959">MR_IComputeToolDistance_computeToolDistance</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *output, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, float voxelSize, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *origin, float padding)</td></tr>
-<tr class="memitem:a211555f7c973443d0705a1b9b71219db" id="r_a211555f7c973443d0705a1b9b71219db"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a211555f7c973443d0705a1b9b71219db">MR_IComputeToolDistance_OffsetPtr</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a374c5b53dbaf93e25aee28954bff434b" id="r_a374c5b53dbaf93e25aee28954bff434b"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a374c5b53dbaf93e25aee28954bff434b">MR_IComputeToolDistance_OffsetMutablePtr</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *ptr, ptrdiff_t i)</td></tr>
-<tr class="memitem:a2ba09265ef20527019d579e7e28f70a7" id="r_a2ba09265ef20527019d579e7e28f70a7"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba09265ef20527019d579e7e28f70a7">MR_computeSweptVolumeWithCustomToolDistance</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *comp, const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
+<tr class="memitem:a6130167cef708b4bfb5616a5131ce527" id="r_a6130167cef708b4bfb5616a5131ce527"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Vector3i__std__string_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6130167cef708b4bfb5616a5131ce527">MR_IComputeToolDistance_prepare_MR_EndMillTool</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *toolSpec)</td></tr>
+<tr class="memitem:a8338904035c10ce7dd659df28e5f4df3" id="r_a8338904035c10ce7dd659df28e5f4df3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Vector3i__std__string_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8338904035c10ce7dd659df28e5f4df3">MR_IComputeToolDistance_prepare_MR_Polyline2</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *toolpath, const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *toolProfile)</td></tr>
+<tr class="memitem:a1665f84626f30cf9f57e77b47736c959" id="r_a1665f84626f30cf9f57e77b47736c959"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1665f84626f30cf9f57e77b47736c959">MR_IComputeToolDistance_computeToolDistance</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *_this, <a class="el" href="MRPdf_8h.html#aba323e6d596956f5a589a525c6f6adbc">MR_std_vector_float</a> *output, const <a class="el" href="structMR__Vector3i.html">MR_Vector3i</a> *dims, float voxelSize, const <a class="el" href="structMR__Vector3f.html">MR_Vector3f</a> *origin, float padding)</td></tr>
+<tr class="memitem:a211555f7c973443d0705a1b9b71219db" id="r_a211555f7c973443d0705a1b9b71219db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a211555f7c973443d0705a1b9b71219db">MR_IComputeToolDistance_OffsetPtr</a> (const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a374c5b53dbaf93e25aee28954bff434b" id="r_a374c5b53dbaf93e25aee28954bff434b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a374c5b53dbaf93e25aee28954bff434b">MR_IComputeToolDistance_OffsetMutablePtr</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a2ba09265ef20527019d579e7e28f70a7" id="r_a2ba09265ef20527019d579e7e28f70a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ba09265ef20527019d579e7e28f70a7">MR_computeSweptVolumeWithCustomToolDistance</a> (<a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *comp, const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *params)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ae366d65098a22096322a7b20b18485a3" name="ae366d65098a22096322a7b20b18485a3"></a>
@@ -211,21 +210,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Parameters for computeSweptVolume* functions Generated from class <span class="tt">MR::ComputeSweptVolumeParameters</span>. Supported <span class="tt">MR_PassBy</span> modes: <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
-
-</div>
-</div>
-<a id="afd3cfb5cb6fb29f4132e291d2f5ec78a" name="afd3cfb5cb6fb29f4132e291d2f5ec78a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">&#9670;&#160;</a></span>MR_expected_MR_Vector3i_std_string</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Parameters for computeSweptVolume* functions Generated from class <span class="tt">MR::ComputeSweptVolumeParameters</span>. Supported <span class="tt"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></span> modes: <span class="tt">MR_PassBy_Copy</span>, <span class="tt">MR_PassBy_Move</span> (and <span class="tt">MR_PassBy_DefaultArgument</span> and <span class="tt">MR_PassBy_NoObject</span> if supported by the callee). </p>
 
 </div>
 </div>
@@ -252,7 +237,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Box3i.html">MR_Box3i</a> MR_computeGridBox </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3i.html">MR_Box3i</a> MR_computeGridBox </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structMR__Box3f.html">MR_Box3f</a> *</td>          <td class="paramname"><span class="paramname"><em>workArea</em></span>, </td>
         </tr>
@@ -274,7 +259,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_ConstructFrom </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -296,12 +281,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_uint64_t</td>          <td class="paramname"><span class="paramname"><em>memoryLimit</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>memoryLimit</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -321,9 +306,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_ConstructFromAnother </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -343,7 +328,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -362,7 +347,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -381,7 +366,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ComputeSweptVolumeParameters_Get_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ComputeSweptVolumeParameters_Get_cb </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -399,7 +384,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const MR_uint64_t * MR_ComputeSweptVolumeParameters_Get_memoryLimit </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ComputeSweptVolumeParameters_Get_memoryLimit </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -417,7 +402,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> * MR_ComputeSweptVolumeParameters_Get_path </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> * MR_ComputeSweptVolumeParameters_Get_path </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -435,7 +420,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> * MR_ComputeSweptVolumeParameters_Get_toolMesh </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> * MR_ComputeSweptVolumeParameters_Get_toolMesh </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -453,7 +438,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *const  * MR_ComputeSweptVolumeParameters_Get_toolSpec </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> *const  * MR_ComputeSweptVolumeParameters_Get_toolSpec </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -471,7 +456,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const float * MR_ComputeSweptVolumeParameters_Get_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_ComputeSweptVolumeParameters_Get_voxelSize </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -491,7 +476,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ComputeSweptVolumeParameters_GetMutable_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_ComputeSweptVolumeParameters_GetMutable_cb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -509,7 +494,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API MR_uint64_t * MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> * MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -527,7 +512,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> * MR_ComputeSweptVolumeParameters_GetMutable_toolMesh </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#af1ba30a3fa8a895c1f72e182f3e73e17">MR_MeshPart</a> * MR_ComputeSweptVolumeParameters_GetMutable_toolMesh </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -545,7 +530,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> ** MR_ComputeSweptVolumeParameters_GetMutable_toolSpec </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MREndMill_8h.html#afb9772e287e6b9050531d23886e426c0">MR_EndMillTool</a> ** MR_ComputeSweptVolumeParameters_GetMutable_toolSpec </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -563,7 +548,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API float * MR_ComputeSweptVolumeParameters_GetMutable_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_ComputeSweptVolumeParameters_GetMutable_voxelSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -583,7 +568,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -605,7 +590,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> * MR_ComputeSweptVolumeParameters_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -627,14 +612,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_Set_cb </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_Set_cb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -654,14 +639,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_Set_memoryLimit </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_Set_memoryLimit </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">MR_uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -676,7 +661,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_Set_toolSpec </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_Set_toolSpec </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -698,7 +683,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_ComputeSweptVolumeParameters_Set_voxelSize </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_ComputeSweptVolumeParameters_Set_voxelSize </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -722,7 +707,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithCustomToolDistance </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithCustomToolDistance </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>comp</em></span>, </td>
         </tr>
@@ -733,7 +718,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume using custom tool distance computation object and converts it to mesh using the marching cubes algorithm Generated from function <span class="tt">MR::computeSweptVolumeWithCustomToolDistance</span>. Parameter <span class="tt">comp</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume using custom tool distance computation object and converts it to mesh using the marching cubes algorithm Generated from function <span class="tt">MR::computeSweptVolumeWithCustomToolDistance</span>. Parameter <span class="tt">comp</span> can not be null. It is a single object. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -744,14 +729,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithDistanceVolume </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithDistanceVolume </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume and converts it to mesh using the marching cubes algorithm Generated from function <span class="tt">MR::computeSweptVolumeWithDistanceVolume</span>. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume and converts it to mesh using the marching cubes algorithm Generated from function <span class="tt">MR::computeSweptVolumeWithDistanceVolume</span>. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -762,14 +747,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithMeshMovement </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a0d97154d4aed695055160a4688c04a3d">MR_expected_MR_Mesh_std_string</a> * MR_computeSweptVolumeWithMeshMovement </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#ae366d65098a22096322a7b20b18485a3">MR_ComputeSweptVolumeParameters</a> *</td>          <td class="paramname"><span class="paramname"><em>params</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute swept volume for given toolpath and tool Builds mesh for each tool movement and joins them using voxel boolean Generated from function <span class="tt">MR::computeSweptVolumeWithMeshMovement</span>. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Mesh_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Compute swept volume for given toolpath and tool Builds mesh for each tool movement and joins them using voxel boolean Generated from function <span class="tt">MR::computeSweptVolumeWithMeshMovement</span>. Parameter <span class="tt">params</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Mesh__std__string_8h.html#adf45ed943c3005d85a9baaa15feb26f1" title="Destroys a heap-allocated instance of MR_expected_MR_Mesh_std_string. Does nothing if the pointer is ...">MR_expected_MR_Mesh_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -780,7 +765,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_computeWorkArea </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="structMR__Box3f.html">MR_Box3f</a> MR_computeWorkArea </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>toolpath</em></span>, </td>
         </tr>
@@ -802,7 +787,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_IComputeToolDistance_computeToolDistance </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_IComputeToolDistance_computeToolDistance </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -833,7 +818,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute tool distance Generated from method <span class="tt">MR::IComputeToolDistance::computeToolDistance</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">output</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">origin</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_void_std_string_Destroy()</span> to free it when you're done using it. </p>
+<p>Compute tool distance Generated from method <span class="tt">MR::IComputeToolDistance::computeToolDistance</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">output</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">origin</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></span> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -844,7 +829,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_IComputeToolDistance_Destroy </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_IComputeToolDistance_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -863,7 +848,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API void MR_IComputeToolDistance_DestroyArray </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_IComputeToolDistance_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -882,7 +867,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> * MR_IComputeToolDistance_OffsetMutablePtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> * MR_IComputeToolDistance_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -904,7 +889,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> * MR_IComputeToolDistance_OffsetPtr </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> * MR_IComputeToolDistance_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -926,7 +911,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> * MR_IComputeToolDistance_prepare_MR_EndMillTool </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Vector3i__std__string_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> * MR_IComputeToolDistance_prepare_MR_EndMillTool </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -947,7 +932,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Prepare for a voxel grid of given dims and copy tool path and tool spec data </p><dl class="section return"><dt>Returns</dt><dd>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <span class="tt">MR::IComputeToolDistance::prepare</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">toolpath</span> can not be null. It is a single object. Parameter <span class="tt">toolSpec</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Vector3i_std_string_Destroy()</span> to free it when you're done using it. </dd></dl>
+<p>Prepare for a voxel grid of given dims and copy tool path and tool spec data </p><dl class="section return"><dt>Returns</dt><dd>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <span class="tt">MR::IComputeToolDistance::prepare</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">toolpath</span> can not be null. It is a single object. Parameter <span class="tt">toolSpec</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Vector3i__std__string_8h.html#a152373613a48552a6e8890eb3bf9c170" title="Destroys a heap-allocated instance of MR_expected_MR_Vector3i_std_string. Does nothing if the pointer...">MR_expected_MR_Vector3i_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -958,7 +943,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRC_API <a class="el" href="#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> * MR_IComputeToolDistance_prepare_MR_Polyline2 </td>
+          <td class="memname"><a class="el" href="include_2MRCMisc_2exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="expected__MR__Vector3i__std__string_8h.html#afd3cfb5cb6fb29f4132e291d2f5ec78a">MR_expected_MR_Vector3i_std_string</a> * MR_IComputeToolDistance_prepare_MR_Polyline2 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#aff42432999e160e7f7f45b5f2160caf7">MR_IComputeToolDistance</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -979,7 +964,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Prepare for a voxel grid of given dims and copy tool path and tool spec data </p><dl class="section return"><dt>Returns</dt><dd>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <span class="tt">MR::IComputeToolDistance::prepare</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">toolpath</span> can not be null. It is a single object. Parameter <span class="tt">toolProfile</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt">MR_expected_MR_Vector3i_std_string_Destroy()</span> to free it when you're done using it. </dd></dl>
+<p>Prepare for a voxel grid of given dims and copy tool path and tool spec data </p><dl class="section return"><dt>Returns</dt><dd>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <span class="tt">MR::IComputeToolDistance::prepare</span>. Parameter <span class="tt">_this</span> can not be null. It is a single object. Parameter <span class="tt">dims</span> can not be null. It is a single object. Parameter <span class="tt">toolpath</span> can not be null. It is a single object. Parameter <span class="tt">toolProfile</span> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <span class="tt"><a class="el" href="expected__MR__Vector3i__std__string_8h.html#a152373613a48552a6e8890eb3bf9c170" title="Destroys a heap-allocated instance of MR_expected_MR_Vector3i_std_string. Does nothing if the pointer...">MR_expected_MR_Vector3i_std_string_Destroy()</a></span> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -990,7 +975,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_f3347e714ce645328a0f1e84cdba4df7.html">MRCVoxels</a></li><li class="navelem"><a href="MRSweptVolume_8h.html">MRSweptVolume.h</a></li>
+    <li class="navelem"><a href="dir_dde369ebb89469603743f5002eed69cd.html">MeshLib</a></li><li class="navelem"><a href="dir_87d38852fc01aff5f853718c8d8b5cb2.html">Cbindings</a></li><li class="navelem"><a href="dir_96fcd3db3f34838e5670d9db1231ee5a.html">include</a></li><li class="navelem"><a href="dir_0a2b2b3c4a45c3f535d8cb570d2e647d.html">MRCVoxels</a></li><li class="navelem"><a href="MRSweptVolume_8h.html">MRSweptVolume.h</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.14.0 </li>
   </ul>
 </div>

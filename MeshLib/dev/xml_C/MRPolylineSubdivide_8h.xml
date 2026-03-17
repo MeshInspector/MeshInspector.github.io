@@ -2,8 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
   <compounddef id="MRPolylineSubdivide_8h" kind="file" language="C++">
     <compoundname>MRPolylineSubdivide.h</compoundname>
-    <includes local="no">MRCMisc/common.h</includes>
-    <includes local="no">MRCMisc/exports.h</includes>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
     <includes local="no">stdbool.h</includes>
     <includes local="no">stddef.h</includes>
     <incdepgraph>
@@ -14,22 +14,33 @@
         </childnode>
         <childnode refid="3" relation="include">
         </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>MRCMisc/common.h</label>
-      </node>
       <node id="3">
         <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
       </node>
-      <node id="4">
+      <node id="6">
         <label>stdbool.h</label>
       </node>
-      <node id="5">
+      <node id="4">
         <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
     <sectiondef kind="typedef">
@@ -41,16 +52,16 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Generated from class <computeroutput>MR::PolylineSubdivideSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+<para>Generated from class <computeroutput>MR::PolylineSubdivideSettings</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="23" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" bodystart="23" bodyend="-1"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="23" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" bodystart="23" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1acb431533fd2faef60b4efdee3dfd4411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const float *</type>
         <definition>MRC_API const float * MR_PolylineSubdivideSettings_Get_maxEdgeLen</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_maxEdgeLen</name>
@@ -65,10 +76,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="30" declcolumn="21"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="30" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="30" declcolumn="21"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a614023b8a24c83dc59794f7580b19e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_maxEdgeLen</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, float value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_maxEdgeLen</name>
@@ -87,10 +98,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="36" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="36" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ae480c0a41ff5dc5f3e8bb3b199d93128" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API float *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> float *</type>
         <definition>MRC_API float * MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</name>
@@ -105,10 +116,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="43" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="43" declcolumn="15"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="43" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="43" declcolumn="15"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a2cf84abc7844c1d8e7108d0f25608885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const int *</type>
         <definition>MRC_API const int * MR_PolylineSubdivideSettings_Get_maxEdgeSplits</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_maxEdgeSplits</name>
@@ -123,10 +134,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="50" declcolumn="19"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="50" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="50" declcolumn="19"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1abc09ef4d2365afe2a6218169854c0962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_maxEdgeSplits</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, int value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_maxEdgeSplits</name>
@@ -145,10 +156,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="56" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="56" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a5afb09d27e0efabe932a34e002522073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int *</type>
         <definition>MRC_API int * MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</name>
@@ -163,10 +174,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="63" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="63" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="63" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="63" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a0f92c16f2508691acbdfccf601e75d97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API MR_VertBitSet *const  * MR_PolylineSubdivideSettings_Get_region</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_region</name>
@@ -181,10 +192,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="71" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="71" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="71" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="71" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ad6d0a85a1f2ae8bcc2bce031299258c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_region</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_VertBitSet *value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_region</name>
@@ -203,10 +214,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="79" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="79" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="79" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a0f690e250101e1cc9299e6e703430fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API MR_VertBitSet ** MR_PolylineSubdivideSettings_GetMutable_region</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_region</name>
@@ -221,10 +232,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="87" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="87" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="87" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="87" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a9c76ecae9eb26b8fdb43d7cced2a888e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *const *</type>
         <definition>MRC_API MR_VertBitSet *const  * MR_PolylineSubdivideSettings_Get_newVerts</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_newVerts</name>
@@ -239,10 +250,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="94" declcolumn="29"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="94" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="94" declcolumn="29"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a3bcdd9d9d27ca2f5eaee6e322392b117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_newVerts</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_VertBitSet *value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_newVerts</name>
@@ -261,10 +272,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="101" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="101" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="101" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a3b9d9333a7758f663c781dda939ea407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> **</type>
         <definition>MRC_API MR_VertBitSet ** MR_PolylineSubdivideSettings_GetMutable_newVerts</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_newVerts</name>
@@ -279,10 +290,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="108" declcolumn="23"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="108" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="108" declcolumn="23"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a67d0341626209bdf6b00453359afbb4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const bool *</type>
         <definition>MRC_API const bool * MR_PolylineSubdivideSettings_Get_useCurvature</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_useCurvature</name>
@@ -297,10 +308,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="116" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="116" declcolumn="20"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="116" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="116" declcolumn="20"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ab3559a03c6bb2e924d9807887bcef1d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_useCurvature</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, bool value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_useCurvature</name>
@@ -319,10 +330,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="123" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="123" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a1dc1338787ae37d5af5272effcc87e43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API bool *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool *</type>
         <definition>MRC_API bool * MR_PolylineSubdivideSettings_GetMutable_useCurvature</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_useCurvature</name>
@@ -337,10 +348,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="131" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="131" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1adefa2382708e1a2ad318ae01f4dfd665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref> *</type>
         <definition>MRC_API const MR_std_function_void_from_MR_VertId * MR_PolylineSubdivideSettings_Get_onVertCreated</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_onVertCreated</name>
@@ -355,10 +366,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="138" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="138" declcolumn="51"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="138" column="51" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="138" declcolumn="51"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a2aaa3fff21de2c1ac8e2c8ab44bff6fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_onVertCreated</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_VertId *value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_onVertCreated</name>
@@ -367,7 +378,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -381,10 +392,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="145" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="145" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="145" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a844d89cc8058d15b74b05f741814af88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_VertId * MR_PolylineSubdivideSettings_GetMutable_onVertCreated</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_onVertCreated</name>
@@ -399,10 +410,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="152" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="152" declcolumn="45"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="152" column="45" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="152" declcolumn="45"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1afd00a178c19d95f3263a1844cd8c907b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
         <definition>MRC_API const MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_PolylineSubdivideSettings_Get_onEdgeSplit</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_onEdgeSplit</name>
@@ -417,10 +428,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="159" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="159" declcolumn="61"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="159" column="61" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="159" declcolumn="61"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ad2e020056db876ba07f87a733ba4cfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_onEdgeSplit</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_PassBy value_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId *value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_onEdgeSplit</name>
@@ -429,7 +440,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -443,10 +454,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="166" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="166" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a8c9b77aafc87c5276f938220b120cfef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref> *</type>
         <definition>MRC_API MR_std_function_void_from_MR_EdgeId_MR_EdgeId * MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</name>
@@ -461,10 +472,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="173" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="173" declcolumn="55"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="173" column="55" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="173" declcolumn="55"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a44aca1101ef4c2dd12bd48b9639fedae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API const MR_std_function_bool_from_float * MR_PolylineSubdivideSettings_Get_progressCallback</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Get_progressCallback</name>
@@ -479,10 +490,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="180" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="180" declcolumn="47"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="180" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="180" declcolumn="47"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a746c8742549b3982290634544673c3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Set_progressCallback</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
         <name>MR_PolylineSubdivideSettings_Set_progressCallback</name>
@@ -491,7 +502,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>value_pass_by</declname>
         </param>
         <param>
@@ -505,10 +516,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="187" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="187" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a77d1c1496edb7e874c4ff7df88d3d067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
         <definition>MRC_API MR_std_function_bool_from_float * MR_PolylineSubdivideSettings_GetMutable_progressCallback</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_GetMutable_progressCallback</name>
@@ -523,10 +534,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="194" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="194" declcolumn="41"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="194" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="194" declcolumn="41"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ad9268ee88c5ef0131180220b4cd46e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_DefaultConstruct</definition>
         <argsstring>(void)</argsstring>
         <name>MR_PolylineSubdivideSettings_DefaultConstruct</name>
@@ -540,10 +551,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="198" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="198" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="198" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="198" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a96c1f780d1d144992210ae2cd0c43c6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_DefaultConstructArray</definition>
         <argsstring>(size_t num_elems)</argsstring>
         <name>MR_PolylineSubdivideSettings_DefaultConstructArray</name>
@@ -558,10 +569,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="203" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="203" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="203" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="203" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a55053b9af68ac6ae878b21ce0e936975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_ConstructFrom</definition>
         <argsstring>(float maxEdgeLen, int maxEdgeSplits, MR_VertBitSet *region, MR_VertBitSet *newVerts, bool useCurvature, MR_PassBy onVertCreated_pass_by, MR_std_function_void_from_MR_VertId *onVertCreated, MR_PassBy onEdgeSplit_pass_by, MR_std_function_void_from_MR_EdgeId_MR_EdgeId *onEdgeSplit, MR_PassBy progressCallback_pass_by, MR_std_function_bool_from_float *progressCallback)</argsstring>
         <name>MR_PolylineSubdivideSettings_ConstructFrom</name>
@@ -586,7 +597,7 @@
           <declname>useCurvature</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>onVertCreated_pass_by</declname>
         </param>
         <param>
@@ -594,7 +605,7 @@
           <declname>onVertCreated</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>onEdgeSplit_pass_by</declname>
         </param>
         <param>
@@ -602,7 +613,7 @@
           <declname>onEdgeSplit</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>progressCallback_pass_by</declname>
         </param>
         <param>
@@ -616,10 +627,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="213" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="213" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="213" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="213" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1ac5928b43dfb1abc5244a059180ef1216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API const <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API const MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_OffsetPtr</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PolylineSubdivideSettings_OffsetPtr</name>
@@ -638,10 +649,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="217" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="217" declcolumn="44"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="217" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="217" declcolumn="44"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a12362af57857a87ac560cb7bcc0a931c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_OffsetMutablePtr</definition>
         <argsstring>(MR_PolylineSubdivideSettings *ptr, ptrdiff_t i)</argsstring>
         <name>MR_PolylineSubdivideSettings_OffsetMutablePtr</name>
@@ -660,15 +671,15 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="221" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="221" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="221" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="221" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a663dd6360ebc544c709fd32571d5a000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_ConstructFromAnother</definition>
         <argsstring>(MR_PassBy _other_pass_by, MR_PolylineSubdivideSettings *_other)</argsstring>
         <name>MR_PolylineSubdivideSettings_ConstructFromAnother</name>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -682,10 +693,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="226" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="226" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="226" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="226" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_Destroy</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_Destroy</name>
@@ -700,10 +711,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="229" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="229" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="229" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a27cdfe2e12a517ece3fba33a3ce66e8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API void</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
         <definition>MRC_API void MR_PolylineSubdivideSettings_DestroyArray</definition>
         <argsstring>(const MR_PolylineSubdivideSettings *_this)</argsstring>
         <name>MR_PolylineSubdivideSettings_DestroyArray</name>
@@ -718,10 +729,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="232" declcolumn="14"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="232" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="232" declcolumn="14"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a16a31bfa1a60ff178fcd75bc70cd5f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref> *</type>
         <definition>MRC_API MR_PolylineSubdivideSettings * MR_PolylineSubdivideSettings_AssignFromAnother</definition>
         <argsstring>(MR_PolylineSubdivideSettings *_this, MR_PassBy _other_pass_by, MR_PolylineSubdivideSettings *_other)</argsstring>
         <name>MR_PolylineSubdivideSettings_AssignFromAnother</name>
@@ -730,7 +741,7 @@
           <declname>_this</declname>
         </param>
         <param>
-          <type>MR_PassBy</type>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
           <declname>_other_pass_by</declname>
         </param>
         <param>
@@ -744,10 +755,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="239" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="239" declcolumn="38"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="239" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="239" declcolumn="38"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1af6538ec8e7483458982f728e63ce5e90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_subdividePolyline_MR_Polyline2</definition>
         <argsstring>(MR_Polyline2 *polyline, const MR_PolylineSubdivideSettings *settings)</argsstring>
         <name>MR_subdividePolyline_MR_Polyline2</name>
@@ -769,10 +780,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="247" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="247" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="247" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="247" declcolumn="13"/>
       </memberdef>
       <memberdef kind="function" id="MRPolylineSubdivide_8h_1a04ad5855bd243f361f13f1dd56b6ca26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>MRC_API int</type>
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
         <definition>MRC_API int MR_subdividePolyline_MR_Polyline3</definition>
         <argsstring>(MR_Polyline3 *polyline, const MR_PolylineSubdivideSettings *settings)</argsstring>
         <name>MR_subdividePolyline_MR_Polyline3</name>
@@ -791,7 +802,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" line="253" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h" declline="253" declcolumn="13"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" line="253" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h" declline="253" declcolumn="13"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -801,8 +812,8 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight></codeline>
-<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -821,80 +832,80 @@
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23" refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref>;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30" refid="MRPolylineSubdivide_8h_1acb431533fd2faef60b4efdee3dfd4411" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1acb431533fd2faef60b4efdee3dfd4411" kindref="member">MR_PolylineSubdivideSettings_Get_maxEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30" refid="MRPolylineSubdivide_8h_1acb431533fd2faef60b4efdee3dfd4411" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1acb431533fd2faef60b4efdee3dfd4411" kindref="member">MR_PolylineSubdivideSettings_Get_maxEdgeLen</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="MRPolylineSubdivide_8h_1a614023b8a24c83dc59794f7580b19e94" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a614023b8a24c83dc59794f7580b19e94" kindref="member">MR_PolylineSubdivideSettings_Set_maxEdgeLen</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="36" refid="MRPolylineSubdivide_8h_1a614023b8a24c83dc59794f7580b19e94" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a614023b8a24c83dc59794f7580b19e94" kindref="member">MR_PolylineSubdivideSettings_Set_maxEdgeLen</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43" refid="MRPolylineSubdivide_8h_1ae480c0a41ff5dc5f3e8bb3b199d93128" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1ae480c0a41ff5dc5f3e8bb3b199d93128" kindref="member">MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="43" refid="MRPolylineSubdivide_8h_1ae480c0a41ff5dc5f3e8bb3b199d93128" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1ae480c0a41ff5dc5f3e8bb3b199d93128" kindref="member">MR_PolylineSubdivideSettings_GetMutable_maxEdgeLen</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50" refid="MRPolylineSubdivide_8h_1a2cf84abc7844c1d8e7108d0f25608885" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a2cf84abc7844c1d8e7108d0f25608885" kindref="member">MR_PolylineSubdivideSettings_Get_maxEdgeSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="50" refid="MRPolylineSubdivide_8h_1a2cf84abc7844c1d8e7108d0f25608885" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a2cf84abc7844c1d8e7108d0f25608885" kindref="member">MR_PolylineSubdivideSettings_Get_maxEdgeSplits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56" refid="MRPolylineSubdivide_8h_1abc09ef4d2365afe2a6218169854c0962" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1abc09ef4d2365afe2a6218169854c0962" kindref="member">MR_PolylineSubdivideSettings_Set_maxEdgeSplits</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="56" refid="MRPolylineSubdivide_8h_1abc09ef4d2365afe2a6218169854c0962" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1abc09ef4d2365afe2a6218169854c0962" kindref="member">MR_PolylineSubdivideSettings_Set_maxEdgeSplits</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="63" refid="MRPolylineSubdivide_8h_1a5afb09d27e0efabe932a34e002522073" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a5afb09d27e0efabe932a34e002522073" kindref="member">MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63" refid="MRPolylineSubdivide_8h_1a5afb09d27e0efabe932a34e002522073" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a5afb09d27e0efabe932a34e002522073" kindref="member">MR_PolylineSubdivideSettings_GetMutable_maxEdgeSplits</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="71" refid="MRPolylineSubdivide_8h_1a0f92c16f2508691acbdfccf601e75d97" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a0f92c16f2508691acbdfccf601e75d97" kindref="member">MR_PolylineSubdivideSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71" refid="MRPolylineSubdivide_8h_1a0f92c16f2508691acbdfccf601e75d97" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a0f92c16f2508691acbdfccf601e75d97" kindref="member">MR_PolylineSubdivideSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="79" refid="MRPolylineSubdivide_8h_1ad6d0a85a1f2ae8bcc2bce031299258c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ad6d0a85a1f2ae8bcc2bce031299258c9" kindref="member">MR_PolylineSubdivideSettings_Set_region</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="79" refid="MRPolylineSubdivide_8h_1ad6d0a85a1f2ae8bcc2bce031299258c9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ad6d0a85a1f2ae8bcc2bce031299258c9" kindref="member">MR_PolylineSubdivideSettings_Set_region</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="80"><highlight class="normal"></highlight></codeline>
-<codeline lineno="87" refid="MRPolylineSubdivide_8h_1a0f690e250101e1cc9299e6e703430fe8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPolylineSubdivide_8h_1a0f690e250101e1cc9299e6e703430fe8" kindref="member">MR_PolylineSubdivideSettings_GetMutable_region</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87" refid="MRPolylineSubdivide_8h_1a0f690e250101e1cc9299e6e703430fe8" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPolylineSubdivide_8h_1a0f690e250101e1cc9299e6e703430fe8" kindref="member">MR_PolylineSubdivideSettings_GetMutable_region</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="88"><highlight class="normal"></highlight></codeline>
-<codeline lineno="94" refid="MRPolylineSubdivide_8h_1a9c76ecae9eb26b8fdb43d7cced2a888e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a9c76ecae9eb26b8fdb43d7cced2a888e" kindref="member">MR_PolylineSubdivideSettings_Get_newVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94" refid="MRPolylineSubdivide_8h_1a9c76ecae9eb26b8fdb43d7cced2a888e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a9c76ecae9eb26b8fdb43d7cced2a888e" kindref="member">MR_PolylineSubdivideSettings_Get_newVerts</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101" refid="MRPolylineSubdivide_8h_1a3bcdd9d9d27ca2f5eaee6e322392b117" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a3bcdd9d9d27ca2f5eaee6e322392b117" kindref="member">MR_PolylineSubdivideSettings_Set_newVerts</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="101" refid="MRPolylineSubdivide_8h_1a3bcdd9d9d27ca2f5eaee6e322392b117" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a3bcdd9d9d27ca2f5eaee6e322392b117" kindref="member">MR_PolylineSubdivideSettings_Set_newVerts</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="102"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108" refid="MRPolylineSubdivide_8h_1a3b9d9333a7758f663c781dda939ea407" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPolylineSubdivide_8h_1a3b9d9333a7758f663c781dda939ea407" kindref="member">MR_PolylineSubdivideSettings_GetMutable_newVerts</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="108" refid="MRPolylineSubdivide_8h_1a3b9d9333a7758f663c781dda939ea407" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>**<ref refid="MRPolylineSubdivide_8h_1a3b9d9333a7758f663c781dda939ea407" kindref="member">MR_PolylineSubdivideSettings_GetMutable_newVerts</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116" refid="MRPolylineSubdivide_8h_1a67d0341626209bdf6b00453359afbb4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a67d0341626209bdf6b00453359afbb4d" kindref="member">MR_PolylineSubdivideSettings_Get_useCurvature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116" refid="MRPolylineSubdivide_8h_1a67d0341626209bdf6b00453359afbb4d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a67d0341626209bdf6b00453359afbb4d" kindref="member">MR_PolylineSubdivideSettings_Get_useCurvature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="117"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123" refid="MRPolylineSubdivide_8h_1ab3559a03c6bb2e924d9807887bcef1d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ab3559a03c6bb2e924d9807887bcef1d6" kindref="member">MR_PolylineSubdivideSettings_Set_useCurvature</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="123" refid="MRPolylineSubdivide_8h_1ab3559a03c6bb2e924d9807887bcef1d6" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ab3559a03c6bb2e924d9807887bcef1d6" kindref="member">MR_PolylineSubdivideSettings_Set_useCurvature</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"></highlight></codeline>
-<codeline lineno="131" refid="MRPolylineSubdivide_8h_1a1dc1338787ae37d5af5272effcc87e43" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a1dc1338787ae37d5af5272effcc87e43" kindref="member">MR_PolylineSubdivideSettings_GetMutable_useCurvature</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131" refid="MRPolylineSubdivide_8h_1a1dc1338787ae37d5af5272effcc87e43" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRPolylineSubdivide_8h_1a1dc1338787ae37d5af5272effcc87e43" kindref="member">MR_PolylineSubdivideSettings_GetMutable_useCurvature</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138" refid="MRPolylineSubdivide_8h_1adefa2382708e1a2ad318ae01f4dfd665" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1adefa2382708e1a2ad318ae01f4dfd665" kindref="member">MR_PolylineSubdivideSettings_Get_onVertCreated</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138" refid="MRPolylineSubdivide_8h_1adefa2382708e1a2ad318ae01f4dfd665" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1adefa2382708e1a2ad318ae01f4dfd665" kindref="member">MR_PolylineSubdivideSettings_Get_onVertCreated</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"></highlight></codeline>
-<codeline lineno="145" refid="MRPolylineSubdivide_8h_1a2aaa3fff21de2c1ac8e2c8ab44bff6fd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a2aaa3fff21de2c1ac8e2c8ab44bff6fd" kindref="member">MR_PolylineSubdivideSettings_Set_onVertCreated</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="145" refid="MRPolylineSubdivide_8h_1a2aaa3fff21de2c1ac8e2c8ab44bff6fd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a2aaa3fff21de2c1ac8e2c8ab44bff6fd" kindref="member">MR_PolylineSubdivideSettings_Set_onVertCreated</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="146"><highlight class="normal"></highlight></codeline>
-<codeline lineno="152" refid="MRPolylineSubdivide_8h_1a844d89cc8058d15b74b05f741814af88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a844d89cc8058d15b74b05f741814af88" kindref="member">MR_PolylineSubdivideSettings_GetMutable_onVertCreated</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152" refid="MRPolylineSubdivide_8h_1a844d89cc8058d15b74b05f741814af88" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a844d89cc8058d15b74b05f741814af88" kindref="member">MR_PolylineSubdivideSettings_GetMutable_onVertCreated</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="159" refid="MRPolylineSubdivide_8h_1afd00a178c19d95f3263a1844cd8c907b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1afd00a178c19d95f3263a1844cd8c907b" kindref="member">MR_PolylineSubdivideSettings_Get_onEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="159" refid="MRPolylineSubdivide_8h_1afd00a178c19d95f3263a1844cd8c907b" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1afd00a178c19d95f3263a1844cd8c907b" kindref="member">MR_PolylineSubdivideSettings_Get_onEdgeSplit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166" refid="MRPolylineSubdivide_8h_1ad2e020056db876ba07f87a733ba4cfb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ad2e020056db876ba07f87a733ba4cfb7" kindref="member">MR_PolylineSubdivideSettings_Set_onEdgeSplit</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="166" refid="MRPolylineSubdivide_8h_1ad2e020056db876ba07f87a733ba4cfb7" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1ad2e020056db876ba07f87a733ba4cfb7" kindref="member">MR_PolylineSubdivideSettings_Set_onEdgeSplit</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="167"><highlight class="normal"></highlight></codeline>
-<codeline lineno="173" refid="MRPolylineSubdivide_8h_1a8c9b77aafc87c5276f938220b120cfef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a8c9b77aafc87c5276f938220b120cfef" kindref="member">MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="173" refid="MRPolylineSubdivide_8h_1a8c9b77aafc87c5276f938220b120cfef" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a8c9b77aafc87c5276f938220b120cfef" kindref="member">MR_PolylineSubdivideSettings_GetMutable_onEdgeSplit</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="174"><highlight class="normal"></highlight></codeline>
-<codeline lineno="180" refid="MRPolylineSubdivide_8h_1a44aca1101ef4c2dd12bd48b9639fedae" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a44aca1101ef4c2dd12bd48b9639fedae" kindref="member">MR_PolylineSubdivideSettings_Get_progressCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="180" refid="MRPolylineSubdivide_8h_1a44aca1101ef4c2dd12bd48b9639fedae" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a44aca1101ef4c2dd12bd48b9639fedae" kindref="member">MR_PolylineSubdivideSettings_Get_progressCallback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187" refid="MRPolylineSubdivide_8h_1a746c8742549b3982290634544673c3d9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a746c8742549b3982290634544673c3d9" kindref="member">MR_PolylineSubdivideSettings_Set_progressCallback</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="187" refid="MRPolylineSubdivide_8h_1a746c8742549b3982290634544673c3d9" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a746c8742549b3982290634544673c3d9" kindref="member">MR_PolylineSubdivideSettings_Set_progressCallback</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194" refid="MRPolylineSubdivide_8h_1a77d1c1496edb7e874c4ff7df88d3d067" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a77d1c1496edb7e874c4ff7df88d3d067" kindref="member">MR_PolylineSubdivideSettings_GetMutable_progressCallback</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="194" refid="MRPolylineSubdivide_8h_1a77d1c1496edb7e874c4ff7df88d3d067" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a77d1c1496edb7e874c4ff7df88d3d067" kindref="member">MR_PolylineSubdivideSettings_GetMutable_progressCallback</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198" refid="MRPolylineSubdivide_8h_1ad9268ee88c5ef0131180220b4cd46e72" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1ad9268ee88c5ef0131180220b4cd46e72" kindref="member">MR_PolylineSubdivideSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="198" refid="MRPolylineSubdivide_8h_1ad9268ee88c5ef0131180220b4cd46e72" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1ad9268ee88c5ef0131180220b4cd46e72" kindref="member">MR_PolylineSubdivideSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203" refid="MRPolylineSubdivide_8h_1a96c1f780d1d144992210ae2cd0c43c6c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a96c1f780d1d144992210ae2cd0c43c6c" kindref="member">MR_PolylineSubdivideSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="203" refid="MRPolylineSubdivide_8h_1a96c1f780d1d144992210ae2cd0c43c6c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a96c1f780d1d144992210ae2cd0c43c6c" kindref="member">MR_PolylineSubdivideSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"></highlight></codeline>
-<codeline lineno="213" refid="MRPolylineSubdivide_8h_1a55053b9af68ac6ae878b21ce0e936975" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a55053b9af68ac6ae878b21ce0e936975" kindref="member">MR_PolylineSubdivideSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxEdgeLen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxEdgeSplits,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*newVerts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useCurvature,<sp/>MR_PassBy<sp/>onVertCreated_pass_by,<sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*onVertCreated,<sp/>MR_PassBy<sp/>onEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*onEdgeSplit,<sp/>MR_PassBy<sp/>progressCallback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
+<codeline lineno="213" refid="MRPolylineSubdivide_8h_1a55053b9af68ac6ae878b21ce0e936975" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a55053b9af68ac6ae878b21ce0e936975" kindref="member">MR_PolylineSubdivideSettings_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxEdgeLen,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxEdgeSplits,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*region,<sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*newVerts,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>useCurvature,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onVertCreated_pass_by,<sp/><ref refid="MRMeshSubdivide_8h_1ab5a1af27d17dce1b9ef76255b364508e" kindref="member">MR_std_function_void_from_MR_VertId</ref><sp/>*onVertCreated,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>onEdgeSplit_pass_by,<sp/><ref refid="MRFillHoleNicely_8h_1ad023ae65e5f5b35808a42976d62d515e" kindref="member">MR_std_function_void_from_MR_EdgeId_MR_EdgeId</ref><sp/>*onEdgeSplit,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>progressCallback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*progressCallback);</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="217" refid="MRPolylineSubdivide_8h_1ac5928b43dfb1abc5244a059180ef1216" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1ac5928b43dfb1abc5244a059180ef1216" kindref="member">MR_PolylineSubdivideSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="217" refid="MRPolylineSubdivide_8h_1ac5928b43dfb1abc5244a059180ef1216" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1ac5928b43dfb1abc5244a059180ef1216" kindref="member">MR_PolylineSubdivideSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="221" refid="MRPolylineSubdivide_8h_1a12362af57857a87ac560cb7bcc0a931c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a12362af57857a87ac560cb7bcc0a931c" kindref="member">MR_PolylineSubdivideSettings_OffsetMutablePtr</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="221" refid="MRPolylineSubdivide_8h_1a12362af57857a87ac560cb7bcc0a931c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a12362af57857a87ac560cb7bcc0a931c" kindref="member">MR_PolylineSubdivideSettings_OffsetMutablePtr</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
-<codeline lineno="226" refid="MRPolylineSubdivide_8h_1a663dd6360ebc544c709fd32571d5a000" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a663dd6360ebc544c709fd32571d5a000" kindref="member">MR_PolylineSubdivideSettings_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="226" refid="MRPolylineSubdivide_8h_1a663dd6360ebc544c709fd32571d5a000" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a663dd6360ebc544c709fd32571d5a000" kindref="member">MR_PolylineSubdivideSettings_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229" refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" kindref="member">MR_PolylineSubdivideSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="229" refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a7955f52731e90baa9a005f95b27ae71e" kindref="member">MR_PolylineSubdivideSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232" refid="MRPolylineSubdivide_8h_1a27cdfe2e12a517ece3fba33a3ce66e8c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a27cdfe2e12a517ece3fba33a3ce66e8c" kindref="member">MR_PolylineSubdivideSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232" refid="MRPolylineSubdivide_8h_1a27cdfe2e12a517ece3fba33a3ce66e8c" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a27cdfe2e12a517ece3fba33a3ce66e8c" kindref="member">MR_PolylineSubdivideSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this);</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="239" refid="MRPolylineSubdivide_8h_1a16a31bfa1a60ff178fcd75bc70cd5f1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a16a31bfa1a60ff178fcd75bc70cd5f1f" kindref="member">MR_PolylineSubdivideSettings_AssignFromAnother</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="239" refid="MRPolylineSubdivide_8h_1a16a31bfa1a60ff178fcd75bc70cd5f1f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*<ref refid="MRPolylineSubdivide_8h_1a16a31bfa1a60ff178fcd75bc70cd5f1f" kindref="member">MR_PolylineSubdivideSettings_AssignFromAnother</ref>(<ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>_other_pass_by,<sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*_other);</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247" refid="MRPolylineSubdivide_8h_1af6538ec8e7483458982f728e63ce5e90" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1af6538ec8e7483458982f728e63ce5e90" kindref="member">MR_subdividePolyline_MR_Polyline2</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="247" refid="MRPolylineSubdivide_8h_1af6538ec8e7483458982f728e63ce5e90" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1af6538ec8e7483458982f728e63ce5e90" kindref="member">MR_subdividePolyline_MR_Polyline2</ref>(<ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"></highlight></codeline>
-<codeline lineno="253" refid="MRPolylineSubdivide_8h_1a04ad5855bd243f361f13f1dd56b6ca26" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a04ad5855bd243f361f13f1dd56b6ca26" kindref="member">MR_subdividePolyline_MR_Polyline3</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*settings);</highlight></codeline>
+<codeline lineno="253" refid="MRPolylineSubdivide_8h_1a04ad5855bd243f361f13f1dd56b6ca26" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a04ad5855bd243f361f13f1dd56b6ca26" kindref="member">MR_subdividePolyline_MR_Polyline3</ref>(<ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPolylineSubdivide_8h_1a77fd6d5a1a50a80ecfcc3adba7e020ab" kindref="member">MR_PolylineSubdivideSettings</ref><sp/>*settings);</highlight></codeline>
 <codeline lineno="254"><highlight class="normal"></highlight></codeline>
 <codeline lineno="255"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="256"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="257"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPolylineSubdivide.h"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMesh/MRPolylineSubdivide.h"/>
   </compounddef>
 </doxygen>

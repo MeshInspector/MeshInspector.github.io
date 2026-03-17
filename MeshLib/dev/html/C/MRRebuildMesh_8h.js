@@ -1,7 +1,6 @@
 var MRRebuildMesh_8h =
 [
     [ "MR_RebuildMeshSettings", "MRRebuildMesh_8h.html#aa2853cd7a55a4391d2d36fb2e810eedb", null ],
-    [ "MR_std_function_void_from_MR_SignDetectionMode", "MRRebuildMesh_8h.html#a22d2ec9cd17ac887031de93b58b597b7", null ],
     [ "MR_rebuildMesh", "MRRebuildMesh_8h.html#a21860dab1e858f0a70ebc66e20ec9c42", null ],
     [ "MR_RebuildMeshSettings_AssignFromAnother", "MRRebuildMesh_8h.html#a2a2b123ccb8744363956f0f4e59a7417", null ],
     [ "MR_RebuildMeshSettings_ConstructFrom", "MRRebuildMesh_8h.html#a07660db8814483ade015658decb7d24c", null ],

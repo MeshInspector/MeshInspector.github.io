@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.14.0" xml:lang="en-US">
+  <compounddef id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h" kind="file" language="C++">
+    <compoundname>std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h</compoundname>
+    <includes refid="common_8h" local="no">MRCMisc/common.h</includes>
+    <includes refid="include_2MRCMisc_2exports_8h" local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+        <link refid="common_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+        <link refid="include_2MRCMisc_2exports_8h"/>
+      </node>
+      <node id="1">
+        <label>std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h</label>
+        <link refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+      <node id="5">
+        <label>stdint.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" prot="public" static="no">
+        <type>struct <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Wraps a pointer to a single shared reference-counted heap-allocated <computeroutput>MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter&gt;</computeroutput>. Supported <computeroutput><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="20" column="116" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a28dff181768ad1c286ce067d35347486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="24" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="24" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a323e4b27ffe2c39bd82b47a9d933fd07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4bc9cda2c63b3b57e223a4f98d16d331" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4c079983c6a60ec323c107326398bf50" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a8047e0a0ca5851040740bc4981f9f1ff" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="29" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="29" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a1e59e5ed0c1d49f59657794e3334e331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy other_pass_by, MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructFromAnother</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a copy of another instance. The source remains alive. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="35" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="35" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a81a79105a00104fe2707d514ac32a6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignFromAnother</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this, MR_PassBy other_pass_by, MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *other)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignFromAnother</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assigns the contents from another instance. Both objects remain alive after the call. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>other</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4bc9cda2c63b3b57e223a4f98d16d331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DestroyArray</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DestroyArray</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref></computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="47" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="47" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a8047e0a0ca5851040740bc4981f9f1ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetPtr</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="51" column="117" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="51" declcolumn="117"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4c079983c6a60ec323c107326398bf50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetMutablePtr</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="55" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="55" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a7e2a27a5bd75e115b2c6727b8b300ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_get</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_get</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the stored pointer, possibly null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="60" column="93" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="60" declcolumn="93"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ab808d809ee36663ebcd140a1454bf02f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> bool</type>
+        <definition>MRC_API bool MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_has_value</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_has_value</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true if non-null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aeacf625ab3dabc925686064fdc1c180e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> int</type>
+        <definition>MRC_API int MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_use_count</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_use_count</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>How many shared pointers share the managed object. Zero if no object is being managed. This being zero usually conincides with <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a7e2a27a5bd75e115b2c6727b8b300ff0" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_get()</ref></computeroutput> returning null, but is ultimately orthogonal. Note that in multithreaded environments, the only safe way to use this number is comparing it with zero. Positive values might change by the time you get to use them. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="70" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="70" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ac77cf150a5d3f66f62998b2b9e2c684d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_reset</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_reset</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the pointer to null. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a18b6df54e3cae32d1c0ca3b08b767da0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Construct</definition>
+        <argsstring>(MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Construct</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, taking ownership of an existing pointer. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a0d33af5781c95fe321d84f95a66b7c96" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> on it automatically. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="80" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="80" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aba4a1831d08769a0fe894fcf07c50d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Assign</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this, MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Assign</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance, taking ownership of an existing pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>ptr</computeroutput> should point to a single object rather than to an array. Parameter <computeroutput>ptr</computeroutput> takes ownership of the passed pointer (if not null), and will later call <computeroutput><ref refid="MRAddVisualPropertiesMixin_8h_1a0d33af5781c95fe321d84f95a66b7c96" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> on it automatically. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a47b7d54d900d72abfa687eac38d8d43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructNonOwning</definition>
+        <argsstring>(MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructNonOwning</name>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a new instance, storing a non-owning pointer. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="92" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="92" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0a4cd816b683976e14e18b1582a072dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignNonOwning</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this, MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignNonOwning</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrite the existing instance with a non-owning pointer. The previously owned object, if any, has its reference count decremented. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaa304bf2ec4a0716a99844fc800b6cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructAliasing</definition>
+        <argsstring>(MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructAliasing</name>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing constructor. Create a new instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="105" column="111" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="105" declcolumn="111"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaeee711aaf3eaa239bd314c1f9e8b875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignAliasing</definition>
+        <argsstring>(MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this, MR_PassBy ownership_pass_by, MR_std_shared_ptr_const_void *ownership, MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *ptr)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignAliasing</name>
+        <param>
+          <type><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref></type>
+          <declname>ownership_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref> *</type>
+          <declname>ownership</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The aliasing assignment. Overwrite an existing instance, copying ownership from an existing shared pointer and storing an arbitrary raw pointer. The input pointer can be reinterpreted from any other <computeroutput>std::shared_ptr&lt;T&gt;</computeroutput> to avoid constructing a new <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in this object. When this function is called, this object will drop any object references it held previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="112" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="112" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0fdddbe8b074e5faf47929d5234174da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> <ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+        <definition>MRC_API MR_std_shared_ptr_void * MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConvertTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConvertTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates an untyped <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> pointing to the same object as the source typed pointer. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="std__shared__ptr__void_8h_1a4058fff40b43d1e3047fc56d51306aa3" kindref="member">MR_std_shared_ptr_void_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="117" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="117" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad631ef9f84de2adec0878a5f6b245216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref> void</type>
+        <definition>MRC_API void MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignTo_MR_std_shared_ptr_void</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter *_this, MR_std_shared_ptr_void *_target)</argsstring>
+        <name>MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignTo_MR_std_shared_ptr_void</name>
+        <param>
+          <type>const <ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref> *</type>
+          <declname>_target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Overwrites an existing <computeroutput>std::shared_ptr&lt;void&gt;</computeroutput> to point to the same object as this instance. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_target</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" line="122" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h" declline="122" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="common_8h" kindref="compound">MRCMisc/common.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="include_2MRCMisc_2exports_8h" kindref="compound">MRCMisc/exports.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAddVisualPropertiesMixin.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_const_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_void.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a28dff181768ad1c286ce067d35347486" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a28dff181768ad1c286ce067d35347486" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a323e4b27ffe2c39bd82b47a9d933fd07" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a323e4b27ffe2c39bd82b47a9d933fd07" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a1e59e5ed0c1d49f59657794e3334e331" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a1e59e5ed0c1d49f59657794e3334e331" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructFromAnother</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a81a79105a00104fe2707d514ac32a6d2" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a81a79105a00104fe2707d514ac32a6d2" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignFromAnother</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>other_pass_by,<sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0d4a30a754744ab169c64a8ec677f772" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4bc9cda2c63b3b57e223a4f98d16d331" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4bc9cda2c63b3b57e223a4f98d16d331" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a8047e0a0ca5851040740bc4981f9f1ff" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a8047e0a0ca5851040740bc4981f9f1ff" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4c079983c6a60ec323c107326398bf50" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a4c079983c6a60ec323c107326398bf50" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_OffsetMutablePtr</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a7e2a27a5bd75e115b2c6727b8b300ff0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a7e2a27a5bd75e115b2c6727b8b300ff0" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_get</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ab808d809ee36663ebcd140a1454bf02f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ab808d809ee36663ebcd140a1454bf02f" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_has_value</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aeacf625ab3dabc925686064fdc1c180e" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aeacf625ab3dabc925686064fdc1c180e" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_use_count</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ac77cf150a5d3f66f62998b2b9e2c684d" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ac77cf150a5d3f66f62998b2b9e2c684d" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_reset</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a18b6df54e3cae32d1c0ca3b08b767da0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a18b6df54e3cae32d1c0ca3b08b767da0" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Construct</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aba4a1831d08769a0fe894fcf07c50d49" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aba4a1831d08769a0fe894fcf07c50d49" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_Assign</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a47b7d54d900d72abfa687eac38d8d43f" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a47b7d54d900d72abfa687eac38d8d43f" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructNonOwning</ref>(<ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0a4cd816b683976e14e18b1582a072dd" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0a4cd816b683976e14e18b1582a072dd" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignNonOwning</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaa304bf2ec4a0716a99844fc800b6cb0" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaa304bf2ec4a0716a99844fc800b6cb0" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConstructAliasing</ref>(<ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaeee711aaf3eaa239bd314c1f9e8b875" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1aaeee711aaf3eaa239bd314c1f9e8b875" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignAliasing</ref>(<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/><ref refid="common_8h_1ac983b89bddb9b22c9b416f31399f0095" kindref="member">MR_PassBy</ref><sp/>ownership_pass_by,<sp/><ref refid="std__shared__ptr__const__MR__Mesh_8h_1a5d8e57a51abfe75997ff52102a20bb9e" kindref="member">MR_std_shared_ptr_const_void</ref><sp/>*ownership,<sp/><ref refid="MRAddVisualPropertiesMixin_8h_1aac6ae55efb16dfdb6c8b7ea68ff72aae" kindref="member">MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*ptr);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0fdddbe8b074e5faf47929d5234174da" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*<ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1a0fdddbe8b074e5faf47929d5234174da" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_ConvertTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad631ef9f84de2adec0878a5f6b245216" refkind="member"><highlight class="normal"><ref refid="include_2MRCMisc_2exports_8h_1a83dd8809128f2fbd49b5c39d59179d4a" kindref="member">MRC_API</ref><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad631ef9f84de2adec0878a5f6b245216" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter_AssignTo_MR_std_shared_ptr_void</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="std__shared__ptr__MR__AddVisualProperties__MR__FeatureObject__MR__DimensionsVisualizePropertyType__di____0f90_8h_1ad4eabdc1d664d841bd88f43f9d8fedb1" kindref="member">MR_std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_diameter</ref><sp/>*_this,<sp/><ref refid="std__shared__ptr__const__void_8h_1a72ecd40cc21861923965148fd782317e" kindref="member">MR_std_shared_ptr_void</ref><sp/>*_target);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/include/MRCMisc/std_shared_ptr_MR_AddVisualProperties_MR_FeatureObject_MR_DimensionsVisualizePropertyType_di__0f90.h"/>
+  </compounddef>
+</doxygen>

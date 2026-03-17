@@ -1,7 +1,5 @@
 var MRObjectVoxels_8h =
 [
-    [ "MR_expected_std_shared_ptr_MR_Mesh_std_string", "MRObjectVoxels_8h.html#ab9a4f07317663a435e9dd2f3bca1c3f8", null ],
-    [ "MR_ObjectVoxels", "MRObjectVoxels_8h.html#a4b484d976d1077ae78acdc3b6ea174c0", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams", "MRObjectVoxels_8h.html#a24e57a3a62e88a846a5ed1147f069192", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams_AlphaType", "MRObjectVoxels_8h.html#ac2383d3fe858980d08e8dc799e57c93a", null ],
     [ "MR_ObjectVoxels_VolumeRenderingParams_LutType", "MRObjectVoxels_8h.html#a68d5f0c968dc131442d70d263799247b", null ],
