@@ -168,6 +168,67 @@
         </inbodydescription>
         <location file="MRMesh/MRTunnelDetector.h" line="72" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="72" declcolumn="11"/>
       </memberdef>
+      <memberdef kind="function" id="group__TunnelDetectorGroup_1ga80214bb4772aca4e0dc6687b96d56758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::eliminateTunnels</definition>
+        <argsstring>(Mesh &amp;mesh, const FaceBitSet *region={}, const DetectTunnelSettings &amp;settings={})</argsstring>
+        <name>eliminateTunnels</name>
+        <qualifiedname>MR::eliminateTunnels</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const DetectTunnelSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTunnelDetector.h" line="76" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="76" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TunnelDetectorGroup_1ga51d92977492b0778ff8c6a6512b893b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Expected&lt; void &gt;</type>
+        <definition>Expected&lt; void &gt; MR::eliminateTunnels</definition>
+        <argsstring>(Mesh &amp;mesh, const FillHoleParams &amp;fillHoleParams, const FaceBitSet *region={}, const DetectTunnelSettings &amp;settings={})</argsstring>
+        <name>eliminateTunnels</name>
+        <qualifiedname>MR::eliminateTunnels</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FillHoleParams &amp;</type>
+          <declname>fillHoleParams</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const DetectTunnelSettings &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MRMesh/MRTunnelDetector.h" line="77" column="11" declfile="MRMesh/MRTunnelDetector.h" declline="77" declcolumn="11"/>
+      </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>

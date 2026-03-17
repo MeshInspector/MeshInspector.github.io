@@ -166,34 +166,6 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19973" bodyend="19976"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>int</type>
-        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
-        <argsstring>(Vector3f size, float frequency, float resolution)</argsstring>
-        <name>getNumberOfVoxels</name>
-        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
-          <declname>size</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>frequency</declname>
-        </param>
-        <param>
-          <type>float</type>
-          <declname>resolution</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-<para><verbatim>Returns number of voxels that would be used to perform \\ref buildTPMS or \\ref buildTPMSVolume
-</verbatim> </para>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19979" bodyend="19982"/>
-      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
         <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
@@ -216,6 +188,34 @@
         </briefdescription>
         <detaileddescription>
 <para><verbatim>Returns number of voxels that would be used to perform \\ref fillWithTPMS
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19979" bodyend="19982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(Vector3f size, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>mrmeshpy.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns number of voxels that would be used to perform \\ref buildTPMS or \\ref buildTPMSVolume
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
@@ -289,8 +289,8 @@
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a748625f767842a7fb6c07be3701c1d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>estimateIso</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a7a7defd2eaf0e405c7f77b086dcdc95e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>fill</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a70ebc4b63b3936f9ce0b050838d2d274" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getMinimalResolution</name></member>
-      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a4c8e9ed7afde0f568db6de2d11037a3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a03314f098307e99632c8162681ff74ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1afa0eb274c9b05234005a0e2048da5138" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeNames</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a776838a221f3ae9ec41151f4357805e0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>getTypeTooltips</name></member>
       <member refid="classmrmeshpy_1_1FillingSurface_1_1TPMS_1a585e3517a1172fc0cfc4e64b65fef18f" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::TPMS</scope><name>isThick</name></member>

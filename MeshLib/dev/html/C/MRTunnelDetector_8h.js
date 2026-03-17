@@ -30,6 +30,8 @@ var MRTunnelDetector_8h =
     [ "MR_DetectTunnelSettings_Set_maxTunnelLength", "MRTunnelDetector_8h.html#a723bd6eb2335bc7580bdebec8eef4348", null ],
     [ "MR_DetectTunnelSettings_Set_metric", "MRTunnelDetector_8h.html#afd3fc575adea56c6e315220126442739", null ],
     [ "MR_DetectTunnelSettings_Set_progress", "MRTunnelDetector_8h.html#a0da7f2e8a48e5f00a4d90c982e7da6ec", null ],
+    [ "MR_eliminateTunnels_3", "MRTunnelDetector_8h.html#abed5089f90d75e6eadb6c816b952a4f2", null ],
+    [ "MR_eliminateTunnels_4", "MRTunnelDetector_8h.html#a89ea0c78c6b51c7a62d7874b0daef2a2", null ],
     [ "MR_findShortestCoLoop", "MRTunnelDetector_8h.html#aa1eb7e94c86e5dd20f717918805ad185", null ],
     [ "MR_findShortestEquivalentLoops", "MRTunnelDetector_8h.html#a882085d7d896daf49a4f01589227bd1e", null ],
     [ "MR_findSmallestMetricCoLoop", "MRTunnelDetector_8h.html#a1164232423f7ea43c12239f68751120d", null ],

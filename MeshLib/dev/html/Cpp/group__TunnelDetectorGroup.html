@@ -158,6 +158,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ga557063bbcff132d2836603e69593b565" id="r_ga557063bbcff132d2836603e69593b565"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga557063bbcff132d2836603e69593b565">MR::findShortestEquivalentLoops</a> (const MeshPart &amp;mp, const <a class="el" href="group__GeneralGroup.html#ga099da1b4cb4b8348ee3fed0588b01aa3">EdgeLoop</a> &amp;loop)</td></tr>
 <tr class="memdesc:ga557063bbcff132d2836603e69593b565"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as <a class="el" href="#gaacda8ac164232c8d91b8801a72a192f5">findSmallestMetricEquivalentLoops</a> with euclidean edge length metric  <br /></td></tr>
 <tr class="memitem:ga9c2c318e4e6ea35933bf2653c0bdf2ae" id="r_ga9c2c318e4e6ea35933bf2653c0bdf2ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; FaceBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga9c2c318e4e6ea35933bf2653c0bdf2ae">MR::detectTunnelFaces</a> (const MeshPart &amp;mp, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga80214bb4772aca4e0dc6687b96d56758" id="r_ga80214bb4772aca4e0dc6687b96d56758"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga80214bb4772aca4e0dc6687b96d56758">MR::eliminateTunnels</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const FaceBitSet *region={}, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
+<tr class="memitem:ga51d92977492b0778ff8c6a6512b893b4" id="r_ga51d92977492b0778ff8c6a6512b893b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga51d92977492b0778ff8c6a6512b893b4">MR::eliminateTunnels</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;fillHoleParams, const FaceBitSet *region={}, const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;settings={})</td></tr>
 </table>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
@@ -211,6 +213,68 @@ Functions</h2></td></tr>
 
 <p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
 <p>returns tunnels as a number of faces; if you remove these faces and patch every boundary with disk, then the surface will be topology equivalent to sphere </p>
+
+</div>
+</div>
+<a id="ga80214bb4772aca4e0dc6687b96d56758" name="ga80214bb4772aca4e0dc6687b96d56758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga80214bb4772aca4e0dc6687b96d56758">&#9670;&#160;</a></span>eliminateTunnels() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::eliminateTunnels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
+<p>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared </p>
+
+</div>
+</div>
+<a id="ga51d92977492b0778ff8c6a6512b893b4" name="ga51d92977492b0778ff8c6a6512b893b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51d92977492b0778ff8c6a6512b893b4">&#9670;&#160;</a></span>eliminateTunnels() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt; MR::eliminateTunnels </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1FillHoleParams.html">FillHoleParams</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fillHoleParams</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const FaceBitSet *</td>          <td class="paramname"><span class="paramname"><em>region</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1DetectTunnelSettings.html">DetectTunnelSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRTunnelDetector_8h.html">MRMesh/MRTunnelDetector.h</a>&gt;</code></p>
 
 </div>
 </div>

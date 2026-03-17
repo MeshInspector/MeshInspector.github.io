@@ -2040,6 +2040,8 @@ var classMR =
     [ "eliminateDegree3Vertices", "classMR.html#a59d2d98530c1b350e77c28f462f50e9d", null ],
     [ "eliminateDoubleTris", "classMR.html#a1d76581e3b2dff62e442c8bb46802970", null ],
     [ "eliminateDoubleTrisAround", "classMR.html#a5f820df3bca9d4ae70609c8287619f6d", null ],
+    [ "eliminateTunnels", "classMR.html#a38471281dabad7872a24e6e9eb6c75fc", null ],
+    [ "eliminateTunnels", "classMR.html#a34bab2faa39bdf07724aae8952f631af", null ],
     [ "embedStructureToTerrain", "classMR.html#a3e60756545213ad61b23ebfde6ce0a5c", null ],
     [ "encode64", "classMR.html#aac2134c613fbb24a7e201c0ef3384e47", null ],
     [ "end", "classMR.html#ac45509e79c1aa7812b9647e267352538", null ],

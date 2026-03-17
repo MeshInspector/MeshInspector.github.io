@@ -38111,6 +38111,68 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="437" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="437" bodyend="445"/>
       </memberdef>
+      <memberdef kind="function" id="classMR_1a38471281dabad7872a24e6e9eb6c75fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.eliminateTunnels</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_FaceBitSet? region=null, MR.Const_DetectTunnelSettings? settings=null)</argsstring>
+        <name>eliminateTunnels</name>
+        <qualifiedname>MR.eliminateTunnels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_DetectTunnelSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets rid of the tunnels in the given region of mesh (or whole mesh if region is nullptr) by 1) detecting tunnels, 2) deleting tunnel faces, and 3) filling holes appeared Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="453" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="453" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1a34bab2faa39bdf07724aae8952f631af" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.eliminateTunnels</definition>
+        <argsstring>(MR.Mesh mesh, MR.Const_FillHoleParams fillHoleParams, MR.Const_FaceBitSet? region=null, MR.Const_DetectTunnelSettings? settings=null)</argsstring>
+        <name>eliminateTunnels</name>
+        <qualifiedname>MR.eliminateTunnels</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_FillHoleParams</type>
+          <declname>fillHoleParams</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_DetectTunnelSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" kindref="member">MR.eliminateTunnels</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="466" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="466" bodyend="473"/>
+      </memberdef>
       <memberdef kind="function" id="classMR_1a0b9ac4317cf9636d119985beda098d55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>unsafe <ref refid="classMR_1_1TwoLineSegmClosestPoints__Float" kindref="compound">MR.TwoLineSegmClosestPoints_Float</ref></type>
         <definition>static unsafe MR.TwoLineSegmClosestPoints_Float MR.findTwoLineSegmClosestPoints</definition>
@@ -49600,6 +49662,8 @@ Generated from function <computeroutput><ref refid="classMR_1a5ab07b05a6159daff0
       <member refid="classMR_1a59d2d98530c1b350e77c28f462f50e9d" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateDegree3Vertices</name></member>
       <member refid="classMR_1a1d76581e3b2dff62e442c8bb46802970" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateDoubleTris</name></member>
       <member refid="classMR_1a5f820df3bca9d4ae70609c8287619f6d" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateDoubleTrisAround</name></member>
+      <member refid="classMR_1a38471281dabad7872a24e6e9eb6c75fc" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateTunnels</name></member>
+      <member refid="classMR_1a34bab2faa39bdf07724aae8952f631af" prot="public" virt="non-virtual"><scope>MR</scope><name>eliminateTunnels</name></member>
       <member refid="classMR_1a3e60756545213ad61b23ebfde6ce0a5c" prot="public" virt="non-virtual"><scope>MR</scope><name>embedStructureToTerrain</name></member>
       <member refid="classMR_1aac2134c613fbb24a7e201c0ef3384e47" prot="public" virt="non-virtual"><scope>MR</scope><name>encode64</name></member>
       <member refid="classMR_1a0c385f7a49af5e22d4df16e0367ee26f" prot="public" virt="non-virtual"><scope>MR</scope><name>end</name></member>

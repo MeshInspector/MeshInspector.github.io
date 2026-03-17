@@ -1,5 +1,7 @@
 var NAVTREEINDEX151 =
 {
+"std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h.html#aec2696bf06abdb0005b19c223d1a1b5e":[6,2,1,0,0,0,0,2,301,4],
+"std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h.html#af8fafe756217560f3273be0e672a0de2":[6,2,1,0,0,0,0,2,301,14],
 "std__shared__ptr__MR__ChangeMeshFaceSelectionAction_8h_source.html":[6,2,1,0,0,0,0,2,301],
 "std__shared__ptr__MR__ChangeMeshPointsAction_8h.html":[6,2,1,0,0,0,0,2,302],
 "std__shared__ptr__MR__ChangeMeshPointsAction_8h.html#a070e8c552f5b66a74cdf2f4a559df876":[6,2,1,0,0,0,0,2,302,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX151 =
 "std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a36ed0d17d9d6a524298a138502f1d731":[6,2,1,0,0,0,0,2,312,10],
 "std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a39fc9b9d8a4443bc3881b1cde367a42f":[6,2,1,0,0,0,0,2,312,11],
 "std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a51c8eb5a8a2530726dd7b73b9e4c587e":[6,2,1,0,0,0,0,2,312,9],
-"std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a5f5b06f2a296045b644adf10d6d8d31f":[6,2,1,0,0,0,0,2,312,19],
-"std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a5ffbb94ecd3155925adf7e8c88f58f95":[6,2,1,0,0,0,0,2,312,12],
-"std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a74f4fb0bd16136b7c1e78ff1e7c96207":[6,2,1,0,0,0,0,2,312,1]
+"std__shared__ptr__MR__ChangeOnePointInCloudAction_8h.html#a5f5b06f2a296045b644adf10d6d8d31f":[6,2,1,0,0,0,0,2,312,19]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX70 =
 {
+"classMR_1_1ViewportProperty__UnsignedChar.html#aadbe4937e116a041cae279360d749cef":[6,3,0,0,0,972,12],
+"classMR_1_1ViewportProperty__UnsignedChar.html#ab335fdc155b3669ab4b4339dec8cf43e":[6,3,0,0,0,972,6],
 "classMR_1_1ViewportProperty__UnsignedChar.html#ac4f0c22fe2d124c3b929733240588189":[6,3,0,0,0,972,9],
 "classMR_1_1ViewportProperty__UnsignedChar.html#acdbce005d685b7bec35832f4dac2df5c":[6,3,0,0,0,972,3],
 "classMR_1_1ViewportProperty__UnsignedChar.html#ad3f096e6805450099cf4b10ccd5e6401":[6,3,0,0,0,972,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#aa2e1369f72a29e505200df374f82568e":[6,3,0,0,0,982,3,3],
 "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ab4b516916f9b7426cd679e11126f87a9":[6,3,0,0,0,982,3,4],
 "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ab6e668acd805999854f47197c4d0f1f8":[6,3,0,0,0,982,3,6],
-"classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ac32410a7b781f846a344e5d5106fe3f7":[6,3,0,0,0,982,3,5],
-"classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ae0543c4f8bc75bcc21d44d4c14646a1d":[6,3,0,0,0,982,3,1],
-"classMR_1_1VoxelsLoad_1_1RawParameters.html":[6,3,0,0,0,982,4]
+"classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ac32410a7b781f846a344e5d5106fe3f7":[6,3,0,0,0,982,3,5]
 };

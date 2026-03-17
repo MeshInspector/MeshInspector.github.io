@@ -223,6 +223,28 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60964" bodyend="60965"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeId.__init__</definition>
+        <argsstring>(self, EdgeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60967" bodyend="60968"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a0fbbc906073f4317d10fd37fa4d9ef68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
         <definition> None mrmeshpy.UndirectedEdgeId.__init__</definition>
@@ -239,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60967" bodyend="60968"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60970" bodyend="60971"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -269,7 +291,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60970" bodyend="60979"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60973" bodyend="60982"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -299,7 +321,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60981" bodyend="60990"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60984" bodyend="60993"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a13995f3ad1b55e16ea57c43732635db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -323,29 +345,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60992" bodyend="60995"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>None</type>
-        <definition> None mrmeshpy.UndirectedEdgeId.__init__</definition>
-        <argsstring>(self, EdgeId arg0)</argsstring>
-        <name>__init__</name>
-        <qualifiedname>mrmeshpy.UndirectedEdgeId.__init__</qualifiedname>
-        <param>
-          <type>self</type>
-          <defname>self</defname>
-        </param>
-        <param>
-          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
-          <declname>arg0</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60997" bodyend="60998"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60995" bodyend="60998"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeId_1ad90679f2481183c4d99ad6dd07771f48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -530,7 +530,7 @@ The `= int` is there only to make the bindings emit this constructor, I don&apos
     </briefdescription>
     <detaileddescription>
 <para><verbatim>Generated from:  MR::UndirectedEdgeId
-Aliases:  Vector_UndirectedEdgeId_UndirectedEdgeId_reference, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, UndirectedEdgeIterator.value_type, PolylineUndirectedEdgeIterator.value_type, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, TypedBitSet_UndirectedEdgeId_IndexType, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type
+Aliases:  Vector_UndirectedEdgeId_UndirectedEdgeId_reference, Vector_UndirectedEdgeId_UndirectedEdgeId_value_type, TypedBitSet_UndirectedEdgeId_IndexType, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId, AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafId, UndirectedEdgeIterator.value_type, PolylineUndirectedEdgeIterator.value_type, Vector_UndirectedEdgeId_UndirectedEdgeId_const_reference
 
 stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
 </verbatim> </para>
@@ -555,11 +555,11 @@ stores index of some element, it is made as template class to avoid mixing faces
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a4f99651974dcace14bb4fdbdab12ba9c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__iadd__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1aa71aa51658c1625ee29fd5f237d4d282" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1aa71aa51658c1625ee29fd5f237d4d282" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fbbc906073f4317d10fd37fa4d9ef68" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a9a1c46026eee91c7e68199b4bc06eddf" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a13995f3ad1b55e16ea57c43732635db2" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
-      <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a0fe9f89bf418f736561fc6497b92dcd5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1ad90679f2481183c4d99ad6dd07771f48" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__int__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a2c8b9d3439a02dfa50fde5a91ab08f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__isub__</name></member>
       <member refid="classmrmeshpy_1_1UndirectedEdgeId_1a82380ede4c5d2b9b12092df54544d7a1" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeId</scope><name>__ne__</name></member>
