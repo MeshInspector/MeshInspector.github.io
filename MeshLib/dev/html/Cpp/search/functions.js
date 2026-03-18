@@ -336,7 +336,7 @@ var searchData=
   ['parselaunchparams_19',['parseLaunchParams',['../group__GeneralGroup.html#ga4eb6d9b787cbe2ef20e8a5d38f8de91d',1,'MR::Viewer']]],
   ['parseobjcoordinate_20',['parseObjCoordinate',['../group__GeneralGroup.html#gac7c4deb2569e6bc78bcb6210851b70a9',1,'MR']]],
   ['parsepolygon_21',['parsePolygon',['../group__GeneralGroup.html#ga05ce9cf4c9129c407a57e27885871faa',1,'MR']]],
-  ['parseptscoordinate_22',['parsePtsCoordinate',['../group__GeneralGroup.html#gae6305342b0ad612816558b312b777ea4',1,'MR']]],
+  ['parseptscoordinate_22',['parsePtsCoordinate',['../group__GeneralGroup.html#ga1cd15eb5a9d0d5a28ec24ab62f7805ac',1,'MR::parsePtsCoordinate(const std::string_view &amp;str, Vector3&lt; T &gt; &amp;v, Color *c=nullptr, Vector3&lt; T &gt; *n=nullptr)'],['../group__GeneralGroup.html#gae6305342b0ad612816558b312b777ea4',1,'MR::parsePtsCoordinate(const std::string_view &amp;str, Vector3&lt; T &gt; &amp;v, Color &amp;c)']]],
   ['parserawevent_23',['parseRawEvent',['../classMR_1_1SpaceMouse_1_1Device.html#a1e84419b5a55d15608dce2aa9a257691',1,'MR::SpaceMouse::Device']]],
   ['parseresponse_24',['parseResponse',['../group__GeneralGroup.html#ga96f88a4f2bd7a05e5c6de0f758d58f50',1,'MR']]],
   ['parsesinglenumber_25',['parseSingleNumber',['../group__GeneralGroup.html#ga2360c210c6fa64143e978b1f2a1b6bff',1,'MR']]],

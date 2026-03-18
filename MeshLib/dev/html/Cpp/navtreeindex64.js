@@ -1,5 +1,6 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1RangeSize.html":[6,0,0,20,826],
 "structMR_1_1RawTiffOutput.html":[6,0,0,20,483],
 "structMR_1_1RayOrigin.html":[6,0,0,0,9,0],
 "structMR_1_1RayOrigin.html#a8502e2d024f3f9f3b84ad9f25f659eb7":[6,0,0,0,9,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,45,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,28,1],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,1,0,1,45,1,5],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,2,28,1,5],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,1,0,1,45,1,3]
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,2,28,1,5]
 };

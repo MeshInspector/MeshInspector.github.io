@@ -3023,6 +3023,7 @@ var namespaceMR =
     [ "parseObjCoordinate", "group__GeneralGroup.html#gac7c4deb2569e6bc78bcb6210851b70a9", null ],
     [ "parsePolygon", "group__GeneralGroup.html#ga05ce9cf4c9129c407a57e27885871faa", null ],
     [ "parsePtsCoordinate", "group__GeneralGroup.html#gae6305342b0ad612816558b312b777ea4", null ],
+    [ "parsePtsCoordinate", "group__GeneralGroup.html#ga1cd15eb5a9d0d5a28ec24ab62f7805ac", null ],
     [ "parseResponse", "group__GeneralGroup.html#ga96f88a4f2bd7a05e5c6de0f758d58f50", null ],
     [ "parseSingleNumber", "group__GeneralGroup.html#ga2360c210c6fa64143e978b1f2a1b6bff", null ],
     [ "parseTextCoordinate", "group__GeneralGroup.html#gab70ae04aee26ad876f1080bdea061d86", null ],

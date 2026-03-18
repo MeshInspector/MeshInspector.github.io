@@ -7,6 +7,7 @@ var MRIOParsing_8h =
     [ "MR::parseObjCoordinate", "group__GeneralGroup.html#gac7c4deb2569e6bc78bcb6210851b70a9", null ],
     [ "MR::parsePolygon", "group__GeneralGroup.html#ga05ce9cf4c9129c407a57e27885871faa", null ],
     [ "MR::parsePtsCoordinate", "group__GeneralGroup.html#gae6305342b0ad612816558b312b777ea4", null ],
+    [ "MR::parsePtsCoordinate", "group__GeneralGroup.html#ga1cd15eb5a9d0d5a28ec24ab62f7805ac", null ],
     [ "MR::parseSingleNumber", "group__GeneralGroup.html#ga2360c210c6fa64143e978b1f2a1b6bff", null ],
     [ "MR::parseTextCoordinate", "group__GeneralGroup.html#gab70ae04aee26ad876f1080bdea061d86", null ],
     [ "MR::readCharBuffer", "group__GeneralGroup.html#ga8d61483fd99ff4fb24c664023420ee9a", null ],
