@@ -65,12 +65,12 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Create a &quot;value&quot; (slider/drag/...). <computeroutput>T</computeroutput> must be a scalar; vector support must be implemented manually. Pass <computeroutput>min &gt;= max</computeroutput> to disable the range checks. If this returns true, use the new value in place of the current one. <parameterlist kind="param"><parameteritem>
+<para>Create a &quot;value&quot; (slider/drag/...). <computeroutput>T</computeroutput> must be a scalar; vector support must be implemented manually. Pass <computeroutput>min &gt;= max</computeroutput> to disable the range checks. If this returns non-null, use the new value in place of the current one. <parameterlist kind="param"><parameteritem>
 <parameternamelist>
 <parametername>consumeValueOverride</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>If true - retrieves (deletes) a value from storage. If false - copies the value from the storage (saves the original to the storage to be retrieved again, for example, in the next frame) </para>
+<para>If true, retrieves (deletes) a value from storage. If false, copies the value from the storage (keeps the original value in the storage to be retrieved again in the next frame). Note that regardless of <computeroutput>consumeValueOverride</computeroutput>, you can&apos;t call this function multiple times per frame with the same name (unless the names are in different groups created with <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" kindref="member">pushTree()</ref></computeroutput>/<computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" kindref="member">popTree()</ref></computeroutput>). </para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="71" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="71" bodyend="84"/>
+        <location file="MRViewer/MRUITestEngine.h" line="73" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="73" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a74c5a460292cbb0112a63fe0a6e85bf8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::optional&lt; std::string &gt;</type>
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="86" column="17" declfile="MRViewer/MRUITestEngine.h" declline="86" declcolumn="17"/>
+        <location file="MRViewer/MRUITestEngine.h" line="88" column="17" declfile="MRViewer/MRUITestEngine.h" declline="88" declcolumn="17"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
@@ -138,11 +138,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Usually you don&apos;t need this function. This is for widgets that require you to specify the value override before drawing it, such as <computeroutput>ImGui::CollapsingHeader()</computeroutput>. For those, call this version first to read the value override, then draw the widget, then call the normal <computeroutput>CreateValue()</computeroutput> with the same name and with the new value, and discard its return value. </para>
+<para>Usually you don&apos;t need this function. This is for widgets that require you to specify the value override before drawing it, such as <computeroutput>ImGui::CollapsingHeader()</computeroutput>. For those, call this version first to read the value override, then draw the widget, then call the normal <computeroutput><ref refid="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" kindref="member">createValue()</ref></computeroutput> with the same name and with the new value, and discard its return value. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="93" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="93" bodyend="97"/>
+        <location file="MRViewer/MRUITestEngine.h" line="95" column="16" bodyfile="MRViewer/MRUITestEngine.h" bodystart="95" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1ad12d929394733bbfd78765262fec48b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -161,7 +161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="100" column="7" declfile="MRViewer/MRUITestEngine.h" declline="100" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="102" column="7" declfile="MRViewer/MRUITestEngine.h" declline="102" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1ab05a3802e2ed1ab9f8a55c8a8d55ef6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -175,7 +175,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="101" column="7" declfile="MRViewer/MRUITestEngine.h" declline="101" declcolumn="7"/>
+        <location file="MRViewer/MRUITestEngine.h" line="103" column="7" declfile="MRViewer/MRUITestEngine.h" declline="103" declcolumn="7"/>
       </memberdef>
       <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a0b6a21c2491075e840bb5fa053992dc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" kindref="compound">GroupEntry</ref> &amp;</type>
@@ -190,7 +190,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="MRViewer/MRUITestEngine.h" line="191" column="20" declfile="MRViewer/MRUITestEngine.h" declline="191" declcolumn="20"/>
+        <location file="MRViewer/MRUITestEngine.h" line="193" column="20" declfile="MRViewer/MRUITestEngine.h" declline="193" declcolumn="20"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

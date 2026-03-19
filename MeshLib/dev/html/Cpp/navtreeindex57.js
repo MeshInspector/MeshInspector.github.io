@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a74d0cc8d7c6f77b21299297bf1209a48":[6,0,1,0,1,43,9,31],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7d68c8f781e3418af969004dbd04dda9":[6,0,1,0,1,43,9,6],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a7fb2e55ac07a2151186d49e1b6401351":[6,0,1,0,1,43,9,10],
 "namespaceMR_1_1SpaceMouse.html#a3c810ff3ab34add56c02318fc27e9191a88f9dcd7f9fe8a417497034094a74268":[6,0,1,0,1,43,9,13],
@@ -31,9 +32,9 @@ var NAVTREEINDEX57 =
 "namespaceMR_1_1TriangulationHelpers.html#a7c0d563c2b38463627552396d1943390":[6,0,1,0,1,45,4],
 "namespaceMR_1_1TriangulationHelpers.html#ab287ce821d48fe623f355150ce7ccda3":[6,0,1,0,1,45,5],
 "namespaceMR_1_1UI.html":[6,0,0,20,27],
-"namespaceMR_1_1UI.html#a152d0b2c8b5f2ed42476ab4ffeccdb44":[6,0,1,0,1,46,57],
-"namespaceMR_1_1UI.html#a1b2da483d87fc6d65243ab1e365a1a89":[6,0,1,0,1,46,59],
-"namespaceMR_1_1UI.html#a62974a19abd9783255dced3579c49e5e":[6,0,1,0,1,46,77],
+"namespaceMR_1_1UI.html#a152d0b2c8b5f2ed42476ab4ffeccdb44":[6,0,1,0,1,46,58],
+"namespaceMR_1_1UI.html#a1b2da483d87fc6d65243ab1e365a1a89":[6,0,1,0,1,46,60],
+"namespaceMR_1_1UI.html#a62974a19abd9783255dced3579c49e5e":[6,0,1,0,1,46,78],
 "namespaceMR_1_1UI_1_1StateStorage.html":[6,0,0,20,29],
 "namespaceMR_1_1UI_1_1TestEngine.html":[6,0,1,0,1,46,2],
 "namespaceMR_1_1UI_1_1TestEngine.html#a0b6a21c2491075e840bb5fa053992dc9":[6,0,1,0,1,46,2,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "structMR_1_1AABBTreeNode.html#ac745781b04cbfa210bd5d3005b17e084":[6,0,0,1,4,4],
 "structMR_1_1AABBTreeNode.html#ad0fe7c78e4582c2e180ff4e052c83d0b":[6,0,0,1,4,3],
 "structMR_1_1AABBTreeNode.html#af92cbed18c9ddfbf28d0e86385fc6e01":[6,0,0,1,4,0],
-"structMR_1_1AABBTreePoints_1_1Node.html":[6,0,0,1,7,0],
-"structMR_1_1AABBTreePoints_1_1Node.html#a0951e423adb41a83132b36c18125f02b":[6,0,0,1,7,0,2]
+"structMR_1_1AABBTreePoints_1_1Node.html":[6,0,0,1,7,0]
 };

@@ -20,6 +20,7 @@
     <includedby refid="MRLineObject_8h" local="no">MRLineObject.h</includedby>
     <includedby refid="MRMeasurementObject_8h" local="no">MRMeasurementObject.h</includedby>
     <includedby refid="MRMeshTexture_8h" local="no">MRMeshTexture.h</includedby>
+    <includedby refid="MRMeshTopology_8h" local="no">MRMeshTopology.h</includedby>
     <includedby refid="MRObjectDistanceMap_8h" local="no">MRObjectDistanceMap.h</includedby>
     <includedby refid="MRObjectGcode_8h" local="no">MRObjectGcode.h</includedby>
     <includedby refid="MRObjectLabel_8h" local="no">MRObjectLabel.h</includedby>
@@ -148,7 +149,7 @@
         </childnode>
         <childnode refid="24" relation="include">
         </childnode>
-        <childnode refid="26" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
         <childnode refid="27" relation="include">
         </childnode>
@@ -180,9 +181,9 @@
         </childnode>
         <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="25" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
         <childnode refid="44" relation="include">
         </childnode>
@@ -191,6 +192,8 @@
         <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
       <node id="10">
@@ -226,126 +229,130 @@
         <link refid="MRMeshTexture_8h"/>
       </node>
       <node id="18">
+        <label>MRMeshTopology.h</label>
+        <link refid="MRMeshTopology_8h"/>
+      </node>
+      <node id="19">
         <label>MRObjectDistanceMap.h</label>
         <link refid="MRObjectDistanceMap_8h"/>
       </node>
-      <node id="19">
+      <node id="20">
         <label>MRObjectGcode.h</label>
         <link refid="MRObjectGcode_8h"/>
       </node>
-      <node id="21">
+      <node id="22">
         <label>MRObjectLines.h</label>
         <link refid="MRObjectLines_8h"/>
       </node>
-      <node id="22">
+      <node id="23">
         <label>MRObjectLinesHolder.h</label>
         <link refid="MRObjectLinesHolder_8h"/>
       </node>
-      <node id="23">
+      <node id="24">
         <label>MRObjectMesh.h</label>
         <link refid="MRObjectMesh_8h"/>
       </node>
-      <node id="24">
+      <node id="25">
         <label>MRObjectMeshHolder.h</label>
         <link refid="MRObjectMeshHolder_8h"/>
-        <childnode refid="25" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="26">
+      <node id="27">
         <label>MRObjectPoints.h</label>
         <link refid="MRObjectPoints_8h"/>
       </node>
-      <node id="27">
+      <node id="28">
         <label>MRObjectPointsHolder.h</label>
         <link refid="MRObjectPointsHolder_8h"/>
       </node>
-      <node id="30">
+      <node id="31">
         <label>MROneMeshContours.h</label>
         <link refid="MROneMeshContours_8h"/>
       </node>
-      <node id="31">
+      <node id="32">
         <label>MRPlaneObject.h</label>
         <link refid="MRPlaneObject_8h"/>
       </node>
-      <node id="32">
+      <node id="33">
         <label>MRPointCloud.h</label>
         <link refid="MRPointCloud_8h"/>
       </node>
-      <node id="33">
+      <node id="34">
         <label>MRPointCloudMakeNormals.h</label>
         <link refid="MRPointCloudMakeNormals_8h"/>
       </node>
-      <node id="34">
+      <node id="35">
         <label>MRPointMeasurementObject.h</label>
         <link refid="MRPointMeasurementObject_8h"/>
       </node>
-      <node id="35">
+      <node id="36">
         <label>MRPointObject.h</label>
         <link refid="MRPointObject_8h"/>
       </node>
-      <node id="36">
+      <node id="37">
         <label>MRPositionVertsSmoothly.h</label>
         <link refid="MRPositionVertsSmoothly_8h"/>
       </node>
-      <node id="37">
+      <node id="38">
         <label>MRRadiusMeasurementObject.h</label>
         <link refid="MRRadiusMeasurementObject_8h"/>
       </node>
-      <node id="39">
+      <node id="40">
         <label>MRRegionBoundary.h</label>
         <link refid="MRRegionBoundary_8h"/>
       </node>
-      <node id="40">
+      <node id="41">
         <label>MRSphereObject.h</label>
         <link refid="MRSphereObject_8h"/>
       </node>
-      <node id="41">
+      <node id="42">
         <label>MRSurfacePath.h</label>
         <link refid="MRSurfacePath_8h"/>
-        <childnode refid="42" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
       </node>
-      <node id="25">
+      <node id="26">
         <label>MRVisualObject.h</label>
         <link refid="MRVisualObject_8h"/>
       </node>
-      <node id="42">
+      <node id="43">
         <label>expected_std_vector_MR_EdgePoint_MR_PathError.h</label>
         <link refid="expected__std__vector__MR__EdgePoint__MR__PathError_8h"/>
       </node>
-      <node id="43">
+      <node id="44">
         <label>std_function_MR_Processing_from_MR_FaceId_MR_Ball3f_ref.h</label>
         <link refid="std__function__MR__Processing__from__MR__FaceId__MR__Ball3f__ref_8h"/>
       </node>
-      <node id="44">
+      <node id="45">
         <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_double_double_ref_double_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__double__double__ref__double__ref_8h"/>
       </node>
-      <node id="45">
+      <node id="46">
         <label>std_function_MR_Processing_from_const_MR_EdgePoint_ref_float_float_ref_float_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__EdgePoint__ref__float__float__ref__float__ref_8h"/>
       </node>
-      <node id="46">
+      <node id="47">
         <label>std_function_MR_Processing_from_const_MR_MeshProjectionResult_ref_MR_Ball3f_ref.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__MeshProjectionResult__ref__MR__Ball3f__ref_8h"/>
       </node>
-      <node id="47">
+      <node id="48">
         <label>std_function_MR_Processing_from_const_MR_PointsProjectionResult_ref_const_MR_Vector3f_ref_MR__d070.h</label>
         <link refid="std__function__MR__Processing__from__const__MR__PointsProjectionResult__ref__const__MR__Vector3f__ref__MR____d070_8h"/>
       </node>
-      <node id="20">
+      <node id="21">
         <label>MRObjectLabel.h</label>
         <link refid="MRObjectLabel_8h"/>
       </node>
-      <node id="28">
+      <node id="29">
         <label>MRObjectVoxels.h</label>
         <link refid="MRObjectVoxels_8h"/>
       </node>
-      <node id="29">
+      <node id="30">
         <label>MROffset.h</label>
         <link refid="MROffset_8h"/>
       </node>
-      <node id="38">
+      <node id="39">
         <label>MRRebuildMesh.h</label>
         <link refid="MRRebuildMesh_8h"/>
       </node>

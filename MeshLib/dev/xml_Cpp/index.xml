@@ -5709,8 +5709,8 @@
     <member refid="group__GeneralGroup_1ga416c0b58a04f7a11b1ccd64fb480a6b4" kind="function"><name>isInnerOrBdVertex</name></member>
     <member refid="group__GeneralGroup_1ga71f39944d4eea5bdb00d37da53ae1882" kind="function"><name>isLeftBdEdge</name></member>
     <member refid="group__GeneralGroup_1ga68d4b2d56fbb76bfc31e2d8a2672fc1c" kind="function"><name>isInnerOrBdEdge</name></member>
-    <member refid="group__GeneralGroup_1gaf79c55616f89091ea930f34a6137b716" kind="function"><name>nextLeftBd</name></member>
-    <member refid="group__GeneralGroup_1ga2a5dafa2a25a9c7989365914de61478d" kind="function"><name>prevLeftBd</name></member>
+    <member refid="group__GeneralGroup_1ga2f2136ea7f300f8a7a02cc34b58ca035" kind="function"><name>nextLeftBd</name></member>
+    <member refid="group__GeneralGroup_1gab4c4f7414e097980b6b0624fa7f0b5d9" kind="function"><name>prevLeftBd</name></member>
     <member refid="group__GeneralGroup_1ga8deb18a92f928471c361121712f0b12a" kind="function"><name>findEdge</name></member>
     <member refid="group__GeneralGroup_1ga6bbe48d83ce18bfe5e56ec10d35c4638" kind="function"><name>isClosed</name></member>
     <member refid="group__GeneralGroup_1ga3262bb44df785f646fa7a39b244388a8" kind="function"><name>findHoleRepresentiveEdges</name></member>
@@ -16219,8 +16219,9 @@
     <member refid="group__GeneralGroup_1ga9d58ddb6c791dae5e351f4840fe1e0d7" kind="function"><name>colorEdit4</name></member>
     <member refid="group__GeneralGroup_1ga23c5e251a1465055f90bb9f927e4457f" kind="function"><name>colorEdit4</name></member>
     <member refid="group__GeneralGroup_1ga6c7b3d3c1a92df8922d837b21ce204e7" kind="function"><name>combo</name></member>
-    <member refid="group__GeneralGroup_1ga442041509e29ea7f2a20dacb9142b683" kind="function"><name>beginCombo</name></member>
-    <member refid="group__GeneralGroup_1ga71a2af2c94da7b723feb12d1c95b11e1" kind="function"><name>endCombo</name></member>
+    <member refid="group__GeneralGroup_1ga2193c08b263eaf7846514617a8cceb3d" kind="function"><name>beginCombo</name></member>
+    <member refid="group__GeneralGroup_1ga7dc615f9f11bece5ca09e64692f2a345" kind="function"><name>endCombo</name></member>
+    <member refid="group__GeneralGroup_1ga8ef408d20f36346c3def4ea505ffa9bb" kind="function"><name>comboElem</name></member>
     <member refid="group__GeneralGroup_1ga2c6272f604f041b385fcb0fd25eb8838" kind="function"><name>inputText</name></member>
     <member refid="group__GeneralGroup_1gac57d6a8b1c3753dfbc2f3ba92671b62f" kind="function"><name>inputTextIntoArray</name></member>
     <member refid="group__GeneralGroup_1gaaef133295e612ebeb0b2d3286d560f43" kind="function"><name>inputTextMultiline</name></member>
@@ -26158,8 +26159,8 @@
     <member refid="group__GeneralGroup_1ga416c0b58a04f7a11b1ccd64fb480a6b4" kind="function"><name>isInnerOrBdVertex</name></member>
     <member refid="group__GeneralGroup_1ga71f39944d4eea5bdb00d37da53ae1882" kind="function"><name>isLeftBdEdge</name></member>
     <member refid="group__GeneralGroup_1ga68d4b2d56fbb76bfc31e2d8a2672fc1c" kind="function"><name>isInnerOrBdEdge</name></member>
-    <member refid="group__GeneralGroup_1gaf79c55616f89091ea930f34a6137b716" kind="function"><name>nextLeftBd</name></member>
-    <member refid="group__GeneralGroup_1ga2a5dafa2a25a9c7989365914de61478d" kind="function"><name>prevLeftBd</name></member>
+    <member refid="group__GeneralGroup_1ga2f2136ea7f300f8a7a02cc34b58ca035" kind="function"><name>nextLeftBd</name></member>
+    <member refid="group__GeneralGroup_1gab4c4f7414e097980b6b0624fa7f0b5d9" kind="function"><name>prevLeftBd</name></member>
     <member refid="group__GeneralGroup_1ga8deb18a92f928471c361121712f0b12a" kind="function"><name>findEdge</name></member>
     <member refid="group__GeneralGroup_1ga6bbe48d83ce18bfe5e56ec10d35c4638" kind="function"><name>isClosed</name></member>
     <member refid="group__GeneralGroup_1ga3262bb44df785f646fa7a39b244388a8" kind="function"><name>findHoleRepresentiveEdges</name></member>
@@ -29286,8 +29287,9 @@
     <member refid="group__GeneralGroup_1ga9d58ddb6c791dae5e351f4840fe1e0d7" kind="function"><name>colorEdit4</name></member>
     <member refid="group__GeneralGroup_1ga23c5e251a1465055f90bb9f927e4457f" kind="function"><name>colorEdit4</name></member>
     <member refid="group__GeneralGroup_1ga6c7b3d3c1a92df8922d837b21ce204e7" kind="function"><name>combo</name></member>
-    <member refid="group__GeneralGroup_1ga442041509e29ea7f2a20dacb9142b683" kind="function"><name>beginCombo</name></member>
-    <member refid="group__GeneralGroup_1ga71a2af2c94da7b723feb12d1c95b11e1" kind="function"><name>endCombo</name></member>
+    <member refid="group__GeneralGroup_1ga2193c08b263eaf7846514617a8cceb3d" kind="function"><name>beginCombo</name></member>
+    <member refid="group__GeneralGroup_1ga7dc615f9f11bece5ca09e64692f2a345" kind="function"><name>endCombo</name></member>
+    <member refid="group__GeneralGroup_1ga8ef408d20f36346c3def4ea505ffa9bb" kind="function"><name>comboElem</name></member>
     <member refid="group__GeneralGroup_1ga2c6272f604f041b385fcb0fd25eb8838" kind="function"><name>inputText</name></member>
     <member refid="group__GeneralGroup_1gac57d6a8b1c3753dfbc2f3ba92671b62f" kind="function"><name>inputTextIntoArray</name></member>
     <member refid="group__GeneralGroup_1gaaef133295e612ebeb0b2d3286d560f43" kind="function"><name>inputTextMultiline</name></member>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1NoDefInit.html":[6,0,0,20,360],
 "structMR_1_1NoInit.html":[6,0,0,20,322],
 "structMR_1_1NoModelCheck.html":[6,0,0,20,677],
 "structMR_1_1NoVisualRepresentationCheck.html":[6,0,0,20,676],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1PythonFunctionAdder.html":[6,0,0,20,514],
 "structMR_1_1QuadraticForm.html":[6,0,0,0,20],
 "structMR_1_1QuadraticForm.html":[6,0,0,20,446],
-"structMR_1_1Quaternion.html":[6,0,0,0,21],
-"structMR_1_1Quaternion.html":[6,0,0,20,447]
+"structMR_1_1Quaternion.html":[6,0,0,0,21]
 };

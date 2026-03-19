@@ -46,6 +46,12 @@
         <childnode refid="34" relation="include">
         </childnode>
       </node>
+      <node id="40">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
       <node id="38">
         <label>MRExpected.h</label>
         <link refid="MRExpected_8h"/>
@@ -109,7 +115,7 @@
         </childnode>
         <childnode refid="16" relation="include">
         </childnode>
-        <childnode refid="41" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
       <node id="16">
@@ -133,6 +139,8 @@
         </childnode>
         <childnode refid="40" relation="include">
         </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
       </node>
       <node id="26">
         <label>MRMeshTriPoint.h</label>
@@ -150,7 +158,7 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="41">
+      <node id="42">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="28" relation="include">
@@ -280,7 +288,7 @@
       <node id="33">
         <label>cstring</label>
       </node>
-      <node id="40">
+      <node id="41">
         <label>fstream</label>
       </node>
       <node id="12">

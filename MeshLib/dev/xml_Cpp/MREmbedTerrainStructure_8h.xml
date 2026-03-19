@@ -57,7 +57,7 @@
         <childnode refid="40" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="42">
         <label>MREnums.h</label>
         <link refid="MREnums_8h"/>
         <childnode refid="2" relation="include">
@@ -102,9 +102,9 @@
         </childnode>
         <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
-        </childnode>
         <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
         </childnode>
         <childnode refid="38" relation="include">
         </childnode>
@@ -119,7 +119,7 @@
         <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="45">
         <label>MRMeshBuilderTypes.h</label>
         <link refid="MRMeshBuilderTypes_8h"/>
         <childnode refid="19" relation="include">
@@ -158,25 +158,25 @@
         </childnode>
         <childnode refid="18" relation="include">
         </childnode>
-        <childnode refid="43" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="46">
+      <node id="47">
         <label>MRMeshPart.h</label>
         <link refid="MRMeshPart_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="46">
         <label>MRMeshProject.h</label>
         <link refid="MRMeshProject_8h"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
         <childnode refid="28" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
         <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
         </childnode>
         <childnode refid="48" relation="include">
         </childnode>
@@ -206,6 +206,8 @@
         </childnode>
         <childnode refid="42" relation="include">
         </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
       </node>
       <node id="28">
         <label>MRMeshTriPoint.h</label>
@@ -223,7 +225,7 @@
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="44">
         <label>MRPointOnFace.h</label>
         <link refid="MRPointOnFace_8h"/>
         <childnode refid="30" relation="include">
@@ -372,7 +374,7 @@
       <node id="35">
         <label>cstring</label>
       </node>
-      <node id="42">
+      <node id="43">
         <label>fstream</label>
       </node>
       <node id="11">

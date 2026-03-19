@@ -2615,10 +2615,10 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35552" bodyend="35555"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a0b707359a774d58bd061900c9aa8c387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a21e2ccd18759ac864ec2a8bf9a260752" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.MeshTopology.nextLeftBd</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;Turn::Rightmost&apos;)</argsstring>
         <name>nextLeftBd</name>
         <qualifiedname>mrmeshpy.MeshTopology.nextLeftBd</qualifiedname>
         <param>
@@ -2634,15 +2634,21 @@ and it has a boundary edge (isBdEdge(e,region) == true)
           <declname>region</declname>
           <defval>None</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Turn" kindref="compound">Turn</ref></type>
+          <declname>turn</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1Turn_1a644cda02ddf55b27f002aef4dc97d9ca" kindref="member">Turn::Rightmost</ref>&apos;</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res)
+<para><verbatim>given a (region) boundary edge with no right face in given region, returns next boundary edge for the same region: dest(e)==org(res);
+\\param turn determines the selection of next boundary edge in case of several alternatives
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35556" bodyend="35559"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35556" bodyend="35560"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1aca415b63c94b12a896998103c7457742" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2662,7 +2668,7 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35560" bodyend="35563"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35561" bodyend="35564"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1af1e34b3dbb4fc614d622bfc0a44e5a4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -2682,7 +2688,7 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35564" bodyend="35567"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35565" bodyend="35568"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a29a181be6ef8bb20d7a3f881ed4aa729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -2706,7 +2712,7 @@ and it has a boundary edge (isBdEdge(e,region) == true)
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35568" bodyend="35571"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35569" bodyend="35572"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a27b9f6d68c23c071c20ec53c1cd398b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2749,7 +2755,7 @@ and selects the order of triangles according to the order of their vertices
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35573" bodyend="35579"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35574" bodyend="35580"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a3997f8aa43bbc05db67af5cfc1b59cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2774,7 +2780,7 @@ reorder all faces, vertices and edges according to given maps, each containing o
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35581" bodyend="35585"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35582" bodyend="35586"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1adac4e0565f1fd1250ab264a89e2eb198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2800,7 +2806,7 @@ unlike \\ref pack method, this method allocates minimal amount of memory for its
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35586" bodyend="35591"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35587" bodyend="35592"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a2747a7f418266ba5418b71484fc8bfdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2825,7 +2831,7 @@ this is important in parallel algorithms where other edges may change but stable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35592" bodyend="35596"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35593" bodyend="35597"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1af72874fa818f8250e3c57f21d2af6ce8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -2849,12 +2855,12 @@ this is important in parallel algorithms where other edges may change but stable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35597" bodyend="35600"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35598" bodyend="35601"/>
       </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1aeae825ada07c24fdde100d88072bcc9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a6d4c45ec0268c83619ff985a578e0721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
         <definition> EdgeId mrmeshpy.MeshTopology.prevLeftBd</definition>
-        <argsstring>(self, EdgeId e, FaceBitSet region=None)</argsstring>
+        <argsstring>(self, EdgeId e, FaceBitSet region=None, Turn turn=&apos;Turn::Rightmost&apos;)</argsstring>
         <name>prevLeftBd</name>
         <qualifiedname>mrmeshpy.MeshTopology.prevLeftBd</qualifiedname>
         <param>
@@ -2870,15 +2876,21 @@ this is important in parallel algorithms where other edges may change but stable
           <declname>region</declname>
           <defval>None</defval>
         </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Turn" kindref="compound">Turn</ref></type>
+          <declname>turn</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1Turn_1a644cda02ddf55b27f002aef4dc97d9ca" kindref="member">Turn::Rightmost</ref>&apos;</defval>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e)
+<para><verbatim>given a (region) boundary edge with no right face in given region, returns previous boundary edge for the same region; dest(res)==org(e);
+\\param turn determines the selection of previous boundary edge in case of several alternatives, note the turn is from previous (returned) edge to the current edge
 </verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35601" bodyend="35604"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35602" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35602" bodyend="35606"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a2ac87fecfd6dd0d0fc18808b7628e200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2908,7 +2920,7 @@ this is important in parallel algorithms where other edges may change but stable
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35605" bodyend="35609"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35607" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35607" bodyend="35611"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1ae43b443bf38f622ce1f1184e795f1de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2942,7 +2954,7 @@ edges are resized without initialization (so the user must initialize them using
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35610" bodyend="35615"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35612" bodyend="35617"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a2866e29e4e578ada19f07e74541a3096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -2966,7 +2978,7 @@ edges are resized without initialization (so the user must initialize them using
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35616" bodyend="35619"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35618" bodyend="35621"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a119902e335df6e5124b7e67fd5e407d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -2986,7 +2998,7 @@ edges are resized without initialization (so the user must initialize them using
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35620" bodyend="35623"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35622" bodyend="35625"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a55389e4e241377db4e5d04d74018eee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3015,7 +3027,7 @@ edgePerFace_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35624" bodyend="35628"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35626" bodyend="35630"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a8404e49ae14abf02db0bbe364c56a769" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3044,7 +3056,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35629" bodyend="35633"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35631" bodyend="35635"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a1e70cf694bb9d00b37038520f613503c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -3072,7 +3084,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35634" bodyend="35637"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35636" bodyend="35639"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a39505c1d44fce46e33bbb1a237bf0343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
@@ -3100,7 +3112,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35638" bodyend="35641"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35640" bodyend="35643"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1aa11766b5196e44bcec20aebb8cc7b70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -3128,7 +3140,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35643" bodyend="35646"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35645" bodyend="35648"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a57bb76308a917ac13b6c24738b574707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -3156,7 +3168,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35648" bodyend="35651"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35650" bodyend="35653"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a09011c28f81dcbd11e04eeb1ffa16392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3176,7 +3188,7 @@ edgePerVertex_ table is updated accordingly
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35652" bodyend="35655"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35654" bodyend="35657"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a04cb2a1c2072498ba3d63da4944db0d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3207,7 +3219,7 @@ the cut in rings in both cases is made after a and b
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35656" bodyend="35662"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35658" bodyend="35664"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1afd45f82152182991dfa6abc231bed2cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -3248,7 +3260,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35663" bodyend="35673"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35665" bodyend="35675"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a3cd6d94cad80393db5510b4a9b494181" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
@@ -3284,7 +3296,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35674" bodyend="35679"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35676" bodyend="35681"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1ae18c1c41db218368e11ddef2a0e76530" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3304,7 +3316,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35680" bodyend="35683"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35682" bodyend="35685"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1ab1bcf41bf1b9155775aeccb2f1dbbd0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -3324,7 +3336,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35684" bodyend="35687"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35686" bodyend="35689"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a1e650cbd8f4f715307648520de177b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -3344,7 +3356,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35688" bodyend="35691"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35690" bodyend="35693"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a1e284563d2c44909a19de2e5de352ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -3364,7 +3376,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35692" bodyend="35695"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35694" bodyend="35697"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a66b8cce3b54c0595b8f64e06a18a9b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -3384,7 +3396,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35696" bodyend="35699"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35698" bodyend="35701"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a482a4a41db7c5cb61635f320ad67fab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3408,7 +3420,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35700" bodyend="35703"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35702" bodyend="35705"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1adf156339250e72d905855107dab99e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3432,7 +3444,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35704" bodyend="35707"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35706" bodyend="35709"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a316612127e98109907197c33335caa4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3456,7 +3468,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35708" bodyend="35711"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35710" bodyend="35713"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1ace461c15767752faeda8b4b841f806f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -3476,7 +3488,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35712" bodyend="35715"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35714" bodyend="35717"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1MeshTopology_1a69a77669e431ad8eefde0731bdace0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -3500,7 +3512,7 @@ if left or right faces of the original edge were in the region, then include new
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35716" bodyend="35719"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35718" bodyend="35721"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -3511,7 +3523,7 @@ if left or right faces of the original edge were in the region, then include new
 Mesh Topology
 </verbatim> </para>
     </detaileddescription>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35108" bodyend="35719"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35108" bodyend="35721"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1MeshTopology_1a06713d086c994bf2669fa82ecdf671c2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>__eq__</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a1959d4dbeb1050dd82a7185452df25ae" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>__hash__</name></member>
@@ -3612,7 +3624,7 @@ Mesh Topology
       <member refid="classmrmeshpy_1_1MeshTopology_1a8b29d459d63ce64924badfa606cd4124" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>left</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a9039791096460a4b675d546babb43ca3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>makeEdge</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a98eb89836d208ce3be602a5d2e977c89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>next</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1a0b707359a774d58bd061900c9aa8c387" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>nextLeftBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a21e2ccd18759ac864ec2a8bf9a260752" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>nextLeftBd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1aca415b63c94b12a896998103c7457742" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>numValidFaces</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1af1e34b3dbb4fc614d622bfc0a44e5a4b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>numValidVerts</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a61773debbb0a433596f4bdcc27b134f3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>operator</name></member>
@@ -3623,7 +3635,7 @@ Mesh Topology
       <member refid="classmrmeshpy_1_1MeshTopology_1adac4e0565f1fd1250ab264a89e2eb198" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>packMinMem</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2747a7f418266ba5418b71484fc8bfdf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>preferEdges</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1af72874fa818f8250e3c57f21d2af6ce8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prev</name></member>
-      <member refid="classmrmeshpy_1_1MeshTopology_1aeae825ada07c24fdde100d88072bcc9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prevLeftBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshTopology_1a6d4c45ec0268c83619ff985a578e0721" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>prevLeftBd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2ac87fecfd6dd0d0fc18808b7628e200" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>read</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1ae43b443bf38f622ce1f1184e795f1de2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
       <member refid="classmrmeshpy_1_1MeshTopology_1a2866e29e4e578ada19f07e74541a3096" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTopology</scope><name>right</name></member>

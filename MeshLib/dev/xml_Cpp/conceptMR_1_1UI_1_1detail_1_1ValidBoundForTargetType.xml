@@ -20,6 +20,6 @@ concept <ref refid="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType" kindre
     <detaileddescription>
 <para>Whether <computeroutput>Bound</computeroutput> is a valid min/max bound for <computeroutput>Target</computeroutput>. That is, either the same type, or if <computeroutput>Target</computeroutput> is a vector, <computeroutput>Bound</computeroutput> can also be a scalar of the same type. </para>
     </detaileddescription>
-    <location file="MRViewer/MRUIStyle.h" line="362" column="5"/>
+    <location file="MRViewer/MRUIStyle.h" line="369" column="5"/>
   </compounddef>
 </doxygen>
