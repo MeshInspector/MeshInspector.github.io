@@ -174,7 +174,7 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ad58fef2244057ff2ad7eb1877f3b813a" id="r_ad58fef2244057ff2ad7eb1877f3b813a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58fef2244057ff2ad7eb1877f3b813a">Combo</a> (const char *label, int *idx, const std::vector&lt; std::string &gt; &amp;values)</td></tr>
-<tr class="memitem:a023d8107acf5b52a1594c2b935b824f0" id="r_a023d8107acf5b52a1594c2b935b824f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a023d8107acf5b52a1594c2b935b824f0">Combo</a> (const char *label, int *idx, std::function&lt; const char *(int)&gt; getter, int items_count)</td></tr>
+<tr class="memitem:a93fa3e9de8b15c2e3485a85ddd0dba44" id="r_a93fa3e9de8b15c2e3485a85ddd0dba44"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93fa3e9de8b15c2e3485a85ddd0dba44">Combo</a> (const char *label, int *idx, std::function&lt; const char *(int)&gt; getter, int itemsCount)</td></tr>
 <tr class="memitem:a378834d8803566841b144ddf878ef623" id="r_a378834d8803566841b144ddf878ef623"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a378834d8803566841b144ddf878ef623">ListBox</a> (const char *label, int *idx, const std::vector&lt; std::string &gt; &amp;values)</td></tr>
 <tr class="memitem:a392168d28bc4973532ead37f8061121e" id="r_a392168d28bc4973532ead37f8061121e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a392168d28bc4973532ead37f8061121e">InputText</a> (const char *label, std::string &amp;str, ImGuiInputTextFlags flags=0, ImGuiInputTextCallback callback=NULL, void *user_data=NULL)</td></tr>
 <tr class="memitem:a2d763b2a2f74c1b55cfcacf0b6ea826b" id="r_a2d763b2a2f74c1b55cfcacf0b6ea826b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d763b2a2f74c1b55cfcacf0b6ea826b">DragFloatValid</a> (const char *label, float *value, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max(), const char *format=&quot;%.3f&quot;, ImGuiSliderFlags flags=0)</td></tr>
@@ -185,9 +185,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ac18c85601f8a2864d526058a981136c7" id="r_ac18c85601f8a2864d526058a981136c7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac18c85601f8a2864d526058a981136c7">DragIntValid</a> (const char *label, int *value, float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;)</td></tr>
 <tr class="memitem:af6959fc8a1517c4a64acd4afbbe721b6" id="r_af6959fc8a1517c4a64acd4afbbe721b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structImGui_1_1MultiDragRes.html">MultiDragRes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6959fc8a1517c4a64acd4afbbe721b6">DragIntValid3</a> (const char *label, int v[3], float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;, const char *(*tooltips)[3]=nullptr)</td></tr>
 <tr class="memitem:a867aa01d47fba96fd27bffdb9ab8caef" id="r_a867aa01d47fba96fd27bffdb9ab8caef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a867aa01d47fba96fd27bffdb9ab8caef">InputIntValid</a> (const char *label, int *value, int min, int max, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</td></tr>
-<tr class="memitem:a01e8908c9ff42e3510168251a97f1d48" id="r_a01e8908c9ff42e3510168251a97f1d48"><td class="memTemplParams" colspan="2">template&lt;typename Getter, typename Setter&gt; </td></tr>
-<tr class="memitem:a01e8908c9ff42e3510168251a97f1d48 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01e8908c9ff42e3510168251a97f1d48">Checkbox</a> (const char *label, Getter get, Setter set)</td></tr>
-<tr class="memdesc:a01e8908c9ff42e3510168251a97f1d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw check-box that takes initial value from Getter and then saves the final value in Setter  <br /></td></tr>
+<tr class="memitem:aedd1acb8b145f8bfe1b425864ef792bd" id="r_aedd1acb8b145f8bfe1b425864ef792bd"><td class="memTemplParams" colspan="2">template&lt;typename GetValueFunc, typename SetValueFunc&gt; </td></tr>
+<tr class="memitem:aedd1acb8b145f8bfe1b425864ef792bd template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedd1acb8b145f8bfe1b425864ef792bd">Checkbox</a> (const char *label, GetValueFunc getValue, SetValueFunc setValue)</td></tr>
+<tr class="memdesc:aedd1acb8b145f8bfe1b425864ef792bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw check-box that takes initial value from Getter and then saves the final value in Setter  <br /></td></tr>
 <tr class="memitem:a771e5316396acbc0376d96adf2808c6a" id="r_a771e5316396acbc0376d96adf2808c6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a771e5316396acbc0376d96adf2808c6a">PlotCustomHistogram</a> (const char *str_id, std::function&lt; float(int idx)&gt; values_getter, std::function&lt; void(int idx)&gt; tooltip, std::function&lt; void(int idx)&gt; on_click, int values_count, int values_offset=0, float scale_min=FLT_MAX, float scale_max=FLT_MAX, ImVec2 frame_size=ImVec2(0, 0), int selectedBarId=-1, int hoveredBarId=-1, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridIndexes={}, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridValues={})</td></tr>
 <tr class="memitem:a216fbde95017cbd4e591842b3530da81" id="r_a216fbde95017cbd4e591842b3530da81"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a216fbde95017cbd4e591842b3530da81">BeginStatePlugin</a> (const char *label, bool *open, float width)</td></tr>
 <tr class="memdesc:a216fbde95017cbd4e591842b3530da81"><td class="mdescLeft">&#160;</td><td class="mdescRight">begin typical state plugin window  <br /></td></tr>
@@ -410,13 +410,13 @@ values are bits </p>
 
 </div>
 </div>
-<a id="a01e8908c9ff42e3510168251a97f1d48" name="a01e8908c9ff42e3510168251a97f1d48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01e8908c9ff42e3510168251a97f1d48">&#9670;&#160;</a></span>Checkbox()</h2>
+<a id="aedd1acb8b145f8bfe1b425864ef792bd" name="aedd1acb8b145f8bfe1b425864ef792bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedd1acb8b145f8bfe1b425864ef792bd">&#9670;&#160;</a></span>Checkbox()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Getter, typename Setter&gt; </div>
+template&lt;typename GetValueFunc, typename SetValueFunc&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -429,12 +429,12 @@ template&lt;typename Getter, typename Setter&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Getter</td>          <td class="paramname"><span class="paramname"><em>get</em></span>, </td>
+          <td class="paramtype">GetValueFunc</td>          <td class="paramname"><span class="paramname"><em>getValue</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Setter</td>          <td class="paramname"><span class="paramname"><em>set</em></span>&#160;)</td>
+          <td class="paramtype">SetValueFunc</td>          <td class="paramname"><span class="paramname"><em>setValue</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -482,8 +482,8 @@ template&lt;typename Getter, typename Setter&gt; </div>
 
 </div>
 </div>
-<a id="a023d8107acf5b52a1594c2b935b824f0" name="a023d8107acf5b52a1594c2b935b824f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a023d8107acf5b52a1594c2b935b824f0">&#9670;&#160;</a></span>Combo() <span class="overload">[2/2]</span></h2>
+<a id="a93fa3e9de8b15c2e3485a85ddd0dba44" name="a93fa3e9de8b15c2e3485a85ddd0dba44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93fa3e9de8b15c2e3485a85ddd0dba44">&#9670;&#160;</a></span>Combo() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,7 +509,7 @@ template&lt;typename Getter, typename Setter&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>items_count</em></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>itemsCount</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

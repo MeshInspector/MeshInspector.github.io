@@ -56,8 +56,10 @@
       <member refid="group__GeneralGroup_1gacf842eeab6f61509ea0e8b7baa6fbd6e" kind="function"><name>setCustomContextCheckbox</name></member>
       <member refid="group__GeneralGroup_1ga1ead9bda756b557c004a8b3048fc882c" kind="function"><name>init</name></member>
       <member refid="group__GeneralGroup_1gaa2b191015aac7b3611b346cdf5ab0af4" kind="function"><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gaa6d1d3e8affb38a83e3f44dd7818ca26" kind="function"><name>drawViewerWindow</name></member>
+      <member refid="group__GeneralGroup_1ga3292874b57403af8b70a912b87c679bb" kind="function"><name>drawAdditionalWindows</name></member>
       <member refid="group__GeneralGroup_1gaa53e64c72d19a7d83cf283c1afa19ea5" kind="function"><name>openToolbarCustomize</name></member>
-      <member refid="group__GeneralGroup_1ga4f65d408f2f4b867d953c8324327c9e8" kind="function"><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1gaae3910a0538b9978a4668e271edfdf80" kind="function"><name>loadFonts</name></member>
       <member refid="group__GeneralGroup_1gaa47b83575812fc451ecfc3864d2c8c8e" kind="function"><name>getMenuFontPath</name></member>
       <member refid="group__GeneralGroup_1gaeebde1d020087242b532c4e5039ff6fe" kind="function"><name>pinTopPanel</name></member>
       <member refid="group__GeneralGroup_1ga260a69349ba71f6fee2f68e759fe1a95" kind="function"><name>isTopPannelPinned</name></member>
@@ -271,7 +273,7 @@
         <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="312"/>
+    <location file="MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="316"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
       <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>
@@ -291,9 +293,6 @@
       <member refid="group__GeneralGroup_1ga429be394132a4217f60fe095ef658829" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>blockingHighlightTimer_</name></member>
       <member refid="group__GeneralGroup_1gaeda8867e04b01d5338a6eda930065060" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>buttonDrawer_</name></member>
       <member refid="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>calcSelectedTypesMask</name></member>
-      <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_custom_window</name></member>
-      <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_menu</name></member>
-      <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_window</name></member>
       <member refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>capturedMouse_</name></member>
       <member refid="group__GeneralGroup_1gae0bfe34e5c35fc0de2da68e440ccc904" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>changeTab_</name></member>
       <member refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>checkPossibilityObjectRemoval</name></member>
@@ -322,6 +321,7 @@
       <member refid="group__GeneralGroup_1gaaddcc865ad29d261b66c0e67f27afa8b" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawActiveList_</name></member>
       <member refid="group__GeneralGroup_1ga3e72e870d1d2b7b308bcc94655f1c4b1" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveListButton_</name></member>
       <member refid="group__GeneralGroup_1ga618b5720b99617d0c2b16bc74af52f59" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveNonBlockingDialogs_</name></member>
+      <member refid="group__GeneralGroup_1ga3292874b57403af8b70a912b87c679bb" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawAdditionalWindows</name></member>
       <member refid="group__GeneralGroup_1ga696222ece2d12338ac7925bf5ba31001" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawAdvancedOptions</name></member>
       <member refid="group__GeneralGroup_1ga8847593f96b03320cb7aa6238bd80840" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawBigButtonItem_</name></member>
       <member refid="group__GeneralGroup_1gac152da8bac9875d752a7d081e66ebc44" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCloneButton</name></member>
@@ -343,6 +343,7 @@
       <member refid="group__GeneralGroup_1gaf68270516c99906cb35ed45c977fd2cd" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHelpButton_</name></member>
       <member refid="group__GeneralGroup_1ga119617e36f901716754f5ab0ed69d477" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemDialog_</name></member>
       <member refid="group__GeneralGroup_1ga3950b826a8f691b3eff7774404b542fe" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemsGroup_</name></member>
+      <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawLabelsWindow</name></member>
       <member refid="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMergeSubtreeButton</name></member>
       <member refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawModalMessage_</name></member>
       <member refid="group__GeneralGroup_1ga7f1b5f4fa4b7b3a7fd3b7db9d719c06e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawNotifications_</name></member>
@@ -365,6 +366,8 @@
       <member refid="group__GeneralGroup_1ga74de55fb9baffb8d206a32782cf194b2" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanelOpened_</name></member>
       <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTransform_</name></member>
       <member refid="group__GeneralGroup_1ga41939a653321459fbe74ca2681d1018b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gaa6d1d3e8affb38a83e3f44dd7818ca26" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawViewerWindow</name></member>
+      <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawViewerWindowContent</name></member>
       <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObject_</name></member>
       <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObjectOldXf_</name></member>
       <member refid="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>enableSavedDialogPositions</name></member>
@@ -399,7 +402,8 @@
       <member refid="group__GeneralGroup_1ga42ad9dbceb71795dfcc7faec3a4fada5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasActiveBlockingItem</name></member>
       <member refid="group__GeneralGroup_1ga031930c9c0f444b92a9252828cfa3ef4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasAnyActiveItem</name></member>
       <member refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling</name></member>
-      <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling_</name></member>
+      <member refid="group__GeneralGroup_1gae9fc19a3d0dfc7dc14ef2298ee9fe415" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpiScale_</name></member>
+      <member refid="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpiScaling</name></member>
       <member refid="group__GeneralGroup_1gadc2e6d783287314d50bb22f9faf7ef19" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>highlightBlocking_</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Horizontal</name></member>
       <member refid="group__GeneralGroup_1gab3558b78d7b0ae1292fb5aee66287285" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>informationHeight_</name></member>
@@ -411,7 +415,8 @@
       <member refid="group__GeneralGroup_1ga260a69349ba71f6fee2f68e759fe1a95" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>isTopPannelPinned</name></member>
       <member refid="group__GeneralGroup_1ga8aae0d64e5c1c2cbcc6a5872cb4ef398" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>itemPressed_</name></member>
       <member refid="group__GeneralGroup_1gae809764ef8ca8203ef9f26e34abb2c2f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>lastRenameObj_</name></member>
-      <member refid="group__GeneralGroup_1ga4f65d408f2f4b867d953c8324327c9e8" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1gaae3910a0538b9978a4668e271edfdf80" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>loadFonts</name></member>
       <member refid="group__GeneralGroup_1ga96f0bc9450fbe39ac5e90abcbc52c36a" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Local</name></member>
       <member refid="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowPos_</name></member>
       <member refid="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowSize_</name></member>
@@ -422,6 +427,7 @@
       <member refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_visualize_checkbox</name></member>
       <member refid="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_width</name></member>
       <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menu_scaling</name></member>
+      <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuScaling</name></member>
       <member refid="group__GeneralGroup_1ga031dbe6db3d3a3fb49fae05710bc724a" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuUIConfig_</name></member>
       <member refid="group__GeneralGroup_1gafea5ae3d33013ab15abbe5747b71e139" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modalMessageType_</name></member>
       <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modifiers_</name></member>
@@ -445,7 +451,8 @@
       <member refid="group__GeneralGroup_1ga7490e418a373fbd6573c352908bfdad1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Pinned</name></member>
       <member refid="group__GeneralGroup_1gaeebde1d020087242b532c4e5039ff6fe" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>pinTopPanel</name></member>
       <member refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio</name></member>
-      <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio_</name></member>
+      <member refid="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixelRatio</name></member>
+      <member refid="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixelRatio_</name></member>
       <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pollEventsInPreDraw</name></member>
       <member refid="group__GeneralGroup_1ga43c1faf504ab05faff5dd7aadbf0ce81" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>popUpRenameBuffer_</name></member>
       <member refid="group__GeneralGroup_1ga3aee721bfe74d1d6bc9cb7bfae13d907" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postFocus_</name></member>
@@ -457,7 +464,8 @@
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Quad</name></member>
       <member refid="group__GeneralGroup_1gad39ad3ddc0ea7d5a0753e66b37c8a6e7" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>readMenuItemsStructure_</name></member>
       <member refid="group__GeneralGroup_1gafb270d8d6ed8c41e735740d40eb5c8d7" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>readQuickAccessList</name></member>
-      <member refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reloadFonts</name></member>
       <member refid="group__GeneralGroup_1gae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>renameBuffer_</name></member>
       <member refid="group__GeneralGroup_1gae165bd076813c61b66a4d1267c0fbfb4" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>rescaleStyle_</name></member>
       <member refid="group__GeneralGroup_1ga2a9de68af1c15d0b4232e87558407471" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>resetQuickAccessList</name></member>
@@ -529,6 +537,7 @@
       <member refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uiRenderManager_</name></member>
       <member refid="group__GeneralGroup_1gafd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uniformScale_</name></member>
       <member refid="group__GeneralGroup_1gaaec9315cca701ab9b19f7b0a91be57cc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>updateItemStatus</name></member>
+      <member refid="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>updateScaling</name></member>
       <member refid="group__GeneralGroup_1ga11d89540be0b93979eb3a149d3b93561" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>updateTopPanelSize_</name></member>
       <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>userScaling_</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Vertical</name></member>

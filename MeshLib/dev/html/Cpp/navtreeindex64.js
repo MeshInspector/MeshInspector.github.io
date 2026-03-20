@@ -1,5 +1,14 @@
 var NAVTREEINDEX64 =
 {
+"structMR_1_1PreciseVertCoords2.html":[6,0,0,20,438],
+"structMR_1_1ProgressInterrupter.html":[6,0,0,20,853],
+"structMR_1_1ProjectAttributeParams.html":[6,0,0,20,445],
+"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,47],
+"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,0,20,513],
+"structMR_1_1PythonFunctionAdder.html":[6,0,0,20,514],
+"structMR_1_1QuadraticForm.html":[6,0,0,0,20],
+"structMR_1_1QuadraticForm.html":[6,0,0,20,446],
+"structMR_1_1Quaternion.html":[6,0,0,0,21],
 "structMR_1_1Quaternion.html":[6,0,0,20,447],
 "structMR_1_1RangeSize.html":[6,0,0,20,826],
 "structMR_1_1RawTiffOutput.html":[6,0,0,20,483],
@@ -240,14 +249,5 @@ var NAVTREEINDEX64 =
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[6,0,1,0,1,45,0,5],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a5ce3e11baf70433c7c9e34e49be985f4":[6,0,2,0,2,28,0,5],
 "structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,1,0,1,45,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,2,0,2,28,0,4],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,1,0,1,45,0,3],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,2,0,2,28,0,3],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,1,0,1,45,0,1],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,2,0,2,28,0,1],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,1,0,1,45,0,0],
-"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,2,0,2,28,0,0],
-"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,45,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,28,1],
-"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,1,0,1,45,1,5]
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#a70e5a14562ca242e53474e9e75df8ed6":[6,0,2,0,2,28,0,4]
 };

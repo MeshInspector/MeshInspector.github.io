@@ -1,5 +1,14 @@
 var NAVTREEINDEX65 =
 {
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,1,0,1,45,0,3],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#aa4096d06a760a77f660c2c171d029b18":[6,0,2,0,2,28,0,3],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,1,0,1,45,0,1],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#ae5bad17915c09a1143471d69b34a3436":[6,0,2,0,2,28,0,1],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,1,0,1,45,0,0],
+"structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html#af10835a24d386208aebf0562ee285ddd":[6,0,2,0,2,28,0,0],
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,1,0,1,45,1],
+"structMR_1_1TriangulationHelpers_1_1Settings.html":[6,0,2,0,2,28,1],
+"structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,1,0,1,45,1,5],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a04d78b046a3cb5a0456ca15052617648":[6,0,2,0,2,28,1,5],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,1,0,1,45,1,3],
 "structMR_1_1TriangulationHelpers_1_1Settings.html#a341b31c3cef2ea814252e40a6dfbc8aa":[6,0,2,0,2,28,1,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX65 =
 "structMR_1_1Viewport_1_1LinePointImmediateRenderParams.html":[6,0,0,20,784],
 "structMR_1_1Viewport_1_1Parameters.html":[6,0,0,20,787],
 "structMR_1_1Viewport_1_1PickRenderObjectParams.html":[6,0,0,20,786],
-"structMR_1_1Viewport_1_1TriCornerColors.html":[6,0,0,20,785],
-"structMR_1_1VisualObjectTag.html":[6,0,0,20,798],
-"structMR_1_1VolumeSegmentationParameters.html":[6,0,0,17,2,0],
-"structMR_1_1VolumeSegmentationParameters.html#aa059718068f7c4b81e33e2a1a3e7460c":[6,0,0,17,2,0,2],
-"structMR_1_1VolumeSegmentationParameters.html#ab07494ac7f1627ecc2dfce39e9502118":[6,0,0,17,2,0,1],
-"structMR_1_1VolumeSegmentationParameters.html#af000ea80a099a9de6d4f4f4475580b6c":[6,0,0,17,2,0,0],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,17,5],
-"structMR_1_1VolumeToMeshByPartsSettings.html":[6,0,0,20,857],
-"structMR_1_1VoxelLocation.html":[6,0,0,17,0,0],
-"structMR_1_1VoxelMetricParameters.html":[6,0,0,17,3,0]
+"structMR_1_1Viewport_1_1TriCornerColors.html":[6,0,0,20,785]
 };

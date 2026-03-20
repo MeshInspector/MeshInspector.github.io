@@ -1,5 +1,14 @@
 var NAVTREEINDEX63 =
 {
+"structMR_1_1Nesting_1_1Nesting3mfParams.html":[6,0,0,20,84],
+"structMR_1_1Nesting_1_1NestingBaseParams.html":[6,0,0,20,359],
+"structMR_1_1Nesting_1_1NestingResult.html":[6,0,0,20,357],
+"structMR_1_1Nesting_1_1TetrisDensifyOptions.html":[6,0,0,20,841],
+"structMR_1_1Nesting_1_1TetrisDensifyParams.html":[6,0,0,20,842],
+"structMR_1_1NewEdgesMap.html":[6,0,0,8,2],
+"structMR_1_1NewEdgesMap.html":[6,0,0,20,167],
+"structMR_1_1NoCtor.html":[6,0,0,20,124],
+"structMR_1_1NoCtor_3_01T_01_4.html":[6,0,0,20,125],
 "structMR_1_1NoDefInit.html":[6,0,0,20,360],
 "structMR_1_1NoInit.html":[6,0,0,20,322],
 "structMR_1_1NoModelCheck.html":[6,0,0,20,677],
@@ -240,14 +249,5 @@ var NAVTREEINDEX63 =
 "structMR_1_1PrecipitationSimulator_1_1SimulationStep.html":[6,0,0,20,436],
 "structMR_1_1PreciseVertCoord.html":[6,0,0,0,19],
 "structMR_1_1PreciseVertCoord.html":[6,0,0,20,437],
-"structMR_1_1PreciseVertCoords.html":[6,0,0,20,441],
-"structMR_1_1PreciseVertCoords2.html":[6,0,0,20,438],
-"structMR_1_1ProgressInterrupter.html":[6,0,0,20,853],
-"structMR_1_1ProjectAttributeParams.html":[6,0,0,20,445],
-"structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface.html":[6,0,0,20,47],
-"structMR_1_1PythonExport_1_1ModuleData.html":[6,0,0,20,513],
-"structMR_1_1PythonFunctionAdder.html":[6,0,0,20,514],
-"structMR_1_1QuadraticForm.html":[6,0,0,0,20],
-"structMR_1_1QuadraticForm.html":[6,0,0,20,446],
-"structMR_1_1Quaternion.html":[6,0,0,0,21]
+"structMR_1_1PreciseVertCoords.html":[6,0,0,20,441]
 };

@@ -23,8 +23,8 @@
       <member refid="group__GeneralGroup_1gac44f35ba294720f66649f73207acd81d" kind="typedef"><name>ImGuiMenuMultiListener</name></member>
     </sectiondef>
     <sectiondef kind="protected-attrib">
-      <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" kind="variable"><name>hidpi_scaling_</name></member>
-      <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" kind="variable"><name>pixel_ratio_</name></member>
+      <member refid="group__GeneralGroup_1gae9fc19a3d0dfc7dc14ef2298ee9fe415" kind="variable"><name>hidpiScale_</name></member>
+      <member refid="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" kind="variable"><name>pixelRatio_</name></member>
       <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
       <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
       <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
@@ -70,9 +70,6 @@
       <member refid="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" kind="variable"><name>sceneObjectsList_</name></member>
     </sectiondef>
     <sectiondef kind="public-attrib">
-      <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" kind="variable"><name>callback_draw_viewer_window</name></member>
-      <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" kind="variable"><name>callback_draw_viewer_menu</name></member>
-      <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" kind="variable"><name>callback_draw_custom_window</name></member>
       <member refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" kind="variable"><name>nameTagClickSignal</name></member>
       <member refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" kind="variable"><name>drawSceneUiSignal</name></member>
     </sectiondef>
@@ -123,17 +120,27 @@
       <member refid="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" kind="function"><name>initBackend</name></member>
       <member refid="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" kind="function"><name>startFrame</name></member>
       <member refid="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" kind="function"><name>finishFrame</name></member>
-      <member refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" kind="function"><name>load_font</name></member>
-      <member refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" kind="function"><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1ga10d1bd0e786d451e3b0835861f9837b6" kind="function"><name>loadFonts</name></member>
+      <member refid="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" kind="function"><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" kind="function"><name>reloadFonts</name></member>
+      <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" kind="function"><name>reload_font</name></member>
       <member refid="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" kind="function"><name>shutdown</name></member>
       <member refid="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" kind="function"><name>draw_menu</name></member>
       <member refid="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" kind="function"><name>draw_helpers</name></member>
+      <member refid="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" kind="function"><name>drawViewerWindow</name></member>
       <member refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" kind="function"><name>draw_viewer_window</name></member>
+      <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" kind="function"><name>drawViewerWindowContent</name></member>
+      <member refid="group__GeneralGroup_1ga87214e72ace01fd1dddf2981cb68653a" kind="function"><name>drawAdditionalWindows</name></member>
       <member refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" kind="function"><name>draw_custom_window</name></member>
-      <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
       <member refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" kind="function"><name>draw_text</name></member>
+      <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" kind="function"><name>drawLabelsWindow</name></member>
+      <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
+      <member refid="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" kind="function"><name>pixelRatio</name></member>
       <member refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" kind="function"><name>pixel_ratio</name></member>
+      <member refid="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" kind="function"><name>hidpiScaling</name></member>
       <member refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" kind="function"><name>hidpi_scaling</name></member>
+      <member refid="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" kind="function"><name>updateScaling</name></member>
+      <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" kind="function"><name>menuScaling</name></member>
       <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" kind="function"><name>menu_scaling</name></member>
       <member refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" kind="function"><name>getUserScaling</name></member>
       <member refid="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" kind="function"><name>setUserScaling</name></member>
@@ -263,7 +270,7 @@
         <link refid="classMR_1_1ViewportId"/>
       </node>
     </collaborationgraph>
-    <location file="MRViewer/ImGuiMenu.h" line="52" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="61" bodyend="438"/>
+    <location file="MRViewer/ImGuiMenu.h" line="44" column="1" bodyfile="MRViewer/ImGuiMenu.h" bodystart="53" bodyend="441"/>
     <listofallmembers>
       <member refid="group__GeneralGroup_1ga2839644d95083c59b3090076cb25f5b9" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>add_modifier</name></member>
       <member refid="group__GeneralGroup_1ga611b911703b3f2680587e49eae9cdafc" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>allowObjectsRemoval</name></member>
@@ -272,9 +279,6 @@
       <member refid="group__GeneralGroup_1gad2a64141eea7543d77763acf46e5674b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>anyImGuiWindowIsHovered</name></member>
       <member refid="group__GeneralGroup_1ga398dc624768fd545202eabec71edca08" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>anyUiObjectIsHovered</name></member>
       <member refid="group__GeneralGroup_1gacf0c50c3142b19530e99510238d76d9c" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>calcSelectedTypesMask</name></member>
-      <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>callback_draw_custom_window</name></member>
-      <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>callback_draw_viewer_menu</name></member>
-      <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>callback_draw_viewer_window</name></member>
       <member refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>capturedMouse_</name></member>
       <member refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>checkPossibilityObjectRemoval</name></member>
       <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>connect</name></member>
@@ -293,6 +297,7 @@
       <member refid="group__GeneralGroup_1gaba56047bcc1fbc1ffa7a44ab65955419" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>draw_selection_properties_content</name></member>
       <member refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>draw_text</name></member>
       <member refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>draw_viewer_window</name></member>
+      <member refid="group__GeneralGroup_1ga87214e72ace01fd1dddf2981cb68653a" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawAdditionalWindows</name></member>
       <member refid="group__GeneralGroup_1ga696222ece2d12338ac7925bf5ba31001" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawAdvancedOptions</name></member>
       <member refid="group__GeneralGroup_1gaa2f41574cc14aa82fc1fc29b98febd6c" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawCollapsingHeader_</name></member>
       <member refid="group__GeneralGroup_1ga6bec132133eebcf4d7ef25102a76fa39" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawCollapsingHeaderTransform_</name></member>
@@ -302,6 +307,7 @@
       <member refid="group__GeneralGroup_1ga781d285bb03ab1613b955b1ee6611097" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawDrawOptionsColors</name></member>
       <member refid="group__GeneralGroup_1gaa95362cbaedec95d47487198b49e72ee" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawFeaturePropertiesEditor_</name></member>
       <member refid="group__GeneralGroup_1ga0e8c9335d9129dab0ac3f428f4f9afe1" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawGeneralOptions</name></member>
+      <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawLabelsWindow</name></member>
       <member refid="group__GeneralGroup_1ga21152bd2815ab436059f46df9596c137" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawModalMessage_</name></member>
       <member refid="group__GeneralGroup_1gaa9ae19f72e7141f60d4bc7c556816678" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawRemoveButton</name></member>
       <member refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>DrawSceneUiSignal</name></member>
@@ -311,6 +317,8 @@
       <member refid="group__GeneralGroup_1ga67a662b0fa0e5169bae00962c8ba2675" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawTagInformation_</name></member>
       <member refid="group__GeneralGroup_1gaceee9d0917e938e62baa000eb367afae" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>drawTransform_</name></member>
       <member refid="group__GeneralGroup_1ga688017f6a29a7758add50c7070c2a9af" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawViewerWindow</name></member>
+      <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>drawViewerWindowContent</name></member>
       <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>editedFeatureObject_</name></member>
       <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>editedFeatureObjectOldXf_</name></member>
       <member refid="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>enableSavedDialogPositions</name></member>
@@ -328,7 +336,8 @@
       <member refid="group__GeneralGroup_1ga960994b2cf7ea83b62d0709572c3f591" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>getUiRenderManager</name></member>
       <member refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>getUserScaling</name></member>
       <member refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>hidpi_scaling</name></member>
-      <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>hidpi_scaling_</name></member>
+      <member refid="group__GeneralGroup_1gae9fc19a3d0dfc7dc14ef2298ee9fe415" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>hidpiScale_</name></member>
+      <member refid="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>hidpiScaling</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>Horizontal</name></member>
       <member refid="group__GeneralGroup_1gac44f35ba294720f66649f73207acd81d" prot="private" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>ImGuiMenuMultiListener</name></member>
       <member refid="group__GeneralGroup_1gaa7ee3e7a4a77594b927efba32415a464" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>init</name></member>
@@ -337,7 +346,8 @@
       <member refid="group__GeneralGroup_1ga44726097595253c81b8abae8fe5fe91f" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>invertedRotation_</name></member>
       <member refid="group__GeneralGroup_1ga3af61c19b91ea2126bb2ffdea304cba9" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>isSavedDialogPositionsEnabled</name></member>
       <member refid="group__GeneralGroup_1gae809764ef8ca8203ef9f26e34abb2c2f" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>lastRenameObj_</name></member>
-      <member refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1ga10d1bd0e786d451e3b0835861f9837b6" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>loadFonts</name></member>
       <member refid="group__GeneralGroup_1ga96f0bc9450fbe39ac5e90abcbc52c36a" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>Local</name></member>
       <member refid="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>mainWindowPos_</name></member>
       <member refid="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>mainWindowSize_</name></member>
@@ -348,6 +358,7 @@
       <member refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>make_visualize_checkbox</name></member>
       <member refid="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>make_width</name></member>
       <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>menu_scaling</name></member>
+      <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>menuScaling</name></member>
       <member refid="group__GeneralGroup_1gafea5ae3d33013ab15abbe5747b71e139" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>modalMessageType_</name></member>
       <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>modifiers_</name></member>
       <member refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>NameTagClickSignal</name></member>
@@ -364,7 +375,8 @@
       <member refid="group__GeneralGroup_1ga39593a74467c7f5657c1928ba29e9918" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>onMouseScroll_</name></member>
       <member refid="group__GeneralGroup_1gad8a6fa727b9d7376e1013da8fdd82ba1" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>onMouseUp_</name></member>
       <member refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>pixel_ratio</name></member>
-      <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>pixel_ratio_</name></member>
+      <member refid="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>pixelRatio</name></member>
+      <member refid="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>pixelRatio_</name></member>
       <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>pollEventsInPreDraw</name></member>
       <member refid="group__GeneralGroup_1ga43c1faf504ab05faff5dd7aadbf0ce81" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>popUpRenameBuffer_</name></member>
       <member refid="group__GeneralGroup_1ga3aee721bfe74d1d6bc9cb7bfae13d907" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>postFocus_</name></member>
@@ -372,7 +384,8 @@
       <member refid="group__GeneralGroup_1ga1a04f77dd9640baabc21151abbeb373a" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>postResize_</name></member>
       <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>prevFrameFocusPlugin_</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>Quad</name></member>
-      <member refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" prot="public" virt="virtual"><scope>MR::ImGuiMenu</scope><name>reloadFonts</name></member>
       <member refid="group__GeneralGroup_1gae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>renameBuffer_</name></member>
       <member refid="group__GeneralGroup_1gae165bd076813c61b66a4d1267c0fbfb4" prot="protected" virt="virtual"><scope>MR::ImGuiMenu</scope><name>rescaleStyle_</name></member>
       <member refid="group__GeneralGroup_1ga69ba22274265966f6ddc7eabf3eb78a9" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>savedDialogPositionEnabled_</name></member>
@@ -420,6 +433,7 @@
       <member refid="group__GeneralGroup_1ga46994fb4141726f726f8e903e0ebdd3b" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>tryRenameSelectedObject</name></member>
       <member refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>uiRenderManager_</name></member>
       <member refid="group__GeneralGroup_1gafd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>uniformScale_</name></member>
+      <member refid="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>updateScaling</name></member>
       <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>userScaling_</name></member>
       <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>Vertical</name></member>
       <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::ImGuiMenu</scope><name>viewer</name></member>

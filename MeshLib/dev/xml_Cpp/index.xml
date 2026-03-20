@@ -4210,8 +4210,8 @@
     <member refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" kind="typedef"><name>NameTagClickSignal</name></member>
     <member refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" kind="typedef"><name>DrawSceneUiSignal</name></member>
     <member refid="group__GeneralGroup_1gac44f35ba294720f66649f73207acd81d" kind="typedef"><name>ImGuiMenuMultiListener</name></member>
-    <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" kind="variable"><name>hidpi_scaling_</name></member>
-    <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" kind="variable"><name>pixel_ratio_</name></member>
+    <member refid="group__GeneralGroup_1gae9fc19a3d0dfc7dc14ef2298ee9fe415" kind="variable"><name>hidpiScale_</name></member>
+    <member refid="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" kind="variable"><name>pixelRatio_</name></member>
     <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
     <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
     <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
@@ -4255,9 +4255,6 @@
     <member refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" kind="variable"><name>capturedMouse_</name></member>
     <member refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" kind="variable"><name>uiRenderManager_</name></member>
     <member refid="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" kind="variable"><name>sceneObjectsList_</name></member>
-    <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" kind="variable"><name>callback_draw_viewer_window</name></member>
-    <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" kind="variable"><name>callback_draw_viewer_menu</name></member>
-    <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" kind="variable"><name>callback_draw_custom_window</name></member>
     <member refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" kind="variable"><name>nameTagClickSignal</name></member>
     <member refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" kind="variable"><name>drawSceneUiSignal</name></member>
     <member refid="group__GeneralGroup_1ga0a6f74cade696ca820545752cffe457c" kind="function"><name>setupShortcuts_</name></member>
@@ -4302,17 +4299,27 @@
     <member refid="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" kind="function"><name>initBackend</name></member>
     <member refid="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" kind="function"><name>startFrame</name></member>
     <member refid="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" kind="function"><name>finishFrame</name></member>
-    <member refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" kind="function"><name>load_font</name></member>
-    <member refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" kind="function"><name>reload_font</name></member>
+    <member refid="group__GeneralGroup_1ga10d1bd0e786d451e3b0835861f9837b6" kind="function"><name>loadFonts</name></member>
+    <member refid="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" kind="function"><name>load_font</name></member>
+    <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" kind="function"><name>reloadFonts</name></member>
+    <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" kind="function"><name>reload_font</name></member>
     <member refid="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" kind="function"><name>shutdown</name></member>
     <member refid="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" kind="function"><name>draw_menu</name></member>
     <member refid="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" kind="function"><name>draw_helpers</name></member>
+    <member refid="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" kind="function"><name>drawViewerWindow</name></member>
     <member refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" kind="function"><name>draw_viewer_window</name></member>
+    <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" kind="function"><name>drawViewerWindowContent</name></member>
+    <member refid="group__GeneralGroup_1ga87214e72ace01fd1dddf2981cb68653a" kind="function"><name>drawAdditionalWindows</name></member>
     <member refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" kind="function"><name>draw_custom_window</name></member>
-    <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
     <member refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" kind="function"><name>draw_text</name></member>
+    <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" kind="function"><name>drawLabelsWindow</name></member>
+    <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
+    <member refid="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" kind="function"><name>pixelRatio</name></member>
     <member refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" kind="function"><name>pixel_ratio</name></member>
+    <member refid="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" kind="function"><name>hidpiScaling</name></member>
     <member refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" kind="function"><name>hidpi_scaling</name></member>
+    <member refid="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" kind="function"><name>updateScaling</name></member>
+    <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" kind="function"><name>menuScaling</name></member>
     <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" kind="function"><name>menu_scaling</name></member>
     <member refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" kind="function"><name>getUserScaling</name></member>
     <member refid="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" kind="function"><name>setUserScaling</name></member>
@@ -9507,8 +9514,10 @@
     <member refid="group__GeneralGroup_1gacf842eeab6f61509ea0e8b7baa6fbd6e" kind="function"><name>setCustomContextCheckbox</name></member>
     <member refid="group__GeneralGroup_1ga1ead9bda756b557c004a8b3048fc882c" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaa2b191015aac7b3611b346cdf5ab0af4" kind="function"><name>shutdown</name></member>
+    <member refid="group__GeneralGroup_1gaa6d1d3e8affb38a83e3f44dd7818ca26" kind="function"><name>drawViewerWindow</name></member>
+    <member refid="group__GeneralGroup_1ga3292874b57403af8b70a912b87c679bb" kind="function"><name>drawAdditionalWindows</name></member>
     <member refid="group__GeneralGroup_1gaa53e64c72d19a7d83cf283c1afa19ea5" kind="function"><name>openToolbarCustomize</name></member>
-    <member refid="group__GeneralGroup_1ga4f65d408f2f4b867d953c8324327c9e8" kind="function"><name>load_font</name></member>
+    <member refid="group__GeneralGroup_1gaae3910a0538b9978a4668e271edfdf80" kind="function"><name>loadFonts</name></member>
     <member refid="group__GeneralGroup_1gaa47b83575812fc451ecfc3864d2c8c8e" kind="function"><name>getMenuFontPath</name></member>
     <member refid="group__GeneralGroup_1gaeebde1d020087242b532c4e5039ff6fe" kind="function"><name>pinTopPanel</name></member>
     <member refid="group__GeneralGroup_1ga260a69349ba71f6fee2f68e759fe1a95" kind="function"><name>isTopPannelPinned</name></member>
@@ -13322,8 +13331,9 @@
     <member refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754" kind="enumvalue"><name>None</name></member>
     <member refid="namespaceImGui_1a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" kind="enumvalue"><name>DisableVisibility</name></member>
     <member refid="namespaceImGui_1a60811991fd9baf2b2f86bd99efd4b741" kind="variable"><name>vector_getter</name></member>
+    <member refid="namespaceImGui_1a860a68e1f368e91b0af5cd49b87cd357" kind="function"><name>getVectorValue</name></member>
     <member refid="namespaceImGui_1ad58fef2244057ff2ad7eb1877f3b813a" kind="function"><name>Combo</name></member>
-    <member refid="namespaceImGui_1a023d8107acf5b52a1594c2b935b824f0" kind="function"><name>Combo</name></member>
+    <member refid="namespaceImGui_1a93fa3e9de8b15c2e3485a85ddd0dba44" kind="function"><name>Combo</name></member>
     <member refid="namespaceImGui_1a378834d8803566841b144ddf878ef623" kind="function"><name>ListBox</name></member>
     <member refid="namespaceImGui_1a392168d28bc4973532ead37f8061121e" kind="function"><name>InputText</name></member>
     <member refid="namespaceImGui_1a2d763b2a2f74c1b55cfcacf0b6ea826b" kind="function"><name>DragFloatValid</name></member>
@@ -13333,7 +13343,7 @@
     <member refid="namespaceImGui_1ac18c85601f8a2864d526058a981136c7" kind="function"><name>DragIntValid</name></member>
     <member refid="namespaceImGui_1af6959fc8a1517c4a64acd4afbbe721b6" kind="function"><name>DragIntValid3</name></member>
     <member refid="namespaceImGui_1a867aa01d47fba96fd27bffdb9ab8caef" kind="function"><name>InputIntValid</name></member>
-    <member refid="namespaceImGui_1a01e8908c9ff42e3510168251a97f1d48" kind="function"><name>Checkbox</name></member>
+    <member refid="namespaceImGui_1aedd1acb8b145f8bfe1b425864ef792bd" kind="function"><name>Checkbox</name></member>
     <member refid="namespaceImGui_1a771e5316396acbc0376d96adf2808c6a" kind="function"><name>PlotCustomHistogram</name></member>
     <member refid="namespaceImGui_1a216fbde95017cbd4e591842b3530da81" kind="function"><name>BeginStatePlugin</name></member>
     <member refid="namespaceImGui_1a471b8f48842ef21f90356a0070d33d1d" kind="function"><name>GetDownPosition</name></member>
@@ -22401,8 +22411,8 @@
     <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" kind="variable"><name>align</name></member>
     <member refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" kind="variable"><name>pathToFontFile</name></member>
     <member refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" kind="variable"><name>MaxGeneratedFontHeight</name></member>
-    <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" kind="variable"><name>hidpi_scaling_</name></member>
-    <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" kind="variable"><name>pixel_ratio_</name></member>
+    <member refid="group__GeneralGroup_1gae9fc19a3d0dfc7dc14ef2298ee9fe415" kind="variable"><name>hidpiScale_</name></member>
+    <member refid="group__GeneralGroup_1ga82ff9b55670fc260eb1bf910179964f5" kind="variable"><name>pixelRatio_</name></member>
     <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" kind="variable"><name>userScaling_</name></member>
     <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" kind="variable"><name>context_</name></member>
     <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" kind="variable"><name>prevFrameFocusPlugin_</name></member>
@@ -22452,9 +22462,6 @@
     <member refid="group__GeneralGroup_1gafa4ddd1abc45868c85e00d51ff1bee16" kind="variable"><name>tagEditorState_</name></member>
     <member refid="group__GeneralGroup_1gaf0b38f50d2a1f161806e3cdca4a7846c" kind="variable"><name>showEditTag_</name></member>
     <member refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" kind="variable"><name>tagNewName_</name></member>
-    <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" kind="variable"><name>callback_draw_viewer_window</name></member>
-    <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" kind="variable"><name>callback_draw_viewer_menu</name></member>
-    <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" kind="variable"><name>callback_draw_custom_window</name></member>
     <member refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" kind="variable"><name>nameTagClickSignal</name></member>
     <member refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" kind="variable"><name>drawSceneUiSignal</name></member>
     <member refid="group__GeneralGroup_1ga14e060dc9ad54344946cd90b6ff34e8a" kind="variable"><name>textColor</name></member>
@@ -27702,17 +27709,27 @@
     <member refid="group__GeneralGroup_1ga587478555bffc9440eae880bd0bcd307" kind="function"><name>initBackend</name></member>
     <member refid="group__GeneralGroup_1ga8b79c21599f784533ef4f70fddf1db36" kind="function"><name>startFrame</name></member>
     <member refid="group__GeneralGroup_1ga1bcd52f7eae916075af2a2ec8afedfba" kind="function"><name>finishFrame</name></member>
-    <member refid="group__GeneralGroup_1ga987aa20207af04e10d09704d8d29ffa0" kind="function"><name>load_font</name></member>
-    <member refid="group__GeneralGroup_1ga16ffa6e8181cdfe8e660a4fe516ce742" kind="function"><name>reload_font</name></member>
+    <member refid="group__GeneralGroup_1ga10d1bd0e786d451e3b0835861f9837b6" kind="function"><name>loadFonts</name></member>
+    <member refid="group__GeneralGroup_1gac9ab04a91a6ade403dc6c5e4535f4abe" kind="function"><name>load_font</name></member>
+    <member refid="group__GeneralGroup_1ga3609f3d347ee824caa8c8d626e3a3299" kind="function"><name>reloadFonts</name></member>
+    <member refid="group__GeneralGroup_1gaa9df52e10a99b7892ef0d0e36b86aef9" kind="function"><name>reload_font</name></member>
     <member refid="group__GeneralGroup_1gab240aaae96a293365717e78584688f4c" kind="function"><name>shutdown</name></member>
     <member refid="group__GeneralGroup_1gaeb3ade87e9a78c6336c999822aeae8c9" kind="function"><name>draw_menu</name></member>
     <member refid="group__GeneralGroup_1gab850436ff735a29b18d896606e0c11a4" kind="function"><name>draw_helpers</name></member>
+    <member refid="group__GeneralGroup_1gaad9c69dddc39d4febd3531d3ea252ab3" kind="function"><name>drawViewerWindow</name></member>
     <member refid="group__GeneralGroup_1ga9c1575b3cf19c1ecde39f680c9b2dccf" kind="function"><name>draw_viewer_window</name></member>
+    <member refid="group__GeneralGroup_1ga8f6ca8682ef4d9fffeccf9ed20fefd48" kind="function"><name>drawViewerWindowContent</name></member>
+    <member refid="group__GeneralGroup_1ga87214e72ace01fd1dddf2981cb68653a" kind="function"><name>drawAdditionalWindows</name></member>
     <member refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" kind="function"><name>draw_custom_window</name></member>
-    <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
     <member refid="group__GeneralGroup_1ga5087b56ea6ec8e7ad4e109376374c905" kind="function"><name>draw_text</name></member>
+    <member refid="group__GeneralGroup_1ga9ffd7c045d4a365468018e4b77ebcf28" kind="function"><name>drawLabelsWindow</name></member>
+    <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" kind="function"><name>draw_labels_window</name></member>
+    <member refid="group__GeneralGroup_1gad248425d3712e792741393518a2ed159" kind="function"><name>pixelRatio</name></member>
     <member refid="group__GeneralGroup_1ga2948aa68b67305e53a4b262de671eef1" kind="function"><name>pixel_ratio</name></member>
+    <member refid="group__GeneralGroup_1ga4e4537524051d9c7a417963dfd62d6be" kind="function"><name>hidpiScaling</name></member>
     <member refid="group__GeneralGroup_1gadc85b8e524e5fb7628fbb7cf5e7c372d" kind="function"><name>hidpi_scaling</name></member>
+    <member refid="group__GeneralGroup_1ga53fb99f080653c78f591db4173df202f" kind="function"><name>updateScaling</name></member>
+    <member refid="group__GeneralGroup_1gab3c93f6a675fe3bd4c9d3e738fe30173" kind="function"><name>menuScaling</name></member>
     <member refid="group__GeneralGroup_1ga3105940e039f7d437cd1e78335ec6cce" kind="function"><name>menu_scaling</name></member>
     <member refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" kind="function"><name>getUserScaling</name></member>
     <member refid="group__GeneralGroup_1gaafde25d3c36aa8b8ef7ed089de03c8dd" kind="function"><name>setUserScaling</name></member>
@@ -28706,8 +28723,10 @@
     <member refid="group__GeneralGroup_1gacf842eeab6f61509ea0e8b7baa6fbd6e" kind="function"><name>setCustomContextCheckbox</name></member>
     <member refid="group__GeneralGroup_1ga1ead9bda756b557c004a8b3048fc882c" kind="function"><name>init</name></member>
     <member refid="group__GeneralGroup_1gaa2b191015aac7b3611b346cdf5ab0af4" kind="function"><name>shutdown</name></member>
+    <member refid="group__GeneralGroup_1gaa6d1d3e8affb38a83e3f44dd7818ca26" kind="function"><name>drawViewerWindow</name></member>
+    <member refid="group__GeneralGroup_1ga3292874b57403af8b70a912b87c679bb" kind="function"><name>drawAdditionalWindows</name></member>
     <member refid="group__GeneralGroup_1gaa53e64c72d19a7d83cf283c1afa19ea5" kind="function"><name>openToolbarCustomize</name></member>
-    <member refid="group__GeneralGroup_1ga4f65d408f2f4b867d953c8324327c9e8" kind="function"><name>load_font</name></member>
+    <member refid="group__GeneralGroup_1gaae3910a0538b9978a4668e271edfdf80" kind="function"><name>loadFonts</name></member>
     <member refid="group__GeneralGroup_1gaa47b83575812fc451ecfc3864d2c8c8e" kind="function"><name>getMenuFontPath</name></member>
     <member refid="group__GeneralGroup_1gaeebde1d020087242b532c4e5039ff6fe" kind="function"><name>pinTopPanel</name></member>
     <member refid="group__GeneralGroup_1ga260a69349ba71f6fee2f68e759fe1a95" kind="function"><name>isTopPannelPinned</name></member>
