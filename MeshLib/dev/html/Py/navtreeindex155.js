@@ -1,5 +1,7 @@
 var NAVTREEINDEX155 =
 {
+"classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#afb584b3b951fcd91e90f5da8c5f3fa7f":[6,1,0,0,2,964,9],
+"classmrmeshpy_1_1std__vector__OffsetContoursOrigins.html#afb584b3b951fcd91e90f5da8c5f3fa7f":[6,1,1,0,1,964,9],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html":[6,1,0,0,2,965],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html":[6,1,1,0,1,965],
 "classmrmeshpy_1_1std__vector__OneMeshContour.html#a00e803ceb37abe7ba83822d7f77aaf89":[6,1,0,0,2,965,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX155 =
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#ab9e84e2135d1c3b713d67a0eaa3742cb":[6,1,0,0,2,969,12],
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#ab9e84e2135d1c3b713d67a0eaa3742cb":[6,1,1,0,1,969,12],
 "classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abd72de9085e01da25043c88df09d7665":[6,1,0,0,2,969,11],
-"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abd72de9085e01da25043c88df09d7665":[6,1,1,0,1,969,11],
-"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abf0f707482c8b0f37dd2355358c9a4d4":[6,1,0,0,2,969,2],
-"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abf0f707482c8b0f37dd2355358c9a4d4":[6,1,1,0,1,969,2]
+"classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats.html#abd72de9085e01da25043c88df09d7665":[6,1,1,0,1,969,11]
 };

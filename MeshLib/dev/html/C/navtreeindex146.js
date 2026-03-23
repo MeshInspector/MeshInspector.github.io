@@ -1,5 +1,6 @@
 var NAVTREEINDEX146 =
 {
+"std__optional__MR__VertCoords2_8h.html#ae54af133bb5369a2497c198781f94201":[6,2,1,0,0,0,0,2,226,5],
 "std__optional__MR__VertCoords2_8h.html#ae9355c4a830e3c4efc433ba3d390c299":[6,2,1,0,0,0,0,2,226,12],
 "std__optional__MR__VertCoords2_8h.html#aee8a4b904142512a6bb550335f0a57d5":[6,2,1,0,0,0,0,2,226,6],
 "std__optional__MR__VertCoords2_8h.html#af447f3b9c2c53f993cd3fcb217861ad4":[6,2,1,0,0,0,0,2,226,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX146 =
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html":[6,2,1,0,0,0,0,2,265],
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a06f0c3fa5abd2b8306e68a5ea2b0e15c":[6,2,1,0,0,0,0,2,265,0],
 "std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a1cf29484a05392101c096f8db4e012e6":[6,2,1,0,0,0,0,2,265,8],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a1d2d09360e2c637f4ac597734b2558cf":[6,2,1,0,0,0,0,2,265,3],
-"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a25da70d336c94a0dc22822f6b41c9c81":[6,2,1,0,0,0,0,2,265,6]
+"std__pair__MR__Polyline2__MR__AffineXf3f_8h.html#a1d2d09360e2c637f4ac597734b2558cf":[6,2,1,0,0,0,0,2,265,3]
 };

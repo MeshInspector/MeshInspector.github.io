@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"classmrmeshpy_1_1ToolPathResult.html#ab25afb8705c7fa2cced67277a84a208b":[6,1,0,0,2,1086,4],
+"classmrmeshpy_1_1ToolPathResult.html#ab25afb8705c7fa2cced67277a84a208b":[6,1,1,0,1,1086,4],
 "classmrmeshpy_1_1ToolPathResult.html#add87be9b4841f1037a44335ba9b35110":[6,1,0,0,2,1086,1],
 "classmrmeshpy_1_1ToolPathResult.html#add87be9b4841f1037a44335ba9b35110":[6,1,1,0,1,1086,1],
 "classmrmeshpy_1_1TransformVdbVolumeResult.html":[6,1,0,0,2,1088],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "classmrmeshpy_1_1TriTriDistanceParams__float.html#acc19842f6c0ab8f88550bb477488df60":[6,1,0,0,2,1102,2],
 "classmrmeshpy_1_1TriTriDistanceParams__float.html#acc19842f6c0ab8f88550bb477488df60":[6,1,1,0,1,1102,2],
 "classmrmeshpy_1_1TriTriDistanceParams__float.html#af528f46757d8b61c8ceb9c86b842a64b":[6,1,0,0,2,1102,0],
-"classmrmeshpy_1_1TriTriDistanceParams__float.html#af528f46757d8b61c8ceb9c86b842a64b":[6,1,1,0,1,1102,0],
-"classmrmeshpy_1_1TriTriDistanceResult__double.html":[6,1,0,0,2,1103],
-"classmrmeshpy_1_1TriTriDistanceResult__double.html":[6,1,1,0,1,1103]
+"classmrmeshpy_1_1TriTriDistanceParams__float.html#af528f46757d8b61c8ceb9c86b842a64b":[6,1,1,0,1,1102,0]
 };

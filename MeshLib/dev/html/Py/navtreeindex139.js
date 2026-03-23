@@ -1,5 +1,7 @@
 var NAVTREEINDEX139 =
 {
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,0,0,2,882,13],
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,1,0,1,882,13],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,0,0,2,882,11],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ae409c0b328db61754197b1a3bff6a10f":[6,1,1,0,1,882,11],
 "classmrmeshpy_1_1std__variant__Sphere__Vector3__float__Features__Primitives__ConeSegment__Features__Primitives__Plane.html":[6,1,0,0,2,883],
@@ -247,7 +249,5 @@ var NAVTREEINDEX139 =
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#ae9145843581a67f43094a5d78923f886":[6,1,0,0,2,892,11],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#ae9145843581a67f43094a5d78923f886":[6,1,1,0,1,892,11],
 "classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aeea4128fc726b6ef79d557672e3a26e8":[6,1,0,0,2,892,12],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aeea4128fc726b6ef79d557672e3a26e8":[6,1,1,0,1,892,12],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html":[6,1,0,0,2,893],
-"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box__Vector2__float.html":[6,1,1,0,1,893]
+"classmrmeshpy_1_1std__vector__AABBTreeNode__AABBTreeTraits__FaceTag__Box__Vector3__float.html#aeea4128fc726b6ef79d557672e3a26e8":[6,1,1,0,1,892,12]
 };

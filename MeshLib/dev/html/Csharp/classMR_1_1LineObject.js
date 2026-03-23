@@ -48,6 +48,7 @@ var classMR_1_1LineObject =
     [ "setName", "classMR_1_1LineObject.html#ab702e350aa84e22c26a5d3fea6e192b1", null ],
     [ "setParentLocked", "classMR_1_1LineObject.html#aaf80b1d06c35254cc4bf46f034bec76b", null ],
     [ "setPickable", "classMR_1_1LineObject.html#af4811eae438babb6936d048bcf752515", null ],
+    [ "setPoints", "classMR_1_1LineObject.html#a335f7399e41cad3ff42b36cf9d52f7ab", null ],
     [ "setPointSize", "classMR_1_1LineObject.html#aaae1083c21cef1c36434810b338f683e", null ],
     [ "setShininess", "classMR_1_1LineObject.html#acb150af4ff7f1d197c18c6036f47b0f9", null ],
     [ "setSpecularStrength", "classMR_1_1LineObject.html#a7a1f1d4ba2419adcc702f18ea71520e2", null ],

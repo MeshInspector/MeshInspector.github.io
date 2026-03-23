@@ -135,6 +135,7 @@ var MRLineObject_8h =
     [ "MR_LineObject_setName", "MRLineObject_8h.html#a82739b57875043372612bbe7e4e42e56", null ],
     [ "MR_LineObject_setParentLocked", "MRLineObject_8h.html#aaf2231d0c24e1d41ebd9e25dc4aae815", null ],
     [ "MR_LineObject_setPickable", "MRLineObject_8h.html#a888b92eb85484cb5e23a22c0e1255f60", null ],
+    [ "MR_LineObject_setPoints", "MRLineObject_8h.html#a56b7b1e7b47c6e30f46a08ed2b3a5c07", null ],
     [ "MR_LineObject_setPointSize", "MRLineObject_8h.html#a2033eee461f2ec86968f047f9a49896c", null ],
     [ "MR_LineObject_setShininess", "MRLineObject_8h.html#a6e48bce74c9f3622e9033c1939d4541f", null ],
     [ "MR_LineObject_setSpecularStrength", "MRLineObject_8h.html#a74d0ba189c992945c11ccfe4c224e505", null ],

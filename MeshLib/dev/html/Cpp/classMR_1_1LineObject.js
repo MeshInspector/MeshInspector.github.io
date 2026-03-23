@@ -23,7 +23,7 @@ var classMR_1_1LineObject =
     [ "setCenter", "group__GeneralGroup.html#ga925a1598967c03f50d550f6df6286645", null ],
     [ "setDirection", "group__GeneralGroup.html#gacb667c359411c9a5cb195eaee1b1be06", null ],
     [ "setLength", "group__GeneralGroup.html#ga227293affe504d3911f37d4c77319f0d", null ],
-    [ "setSize", "group__GeneralGroup.html#ga463d3b38a83cee2c72a654635bd9bb7e", null ],
+    [ "setPoints", "group__GeneralGroup.html#ga4a379997b422ad51057f4e960ff1a1c3", null ],
     [ "setupRenderObject_", "group__GeneralGroup.html#ga72804241322ea02f7478722b0946d26e", null ],
     [ "shallowClone", "group__GeneralGroup.html#ga6c366c2565abda1dde03fefcfb8a23bd", null ],
     [ "swapBase_", "group__GeneralGroup.html#gaee499ae9d9cc8e7c6128631a184c6a66", null ],

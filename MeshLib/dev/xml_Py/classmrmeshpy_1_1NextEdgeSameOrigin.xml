@@ -24,31 +24,6 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37810" bodyend="37811"/>
-      </memberdef>
-      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1a708bd95f04179092b8ed5ba41d7e28bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classmrmeshpy_1_1NextEdgeSameOrigin" kindref="compound">NextEdgeSameOrigin</ref></type>
-        <definition> NextEdgeSameOrigin mrmeshpy.NextEdgeSameOrigin.operator</definition>
-        <argsstring>(*args, **kwargs)</argsstring>
-        <name>operator</name>
-        <qualifiedname>mrmeshpy.NextEdgeSameOrigin.operator</qualifiedname>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32">operator</reimplementedby>
-        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a937f4d255cda6622d6be1aed35a41921">operator</reimplementedby>
-        <param>
-          <type>*</type>
-          <declname>args</declname>
-        </param>
-        <param>
-          <type>**</type>
-          <declname>kwargs</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37814" bodyend="37815"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1a708bd95f04179092b8ed5ba41d7e28bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -76,6 +51,31 @@
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37818" bodyend="37819"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1a708bd95f04179092b8ed5ba41d7e28bb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NextEdgeSameOrigin" kindref="compound">NextEdgeSameOrigin</ref></type>
+        <definition> NextEdgeSameOrigin mrmeshpy.NextEdgeSameOrigin.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NextEdgeSameOrigin.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1ae562b9a34d5e61a15e49a1ddce091d32">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RingIterator__NextEdgeSameOrigin_1a937f4d255cda6622d6be1aed35a41921">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37822" bodyend="37823"/>
+      </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1ad26bbad1ea7134e3635d3ab487d80ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
@@ -98,7 +98,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37821" bodyend="37822"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37825" bodyend="37826"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1a73f5b4cd8f951b3c5b3f2f8ba91ea89e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>None</type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37824" bodyend="37827"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37828" bodyend="37831"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1NextEdgeSameOrigin_1a338212481ed8e42c36e1a1eed31e497b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37828" bodyend="37829"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37832" bodyend="37833"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -165,7 +165,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37804" bodyend="37829"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37808" bodyend="37833"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1NextEdgeSameOrigin_1a56714ca3e659c6b2cd32b05cef844cb9" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameOrigin</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1NextEdgeSameOrigin_1ad26bbad1ea7134e3635d3ab487d80ba9" prot="public" virt="non-virtual"><scope>mrmeshpy::NextEdgeSameOrigin</scope><name>__init__</name></member>

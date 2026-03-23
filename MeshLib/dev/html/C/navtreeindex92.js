@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"MRRegularMapMesher_8h.html#afd046f39467d165798e314a5c8926fc9":[6,2,1,0,0,0,0,1,299,8],
 "MRRegularMapMesher_8h_source.html":[6,2,1,0,0,0,0,1,299],
 "MRRelaxParams_8h.html":[6,2,1,0,0,0,0,1,300],
 "MRRelaxParams_8h.html#a008ce749ed54dbf0dc8e9a0ad85bcb56":[6,2,1,0,0,0,0,1,300,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "MRSaveSettings_8h.html#aaa45e6b4e0b4fab635225dddb18427df":[6,2,1,0,0,0,0,1,305,53],
 "MRSaveSettings_8h.html#ab039da1838cab76672f19155b7c4d612":[6,2,1,0,0,0,0,1,305,42],
 "MRSaveSettings_8h.html#ab1272e89419b393a639872d10072d424":[6,2,1,0,0,0,0,1,305,26],
-"MRSaveSettings_8h.html#ab259ac36c15c7f8bf6731e5481b475be":[6,2,1,0,0,0,0,1,305,35],
-"MRSaveSettings_8h.html#ab50ac88332ba178116e74238fd660123":[6,2,1,0,0,0,0,1,305,22]
+"MRSaveSettings_8h.html#ab259ac36c15c7f8bf6731e5481b475be":[6,2,1,0,0,0,0,1,305,35]
 };

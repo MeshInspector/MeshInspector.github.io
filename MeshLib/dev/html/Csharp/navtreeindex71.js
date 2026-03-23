@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ac32410a7b781f846a344e5d5106fe3f7":[6,3,0,0,0,982,3,5],
 "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html#ae0543c4f8bc75bcc21d44d4c14646a1d":[6,3,0,0,0,982,3,1],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html":[6,3,0,0,0,982,4],
 "classMR_1_1VoxelsLoad_1_1RawParameters.html#a2b4d7f21a3f4c1b9ac6c1e0387fec668":[6,3,0,0,0,982,4,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "functions_func.html":[6,3,0,3,1,0],
 "functions_func_b.html":[6,3,0,3,1,1],
 "functions_func_c.html":[6,3,0,3,1,2],
-"functions_func_d.html":[6,3,0,3,1,3],
-"functions_func_e.html":[6,3,0,3,1,4]
+"functions_func_d.html":[6,3,0,3,1,3]
 };

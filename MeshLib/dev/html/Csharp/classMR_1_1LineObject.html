@@ -171,6 +171,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9b4dbf79b123f6167e756f7f29dc5200"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates xf to fit given center Generated from method <span class="tt"><a class="el" href="#a9b4dbf79b123f6167e756f7f29dc5200" title="updates xf to fit given center Generated from method MR.LineObject.setCenter. Parameter id defaults t...">MR.LineObject.setCenter</a></span>. Parameter <span class="tt">id</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:a49170dff1ce66d012acf77f0c40ddcc4" id="r_a49170dff1ce66d012acf77f0c40ddcc4"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49170dff1ce66d012acf77f0c40ddcc4">setLength</a> (float size, MR._InOpt_ViewportId id=default)</td></tr>
 <tr class="memdesc:a49170dff1ce66d012acf77f0c40ddcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates xf to scale size Generated from method <span class="tt"><a class="el" href="#a49170dff1ce66d012acf77f0c40ddcc4" title="updates xf to scale size Generated from method MR.LineObject.setLength. Parameter id defaults to {}...">MR.LineObject.setLength</a></span>. Parameter <span class="tt">id</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
+<tr class="memitem:a335f7399e41cad3ff42b36cf9d52f7ab" id="r_a335f7399e41cad3ff42b36cf9d52f7ab"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a335f7399e41cad3ff42b36cf9d52f7ab">setPoints</a> (in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> a, in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a> b, MR._InOpt_ViewportId id=default)</td></tr>
+<tr class="memdesc:a335f7399e41cad3ff42b36cf9d52f7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates xf for line visually to go from point a to point b Generated from method <span class="tt"><a class="el" href="#a335f7399e41cad3ff42b36cf9d52f7ab" title="updates xf for line visually to go from point a to point b Generated from method MR....">MR.LineObject.setPoints</a></span>. Parameter <span class="tt">id</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:ae6bd41893602545faa05b8114d8a03d9" id="r_ae6bd41893602545faa05b8114d8a03d9"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6bd41893602545faa05b8114d8a03d9">setXf</a> (in <a class="el" href="structMR_1_1AffineXf3f.html">MR.AffineXf3f</a> xf, MR._InOpt_ViewportId id=default)</td></tr>
 <tr class="memdesc:ae6bd41893602545faa05b8114d8a03d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <span class="tt"><a class="el" href="#ae6bd41893602545faa05b8114d8a03d9" title="Generated from method MR.LineObject.setXf. Parameter id defaults to {}.">MR.LineObject.setXf</a></span>. Parameter <span class="tt">id</span> defaults to <span class="tt">{}</span>.  <br /></td></tr>
 <tr class="memitem:afdf36e1a61709f2ef0c1da8ea0f553e8" id="r_afdf36e1a61709f2ef0c1da8ea0f553e8"><td class="memItemLeft" align="right" valign="top">unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afdf36e1a61709f2ef0c1da8ea0f553e8">resetXf</a> (MR._InOpt_ViewportId id=default)</td></tr>
@@ -1654,6 +1656,42 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <span class="tt"><a class="el" href="#af4811eae438babb6936d048bcf752515" title="sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method MR...">MR.LineObject.setPickable</a></span>. Parameter <span class="tt">viewportMask</span> defaults to <span class="tt">ViewportMask.all()</span>. </p>
+
+</div>
+</div>
+<a id="a335f7399e41cad3ff42b36cf9d52f7ab" name="a335f7399e41cad3ff42b36cf9d52f7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335f7399e41cad3ff42b36cf9d52f7ab">&#9670;&#160;</a></span>setPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe void MR.LineObject.setPoints </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3f.html">MR.Vector3f</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR._InOpt_ViewportId</td>          <td class="paramname"><span class="paramname"><em>id</em></span><span class="paramdefsep"> = </span><span class="paramdefval">default</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>updates xf for line visually to go from point a to point b Generated from method <span class="tt"><a class="el" href="#a335f7399e41cad3ff42b36cf9d52f7ab" title="updates xf for line visually to go from point a to point b Generated from method MR....">MR.LineObject.setPoints</a></span>. Parameter <span class="tt">id</span> defaults to <span class="tt">{}</span>. </p>
 
 </div>
 </div>

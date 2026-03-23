@@ -1,5 +1,7 @@
 var NAVTREEINDEX138 =
 {
+"classmrmeshpy_1_1std__optional__Vector3__float.html#a6f19bf614725968e129dc5a5dd5bc22e":[6,1,0,0,2,871,2],
+"classmrmeshpy_1_1std__optional__Vector3__float.html#a6f19bf614725968e129dc5a5dd5bc22e":[6,1,1,0,1,871,2],
 "classmrmeshpy_1_1std__optional__Vector3__float.html#a89c822546f4e060d881d57a17152b97e":[6,1,0,0,2,871,1],
 "classmrmeshpy_1_1std__optional__Vector3__float.html#a89c822546f4e060d881d57a17152b97e":[6,1,1,0,1,871,1],
 "classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag.html":[6,1,0,0,2,872],
@@ -247,7 +249,5 @@ var NAVTREEINDEX138 =
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ab508b35cc0296b6f3ac78fd6c90c7bca":[6,1,0,0,2,882,14],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ab508b35cc0296b6f3ac78fd6c90c7bca":[6,1,1,0,1,882,14],
 "classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad48f7293c8583cc0699f50295081b939":[6,1,0,0,2,882,7],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad48f7293c8583cc0699f50295081b939":[6,1,1,0,1,882,7],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,0,0,2,882,13],
-"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad7039f72985cce99f2fe4f64de506e4c":[6,1,1,0,1,882,13]
+"classmrmeshpy_1_1std__variant__Polynomial__float__0ul__Polynomial__float__1ul__Polynomial__float6d172424a64a8d1a395e20db43ad7e51.html#ad48f7293c8583cc0699f50295081b939":[6,1,1,0,1,882,7]
 };

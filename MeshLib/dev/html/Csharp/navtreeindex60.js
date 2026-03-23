@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"classMR_1_1TriTriDistanceParams__Double.html#ab870d9f1ff386802a3d03d8ef4dc232c":[6,3,0,0,0,848,2],
 "classMR_1_1TriTriDistanceParams__Double.html#abe36fa34853ae6a9de4b4ddda5d01f12":[6,3,0,0,0,848,3],
 "classMR_1_1TriTriDistanceParams__Float.html":[6,3,0,0,0,849],
 "classMR_1_1TriTriDistanceParams__Float.html#a3ad99615ee201e2fd1954d3f16da271f":[6,3,0,0,0,849,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "classMR_1_1UndirectedEdge2RegionMap.html#a00f5e0a4f435cdd9e369d846fc5ae758":[6,3,0,0,0,858,15],
 "classMR_1_1UndirectedEdge2RegionMap.html#a07ede41cf6460396fa3b7ad6e89295d1":[6,3,0,0,0,858,19],
 "classMR_1_1UndirectedEdge2RegionMap.html#a0cb85311f016255483b9e0d20fe0577b":[6,3,0,0,0,858,6],
-"classMR_1_1UndirectedEdge2RegionMap.html#a1d0d9fac7340fb50e74e50b0628532bc":[6,3,0,0,0,858,23],
-"classMR_1_1UndirectedEdge2RegionMap.html#a2d254f8550100a11476b0c8ab7bc569d":[6,3,0,0,0,858,17]
+"classMR_1_1UndirectedEdge2RegionMap.html#a1d0d9fac7340fb50e74e50b0628532bc":[6,3,0,0,0,858,23]
 };

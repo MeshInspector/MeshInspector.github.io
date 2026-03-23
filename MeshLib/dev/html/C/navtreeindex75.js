@@ -1,5 +1,6 @@
 var NAVTREEINDEX75 =
 {
+"MRObjectPointsHolder_8h.html#adac147fca22284c987f3c4853ede088e":[6,2,1,0,0,0,0,1,227,26],
 "MRObjectPointsHolder_8h.html#addfd0715c3e0ace49facee45eea6da2b":[6,2,1,0,0,0,0,1,227,24],
 "MRObjectPointsHolder_8h.html#ae2300817ee484729023053aa02a11fc3":[6,2,1,0,0,0,0,1,227,9],
 "MRObjectPointsHolder_8h.html#ae2cdc1a54cb0b7c0ceb43197be807686":[6,2,1,0,0,0,0,1,227,144],
@@ -248,6 +249,5 @@ var NAVTREEINDEX75 =
 "MRObjectVoxels_8h.html#a110aede1479f2f495f188ce229ad82ab":[6,2,1,0,0,0,0,4,14,37],
 "MRObjectVoxels_8h.html#a12bddccd34651e614c92109348a4427d":[6,2,1,0,0,0,0,4,14,42],
 "MRObjectVoxels_8h.html#a1399feb3b2df0010c99f25dca7c47ab6":[6,2,1,0,0,0,0,4,14,61],
-"MRObjectVoxels_8h.html#a14ae87d58046427ca90984c389b8e947":[6,2,1,0,0,0,0,4,14,11],
-"MRObjectVoxels_8h.html#a15719577281b2eb52cf6e6bb16d5ec66":[6,2,1,0,0,0,0,4,14,53]
+"MRObjectVoxels_8h.html#a14ae87d58046427ca90984c389b8e947":[6,2,1,0,0,0,0,4,14,11]
 };

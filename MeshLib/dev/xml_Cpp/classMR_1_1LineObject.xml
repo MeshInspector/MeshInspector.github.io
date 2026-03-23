@@ -20,11 +20,11 @@
       <member refid="group__GeneralGroup_1gacb667c359411c9a5cb195eaee1b1be06" kind="function"><name>setDirection</name></member>
       <member refid="group__GeneralGroup_1ga925a1598967c03f50d550f6df6286645" kind="function"><name>setCenter</name></member>
       <member refid="group__GeneralGroup_1ga227293affe504d3911f37d4c77319f0d" kind="function"><name>setLength</name></member>
+      <member refid="group__GeneralGroup_1ga4a379997b422ad51057f4e960ff1a1c3" kind="function"><name>setPoints</name></member>
       <member refid="group__GeneralGroup_1ga199b39a2a6865283fdc4b7b444062b0f" kind="function"><name>getLength</name></member>
       <member refid="group__GeneralGroup_1ga5871209f8592a33d72e97a5c3fc62854" kind="function"><name>getBasePoint</name></member>
       <member refid="group__GeneralGroup_1gafec4a9609028c5b07b4b03e564a739e5" kind="function"><name>getPointA</name></member>
       <member refid="group__GeneralGroup_1gad51d25240b9f4225f3b4b050775ac95d" kind="function"><name>getPointB</name></member>
-      <member refid="group__GeneralGroup_1ga463d3b38a83cee2c72a654635bd9bb7e" kind="function"><name>setSize</name></member>
       <member refid="group__GeneralGroup_1gaa8fccf94fbf2a235b6b4510c2a666fc6" kind="function"><name>projectPoint</name></member>
       <member refid="group__GeneralGroup_1ga4def5afbea220b7a2fcbcabdaf78a3b4" kind="function"><name>getAllSharedProperties</name></member>
     </sectiondef>
@@ -181,7 +181,7 @@
         <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
       </node>
     </collaborationgraph>
-    <location file="MRMesh/MRLineObject.h" line="15" column="1" bodyfile="MRMesh/MRLineObject.h" bodystart="16" bodyend="87"/>
+    <location file="MRMesh/MRLineObject.h" line="15" column="1" bodyfile="MRMesh/MRLineObject.h" bodystart="16" bodyend="91"/>
     <listofallmembers>
       <member refid="classMR_1_1Object_1a70527dd1c4774321881443957a2b92ff" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>addChild</name></member>
       <member refid="classMR_1_1Object_1ae30f613d85d6d94799acb68689ad5888" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>addChildBefore</name></member>
@@ -363,10 +363,10 @@
       <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setName</name></member>
       <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setParentLocked</name></member>
       <member refid="classMR_1_1VisualObject_1aa3e7f7bc3338336fb7978ac720bd690c" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setPickable</name></member>
+      <member refid="group__GeneralGroup_1ga4a379997b422ad51057f4e960ff1a1c3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setPoints</name></member>
       <member refid="group__GeneralGroup_1ga1caec023399b06b2d2ec06f84a872c6a" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setPointSize</name></member>
       <member refid="classMR_1_1Object_1ae255ade2b73c7c74b291f272f5073e73" prot="protected" virt="virtual"><scope>MR::LineObject</scope><name>setSharedModel_</name></member>
       <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setShininess</name></member>
-      <member refid="group__GeneralGroup_1ga463d3b38a83cee2c72a654635bd9bb7e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSize</name></member>
       <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setSpecularStrength</name></member>
       <member refid="group__GeneralGroup_1gab1839fdbfe0b948bccf3cdddf1ae1314" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setSubfeatureAlphaLines</name></member>
       <member refid="group__GeneralGroup_1ga193356fe757184c93dc16b249a71f0d0" prot="public" virt="virtual"><scope>MR::LineObject</scope><name>setSubfeatureAlphaMesh</name></member>

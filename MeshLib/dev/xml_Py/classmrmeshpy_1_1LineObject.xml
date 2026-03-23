@@ -451,6 +451,39 @@ the projection function simultaneously returns the normal to the surface at the 
         </inbodydescription>
         <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26046" bodyend="26049"/>
       </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1a90ac4ac2d3284689c8fdb48a9a41f71c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineObject.setPoints</definition>
+        <argsstring>(self, Vector3f a, Vector3f b, ViewportId id=...)</argsstring>
+        <name>setPoints</name>
+        <qualifiedname>mrmeshpy.LineObject.setPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf for line visually to go from point a to point b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26050" bodyend="26053"/>
+      </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1ae277cf72dcad1ae300fe560003afdf58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
         <definition> Object mrmeshpy.LineObject.shallowClone</definition>
@@ -471,7 +504,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26050" bodyend="26051"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26054" bodyend="26055"/>
       </memberdef>
       <memberdef kind="function" id="classmrmeshpy_1_1LineObject_1afa7d13e6a3c01fdbe0dd30dd27213202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>str</type>
@@ -490,7 +523,7 @@ making new object to share resources with this object
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26052" bodyend="26053"/>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26056" bodyend="26057"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -562,7 +595,7 @@ Object to show plane feature
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25978" bodyend="26053"/>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25978" bodyend="26057"/>
     <listofallmembers>
       <member refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>__init__</name></member>
       <member refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>__init__</name></member>
@@ -685,6 +718,7 @@ Object to show plane feature
       <member refid="classmrmeshpy_1_1Object_1a9c9747a45a791c65be899d3376c0b6ef" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setName</name></member>
       <member refid="classmrmeshpy_1_1Object_1aae28ca7af2e7903818a96c60d5959e07" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setParentLocked</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1LineObject_1a90ac4ac2d3284689c8fdb48a9a41f71c" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setPoints</name></member>
       <member refid="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setPointSize</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setShininess</name></member>
       <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::LineObject</scope><name>setSpecularStrength</name></member>

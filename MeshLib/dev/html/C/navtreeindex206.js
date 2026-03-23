@@ -1,5 +1,6 @@
 var NAVTREEINDEX206 =
 {
+"structMR__Color.html":[6,2,0,0,16],
 "structMR__Color.html#a04e09b02dd7c8077a3425ccfd38f3b07":[6,2,0,0,16,0],
 "structMR__Color.html#a5dea71edd69bdc81ca83d36580a3677b":[6,2,0,0,16,2],
 "structMR__Color.html#aa42eb9bb577b955386e4f8b1cc7e1f25":[6,2,0,0,16,3],
